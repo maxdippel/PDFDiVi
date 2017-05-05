@@ -1,0 +1,480 @@
+##source	0001/cond-mat0001223/condmat.tmp.tex
+Self-Consistent(18,22) Effective-Medium(18,39) Approximations(18,54) with(18,59) Path(18,64) Integrals(18,74)
+
+Introduction(51,21)
+
+Among(52,5) various(52,13) effective-medium(52,30) formulas(52,39) used(52,44) to(52,47) model(52,53) the(52,57) effective(52,67) behavior(53,8) of(53,11) random(53,18) conducting(53,29) linear(53,36) composites,(53,48) the(53,52) symmetrical(53,64) Bruggeman(54,9) formula(54,17) [\cite=BRUG35](54,23) [\cite=LAND52](54,23) is(54,41) undoubtly(54,51) the(54,55) most(54,60) popular.(55,8) Applied(55,16) to(55,19) an(55,22) insulator/conductor(55,42) binary(55,49) mixture,(55,58) it(55,61) predicts(55,70) a(56,1) percolation-like(56,18) transition(56,29) [\cite=KIRK71](56,35) [\cite=CLER90](56,35) [\cite=STAU92](56,35) [\cite=SAHI98](56,35) for(56,68) a(56,70) volumic(57,7) fraction(57,16) of(57,19) conductor(57,29) pc(57,31) =(57,31) 1(57,31) /(57,31) d,(57,31) where(57,46) d(57,48) is(57,53) the(57,57) space(57,63) dimension.(58,10) The(58,14) critical(58,23) exponents(58,33) are(58,37) s(58,39) =(58,39) t(58,39) =(58,39) 1,(58,39) and(58,50) its(58,54) critical(58,63) properties(58,74) are(59,3) thoroughly(59,14) discussed(59,24) in(59,27) Ref.(59,32) [\cite=CLER90].(59,32) This(59,53) formula(59,61) can(59,65) be(59,68) interpreted(60,11) in(60,14) two(60,18) ways.(60,24) On(60,27) one(60,31) hand,(60,37) Milton(60,44) has(60,48) shown(60,54) [\cite=MILT85](60,60) that(60,73) it(60,76) yields(61,6) the(61,10) exact(61,16) effective(61,26) conductivity(61,39) of(61,42) an(61,45) ad(61,53) hoc(61,57) ideal(61,64) medium(61,71) built(62,5) with(62,10) a(62,12) particular(62,23) hierarchical(62,36) structure.(62,47) On(62,50) the(62,54) other(62,60) hand,(62,66) the(62,70) Bruggeman(63,9) formula(63,17) can(63,21) be(63,24) seen(63,29) as(63,32) a(63,34) first(63,40) (one-body)(63,51) self-consistent(63,67) approximation(64,13) to(64,16) general(64,24) disordered(64,35) symmetric(64,45) cell-materials(64,60) [\cite=MILL69],(65,5) to(65,17) which(65,23) systematic(65,34) corrections(65,46) could(65,52) be(65,55) worked(65,62) out.(66,4) However,(66,13) the(66,17) Bruggeman(66,27) approximation(66,41) is(66,44) very(66,49) different(66,59) from(66,64) a(66,66) mean-field(67,10) theory(67,17) of(67,20) random(67,27) conducting(67,38) media.(67,45) Indeed,(67,53) an(67,56) exact(67,62) mean-field(68,10) calculation(68,22) on(68,25) the(68,29) Bethe(68,35) lattice(68,43) [\cite=STIN73](68,49) [\cite=STRA74](68,49) predicts(68,73) a(68,75) percolation(69,11) threshold(69,21) pc(69,23) ~(69,23) 1(69,23) /(69,23) (2d)(69,23) and(69,42) exponents(69,52) s(69,54) =(69,54) 0(69,54) and(69,62) t(70,1) =(70,1) 3.(70,1) These(70,12) exponents(70,22) are(70,26) exact(70,32) for(70,36) d(70,38) ≥(70,38) 6,(70,38) as(70,50) well(70,55) as(70,58) the(70,62) asymptotic(71,10) behavior(71,19) of(71,22) the(71,26) threshold(71,36) when(71,41) d(71,43) →(71,43) ∞(71,43) (at(71,58) least,(71,65) for(71,69) the(72,3) hypercubic(72,14) lattice(72,22) [\cite=STAU92](72,28) to(72,39) which(72,45) a(72,47) continuum(72,57) theory(72,64) naturally(73,9) compares(73,18) [\cite=NOTE1]).(73,24) These(73,39) values(73,46) are(73,50) also(73,55) obtained(73,64) in(73,67) a(73,69) more(74,4) systematic(74,15) mean-field(74,26) theory(74,33) for(74,37) random(74,44) resistor(74,53) networks(74,62) [\cite=STEP77].(75,5) The(76,3) remarkable(76,14) discrepancy(76,26) between(76,34) the(76,38) mean-field(76,49) results(76,57) and(76,61) Bruggeman's(77,11) formula(77,19) indicates(77,29) the(77,33) ambiguous(77,43) status(77,50) of(77,53) the(77,57) Bruggeman(77,67) theory.(78,7) As(78,10) a(78,12) matter(78,19) of(78,22) fact,(78,28) in(78,31) spite(78,37) of(78,40) various(78,48) (mostly(78,56) perturbative)(78,70) investigations(79,14) [\cite=HORI75](79,20) [\cite=BERG81](79,20) [\cite=LUCK91](79,20) in(79,45) order(79,51) to(79,54) precise(79,62) its(79,66) theoretical(80,11) status,(80,19) the(80,23) reasons(80,31) for(80,35) the(80,39) peculiar(80,48) critical(80,57) behavior(80,66) of(80,69) Bruggeman's(81,11) formula(81,19) are(81,23) not(81,27) completely(81,38) cleared(81,46) up.(81,50) More(82,4) surprisingly,(82,18) another(82,26) self-consistent(83,15) effective-medium(83,32) approximation(83,46) [\cite=HORI75](83,52) [\cite=HORI77](83,52) due(83,71) to(84,2) Hori(84,7) and(84,11) Yonezawa(84,20) (HY),(84,26) obtained(84,35) for(84,39) the(84,43) same(84,48) type(84,53) of(84,56) media(84,62) by(84,65) means(84,71) of(85,2) a(85,4) completely(85,15) different(85,25) approximation(85,39) scheme(85,46) (and(85,51) later(85,57) derived(85,65) by(85,68) functional(86,10) methods(86,18) [\cite=BART93]),(86,24) exhibits(86,43) the(86,47) same(86,52) exponents(86,62) s(86,64) =(86,64) t(86,64) =(86,64) 1(86,64) and(87,3) a(87,5) similar(87,13) threshold(87,23) behavior(87,32) pc(87,34) =(87,34) 1(87,34) -(87,34) exp(87,34) ((87,34) -(87,34) 1(87,34) /(87,34) d)(87,34) ~(87,34) 1(87,34) /(87,34) d.(87,34)
+
+Apart(89,5) from(89,10) phenomelogical(89,25) variants,(89,35) and(89,39) up(89,42) to(89,45) our(89,49) knowledge,(89,60) the(90,3) Bruggeman(90,13) and(90,17) HY(90,20) effective-medium(90,37) formulas(90,46) are(90,50) the(91,3) only(91,8) ones(91,13) obtained(91,22) from(91,27) the(91,31) equations(91,41) of(91,44) electrostatics(92,14) in(92,17) continuous(92,28) media(92,34) which(92,40) are(92,44) able(92,49) to(92,52) describe,(92,62) at(92,65) least(92,71) qualitatively,(93,14) the(93,18) overall(93,26) features(93,35) of(93,38) a(93,40) percolation(93,52) transition(93,63) in(93,66) any(93,70) dimension.(94,10) One(94,14) intriguing(94,25) question(94,34) concerns(94,43) the(94,47) possibility(94,59) of(94,62) deriving(94,71) alternative(95,11) effective-medium(95,28) formulas(95,37) from(95,42) a(95,44) continuum(95,54) formulation,(95,67) which(95,73) do(96,2) not(96,6) lead(96,11) to(96,14) the(96,18) seemingly(96,28) unavoidable(96,40) values(96,47) s(96,49) =(96,49) t(96,49) =(96,49) 1(96,49) and(96,59) pc(96,61) ~(96,61) 1(96,61) /(96,61) d.(96,61) As(97,8) we(97,11) show(97,16) in(97,19) this(97,24) paper,(97,31) such(97,36) a(97,38) possibility(97,50) exists.(97,58) Our(97,62) starting(97,71) point(98,5) is(98,8) the(98,12) path(98,17) integral(98,26) approach(98,35) recently(98,44) put(98,48) forward(98,56) by(98,59) Barthélémy(99,5) and(99,22) Orland[\cite=BART98],(99,29) where(99,49) the(99,53) effective-medium(99,70) problem(100,7) is(100,10) recast(100,17) in(100,20) a(100,22) functional(100,33) form.(100,39) The(100,43) problem(100,51) reduces(100,59) to(100,62) compute(101,7) a(101,9) free-energy:(101,22) roughly,(101,31) the(101,35) logarithm,(101,46) averaged(101,55) over(101,60) the(101,64) disorder,(102,9) of(102,12) a(102,14) functional(102,25) integral(102,34) of(102,37) Boltzmann-like(102,52) weights,(102,61) over(102,66) allowed(103,7) field(103,13) configurations(103,28) (which(103,35) include(103,43) boundary(103,52) conditions).(103,65) The(103,69) average(104,7) of(104,10) the(104,14) logarithm(104,24) is(104,27) carried(104,35) out(104,39) with(104,44) the(104,48) replica(104,56) method(104,63) (already(104,72) used(105,4) in(105,7) Ref.(105,12) [\cite=STEP77]).(105,12) In(105,32) Ref.(105,37) [\cite=BART98],(105,37) the(105,57) authors(105,65) showed(105,72) that(106,4) the(106,8) path(106,13) integral(106,22) formulation(106,34) allows(107,6) one(107,10) to(107,13) easily(107,20) recover(107,28) the(107,32) second-order(107,45) weak-disorder(108,13) expansion(108,23) of(108,26) the(108,30) effective(108,40) permittivity(108,53) of(108,56) nonlinear(108,66) composites(109,10) [\cite=BLUM91].(109,16)
+
+However,(111,8) this(111,13) formulation(111,25) has(112,3) not(112,7) yet(112,11) been(112,16) used(112,21) to(112,24) derive(112,31) self-consistent(112,47) estimates.(112,58) In(113,2) this(113,7) paper,(113,14) we(113,17) show(113,22) how(113,26) this(113,31) can(113,35) be(113,38) done.(113,44) After(114,5) a(114,7) presentation(114,20) of(114,23) the(114,27) functional(114,38) approach(114,47) to(114,50) the(114,54) homogeneization(114,70) problem,(115,8) and(115,12) of(115,15) the(115,19) replica(115,27) method(115,34) (Sec.(115,40) [\ref=pifotp]),(115,40) we(116,2) discuss(116,10) self-consistent(116,26) effective-medium(116,43) approximations(117,14) (Sec.(117,20) [\ref=posa]).(117,20) As(117,37) usual(117,43) in(118,2) such(118,7) approximations,(118,23) a(118,25) background(118,36) reference(118,46) medium(118,53) is(118,56) introduced(118,67) under(118,73) the(118,77) form(119,4) of(119,7) an(119,10) ansatz(119,17) for(119,21) the(119,25) energy(119,32) of(119,35) the(119,39) system,(119,47) whose(120,5) parameters(120,16) are(120,20) to(120,23) be(120,26) determined(121,10) self-consistently(121,28) (Sec.(121,34) [\ref=o]).(121,34) The(122,3) new(122,7) feature(122,15) here(122,20) is(122,23) that(122,28) the(122,32) ansatz(122,39) contains(123,8) a(123,10) replica-coupling(123,27) term,(123,33) whose(123,39) significance(123,52) is(123,55) explained(124,9) (Sec.(124,15) [\ref=rcacota]).(124,15) The(125,3) self-consistency(125,20) conditions(125,31) to(125,34) determine(125,44) its(125,48) parameters(125,59) are(126,3) next(126,8) discussed,(126,19) and(127,3) two(127,7) types(127,13) of(127,16) effective-medium(127,33) formulas(127,42) are(127,46) identified(127,57) (Sec.(127,63) [\ref=sc]):(127,63) one(128,3) in(128,6) which(128,12) the(128,16) replica(128,24) couplings(128,34) are(128,38) cancelled(128,48) (hereafter(129,10) referred(129,19) to(129,22) as(129,25) "type(129,32) 1"),(129,38) and(130,3) the(130,7) other(130,13) one(130,17) with(130,22) non-zero(130,31) replica(130,39) couplings(130,49) ("type(130,57) 2").(130,63) Two(131,3) different(131,13) approximations(131,28) are(131,32) then(131,37) worked(131,44) out(131,48) for(131,52) each(131,57) type(131,62) (Sec.(132,5) [\ref=tm]).(132,5) It(132,20) is(132,23) found(132,29) that(132,34) type(133,4) 1(133,6) generates(133,16) the(133,20) Bruggeman(133,30) and(133,34) HY(133,37) formulas,(133,47) whereas(134,7) type(134,12) 2(134,14) brings(134,21) in(134,24) two(134,28) new(134,32) effective-medium(134,49) formulas(134,58) which(134,64) are(135,3) "replica(135,13) coupling(135,22) counterparts"(135,37) of(135,40) the(135,44) previous(135,53) ones.(135,59) They(136,4) possess(136,12) exponents(136,22) s(136,24) =(136,24) 0,(136,24) t(136,31) =(136,31) 2,(136,31) and(136,40) a(137,1) threshold(137,11) pc(137,13) ~(137,13) 1(137,13) /(137,13) (2d)(137,13) (Sec.(137,34) [\ref=nef]).(137,34) These(138,5) new(138,9) formulas(138,18) are(138,22) discussed(138,32) in(138,35) Sec.(138,40) [\ref=d],(138,40) where(139,5) numerical(139,15) results(139,23) are(139,27) presented(139,37) before(140,6) we(140,9) conclude(140,18) in(140,21) Sec.(140,26) [\ref=c].(140,26)
+
+Path(142,13) integral(142,22) formulation(142,34) of(142,37) the(142,41) problem(142,49)
+
+The(144,3) effective(144,13) properties(144,24) of(144,27) a(144,29) random(144,36) conducting(145,10) medium(145,17) can(145,21) be(145,24) defined(145,32) with(145,37) the(145,41) help(145,46) of(145,49) the(145,53) total(146,5) dissipated(146,16) power(146,22) in(146,25) the(146,29) medium[\cite=WILL86](146,36) [\cite=SANC87](146,41) [\cite=PONT92b].(146,41) In(147,2) terms(147,8) of(147,11) the(147,15) electric(147,24) field(147,30) E(x),(148,1) the(148,11) dissipated(148,22) power(148,28) w(148,30) in(148,35) the(148,39) system(148,46) of(148,49) volume(148,56) V(148,58) reads(148,66)
+
+[formula](149,6)
+
+where(152,5) wx(152,7) is(152,14) the(152,18) local(152,24) power(152,30) density.(152,39)
+
+Hereafter,(154,15) we(154,18) take(154,23) the(154,27) volume(154,34) V(154,36) of(154,41) the(154,45) sample(154,52) equal(154,58) to(154,61) one.(154,65) In(154,70) heterogeneous(155,13) materials,(155,24) wx(155,26) depends(155,38) on(155,41) constitutive(155,54) parameters(156,10) randomly(156,19) varying(156,27) from(156,32) point(156,38) to(156,41) point.(156,48) For(156,52) linear(156,59) conducting(156,70) media(157,5) with(157,10) j(x)(157,12) =(157,12) σ(x)E(x),(157,12) where(157,38) σ(157,40) is(157,50) the(157,54) local(157,60) random(157,67) conductivity(158,12) and(158,16) j(158,18) is(158,23) the(158,27) electric(158,36) current,(158,45) we(158,48) have(158,53)
+
+[formula](159,6)
+
+In(163,2) the(163,6) analogous(163,16) effective(163,26) permittivity(164,12) problem(164,20) the(164,24) dissipated(164,35) power(164,41) is(164,44) replaced(164,53) by(164,56) the(164,60) stored(164,67) energy(165,6) ε(x)E2(x)(165,8) /(165,8) 2(165,8) (ε(165,33) is(165,49) the(165,53) permittivity).(166,14) For(166,18) this(166,23) reason,(166,31) we(166,34) shall(166,40) abusively(166,50) refer(166,56) to(166,59) wx(166,61) as(166,68) the(167,3) "energy(167,12) density"(167,22) hereafter.(167,33) In(167,36) the(167,40) nonlinear(167,50) problem,(167,59) wx(E)(167,61) is(168,2) a(168,4) non-quadratic(168,18) function(168,27) of(168,30) E.(168,32)
+
+An(170,2) alternative(170,14) to(170,17) solving(170,25) Maxwell's(170,35) equations(170,45) is(170,48) to(170,51) minimize(170,60) the(170,64) total(170,70) energy(171,6) W(171,8) subjected(171,20) to(171,23) the(171,27) two(171,31) constraints(171,43) [\cite=WILL86](171,49) [\cite=SANC87]:(171,49) (i)(171,69) [formula](171,71) and(171,90) (ii)(172,4) [formula];(172,6) here,(172,30) the(172,34) bar(172,38) stands(172,45) for(172,49) a(172,51) spatial(172,59) average,(172,68) and(173,3) E0(173,5) is(173,12) a(173,14) constant(173,23) applied(173,31) electric(173,40) field.(173,47) The(173,51) minimum,(174,8) [formula],(174,10) is(174,33) expected(174,42) to(174,45) be(174,48) self-averaging,(174,64) as(174,67) occurs(175,6) for(175,10) the(175,14) free-energy(175,26) in(175,29) disordered(175,40) systems.(175,49) We(175,52) can(175,56) therefore(175,66) write(175,72)
+
+[formula](176,6)
+
+where(180,5) the(180,9) brackets(180,18) 〈(180,20) ·(180,20) 〉(180,20) denote(180,47) the(180,51) disorder(180,60) average.(180,69) W*(E0)(181,1) is(181,13) the(181,17) energy(181,24) in(181,27) a(181,29) homogeneous(181,41) medium(181,48) characterized(182,13) by(182,16) an(182,19) effective(182,29) constitutive(183,12) law(183,16) [\cite=WILL86](183,22)
+
+[formula](184,6)
+
+The(189,3) second(189,10) equality(189,19) defines(189,27) the(189,31) effective(189,41) conductivity(189,54) of(189,57) the(189,61) medium.(189,69)
+
+The(191,3) problem(191,11) thus(191,16) reduces(191,24) to(191,27) computing(191,37) the(191,41) average(191,49) of(191,52) the(192,3) constrained(192,15) minimum(192,23) of(192,26) a(192,28) functional(192,39) of(192,42) the(192,46) electric(192,55) field.(192,62) The(192,66) electric(193,8) field(193,14) derives(193,22) from(193,27) a(193,29) potential(193,39) and(193,43) has(193,47) a(193,49) fixed(193,55) mean(193,60) value.(193,67) We(193,70) can(194,3) rewrite(194,11) the(194,15) constrained(194,27) minimum(194,35) in(194,38) ([\ref=mini])(194,40) using(194,57) a(194,59) path(194,64) integral(195,8)
+
+[formula](196,6)
+
+The(205,3) minimum(205,11) can(205,15) be(205,18) interpreted(205,30) as(205,33) the(205,37) ground(205,44) state(205,50) energy(205,57) associated(206,10) to(206,13) the(206,17) partition(206,27) function(206,36)
+
+[formula](207,6)
+
+where(212,5) we(212,8) have(212,13) used(212,18) the(212,22) shorthand(212,32) notation(212,41)
+
+[formula](213,6)
+
+for(217,3) the(217,7) constrained(217,19) functional(217,30) measure.(217,39) We(218,2) need(218,7) to(218,10) compute(218,18) the(218,22) average(218,30) of(218,33) the(218,37) logarithm(218,47) of(218,50) ([\ref=ZZ]).(218,52) In(218,65) order(218,71) to(219,2) proceed,(219,11) we(219,14) introduce(219,24) replicas(219,33) [\cite=EDWA75](219,39) [\cite=MEZA87](219,39) and(219,58) use(219,62) the(219,66) identity(219,75) [formula],(220,1) hence(221,64)
+
+[formula](222,6)
+
+The(229,3) limits(229,10) do(229,13) not(229,17) commute.(229,26) The(229,30) equivalent(229,41) form(229,46)
+
+[formula](230,6)
+
+can(234,3) be(234,6) used(234,11) as(234,14) well.(234,20) The(234,24) replica(234,32) method(234,39) relies(235,6) on(235,9) the(235,13) fact(235,18) that(235,23) one(235,27) can(235,31) easily(235,38) compute(235,46) the(236,3) replicated(236,14) partition(236,24) function(236,33) 〈Zn〉(237,1) for(237,24) n(237,26) integer,(237,37) and(237,41) subsequently(237,54) take(237,59) the(237,63) limit(237,69) n(238,1) →(238,1) 0.(238,1) The(238,21) main(238,26) quantity(238,35) of(238,38) interest(238,47) therefore(238,57) is(238,60)
+
+[formula](239,6)
+
+Denoting(246,8) the(246,12) replicated(246,23) measure(246,31) by(246,34) [formula],(247,1) the(248,31) average(248,39) 〈Zn〉(248,41) can(248,64) be(248,67) written(248,75) in(249,2) terms(249,8) of(249,11) an(249,14) "effective(249,26) Hamiltonian"(249,40)
+
+[formula](250,6)
+
+with(255,4)
+
+[formula](256,6)
+
+For(262,3) simplicity,(262,15) we(262,18) restrict(262,27) ourselves(262,37) to(262,40) cell(262,45) materials(262,55) where(262,61) the(262,65) local(262,71) properties(263,10) are(263,14) statistically(263,28) uncorrelated(263,41) from(263,46) site(263,51) to(263,54) site.(263,60) Volume(263,67) integrals(264,9) may(264,13) then(264,18) to(264,21) be(264,24) identified(264,35) with(264,40) sums(264,45) over(264,50) sites(264,56) (each(264,62) pertaining(265,10) to(265,13) one(265,17) cell)(265,23) according(265,33) to(265,36) the(265,40) correspondence(265,55) [formula],(265,57) where(266,33) v(266,35) is(266,40) an(266,43) infinitesimal(266,57) cell(266,62) volume(266,69) (which(267,6) defines(267,14) the(267,18) microscopic(267,30) correlation(267,42) length(267,49) of(267,52) the(267,56) problem).(268,9) Then,(268,15) He(268,17) simplifies(268,40) to(268,43)
+
+[formula](269,6)
+
+Note(275,4) that(275,9) our(275,13) discussion(275,24) in(275,27) Sec.(275,32) III(275,32) will(275,42) be(275,45) specialized(275,57) to(275,60) binary(275,67) disorder(276,8) for(276,12) which(276,18) the(276,22) constitutive(276,35) parameters(276,46) can(276,50) take(276,55) only(276,60) two(276,64) values(277,6) (but(277,11) the(277,15) proofs(277,22) are(277,26) general).(277,36) That(277,41) is,(277,45) we(277,48) assume(277,55) that(277,60) the(277,64) local(278,5) energy(278,12) density(278,20) is(278,23) distributed(278,35) according(278,45) to(278,48) the(278,52) probability(278,64) distribution(279,12)
+
+[formula](280,6)
+
+(where(284,6) q(284,8) =(284,8) 1(284,8) -(284,8) p).(284,8) With(284,21) this(284,26) choice,(284,34)
+
+[formula](285,6)
+
+The(290,3) above(290,9) formalism(290,19) applies(290,27) to(290,30) any(290,34) form(290,39) of(290,42) the(290,46) energy(290,53) density,(290,62) and(290,66) in(290,69) particular(291,10) to(291,13) nonlinear(291,23) media(291,29) [\cite=BERG92](291,35) [\cite=PONT92a](291,35) [\cite=YU94](291,35) [\cite=PONT97].(291,35) A(292,1) method(292,8) for(292,12) extracting(292,23) from(292,28) the(292,32) path(292,37) integral(292,46) the(292,50) second-order(292,63) weak-contrast(293,13) perturbation(293,26) expansion(293,36) of(293,39) the(293,43) effective(293,53) potential(293,63) W*(E0),(294,1) for(294,15) nonlinear(294,25) media,(294,32) has(294,36) been(294,41) introduced(294,52) in(294,55) Ref.(294,60) [\cite=BART98].(294,60)
+
+Principle(296,18) of(296,21) self-consistent(296,37) approximations(296,52)
+
+In(298,2) this(298,7) paper,(298,14) we(298,17) consider(298,26) the(298,30) linear(298,37) problem(298,45) only.(298,51) This(298,56) section(298,64) is(298,67) devoted(298,75) to(298,78) self-consistent(298,94) approximations(298,109) to(298,112) W*.(298,114) We(298,122) first(298,128) present(298,136) the(299,3) principle(299,13) for(299,17) building(299,26) such(299,31) approximations(299,46) through(299,54) the(299,58) introduction(300,12) of(300,15) a(300,17) trial(300,23) Hamiltonian.(300,36) Then,(300,42) we(300,45) discuss(301,7) the(301,11) choice(301,18) of(301,21) a(301,23) trial(301,29) Hamiltonian(301,41) with(301,46) replica(301,54) couplings.(301,65) Finally,(302,8) we(302,11) explain(302,19) how(302,23) to(302,26) exploit(302,34) these(302,40) replica(302,48) couplings(302,58) in(303,2) order(303,8) to(303,11) obtain(303,18) two(303,22) kinds(303,28) of(303,31) self-consistent(303,47) formulas.(303,57)
+
+Overview(305,20)
+
+The(307,3) common(307,10) ingredient(307,21) to(307,24) the(307,28) approximations(307,43) discussed(307,53) below(308,5) is(308,8) the(308,12) introduction(308,25) of(308,28) a(308,30) linear(308,37) comparison(308,48) medium(308,55) described(309,9) by(309,12) a(309,14) trial(309,20) Hamiltonian(309,32) H0(309,34) which(309,52) is(309,55) quadratic(309,65) in(309,68) the(309,72) electric(310,8) field(310,14) and(310,18) non-random,(310,30) e.g.(310,35) the(310,35) one-parameter(310,54) ansatz(310,61)
+
+[formula](311,6)
+
+where(315,5) σ0(315,7) >(315,7) 0(315,7) is(315,21) to(315,24) be(315,27) determined(315,38) by(315,41) an(315,44) appropriate(316,11) self-consistency(316,28) condition.(316,39) This(317,4) Hamiltonian(317,16) is(317,19) that(317,24) of(317,27) a(317,29) (replicated)(317,42) homogeneous(317,54) medium,(317,62) but(318,3) without(318,11) couplings(318,21) between(318,29) replicas.(318,39) Its(318,43) meaning(318,51) and(318,55) that(318,60) of(318,63) other(319,5) possible(319,14) choices(319,22) with(319,27) replica(319,35) couplings(319,45) are(319,49) discussed(319,59) below.(319,66)
+
+The(321,3) partition(321,13) function(321,22) 〈Zn〉(321,24) can(321,47) be(321,50) rewritten(321,60) as(321,63)
+
+[formula](322,6)
+
+or,(328,3) with(328,8) another(328,16) notation(328,25)
+
+[formula](329,6)
+
+where(336,5) Z0(336,7) is(336,14) the(336,18) partition(336,28) function(336,37) associated(336,48) to(336,51) H0,(336,53) and(336,70) [formula](337,1) stands(337,41) for(337,45) the(337,49) functional(337,60) average(337,68) with(337,73) weights(338,7) e-(338,9) βH0(338,9) /(338,9) Z0.(338,9) Equ.(338,41) ([\ref=wstar])(338,41) thus(338,61) reads(338,67)
+
+[formula](339,6)
+
+where(343,5)
+
+[formula](344,6)
+
+The(352,3) quantity(352,12) ΔW(E0)(352,14) is(352,31) difficult(352,41) to(352,44) compute(352,52) (an(352,56) exact(352,62) evaluation(352,73) would(353,5) lead(353,10) to(353,13) the(353,17) exact(353,23) result(353,30) for(353,34) the(353,38) effective(353,48) conductivity),(353,63) and(354,3) we(354,6) have(354,11) to(354,14) resort(354,21) to(354,24) approximations.(354,40)
+
+A(356,1) natural(356,9) self-consistency(356,26) condition(356,36) for(356,40) H0(356,42) is(357,2)
+
+[formula](358,6)
+
+which(362,5) completely(362,16) determines(362,27) H0(362,29) in(362,44) the(362,48) case(362,53) where(362,59) it(362,62) depends(363,7) on(363,10) one(363,14) single(363,21) parameter,(363,32) as(363,35) in(363,38) ([\ref=trybrug]).(363,40) For(363,59) more(363,64) general(363,72) choices(364,7) of(364,10) H0(364,12) with(364,29) several(364,37) free(364,42) parameters,(364,54) ([\ref=sccond])(364,56) only(365,4) provides(365,13) a(365,15) relation(365,24) between(365,32) these(365,38) parameters,(365,50) and(365,54) additional(365,65) considerations(366,14) are(366,18) in(366,21) order(366,27) to(366,30) determine(366,40) them(366,45) all.(366,50) First(366,56) of(366,59) all,(366,64) we(367,2) have(367,7) to(367,10) precise(367,18) the(367,22) form(367,27) of(367,30) the(367,34) ansatz(367,41) to(367,44) be(367,47) used(367,52) in(367,55) our(367,59) calculations.(367,73)
+
+Replica(369,19) couplings(369,29) and(369,33) choice(369,40) of(369,43) the(369,47) ansatz(369,54)
+
+We(371,2) deduce(371,9) here(371,14) the(371,18) form(371,23) of(371,26) the(371,30) trial(371,36) Hamiltonian(371,48) H0(371,50) from(371,67) an(371,70) analysis(372,8) of(372,11) the(372,15) effective(372,25) Hamiltonian(372,37) He.(372,39) Eq.(372,56) ([\ref=heff])(372,56) shows(373,5) that(373,10) the(373,14) effective(373,24) Hamiltonian(373,36) is(373,39) non-random(373,50) but(373,54) that(373,59) the(373,63) average(374,7) over(374,12) disorder(374,21) introduced(374,32) a(374,34) coupling(374,43) between(374,51) different(374,61) replicas.(375,9) The(375,13) meaning(375,21) of(375,24) these(375,30) couplings(375,40) is(375,43) more(375,48) transparent(375,60) if(375,63) we(375,66) carry(376,5) out(376,9) an(376,12) expansion(376,22) of(376,25) ([\ref=heff])(376,27) around(376,45) the(376,49) average(376,57) field(376,63) [formula](377,1) as(377,21) in(377,24) the(377,28) weak-contrast(377,42) expansion(377,52) [\cite=BART98].(377,58) With(378,4) ∂i(378,6) =(378,6) ∂(378,6) /(378,6) ∂Ei(378,6) and(378,43) ΔEα(378,45) =(378,45) Eα(378,45) -(378,45) E0(378,45) we(379,25) have(379,30)
+
+[formula](380,6)
+
+where(385,5)
+
+[formula](386,6)
+
+The(394,3) first(394,9) non-zero(394,18) replica-coupling(394,35) term(394,40) is(394,43) proportional(394,56) to(394,59) βc(2).(394,61) We(395,12) thus(395,17) see(395,21) that(395,26) the(395,30) coupling(395,39) between(395,47) replicas(395,56) acts(395,61) only(395,66) within(396,6) clusters(396,15) defined(396,23) by(396,26) n-point(396,28) connected(396,46) correlation(396,58) functions(396,68) c(n),(397,1) and(397,14) accounts(397,23) for(397,27) the(397,31) fluctuations(397,44) of(397,47) the(397,51) electric(397,60) field(397,66) in(397,69) these(398,5) clusters.(398,15) The(398,19) replica(398,27) coupling(398,36) would(398,42) vanish(398,49) if(398,52) there(398,58) were(398,63) no(398,66) disorder(399,8) at(399,11) all.(399,16) In(399,19) the(399,23) limit(399,29) where(399,35) the(399,39) size(399,44) of(399,47) the(399,51) region(399,58) defined(399,66) by(399,69) c(2)(400,1) shrinks(400,17) to(400,20) zero(400,25) -(400,28) which(400,34) means(400,40) that(400,45) the(400,49) system(400,56) is(400,59) observed(400,68) at(401,2) a(401,4) macroscopic(401,16) level,(401,23) we(401,26) can(401,30) approximate(401,42)
+
+[formula](402,6)
+
+and(405,3) we(405,6) recover(405,14) the(405,18) expansion(405,28)
+
+[formula](406,6)
+
+which(410,5) could(410,11) directly(410,20) be(410,23) obtained(410,32) from(410,37) ([\ref=calf]).(410,39) The(410,55) presence(410,64) of(410,67) v(411,1) in(411,6) front(411,12) of(411,15) the(411,19) replica(411,27) coupling(411,36) term(411,41) is(411,44) the(411,48) macroscopic(411,60) remnant(411,68) of(412,2) a(412,4) microscopic(412,16) average(412,24) having(412,31) been(412,36) taken(412,42) within(412,49) a(412,51) two-particle(412,64) cluster,(413,8) of(413,11) center(413,18) x(413,20) and(413,26) volume(413,33) v.(413,35) This(413,43) discussion(413,54) therefore(413,64) enlightens(414,10) a(414,12) relation(414,21) between(414,29) replica(414,37) coupling(414,46) and(414,50) the(414,54) electric(414,63) field(414,69) fluctuations(415,12) within(415,19) clusters.(415,29)
+
+Expansion(417,9) ([\ref=expan])(417,11) suggests(417,32) a(417,34) two-parameter(417,48) replica-symmetric(418,17) ansatz(418,24) of(418,27) the(418,31) form(418,36)
+
+[formula](419,6)
+
+where(424,5)
+
+[formula](425,6)
+
+The(429,3) free(429,8) parameters(429,19) are(429,23) σ0(429,25) and(429,38) Q.(429,40) Note(429,48) that(429,53) Q(429,55) has(429,61) the(429,65) dimension(430,9) of(430,12) a(430,14) squared(430,22) conductivity,(430,36) because(430,44) it(430,47) is(430,50) related(430,58) to(430,61) a(430,63) quantity(431,8) relative(431,17) to(431,20) two(431,24) points.(431,32) For(431,36) simplicity,(431,48) the(431,52) ansatz(431,59) M(431,61) is(431,66) diagonal(432,8) in(432,11) the(432,15) euclidean(432,25) vector(432,32) space.(432,39) However,(432,48) we(432,51) tried(432,57) calculations(432,70) with(433,4) a(433,6) tensorial(433,16) structure(433,26) reproducing(433,38) that(433,43) of(433,46) aij(433,48) and(433,59) c(2)ij(434,1) in(434,17) Eqs.(434,22) ([\ref=aa]),(434,22) ([\ref=bb]);(434,37) but,(434,52) apart(434,58) from(434,63) a(434,65) different(435,9) normalization(435,23) for(435,27) Q,(435,29) no(435,35) differences(435,47) showed(435,54) up(435,57) in(435,60) the(435,64) final(435,70) effective-medium(436,16) theories(436,25) (as(436,29) far(436,33) as(436,36) linear(436,43) media(436,49) are(436,53) concerned).(436,65)
+
+An(438,2) interesting(438,14) feature(438,22) of(438,25) the(438,29) ansatz(438,36) ([\ref=matmok])(438,38) is(438,54) that,(438,60) though(438,67) being(439,5) non-random,(439,17) it(439,20) embodies(439,29) underlying(439,40) disorder(439,49) through(439,57) its(439,61) replica(439,69) couplings.(440,10) In(440,13) order(440,19) to(440,22) understand(440,33) this(440,38) point,(440,45) we(440,48) compute(440,56) W0(E0)(441,1) given(441,16) by(441,19) ([\ref=wo])(441,21)
+
+[formula](442,6)
+
+After(447,5) writing(447,13) [formula],(447,15) and(447,38) going(447,44) to(447,47) the(447,51) Fourier(447,59) transform(447,69) of(448,2) φ(448,4) [\cite=NOTE2],(448,15) we(448,26) arrive(448,33) at(448,36)
+
+[formula](449,6)
+
+Carrying(456,8) out(456,12) the(456,16) derivative(456,27) of(456,30) ([\ref=wopath])(456,32) with(457,4) respect(457,12) to(457,15) σ0,(457,17) we(457,30) obtain(457,37)
+
+[formula](458,6)
+
+where(463,5) volume(463,12) averages(463,21) [formula](463,23) have(463,43) been(463,48) replaced(463,57) by(463,60) statistical(463,72) ones,(464,5) the(464,9) microscopic(464,21) size(464,26) v1(464,28) /(464,28) d(464,28) being(464,42) much(464,47) smaller(464,55) than(464,60) that(465,4) of(465,7) the(465,11) system,(465,19) V1(465,21) /(465,21) d(465,21) =(465,21) 1.(465,21) All(466,3) the(466,7) replicas(466,16) are(466,20) equivalent,(466,32) and(466,36) the(466,40) functional(466,51) average(466,59) 〈(466,61) ·(466,61) 〉0(466,61) selects(466,91) in(466,94) the(466,98) limit(466,104) β(466,106) →(466,106) ∞(466,106) the(466,125) real(466,130) field(467,5) in(467,8) the(467,12) medium.(467,20) Hence,(467,27) setting(467,35) ΔE(467,37) =(467,37) E(467,37) -(467,37) E0,(467,37) the(467,57) previous(467,66) equation(468,8) leads(468,14) to(468,17)
+
+[formula](469,6)
+
+which(473,5) implies(473,13) that(473,18) Q(473,20) ≥(473,20) 0.(473,20) When(473,34) [formula],(473,36) the(473,49) electric(473,58) field(473,64) fluctuates(474,10) in(474,13) the(474,17) medium,(474,25) whereas(474,33) it(474,36) is(474,39) uniform(474,47) when(474,52) Q(474,54) =(474,54) 0.(474,54) The(474,63) ansatz(474,70) H0(475,1) therefore(475,23) represents(475,34) a(475,36) medium(475,43) which(475,49) is(475,52) homogeneized(475,65) (because(476,8) it(476,11) is(476,14) non-random),(476,27) but(476,31) which(476,37) nonetheless(476,49) accounts(477,8) for(477,12) field(477,18) fluctuations.(477,32) We(478,2) thus(478,7) expect(478,14) new(478,18) effective(478,28) medium(478,35) approximations(478,50) when(479,4) the(479,8) replica(479,16) coupling(479,25) Q(479,27) is(479,32) non(479,36) zero.(479,42)
+
+Self-consistency(481,28)
+
+Up(483,2) to(483,5) this(483,10) point(483,16) the(483,20) discussion(483,31) focused(483,39) on(483,42) the(483,46) ansatz(483,53) itself,(483,61) without(483,69) referring(484,9) to(484,12) He.(484,14) In(484,30) particular,(484,42) σ0(484,44) was(484,57) treated(484,65) as(484,68) a(484,70) mere(485,4) number.(485,12) We(485,15) now(485,19) discuss(485,27) what(485,32) happens(485,40) when(485,45) self-consistency(485,62) is(485,65) imposed,(486,8) within(486,15) some(486,20) approximation(486,34) scheme.(486,42) The(486,46) medium(486,53) is(486,56) made(486,61) of(486,64) N(486,66) phases(487,6) labelled(487,15) by(487,18) ν,(487,20) of(487,28) respective(487,39) conductivities(487,54) σν(487,56) and(488,3) volume(488,10) concentrations(488,25) pν.(488,27) The(488,38) self-consistency(488,55) relation(488,64) ΔW(E0)(489,1) =(489,1) 0,(489,1) which(489,24) imposes(489,32) constraints(489,44) on(489,47) the(489,51) ansatz,(489,59) determines(490,10) Q(490,12) as(490,17) a(490,19) function(490,28) Q(490,30) =(490,30) Q(σ0,{σν}).(490,30) Then(491,4) W*(491,6) =(491,6) W0(491,6) and,(491,19) with(491,24) ([\ref=constef]),(491,26)
+
+[formula](492,6)
+
+Suppose(497,7) now(497,11) that(497,16) σ0(497,18) =(497,18) σ0({σν})(497,18) is(497,55) determined(497,66) by(498,2) an(498,5) additional(498,16) condition(498,26) (to(498,30) be(498,33) precised(498,42) below).(498,50) Using(498,56) the(498,60) exact(498,66) formula(499,7) [\cite=BERG78](499,13) (cf.(499,26) Appendix(499,26) [\ref=qfotf])(499,41)
+
+[formula](500,6)
+
+the(504,3) fluctuations(504,16) of(504,19) the(504,23) electric(504,32) field(504,38) deduced(504,46) from(504,51) ([\ref=sigeff])(504,53) can(505,3) be(505,6) written(505,14)
+
+[formula](506,6)
+
+where(512,5) the(512,9) last(512,14) derivative(512,25) is(512,28) performed(512,38) at(512,41) constant(512,50) σ0.(512,52) This(512,67) expression(513,10) distinguishes(513,24) between(513,32) different(513,42) contributions(513,56) to(513,59) the(513,63) field(513,69) fluctuations:(514,13) (i)(514,17) the(514,21) first(514,27) term(514,32) represents(514,43) fluctuations(514,56) coming(514,63) from(514,68) the(515,3) "macroscopic"(515,19) background(515,30) effective(515,40) medium(515,47) σ0;(515,49) (ii)(515,64) the(515,68) second(516,6) one(516,10) is(516,13) that(516,18) already(516,26) found(516,32) in(516,35) ([\ref=qq]),(516,37) and(516,51) would(516,57) be(516,60) the(516,64) only(516,69) one(517,3) if(517,6) Q(517,8) were(517,15) independent(517,27) from(517,32) σ0,(517,34) and(517,48) if(517,51) σ0(518,1) were(518,15) equal(518,21) to(518,24) 〈σ〉,(518,26) the(519,3) trivial(519,11) value(519,17) corresponding(519,31) to(520,2) a(520,4) non-fluctuating(520,20) reference(520,30) medium(520,37) for(520,41) a(520,43) multiphase(520,54) composite,(520,65) cf.(520,69) Appendix(520,69) [\ref=qfotf];(520,84) (iii)(520,98) and(520,102) finally(520,110) a(520,112) third(520,118) term(521,4) comes(521,10) from(521,15) the(521,19) dependence(521,30) of(521,33) Q(521,35) on(521,40) σ0(521,42) and(521,55) σν.(522,1) Both(522,18) last(522,23) terms(522,29) are,(522,34) according(522,44) to(522,47) the(522,51) interpretation(522,66) of(522,69) replica(523,7) coupling(523,16) developped(523,27) in(523,30) the(523,34) previous(523,43) section,(523,52) of(523,55) "microscopic"(524,15) origin.(524,23)
+
+We(526,2) now(526,6) turn(526,11) to(526,14) the(526,18) determination(526,32) of(526,35) σ0({σν}).(526,37) A(526,65) first(527,5) obvious(527,13) self-consistency(527,30) condition(527,40) for(527,44) σ0(527,46) is(527,58) [formula],(527,60) so(528,2) that(528,7) [formula].(528,9) The(528,43) effective-medium(528,60) formulas(528,69) obtained(528,78) this(529,4) way(529,8) are(529,12) referred(529,21) to(529,24) as(529,27) "type(529,34) 1"(529,38) hereafter.(529,49) As(529,52) is(529,55) shown(529,61) below,(530,6) to(530,9) this(530,14) type(530,19) pertain(530,27) the(530,31) Bruggeman(530,41) and(530,45) HY(530,48) formulas.(530,58)
+
+"Type(532,6) 2"(532,10) effective-medium(532,27) formulas(532,36) are(532,40) obtained(532,49) by(532,52) taking(532,59) σ0(532,61) as(533,2) the(533,6) solution(533,15) of(533,18) [formula],(533,20) and(533,58) by(533,61) using(533,67) this(534,4) value(534,10) in(534,13) [formula].(534,15) According(534,46) to(534,49) ([\ref=qberg]),(534,51) this(534,69) procedure(535,9) makes(535,15) the(535,19) effective-medium(535,36) insensitive(535,48) to(535,51) the(535,55) fluctuations(535,68) generated(536,9) in(536,12) the(536,16) reference(536,26) medium(536,33) σ0,(536,35) so(536,48) that(536,53) relevant(536,62) fluctuations(536,75) only(537,4) come(537,9) from(537,14) Q.(537,16)
+
+Two(539,12) approximations(539,27)
+
+In(541,2) this(541,7) section,(541,16) the(541,20) ideas(541,26) introduced(541,37) above(541,43) are(541,47) used(541,52) within(541,59) two(541,63) different(542,9) approximations(542,24) to(542,27) ΔW(E0),(542,29) based(542,50) on(542,53) the(542,57) ansatz(542,64) ([\ref=ansatz]),(543,1) ([\ref=matmok]).(543,17) For(543,35) each(543,40) approximation(543,54) to(543,57) ΔW,(543,59) "type(544,6) 1"(544,10) and(544,14) "type(544,21) 2"(544,25) formulas(544,34) are(544,38) obtained.(544,48) Herafter,(544,58) q(545,1) =(545,1) Q(545,1) /(545,1) σ20,(545,1) so(545,20) that(545,25)
+
+[formula](546,6)
+
+One-impurity(551,24) approximation(551,38)
+
+We(554,2) first(554,8) consider(554,17) a(554,19) "one-impurity"(554,36) (or(554,40) "local")(554,51) calculation.(554,64) The(554,68) Bruggeman(555,9) formula(555,17) emerges(555,25) as(555,28) the(555,32) "type(555,39) 1"(555,43) effective-medium(555,60) formula(555,68) in(556,2) this(556,7) approximation,(556,22) which(556,28) is(556,31) not(556,35) suprising(556,45) since(556,51) it(556,54) can(556,58) be(556,61) seen(556,66) as(556,69) a(557,1) one-site(557,10) (self-consistent)(557,28) theory(557,35) [\cite=HORI75](557,41) [\cite=LUCK91].(557,41)
+
+Approximation(559,28) scheme(559,35)
+
+The(560,3) approximation(560,17) for(560,21) ΔW(E0)(560,23) [Eq.(560,-2147483648) ([\ref=dwo])],(560,-2147483648) detailed(560,66) in(560,69) Appendix(561,8) [\ref=appb],(561,13) is(561,23) a(561,25) one-impurity(561,38) approximation(561,52) where(561,58) interactions(561,71) between(562,7) different(562,17) points(562,24) are(562,28) ignored.(562,37) Let(562,41) us(562,44) denote(562,51) by(562,54) w0(562,56) the(562,64) trial(563,5) Hamiltonian(563,17) density,(563,26) which(563,32) depends(563,40) on(563,43) all(563,47) the(563,51) replicas,(563,61) defined(564,7) from(564,12) ([\ref=ansatz]),(564,14) ([\ref=matmok])(564,30) by(564,46)
+
+[formula](565,6)
+
+Here(569,4) and(569,8) in(569,11) Appendix(569,20) [\ref=appb],(569,25) the(569,36) notation(569,45)
+
+[formula](569,48)
+
+Type(602,19) 1(602,21) formula:(602,30) Bruggeman's(602,42)
+
+Letting(603,7) [formula](603,9) amounts(603,27) to(603,30) imposing(603,39) 〈Δσμ〉(603,41) =(603,41) 0,(603,41) which(604,20) is(604,23) nothing(604,31) but(604,35) the(604,39) Bruggeman(604,49) equation(604,58)
+
+[formula](605,6)
+
+The(608,3) Bruggeman(608,13) equation(608,22) can(608,26) also(608,31) be(608,34) written(608,42) 〈μ〉(608,44) =(608,44) 1,(608,44) or(608,68) σ0(608,70) =(608,70) 〈σμ〉(608,70) if(608,106) [formula],(608,108) or(608,121) σ0(608,123) =(608,123) 〈σμ〉(608,123) /(608,123) 〈μ〉.(608,123) The(609,3) last(609,8) expression(609,19) is(609,22) suitable(609,31) for(609,35) computing(609,45) σ0(609,47) iteratively(609,68) (starting,(610,10) e.g.,(610,16) from(610,21) σ0(610,23) =(610,23) 〈σ〉)(610,23) in(610,57) any(610,61) dimension.(611,10) The(611,14) Bruggeman(611,24) conductivity(611,37) [formula](611,39) possesses(612,20) a(612,22) percolation(612,34) threshold(612,44) pc(612,46) =(612,46) 1(612,46) /(612,46) d,(612,46) and(612,59) critical(612,68) exponents(613,9) s(613,11) =(613,11) t(613,11) =(613,11) 1(613,11) [\cite=CLER90].(613,23)
+
+The(615,3) fluctuations(615,16) computed(615,25) from(615,30) ([\ref=berg])(615,32) read(615,48)
+
+[formula](616,6)
+
+Type(622,19) 2(622,21) formula(622,29)
+
+We(623,2) now(623,6) let(623,10) q(623,12) ≠(623,12) 0(623,12) and(623,24) given(623,30) by(623,33) ([\ref=qbrug])(623,35) and(623,51) [formula].(624,1) The(624,70) equation(625,8) [formula](625,10) reads(625,49)
+
+[formula](626,6)
+
+Like(632,4) Bruggeman's,(632,17) this(632,22) equation(632,31) is(632,34) easily(632,41) solved(632,48) by(632,51) iterations(632,62) starting(632,71) from(633,4) σ0(633,6) =(633,6) 〈σ〉.(633,6) The(633,41) iterations(633,52) then(633,57) always(633,64) converge(634,8) to(634,11) the(634,15) physical(634,24) solution,(634,34) which(634,40) we(634,43) denote(634,50) by(634,53) σ*0.(635,1) The(635,17) effective(635,27) conductivity(635,40) thus(635,45) is(635,48) [formula].(636,1) To(636,63) study(636,69) its(637,3) critical(637,12) behavior,(637,22) we(637,25) consider(637,34) a(637,36) binary(637,43) mixture,(637,52) where(637,58) σ(638,1) =(638,1) σ1(638,1) with(638,22) probability(638,34) (1(638,36) -(638,36) p),(638,36) and(638,47) σ(638,49) =(638,49) σ2(638,49) with(638,70) probability(639,11) p.(639,13) In(639,19) the(639,23) conductor/superconductor(639,48) limit(639,54) where(639,60) σ2(640,1) →(640,1) ∞(640,1) we(640,22) find,(640,28) setting(640,36) pc(640,38) =(640,38) 1(640,38) /(640,38) (2d(640,38) -(640,38) 1),(640,38)
+
+[formula](641,6)
+
+and(646,3)
+
+[formula](647,6)
+
+The(651,3) critical(651,12) concentration(651,26) pc(651,28) can(651,36) be(651,39) interpreted(651,51) as(651,54) a(651,56) percolation(651,68) threshold,(652,10) and(652,14) is(652,17) the(652,21) same(652,26) as(652,29) that(652,34) obtained(652,43) in(652,46) the(652,50) mean-field(652,61) model(652,67) on(652,70) a(653,1) Bethe(653,7) lattice[\cite=STEP77](653,15) with(653,33) connectivity(653,46) z(653,48) =(653,48) 2d.(653,48) Since(653,60) [formula](654,1) for(654,60) [formula],(655,1) the(655,20) superconductivity(655,38) exponent(655,47) is(655,50) s(655,52) =(655,52) 0.(655,52) Note(655,62) however(655,70) that(656,4) σ0(656,6) displays(656,24) a(656,26) square-root(656,38) cusp(656,43) at(656,46) p(656,48) =(656,48) pc.(656,48) The(656,59) critical(656,68) behavior(657,8) for(657,12) p(657,14) >(657,14) pc(657,14) is(657,23) obtained(657,32) by(657,35) exmining(657,44) the(657,48) insulator/conductor(657,68) mixture(658,7) where(658,13) σ2(658,15) is(658,27) finite(658,34) and(658,38) σ1(658,40) =(658,40) 0.(658,40) Then(658,57)
+
+[formula](659,6)
+
+Since(664,5) [formula](664,7) for(664,44) [formula],(664,46) the(665,3) conductivity(665,16) exponent(665,25) is(665,28) t(665,30) =(665,30) 2.(665,30)
+
+For(667,3) the(667,7) special(667,15) case(667,20) of(667,23) d(667,25) =(667,25) 1,(667,25) μ(667,32) =(667,32) σ0(667,32) /(667,32) σ(667,32) so(667,55) that(667,60) ([\ref=eqsigo])(668,1) reduces(668,22) to(668,25) [formula],(668,27) and(669,3) q(669,5) =(669,5) 0.(669,5) Therefore,(669,21) [formula],(669,23) which(670,5) is(670,8) the(670,12) exact(670,18) result.(670,26) Like(670,31) Bruggeman's,(670,44) the(670,48) new(670,52) formula(670,60) is(671,2) also(671,7) exact(671,13) to(671,16) second(671,23) order(671,29) in(671,32) the(671,36) contrast,(672,9) in(672,12) any(672,16) dimension(672,26)
+
+[formula](673,6)
+
+and(677,3) in(677,6) the(677,10) dilute(677,17) limit(677,23) where(677,29) (e.g.)(677,36) p2(677,38) ≪(677,38) 1(677,38)
+
+[formula](678,6)
+
+In(682,2) the(682,6) discussion(682,17) (Section(682,26) [\ref=d]),(682,31) it(682,39) is(682,42) argued(682,49) that(682,54) because(682,62) of(683,2) its(683,6) exponents(683,16) [formula],(683,18) and(683,32) because(683,40) it(683,43) is(683,46) less(683,51) trivial(683,59) than(683,64) the(684,3) Bruggeman(684,13) formula(684,21) (especially(684,33) in(684,36) the(684,40) insulator/conductor(684,60) case(684,65) where(685,5) it(685,8) does(685,13) not(685,17) reduce(685,24) to(685,27) a(685,29) straight(685,38) line),(685,45) this(685,50) formula(685,58) may(685,62) constitute(686,10) an(686,13) easy-to-handle(686,28) alternative(686,40) to(686,43) the(686,47) latter(686,54) in(686,57) dimensions(686,68) d(687,1) ≥(687,1) 3.(687,1) Graphical(687,20) comparisons(687,32) between(687,40) different(687,50) effective-medium(687,67) formulas(688,8) are(688,12) discussed(688,22) in(688,25) Sec.(688,30) [\ref=d].(688,30)
+
+Cumulant(690,20) series(690,27) approximation(690,41)
+
+In(693,2) this(693,7) section,(693,16) we(693,19) show(693,24) how(693,28) to(693,31) recover(693,39) by(693,42) means(693,48) of(693,51) a(693,53) cumulant(693,62) approximation(694,13) to(694,16) ΔW(694,18) the(694,31) effective-medium(694,48) formula(694,56) of(694,59) HY,(694,63) together(695,8) with(695,13) its(695,17) "type(695,24) 2"(695,28) counterpart.(695,41)
+
+Approximation(697,28) scheme(697,35)
+
+We(698,2) consider(698,11) the(698,15) first-order(698,27) cumulant(698,36) approximation(698,50)
+
+[formula](699,6)
+
+We(707,2) have(707,7) then(707,12)
+
+[formula](708,6)
+
+As(714,2) is(714,5) shown(714,11) in(714,14) Appendix(714,23) C,(714,26) the(714,30) calculations(714,43) here(714,48) involve(714,56) an(714,59) expansion(714,69) in(715,2) a(715,4) series(715,11) of(715,14) the(715,18) cumulants(715,28) of(715,31) the(715,35) distribution(715,48) of(715,51) σ,(715,53) whose(715,67) significance(716,12) has(716,16) been(716,21) discussed(716,31) at(716,34) length(716,41) in(716,44) the(716,48) original(716,57) paper(716,63) by(716,66) HY[\cite=HORI77].(717,2) After(717,22) some(717,27) algebra,(717,36) we(717,39) obtain(717,46) (cf.(717,51) Appendix(717,51) C)(717,64)
+
+[formula](718,6)
+
+where(724,5)
+
+[formula](725,6)
+
+The(728,3) family(728,10) of(728,13) functions(728,23) hk(728,25) is(728,32) defined(728,40) in(728,43) Appendix(728,52) C.(728,55) The(729,3) self-consistency(729,20) ΔW(E0)(729,22) =(729,22) 0(729,22) now(729,42) yields(729,49)
+
+[formula](730,6)
+
+Type(735,19) 1(735,21) formula:(735,30) the(735,34) Hori-Yonezawa(735,48) formula(735,56)
+
+We(738,2) first(738,8) consider(738,17) the(738,21) case(738,26) with(738,31) no(738,34) couplings(738,44) between(738,52) replicas,(738,62) i.e.(739,4) q(739,6) =(739,6) 0.(739,6) The(739,15) HY(739,18) formula(739,26) for(739,30) σ0(739,32) reads(739,47)
+
+[formula](740,6)
+
+and(744,3) the(744,7) effective(744,17) conductivity(744,30) is(744,33) [formula].(744,35) It(745,2) can(745,6) be(745,9) shown(745,15) that(745,20) [formula](745,22) displays(745,51) a(745,53) percolation(745,65) threshold(746,9) pc(747,1) =(747,1) 1(747,1) -(747,1) exp(747,1) ((747,1) -(747,1) 1(747,1) /(747,1) d),(747,1) and(747,23) exponents(747,33) s(747,35) =(747,35) t(747,35) =(747,35) 1[\cite=HORI77].(747,35) Applying(748,8) ([\ref=berg])(748,10) and(748,25) using(748,31) ([\ref=deriv]),(748,33) the(748,50) fluctuations(748,63) read(748,68)
+
+[formula](749,6)
+
+Type(754,19) 2(754,21) formula(754,29)
+
+We(757,2) now(757,6) consider(757,15) q(757,17) ≠(757,17) 0(757,17) and(757,29) determined(757,40) as(757,43) a(757,45) function(757,54) of(757,57) σ0(757,59) by(758,2) ([\ref=q]).(758,4) Then(758,18)
+
+[formula](759,6)
+
+The(764,3) equation(764,12) for(764,16) σ0(764,18) is(764,30) [formula];(764,32) that(765,4) is,(765,8) with(765,13) ([\ref=deriv])(765,15)
+
+[formula](766,6)
+
+In(771,2) order(771,8) to(771,11) study(771,17) the(771,21) critical(771,30) behavior(771,39) of(771,42) [formula],(771,44) we(772,2) consider(772,11) again(772,17) a(772,19) binary(772,26) mixture(772,34) where(772,40) σ(772,42) =(772,42) σ1(772,42) with(772,63) probability(773,11) (1(773,13) -(773,13) p),(773,13) and(773,24) σ(773,26) =(773,26) σ2(773,26) with(773,47) probability(773,59) p.(774,1) In(774,7) the(774,11) conductor/superconductor(774,36) case(774,41) where(774,47) σ2(775,1) →(775,1) ∞(775,1) ,(775,1) we(775,23) have(775,28) [formula](776,1) and(776,65) a(777,1) similar(777,9) equation(777,18) for(777,22) h1,(777,24) so(777,32) that(777,37) ([\ref=deriveq])(777,39) reduces(777,61) to(777,64) a(778,1) second-degree(778,15) polynomial(778,26) equation.(778,36) Its(778,40) physical(778,49) solution(778,58) reads(778,64)
+
+[formula](779,6)
+
+It(784,2) is(784,5) defined(784,13) for(784,17) p(784,19) less(784,26) than(784,31) a(784,33) critical(784,42) value(784,48)
+
+[formula](785,6)
+
+This(788,4) percolation(788,16) threshold(788,26) is(788,29) the(788,33) same(788,38) as(788,41) the(788,45) one(788,49) obtained(788,58) in(788,61) the(788,65) Potts(788,71) model(789,5) at(789,8) the(789,12) mean-field(789,23) level,(789,30) and(789,34) in(789,37) the(789,41) mean-field(790,10) theory(790,17) of(791,2) Ref.(791,7) [\cite=STEP77].(791,7) Reporting(791,33) ([\ref=solinf])(791,35) into(791,53) ([\ref=phiosol]),(791,55) we(792,2) arrive(792,9) at(792,12)
+
+[formula](793,6)
+
+Since(797,5) [formula](797,7) for(798,3) [formula],(798,5) the(798,24) superconductivity(798,42) exponent(798,51) is(798,54) s(798,56) =(798,56) 0.(798,56)
+
+In(800,2) the(800,6) opposite(800,15) insulator/conductor(800,35) case,(800,41) where(800,47) σ1(800,49) =(800,49) 0(800,49) and(801,3) σ2(801,5) is(801,17) finite,(801,25) the(801,29) solution(801,38) for(801,42) p(801,44) >(801,44) pc(801,44) can(801,54) only(801,59) be(801,62) found(801,68) perturbatively(801,83) around(801,90) the(801,94) percolation(801,106) threshold.(801,117) Expanding(801,127) the(801,131) logarithm(802,9) in(802,12) h0(802,14) and(802,22) h1(802,24) as(802,31)
+
+[formula](803,6)
+
+and(807,3) defining(807,12)
+
+[formula](808,6)
+
+we(812,2) find(812,7) that(812,12)
+
+[formula](813,6)
+
+and(817,3) that(817,8)
+
+[formula](818,6)
+
+where(823,5) the(823,9) conductivity(823,22) exponent(823,31) is(823,34) t(823,36) =(823,36) 2.(823,36) Hence,(823,48) as(823,51) in(823,54) the(823,58) previous(823,67) "one-impurity"(824,16) approximation,(824,31) the(824,35) replica-coupling(824,52) ansatz(824,59) yields(824,66) critical(825,8) exponents(825,18) s(825,20) =(825,20) 0,(825,20) t(825,27) =(825,27) 2,(825,27) and(825,36) an(825,39) asymptotic(825,50) dependence(825,61) of(825,64) the(825,68) threshold(826,9) pc(826,11) ~(826,11) 1(826,11) /(826,11) (2d)(826,11) when(826,31) 2d(826,33) ≫(826,33) 1.(826,33) One(826,46) can(826,50) easily(826,57) check(826,63) that(826,68) this(827,4) new(827,8) "type(827,15) 2"(827,19) effective-medium(827,36) formula(827,44) is(827,47) exact(827,53) to(827,56) second(827,63) order(827,69) in(828,2) the(828,6) weak-contrast(828,20) limit(828,26) and(828,30) in(828,33) the(828,37) dilute(828,44) limit.(828,51)
+
+After(830,5) a(830,7) few(830,11) manipulations,(830,26) we(830,29) now(830,33) obtain(830,40) with(830,45) ([\ref=berg])(830,47) and(830,62) ([\ref=q])(830,64)
+
+[formula](831,6)
+
+Discussion(836,19)
+
+We(839,2) plot(839,7) in(839,10) Fig.(839,15) [\ref=fig1](839,20) (resp.(839,33) [\ref=fig2])(839,33) the(839,50) "type(839,57) 2"(839,61) scaled(839,68) conductivities(840,14) [formula](840,16) versus(840,52) p,(840,54) the(840,61) volume(840,68) fraction(841,8) of(841,11) material(841,20) 2,(841,23) for(841,27) a(841,29) dielectric(841,40) ratio(841,46) σ2(841,48) /(841,48) σ1(841,48) =(841,48) 10(841,48) (resp.(842,6) σ2(842,6) /(842,6) σ1(842,6) =(842,6) 1000).(842,6) We(842,37) also(842,42) show(842,47) the(842,51) Hashin-Shtrikman(842,68) (HS)(843,4) bounds(843,11) [\cite=HASH62],(843,17) the(843,30) Hori-Yonezawa(843,44) formula(843,52) which(843,58) comes(843,64) from(843,69) a(844,1) cumulant(844,10) series(844,17) (CS)(844,22) approximation,(844,37) and(844,41) the(844,45) one-impurity(844,58) (OI)(844,63) Bruggeman(845,9) formula.(845,18) The(845,22) dimension(845,32) is(845,35) d(845,37) =(845,37) 2.(845,37) Figs.(845,48) [\ref=fig3](845,48) and(845,64) [\ref=fig4](846,4) display(846,18) similar(846,26) plots(846,32) for(846,36) d(846,38) =(846,38) 3.(846,38)
+
+For(848,3) moderate(848,12) contrast(848,21) (Figs.(848,28) 1(848,28) and(848,35) 3),(848,39) we(848,42) observe(848,50) that(848,55) all(848,59) four(848,64) self-consistent(849,15) formulas(849,24) lie(849,28) close(849,34) to(849,37) each(849,42) other.(849,49) This(849,54) is(849,57) a(849,59) consequence(850,11) of(850,14) the(850,18) fact(850,23) that(850,28) they(850,33) are(850,37) exact(850,43) to(850,46) second(850,53) order(850,59) in(850,62) the(850,66) contrast.(851,9) Also,(851,15) for(851,19) any(851,23) contrast,(851,33) the(851,37) slopes(851,44) at(851,47) p(851,49) =(851,49) 0(851,49) and(851,57) p(851,59) =(851,59) 1(851,59) are(851,67) all(852,3) identical,(852,14) which(852,20) is(852,23) a(852,25) consequence(852,37) of(852,40) the(852,44) fact(852,49) that(852,54) they(852,59) are(852,63) exact(852,69) to(853,2) second(853,9) order(853,15) in(853,18) the(853,22) dilute(853,29) limit(853,35) p(853,37) →(853,37) 0(853,37) (the(853,49) expression(853,60) near(853,65) p(854,1) =(854,1) 1(854,1) is(854,8) obtained(854,17) by(854,20) replacing(854,30) p(854,32) by(854,37) p(854,39) -(854,39) 1(854,39) and(854,47) by(854,50) interchanging(854,64) σ1(855,1) and(855,14) σ2).(855,16) We(855,30) also(855,35) observe(855,43) that(855,48) the(855,52) HS(855,55) bounds(855,62) are(855,66) satisfied(856,9) in(856,12) each(856,17) case(856,22) considered.(856,34) However,(856,43) the(856,47) formulas(856,56) obtained(856,65) via(856,69) the(857,3) cumulant(857,12) series(857,19) summation,(857,30) i.e.(857,35) both(857,35) the(857,45) HY(857,48) formula(857,56) and(857,60) its(857,64) "type(858,6) 2"(858,10) counterpart,(858,23) do(858,26) not(858,30) reduce(858,37) to(858,40) the(858,44) exact(858,50) result(858,57) [formula](859,1) in(859,53) dimension(859,63) 1(859,65) (not(859,70) shown).(860,7) This(860,12) exact(860,18) result(860,25) is(860,28) also(860,33) the(860,37) common(860,44) value(860,50) of(860,53) the(860,57) HS(860,60) bounds(860,67) for(861,3) d(861,5) =(861,5) 1.(861,5) Hence,(861,17) formulas(861,26) derived(861,34) from(861,39) the(861,43) cumulant(861,52) series(861,59) approximation(862,13) do(862,16) not(862,20) obey(862,25) the(862,29) HS(862,32) bounds(862,39) in(862,42) dimension(862,52) d(862,54) =(862,54) 1.(862,54) On(862,62) the(862,66) other(863,5) hand,(863,11) both(863,16) the(863,20) Bruggeman(863,30) formula(863,38) and(863,42) its(863,46) "type(863,53) 2"(863,57) counterpart(863,69) do(864,2) reduce(864,9) to(864,12) the(864,16) exact(864,22) result(864,29) when(864,34) d(864,36) =(864,36) 1,(864,36) and(864,45) can(864,49) be(864,52) seen(864,57) to(864,60) always(864,67) obey(865,4) the(865,8) HS(865,11) bounds(865,18) whatever(865,27) d(865,29) is.(865,35) The(865,39) one-impurity(865,52) approximation(865,66) scheme(866,6) therefore(866,16) appears(866,24) to(866,27) be(866,30) of(866,33) better(866,40) physical(866,49) relevance(866,59) for(866,63) all(866,67) dimensions,(867,11) than(867,16) the(867,20) cumulant(867,29) series(867,36) approximation.(867,51)
+
+We(869,2) now(869,6) discuss(869,14) the(869,18) critical(869,27) behavior.(869,37) First(869,43) of(869,46) all,(869,51) the(869,55) percolation(869,67) thresholds(870,10) found(870,16) in(870,19) the"type(870,29) 2"(870,33) formulas(870,42) are(870,46) [formula](871,1) (cumulant(871,41) series)(871,49) and(871,53) pc(871,55) =(871,55) 1(871,55) /(871,55) (2d(871,55) -(871,55) 1)(871,55) (one-impurity).(872,15) These(872,21) thresholds(872,32) are(872,36) the(872,40) percolation(872,52) thresholds(872,63) of(872,66) the(872,70) Potts(873,5) model,(873,12) and(873,16) that(873,21) of(873,24) the(873,28) Bethe(873,34) lattice(873,42) model,(873,49) respectively.(873,63) Both(873,68) thresholds(874,10) decrease(874,19) as(874,22) 1(874,24) /(874,24) (2d)(874,24) when(874,36) d(874,38) →(874,38) ∞(874,38) ,(874,38) which(874,56) is(874,59) the(874,63) exact(874,69) asymptotics.(875,12) The(875,16) Bethe(875,22) and(875,26) Potts(875,32) models(875,39) are(875,43) mean-field(875,54) models,(875,62) where(875,68) emphasis(876,8) is(876,11) put(876,15) on(876,18) fluctuations(876,31) in(876,34) the(876,38) couplings(876,48) between(876,56) a(876,58) given(876,64) site(876,69) and(877,3) its(877,7) neighbours.(877,19) On(877,22) the(877,26) contrary,(877,36) in(877,39) effective-medium(877,56) theories,(877,66) interactions(878,12) between(878,20) impurities(878,31) are(878,35) taked(878,41) into(878,46) account(878,54) through(878,62) the(878,66) self-consistent(879,15) background(879,26) medium.(879,34) Such(879,39) interactions(879,52) are(879,56) more(879,61) important(880,9) for(880,13) low(880,17) dimensions.(880,29) Effective-medium(880,46) theories(880,55) therefore(880,65) overestimate(881,12) interactions(881,25) in(881,28) high(881,33) dimensions,(881,45) whereas(881,53) mean-field(881,64) models(882,6) are(882,10) expected(882,19) to(882,22) underestimate(882,36) them(882,41) in(882,44) low(882,48) dimensions.(882,60) Above(882,66) the(882,70) upper(883,5) critical(883,14) dimension(883,24) where(883,30) mean-field(883,41) models(883,48) are(883,52) accurate,(883,62) interactions(884,12) between(884,20) impurities(884,31) become(884,38) irrelevant.(884,50) According(884,60) to(884,63) this(884,68) discussion,(885,11) our(885,15) "type(885,22) 2"(885,26) formulas(885,35) appear(885,42) as(885,45) hybrids(885,53) between(885,61) mean-field(886,10) and(886,14) usual(886,20) effective-medium(886,37) theories,(886,47) and(886,51) are(886,55) expected(886,64) to(886,67) be(886,70) mostly(887,6) relevant(887,15) in(887,18) dimensions(887,29) intermediate(887,42) between(887,50) d(887,52) =(887,52) 1(887,52) and(887,60) the(887,64) upper(887,70) critical(888,8) dimension(888,18) d(888,20) =(888,20) 6.(888,20) Indeed,(888,33) the(888,37) condition(888,47) [formula](889,1) minimizes(889,44) the(889,48) influence(889,58) of(889,61) the(889,65) background(890,10) medium(890,17) and,(890,22) according(890,32) to(890,35) the(890,39) interpretation(890,54) developped(890,65) in(890,68) Sec.(891,4) [\ref=rcacota],(891,4) replica(891,28) coupling(891,37) has(891,41) to(891,44) do(891,47) with(891,52) couplings(891,62) between(892,7) neighboring(892,19) points.(892,27) The(892,31) reason(892,38) for(892,42) which(892,48) the(892,52) introduction(892,65) of(892,68) a(892,70) replica-coupling(893,16) ansatz(893,23) yields(893,30) the(893,34) exact(893,40) thresholds(893,51) of(893,54) mean-field(893,65) theories(894,8) will(894,13) have(894,18) to(894,21) be(894,24) clarified(894,34) in(894,37) the(894,41) future.(894,49) In(894,52) Fig.(894,57) [\ref=fig5],(894,57) we(894,73) plot(894,78) the(894,82) quadratic(894,92) fluctuations(894,105) [formula](894,107) as(895,50) a(895,52) function(895,61) of(895,64) p.(896,1) The(896,8) fluctuations(896,21) in(896,24) the(896,28) "type(896,35) 2"(896,39) estimates(896,49) are(896,53) greatly(896,61) reduced(896,69) compared(897,8) to(897,11) those(897,17) of(897,20) the(897,24) Bruggeman(897,34) and(897,38) HY(897,41) formula.(897,50) This(897,55) is(897,58) consistent(897,69) with(898,4) the(898,8) fact(898,13) that(898,18) the(898,22) influence(898,32) of(898,35) the(898,39) background(898,50) is(898,53) reduced.(898,62)
+
+"Type(900,6) 1"(900,10) formulas(900,19) give(900,24) exponents(900,34) s(900,36) =(900,36) t(900,36) =(900,36) 1,(900,36) while(900,49) for(900,53) "type(900,60) 2"(900,64) formulas(901,8) they(901,13) are(901,17) s(901,19) =(901,19) 0,(901,19) t(901,26) =(901,26) 2.(901,26) Mean-field(901,42) theories(901,51) yield(901,57) s(901,59) =(901,59) 0,(901,59) t(901,66) =(901,66) 3(901,66) which(902,5) are(902,9) the(902,13) exact(902,19) values(902,26) for(902,30) d(902,32) ≥(902,32) 6.(902,32) It(902,44) is(902,47) interesting(902,59) to(902,62) compare(903,7) these(903,13) values(903,20) to(903,23) exact(903,29) bounds(903,36) deduced(903,44) from(903,49) the(903,53) Nodes-Links-Blobs(904,17) (NLB)(904,23) model,(904,30) in(904,33) all(904,37) dimensions.(904,49) The(904,53) NLB(904,57) model(904,63) is(904,66) currently(905,9) accepted(905,18) as(905,21) a(905,23) good(905,28) one(905,32) for(905,36) the(905,40) backbone(905,49) structure(905,59) of(905,62) real(905,67) random(906,6) resistor(906,15) networks[\cite=STAU92].(906,24) The(906,42) bounds(906,49) read(906,54)
+
+[formula](909,6)
+
+where(914,5) ν(914,7) >(914,7) 0(914,7) is(914,16) the(914,20) correlation(914,32) length(914,39) exponent:(914,49) [formula].(914,51) They(915,21) hold(915,26) for(915,30) 2(915,32) ≤(915,32) d(915,32) ≤(915,32) 6,(915,32) whereas(915,55) for(915,59) d(915,61) >(915,61) 6(915,61) the(915,69) right-hand(916,10) sides(916,16) in(916,19) ([\ref=expbounds])(916,21) are(916,41) fixed(916,47) to(916,50) their(916,56) d(916,58) =(916,58) 6(916,58) values.(917,7) These(917,13) bounds(917,20) follow,(917,28) e.g.,(917,34) from(917,39) comparing(917,49) the(917,53) lower(917,59) and(917,63) upper(917,69) exact(918,5) bounds(918,12) obtained(918,21) in(918,24) Ref.(918,29) [\cite=WRIG86](918,29) for(918,48) the(918,52) noise(918,58) exponent(918,67) κ(919,1) in(919,11) weakly(919,18) nonlinear(919,28) networks,(919,38) within(919,45) the(919,49) NLB(919,53) scheme.(919,61) They(919,66) are(920,3) satisfied(920,13) by(920,16) simulation(920,27) results(920,35) [\cite=WRIG86].(920,41) Using(921,5) the(921,9) usual(921,15) effective-medium(922,16) values(922,23) s(922,25) =(922,25) t(922,25) =(922,25) 1(922,25) in(922,34) ([\ref=expbounds])(922,36) implies(922,60) the(922,64) absurd(923,6) value(923,12) ν(923,14) =(923,14) 0,(923,14) save(923,26) for(923,30) d(923,32) =(923,32) 2(923,32) where(923,42) a(923,44) finite(923,51) value(923,57) of(923,60) ν(923,62) is(923,69) allowed.(924,8) Though(924,15) information(924,27) about(924,33) the(924,37) correlation(924,49) length(924,56) ξ(924,58) (and(924,67) therefore(925,9) about(925,15) ν)(925,17) is(925,25) not(925,29) included(925,38) in(925,41) the(925,45) Bruggeman(925,55) nor(925,59) in(925,62) the(925,66) HY(925,69) formulas,(926,9) the(926,13) above(926,19) bounds(926,26) show(926,31) that,(926,37) as(926,40) long(926,45) as(926,48) they(926,53) are(926,57) meant(926,63) to(926,66) model(927,5) percolating(927,17) systems(927,25) obeying(927,33) the(927,37) NLB(927,41) picture,(927,50) these(927,56) formulas(927,65) are(927,69) truly(928,5) adequate(928,14) only(928,19) in(928,22) dimension(928,32) d(928,34) =(928,34) 2(928,34) -(928,41) and(928,45) d(928,47) =(928,47) 1(928,47) where(928,57) the(928,61) Bruggeman(928,71) formula(929,7) is(929,10) exact.(929,17) As(929,20) to(929,23) "type(929,30) 2"(929,34) formulas,(929,44) we(929,47) insert(929,54) the(929,58) values(930,6) s(930,8) =(930,8) 0,(930,8) t(930,15) =(930,15) 2(930,15) into(930,24) ([\ref=expbounds])(930,26) and(930,46) deduce(930,53) that(930,58) ν(931,1) =(931,1) 1(931,1) /(931,1) (d(931,1) -(931,1) 2),(931,1) a(931,16) reasonable(931,27) expression(931,38) for(931,42) d(931,44) ≥(931,44) 3(931,44) only.(931,58) If(931,61) we(931,64) furthermore(932,11) insist(932,18) on(932,21) having(932,28) ν(932,30) ≥(932,30) 1(932,30) /(932,30) 2(932,30) as(932,45) in(932,48) real(932,53) systems,(932,62) these(932,68) heuristic(933,9) arguments(933,19) restrict(933,28) the(933,32) range(933,38) of(933,41) validity(933,50) of(933,53) the(933,57) new(933,61) formulas(933,70) to(934,2) d(934,4) =(934,4) 3,4.(934,4) Note,(934,17) moreover,(934,27) that(934,32) only(934,37) in(934,40) dimension(934,50) d(934,52) =(934,52) 2(934,52) are(934,60) the(934,64) exponents(935,9) equal:(935,16) s(935,18) =(935,18) t,(935,18) because(935,31) of(935,34) self-duality(935,47) [\cite=STRA77].(935,53) A(935,64) formula(936,7) with(936,12) unequal(936,20) exponents(936,30) therefore(936,40) is(936,43) expected(936,52) to(936,55) be(936,58) essentially(936,70) relevant(937,8) to(937,11) dimensions(937,22) ≥(937,24) 3.(937,24)
+
+We(939,2) also(939,7) quote(939,13) theoretical(939,25) bounds(939,32) for(939,36) t(939,38) due(939,44) to(939,47) Golden,(939,55) valid(939,61) for(939,65) hierarchical(940,12) NLB(940,16) models:(940,24) 1(940,26) ≤(940,26) t(940,26) ≤(940,26) 2(940,26) for(940,44) d(940,46) =(940,46) 2,3(940,46) and(940,56) 2(940,58) ≤(940,58) t(940,58) ≤(940,58) 3(940,58) for(941,6) d(941,8) ≥(941,8) 4(941,8) [\cite=GOLD90].(941,22) The(941,35) above(941,41) analysis(941,50) is(941,53) consistent(941,64) with(941,69) these(942,5) bounds,(942,13) and(942,17) can(942,21) be(942,24) summarized(942,35) as(942,38) a(942,40) set(942,44) of(942,47) prescriptions(942,61) for(942,65) using(943,5) the(943,9) "best"(943,18) available(943,28) effective(943,38) medium(943,45) theories,(943,55) as(943,58) far(943,62) as(943,65) a(943,67) non-conflicting(944,15) critical(944,24) behaviour(944,34) is(944,37) concerned:(944,48) for(944,52) d(944,54) =(944,54) 1,(944,54) Bruggeman's(945,11) formula,(945,20) or(945,23) its(945,27) "type(945,34) 2"(945,38) counterpart(945,50) are(945,54) exact;(945,61) for(945,65) d(946,1) =(946,1) 2,(946,1) the(946,10) Bruggeman(946,20) or(946,23) HY(946,26) formulas(946,35) are(946,39) adequate;(946,49) for(946,53) d(946,55) =(946,55) 3,4,(946,55) "type(946,69) 2"(947,3) formulas(947,12) are(947,16) applicable;(947,28) finally,(947,37) for(947,41) d(947,43) ≥(947,43) 5(947,43) mean-field(947,62) theories(948,8) would(948,14) be(948,17) the(948,21) most(948,26) relevant.(948,36) Estimates(948,46) or(948,49) exact(948,55) values(948,62) for(948,66) the(949,3) exponents(949,13) are(949,17) [\cite=STAU92]:(949,23) (ν,s,t)(949,34) =(949,34) (4(949,34) /(949,34) 3,1.3,1.3)d(949,34) =(949,34) 2,(949,34) (0.88,0.73,2.00)d(950,1) =(950,1) 3,(950,1) (0.68,0.4,2.4)d(950,27) =(950,27) 4,(950,27) (0.57,0.1,2.7)d(951,1) =(951,1) 5,(951,1) (1(951,25) /(951,25) 2,0,3)d(951,25) ≥(951,25) 6.(951,25) These(951,52) values(951,59) support(951,67) our(952,3) prescriptions.(952,18)
+
+An(954,2) interesting(954,14) observation(954,26) is(954,29) that(954,34) actually(954,43) both(954,48) "type(954,55) 1"(954,59) and(955,3) "type(955,10) 2"(955,14) formulas(955,23) can(955,27) be(955,30) given(955,36) by(955,39) a(955,41) variational(955,53) formulation(955,65) as(955,68)
+
+[formula](956,6)
+
+provided(964,8) that(964,13) an(964,16) unphysical(964,27) solution(964,36) [formula](964,38) is(964,63) discarded(965,9) in(965,12) the(965,16) minimization(965,29) ([\ref=min]).(965,31) Indeed,(965,50) at(965,53) least(965,59) in(965,62) the(965,66) framework(966,9) of(966,12) the(966,16) two(966,20) different(966,30) models(966,37) introduced(966,48) in(966,51) Sec.(966,56) [\ref=tm],(966,56) the(967,3) curves(967,10) for(967,14) q(σ0)(967,16) and(967,32) [formula](967,34) are(967,68) found(968,5) to(968,8) have(968,13) the(968,17) form(968,22) shown(968,28) in(968,31) Fig.(968,36) 6.(968,36) The(968,44) infimum(968,52) ([\ref=min])(968,54) occurs(969,6) at(969,9) q(969,11) =(969,11) 0,(969,11) whereas(969,24) the(969,28) solution(969,37) σ*0(969,39) to(969,53) the(969,57) equation(969,66) [formula](970,1) corresponds(970,46) to(970,49) a(970,51) maximum(970,59) of(970,62) [formula].(971,1) Both(971,27) types(971,33) of(971,36) theories(971,45) can(971,49) therefore(971,59) be(971,62) interpreted(972,11) as(972,14) extremal(972,23) theories(972,32) in(972,35) the(972,39) framework(972,49) of(972,52) self-consistent(972,68) models(973,6) built(973,12) on(973,15) the(973,19) replica-coupling(973,36) ansatz.(973,44) The(973,48) physical(973,57) meaning(973,65) of(973,68) this(974,4) interpretation(974,19) is(974,22) still(974,28) not(974,32) clear.(974,39) However,(974,48) "type(974,55) 2"(974,59) formulas(975,8) should(975,15) not(975,19) been(975,24) disregarded(975,36) as(975,39) unphysical(975,50) because(975,58) of(975,61) their(975,67) showing(976,7) up(976,10) as(976,13) maximal(976,21) ones:(976,27) the(976,31) minimization(976,44) principle(976,54) states(976,61) that(976,66) the(976,70) dissipated(977,10) power(977,16) is(977,19) minimized(977,29) with(977,34) respect(977,42) to(977,45) the(977,49) electric(977,58) field;(977,65) but(977,69) there(978,5) is(978,8) no(978,11) reason(978,18) why(978,22) an(978,25) extremization(978,39) with(978,44) respect(978,52) to(978,55) arbitrary(978,65) variational(979,11) parameters(979,22) should(979,29) not(979,33) lead(979,38) to(979,41) a(979,43) maximum(979,51) of(979,54) the(979,58) dissipated(979,69) power.(980,6) Eqs.(980,11) ([\ref=min]),(980,11) ([\ref=max])(980,27) explain(980,45) why(980,49) for(980,53) a(980,55) given(980,61) approximation,(981,14) one(981,18) always(981,25) has(981,29) [formula](981,31) in(982,43) Figs.(982,49) 1-4.(982,49)
+
+We(984,2) now(984,6) consider(984,15) some(984,20) points(984,27) that(984,32) were(984,37) not(984,41) explicitly(984,52) treated(984,60) in(984,63) the(984,67) paper.(985,6) First,(985,13) we(985,16) presented(985,26) the(985,30) formalism(985,40) in(985,43) terms(985,49) of(985,52) the(985,56) electric(985,65) field(986,5) E,(986,7) from(986,15) which(986,21) we(986,24) obtained(986,33) a(986,35) conductivity(986,48) [formula].(987,1) The(987,26) electric(987,35) current(987,43) j(987,45) (or(987,51) the(987,55) induction(987,65) D),(988,1) could(988,11) be(988,14) used(988,19) instead(988,27) [\cite=BART98].(988,33) In(988,45) such(988,50) a(988,52) formulation,(988,65) the(988,69) random(989,6) constitutive(989,19) parameter(989,29) is(989,32) the(989,36) resistivity(989,48) ρ(x)(989,50) =(989,50) 1(989,50) /(989,50) σ(x)(989,50) and(990,3) the(990,7) constraints(990,19) are(990,23) [formula](990,25) and(990,45) [formula].(990,47) One(990,69) then(991,4) computes(991,13) an(991,16) effective(991,26) resistivity(991,38) [formula].(991,40) Both(991,64) formulations(992,12) are(992,16) equivalent,(992,28) but(992,32) a(992,34) given(992,40) approximation(992,54) scheme(992,61) in(992,64) general(993,7) leads(993,13) to(993,16) different(993,26) results(993,34) for(993,38) [formula](993,40) and(993,64) [formula].(994,1) Preliminary(994,62) investigations(995,14) of(995,17) "type(995,24) 2"(995,28) formulas(995,37) have(995,42) been(995,47) led(995,51) in(995,54) this(995,59) case.(996,5) These(996,11) will(996,16) be(996,19) presented(996,29) elsewhere.(996,40) Finally,(996,49) we(996,52) discuss(996,60) the(996,64) natural(997,7) question(997,16) about(997,22) the(997,26) possibility(997,38) of(997,41) replica-symmetry(997,58) breaking(997,67) [\cite=PARI84].(998,5) Replica(998,22) symmetry(998,31) breaking(998,40) introduces(998,51) more(998,56) free(998,61) parameters(999,10) in(999,13) the(999,17) ansatz,(999,25) and(999,29) the(999,33) final(999,39) extremization(999,53) has(999,57) to(999,60) be(999,63) carried(1000,7) out(1000,11) with(1000,16) respect(1000,24) to(1000,27) several(1000,35) variables.(1000,46) There(1000,52) is(1000,55) no(1000,58) frustration(1000,70) in(1001,2) this(1001,7) problem,(1001,16) and(1001,20) we(1001,23) therefore(1001,33) expect(1001,40) the(1001,44) replica(1001,52) symmetric(1001,62) solution(1002,8) to(1002,11) be(1002,14) the(1002,18) only(1002,23) one.(1002,28) In(1002,31) order(1002,37) to(1002,40) test(1002,45) this,(1002,51) we(1002,54) tried(1002,60) a(1002,62) one-step(1002,71) symmetry-breaking(1003,17) solution(1003,26) and(1003,30) did(1003,34) indeed(1003,41) not(1003,45) find(1003,50) any(1003,54) new(1003,58) solution.(1003,68)
+
+Conclusion(1005,19)
+
+We(1008,2) presented(1008,12) a(1008,14) functional(1008,25) approach(1008,34) to(1008,37) the(1008,41) calculation(1008,53) of(1008,56) effective-medium(1009,16) properties(1009,27) of(1009,30) random(1009,37) media.(1009,44) We(1009,47) showed(1009,54) how(1009,58) to(1009,61) recover(1009,69) the(1010,3) Bruggeman(1010,13) and(1010,17) Hori-Yonezawa(1010,31) formulas(1010,40) by(1010,43) using(1010,49) specific(1010,58) approximation(1011,13) schemes(1011,21) to(1011,24) the(1011,28) basic(1011,34) functional(1011,45) integral.(1011,55) We(1011,58) also(1011,63) discussed(1012,9) the(1012,13) introduction(1012,26) of(1012,29) a(1012,31) replica-coupling(1012,48) parameter(1012,58) in(1012,61) a(1012,63) gaussian(1013,8) Ansatz,(1013,16) from(1013,21) which(1013,27) new(1013,31) effective-medium(1013,48) formulas(1013,57) were(1013,62) obtained.(1014,9) These(1014,15) formulas(1014,24) appear(1014,31) to(1014,34) be(1014,37) more(1014,42) adequate(1014,51) in(1014,54) d(1014,56) =(1014,56) 3(1014,56) compared(1014,69) to(1015,2) the(1015,6) standard(1015,15) ones(1015,20) by(1015,23) Bruggeman(1015,33) and(1015,37) HY.(1015,41) Because(1015,49) it(1015,52) yields(1015,59) a(1015,61) sensible(1016,8) result(1016,15) in(1016,18) all(1016,22) dimensions,(1016,34) and(1016,38) fulfills(1016,47) all(1016,51) the(1016,55) constraints(1016,67) required(1017,8) to(1017,11) deserve(1017,19) the(1017,23) label(1017,29) of(1017,32) a(1017,34) "good"(1017,43) effective-medium(1017,60) theory,(1017,68) the(1018,3) "type(1018,10) 2"(1018,14) counterpart(1018,26) of(1018,29) the(1018,33) Bruggeman(1018,43) formula(1018,51) offers(1018,58) an(1018,61) interesting(1019,11) alternative(1019,23) to(1019,26) the(1019,30) latter.(1019,38) Indeed,(1019,46) it(1019,49) has(1019,53) a(1019,55) percolation(1019,67) threshold(1020,9) equal(1020,15) to(1020,18) pc(1020,20) =(1020,20) 1(1020,20) /(1020,20) 5(1020,20) in(1020,31) three(1020,37) dimensions.(1020,49) This(1020,54) is(1020,57) closer(1020,64) to(1020,67) values(1021,6) observed(1021,15) in(1021,18) real(1021,23) materials,(1021,34) compared(1021,43) to(1021,46) the(1021,50) pc(1021,52) =(1021,52) 1(1021,52) /(1021,52) 3(1021,52) of(1021,63) the(1021,67) Bruggeman(1022,9) formula(1022,17) which(1022,23) often(1022,29) constitutes(1022,41) an(1022,44) overestimation.(1022,60)
+
+Quadratic(1031,18) fluctuations(1031,31) of(1031,34) the(1031,38) field(1031,44)
+
+For(1033,3) completeness,(1033,17) we(1033,20) give(1033,25) here(1033,30) the(1033,34) demonstration(1033,48) of(1033,51) Eq.(1033,55) ([\ref=berg])(1033,55) [\cite=BERG78].(1034,5) Volume(1034,21) averages(1034,30) are(1034,34) identified(1034,45) to(1034,48) statistical(1034,60) ones.(1034,66) Because(1035,7) [formula],(1035,9) where(1036,41) 〈(1036,43) ·(1036,43) 〉ν(1036,43) denotes(1037,7) an(1037,10) average(1037,18) on(1037,21) the(1037,25) phase(1037,31) ν(1037,33) on(1037,40) which(1037,46) the(1037,50) conductivity(1037,63) σν(1038,1) is(1038,15) constant,(1038,25) the(1038,29) effective(1038,39) conductivity(1038,52) reads(1038,58)
+
+[formula](1039,6)
+
+On(1042,2) the(1042,6) other(1042,12) hand,(1042,18) [formula](1042,20) has(1042,44) to(1042,47) be(1042,50) an(1042,53) homogeneous(1042,65) function(1043,8) of(1043,11) degree(1043,18) one(1043,22) of(1043,25) the(1043,29) σν,(1043,31) whence(1043,50)
+
+[formula](1044,6)
+
+Comparing(1047,9) both(1047,14) equations(1047,24) yields(1047,31) the(1047,35) values(1047,42) of(1047,45) the(1047,49) 〈E2〉ν(1048,1) and(1048,28) consequently(1048,41) that(1048,46) of(1048,49) [formula].(1048,51) Equ.(1049,45) ([\ref=berg])(1049,45) follows.(1049,68) We(1050,2) note(1050,7) that(1050,12) if(1050,15) [formula](1050,17) (an(1050,62) exact(1050,68) upper(1051,5) bound(1051,11) for(1051,15) the(1051,19) effective(1051,29) conductivity),(1051,44) then(1051,49) 〈ΔE2〉(1052,1) =(1052,1) 0.(1052,1) Therefore,(1052,41) [formula](1052,43) defines(1052,92) a(1052,94) trivial(1052,102) model(1052,108) of(1053,2) a(1053,4) medium(1053,11) which(1053,17) is(1053,20) a(1053,22) composite,(1053,33) but(1053,37) from(1053,42) which(1053,48) field(1053,54) fluctations(1053,66) are(1054,3) nonetheless(1054,15) absent.(1054,23)
+
+Calculations(1056,21) in(1056,24) the(1056,28) "one-impurity"(1056,45) approximation(1056,59)
+
+The(1058,3) approximation(1058,17) which(1058,23) leads(1058,29) to(1058,32) ([\ref=oneimp])(1058,34) is(1058,50) built(1058,56) as(1058,59) follows.(1058,68) We(1058,71) first(1058,77) expand(1058,84) the(1058,88) exponential(1058,100)
+
+[formula](1059,6)
+
+Since(1064,5) H0(1064,7) is(1064,22) non-random,(1064,34) using(1064,40) the(1064,44) hamiltonian(1064,56) density(1065,7) w0(1065,9) defined(1065,21) in(1065,24) ([\ref=hdens])(1065,26) and(1065,42) Δwx[E(x)](1065,44) defined(1065,69) by(1065,72) ([\ref=dwx])(1065,74) we(1065,87) can(1065,91) rewrite(1065,99) the(1065,103) difference(1065,114) He(1065,116) -(1065,116) H0(1065,116) as(1065,143)
+
+[formula](1066,6)
+
+where(1069,5)
+
+[formula](1070,6)
+
+The(1074,3) one-impurity(1074,16) approximation(1074,30) consists(1074,39) in(1074,42) writing(1074,50) (k(1074,52) ≥(1074,52) 1)(1074,52)
+
+[formula](1076,6)
+
+The(1087,3) last(1087,8) expression(1087,19) only(1087,24) retains(1087,32) contributions(1087,46) from(1087,51) identical(1087,61) points(1087,68) in(1088,2) Eq.(1088,6) ([\ref=intint]).(1088,6) Summing(1088,31) back(1088,36) the(1088,40) series(1088,47) in(1088,50) ([\ref=ser]),(1088,52) and(1088,67) using(1088,73) ([\ref=dh])(1088,75) yields(1088,91)
+
+[formula](1089,6)
+
+where(1099,5) a(1099,7) one-impurity-type(1099,25) integral(1099,34) is(1099,37) involved.(1099,47) Since(1099,53) the(1099,57) fundamental(1099,69) size(1100,4) of(1100,7) the(1100,11) theory(1100,18) (~(1100,20) v1(1100,20) /(1100,20) d)(1100,20) is(1100,38) much(1100,43) smaller(1100,51) than(1100,56) the(1100,60) volume(1100,67) V(1101,1) =(1101,1) 1(1101,1) of(1101,8) the(1101,12) system,(1101,20) and(1101,24) since(1101,30) the(1101,34) latter(1101,41) is(1101,44) statistically(1101,58) translation-invariant,(1102,22) the(1102,26) outer(1102,32) integral(1102,41) over(1102,46) y(1102,48) is(1102,53) redundant(1102,63) with(1102,68) the(1103,3) disorder(1103,12) average,(1103,21) and(1103,25) can(1103,29) be(1103,32) dropped.(1103,41) We(1103,44) therefore(1103,54) arrive(1103,61) at(1103,64) ([\ref=oneimp]).(1104,1)
+
+When(1106,4) β(1106,6) →(1106,6) ∞(1106,6) ,(1106,6) the(1106,26) functional(1106,37) I(y)(1106,39) can(1106,56) be(1106,59) computed(1106,68) exactly.(1107,8) Let(1107,12) us(1107,15) briefly(1107,23) indicate(1107,32) how(1107,36) to(1107,39) do(1107,42) it.(1107,46) We(1107,49) first(1107,55) introduce(1107,65) the(1107,69) notation(1108,8) [formula](1108,10) for(1108,22) vectors(1108,30) of(1108,33) dimension(1108,43) nd,(1108,45) and(1108,53) components(1108,64) hαi,(1109,1) with(1109,18) [formula],(1109,20) [formula].(1109,41) Hence,(1109,62) [formula].(1110,1) The(1110,62) next(1110,67) step(1111,4) is(1111,7) to(1111,10) use(1111,14) the(1111,18) formal(1111,25) identity(1111,34)
+
+[formula](1112,6)
+
+to(1115,2) write(1115,8) the(1115,12) numerator(1115,22) of(1115,25) ([\ref=caliy]),(1115,27) which(1115,46) we(1115,49) denote(1115,56) hereafter(1115,66) by(1115,69) J(y),(1116,1) as(1116,18)
+
+[formula](1117,6)
+
+where(1120,5) [formula](1120,7) is(1120,20) the(1120,24) matrix(1120,31) defined(1120,39) from(1120,44) the(1120,48) replica-coupling(1120,65) matrix(1121,6) M(1121,8) in(1121,13) w0(1121,15) by(1121,22) [formula].(1121,24) After(1122,35) an(1122,38) integration(1122,50) over(1122,55) the(1122,59) fields(1122,66) E(1122,68) and(1123,3) φ(1123,5) implied(1123,18) in(1123,21) the(1123,25) measure(1123,33) E(1123,35) (which(1123,59) can(1123,63) be(1123,66) easily(1124,6) done(1124,11) using(1124,17) the(1124,21) Fourier(1124,29) components(1124,40) of(1124,43) φ,(1124,45) and(1124,55) with(1124,60) y(1124,62) =(1124,62) 0(1124,62) since(1125,5) ([\ref=oneimp])(1125,7) is(1125,23) independent(1125,35) of(1125,38) y),(1125,40) J(1125,46) reads,(1125,61) up(1125,64) to(1125,67) inessential(1126,11) factors(1126,19) [\cite=NOTE2]:(1126,25)
+
+[formula](1127,6)
+
+Formally(1133,8) expanding(1133,18) exp(1133,20) ((1133,20) -(1133,20) vβΔwy)(1133,20) in(1133,47) powers(1133,54) of(1133,57) [formula],(1134,1) and(1134,35) carrying(1134,44) out(1134,48) successive(1134,59) integrations(1135,12) by(1135,15) parts(1135,21) over(1135,26) [formula](1135,28) yields(1135,44)
+
+[formula](1136,6)
+
+where(1141,5) the(1141,9) determinant(1141,21) is(1141,24) evaluated(1141,34) in(1141,37) replica(1141,45) space.(1141,52) Finally,(1141,61) I(y)(1142,1) =(1142,1) J(y)(1142,1) /(1142,1) J(y;Δwy(1142,1) =(1142,1) 0):(1142,1)
+
+[formula](1143,6)
+
+For(1148,3) any(1148,7) Δwy,(1148,9) this(1148,26) integral(1148,35) over(1148,40) the(1148,44) replicated(1148,55) vector(1148,62) field(1148,68) h(1149,1) can(1149,7) be(1149,10) computed(1149,19) exactly(1149,27) using(1149,33) a(1149,35) saddle-point(1149,48) method(1149,55) [\cite=NEGE87](1149,61) in(1150,2) the(1150,6) limit(1150,12) β(1150,14) →(1150,14) ∞(1150,14) ,(1150,14) as(1150,33) announced.(1150,44) This(1150,49) allows(1150,56) for(1150,60) a(1150,62) possible(1151,8) extension(1151,18) of(1151,21) the(1151,25) theory(1151,32) to(1151,35) nonlinear(1151,45) media(1151,51) in(1151,54) the(1151,58) "one-impurity"(1152,16) approximation.(1152,31) Here,(1152,37) for(1152,41) the(1152,45) linear(1152,52) problem(1152,60) at(1152,63) hand,(1152,69) Eq.(1153,3) ([\ref=iy])(1153,3) is(1153,18) a(1153,20) simple(1153,27) gaussian(1153,36) integral.(1153,46) Setting(1153,54) Δσ(1154,1) =(1154,1) σ(1154,1) -(1154,1) σ0(1154,1) and(1154,34)
+
+[formula](1155,6)
+
+we(1158,2) obtain(1158,9)
+
+[formula](1159,6)
+
+from(1162,4) which(1162,10) follows(1162,18) ([\ref=dwoi]).(1162,20)
+
+Calculation(1164,20) in(1164,23) the(1164,27) "cumulant(1164,38) series"(1164,47) approximation(1164,61)
+
+We(1166,2) have(1166,7) to(1166,10) compute(1166,18) [formula](1166,20) and(1166,63) [formula](1167,1) in(1167,43) Equ.(1167,48) ([\ref=dwsa]).(1167,48) The(1168,3) calculation(1168,15) of(1168,18) [formula](1168,20) is(1168,62) easy(1168,67) with(1169,4) the(1169,8) methods(1169,16) already(1169,24) employed,(1169,34) and(1169,38) yields(1169,45)
+
+[formula](1170,6)
+
+As(1174,2) to(1174,5) [formula],(1174,7) we(1175,2) first(1175,8) expand(1175,15) He(1175,17) (Eq.(1175,34) ([\ref=calf]))(1175,34) in(1175,52) the(1175,56) cumulants(1175,66) Ck(1176,1) of(1176,8) the(1176,12) disorder(1176,21) averages(1176,30) of(1176,33) σ(x),(1176,35) according(1176,56) to(1176,59) their(1176,65) definition(1177,10) by(1177,13) the(1177,17) generating(1177,28) funtion(1177,36) (X(1177,38) is(1177,44) a(1177,46) generic(1177,54) expansion(1177,64) variable)(1178,9)
+
+[formula](1179,6)
+
+We(1182,2) therefore(1182,12) have:(1182,18)
+
+[formula](1183,6)
+
+We(1189,2) deduce(1189,9) that(1189,14)
+
+[formula](1190,6)
+
+where(1195,5)
+
+[formula](1196,6)
+
+(because(1202,8) of(1202,11) statistical(1202,23) homogeneity,(1202,36) these(1202,42) coefficients(1202,55) do(1202,58) not(1202,62) depend(1202,69) on(1203,2) the(1203,6) position(1203,15) variable(1203,24) x).(1203,26) It(1203,33) is(1203,36) convenient(1203,47) to(1203,50) introduce(1203,60) the(1203,64) following(1204,9) generating(1204,20) function(1204,29) Z(X)(1204,31) in(1204,47) order(1204,53) to(1204,56) compute(1204,64) the(1204,68) Ck:(1204,70)
+
+[formula](1205,6)
+
+Setting(1215,7) Aαγ(1215,9) =(1215,9) δαγ(1215,9) +(1215,9) (X(1215,9) /(1215,9) vβd)[M(1215,9) -(1215,9) 1]αγ,(1215,9) we(1215,89) obtain(1215,96) [\cite=NOTE2](1215,102)
+
+[formula](1216,6)
+
+(the(1222,4) trace(1222,10) and(1222,14) the(1222,18) logarithm(1222,28) act(1222,32) in(1222,35) the(1222,39) replica(1222,47) space).(1222,55)
+
+Expanding(1224,9) ([\ref=zx])(1224,11) in(1224,23) powers(1224,30) of(1224,33) X(1224,35) then(1224,42) allows(1224,49) for(1224,53) the(1224,57) identification(1224,72)
+
+[formula](1225,6)
+
+Use(1228,3) of(1228,6) this(1228,11) expression(1228,22) in(1228,25) ([\ref=fob])(1228,27) cancels(1228,45) the(1228,49) convergence(1228,61) factor(1228,68) k!:(1229,1) we(1229,8) reintroduce(1229,20) it(1229,23) by(1229,26) inserting(1229,36) the(1229,40) identity(1229,49)
+
+[formula](1230,6)
+
+applied(1233,7) to(1233,10) m(1233,12) =(1233,12) k(1233,12) -(1233,12) 1(1233,12) and(1233,22) m(1233,24) =(1233,24) k(1233,24) in(1233,31) the(1233,35) resulting(1233,45) cumulant(1233,54) series.(1233,62) This(1233,67) permits(1234,7) its(1234,11) Borel(1234,17) summation,(1234,28) which(1234,34) brings(1234,41) in(1234,44) the(1234,48) functions(1234,58) hm(x)(1234,60) defined(1235,7) by(1235,10) ([\ref=hm]).(1235,12) This(1235,27) results(1235,35) in(1235,38)
+
+[formula](1236,6)
+
+where(1243,5) we(1243,8) defined(1243,16) the(1243,20) family(1243,27) of(1243,30) functions(1243,40)
+
+[formula](1244,6)
+
+Note(1248,4) for(1248,8) further(1248,16) use(1248,20) that(1248,25)
+
+[formula](1249,6)
+
+For(1254,3) M(1254,5) given(1254,13) by(1254,16) ([\ref=matmok]),(1254,18) the(1254,36) differents(1254,47) terms(1254,53) in(1254,56) ([\ref=fmfo])(1254,58) are(1254,73)
+
+[formula](1255,6)
+
+which(1262,5) leads(1262,11) to(1262,14) Eq.(1262,18) ([\ref=fmfodeu]).(1262,18)

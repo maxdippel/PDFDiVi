@@ -1,0 +1,1180 @@
+Field distributions and effective-medium approximation for weakly nonlinear media
+
+arXiv:cond-mat/0001228v1 [cond-mat.mtrl-sci] 17 Jan 2000
+
+Yves-Patrick Pellegrini∗
+Service de Physique de la Matière Condensée,
+Commissariat à l’Energie Atomique,
+BP12, 91680 Bruyères-le-Châtel, France.
+(Last modified: November 18, 1999. Printed: February 1, 2008)
+An effective-medium theory is proposed for random weakly nonlinear dielectric media. It is
+based on a new gaussian approximation for the probability distributions of the electric field in each
+component of a multi-phase composite. These distributions are computed to linear order from a
+Bruggeman-like self-consistent formula. The resulting effective-medium formula for the nonlinear
+medium reduces to Bruggeman’s in the linear case. It is exact up to second order in a weakdisorder expansion, and close to the exact result in the dilute limit (in particular, it is exact for
+d = 1 and d = ∞). In a high contrast situation, the noise exponents are κ = κ′ = 0 near the
+percolation threshold. Numerical results are provided for different weak nonlinearities. The use of
+the Bruggeman formula as a starting point for nonlinear homogeneization theories in dimensions
+d > 2 is questioned on the basis of known exact bounds on the noise exponents.
+
+PACS numbers: 77.84.Lf, 77.84.-s, 77.20.Ht, 05.40.-a
+
+I. INTRODUCTION
+
+Numerous papers have been devoted to the problem of determining the effective constitutive law of random nonlinear
+composites in electrostatics1–16 , of importance for understanding various nonlinear phenomena, either entering the
+class of “weakly nonlinear” (WNL) phenomena, or that of “strongly nonlinear” phenomena such as random fuse-type
+or dielectric breakdown-type failure of materials17 .
+A convenient approach to the homogeneization problem is the “energetic” one20,21 , which can be summarized as
+follows. Let wx (E) be the local potential (the energy density) from which derives the local nonlinear constitutive law.
+The homogeneization step consists in computing the effective potential W as the volume average
+W = hwx (E)i,
+
+(1)
+
+from which the effective constitutive law can be deduced (see below). Denoting by pα the volume proportion of
+component (“phase”) α in a composite medium where wx = wα if x is in phase α, and introducing the volume
+averages per phase h·iα , W can be written
+X
+W =
+pα hwα (E)iα .
+(2)
+α
+
+A class of effective-medium theories, mostly concerned with weak power-law nonlinearities, use our ability to
+compute the second moment of the electric field E in the various phases of the composite18 , completed by a decoupling
+approximation3,19
+
+hwα (E)iα ≃ wα hE 2 i1/2
+.
+(3)
+α
+
+This approximation is exact only when wα is quadratic (the linear theory), or when the field is uniform, which occurs
+only if all the wα are equal, i.e. in a homogeneous medium.
+The purpose of this paper is to present a means to overcome this approximation, starting from the following remark:
+actually, with an additional hypothesis of ergodicity per phase, a volume phase average can be reinterpreted as an
+average over some probability distribution for the electric field in the phase under consideration. In this paper, volume
+averages will henceforth be identified to statistical averages. Then, the problem of computing W , Equ. (2), reduces
+
+∗
+
+e-mail: pellegri@bruyeres.cea.fr
+
+1
+
+to computing the probability distribution Pα of the field in each phase, by means of which the phase averages h·iα
+can be carried out, without appealing to (3).
+Note that the full probability distribution P(E) of the electric field in the medium is then
+X
+P(E) =
+pα Pα (E).
+(4)
+α
+
+Thus, the probability distributions of the field per phase are functions of great importance, since they carry all the
+information needed to build up the effective nonlinear properties. A few analyses of P(E) are available22 , mainly
+focused on its tail of relevance for breakdown phenomena23 . However, up to my knowledge, none has been specifically
+aimed at the individual components Pα (E). Chen and Sheng studied numerically the distribution of the local field
+in binary composites24 . An analytical model of the same distribution was subsequently proposed by Barthélémy and
+Orland, with excellent agreement with the latter simulations22 . Both works were limited to linear composites, in
+a weak-contrast situation. A first numerical attempt in the continuum, in a strong-contrast situation this time, is
+due to Cheng and Torquato25 . They carried out two-dimensional numerical calculations on disordered systems with
+inclusions of various shapes. An exact calculation for P in a linear medium with Hashin-Shtrikman (HS) geometry
+was recently made using a density of states approach26. In these works, the distribution P was found to be essentially
+bimodal for a binary medium (save in the HS geometry where fine-structure peaks are not wiped out by positional
+disorder), especially at high dielectric contrast25 . This is understandable in wiew of the decomposition (4).
+Still, in parallel with the second moment of the field, the first moment in each phase (the average field) can be
+computed as well from any linear effective-medium theory, without requiring any a priori knowledge about Pα . Widely
+used in mechanics of random continuous media in the framework of the so-called “thermoelastic problem”27 , this fact
+seems to have escaped most of the litterature on random dielectric media, excepted in the work by Ponte Castañeda
+and Kailasam15 where it is used to compute reference fields around which non-linear potentials are expanded prior to
+homogeneization. Knowing the first two moments is enough to attempt a modelization of Pα . The proposal examined
+in the present paper is to approximate each Pα (E) by a gaussian vector distribution, and thereby, to estimate (2) for
+any potential, without appealing to the strong (and somewhat artificial) decoupling assumption (3).
+The scope of the paper is limited however to WNL media, for which it is sufficient to compute the field distribution
+to linear order only1,2 . An extension of these considerations to strongly nonlinear media will be examined elsewhere.
+II. GENERAL FRAMEWORK
+
+Let us therefore consider a d-dimensional random medium described by WNL thermodynamic potentials of the
+type
+wx (E) = wxlin (E) + wxnl (E),
+
+(5)
+
+where
+wxlin (E) =
+
+1 2
+εE
+2
+
+(6)
+
+(ε(x) being the local permittivity entering the linear part), and wxnl (E) is the nonlinear (i.e. non-quadratic) part of
+the potential, assumed to be small. The local constitutive law is
+Di =
+
+∂wx (E)
+.
+∂Ei
+
+(7)
+
+The potential is prescribed in each phase: wx (E) = wα (E) if x ∈ α. Under the ergodic hypothesis introduced
+above, and a “boundary” condition28 hEi = E0 , the effective potential reads
+W (E 0 ) = Wlin (E 0 ) + Wnl (E 0 ),
+
+(8)
+
+where
+1X
+pα εα hE 2 iα ,
+2 α
+X
+Wnl (E 0 ) =
+pα hwαnl (E)iα .
+
+Wlin (E 0 ) =
+
+α
+
+2
+
+(9)
+(10)
+
+The effective constitutive law in the homgeneized medium is then
+∂W (E 0 )
+.
+∂Ei0
+
+Di0 =
+
+(11)
+
+To first order in wxnl , the field distributions entering (9) and (10) need only be computed at the linear level1,2 . The
+procedure is the following one. An extended linear anisotropic homogeneization problem is first considered, with an
+artificial ferroelectric-like part added to the potential15 :
+w̃xlin (E) =
+
+1
+Ei εij Ej + Pi Ei ,
+2
+
+(12)
+
+α
+where εij (x) = εα
+ij and Pi (x) = Pi if x ∈ α. The corresponding local constitutive law is Di = εij Ej + Pi . Assuming
+one knows an estimate for
+
+W̃lin (E 0 ) = hw̃xlin (E)i,
+
+(13)
+
+(cf. below), the following exact relations hold for the distribution Pα of the original linear problem (9):
+
+1 ∂ W̃lin 
+,
+hEi iα = α
+
+p ∂Piα  εij =εδij
+
+(14a)
+
+P =0
+
+hEi Ej iα
+
+ i
+2 ∂ W̃lin 
+.
+= α
+
+p ∂εα
+ij  εij =εδij
+
+(14b)
+
+Pi =0
+
+α
+α
+I emphasize that the derivatives are computed at the point Pi = 0, εα
+ij = ε δij where ε is the scalar permittivity in
+lin
+lin
+(5) and (9). There, w̃x = wx and W̃lin = Wlin . Note that (14b) is a slight generalization of the formula18
+
+hE 2 iα =
+
+2 ∂Wlin
+.
+pα ∂εα
+
+(15)
+
+Both (14a) and (14b) are particular cases of a more general theorem, the demonstration of which can be found in
+appendix B of the review by Ponte Castañeda and Suquet on nonlinear composites29 . This theorem is a consequence
+of the equality hDi Ei i = hDi ihEi i which holds only for particular boundary conditions, or in the infinite-volume limit
+if there exists an effective permittivity.
+Let us set
+Miα = hEi iα ,
+α
+Cij
+= hEi Ej iα − Miα Mjα ,
+
+(16)
+(17)
+
+α
+α
+(δij − Êi0 Êj0 ), since the averages only depend on the direction Êi0 = Ei0 /E 0
+with Miα ≡ M α Êi0 and Cij
+≡ Ckα Êi0 Êj0 +C⊥
+of the macroscopic field. I introduce now the gaussian approximation for the probability distributions Pα
+
+Pα (E) =
+
+1
+
+1
+
+1/2
+
+[(2π)d det(C α )]
+
+α
+
+e− 2 (Ei −Mi
+
+α
+)C α−1
+ij (Ej −Mj )
+
+,
+
+(18)
+
+which constitutes the main ingredient of the theory.
+There remains to compute an approximation for the quantities hEi iα and hEi Ej iα , in oprder to completely define
+the above gaussian distributions. Let us therefore estimate W̃lin (E 0 ) through an extension of the Bruggeman selfconsistent effective-medium approximation30 to potentials of the form (12). The formula is given and discussed in
+Appendix A. Using the scalar permittivities and Pi = 0, this estimate reduces to
+Wlin (E 0 ) =
+
+1
+2
+ε0 E 0 ,
+2
+
+(19)
+
+where ε0 is the usual Bruggeman effective permittivity30 . In addition, the derivatives (14a) and (14b) of the estimate
+for W̃lin (E 0 ) yield
+
+3
+
+M α = µα E 0 ,
+"
+
+hEi Ej iα = zµα 2 Ei0 Ej0 −
+
+(20)
+02
+
+#
+
+
+E
+1 − yhµ2 i δij ,
+d+2
+
+(21)
+
+where
+dε0
+,
+εα + (d − 1)ε0
+ε0
+y= 2 ,
+hµ εi
+d+2
+z=
+.
+dhµ2 i + 2/y
+
+µα =
+
+(22)
+(23)
+(24)
+
+Note that the Bruggeman equation for ε0 reads hµi = 1, or alternatively hµεi = hµiε0 = ε0 . From these relations,
+α
+we check that: (i) hεEi = ε0 hEi; (ii) hεE 2 i = ε0 hEi2 , where hEi = E 0 , as must be. Expressions for Ckα and C⊥
+are
+readily obtained from (21).
+In Fig. 1 are displayed curves for the probability density Pk (Ek /E 0 ) of the normalized longitudinal electric field,
+Ek = E · Ê0 , for a binary medium with dielectric ratio ε2 /ε1 = 5, for various fractions p2 of material 2. The space
+dimension is d = 2. With P(E) given by (4), and E written as E = Ek Ê0 + E⊥ (which defines E⊥ ), Pk is obtained as
+0
+
+Pk (Ek /E ) = E
+
+0
+
+Z
+
+d−1
+
+d
+
+E⊥ P(E) = E
+
+0
+
+X
+α
+
+− 21
+1
+pα
+e
+α
+1/2
+(2πCk )
+
+(Ek −M α )2
+Cα
+k
+
+,
+
+(25)
+
+where E⊥ is the transverse component of the field: E⊥ = E− Ek . The probability density tends towards a Dirac peak,
+centered at Ek /E 0 = 1 as p2 → 0 or p2 → 1, since the field is then equal to the applied field E0 . For intermediate
+volume fractions, the bimodal character of the probability distribution is evident.
+Under the same conditions, Fig. 2 displays the probability density of the scaled modulus of the transverse electric
+field, E⊥ /E 0 . This distribution is defined, for E⊥ > 0, by
+P⊥ (E⊥ /E 0 ) = E 0
+
+d−1
+
+Z
+
+dEk dΩE⊥ P(E) = E 0
+
+X
+α
+
+pα
+
+Sd−1
+α )(d−1)/2
+(2πC⊥
+
+
+
+E⊥
+E0
+
+d−2
+
+e
+
+− 12
+
+2
+E⊥
+Cα
+⊥
+
+,
+
+(26)
+
+where Sd = 2π d/2 /Γ(d/2) is the surface of a d-dimensional unit sphere. Unlike the previous one, this distribution
+is not multimodal since the mean value of the transverse field is hE⊥ iα = 0 in each phase, whatever the volume
+fractions.
+Fig. 3 displays Pk (Ek /E 0 ) for a higher dielectric ratio ε2 /ε1 = 1000. The concentrations are p2 = 0.12, 0.24, 0.36.
+These plots can be compared to that obtained from hard disks simulations by Cheng and Torquato (CT) in Fig. 3 of
+Ref.25 , for the same dielectric contrast and concentrations p2 = 0.2, 0.4, 0.6. These concentrations differ from ours
+by a factor 0.6. Apart from these differences, the overall features (shape and heights) of the probability distributions
+are well rendered: a Dirac peak close to Ek = 0 indicates that the field is almost null in phase 2, and a widely
+spread contribution from phase 1 for the highest p2 indicates an enhancement of the fluctuations in this phase as the
+percolation threshold (for the Bruggeman theory), or the jamming threshold (for the CT simulations) is approached.
+The differences in the values for p2 can be explained by the fact that the present theory relies on the Bruggeman
+effective-medium formula, of relevance for cell-materials but not really adequate for hard disks. Moreover, the overall
+agreement between our distributions and that of CT is not so good at moderate dielectric contrast: Bruggeman’s
+theory completed by the gaussian approximation somewhat overestimates, because of its percolating nature, the
+width of the probability distributions. Better adequation with the CT simulations would probably be obtained with
+an effective-medium theory for dielectric-coated inclusions, which would prevent percolation. Since our main objective
+however is to discuss an effective-medium therory for WNL composites, such an improvement will not be considered
+here.
+With these results in hand, analytical investigations of the theory can be carried out in some limiting cases, as well
+as numerical ones in more complicated situations. The next section examines particular WNL potentials.
+
+4
+
+III. WEAKLY NONLINEAR POWER-LAW POTENTIAL
+
+As a first application, a WNL local potential of the form
+wx (E) =
+
+1 2 1
+εE + χE 4 + O(E 6 ),
+2
+4
+
+(27)
+
+is considered, where the E 4 term is the first in a series of corrections to the linear behaviour. The corresponding
+constitutive law is
+Di = [ε + χE 2 + O(E 4 )]Ei .
+
+(28)
+
+This approximation actually is a weak-field one.
+A. Effective-medium formula
+
+The effective potential takes the form
+W (E 0 ) =
+
+1 0 02 1 0 04
+4
+ε E + χ E + O(E 0 ),
+2
+4
+
+(29)
+
+where ε0 is the Bruggeman result, and2,4
+4
+
+χ0 = hχE 4 i/E 0 =
+
+X
+
+4
+
+pα χα hE 4 iα /E 0 .
+
+(30)
+
+α
+
+The phase averages hE 4 iα are carried out with the help of Wick’s theorem which allows to write down expressions
+for the integer moments of a centered vector gaussian distribution by mere inspection31 : with Ai = Ei − Miα ,
+hAi Ai Aj Aj iα = hAi Ai iα hAj Aj iα + 2hAi Aj iα hAi Aj iα .
+
+(31)
+
+We deduce
+hE 4 iα = hEi Ei Ej Ej iα
+α
+α α
+α
+= Ciiα Cjj
++ 2Cij
+Cij + 2M α2 Ciiα + 4Miα Mjα Cij
++ M α4
+i
+i2
+h
+h
+α2
+α
++ 2M α 2 Ckα .
++ M α 2 + 2 Ckα 2 + (d − 1)C⊥
+= Ckα + (d − 1)C⊥
+
+A few simplifications yield the simple result
+
+
+χ0 = (1 + 2/d)y 2 + (2 − 2/d)z 2 − 2 hµ4 χi.
+
+(32)
+
+(33)
+
+As a first check, we remark that in a non-disordered situation where ε and χ are constant in the medium, we have
+ε0 = ε and µ = 1, so that y = z = 1; whence χ0 = χ, as was expected.
+B. Weak-contrast expansion
+
+A further check for the self-consistent formula (33) consists in examining its weak-contrast limit. An exact expression
+is known for any nonlinear potential, which is first briefly reminded. In the weak-contrast expansion5,7,15,16 , the
+local potentials wx (y) are assumed to fluctuate weakly around their mean value w(0) (y) = hwx (y)i. Introducing a
+(1)
+bookkeeping parameter t to be set to 1 in the final results, the contrast, wx (y), is defined by
+wx (y) = w(0) (y) + wx(1) (y)t,
+
+(34)
+
+(1)
+
+so that hwx (y)i = 0. An expansion for the effective potential is sought for in the form:
+W (E 0 ) = W (0) + W (1) t + W (2) t2 + · · ·
+5
+
+(35)
+
+Then15 ,
+1 nk
+W (E ) = hw(E )i −
+2 εk
+0
+
+0
+
+h
+i2 
+(1)
+0
+0
+t2 + O(t3 ),
+∂i wx (E )Êi
+
+(36)
+
+where
+nk = −
+
+Z
+
+dΩk̂
+r(k̂ · Ê0 )2
+,
+Sd 1 + (r − 1)(k̂ · Ê0 )2
+
+∂i ∂j w(0) (E 0 ) ≡ εk Êi0 Êj0 + ε⊥ (δij − Êi0 Êj0 ),
+r = εk /ε⊥ .
+
+(37)
+(38)
+(39)
+
+This result is the exact one15 . An analogous expansion for the complementary potential W̃ (D0 ) defined from the dual
+homogeneization problem can be written down15,16 .
+Let us therefore set ε = hεi + δε t and χ = hχi + δχ t. The Bruggeman permittivity ε0 is exact to second order in
+the constrast:
+
+
+hδε2 i 2
+0
+3
+ε = hεi 1 −
+t + O(t ) .
+(40)
+dhεi2
+Expanding (33) to second order in t entails16
+
+
+
+
+2(d + 8) hδε2 i 4 hδε δχi 2
+3
+0
+t + O(t ) ,
+−
+χ = hχi 1 +
+d(d + 2) hεi2
+d hεihχi
+which can directly be obtained from a first-order expansion of (36) in χ.
+Comparing now formula (33) to the widely used approximation
+X
+4
+χ0 ≃ χ02 =
+χα hE 2 i2α /E 0 = y 2 hµ4 χi,
+
+(41)
+
+(42)
+
+α
+
+we see that the latter is not exact to second order in the contrast, save in d = 1: its expansion indeed reads
+
+
+
+
+2(d + 2) hδε2 i 4 hδε δχi 2
+3
+0
+t + O(t ) .
+−
+χ2 = hχi 1 +
+d2
+hεi2
+d hεihχi
+
+(43)
+
+Hence, the gaussian decoupling which accounts for the vector character of the electric field, of importance in nonlinear
+problems, is superior to the simple approximation hE 4 i ≃ hE 2 i2 .
+C. Dilute limit
+
+For a binary medium with two components of constitutive parameters (ε1 , χ1 ) and (ε2 , χ2 ), the dilute limit is the
+limiting situation where the volume fraction p of (e.g.) component 2 is small. Setting
+T =
+
+ε2 − ε1
+,
+ε2 + (d − 1)ε1
+
+an expansion, to first order in p of (33) yields
+
+
+
+d(d + 8)
+χ0 = χ1 + (χ2 − χ1 )(T − 1)4 + χ1 T 2 2
+− 4T + T 2 p + O(p2 ).
+d+2
+
+(44)
+
+(45)
+
+Bergman computed the exact effective nonlinear conductivity of a binary medium in the dilute limit, for spherical
+inclusions4,33 . His result takes the form
+
+0
+χexact = χ1 + (χ2 − χ1 )(T − 1)4
+
+
+d(d − 4)
+d(3d2 − 10d + 16) 2
+d(d + 8)
+2
+p + O(p2 ).
+(46)
++4
+T+
+T
++ χ1 T 2
+d+2
+d+2
+3(d + 2)
+6
+
+Compared to (46), expression (45) becomes exact when χ1 = 0 (nonlinear inclusion in a linear host). It also becomes
+exact for d = 1, and in the limit d → ∞ where the field is E = E0 in each phase so that χ0 = hχi. Moreover, it is
+exact up to order T 2 , which is consistent with its correct limiting weak-contrast behavior. For d = 2, it is exact up
+to order T 3 . However, the term of order T 4 is wrong for 2 ≤ d < ∞. The reason for this misbehaviour is that the
+dilute limit requires an exact computation of hE 4 iα (to linear order)4 , whereas we approximate it through a gaussian
+average.
+On the other hand, expression (42) yields
+
+
+	
+χ02 = χ1 + (χ2 − χ1 )(T − 1)4 + χ1 T 2 2(d + 2) − 4T + T 2 p + O(p2 ),
+(47)
+
+once again a result less precise than (45).
+At the present time, since it requires an exact solution for the one-body problem, the test of the dilute limit appears
+to be the most challenging one for nonlinear effective-medium theories.
+This test is illustrated in Fig. 4 which displays χ0 , as calculated from (33) and (42), against the concentration p of
+medium 2, for moderate dielectric contrast and d = 2. The thick line segments at p = 0, 1 represent exact tangents
+obtained from (46). The tangent at p = 1 follows from substituting (1 − p) for p and interchanging the indices 1 and 2
+in (46). Though not exact in the dilute limit, formula (33) yields tangents quite close to the exact ones. The marked
+inaccuracy of formula (42) near p = 0 and p = 1 results in a lower value for χ0 in the whole concentration range.
+D. Percolative behavior
+
+Before examining the predictions of Equ. (33) near the percolation transition, I first briefly review the critical
+behaviour of WNL composites, and discuss a flaw of the Bruggeman formula in this context.
+An insulator/perfect conductor binary mixture undergoes a percolation transition for a critical metal fraction
+p = pc 32 . For WNL phases, the critical behaviour of the field fluctuations is now well understood35 . In the limiting
+situation where ε1 ≪ ε2 , and for p ≤ pc , one observes a behaviour
+ε0 ∝ ε1 (p − pc )−s ,
+
+′
+
+χ0 ∝ χ1 (p − pc )−(2s+κ ) ;
+
+(48)
+
+χ0 ∝ χ2 (pc − p)(2t−κ) ,
+
+(49)
+
+on the contrary, for p > pc , one has
+ε0 ∝ ε2 (pc − p)t ,
+
+where s and t are the superconductivity and conductivity exponents, and where κ and κ′ are the noise exponents
+which characterize an anomalous nonlinear susceptibility enhancement near the threshold34,35 . As a consequence of
+the exact inequality hE 4 i ≥ hE 2 i2 , the exponents κ and κ′ are necessarily positive.
+In the Bruggeman formula, pc = 1/d, and ε0 ≃ ε1 /(1−dp) for p < 1/d, ε0 ≃ ε2 (1−dp)/(1−d) for p > 1/d (ε1 ≪ ε2 ),
+whence s = t = 1. Reporting these expressions into (33) yields κ = κ′ = 0, a result shared by all effective-medium
+formulae based on (15).
+These values can be compared to exact bounds obtained for κ and κ′ on the basis of the links-nodes-blob (LNB)
+model for electric percolation, now commonly accepted as a model for e.g. random resistor networks (RRNs). These
+are35
+(3d − 4)ν − 2t + 1 ≤ κ ≤ 2(d − 1)ν − t,
+(4 − d)ν − 2s + 1 ≤ κ′ ≤ 2ν − s,
+
+(50a)
+(50b)
+
+(for d ≤ 6; the values for d > 6 are that of d = 6. Moreover t is not defined for d = 1), where ν is the correlation
+length exponent: ξ ∝ |p − pc |−ν . Though the latter information is absent from the Bruggeman theory, an inequality
+ν > 0 must hold in any situation relevant to percolating systems. In (50), the lower bounds must not be greater than
+the upper ones, which leads to lower bounds for the exponents s and t themselves, namely
+s ≥ (2 − d)ν + 1,
+t ≥ (d − 2)ν + 1.
+
+(51)
+(52)
+
+In the Bruggeman theory, s = t = 1 so that only ν = 0 – a problematic value by itself – is allowed, save for d = 2.
+Reporting ν = 0 into (50) leads to κ = κ′ = −1, which is unacceptable. For d = 2, one obtains κ = κ′ = 2ν − 1.
+Compared to the values κ = κ′ = 0 of the above effective-medium theory, this gives ν = 1/2, a non-conflicting value,
+though lower than the exact result 4/3.
+7
+
+Of course, the fact that Bruggeman’s formula is a poor approximation near the percolation threshold is well-known.
+However, this discussion enlightens a fundamental inconsistency in the Bruggeman exponent values which goes beyond
+mere numerical inadequacy, as long as one wishes to estimate the properties of systems obeying the LNB scheme.
+It is to be noted that for d = 2, where no inconsistency appears, the exact equality s = t holds (a consequence of
+self-duality)36 and is obeyed by the Bruggeman exponents.
+The above argument is to be brought together with another one by Bergman. Discussing the failure of a “non ambiguous” non-linear Bruggeman-type model, he concluded that bounds for fluctuations always refer to some particular
+type of microstructure, and that no such bounds exist which apply to all materials4 .
+Because of these problems, comparisons between effective-medium theories built on the Bruggeman formula, and
+simulations on RRNs are expected to be more significant in dimension d = 2 (another reason for preferring the
+two-dimensional case as a test-bench is that the bond percolation threshold pc = 1/2 on a square lattice is exactly
+reproduced by Bruggeman’s formula). In Fig. 5 are displayed formulas (33) and (42) against p, in a high contrast
+situation (ε2 /ε1 = 10000). The same trend as in Fig. 4 is observed: formula (33) yields a higher estimate. The values
+for ε1,2 and χ1,2 are the same as that used in Fig. 3 of a paper by Levy and Bergman37 , where simulations results on
+RRNs are reported, and compared to (42). The authors remarked that the height of the peak in χ0 at pc was badly
+underestimated by (42), which gives χ0peak ≃ 0.5 only. In their numerical simulations, for a 30 × 30 network, the peak
+height is found to be χ0peak ≃ 0.86. In the infinite-size limit, this value is expected to increase somewhat. In Fig. 5,
+the height of the peak given by (33) is χ0peak ≃ 1.0, which thus compares fairly well to simulations.
+E. Other power-law nonlinearities
+
+In this section, potentials of the type (5) where1
+wxnl (E) =
+
+χ(x) γ+1
+E
+γ+1
+
+(53)
+
+are considered. For simplicity, γ is assumed to be constant in the material. The gaussian averages over the field in
+each phase are carried out numerically, with the help of a bi-variate integration routine. One integration variable is
+the field modulus E, and the other is the cosine E · E0 /(EE 0 ). In fig. 6 are shown plots for
+χ0 = hχ(E/E 0 )γ+1 i,
+
+(54)
+
+computed from gaussian averages, for a moderate dielectric contrast and various powers γ > 1 ranging from γ = 1.5
+to γ = 5, against the volume fraction p of medium 2 (solid lines). An exponential enhancement of χ0 is observed with
+increasing γ. Its origin lies in the existence of a non-zero probability for E > E 0 in the composite, since E0 = hEi
+by definition. These fluctuations are amplified by the nonlinearity, while that for which E < E 0 are reduced. The
+larger the width of the probability distribution, the larger this enhancement, so that the peak culminates in the region
+p ≃ pc = 1/2. Once again, the estimates of the present theory are much higher than that predicted by the decoupling
+assumption
+X
+(γ+1)/2
+χ02 =
+pα χα h(E/E 0 )2 iα
+,
+(55)
+α
+
+(dashed lines), especially for large values of γ. This is understandable, since the functions to be averaged can be written
+wxnl (E) = χ(x)f (E 2 ), where f (z) = z (1+γ)/2 /(1 + γ). For γ > 1, these functions are convex, so that hf (z)i ≥ f (hzi).
+Therefore, the decoupling assumption always underestimates the fluctuations when applied to such potentials. An
+overestimation would instead take place with concave potentials.
+IV. CONCLUSION
+
+In this article, a theory for the nonlinear susceptibility of weakly nonlinear composites is proposed. This theory is
+based on a multimodal gaussian approximation for the overall probability distribution of the electric field, to linear
+order. The parameters which define this distribution (means and second moments, in each phase of the disordered
+medium), are obtained from Bruggeman’s theory, whose limitations are discussed in this context. The present model
+provides for the first time an analytical estimate for the probability distribution of the electric field, for arbitrarily
+high dielectric contrast, in percolating media. The resulting effective nonlinear susceptibility is exact to second order
+8
+
+in the contrast, and close to the exact result in the dilute limit. Significant quantitative improvement is obtained
+on previous nonlinear effective-medium theories, even in the percolating regime, at least in the two-dimensional case.
+This study emphasizes the importance of accounting for the vector character of the electric field when averaging the
+local potentials. Improvements of the present theory could consist in finding a better approximation than the gaussian
+one for the components of the probability distribution of the field. More realistic distributions could be obtained by,
+e.g., extending the perturbative theory of Barthélémy and Orland22 to high dielectric contrasts via self-consistent
+effective-medium approximations.
+ACKNOWLEDGMENTS
+
+Stimulating discussions with M. Barthélémy and H. Orland are gratefully acknowledged. I also thank H. E. Stanley
+and M. Barthélémy for their kind hospitality at the Center for Polymer Studies (Boston University), where part of
+this work was performed.
+APPENDIX A: SELF-CONSISTENT ANISOTROPIC LINEAR THEORY WITH PERMANENT
+POLARIZATION
+
+With local potentials of the form (12), the homogeneized potential reads
+W̃lin (E 0 ) =
+
+1
+1 0 0 0
+Ei εij Ej + Pi0 Ej0 + h∆Pi µij gjk ∆Pj i,
+2
+2
+
+(A1)
+
+where
+dΩk̂ ki kj
+,
+Sd kl ε0lm km
+
+(A2)
+
+α
+0 −1
+µα
+ij = [1 − g(ε − ε )]ij ,
+
+(A3)
+
+gij = −
+
+Pi0
+∆Piα
+
+Z
+
+= hPj µji i,
+=
+
+Piα
+
+−
+
+(A4)
+
+Pi0 ,
+
+(A5)
+
+and the Bruggeman condition for ε0ij is hµij i = δij .
+Formula (A1) has been derived by means of a functional formalism38 , used with a trial potential of the form39
+W 0 (E) = (1/2)Ei ε0ij Ej + Pi0 Ei + c0 . Rather than to give a demonstration which would complicate the present article,
+the validity of (A1) is established by looking at its consequences. First, one can easily check that, for a binary medium,
+(A1) exactly reduces to formula (2.16) in the work by Ponte Castañeda and Kailasam15. Next, the average field per
+phase, hEi iα = Miα , is (using the symmetry of the tensors g and µg; µ itself is not necessarily symmetric)
+Miα =
+
+1 ∂ W̃lin (E 0 )
+0
+α
+= µα
+ij (Ej + gjk ∆Pk ).
+pα
+∂Piα
+
+(A6)
+
+From the definition of Pi0 , one deduces that hM i = E 0 , in agreement with the boundary conditions. Finally, the
+macroscopic consitutive relation derived from the effective potential, namely
+Di0 =
+
+∂ W̃lin (E 0 )
+= ε0ij Ej0 + Pi0 ,
+∂Ei0
+
+(A7)
+
+is consistent with the equation
+α
+α
+Di0 = hεij Ej + Pi i = hεα
+ij Mj + Pi i,
+
+(A8)
+
+with Mjα computed with (A6). This directly follows from the equivalent form of the Bruggeman equation, hεij µjk i =
+α
+α
+0
+ε0ij hµjk i = ε0ij , and from the identity µα
+ij = δij + µik gkl (εli − εli ).
+
+9
+
+1
+
+A. Aharony, Phys. Rev. Lett. 58, 2726 (1987).
+D. Stroud and P. M. Hui, Phys. Rev. B 37, 8719 (1988).
+3
+X. C. Zeng and D. J. Bergman, P. M. Hui and D. Stroud, Phys. Rev. B 38, 10970 (1988).
+4
+D. J. Bergman, Phys. Rev. B 39, 4598 (1989).
+5
+R. Blumenfeld and D. J. Bergman, Phys. Rev. B 40, 1987 (1989); Phys. Rev. B 44, 7378 (1991); D. J. Bergman and R.
+Blumenfeld, Phys. Rev. B 54, 9555 (1996).
+6
+N. C. Kothari, Phys. Rev. A 41, 4486 (1990).
+7
+P. Ponte Castañeda, G. deBotton and G. Li, Phys. Rev. B 46, 4387 (1992).
+8
+G. Q. Gu and K. W. Yu, Phys. Rev. B 46, 4502 (1992).
+9
+K. W. Yu, P. M. Hui and D. Stroud, Phys. Rev. B 47, 14150 (1993); Phys. Rev. B 56, 14195 (1997).
+10
+K. W. Yu, Y. C. Chu and E. M. Y. Chan, Phys. Rev. B 50, 7984 (1994).
+11
+H.C. Lee, K. W. Yu and G. Q. Gu, J. Phys.: Condens. Matter 7, 8785 (1995).
+12
+L. Gao, Z.-Y. Li, Phys. Lett. A 219, 324 (1996).
+13
+W. M. V. Wan, H. C. Lee, P. M. Hui, and K. W. Yu, Phys. Rev. B 54, 3946 (1996).
+14
+L. Sali and D. J. Bergman, J. Stat. Phys. 86, 455 (1997).
+15
+P. Ponte Castañeda and M. Kailasam, Proc. R. Soc. London A, 793 (1997).
+16
+M. Barthélémy and H. Orland, Eur. Phys. J. B 6, 537 (1998), cond-mat/9806302. In this reference, a slight error has led to
+the erroneous weak-contrast expansion (37) for χ0 : the minus sign should be a + in Eqs. (33a), (33c), and the sign of the
+second order term in (35) is a +. One then retrieves our result (41).
+17
+P. M. Duxbury, P. D. Beale and P. M. Leath, Phys. Rev. Lett. 57, 1052 (1986).
+18
+D. J. Bergman, Phys. Rep. 43, 377 (1978).
+19
+P. M. Hui, Y. F. Woo and W. M. V. Van, J. Phys.: Condens. Matter 7, L593 (1995).
+20
+R. Hill, J. Mech. Phys. Solids 11, 357 (1963).
+21
+P. Ponte Castañeda, SIAM J. Appl. Math. 52, 1321 (1992), and references therein.
+22
+M. Barthélémy and H. Orland, Phys. Rev. E 56, 2835 (1997), and references therein.
+23
+P. M. Duxbury, M. Beale and C. Moukarzel, Phys. Rev. B 51, 3476 (1995).
+24
+Z. Chen and P. Sheng, Phys. Rev. B 43, 5735 (1991).
+25
+H. Cheng and S. Torquato, Phys. Rev. B 56, 8060 (1997).
+26
+D. Cule and S. Torquato, cond-mat/9805030 (1998).
+27
+J. Willis, Adv. Appl. Mech. 21, 1 (1981).
+28
+It can be shown that the boundary condition hEi = E 0 truly corresponds to the more standard condition of uniform normal
+induction on the boundary ∂V , namely ni Di = ni Di0 (see, e.g. Ponte-Castañeda21 ); we then have hDi = D0 ; but the
+relationship (11) between D0 and E0 is known only after the homogeneization problem has been solved.
+29
+P. Ponte Castañeda and P. Suquet, Adv. Appl. Mech. 34, 171 (1998).
+30
+D. A. G. von Bruggeman, Ann. Phys. (Leipzig) 24, 636 (1935); R. Landauer, J. Appl. Phys. 23, 779 (1952). See also R. Landauer, in Electical Transport and Optical Properties of Inhomogeneous Media, edited by J. C. Garland and D. B. Tanner.
+AIP Conf. Proc. No. 40 (AIP, New York, 1978).
+31
+M. Le Bellac and G. Barton (translator) Quantum and Statistical Field Theory (Oxford University Press, Oxford, 1992).
+32
+J. P. Clerc, G. Giraud, J. M. Laugier and J. M. Luck, Adv. Phys. 39, 191 (1990), and references therein.
+33
+X. Zhang and D. Stroud, Phys. Rev. B 49, 944 (1994).
+34
+R. Rammal, J. Phys. (Paris) Lett. 46, L129 (1985); R. Rammal, C. Tannous, P. Breton and A.-M. S. Tremblay, Phys. Rev.
+Lett. 54, 1718 (1985).
+35
+D. C. Wright, D. J. Bergman and Y. Kantor, Phys. Rev. B 33, 396 (1986).
+36
+J. P. Straley, Phys. rev. B 15, 5733 (1977).
+37
+O. Levy and D. J. Bergman, Phys. Rev. B 50, 3652 (1994).
+38
+Y.-P. Pellegrini and M. Barthélémy, cond-mat/0001223, to be published.
+39
+Y.-P. Pellegrini, unpublished.
+2
+
+10
+
+4
+
+1.5
+
+ε2/ε1=5.0
+3
+1
+Ppar
+
+Ppar 2
+
+0.5
+
+1
+
+0
+
+0
+
+−1
+
+0
+
+1
+2
+0
+Epar/E
+
+3
+
+4
+
+1
+
+3
+
+5
+
+0
+
+Epar/E
+
+FIG. 3. Field probability density function Pk (Ek /E 0 )
+(Ek = E · Ê0 ) in the Bruggeman approximation, for various
+volume fractions p2 of component 2. The dielectric constant
+ratio is ε2 /ε1 = 1000. Solid: p2 = 0.12; dashes: p2 = 0.24;
+dots: p2 = 0.36.
+
+FIG. 1. Field probability density function Pk (Ek /E 0 )
+(Ek = E · Ê0 ) in the Bruggeman approximation, for various
+volume fractions p2 of component 2. The dielectric constant
+ratio is ε2 /ε1 = 5. Dots: p2 = 0.05 (violet,highest curve);
+p2 = 0.25 (blue,lowest curve). Solid line: p2 = 0.5 (green).
+Dashes: p2 = 0.75 (orange, lowest curve); p2 = 0.95 (red,
+highest curve).
+
+8
+
+0.1
+
+ε2/ε1=5.0
+
+6
+
+Pperp
+
+−1
+
+0.08
+
+χ
+
+4
+
+0
+
+0.06
+0.04
+
+2
+
+0
+
+0.02
+0
+
+0
+
+0.5
+0
+Eperp/E
+
+1
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+p
+
+FIG. 2. Field probability density function P⊥ (E⊥ /E 0 )
+(E⊥ = ||E − Ek E0 ||) in the Bruggeman approximation, for
+various volume fractions p2 of component 2. The dielectric
+constant ratio is ε2 /ε1 = 5. Dots: p2 = 0.05 (violet, highest
+curve); p2 = 0.25 (blue, lowest curve). Solid line: p2 = 0.5
+(green). Dashes: p2 = 0.75 (orange, lowest curve); p2 = 0.95
+(red, highest curve).
+
+FIG. 4. Comparison between Eqs. (33) (solid line) and (42)
+(dashes). Effective nonlinear susceptibility vs. volume fraction p of component 2. The space dimension is d = 2. The
+parameters are: ε1 = 1, ε2 = 10, χ1 = 0.01, χ2 = 0.1. The
+segments at p = 0 and p = 1 represent exact slopes computed
+with expression (46).
+
+11
+
+1
+0.8
+
+χ
+
+0
+
+0.6
+0.4
+0.2
+0
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+p
+FIG. 5. Comparison between Eqs. (33) (solid line) and (42)
+(dashes). Effective nonlinear susceptibility vs. volume fraction p of component 2. The space dimension is d = 2. The
+parameters are: ε1 = 1, ε2 = 104 , χ1 = 10−4 , χ2 = 0.1. The
+segment at p = 1 represents the exact slope computed with
+expression (46).
+
+0.5
+0.4
+
+χ
+
+0
+
+0.3
+0.2
+0.1
+0
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+p
+FIG. 6. Comparison between Eqs. (54) (solid line) and (55)
+(dashes) for power-law nonlinearities wxnl = χ(x)E γ+1 /(γ +1).
+Effective nonlinear susceptibility vs. volume fraction p of component 2. The space dimension is d = 2. The parameters are:
+ε1 = 1, ε2 = 10, χ1 = 0.01, χ2 = 0.1. From bottom to top:
+γ = 1.5 (blue), 2 (cyan), 3 (turquoise), 4 (green), 5 (black).
+
+12
+

@@ -1,0 +1,173 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.18)  28 APR 2017 11:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**input/src/0001/cond-mat0001229/dicm2s.tmp.tex
+(./input/src/0001/cond-mat0001229/dicm2s.tmp.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/fleqn.sty
+\mathindent=\dimen103
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/espcrc2.sty
+Document-style option `espcrc2' v2.6  <24 November 1993>
+\@bls=\dimen104
+\@eps=\dimen105
+\fm@box=\box26
+\c@address=\count87
+\abstract@box=\box27
+\@tempcntc=\count88
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/graphics.sty
+(/home/dippelm/PDFDiVi/texmf/tex/latex/aastex/epsf.sty
+\epsffilein=\read1
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+\epsftsize=\dimen108
+\epsfrsize=\dimen109
+\epsftmp=\dimen110
+\pspoints=\dimen111
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/rotating.sty
+Style option: rotating.sty, v1.6 <92/5/10> (SPQR / LMB)
+\rot@box=\box28
+\rot@tempbox=\box29
+\rot@temp=\dimen114
+\rot@width=\dimen115
+\rot@height=\dimen116
+\rot@depth=\dimen117
+\rot@right=\dimen118
+\rot@left=\dimen119
+\rot@angle=\count89
+\rot@count=\count90
+\rot@circle=\count91
+)
+
+! LaTeX Error: Unknown option `figuresright' for package `rotating'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 
+    
+The option `figuresright' was not declared in package `rotating', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
+(input/src/0001/cond-mat0001229/dicm2s.tmp.aux)
+\openout1 = `dicm2s.tmp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 35.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+l.67 \includegraphics
+                     [width=12pc,height=15pc,angle=-90]{Fig1.ps}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 73--86
+\OT1/cmr/m/n/10 Coulomb forces) an in-com-men-su-rate charge-
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] [2]
+! Undefined control sequence.
+l.214 \includegraphics
+                      [width=12pc,height=15pc,angle=-90]{Figtc.ps}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+Underfull \hbox (badness 1983) in paragraph at lines 291--294
+[]\OT1/cmr/m/n/10 A. Per-ali, \OT1/cmr/m/sl/10 et al.\OT1/cmr/m/n/10 , cond-mat
+/9912363, C.
+ []
+
+[4] (input/src/0001/cond-mat0001229/dicm2s.tmp.aux) ) 
+Here is how much of TeX's memory you used:
+ 591 strings out of 494953
+ 7174 string characters out of 6180977
+ 62909 words of memory out of 5000000
+ 3917 multiletter control sequences out of 15000+600000
+ 7387 words of font info for 26 fonts, out of 8000000 for 9000
+ 21 hyphenation exceptions out of 8191
+ 23i,4n,19p,425b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on input/src/0001/cond-mat0001229/dicm2s.tmp.pdf (4 pages, 16853
+0 bytes).
+PDF statistics:
+ 73 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

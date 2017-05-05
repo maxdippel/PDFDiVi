@@ -1,0 +1,445 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.4)  7 APR 2017 13:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**input/src/0001/cond-mat0001220/iwamatsu.tmp.tex
+(./input/src/0001/cond-mat0001220/iwamatsu.tmp.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/latex209.def
+File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
+
+
+          Entering LaTeX 2.09 COMPATIBILITY MODE
+ *************************************************************
+    !!WARNING!!    !!WARNING!!    !!WARNING!!    !!WARNING!!   
+ 
+ This mode attempts to provide an emulation of the LaTeX 2.09
+ author environment so that OLD documents can be successfully
+ processed. It should NOT be used for NEW documents!
+ 
+ New documents should use Standard LaTeX conventions and start
+ with the \documentclass command.
+ 
+ Compatibility mode is UNLIKELY TO WORK with LaTeX 2.09 style
+ files that change any internal macros, especially not with
+ those that change the FONT SELECTION or OUTPUT ROUTINES.
+ 
+ Therefore such style files MUST BE UPDATED to use
+          Current Standard LaTeX: LaTeX2e.
+ If you suspect that you may be using such a style file, which
+ is probably very, very old by now, then you should attempt to
+ get it updated by sending a copy of this error message to the
+ author of that file.
+ *************************************************************
+
+\footheight=\dimen102
+\@maxsep=\dimen103
+\@dblmaxsep=\dimen104
+\@cla=\count79
+\@clb=\count80
+\mscount=\count81
+(/usr/share/texlive/texmf-dist/tex/latex/base/tracefnt.sty
+Package: tracefnt 2015/02/21 v3.0k Standard LaTeX package (font tracing)
+\tracingfonts=\count82
+LaTeX Info: Redefining \selectfont on input line 106.
+)
+\symbold=\mathgroup4
+\symsans=\mathgroup5
+\symtypewriter=\mathgroup6
+\symitalic=\mathgroup7
+\symsmallcaps=\mathgroup8
+\symslanted=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 299.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 300.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 306.
+LaTeX Info: Redefining \em on input line 316.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 377.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 379.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 381.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+Compatibility mode: definition of \rm ignored.
+Compatibility mode: definition of \sf ignored.
+Compatibility mode: definition of \tt ignored.
+Compatibility mode: definition of \bf ignored.
+Compatibility mode: definition of \it ignored.
+Compatibility mode: definition of \sl ignored.
+Compatibility mode: definition of \sc ignored.
+LaTeX Info: Redefining \cal on input line 511.
+LaTeX Info: Redefining \mit on input line 512.
+\bibindent=\dimen105
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/aastex/epsf.sty
+\epsffilein=\read1
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+\epsftsize=\dimen108
+\epsfrsize=\dimen109
+\epsftmp=\dimen110
+\pspoints=\dimen111
+)
+No file iwamatsu.tmp.aux.
+\openout1 = `iwamatsu.tmp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 12.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--23
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `VW' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `FFD' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Pe' on page 2 undefined on input line 52.
+
+
+LaTeX Warning: Citation `TS' on page 2 undefined on input line 52.
+
+
+LaTeX Warning: Citation `AS1' on page 2 undefined on input line 52.
+
+
+LaTeX Warning: Citation `Ts' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `KGV' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `AS2' on page 2 undefined on input line 59.
+
+
+LaTeX Warning: Citation `AS2' on page 2 undefined on input line 63.
+
+
+LaTeX Warning: Citation `AS3' on page 2 undefined on input line 63.
+
+
+LaTeX Warning: Citation `SA' on page 2 undefined on input line 63.
+
+
+LaTeX Warning: Citation `TS' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Ts' on page 2 undefined on input line 73.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 74.
+[2]
+
+LaTeX Warning: Reference `eq:2' on page 3 undefined on input line 107.
+
+
+LaTeX Warning: Reference `eq:3' on page 3 undefined on input line 108.
+
+
+LaTeX Warning: Citation `CT' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Reference `eq:3' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `AS1' on page 3 undefined on input line 121.
+
+
+LaTeX Warning: Citation `AS1' on page 3 undefined on input line 133.
+
+
+LaTeX Warning: Citation `TS' on page 3 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Pe' on page 3 undefined on input line 135.
+
+
+LaTeX Warning: Citation `AS1' on page 3 undefined on input line 136.
+
+
+LaTeX Warning: Citation `MRRTT' on page 3 undefined on input line 144.
+
+
+LaTeX Warning: Reference `eq:4' on page 3 undefined on input line 149.
+
+
+LaTeX Warning: Citation `AS1' on page 3 undefined on input line 150.
+
+
+LaTeX Warning: Citation `KGV' on page 3 undefined on input line 152.
+
+[3]
+
+LaTeX Warning: Citation `AS2' on page 4 undefined on input line 157.
+
+
+LaTeX Warning: Citation `AS3' on page 4 undefined on input line 157.
+
+
+LaTeX Warning: Citation `AS1' on page 4 undefined on input line 158.
+
+
+LaTeX Warning: Citation `VW' on page 4 undefined on input line 166.
+
+
+LaTeX Warning: Reference `eq:9' on page 4 undefined on input line 171.
+
+
+LaTeX Warning: Reference `eq:6' on page 4 undefined on input line 179.
+
+
+LaTeX Warning: Reference `eq:7' on page 4 undefined on input line 190.
+
+
+LaTeX Warning: Reference `eq:8' on page 4 undefined on input line 191.
+
+
+LaTeX Warning: Reference `eq:12' on page 4 undefined on input line 191.
+
+
+LaTeX Warning: Reference `eq:12' on page 4 undefined on input line 193.
+
+[4]
+
+LaTeX Warning: Citation `AS2' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Citation `AS3' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Citation `FS' on page 5 undefined on input line 205.
+
+
+LaTeX Warning: Citation `BN' on page 5 undefined on input line 206.
+
+
+LaTeX Warning: Citation `AS2' on page 5 undefined on input line 208.
+
+
+LaTeX Warning: Citation `AS3' on page 5 undefined on input line 209.
+
+
+LaTeX Warning: Citation `AS3' on page 5 undefined on input line 213.
+
+
+LaTeX Warning: Citation `SA' on page 5 undefined on input line 213.
+
+
+Overfull \hbox (4.93953pt too wide) in paragraph at lines 204--214
+\OT1/cmr/m/n/10.95 used in the his-togram method [[]] and the mul-ti-canon-i-ca
+l en-sem-ble method [[]].
+ []
+
+
+LaTeX Warning: Citation `AS2' on page 5 undefined on input line 218.
+
+
+LaTeX Warning: Citation `AS3' on page 5 undefined on input line 218.
+
+
+LaTeX Warning: Citation `FFD' on page 5 undefined on input line 230.
+
+
+LaTeX Warning: Reference `eq:13' on page 5 undefined on input line 232.
+
+
+LaTeX Warning: Citation `FFD' on page 5 undefined on input line 235.
+
+[5]
+
+LaTeX Warning: Reference `eq:4' on page 6 undefined on input line 252.
+
+
+LaTeX Warning: Citation `FFD' on page 6 undefined on input line 258.
+
+
+LaTeX Warning: Citation `FFD' on page 6 undefined on input line 267.
+
+
+LaTeX Warning: Citation `FFD' on page 6 undefined on input line 277.
+
+
+LaTeX Warning: Citation `FFD' on page 6 undefined on input line 278.
+
+
+LaTeX Warning: Citation `AT' on page 6 undefined on input line 282.
+
+
+LaTeX Warning: Citation `FFD' on page 6 undefined on input line 299.
+
+[6]
+
+LaTeX Warning: Citation `AS2' on page 7 undefined on input line 315.
+
+
+LaTeX Warning: Citation `AS3' on page 7 undefined on input line 315.
+
+
+LaTeX Warning: Citation `TS' on page 7 undefined on input line 328.
+
+
+LaTeX Warning: Citation `AS3' on page 7 undefined on input line 338.
+
+[7]
+
+LaTeX Warning: Citation `FFD' on page 8 undefined on input line 349.
+
+
+LaTeX Warning: Reference `eq:3' on page 8 undefined on input line 376.
+
+
+LaTeX Warning: Citation `TMK' on page 8 undefined on input line 389.
+
+
+LaTeX Warning: Citation `AS3' on page 8 undefined on input line 389.
+
+
+LaTeX Warning: Reference `eq:12x' on page 8 undefined on input line 397.
+
+[8]
+
+LaTeX Warning: Citation `TMK' on page 9 undefined on input line 411.
+
+
+LaTeX Warning: Reference `eq:20' on page 9 undefined on input line 427.
+
+[9]
+
+LaTeX Warning: Reference `eq:7' on page 10 undefined on input line 460.
+
+
+LaTeX Warning: Citation `SA2' on page 10 undefined on input line 480.
+
+
+LaTeX Warning: Citation `AS2' on page 10 undefined on input line 488.
+
+
+LaTeX Warning: Citation `AS3' on page 10 undefined on input line 488.
+
+
+LaTeX Warning: Citation `TS' on page 10 undefined on input line 488.
+
+
+LaTeX Warning: Citation `FFD' on page 10 undefined on input line 494.
+
+
+LaTeX Warning: Citation `WA' on page 10 undefined on input line 495.
+
+
+LaTeX Warning: Citation `BN' on page 10 undefined on input line 501.
+
+[10]
+
+LaTeX Warning: Citation `TMP' on page 11 undefined on input line 507.
+
+
+Overfull \hbox (0.84555pt too wide) in paragraph at lines 506--514
+[]\OT1/cmr/m/n/10.95 Recently, a new for-mu-la-tion of the Tsal-lis statis-tics
+ has been pro-posed [[]].
+ []
+
+[11] [12]
+
+LaTeX Warning: Float too large for page by 71.11487pt on input line 603.
+
+[13
+Non-PDF special ignored!] [14
+Non-PDF special ignored!] [15
+Non-PDF special ignored!] [16
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [17
+Non-PDF special ignored!] [18
+Non-PDF special ignored!
+Non-PDF special ignored!] [19
+Non-PDF special ignored!] [20
+Non-PDF special ignored!
+Non-PDF special ignored!] [21] (input/src/0001/cond-mat0001220/iwamatsu.tmp.aux
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 523 strings out of 494953
+ 5947 string characters out of 6180978
+ 58009 words of memory out of 5000000
+ 3824 multiletter control sequences out of 15000+600000
+ 20738 words of font info for 75 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 23i,9n,23p,964b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on input/src/0001/cond-mat0001220/iwamatsu.tmp.pdf (21 pages, 20
+1596 bytes).
+PDF statistics:
+ 128 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

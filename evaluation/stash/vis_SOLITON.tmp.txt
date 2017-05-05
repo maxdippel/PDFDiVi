@@ -1,0 +1,2921 @@
+>>
+Delete
+|1 72 82 466 7|1 72 757 466 8|2 72 82 466 10|2 72 112 466 9|2 72 155 466 23|2 72 179 466 8|2 72 203 466 8|2 72 227 466 8
+arXiv:cond-mat/0001226v2 [cond-mat.mes-hall] 31 Jul 2000
+
+
+<AND>
+1
+
+
+<AND>
+Sankalpa Ghosh and R. Rajaraman∗
+School of Physical Sciences
+Jawaharlal Nehru University
+New Delhi 110067, INDIA
+
+
+<AND>
+Abstract
+In this paper we study in detail different types of topological solitons which
+are possible in bilayer quantum Hall systems at filling fraction ν 1 when spin
+degrees of freedom are included. Starting from a microscopic Hamiltonian we
+derive an effective energy functional for studying such excitations. The gauge
+invariance and CP 3 character of this energy fuctional and their consequences
+are examined. Then we identify permissible classes of finite energy solutions
+which are topologically non-trivial. We also numerically evaulate a representative solution in which a pseudospin (layer degrees of freedom) bimeron in a
+given spin component is intertwined with spin-skyrmions in each layer and
+and discuss whether it is energetically favoured as the lowest lying excitation
+in such system with some numerical results.
+
+
+<AND>
+I. 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|2 229 727 309 8
+2
+
+
+--
+
+>>
+Merge
+|3 72 82 228 9
+demonstrated in the work of of Sondhi et al 
+--
+demonstrated in the work of of Sondhi et al 
+>>
+Split
+|3 72 249 343 9|3 415 249 124 9|3 72 273 105 9
+Meanwhile Quantum Hall phenomena have also been studied in double layer systems 
+--
+Meanwhile Quantum Hall phenomena have also been studied in double layer systems 
+>>
+Delete
+|3 280 727 259 9
+[7] 
+--
+
+>>
+Merge
+|3 280 727 259 9||4 72 82 402 9
+transition which may be enable them also to be experimentally observable.
+
+--
+transition which may be enable them also to be experimentally observable.
+
+
+>>
+Split
+|3 72 757 466 8|4 72 106 333 8|4 405 106 134 8|4 72 130 213 8|4 285 130 253 8|4 72 154 81 9|4 153 154 291 9|4 444 154 94 9|4 72 178 202 9|4 274 178 228 9
+Clearly there are prospects of even more esoteric excitations when both spin and pseudospin degrees of freedom are considered simultaneously. That is the theme of this present
+work. We will continue to study the unit filling factor (ν 1) case. There has already
+been some discussion of the combined spin-pseudospin ν 1 double layer system 
+--
+Clearly there are prospects of even more esoteric excitations when both spin and pseudospin degrees of freedom are considered simultaneously. That is the theme of this present work. We will continue to study the unit filling factor (ν 1) case. There has already been some discussion of the combined spin-pseudospin ν 1 double layer system 
+>>
+Split
+|4 72 417 333 8|4 405 417 133 8|4 72 441 135 8|4 207 441 302 8|4 509 441 29 8|4 72 464 153 8
+So we begin in sec. II by showing, starting from the basic microscopic theory of the
+ν 1 system that in the effective LLL theory for the spin-pseudospin texture such gauge
+invariance 
+--
+So we begin in sec. II by showing, starting from the basic microscopic theory of the ν 1 system that in the effective LLL theory for the spin-pseudospin texture such gauge invariance 
+>>
+Delete
+|4 132 560 315 8
+6= 
+--
+
+>>
+Split
+|4 72 656 298 8|4 370 656 168 8|4 72 680 129 8|4 201 680 282 8|4 483 680 55 8|4 72 704 219 8|4 291 704 247 8|4 72 727 31 8|4 103 727 282 8|4 385 727 153 8|5 72 82 167 8
+A topologically non-trivial CP3 solution will generally involve an intertwined texture in
+the physical spin in each layer as well as in the pseudospin of each physical spin projection.
+One can ask whether such solutions can be legitimately interpreted as containing, as subsystems, spin-Skyrmions in either or both of the layers, possibly intertwined with a pseudospin
+
+--
+A topologically non-trivial CP3 solution will generally involve an intertwined texture in the physical spin in each layer as well as in the pseudospin of each physical spin projection. One can ask whether such solutions can be legitimately interpreted as containing, as subsystems, spin-Skyrmions in either or both of the layers, possibly intertwined with a pseudospin 
+>>
+Delete
+|4 385 727 153 8|5 72 82 167 8
+4
+
+
+--
+
+>>
+Merge
+|4 385 727 153 8|5 72 82 167 8|5 239 82 299 8|5 72 106 336 8|5 408 106 130 8|5 72 130 90 8
+meron or bimeron If so, then such possibilities of containing several topological entities
+as subsystems has to be made compatible with the fact that any finite energy CP3 texture
+carries altogether 
+--
+meron or bimeron If so, then such possibilities of containing several topological entities as subsystems has to be made compatible with the fact that any finite energy CP3 texture carries altogether 
+>>
+Split
+|5 72 249 325 8|5 397 249 141 8|5 72 273 175 8|5 247 273 292 8|5 72 297 27 8|5 99 297 294 8|5 394 297 144 8|5 72 321 167 9|5 239 321 193 9
+Consistent with these restrictions, we then pick in sec IV a representative ansatz which
+can be viewed as a spin-Skyrmion intertwined with a pseudospin bimeron. We then numerically evaluate such a solution by solving the coupled nonlinear partial differential equations
+that arise from extremising the texture energy functional. In earlier work 
+--
+Consistent with these restrictions, we then pick in sec IV a representative ansatz which can be viewed as a spin-Skyrmion intertwined with a pseudospin bimeron. We then numerically evaluate such a solution by solving the coupled nonlinear partial differential equations that arise from extremising the texture energy functional. In earlier work 
+>>
+Split
+|5 72 464 324 8|5 396 464 143 8|5 72 488 161 8|5 233 488 188 8|5 421 488 117 8|5 72 512 216 8|5 288 512 148 8|5 435 512 103 8|5 72 536 223 8|5 295 536 243 8|5 72 560 71 8|5 143 560 259 8|5 401 560 137 8|5 72 584 217 8|5 289 584 249 8|5 72 608 27 8|5 99 608 391 8|5 490 608 48 8|5 72 632 354 8|||5 72 656 140 8|5 212 656 326 8|5 72 680 408 8|5 480 680 58 8|5 72 704 286 8|5 358 704 180 8|5 72 727 147 8|5 219 727 129 8
+We also estimate the interaction energy of these solutions for some typical sets of values of
+system parameters. We discuss the dependence of this energy on the separation between the
+two meron centers. We find as expected, that if only the gradient and capacitance energies
+are considered ,their minimisation will drive the textures towards zero size. Therefore we also
+calculate the topological charge dependent Coulomb energy of our solutions which, being
+repulsive should drive the merons farther apart, offsetting the above tendency towards zero
+size. Then we extremise the total energy so obtained and find that it does show a minimum
+at some optimal meron separation, for each value of layer separation.
+
+<AND>
+We also find that these energies are approximately of the same order as those of purely
+spin Skyrmions of the single layer system. We make qualitative speculations on whether
+or not our spin-pseudospin intertwined solitons can be energetically favoured over solitons
+purely in spin or pseadospin, or over simple spin-flips.
+
+--
+We also estimate the interaction energy of these solutions for some typical sets of values of system parameters. We discuss the dependence of this energy on the separation between the two meron centers. We find as expected, that if only the gradient and capacitance energies are considered ,their minimisation will drive the textures towards zero size. Therefore we also calculate the topological charge dependent Coulomb energy of our solutions which, being repulsive should drive the merons farther apart, offsetting the above tendency towards zero size. Then we extremise the total energy so obtained and find that it does show a minimum at some optimal meron separation, for each value of layer separation.
+
+
+<AND>
+We also find that these energies are approximately of the same order as those of purely spin Skyrmions of the single layer system. We make qualitative speculations on whether or not our spin-pseudospin intertwined solitons can be energetically favoured over solitons purely in spin or pseadospin, or over simple spin-flips.
+
+
+>>
+Delete
+|5 219 727 129 8
+5
+
+
+<AND>
+II. 
+--
+
+<AND>
+
+>>
+Delete
+|5 72 757 466 8|6 451 168 88 8|6 72 192 263 8
+a1 (X)
+
+
+<AND>
+a2 (X) a3 (X) 
+<AND>
+(2.1)
+
+
+<AND>
+a4 (X)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|6 435 360 104 8|6 72 386 105 12
+σ
+
+
+<AND>
+aσ (X) |2 1 
+--
+
+<AND>
+
+>>
+Merge
+|6 177 384 57 9|6 234 384 271 9|6 505 384 33 9|6 72 408 205 9
+for each X In the literature, this aσ has sometimes been referred to as a
+
+
+<AND>
+CP3 spinor (see for instance Ezawa 
+--
+for each X In the literature, this aσ has sometimes been referred to as a 
+<AND>
+CP3 spinor (see for instance Ezawa 
+>>
+Split
+|6 72 695 381 8|6 453 695 85 8|6 72 718 303 8|6 375 718 163 8|7 72 82 205 9
+Let us start by deriving the energy functional of any spin-pseudospin texture from the
+microscopic Hamiltonian. This is just a straightforward generalisation of the procedure
+
+--
+Let us start by deriving the energy functional of any spin-pseudospin texture from the microscopic Hamiltonian. This is just a straightforward generalisation of the procedure 
+>>
+Delete
+|6 375 718 163 8|7 72 82 205 9
+6
+
+
+--
+
+>>
+Merge
+|6 375 718 163 8|7 72 82 205 9|7 277 82 261 9|7 72 106 81 8
+already in the literature for the simpler case of a spinless bilayer problem 
+--
+already in the literature for the simpler case of a spinless bilayer problem 
+>>
+Insert
+|7 72 200 466 8
+
+--
+Here
+
+
+>>
+Delete
+|7 72 200 466 8
+(2.2)
+
+
+<AND>
+Here
+HK 
+<AND>
+4 Z
+1 X
+d~rψσ† D 2 ψσ
+2m σ=1
+
+
+<AND>
+(2.3)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|7 265 318 274 8
+N
+X
+
+
+<AND>
+φX r) CσX
+
+
+<AND>
+(2.4)
+
+
+<AND>
+X=1
+
+
+<AND>
+with φX r) 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|7 72 412 261 8|7 333 412 206 8|7 72 436 151 8
+The second term in the Hamiltonian is the one body term representing the Zeeman and
+interlayer tunnelling energies.
+
+--
+The second term in the Hamiltonian is the one body term representing the Zeeman and interlayer tunnelling energies.
+
+
+>>
+Delete
+|7 333 412 206 8|7 72 436 151 8
+H1 
+<AND>
+σ,δ
+
+
+<AND>
+d~rψσ† r) (g̃σ̂z tτ̂x )σδ ψδ r)
+
+
+<AND>
+(2.5)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|7 72 554 313 8
+The third term in the Hamiltonian is the Coulomb term 
+--
+The third term in the Hamiltonian is the Coulomb term 
+>>
+Delete
+|7 72 554 313 8
+4
+1 X
+2 σ1 ,σ2 =1
+
+
+<AND>
+Z
+
+
+<AND>
+d~r1 d~r2 ψσ† 1 r1 )ψσ† 2 r2 )V σ1 σ2 r1 ~r2 )ψσ2 r2 )ψσ1 r1 
+<AND>
+(2.6)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|7 173 624 198 8
+V σ1 σ2 
+--
+Vσ1σ2 
+>>
+Delete
+|7 487 624 52 8|7 72 648 147 8
+e2
+ǫ r12
+
+
+<AND>
+σ1 σ2 in same layer,
+
+
+<AND>
+e2
+V σ1 σ2 v d q
+2
+ǫ r12
+d2
+
+
+<AND>
+σ1 σ2 in dif f erent layers
+7
+
+
+<AND>
+(2.7)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|8 72 202 279 9
+
+--
+where |0〉 
+>>
+Delete
+|8 72 202 279 9
+aσ (X)0i
+CσX
+
+
+<AND>
+Y X
+
+
+<AND>
+X
+
+
+<AND>
+σ
+
+
+<AND>
+(2.8)
+
+
+<AND>
+where 0i 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|8 72 488 311 8|8 383 488 155 8|8 72 512 87 9|8 159 512 172 9
+At unit filling ν 1, and in the space of LLL orbitals the kinetic term HK is just a
+constant equal to (N/2)
+--
+At unit filling ν 1, and in the space of LLL orbitals the kinetic term HK is just a constant equal to (N 2)
+>>
+Delete
+|8 159 512 172 9
+h̄
+--
+
+>>
+Split
+|8 72 560 283 8
+The Zeeman and tunnelling one-body energies yield
+
+--
+The Zeeman and tunnelling one-body energies yield
+
+
+>>
+Delete
+|8 72 560 283 8
+X
+X
+
+
+<AND>
+2
+
+
+<AND>
+2
+
+
+<AND>
+2
+
+
+<AND>
+g̃ |a1 (X)|a2 (X)|a3 (X)|a4 (X)
+<AND>
+t a1 (X)a∗3 (X) a2 (X)a∗4 (X) c.c.
+
+
+<AND>
+2
+
+
+<AND>
+(2.9)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|8 286 688 233 9
+(2.10)
+
+
+<AND>
+Fl (X) |a3 (X)2 |a4 (X)2
+Gu (X1 X2 
+<AND>
+X
+
+
+<AND>
+(2.11)
+
+
+<AND>
+ai (X1 )ai∗ (X2 
+<AND>
+(2.12)
+
+
+<AND>
+ai (X1 )ai∗ (X2 
+<AND>
+(2.13)
+
+
+<AND>
+i=1,2
+
+
+<AND>
+Gl (X1 X2 
+<AND>
+X
+
+
+<AND>
+i=3,4
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|9 72 270 466 8
+
+--
+with
+
+
+>>
+Insert
+|9 72 342 466 8
+
+--
+and
+
+
+>>
+Insert
+|9 72 413 41 8
+
+--
+Here
+
+
+>>
+Insert
+|9 72 512 466 8
+
+--
+with
+
+
+>>
+Delete
+|9 72 512 466 8
+(2.14)
+
+
+<AND>
+with
+hHC idirect 
+<AND>
+1 X
+D s (D d D s Fu (X1 )Fl (X2 Fl (X1 )Fu (X2 2 X1 ,X2
+
+<AND>
+(2.15)
+
+
+<AND>
+and
+hHC iexchange
+
+
+<AND>
+1 X
+E s Gu |2 |Gl |2 E d (G∗u Gl Gu G∗l 2 X1 ,X2
+
+<AND>
+(2.16)
+
+
+<AND>
+Here
+D s,d (X2 X1 VXs,d
+1 ,X2 ,X1 ,X2
+E s,d (X2 X1 VXs,d
+2 ,X1 ,X1 ,X2
+
+
+<AND>
+(2.17)
+
+
+<AND>
+with
+VXsd1 ,X2 ,X3 ,X4 
+<AND>
+Z
+
+
+<AND>
+d~r1 d~r2 V s,d(r1 ~r2 φ∗X1 r1 )φ∗X2 r2 )φX3 r1 )φX4 r2 
+<AND>
+(2.18)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|9 72 584 357 10
+D s,
+--
+Ds,
+>>
+Replace
+|9 429 584 110 10
+E s,
+--
+Es,
+>>
+Split
+|9 72 703 278 9
+Adding the contributions in eq.
+--
+Adding the contributions in eq.
+>>
+Delete
+|9 350 703 189 9|9 72 727 26 8
+E[aσ (X)E1 [aσ (X)EC [aσ (X)
+<AND>
+(2.19)
+
+
+--
+
+<AND>
+
+>>
+Split
+|9 72 757 466 8|10 72 163 276 9|10 348 163 190 9|10 72 187 96 8
+But, let us first examine the gauge invariance of the energy functional E[aσ (X)Consider
+the transformation
+
+--
+But, let us first examine the gauge invariance of the energy functional E[aσ(X)Consider the transformation
+
+
+>>
+Delete
+|10 348 163 190 9|10 72 187 96 8
+f or σ 1, 2
+
+
+<AND>
+aσ (X) eiΛl (X) aσ (X)
+
+
+<AND>
+f or σ 3, 4
+
+
+<AND>
+(2.20)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|10 72 447 330 9|10 402 447 137 9|10 72 470 205 9
+Under these local U(1)U(1) transformations, the one-body Zeeman energy in 
+--
+Under these local U(1) U(1) transformations, the one-body Zeeman energy in 
+>>
+Replace
+|10 184 494 274 9
+E s 
+--
+Es 
+>>
+Replace
+|10 191 542 347 10|10 72 566 49 8
+E d 
+--
+Ed 
+>>
+Delete
+|10 121 566 86 8|10 72 599 466 9
+(2.21)
+
+
+--
+
+>>
+Split
+|10 72 704 282 8|10 354 704 184 8|10 72 727 134 9|10 206 727 284 9|10 490 727 48 9|11 72 82 93 9
+Consider, however, what would happen if we had very widely separated ν 1 layers
+(the separation d Then each can have its own 2-component spin texture described
+
+--
+Consider, however, what would happen if we had very widely separated ν 1 layers (the separation d Then each can have its own 2-component spin texture described 
+>>
+Delete
+|10 490 727 48 9|11 72 82 93 9
+10
+
+
+--
+
+>>
+Merge
+|10 490 727 48 9|11 72 82 93 9|11 165 82 344 9|11 509 82 29 9|11 72 106 154 9
+by a CP1 system (equivalent to a non-linear O(3) sigma model) with its own U(1) gauge
+symmetry (see 
+--
+by a CP1 system (equivalent to a non-linear O(3) sigma model) with its own U(1) gauge symmetry (see 
+>>
+Delete
+|10 72 757 466 8|11 495 225 44 8|11 72 249 121 8
+III. 
+--
+
+>>
+Replace
+|11 271 154 200 10
+v d 
+--
+vd 
+>>
+Delete
+|11 379 477 33 8
+aσ (X1 ∂X1
+
+
+<AND>
+(3.1)
+
+
+--
+
+<AND>
+
+>>
+Split
+|11 72 573 371 8|11 443 573 95 8|11 72 597 208 8|11 280 597 97 8|11 378 597 86 8|11 72 645 466 28
+Now we will invoke the isotropy of the basic system in the x-y plane and generalise this
+expression for arbitrary textures by This is done by making the replacement
+
+--
+Now we will invoke the isotropy of the basic system in the x-y plane and generalise this expression for arbitrary textures by This is done by making the replacement
+
+
+>>
+Delete
+|11 378 597 86 8|11 72 645 466 28
+1
+2πl2
+
+
+<AND>
+Z
+
+
+<AND>
+d2 r
+
+
+<AND>
+(3.2)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|11 318 669 220 9|11 72 693 90 9
+2
+
+--
+
+>>
+Replace
+|11 302 696 236 12|11 72 717 41 9
+∂X
+
+--
+∂2X1 
+>>
+Delete
+|11 302 696 236 12|11 72 717 41 9
+1
+
+
+<AND>
+X1
+
+
+--
+
+<AND>
+
+>>
+Merge
+|11 302 696 236 12|11 72 717 41 9
+the sum
+
+
+--
+the sum 
+>>
+Merge
+|11 113 719 269 11|11 382 717 156 9|12 72 82 141 9
+by an integral over space as indicated. (These steps are given in the Moon et
+
+<AND>
+al work 
+--
+by an integral over space as indicated. (These steps are given in the Moon et 
+<AND>
+al work 
+>>
+Delete
+|11 382 717 156 9|12 72 82 141 9
+11
+
+
+--
+
+>>
+Delete
+|12 508 106 28 9
+1
+2πlZ2
+
+
+<AND>
+βm
+
+
+<AND>
+s
+
+
+<AND>
+2ρ
+
+
+<AND>
+Z
+
+
+<AND>
+Z
+
+
+<AND>
+dr g̃ |a1 |2 |a2 |2 |a3 |2 |a4 |2 t a1 a∗3 a2 a∗4 h.c.
+
+
+<AND>
+dr(Fu r) Fl r)2
+dr
+
+
+<AND>
+X
+
+
+<AND>
+i∗
+
+
+<AND>
+µ i
+
+
+<AND>
+µ a r)a r)
+<AND>
+Z
+
+
+<AND>
+i∗
+
+
+<AND>
+i
+
+
+<AND>
+a r)µ a r)
+
+
+<AND>
+i=1,4
+
+
+<AND>
+i=1,4
+
+
+<AND>
+(ρd ρs 
+<AND>
+X
+
+
+<AND>
+2
+
+
+<AND>
+2 (a3 a1∗ a1 a4∗ 2 (a4 a1∗ dr a1 a3∗ 
+<AND>
+2 3∗ 2
+
+
+<AND>
+2 4∗ 2
+
+
+<AND>
+3 2∗
+
+
+<AND>
+4 2∗
+
+
+<AND>
+a a (a a a a (a a h.c.
+
+
+<AND>
+(3.3)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|12 72 288 283 8
+1 X
+(E d (X2 X1 E s (X2 X1 (D d (X2 X1 D s (X2 X1 4 (X2 −X1 
+<AND>
+(3.4)
+
+
+<AND>
+ρs 
+<AND>
+1
+2
+
+
+<AND>
+(X2 X1 )2 s
+E (X2 X1 2
+(X2 −X1 
+<AND>
+(3.5)
+
+
+<AND>
+ρd 
+<AND>
+1
+2
+
+
+<AND>
+(X2 X1 )2 d
+E (X2 X1 2
+(X2 −X1 
+<AND>
+(3.6)
+
+
+<AND>
+X
+X
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|12 72 584 317 8
+This energy functional 
+--
+This energy functional 
+>>
+Delete
+|12 458 632 80 8|12 72 656 70 10
+√1 (0, 1, 0, 1)2
+
+
+--
+
+>>
+Merge
+|12 154 657 5 3|12 208 661 4 5|12 142 654 335 8|12 477 656 61 10|12 72 680 94 8|12 166 680 163 8|12 329 680 209 8|12 72 703 184 8|12 256 703 148 8|12 404 703 134 8|12 72 727 209 10|12 281 731 215 14
+The one-body Zeeman and tunnelling energies are
+
+
+<AND>
+clearly minimised by this choice since the spin is polarised ”down” in both layers and the
+psuedospin is along the x-direction, i.e. a layer-symmetric state. This choice also minimises
+the capacitance energy since it has equal occupancy in the two layers 
+--
+The one-body Zeeman and tunnelling energies are 
+<AND>
+clearly minimised by this choice since the spin is polarised "down" in both layers and the psuedospin is along the x-direction, i.e. a layer-symmetric state. This choice also minimises the capacitance energy since it has equal occupancy in the two layers 
+>>
+Delete
+|12 72 757 466 8
+(3.7)
+
+
+--
+
+>>
+Replace
+|13 263 198 275 8|13 72 221 100 8
+spinpseudospin 
+--
+spin-pseudospin 
+>>
+Delete
+|13 194 221 48 8
+Z
+
+
+<AND>
+dr[
+
+
+<AND>
+µ ai∗ r)µ ai r)
+<AND>
+X
+
+
+<AND>
+i=1,4
+
+
+<AND>
+X
+
+
+<AND>
+ai∗ r)µ ai r)2 
+<AND>
+(3.8)
+
+
+<AND>
+i=1,4
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|13 434 337 104 9|13 72 361 106 10
+(v s v d 
+--
+(vs vd)
+>>
+Split
+|13 72 385 348 8|13 420 385 118 8
+The properties of this prototype CP3 system and its topological solitons are well known
+
+--
+The properties of this prototype CP3 system and its topological solitons are well known 
+>>
+Replace
+|13 496 409 42 9|13 72 433 129 8
+Aµ 
+--
+Aμ 
+>>
+Delete
+|13 496 409 42 9|13 72 433 129 8
+[a∗σ ∂µ aσ 
+<AND>
+X
+
+
+<AND>
+(3.9)
+
+
+<AND>
+σ
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|13 72 500 227 8|13 72 534 466 9
+(3.10)
+
+
+--
+
+>>
+Insert
+|13 256 588 67 7|13 72 602 466 11|13 284 614 38 5||13 72 636 291 9
+
+--
+where Dμ ∂μ iAμ 
+>>
+Delete
+|13 72 636 291 9
+ECP 2ρ
+
+
+<AND>
+Z
+
+
+<AND>
+dr[
+
+
+<AND>
+4
+2
+X
+X
+
+
+<AND>
+σ=1 µ=1
+
+
+<AND>
+Dµ aσ r) |2
+
+
+<AND>
+(3.11)
+
+
+<AND>
+where Dµ ∂µ iAµ 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|13 72 727 300 9
+
+--
+Since Aμ 
+>>
+Delete
+|13 72 727 300 9
+(3.12)
+
+
+<AND>
+Since Aµ 
+--
+
+<AND>
+
+>>
+Delete
+|13 372 727 133 9|14 72 83 466 11
+aσ bσ eiφ(θ)
+
+
+<AND>
+(3.13)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|13 72 757 466 8|14 72 238 402 8
+(3.14)
+
+
+--
+
+>>
+Delete
+|14 418 356 121 8|14 72 380 237 8
+6= 
+--
+
+>>
+Split
+|14 72 452 394 8
+An important consequence of the common phase boundary condition 
+--
+An important consequence of the common phase boundary condition 
+>>
+Split
+|14 72 727 67 8
+and as r 0
+
+--
+and as r 0
+
+
+>>
+Delete
+|14 72 727 67 8
+λ(r) 1
+f (r) 0
+
+
+<AND>
+(3.15)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|15 229 190 237 8|15 267 284 46 10|15 72 248 466 45|15 257 269 67 18
+λ1 (r)
+
+
+<AND>
+f1 (r)eimθ λ2 (r) 
+<AND>
+(3.16)
+
+
+<AND>
+f2 (r)einθ
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|15 425 381 113 13
+contained in the
+
+
+<AND>
+Laplacians 
+--
+contained in the 
+<AND>
+Laplacians 
+>>
+Delete
+|15 72 402 440 9|15 72 443 466 26
+(3.17)
+
+
+--
+
+>>
+Split
+|15 72 540 423 8|15 495 540 43 8|15 72 564 330 8|15 402 564 137 8|15 72 588 82 8|15 283 682 26 8|15 272 667 47 18|15 72 649 466 48
+Keeping in mind this constraint of equal spin-winding numbers in each layer, let us illustrate non-trivially intertwined spin-pseudospin configurations with the following example
+that is allowed 
+--
+Keeping in mind this constraint of equal spin-winding numbers in each layer, let us illustrate non-trivially intertwined spin-pseudospin configurations with the following example that is allowed 
+>>
+Delete
+|15 402 564 137 8|15 72 588 82 8|15 283 682 26 8|15 272 667 47 18|15 72 649 466 48
+z b
+A
+λ2 
+<AND>
+(3.18)
+
+
+<AND>
+z+b
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|15 458 727 80 12|16 72 82 218 10
+15
+
+
+--
+
+>>
+Merge
+|15 458 727 80 12|16 72 82 218 10
+first and third components of 
+--
+first and third components of 
+>>
+Merge
+|16 352 87 4 5|16 72 106 140 9|16 340 80 198 8|16 212 106 326 9|15 72 757 466 8|16 72 130 77 8
+while the other two components
+
+
+<AND>
+vanish. This is therefore a permitted (energetically finite) CP3 configuration with winding
+number Q 1.
+
+--
+while the other two components 
+<AND>
+vanish. This is therefore a permitted (energetically finite) CP3 configuration with winding number Q 1.
+
+
+>>
+Split
+|16 72 154 382 8|16 454 154 84 8|16 72 178 137 8|16 209 178 330 8|16 72 202 66 9|16 138 202 89 9|16 226 202 312 9|16 72 225 88 9
+One can see that this example is so designed that within each layer the spin texture
+looks like that of a single Skyrmion, while at the same time it is also a ”bimeron” in the
+”psuedospin of the down-spin component” (contained in the second and fourth components
+of the 4-spinor of 
+--
+One can see that this example is so designed that within each layer the spin texture looks like that of a single Skyrmion, while at the same time it is also a "bimeron" in the "psuedospin of the down-spin component" (contained in the second and fourth components of the 4-spinor of 
+>>
+Delete
+|16 72 417 302 9|16 264 517 86 15|16 254 498 108 7|16 254 492 108 7|16 254 489 108 11|16 72 477 466 45
+cos α2 cos θ2u
+α
+2
+
+
+<AND>
+cos sin
+
+
+<AND>
+θu iφu
+e
+2
+
+
+<AND>
+sin α2 cos θ2l eiβ
+sin α2 sin θ2l ei(β+φl 
+<AND>
+(3.19)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|16 380 609 159 9|16 72 633 201 8
+1
+4π
+
+
+<AND>
+Z
+
+
+<AND>
+d2 rǫµν ∂µ (cosθu,l ∂ν (φu,l 
+<AND>
+(3.20)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|16 424 704 114 8|16 72 727 110 8
+16
+
+
+--
+
+>>
+Delete
+|17 408 82 130 8|17 72 106 107 8
+cos
+
+
+<AND>
+α↑
+2
+
+
+<AND>
+cos θ2s
+
+
+<AND>
+cos
+
+
+<AND>
+α↓
+2
+
+
+<AND>
+sin
+
+
+<AND>
+sin
+
+
+<AND>
+α↑
+2
+
+
+<AND>
+cos θ2s eiβ↑
+
+
+<AND>
+sin
+
+
+<AND>
+α↓
+2
+
+
+<AND>
+θs iφs
+e
+2
+
+
+<AND>
+sin θ2s ei(β↓ +φs 
+<AND>
+(3.21)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|17 504 226 34 8|17 72 250 51 8
+Z
+
+
+<AND>
+d2 rǫµν ∂µ (cosα↓ ∂ν (β↓ 
+<AND>
+(3.22)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|17 72 417 217 8|17 289 417 250 8|17 72 441 84 9|17 156 441 93 9
+One should however be cautioned that there is only one true topological charge Q in
+the full CP3 theory, given in eq. 
+--
+One should however be cautioned that there is only one true topological charge Q in the full CP3 theory, given in eq. 
+>>
+Delete
+|17 401 727 138 8|18 72 82 119 8
+17
+
+
+--
+
+>>
+Merge
+|17 401 727 138 8|18 72 82 119 8
+defined in 
+--
+defined in 
+>>
+Delete
+|18 72 106 302 8
+Z
+
+
+<AND>
+µν
+
+
+<AND>
+drǫ
+
+
+<AND>
+1
+∂µ (cosα)(1 cos θu ν φu 2
+
+
+<AND>
+1
+(1 cos θl ν φl ∂ν β]
+2
+
+
+<AND>
+−Fu r)µ (cos θu ν φu Fl r)µ (cos θl ν φl 
+<AND>
+(3.23)
+
+
+<AND>
+where Fu r) (1/2)1 cos α(r)and Fl r) (1/2)1 cos α(r)
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|18 521 229 17 9|18 72 253 248 9
+φu andφl 
+--
+φuandφl 
+>>
+Delete
+|18 72 277 277 8
+1
+4π
+
+
+<AND>
+Z
+
+
+<AND>
+drǫµν ∂µ (cos α)ν β.
+
+
+<AND>
+(3.24)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|18 498 349 41 9|18 72 373 126 8
+Z
+
+
+<AND>
+drǫµν ∂µ (cos θu ν φu 
+<AND>
+(3.25)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|18 72 492 364 8
+Finally, the very simple example 
+--
+Finally, the very simple example 
+>>
+Delete
+|18 72 708 283 8
+18
+
+
+<AND>
+IV. 
+--
+
+<AND>
+
+>>
+Delete
+|18 72 757 466 8|19 334 144 181 8|19 274 244 74 14|19 263 225 95 7|19 263 219 95 7|19 263 216 95 8|19 263 207 95 7|19 72 204 466 45
+aσ 
+<AND>
+cos
+
+<AND>
+α
+2
+
+
+<AND>
+sin
+
+
+<AND>
+θu iφu
+e
+2
+
+
+<AND>
+0
+sin α2 eiφl
+
+
+<AND>
+(4.1)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|19 72 313 241 8|19 313 313 225 8|19 72 337 202 9|19 274 337 179 9|19 286 433 26 8|19 275 419 47 17|19 72 400 466 48
+We will look for numerical solutions which would have corresponded ,if the energy had
+been of the simple prototype functional 
+--
+We will look for numerical solutions which would have corresponded ,if the energy had been of the simple prototype functional 
+>>
+Delete
+|19 274 337 179 9|19 286 433 26 8|19 275 419 47 17|19 72 400 466 48
+z
+A
+
+<AND>
+b
+0 
+<AND>
+(4.2)
+
+
+<AND>
+z+b
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|19 72 625 168 9
+In terms of the ansatz 
+--
+In terms of the ansatz 
+>>
+Delete
+|19 240 625 240 9
+2
+
+
+<AND>
+s
+
+
+<AND>
+Z
+
+
+<AND>
+19
+
+
+<AND>
+u ∇φ
+l
+4(1 cos2 α)1 cos θu φ
+
+
+<AND>
+1 2)
+cos α)2 α)
+2
+1 2 1
+2
+u )2 2(φ
+l )2
+(1 cos θu φ
+sin α θ1 8
+4 u ∇φ
+l
+2(1 cos θu φ
+
+
+<AND>
+(ρs ρl 
+<AND>
+Z
+
+
+<AND>
+d~r
+
+
+<AND>
+(4.3)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|20 72 254 306 9
+(4.4)
+
+
+--
+
+>>
+Split
+|20 72 512 201 8|20 273 512 186 8|20 458 512 80 8|20 72 536 235 8|20 307 536 160 8|20 467 536 71 8|20 72 560 163 8|20 235 560 303 8|20 72 584 51 10|20 123 584 236 10|20 359 584 179 10|20 72 608 142 8|20 214 608 65 8|20 279 608 204 8|20 483 608 55 8|20 72 632 327 8|20 399 632 139 8|20 72 656 222 8|20 294 656 221 8|20 515 656 23 8|20 72 680 196 9|20 268 680 155 9
+We have solved the field equations numerically for the case where just the capacitance
+term is added to the minimal CP3 energy ¿From our earlier calculations we know that
+this term is going to change the solutions considerably. The terms in each equation with the
+coefficient (ρs −ρl which accounts for the anisotropy in the exchange energy is not included
+in the process of numerical integration. As a justification of such simplification we can say
+that the anisotropic terms which involve higher order gradients of the spin pseudospin field
+will have less pronounced effect compared to the capacitance term on the solutions. This
+has been graphically shown in Fig. 1 and 2 of our earlier work 
+--
+We have solved the field equations numerically for the case where just the capacitance term is added to the minimal CP3 energy >From our earlier calculations we know that this term is going to change the solutions considerably. The terms in each equation with the coefficient (ρs ρl)which accounts for the anisotropy in the exchange energy is not included in the process of numerical integration. As a justification of such simplification we can say that the anisotropic terms which involve higher order gradients of the spin pseudospin field will have less pronounced effect compared to the capacitance term on the solutions. This has been graphically shown in Fig. 1 and 2 of our earlier work 
+>>
+Insert
+|21 72 241 47 8
+
+--
+where
+
+
+>>
+Delete
+|21 72 241 47 8
+δEC
+δ cos α
+
+
+<AND>
+ρs =ρl
+
+
+<AND>
+2βm Q2s cos α ρs 2
+
+
+<AND>
+cos α)2
+cos α((1 cos2 α)2
+
+
+<AND>
+∇2 cos α
+u )2 2(φ
+l )2
+(1 cos θu φ
+−2
+2
+1 cos α
+1
+u )2
+(1 cos α)1 cos θu )2 φ
+4
+2
+(1 cos α)φl cos α(1 cos θu φu ∇φl =0
+
+
+<AND>
+(4.5)
+
+
+<AND>
+where
+Q2s (η, φ) 
+<AND>
+b2
+(cosh η cos φ)2
+
+
+<AND>
+(4.6)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|21 494 357 44 8|21 72 380 334 8
+A. 
+--
+
+>>
+Delete
+|21 377 727 161 9|22 72 82 165 8
+21
+
+
+--
+
+>>
+Merge
+|21 377 727 161 9|22 72 82 165 8|22 237 82 302 8|22 72 106 339 8|22 411 106 127 8|22 72 130 165 9
+coupled p.d.e’s simultaneously. This simultaneous increase in the number of lattice points
+as well as independent fields demands that we have to invert a huge determinant in the
+Newton-Raphson procedure 
+--
+coupled p.d.e's simultaneously. This simultaneous increase in the number of lattice points as well as independent fields demands that we have to invert a huge determinant in the Newton-Raphson procedure 
+>>
+Delete
+|21 72 757 466 8|22 348 202 173 8
+B. 
+--
+
+>>
+Split
+|22 72 621 331 8|22 403 621 135 8|22 72 645 159 8|22 231 645 307 8|22 72 669 381 8|22 453 669 86 8|22 72 693 149 8|22 221 693 231 8|22 452 693 86 8|22 72 717 109 8
+We present below the salient features of our numerical results. The major feature we want
+our numerical solution to have is the intertwining of the spin skyrmion with the pseudopsin
+bimeron We would also like to show the leakage of electrons of either spin from one layer
+to another as we move in space, as a fallout of this intertwining. To show this we have
+plotted both cos α as well as 
+--
+We present below the salient features of our numerical results. The major feature we want our numerical solution to have is the intertwining of the spin skyrmion with the pseudopsin bimeron We would also like to show the leakage of electrons of either spin from one layer to another as we move in space, as a fallout of this intertwining. To show this we have plotted both cos α as well as 
+>>
+Delete
+|22 419 717 119 8|23 72 82 128 8
+22
+
+
+--
+
+>>
+Merge
+|22 419 717 119 8|23 72 82 128 8|23 200 82 297 8|23 497 82 42 8|23 72 106 312 8|23 384 106 155 8|23 72 130 68 8
+Fig.1 and Fig. 2 respectively. These solutions correspond to layer separation d 0.6l bimeron center-separation b 2.5l and starts from an initial value of λ 1 in the starting
+trial solution 
+--
+Fig.1 and Fig. 2 respectively. These solutions correspond to layer separation d 0.6l bimeron center-separation b 2.5l and starts from an initial value of λ 1 in the starting trial solution 
+>>
+Delete
+|23 226 225 119 9
+s
+
+
+<AND>
+2β
+b
+ρA
+
+
+<AND>
+κ
+η2 +φ2
+
+
+<AND>
+where
+(4.7)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|23 72 345 358 8|23 430 345 109 8|23 72 369 206 9|23 278 369 260 9|23 72 393 56 8|23 128 393 400 8|23 528 393 10 8|23 72 417 314 8|23 386 417 152 8|23 72 441 66 9|23 138 441 254 9|23 392 441 146 9|23 72 464 171 8
+The interesting point to note about these solutions is that in Fig. 1 cos α approaches different (absolute) asymptotic values as η approaches These are respectively the centers
+of the two merons that form the bimeron. Although computational limitations allow us to
+go only upto values 0f η ±3, it is clear from the figure that asymptotic behavior has been
+obtained This asymptotic behaviour is extracted directly from the analytic ansatz 
+--
+The interesting point to note about these solutions is that in Fig. 1 cos α approaches different (absolute) asymptotic values as η approaches These are respectively the centers of the two merons that form the bimeron. Although computational limitations allow us to go only upto values 0f η 3, it is clear from the figure that asymptotic behavior has been obtained This asymptotic behaviour is extracted directly from the analytic ansatz 
+>>
+Split
+|23 72 656 257 8|23 329 656 209 8|23 72 680 69 8|23 141 680 398 8|23 72 704 310 8|23 382 704 156 8|23 72 727 124 8|23 196 727 342 8
+Since bipolar co-ordinates are not very familiar we have given an alternate representation
+of the above results through a vector-plot in the physical x-y space in Fig. 3 and 4. The
+values of the parameters in these figures are same as those in Fig.1. In Fig. 3 the magnitude
+of each arrow gives the absolute value of the transvere component of the total pseudospin
+
+--
+Since bipolar co-ordinates are not very familiar we have given an alternate representation of the above results through a vector-plot in the physical x-y space in Fig. 3 and 4. The values of the parameters in these figures are same as those in Fig.1. In Fig. 3 the magnitude of each arrow gives the absolute value of the transvere component of the total pseudospin 
+>>
+Delete
+|23 196 727 342 8
+23
+
+
+--
+
+>>
+Merge
+|24 72 82 281 9|24 353 82 185 9|24 72 106 80 9
+sin α and it’s angle with the x-axis gives (φu φl One should note in this regard the
+
+--
+sin α and it's angle with the x-axis gives (φu φl)One should note in this regard the 
+>>
+Split
+|24 72 249 369 8|24 441 249 97 8|24 72 273 319 8|24 391 273 147 8|24 72 297 151 9|24 223 297 316 9|24 72 321 35 8|24 107 321 350 8|24 457 321 82 8|24 72 345 135 8|24 207 345 312 8|24 519 345 19 8|24 72 369 205 8|24 277 369 244 8
+In Fig 5.we have given a similar vector plot for the spin skyrmion in the upper layer.
+Here the length of the each arrow corresponds to the planar projection of the spin in the
+upper layer (sin θu and the its direction gives the azimuthal angle (φu of the projected
+vector .This picture very clearly points out how the skyrmion winds in the azimutahl plane
+about it’s centre at x b Here also the layer separation d and the starting values of b and
+λ are the same as those in Fig. 1 This set of parameters represents a typical example.
+
+--
+In Fig 5.we have given a similar vector plot for the spin skyrmion in the upper layer. Here the length of the each arrow corresponds to the planar projection of the spin in the upper layer (sin θu) and the its direction gives the azimuthal angle (φu) of the projected vector .This picture very clearly points out how the skyrmion winds in the azimutahl plane about it's centre at x b Here also the layer separation d and the starting values of b and λ are the same as those in Fig. 1 This set of parameters represents a typical example.
+
+
+>>
+Split
+|24 72 393 333 8|24 405 393 133 8|24 72 417 225 8|24 297 417 241 8|24 72 441 131 9|24 203 441 335 9|24 72 464 45 8
+Lastly, we have evaluated the energy of these solutions for a set of values of the meron
+separation parameter b .The optimal value of b should be obtained by minimising the full
+energy as a function of b. But if we include only the capacitance term and the (pseudo)
+--
+Lastly, we have evaluated the energy of these solutions for a set of values of the meron separation parameter b .The optimal value of b should be obtained by minimising the full energy as a function of b. But if we include only the capacitance term and the (pseudo)
+>>
+Replace
+|24 203 441 335 9|24 72 464 45 8
+spinstiffness 
+--
+spin-stiffness 
+>>
+Delete
+|24 353 727 186 8|25 72 82 159 8
+24
+
+
+--
+
+>>
+Merge
+|24 353 727 186 8|25 72 82 159 8|25 231 82 258 8|24 72 757 466 8|25 489 82 49 8|25 72 106 99 8
+make our nonlinear differential equation even more difficult to solve, but they can offset this
+tendency to shrink.
+
+--
+make our nonlinear differential equation even more difficult to solve, but they can offset this tendency to shrink.
+
+
+>>
+Split
+|25 72 130 400 8|25 472 130 66 8|25 72 154 288 9|25 360 154 179 9|25 72 178 26 9
+In particular, one prominent higher gradient contribution to the energy is the Coulomb
+interaction between different portions of the topological charge densities. It is given by (see
+
+--
+In particular, one prominent higher gradient contribution to the energy is the Coulomb interaction between different portions of the topological charge densities. It is given by (see 
+>>
+Delete
+|25 360 154 179 9|25 72 178 26 9
+1Z
+d~rd~r′V r ~r′ )δρ(r)δρ(r′ 2
+
+
+<AND>
+(4.8)
+
+
+<AND>
+where δρ(r) 
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|25 72 297 282 8|25 354 297 147 8|25 502 297 37 8|25 72 321 308 8
+Inclusion of the contribution of this term into our differential equation for the texture
+will introduce a 
+--
+Inclusion of the contribution of this term into our differential equation for the texture will introduce a 
+>>
+Split
+|25 72 512 333 8|25 405 512 133 8|25 72 536 221 8|25 293 536 245 8|25 72 560 142 8|25 214 560 324 8
+In Table 1 we have presented our calculation for the layer separation d .8l where
+different contributions to the total energy are shown along with the their sum, the ”total
+energy”For this particular layer separation a distinct minimum is obtained around b 2.0l.
+
+--
+In Table 1 we have presented our calculation for the layer separation d .8l where different contributions to the total energy are shown along with the their sum, the "total energy"For this particular layer separation a distinct minimum is obtained around b 2.0l.
+
+
+>>
+Split
+|25 72 584 371 8|25 443 584 95 8|25 72 608 105 8|25 177 608 152 8|25 329 608 209 8|25 72 632 291 8|25 363 632 175 8|25 72 656 140 8|25 212 656 326 8|25 72 680 23 9|25 95 680 211 9|25 307 680 231 9|25 72 704 155 8|25 227 704 176 8
+To see whether this behaviour is common to other layer separations we have plotted in
+fig.6 the total energy Etotal as a fuction of bimeron separation b for a set of layer separations.
+The three sets of points in this figure corespond to three different layer separations, namely
+d equal to .5l, .7l and .8l. All these three curves show distict minima for the total energy
+as a function of bimeron separation. We have also provided in Table 2 the size (b) and total
+energy of the optimal bimeron for five values of layer separation.
+
+--
+To see whether this behaviour is common to other layer separations we have plotted in fig.6 the total energy Etotal as a fuction of bimeron separation b for a set of layer separations. The three sets of points in this figure corespond to three different layer separations, namely d equal to .5l, .7l and .8l. All these three curves show distict minima for the total energy as a function of bimeron separation. We have also provided in Table 2 the size (b) and total energy of the optimal bimeron for five values of layer separation.
+
+
+>>
+Split
+|25 72 727 213 8|25 285 727 253 8|26 72 82 97 8
+Notice from Table 2 that the optimal meron separation b decreases with the increase of
+
+--
+Notice from Table 2 that the optimal meron separation b decreases with the increase of 
+>>
+Delete
+|25 285 727 253 8|26 72 82 97 8
+25
+
+
+--
+
+>>
+Merge
+|25 285 727 253 8|26 72 82 97 8|26 169 82 75 8|26 244 82 122 8|26 367 82 172 8|26 72 106 112 8|26 184 106 121 8|26 305 106 233 8|26 72 130 68 9
+layer separation d For d .8l the optimal separation is around b 2.0l and gradually
+increases to b 2.5l for d 0.4l For the case of pure layer bimeron Brey et. al. also
+found 
+--
+layer separation d For d .8l the optimal separation is around b 2.0l and gradually increases to b 2.5l for d 0.4l For the case of pure layer bimeron Brey et. al. also found 
+>>
+Merge
+|26 524 130 14 9|26 72 158 334 14|26 361 154 178 10|26 72 178 98 9|26 170 178 368 9|26 72 202 360 9|26 432 202 90 9|26 522 202 16 9|26 72 225 146 8|26 218 225 320 8|25 72 757 466 8|26 72 249 278 8
+ratio) one increases the relative importance of
+
+
+<AND>
+Coulomb repulsion among topological charge densities (coming from the intra-layer Coulomb
+energy) to the Capacitance term (coming from the interlayer Coulomb repusion)Hence the
+balancing of the capacitance term by the Coulomb energy will take place at a larger bimeron
+separation, thereby increasing the size of the bimeron.
+
+--
+ratio) one increases the relative importance of 
+<AND>
+Coulomb repulsion among topological charge densities (coming from the intra-layer Coulomb energy) to the Capacitance term (coming from the interlayer Coulomb repusion)Hence the balancing of the capacitance term by the Coulomb energy will take place at a larger bimeron separation, thereby increasing the size of the bimeron.
+
+
+>>
+Split
+|26 72 273 262 8|26 334 273 204 8|26 72 297 110 8|26 182 297 299 8|26 481 297 57 8|26 72 321 274 8|26 346 321 192 8|26 72 345 30 8|26 102 345 187 8|26 289 345 249 8|26 72 369 107 8|26 179 369 158 8
+We found that resulting energy of these solitons at their optimal sizes varies very little as
+one changes the layer separation. Although bimerons of larger size at lower layer separations
+cost higher capacitance energy the decrease in the Coulomb energy seems to fully offset
+that. As a result the total energy remains almost the same for different layer separations in
+the range d 0.4l to d 0.8l that we have studied.
+
+--
+We found that resulting energy of these solitons at their optimal sizes varies very little as one changes the layer separation. Although bimerons of larger size at lower layer separations cost higher capacitance energy the decrease in the Coulomb energy seems to fully offset that. As a result the total energy remains almost the same for different layer separations in the range d 0.4l to d 0.8l that we have studied.
+
+
+>>
+Split
+|26 72 393 409 8|26 481 393 58 8|26 72 417 254 8|26 326 417 212 8|26 72 441 109 9|26 181 441 294 9|26 475 441 63 9|26 72 464 238 9|26 310 464 229 9|26 72 488 64 9|26 136 488 285 9
+An important question is whether our spin-pseudospin intertwined solution has a lower
+energy than other candidates among the low-lying excitations. Prominent among these other
+low lying excitations with whom such comparisons have to be done are (i) the particle-hole
+excitations and (ii) purely spin or pseudospin textured solitons. To start with note that in
+the minimal prototype CP3 system (valid in the d 0 limit see 
+--
+An important question is whether our spin-pseudospin intertwined solution has a lower energy than other candidates among the low-lying excitations. Prominent among these other low lying excitations with whom such comparisons have to be done are (i) the particle-hole excitations and (ii) purely spin or pseudospin textured solitons. To start with note that in the minimal prototype CP3 system (valid in the d 0 limit see 
+>>
+Replace
+|26 421 488 117 9|26 72 512 144 9
+4πρs Q 
+--
+4πρsQ 
+>>
+Delete
+|26 519 632 20 9|26 72 660 328 16
+π
+2
+
+
+<AND>
+1.25 
+--
+
+<AND>
+
+>>
+Merge
+|26 519 632 20 9|26 72 660 328 16
+in units of
+
+
+--
+in units of 
+>>
+Merge
+|26 386 656 153 12|26 72 680 172 8|26 244 680 294 8|26 72 704 21 8|26 93 704 374 8|26 466 704 72 8|26 72 727 119 8|26 191 727 148 8|26 339 727 199 8|27 72 87 85 15
+However the difference in the
+
+
+<AND>
+energies of these various types of topological excitations come from the additional terms in
+the full energy EC due to capacitance anisotropy and Coulomb repulsion. As we can see
+from the Table 2 that our intertwined soliton over a range of layer separation has energy
+
+<AND>
+around .60
+
+
+--
+However the difference in the 
+<AND>
+energies of these various types of topological excitations come from the additional terms in the full energy EC due to capacitance anisotropy and Coulomb repulsion. As we can see from the Table 2 that our intertwined soliton over a range of layer separation has energy 
+<AND>
+around .60 
+>>
+Delete
+|26 339 727 199 8|27 72 87 85 15
+26
+
+
+--
+
+>>
+Merge
+|27 149 83 89 11|27 237 83 301 11|27 72 107 148 8|26 72 757 466 8|27 220 107 103 8
+It is encouraging that a pair of these excitations would have somewhat lower
+
+
+<AND>
+energy than the particle-hole pair energy of 1.25.
+
+--
+It is encouraging that a pair of these excitations would have somewhat lower 
+<AND>
+energy than the particle-hole pair energy of 1.25.
+
+
+>>
+Split
+|27 72 131 415 8|27 487 131 51 8|27 72 155 334 8|27 406 155 132 8|27 72 179 40 8|27 112 179 263 8|27 374 179 164 8|27 72 203 90 8|27 162 203 308 8|27 470 203 68 8|27 72 227 145 9
+Of course our computational accuracy is not very high, given that we are limited in
+how many lattice points we can use. One must also improve on the results by solving
+for the texture functions and their energy after including single particle terms due to the
+Zeeman coupling and tunelling Examples of such calculations can be found in the case of
+ν 2 by Pardes et. al. 
+--
+Of course our computational accuracy is not very high, given that we are limited in how many lattice points we can use. One must also improve on the results by solving for the texture functions and their energy after including single particle terms due to the Zeeman coupling and tunelling Examples of such calculations can be found in the case of ν 2 by Pardes et. al. 
+>>
+Replace
+|27 72 375 343 8
+spinpseudospin 
+--
+spin-pseudospin 
+>>
+Delete
+|27 181 423 233 9
+27
+
+
+--
+
+>>
+Split
+|28 72 119 310 9|28 382 119 157 9|28 72 143 296 8|28 368 143 170 8|28 72 167 38 9|28 110 167 174 9|28 284 167 132 9|28 416 167 122 9|28 72 191 145 8|28 217 191 258 8|28 475 191 64 8|28 72 214 272 11|28 344 219 166 15
+Table 1: Different contributions to the total energy (Etotal of spin-pseudospin intertwined
+solitons for a set of b at a layer separation of d 0.8l. Here Egrad refers to the gradient
+energy (isotorpic plus anisotropic)while Ecapa is the capacitance energy and ECoul is the
+Coulomb interaction energy between topological charge densities Etotal is the sum of these
+three contributions to the energy. The unit of energy is
+
+
+--
+Table 1: Different contributions to the total energy (Etotal) of spin-pseudospin intertwined solitons for a set of b at a layer separation of d 0.8l. Here Egrad refers to the gradient energy (isotorpic plus anisotropic)while Ecapa is the capacitance energy and ECoul is the Coulomb interaction energy between topological charge densities Etotal is the sum of these three contributions to the energy. The unit of energy is 
+>>
+Merge
+|28 344 219 166 15
+and the unit of length is l.
+
+
+--
+and the unit of length is l.
+
+
+>>
+Delete
+|28 344 219 166 15
+b Ecapa Egrad ECoul Etotal
+4.5 0.285 0.261 0.141 0.687
+4.0 0.250 0.251 0.152 0.653
+3.5 0.229 0.228 0.168 0.625
+3.0 0.205 0.223 0.183 0.611
+2.5 0.153 0.227 0.217 0.597
+2.3 0.143 0.227 0.225 0.595
+2.0 0.126 0.203 0.262 0.591
+1.8 0.121 0.192 0.290 0.603
+1.5 0.104 0.196 0.328 0.628
+1.2 0.091 0.200 0.390 0.681
+1.0 0.081 0.192 0.456 0.729
+
+
+<AND>
+28
+
+
+--
+
+<AND>
+
+>>
+Split
+|29 72 119 52 9|29 124 119 363 9|29 487 119 52 9|29 72 143 208 11|29 280 147 192 15
+Table 2: The size (i.e.the optimal meron separation b) and the total energy (Etotal at
+different layer separations d. The unit of energy is
+
+--
+Table 2: The size (i.e.the optimal meron separation b) and the total energy (Etotal) at different layer separations d. The unit of energy is 
+>>
+Delete
+|29 280 147 192 15
+e2
+ǫl
+
+
+<AND>
+b Etotal
+
+
+<AND>
+0.8 2.0 0.59
+0.7 2.2 0.59
+0.6 2.3 0.60
+0.5 2.4 0.60
+0.4 2.5 0.59
+
+
+<AND>
+29
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|29 280 147 192 15|29 473 143 11 11
+and the unit of length is l.
+
+
+--
+and the unit of length is l. 
+>>
+Delete
+|29 473 143 11 11
+FIGURES
+FIG. 1. The solution cos α(η) of the field equations for a set of values for φ.The curves correspond, as one goes inwards, to φ 0.09π, 0.36π, 0.63π, 0.90π respectively with the outermost one
+corresponds to φ equal to 0.09π. The layer separation d is equal to 0.6l and bimeron separation b
+is equal to 2.5l. The value of λ in the analytic ansatz is 1l
+FIG. 2. The plot of cos αdownspin((η) for a set of values for φ.The curves correspond, as one
+goes inwards, to φ 0.09π, 0.36π, 0.63π, 0.90π respectively with the outermost one corresponds to
+φ equal to 0.09π. The layer separation d is again equal to 0.6l and bimeron separation b is equal
+to 2.5l. The value of λ in the analytic ansatz is also 1l
+FIG. 3. This figure gives the magnitude and direction of x-y projection of the total pseudospin
+at different points on the plane. The magnitude of each arrow at a given point is sin α and it’s
+angle with the x-axis is (φl φu at that point. The layer separation and the bimeron separation
+are same as in Fig. 1 and 2
+FIG. 4. This figure gives the magnitude and direction of x-y projection of the pseudospin
+in the down-spin component” at different points on the plane. The magnitude of each arrow at a
+given point is sin α↓ and it’s angle with the x-axis is β↓ at that point. The layer separation and
+the bimeron separation are same as in Fig. 1 and 2
+FIG. 5. This figure gives the magnitude and direction of x-y projection of the spin in the upper
+layer at different points on the plane. At each point the magnitude of the arrow gives sin θu and
+it’s direction with x-axis gives φu at that point. The layer separation and the bimeron separation
+and initial λ are the same as in the earlier figures
+FIG. 6. This figure gives a plot of the total energy E(total) as a function of the bimeron
+separation b for three different layer separations, namely d 0.5l, 0.7l and 0.8l The unit of energy
+is again
+
+
+<AND>
+e2
+ǫl
+
+
+<AND>
+30
+
+
+<AND>
+REFERENCES
+
+<AND>
+email: doug@jnuniv.ernet.in
+[1] S.L.Sondhi, A.Karlhede, S.A.Kivelson and E.H. Rezayi, Phys.Rev. B 47, 16419, (1993)[2] S.E.Barrett, G.Dabbagn, L.N.Pfeiffer, K.W.West and R.Tycko, Phys.Rev.Lett.74,
+5112, (1995)A.Schmeller, J.P.Eisenstein, L.N.Pfeiffer, and K.W.West, Science, 268,
+1460, (1995)E.H.Aifer, B.B.Goldberg and D.A.Broido, Phys. Rev. Lett.76, 680,
+(1996)[3] J.P.Eisenstein, G.S.Boebinger, L.N.Pfeiffer, K.W.West and Song He, Phys.Rev.Lett.68,
+1383, (1992) S.Q. Murphy, J.P.Eisenstein, G.S.Boebinger, L.N.Pfeiffer and K.W.West,
+Phys.Rev.Lett.72, 728, (1994)Y.W.Suen, L.W.Engel, M.B.Santos, M.Shayegan and
+D.C.Tsui, Phys.Rev.Lett.68, 1379, (1992)G.S.Boebinger H.W.Jiang, L.N.Pfeiffer and
+K.W.West, Phys.Rev.Lett.64, 1793, (1990)[4] T. Chakrabarty and P. Pietilainen, Phys. Rev. Lett. 59, 2784 (1987)E. H. Rezayi and
+F. D. M. Haldane, Bull. Am. Phys. Soc. 32,892 (1987)[5] S.M.Girvin and A.H.MacDonald, ”Multi-Component Quantum Hall Systems The Sum
+of Their Parts and More in Novel Quantum Liquids in Low-Dimensional Semiconductor Structures, S.D.Sarma and A.Pinczuk Eds.Wiley (New York)1995.
+[6] K.Moon, H.Mori, Kun Yang, S.M.Girvin, A.H.MacDonald, L.Zheng D.Yashioka and
+Shou-Cheng Zhang, Phys.Rev. B 51, 5138 (1995)[7] J.M.Kosterlitz and D.J.Thouless, J.Phys.C 6, 1181, (1973)
+[8] D.P. Arovas et. al.Phys. Rev. B. 59, 13147 (1999)[9] Z.F.Ezawa, Phys.Rev. Lett. 82, 3512, (1999)Phys. Lett. A 249,223 (1998)
+
+
+<AND>
+[10] V.Golo and A.M.Perelemov Phys.Letters bf 99 B, 112, (1978)A. D’Adda, M.Luscher,
+and P.DiVecchia, Nucl. Phys B 146, 63, (1978)H. Eichenherr, Nucl. Phys B 146, 215,
+31
+
+
+<AND>
+(1978)E.Cremmer and J.Scherk, Phys.Letters 74B, 341, (1978) E.Witten, Nuc.Phys.
+B149, 285, (1979)[11] R.Rajaraman, Solitons and Instantons, North Holland, Amsterdam, (1982)[12] Sankalpa Ghosh and R.Rajaraman, Int. J.Mod.Phys. B 12 ,37, (1998)[13] Sankalpa Ghosh and R.Rajaraman, Int. J.Mod.Phys. B 12 ,2495, (1998)[14] B. Paredes et. al.Phys. Rev. Lett. 83, 2250, (1999)[15] L.Brey, H.A.Fertig, R.Cote and A.H.MacDonald, Phys. Rev. B. 54, 16888 (1996)[16] Margenau and Murphy ,The Mathematics of Physics and Chemistry,Affiliated EastWest Press Pvt. Ltd.New-Delhi)1971
+[17] William.H.Press. et. al.Numerical Recipes In Fortran 77,Second Edition,Cambridge
+University Press,Chapter 9.
+
+
+<AND>
+32
+
+
+<AND>
+1.0
+
+
+<AND>
+Cos α
+
+
+<AND>
+0.5
+
+
+<AND>
+0
+
+
+<AND>
+-0.5
+
+
+<AND>
+-1.0
+-3.0
+
+
+<AND>
+-1.5
+
+
+<AND>
+0
+η
+
+
+<AND>
+1.5
+
+
+<AND>
+3.0
+
+
+<AND>
+Cos αdown-spin
+
+
+<AND>
+1.0
+
+
+<AND>
+0.5
+
+
+<AND>
+0
+
+
+<AND>
+-0.5
+
+
+<AND>
+-1.0
+-3.0
+-1.5
+
+
+<AND>
+0
+η
+
+
+<AND>
+1.5
+
+
+<AND>
+3.0
+
+
+<AND>
+0.85
+8’
+7’
+5’
+0.8
+
+
+<AND>
+E_total
+
+
+<AND>
+0.75
+
+
+<AND>
+0.7
+
+
+<AND>
+0.65
+
+
+<AND>
+0.6
+
+
+<AND>
+0.55
+0.5
+
+
+<AND>
+1
+
+
+<AND>
+1.5
+
+
+<AND>
+2
+
+
+<AND>
+2.5
+
+
+<AND>
+3
+b
+
+
+<AND>
+3.5
+
+
+<AND>
+4
+
+
+<AND>
+4.5
+
+
+<AND>
+5
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+

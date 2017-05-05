@@ -1,0 +1,7092 @@
+>>
+Delete
+|1 103 147 411 14|1 103 179 411 14|1 103 219 411 16|1 103 249 411 10
+arXiv:cond-mat/0001227v1 [cond-mat.str-el] 17 Jan 2000
+
+
+--
+
+>>
+Replace
+|1 103 147 411 14|1 103 179 411 14|1 103 219 411 16|1 103 249 411 10||||1 103 295 411 8|1 103 313 411 8||1 103 332 411 10
+M. Fabrizioa, A. O. Gogolinb and A. A. Nersesyanc,d
+February 1, 2008
+a
+
+
+<AND>
+b
+
+
+--
+aInternational 
+<AND>
+bDepartment 
+>>
+Delete
+|1 103 295 411 8|1 103 313 411 8
+International 
+--
+
+>>
+Merge
+|1 103 147 411 14|1 103 179 411 14|1 103 219 411 16|1 103 249 411 10||||1 103 295 411 8|1 103 313 411 8||1 103 332 411 10|1 103 350 411 8||1 103 368 411 8|1 103 386 411 8|||1 103 404 15 10|1 103 423 411 8
+School for Advanced Studies and INFM, Via Beirut 4, 34014
+Trieste, Italy
+
+
+<AND>
+of Mathematics, Imperial College, 180 Queen’s Gate, London
+SW7 2BZ, United Kingdom
+
+
+<AND>
+c
+
+
+<AND>
+The Abdus Salam International Centre for Theoretical Physics, P.O.Box 586,
+34100, Trieste, Italy
+
+<AND>
+Andronikashvili Institute of Physics, Tamarashvili 6, 380077, Tbilisi,
+Georgia
+
+--
+School for Advanced Studies and INFM, Via Beirut 4, 34014 Trieste, Italy 
+<AND>
+of Mathematics, Imperial College, 180 Queen's Gate, London SW7 2BZ, United Kingdom 
+<AND>
+c 
+<AND>
+The Abdus Salam International Centre for Theoretical Physics, P.O.Box 586, 34100, Trieste, Italy 
+<AND>
+Andronikashvili Institute of Physics, Tamarashvili 6, 380077, Tbilisi, Georgia
+
+
+>>
+Delete
+|1 103 332 411 10
+Department 
+--
+
+>>
+Replace
+|1 103 368 411 8|1 103 386 411 8|||1 103 404 15 10|1 103 423 411 8
+d
+
+
+--
+dThe 
+>>
+Delete
+|1 103 404 15 10|1 103 423 411 8
+The 
+<AND>
+Abstract
+We study the properties of the double-frequency sine–Gordon model in
+the vicinity of the Ising quantum phase transition displayed by this model.
+Using a mapping onto a generalised lattice quantum Ashkin-Teller model,
+we obtain critical and nearly-off-critical correlation functions of various
+operators. We discuss applications of the double-sine-Gordon model to
+one-dimensional physical systems, like spin chains in a staggered external
+field and interacting electrons in a staggered potential.
+
+
+--
+
+<AND>
+
+>>
+Split
+|1 103 621 359 8|1 462 621 52 8
+Keywords: Fermions in reduced dimensions; Lattice fermion models; Quantized
+spin models.
+
+
+--
+Keywords: Fermions in reduced dimensions; Lattice fermion models; Quantized spin models.
+
+
+>>
+Delete
+|1 462 621 52 8
+1
+
+
+--
+
+>>
+Delete
+|1 454 732 61 9|2 103 92 253 9
+1
+
+
+--
+
+>>
+Merge
+|1 454 732 61 9|2 103 92 253 9|2 356 92 158 9|2 103 111 183 9|2 286 111 45 9|2 331 111 183 9|2 103 129 193 8|2 296 129 218 8|2 103 147 45 8|2 148 147 108 8|2 243 150 4 3
+also in view of its relation to the physics of many quantum one-dimensional (1D)
+and classical two-dimensional (2D) models. A less studied case concerns a CFT
+perturbed by two relevant operators. Namely, consider a CFT subjected to such
+relevant perturbation, 
+--
+also in view of its relation to the physics of many quantum one-dimensional (1D) and classical two-dimensional (2D) models. A less studied case concerns a CFT perturbed by two relevant operators. Namely, consider a CFT subjected to such relevant perturbation, 
+>>
+Replace
+|2 148 147 108 8|2 243 150 4 3
+gO∆g 
+--
+gOΔg, 
+>>
+Replace
+|2 256 147 169 8
+∆g 
+--
+Δg 
+>>
+Replace
+|2 103 187 77 12
+λO∆λ 
+--
+λOΔλ, 
+>>
+Split
+|2 103 238 173 8|2 276 238 139 8
+Without loss of generality, we assume that 
+--
+Without loss of generality, we assume that 
+>>
+Replace
+|2 276 238 139 8
+∆λ ∆g 
+--
+Δλ Δg 
+>>
+Replace
+|2 382 529 132 9|2 103 548 168 9
+sineGordon 
+--
+sine-Gordon 
+>>
+Replace
+|2 281 566 233 9|2 103 584 34 8
+∆g λ 
+--
+Δg Δλ 
+>>
+Insert
+|2 103 655 411 8
+
+--
+where
+
+
+>>
+Delete
+|2 103 655 411 8
+(1)
+
+
+<AND>
+where
+i
+
+
+<AND>
+h
+
+
+<AND>
+H0 [Φ] v0 x φR )2 x φL )2 
+<AND>
+(2)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|2 103 732 241 9
+2.
+
+--
+
+>>
+Split
+|3 103 202 411 8|3 103 220 226 8|3 329 220 172 8|3 501 220 13 8|3 103 238 308 8|3 411 238 103 8|3 103 256 187 8|3 290 256 224 8|3 103 274 80 8|3 184 274 331 8|3 103 293 23 8|3 126 293 388 8|3 103 311 370 8|3 473 311 41 8|3 103 329 290 8
+Apart from the practical interest in physical realizations of the DSG model,
+this problem is of relevance also from a pure theoretical point of view. Indeed, we
+have already mentioned that the Ising critical point separates two strong-coupling,
+massive phases; hence, by definition, its analytical description is outside the range
+of applicability of perturbation theory. In this paper we propose a nonperturbative scheme, which is essentially based on the mapping of the DSG model onto
+another equivalent model a generalised quantum Ashkin-Teller model on a 1D
+lattice, where the Ising critical point becomes accessible.
+
+--
+Apart from the practical interest in physical realizations of the DSG model, this problem is of relevance also from a pure theoretical point of view. Indeed, we have already mentioned that the Ising critical point separates two strong-coupling, massive phases; hence, by definition, its analytical description is outside the range of applicability of perturbation theory. In this paper we propose a nonperturbative scheme, which is essentially based on the mapping of the DSG model onto another equivalent model a generalised quantum Ashkin-Teller model on a 1D lattice, where the Ising critical point becomes accessible.
+
+
+>>
+Split
+|3 103 347 365 8|3 468 347 46 8|3 103 365 314 8|3 417 365 97 8|3 103 384 228 9|3 331 384 87 9
+The paper is organised as follows. In section 2 we briefly discuss the DSG
+model at the semi-classical level and outline our approach to tackle the Ising
+criticality in the vicinity of the decoupling point 
+--
+The paper is organised as follows. In section 2 we briefly discuss the DSG model at the semi-classical level and outline our approach to tackle the Ising criticality in the vicinity of the decoupling point 
+>>
+Replace
+|3 331 384 87 9
+β 2 
+--
+β2 
+>>
+Replace
+|3 236 456 278 8|3 103 475 31 8
+hσ1 σ2 
+--
+hσ1σ2. 
+>>
+Replace
+|3 504 475 10 8|3 103 493 204 9
+β 2 
+--
+β2 
+>>
+Merge
+|3 224 511 291 8|3 103 529 45 8|3 148 529 65 8|3 213 529 301 8|3 103 548 71 8|3 174 548 314 8
+critical. In section 5 we use the results of the quantum-spin-chain mappings to
+determine the physical properties of the DSG model close to the criticality.
+
+--
+critical. In section 5 we use the results of the quantum-spin-chain mappings to determine the physical properties of the DSG model close to the criticality.
+
+
+>>
+Split
+|3 103 566 99 8|3 202 566 223 8|3 425 566 89 8|3 103 584 262 8|3 366 584 149 8|3 103 602 240 9|3 343 602 171 9|3 103 620 216 9|3 320 620 116 9|3 435 620 79 9|3 103 639 284 9
+In the next two sections we discuss applications of the DSG model to physical
+systems. In particular, we discuss Ising transitions in a spontaneously dimerized
+S=1/2 antiferromagnetic chain in a staggered magnetic field (section 6)and in
+the 1D Hubbard model with a staggered potential (section 7)In section 8 we
+show that at 
+--
+In the next two sections we discuss applications of the DSG model to physical systems. In particular, we discuss Ising transitions in a spontaneously dimerized S=1/2 antiferromagnetic chain in a staggered magnetic field (section 6)and in the 1D Hubbard model with a staggered potential (section 7)In section 8 we show that at 
+>>
+Replace
+|3 435 620 79 9|3 103 639 284 9
+β 2 
+--
+β2 
+>>
+Replace
+|3 387 639 127 9|3 103 657 275 8
+firstorder 
+--
+first-order 
+>>
+Split
+|3 103 675 411 8|3 103 693 41 8|3 144 693 370 8|3 103 711 22 8|3 125 711 389 8|3 103 730 300 8|3 403 730 111 8|4 103 92 108 8
+The paper is supplied with four Appendices which provide some details concerning bosonization of products of order and disorder operators for a system of
+two identical Ising models, the relationship between the quantum AT model and
+lattice fermions, a mean-field treatment of the σ-τ model, and calculation of the
+
+--
+The paper is supplied with four Appendices which provide some details concerning bosonization of products of order and disorder operators for a system of two identical Ising models, the relationship between the quantum AT model and lattice fermions, a mean-field treatment of the σ-τ model, and calculation of the 
+>>
+Delete
+|3 403 730 111 8|4 103 92 108 8
+3
+
+
+<AND>
+2
+
+
+--
+
+<AND>
+
+>>
+Merge
+|3 403 730 111 8|4 103 92 108 8
+correlation functions.
+
+
+--
+correlation functions.
+
+
+>>
+Replace
+|4 103 223 312 9
+β 2 
+--
+β2 
+>>
+Merge
+|4 415 223 99 9|4 103 241 192 9
+operators closed under the OPE 
+--
+operators closed under the OPE 
+>>
+Merge
+|4 103 296 340 9|4 443 296 71 9|4 103 314 284 8|4 387 314 127 8|4 103 332 290 8|4 393 332 121 8|4 103 350 180 9|4 283 350 231 9|4 103 368 152 9|4 255 368 240 9|4 495 368 19 9|4 103 387 190 9|4 294 387 174 9|4 468 387 46 9|4 103 405 299 9|4 403 405 112 9|4 103 423 36 8|4 139 423 219 8|4 358 423 156 8|4 103 441 119 8|4 222 441 292 8|4 103 459 71 9|4 174 459 226 9|4 400 459 114 9|4 103 478 156 9
+periodic potential of a single-frequency sine-Gordon (SG) model. For x 
+<AND>
+period of the potential is doubled in such a way that in the region 0 x 1
+it can be viewed as a sequence of double-well potentials with the local structure
+
+
+<AND>
+AΦ2 BΦ4 where A 0, B 0. Precisely at x 1 each local double-well potential transforms to a Φ4 one (A 0)and (in the Ginzburg–Landau sense) this
+is a signature of the Ising criticality with the central charge c 1/2. It should
+be stressed that the double-well structure of the potential U(Φ) only occurs for
+g 0. Hence the Ising critical point only exist for positive g. The case of g 0 is
+qualitatively different: here the λ-perturbation removes the degeneracy between
+neighbouring minima of cos βΦ and thus leads to soliton confinement (similarly
+to the analysis in Ref[
+--
+periodic potential of a single-frequency sine-Gordon (SG) model. For x 
+<AND>
+period of the potential is doubled in such a way that in the region 0 x 1 it can be viewed as a sequence of double-well potentials with the local structure 
+<AND>
+AΦ2 BΦ4, where A 0,B 0. Precisely at x 1 each local double-well potential transforms to a Φ4 one (A 0)and (in the Ginzburg-Landau sense) this is a signature of the Ising criticality with the central charge c 1 2. It should be stressed that the double-well structure of the potential U(Φ) only occurs for g 0. Hence the Ising critical point only exist for positive g. The case of g 0 is qualitatively different: here the λ-perturbation removes the degeneracy between neighbouring minima of cos βΦ and thus leads to soliton confinement (similarly to the analysis in Ref 
+>>
+Delete
+|4 443 296 71 9|4 103 314 284 8
+6= 
+--
+
+>>
+Split
+|4 103 496 188 9
+Thus, for model 
+--
+Thus, for model 
+>>
+Replace
+|4 103 550 321 9
+(Quasiclassically 
+--
+(Quasi-classically 
+>>
+Merge
+|4 103 587 42 8|4 145 587 241 8|4 386 587 128 8|4 103 605 189 9
+Indeed, DM have argued that the Ising transition is a universal property of the
+DSG model 
+--
+Indeed, DM have argued that the Ising transition is a universal property of the DSG model 
+>>
+Replace
+|4 386 587 128 8|4 103 605 189 9
+β 2 
+--
+β2 
+>>
+Replace
+|4 180 623 335 9
+β 2 
+--
+β2 
+>>
+Delete
+|4 319 732 195 8|5 103 92 83 8
+4
+
+
+<AND>
+h
+
+
+<AND>
+HDSG v x φR )2 x φL )2 γ∂x φR (x)x φL (x)
+(3)
+g cos 4πΦ(x) λ sin πΦ(x)where v (v0 /2)β/ 4π+ 4π/β) and γ (v0 4πβ)β 2 −4π)
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|4 319 732 195 8|5 103 92 83 8
+equivalent form:
+
+--
+equivalent form:
+
+
+>>
+Replace
+|5 187 241 242 8
+λσ1 σ2 
+--
+λσ1σ2. 
+>>
+Merge
+|5 391 277 124 8|5 103 296 140 8|5 243 296 271 8|5 103 314 250 8|5 353 314 161 8|5 103 332 206 9|5 309 332 205 9
+tuned to its critical value. This argument can be extended to finite values of λ,
+provided that the two Ising copies are originally in a disordered phase, and thus
+explains the existence of a critical line in the t-λ plane (t (T Tc Tc 0)
+
+
+--
+tuned to its critical value. This argument can be extended to finite values of λ, provided that the two Ising copies are originally in a disordered phase, and thus explains the existence of a critical line in the t-λ plane (t (T Tc) Tc 0) 
+>>
+Merge
+|5 103 350 321 8|5 424 350 90 8|5 103 368 207 9
+along which the deformed AT model flows from the ultraviolet c 1 fixed point
+to the infrared c 1/2 Ising fixed point.
+
+--
+along which the deformed AT model flows from the ultraviolet c 1 fixed point to the infrared c 1 2 Ising fixed point.
+
+
+>>
+Split
+|5 103 387 230 8|5 333 387 181 8|5 103 405 99 8|5 203 405 289 8|5 491 405 23 8|5 103 423 244 8|5 347 423 158 8|5 505 423 9 8|5 103 441 215 8|5 318 441 196 8|5 103 459 43 8|5 146 459 270 8|5 416 459 40 8|5 456 459 59 8|5 103 478 157 9|5 260 478 254 9|5 103 496 241 8|5 344 496 170 8|5 103 514 64 8|5 168 514 142 8|5 310 514 204 8|5 103 532 73 8|5 176 532 178 8|5 354 532 113 8|5 467 532 47 8|5 103 550 213 8|5 317 550 118 8|5 435 550 79 8|5 103 569 156 8|5 259 569 255 8|5 103 587 70 9|5 173 587 245 9|5 419 587 96 9|5 103 605 150 9|5 253 605 261 9|5 103 623 258 8|5 361 623 153 8|5 103 641 117 8|5 220 641 235 8|5 455 641 59 8|5 103 660 204 9
+We shall elaborate on the DM argument by explicitly constructing the mappings between the DSG model and various spin models, with the aim to fully
+describe the Ising transition and, in particular, calculate correlation functions of
+the operators in the original DSG model. The novel points of our analysis are as
+follows. First, we concentrate on quantum lattice spin chain models rather than
+on their classical counterparts (in the transfer matrix sense)as this formulation
+profits from the use of the powerful apparatus of various spin operator transformations like the duality transformation. Secondly, we identify the correct degrees
+of freedom in the deformed quantum AT model that become critical. Since the
+original Ising models enter symmetrically, this is a nontrivial step which is accomplished via a ‘change of basis’ transformation. Let us denote the critical degrees
+of freedom by σ and the remaining gaped degrees of freedom by τ (see the main
+text for precise definitions)The strategy to calculate the correlation functions
+is then to express the DSG-operators in terms of the lattice σ and τ operators.
+At the Ising transition σ and τ operators asymptotically decouple, with the 
+--
+We shall elaborate on the DM argument by explicitly constructing the mappings between the DSG model and various spin models, with the aim to fully describe the Ising transition and, in particular, calculate correlation functions of the operators in the original DSG model. The novel points of our analysis are as follows. First, we concentrate on quantum lattice spin chain models rather than on their classical counterparts (in the transfer matrix sense)as this formulation profits from the use of the powerful apparatus of various spin operator transformations like the duality transformation. Secondly, we identify the correct degrees of freedom in the deformed quantum AT model that become critical. Since the original Ising models enter symmetrically, this is a nontrivial step which is accomplished via a 'change of basis' transformation. Let us denote the critical degrees of freedom by σ and the remaining gaped degrees of freedom by τ (see the main text for precise definitions)The strategy to calculate the correlation functions is then to express the DSG-operators in terms of the lattice σ and τ operators. At the Ising transition σ and τ operators asymptotically decouple, with the 
+>>
+Replace
+|5 455 641 59 8|5 103 660 204 9
+σoperators 
+--
+σ-operators 
+>>
+Delete
+|5 103 732 81 8
+5
+
+
+<AND>
+3
+
+
+--
+
+<AND>
+
+>>
+Delete
+|6 103 92 411 12|6 132 120 382 12
+3.1
+
+
+--
+
+>>
+Insert
+|6 103 264 322 12
+
+--
+where σαn 
+>>
+Delete
+|6 103 264 322 12
+X
+
+
+<AND>
+z
+Jσnz σn+1
+∆σnx 
+<AND>
+n
+
+
+<AND>
+(4)
+
+
+<AND>
+where σnα 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|6 425 261 89 9|6 103 280 198 9
+Hamil-
+
+
+--
+Hamiltonian 
+>>
+Delete
+|6 425 261 89 9|6 103 280 198 9
+tonian 
+--
+
+>>
+Merge
+|6 425 261 89 9|6 103 280 198 9|6 301 280 167 9
+HQI defines the transfer matrix of the classical 2D Ising model 
+--
+HQI defines the transfer matrix of the classical 2D Ising model 
+>>
+Merge
+|6 336 334 178 9|6 103 352 69 8|6 172 352 245 8
+n, n 1 of the original lattice, and assign spin operators 
+--
+n,n 1 of the original lattice, and assign spin operators 
+>>
+Replace
+|6 417 352 97 8|6 103 371 65 8
+µn+
+--
+μn 
+>>
+Delete
+|6 103 389 75 8
+n
+Y
+
+
+<AND>
+z
+σjx µxn+1/2 σnz σn+1
+
+<AND>
+(5)
+
+
+<AND>
+j=1
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|6 103 435 166 8
+n−1
+Y
+
+
+<AND>
+µxj+1/2 σnx µzn−1/2 µzn+1/2 
+<AND>
+(6)
+
+
+<AND>
+j=0
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|6 322 497 192 9|6 103 515 97 8
+
+--
+Δ 
+>>
+Insert
+|6 200 515 239 8
+
+--
+Δ 
+>>
+Split
+|6 103 554 298 11
+The operators 
+--
+The operators 
+>>
+Replace
+|6 103 554 298 11
+σnz and µzm+
+--
+σzn and μzm 
+>>
+Delete
+|6 336 624 178 8|6 103 642 84 8
+(7)
+
+
+<AND>
+ζn iσnz µzn+1/2 −iµzn+1/2 σnz 
+<AND>
+(8)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|6 243 735 193 12
+ηn2 ζn2 
+--
+η2n ζ2n 
+>>
+Delete
+|6 436 732 78 9|7 103 92 57 8
+6
+
+
+--
+
+>>
+Merge
+|6 436 732 78 9|7 103 92 57 8|7 160 92 221 8|6 103 762 411 8|7 381 92 134 8|7 103 111 89 8
+the inverse of the Jordan–Wigner transformation, with the ‘direct’ transformation
+being of the form
+
+--
+the inverse of the Jordan-Wigner transformation, with the 'direct' transformation being of the form
+
+
+>>
+Delete
+|6 103 762 411 8|7 381 92 134 8|7 103 111 89 8
+σnz ηn
+
+
+<AND>
+n−1
+Y
+
+
+<AND>
+(iζj ηj 
+<AND>
+(9)
+
+
+<AND>
+j=1
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|7 103 163 346 8
+X
+n
+
+
+<AND>
+[Jζn (ηn+1 ηn J)ζn ηn 
+<AND>
+(10)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|7 103 323 239 11
+ζn 
+<AND>
+2a0 ζ(x)
+<AND>
+2 
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|7 103 323 239 11|7 342 323 172 11|||7 103 342 28 9|7 103 360 411 8
+ensures the correct continuum anticommutation 
+<AND>
+{η(x)η(y){ζ(x)ζ(y)δ(x y)The Hamiltonian density of 
+--
+ensures the correct continuum anticommutation 
+<AND>
+{η(x)η(y){ζ(x)ζ(y)δ(x y)The Hamiltonian density of 
+>>
+Replace
+|7 342 323 172 11
+rela-
+
+
+--
+relations: 
+>>
+Delete
+|7 342 323 172 11
+tions: 
+--
+
+>>
+Split
+|7 103 403 181 9
+with v 2Ja0 and m 2(
+--
+with v 2Ja0 and m 2(
+>>
+Insert
+|7 103 403 181 9
+
+--
+Δ 
+>>
+Merge
+|7 284 403 230 9|7 103 421 411 8
+spinor
+
+
+--
+spinor
+
+
+>>
+Delete
+|7 284 403 230 9|7 103 421 411 8
+−η ζ
+2
+
+
+<AND>
+η+ζ
+ξL 2
+
+
+<AND>
+(11)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|7 103 514 248 8
+transforms this Hamiltonian to a standard form:
+
+--
+transforms this Hamiltonian to a standard form:
+
+
+>>
+Delete
+|7 103 514 248 8
+(m)
+
+
+<AND>
+HM 
+<AND>
+iv
+ξR ∂x ξR ξL ∂x ξL) imξR ξL.
+2
+
+
+<AND>
+(12)
+
+
+<AND>
+(13)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|7 457 574 57 8|7 103 592 113 8
+a0 →0
+
+
+<AND>
+3.2
+
+
+<AND>
+Z
+
+
+<AND>
+(m)
+
+
+<AND>
+dx HM (x)
+
+
+<AND>
+(14)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|7 377 716 137 9
+7
+
+
+--
+
+>>
+Merge
+|7 377 716 137 9
+Eq.
+--
+Eq.
+>>
+Delete
+|8 103 92 338 9
+(15)
+
+<AND>
+X
+
+
+<AND>
+z
+z
+z
+z
+x
+x
+σ1,n
+σ1,n+1
+σ2,n
+σ2,n+1
+σ1,n
+σ2,n
+
+
+<AND>
+n
+
+
+<AND>
+(16)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|8 394 180 120 12|8 103 196 104 8
+HAT
+
+--
+H'AT, 
+>>
+Merge
+|8 394 180 120 12|8 103 196 104 8|8 207 196 219 8
+includes a ‘magnetic field’ type of coupling between the chains:
+
+--
+includes a 'magnetic field' type of coupling between the chains:
+
+
+>>
+Delete
+|8 207 196 219 8
+X
+n
+
+
+<AND>
+z
+z
+σ1,n
+σ2,n
+
+
+<AND>
+(17)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|8 103 395 96 9
+
+--
+combine ξ1 and ξ2 
+>>
+Delete
+|8 103 395 96 9
+η 1 ζ 1 ξR1 ξL1 
+<AND>
+η 2 ζ 2 ξR2 ξL2 
+<AND>
+combine ξ 1 and ξ 2 
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|8 103 432 246 8|8 349 432 165 8|8 103 450 137 9
+First we notice that, in the case of two QI spin chains, the Jordan–Wigner
+transformation 
+--
+First we notice that, in the case of two QI spin chains, the Jordan-Wigner transformation 
+>>
+Replace
+|8 441 489 73 12|8 103 504 174 9
+µαa,
+--
+μαa,
+>>
+Replace
+|8 136 523 107 8|8 243 526 66 11
+paz
+z
+rameters σ1n
+and σ2n
+
+--
+parameters σz1n and σz2n 
+>>
+Delete
+|8 309 523 206 8|8 103 541 75 9
+{κ1 κ2 0,
+
+
+<AND>
+(18)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|8 103 584 129 9
+(19)
+
+
+--
+
+>>
+Replace
+|8 103 665 309 9
+µ1,
+--
+μ1,
+>>
+Split
+|9 103 92 348 8|9 451 92 63 8|9 103 111 43 8
+In terms of the lattice Majorana fermions, the standard QAT Hamiltonian
+becomes
+
+--
+In terms of the lattice Majorana fermions, the standard QAT Hamiltonian becomes
+
+
+>>
+Delete
+|9 451 92 63 8|9 103 111 43 8
+X X
+
+
+<AND>
+a=1,2 n
+
+
+<AND>
+K
+
+
+<AND>
+X
+
+
+<AND>
+[Jζa,n (ηa,n+1 ηa,n J)ζa,n ηa,n 
+<AND>
+ζ1,n ζ2,n [η1,n+1 η2,n+1 η1,n η2,n 
+<AND>
+n
+
+
+<AND>
+8
+
+
+<AND>
+(20)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|9 214 221 301 8|9 103 240 411 8
+X
+
+
+<AND>
+(m)
+
+
+<AND>
+a=1,2
+
+
+<AND>
+HM [ξa (x)8Ka0 ξ1R (x)ξ2R (x)ξ1L (x)ξ2L (x)
+<AND>
+(21)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|9 237 342 277 9|9 103 360 58 9
+β 2 
+--
+β2 
+>>
+Delete
+|9 161 360 147 9
+(22)
+
+
+--
+
+>>
+Split
+|9 103 475 345 9
+Turning to the DQAT model, we observe that the h-term in 
+--
+Turning to the DQAT model, we observe that the h-term in 
+>>
+Replace
+|9 186 530 140 9
+σ1 σ2 µ1 µ2 σ1 µ2 µ1 σ2 
+--
+σ1σ2, μ1μ2, σ1μ2, μ1σ2, 
+>>
+Delete
+|9 186 602 233 8
+(23)
+(24)
+(25)
+(26)
+
+
+--
+
+>>
+Merge
+|10 429 92 85 9|10 103 111 145 9
+field” coupling term in 
+--
+field" coupling term in 
+>>
+Delete
+|10 429 92 85 9|10 103 111 145 9
+X
+n
+
+
+<AND>
+z
+z
+σ1n
+σ2n
+
+
+<AND>
+Z
+h
+κ1 κ2 dx sin πΦ(x) =i
+a0
+
+<AND>
+(27)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|10 103 253 137 8
+a0 →0
+
+
+<AND>
+Z
+
+
+<AND>
+dx Ĥ(x)
+<AND>
+H+ (x)
+Ĥ(x) 0
+
+
+<AND>
+0
+H− (x)
+
+
+<AND>
+(28)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|10 103 350 137 8
+(29)
+
+
+--
+
+>>
+Merge
+|10 464 472 51 9|10 103 490 213 9
+so as to keep the DSG parameters finite)
+--
+so as to keep the DSG parameters finite)
+>>
+Merge
+|10 491 508 23 11|10 103 527 139 9|10 242 527 243 9|10 485 527 29 9|10 103 545 311 8|10 414 545 100 8|10 103 563 294 11
+respect to the interchange of the two constituent quantum chains, (P12 under
+which the DSG Hamiltonians H± transform to each other. Formally, this 
+<AND>
+appears as “unphysical” because the Hamiltonian 
+--
+respect to the interchange of the two constituent quantum chains, (P12)under which the DSG Hamiltonians H± transform to each other. Formally, this 
+<AND>
+appears as "unphysical" because the Hamiltonian 
+>>
+Replace
+|10 414 545 100 8|10 103 563 294 11
+sym-
+
+
+--
+symmetry 
+>>
+Delete
+|10 414 545 100 8|10 103 563 294 11
+metry 
+--
+
+>>
+Delete
+|10 103 581 112 8
+(30)
+
+
+--
+
+>>
+Merge
+|10 103 660 263 9
+would be as good as the above one)However, while 
+--
+would be as good as the above one)However, while 
+>>
+Replace
+|10 366 660 148 9|10 103 678 73 8
+κ1 κ2 
+--
+κ1κ2 
+>>
+Merge
+|10 103 732 282 9|10 385 732 129 9|11 103 92 97 9
+a single DSG model with a fixed sign of h (section 5)while some others reduce
+to the matrix form 
+--
+a single DSG model with a fixed sign of h (section 5)while some others reduce to the matrix form 
+>>
+Merge
+|11 379 92 135 9|11 103 111 79 8|11 182 111 183 8|11 365 111 149 8|11 103 129 229 8|11 332 129 182 8|11 103 147 174 8|11 277 147 184 8|11 461 147 53 8|11 103 165 185 8|11 288 165 226 8|11 103 183 136 8|11 239 183 275 8|11 103 202 39 8|11 142 202 170 8|11 312 202 202 8|11 103 220 111 8|11 214 220 225 8|11 439 220 75 8
+corresponds to a physical discrete Z2 symmetry of the model in question, which
+
+
+<AND>
+is spontaneously broken in the ground state, a typical example of this kind being
+a spontaneously dimerized phase. In such situations, the Hamiltonians H± when
+
+
+<AND>
+considered separately, describe only excitations above each of the two degenerate
+vacua. On the other hand, the two-fold degeneracy of the ground state necessarily
+implies the existence of topological kinks which interpolate between neighbouring
+
+<AND>
+degenerate minima of two different potentials U± corresponding to H± However,
+
+
+--
+corresponds to a physical discrete Z2 symmetry of the model in question, which 
+<AND>
+is spontaneously broken in the ground state, a typical example of this kind being a spontaneously dimerized phase. In such situations, the Hamiltonians H±when 
+<AND>
+considered separately, describe only excitations above each of the two degenerate vacua. On the other hand, the two-fold degeneracy of the ground state necessarily implies the existence of topological kinks which interpolate between neighbouring 
+<AND>
+degenerate minima of two different potentials U±corresponding to H±However, 
+>>
+Delete
+|11 312 202 202 8|11 103 220 111 8
+10
+
+
+--
+
+>>
+Merge
+|11 103 238 260 9
+in the entire parameter space of the model 
+--
+in the entire parameter space of the model 
+>>
+Merge
+|11 320 256 194 8|11 103 274 86 8|11 189 274 265 8|11 454 274 60 8|11 103 293 268 8|10 103 762 411 8|11 372 293 58 8
+This means that the topological Z2 kinks always remain massive and thus appear
+
+
+<AND>
+as irrelevant excitations as long as Ising criticality is concerned.
+
+--
+This means that the topological Z2 kinks always remain massive and thus appear 
+<AND>
+as irrelevant excitations as long as Ising criticality is concerned.
+
+
+>>
+Split
+|11 103 311 282 8|11 385 311 67 8|11 452 311 62 8|11 103 329 266 8
+Thus, when working with a single Hamiltonian H+ all operators representing
+
+
+--
+Thus, when working with a single Hamiltonian H+all operators representing 
+>>
+Merge
+|11 452 311 62 8|11 103 329 266 8|11 369 329 145 8|11 103 347 203 8|11 306 347 69 8|11 375 347 139 8|11 103 365 96 9
+strongly fluctuating fields at the Ising critical point are automatically taken into
+account. All “off-diagonal” operators proportional to κ1 or κ2 such as those
+given by 
+--
+strongly fluctuating fields at the Ising critical point are automatically taken into account. All "off-diagonal" operators proportional to κ1 or κ2, such as those given by 
+>>
+Delete
+|11 504 365 10 9|11 103 384 89 8
+4
+
+
+--
+
+>>
+Delete
+|11 246 560 268 8|11 103 578 15 9
+z
+z
+i. The lowest-energy
+i and σ2 hσ2n
+
+--
+
+>>
+Replace
+|11 118 581 222 12|11 340 581 174 12|11 103 596 36 9
+hσ1n
+
+
+--
+〈σz1n〉 and σ2 〈σz2n〉The lowest-energy 
+>>
+Merge
+|11 340 581 174 12|11 103 596 36 9|11 139 596 332 9
+sector, determined by the condition 
+--
+sector, determined by the condition 
+>>
+Replace
+|11 139 596 332 9
+hσ1 σ2 
+--
+hσ1σ2 
+>>
+Split
+|11 103 669 411 8|11 103 687 299 8|11 402 687 112 8|11 103 705 215 8|11 318 705 197 8|11 103 724 145 8|11 248 724 221 8
+We can give an heuristic argument in favour of an Ising critical point that
+appears at a finite h, if at h 0 the chains are disordered. For the sake of clarity,
+let us make a duality transformation and replace the original model by a pair of
+two ordered Ising copies well below Tc coupled by the interaction 
+--
+We can give an heuristic argument in favour of an Ising critical point that appears at a finite h, if at h 0 the chains are disordered. For the sake of clarity, let us make a duality transformation and replace the original model by a pair of two ordered Ising copies well below Tc, coupled by the interaction 
+>>
+Replace
+|11 248 724 221 8
+hµ1 µ2 
+--
+hμ1μ2. 
+>>
+Insert
+|11 469 724 45 8|12 103 92 242 9
+
+--
+Δ. 
+>>
+Replace
+|12 270 114 244 12|12 103 129 84 8
+µzn+
+--
+μzn 
+>>
+Merge
+|12 417 129 97 8|12 103 147 95 8|12 199 147 316 8||11 103 762 411 8|12 103 165 411 8
+the domain walls behave like hard-core bosons which, in the dilute limit, are
+equivalent to spinless fermions with the dispersion
+
+--
+the domain walls behave like hard-core bosons which, in the dilute limit, are equivalent to spinless fermions with the dispersion
+
+
+>>
+Replace
+|12 103 223 319 8
+hµ1 µ2 
+--
+hμ1μ2 
+>>
+Delete
+|12 364 241 150 8|12 103 259 198 8
+X X
+
+
+<AND>
+ǫ(k)c†i,k ci,k heff
+
+
+<AND>
+k i=1,2
+
+
+<AND>
+X
+
+
+<AND>
+c†1,k c1,k
+
+
+<AND>
+k
+
+
+<AND>
+c†2,k c2,k
+
+
+<AND>
+(31)
+
+
+<AND>
+where heff ∆h/J. 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|12 215 323 299 9|12 103 341 50 14
+operah
+
+
+--
+operators 
+>>
+Delete
+|12 215 323 299 9|12 103 341 50 14
+tors 
+--
+
+>>
+Merge
+|12 215 323 299 9|12 103 341 50 14|12 154 341 253 14
+that appear in the coupling term reflect the fact that 
+--
+that appear in the coupling term reflect the fact that 
+>>
+Delete
+|12 154 341 253 14
+i2
+
+
+<AND>
+1. 
+--
+
+<AND>
+
+>>
+Merge
+|12 493 341 21 14|12 103 360 293 9
+It is
+
+
+<AND>
+clear that the model 
+--
+It is 
+<AND>
+clear that the model 
+>>
+Split
+|12 103 456 379 8|12 482 456 32 8|12 103 475 285 9
+The Ising criticality is reached when one of the masses vanishes, which occurs
+
+--
+The Ising criticality is reached when one of the masses vanishes, which occurs 
+>>
+Delete
+|12 482 456 32 8|12 103 475 285 9
+m± 2J const.
+
+
+--
+
+>>
+Merge
+|12 482 456 32 8|12 103 475 285 9
+when h 
+--
+when h 
+>>
+Replace
+|12 482 456 32 8|12 103 475 285 9
+J 2 
+--
+J2 Δ. 
+>>
+Merge
+|12 388 475 126 9|12 103 493 135 9|12 238 493 62 9
+field should be replaced by h 
+--
+field should be replaced by h 
+>>
+Replace
+|12 238 493 62 9
+∆2 
+--
+Δ2 
+>>
+Split
+|12 103 547 231 8|12 334 547 180 8|12 103 566 37 8|12 140 566 349 8|12 489 566 25 8|12 103 584 269 8|12 372 584 142 8|12 103 602 76 9|12 179 602 304 9|12 483 602 31 9|12 103 620 357 9
+Although the above argument provides a qualitative explanation of the transition, a satisfying description of the critical region can only be reached if we
+are able to properly identify the degrees of freedom which get critical and those
+which do not (and, of course, take into account the correct stastistics of the
+domain walls)For this purpose, let us introduce a new Ising variable
+
+--
+Although the above argument provides a qualitative explanation of the transition, a satisfying description of the critical region can only be reached if we are able to properly identify the degrees of freedom which get critical and those which do not (and, of course, take into account the correct stastistics of the domain walls)For this purpose, let us introduce a new Ising variable
+
+
+>>
+Delete
+|12 103 620 357 9
+(32)
+
+
+--
+
+>>
+Delete
+|12 438 678 77 8|12 103 699 116 11
+z
+z
+z
+
+--
+
+>>
+Replace
+|12 438 678 77 8|12 103 699 116 11
+σ1n
+and σ2n
+
+--
+σz1n and σz2n, 
+>>
+Replace
+|12 414 699 99 11|12 103 714 86 9
+τnz and σnz σ1n
+z
+
+--
+τzn and σzn σz1n 
+>>
+Replace
+|12 189 717 278 12
+τnz and σnz σ2n
+
+--
+τzn and σzn σz2n 
+>>
+Merge
+|12 467 714 47 9|12 103 732 258 9|12 361 732 153 9|13 103 92 187 9|13 290 92 225 9
+equivalent)In the original (σ1 -σ2 representation, the local (i.e. at a fixed lattice
+site n) Hilbert space of the two-chain model is spanned by the basis vectors |σ1 σ2 
+--
+equivalent)In the original (σ1-σ2) representation, the local (i.e. at a fixed lattice site n) Hilbert space of the two-chain model is spanned by the basis vectors |σ1,σ2〉 
+>>
+Delete
+|13 290 92 225 9
+i
+
+--
+
+>>
+Replace
+|13 290 92 225 9|||13 103 111 411 8
+σ1z and σ2z 
+--
+σz1 and σz2:
+
+
+>>
+Delete
+|13 103 111 411 8
+z
+σ1,2
+|σ1 σ2 i σ1,2 |σ1 σ2 i,
+
+
+<AND>
+σ1,2 ±1.
+
+
+--
+
+<AND>
+
+>>
+Delete
+|13 103 171 411 9
+i 
+<AND>
+α
+
+--
+
+<AND>
+
+>>
+Replace
+|13 103 231 319 8
+σ1 σ2 
+--
+σ1σ2. 
+>>
+Replace
+|13 422 234 92 11
+σ1n
+and
+α
+σ2n
+
+--
+σα1n and σα2n 
+>>
+Delete
+|13 103 249 302 8
+z
+σ2n
+σnz τnz 
+<AND>
+x
+σ1n
+σnx τnx 
+<AND>
+x
+σ2n
+τnx 
+<AND>
+(33)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|13 103 331 250 8
+µn 
+--
+μn 
+>>
+Replace
+|13 188 349 282 9
+µn 
+--
+μn) 
+>>
+Delete
+|13 206 386 84 8
+z
+µz2,n+1/2 νn+1/2
+
+
+<AND>
+µx1,n+1/2 µxn+1/2 
+<AND>
+x
+µx2,n+1/2 µxn+1/2 νn+1/2
+
+<AND>
+(34)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|13 449 467 65 9|13 103 485 213 8
+twochain 
+--
+two-chain 
+>>
+Delete
+|13 449 467 65 9|13 103 485 213 8
+(35)
+
+
+--
+
+>>
+Delete
+|13 231 579 283 15|13 263 587 14 3
+Hσ 
+<AND>
+n
+
+
+<AND>
+z
+−Jσnz σn+1
+Kσnx 
+<AND>
+(36)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|13 455 609 59 8|13 103 627 196 8
+X
+n
+
+
+<AND>
+z
+τnz τn+1
+
+<AND>
+X
+
+
+<AND>
+(hτnz ∆τnx 
+<AND>
+(37)
+
+
+<AND>
+n
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|13 103 691 281 8
+X
+
+
+<AND>
+z
+z
+Jσnz σn+1
+τnz τn+1
+∆σnx τnx 
+<AND>
+n
+
+
+<AND>
+(38)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|14 113 132 175 12
+hτnz i 
+--
+〈τzn〉
+>>
+Replace
+|14 289 132 95 12
+hτnx i 
+--
+〈τxn〉Δ 
+>>
+Split
+|14 103 216 34 11|14 137 216 282 11
+which can indeed become critical when 
+--
+which can indeed become critical when 
+>>
+Delete
+|14 419 216 95 11|14 103 234 170 8
+X
+
+
+<AND>
+z
+2Jσnz σn+1
+
+
+--
+
+<AND>
+
+>>
+Merge
+|14 419 216 95 11|14 103 234 170 8
+holds only when h 
+--
+holds only when h 
+>>
+Insert
+|14 419 216 95 11|14 103 234 170 8
+
+--
+Δ 
+>>
+Delete
+|14 273 234 241 8|14 103 253 130 8
+13
+
+
+--
+
+>>
+Merge
+|14 273 234 241 8|14 103 253 130 8|14 233 253 281 8|14 103 271 56 8|14 159 271 355 8|14 103 289 317 8|14 420 289 94 8|14 103 307 98 9
+we are lead to conclude that, both at strong and weak h, the Ising transition
+essentially corresponds the situation when the σ degrees of freedom go massless,
+while the τ degrees of freedom remain frozen in a disordered configuration with
+both 
+--
+we are lead to conclude that, both at strong and weak h, the Ising transition essentially corresponds the situation when the σ degrees of freedom go massless, while the τ degrees of freedom remain frozen in a disordered configuration with both 
+>>
+Replace
+|14 420 289 94 8|14 103 307 98 9
+hτ z i and hτ x i 
+--
+〈τz〉 and 〈τx〉 
+>>
+Replace
+|14 249 307 265 9|14 103 325 27 8
+descrip-
+
+
+--
+description, 
+>>
+Delete
+|14 249 307 265 9|14 103 325 27 8
+tion, 
+--
+
+>>
+Merge
+|14 130 325 139 8|14 268 325 191 8|14 459 325 55 8|14 103 344 214 8|14 318 344 197 8|14 103 362 183 8|14 286 362 228 8|14 103 380 340 8|14 443 380 71 8|14 103 398 279 8|14 383 398 132 8|14 103 416 187 8|13 103 762 411 8|14 290 416 95 8
+we are unable to determine the critical line and even estimate the strength of
+the irrelevant operators close to this line. This means that, even though the 
+<AND>
+properties of the DSG model at the Ising transition, including the singular
+parts of physical quantities and critical exponents of the correlation functions, will
+be captured correctly, the nonuniversal parts, such as prefactors and subleading
+corrections to main asymptotics, are not to be trusted.
+
+--
+we are unable to determine the critical line and even estimate the strength of the irrelevant operators close to this line. This means that, even though the 
+<AND>
+properties of the DSG model at the Ising transition, including the singular parts of physical quantities and critical exponents of the correlation functions, will be captured correctly, the nonuniversal parts, such as prefactors and subleading corrections to main asymptotics, are not to be trusted.
+
+
+>>
+Replace
+|14 318 344 197 8|14 103 362 183 8
+uni-
+
+
+--
+universal 
+>>
+Delete
+|14 318 344 197 8|14 103 362 183 8
+versal 
+--
+
+>>
+Split
+|14 103 435 245 8|14 349 435 166 8|14 103 453 43 8|14 146 453 278 8
+Let us conclude this section by noticing two important facts which will prove
+useful in the next Section devoted to the correlation functions.
+
+--
+Let us conclude this section by noticing two important facts which will prove useful in the next Section devoted to the correlation functions.
+
+
+>>
+Delete
+|14 146 453 278 8
+(i) 
+--
+
+>>
+Replace
+|14 132 590 350 8
+σ z 
+--
+σz 
+>>
+Replace
+|14 268 627 37 9
+∆J 
+--
+ΔJ, 
+>>
+Delete
+|14 305 627 206 9
+(ii) 
+--
+
+>>
+Merge
+|14 441 655 73 9|14 132 673 237 8|14 370 673 145 8
+that, for h hc the σ degrees of freedom are ordered, while they are
+
+
+<AND>
+disordered otherwise.
+
+
+--
+that, for h hc, the σ degrees of freedom are ordered, while they are 
+<AND>
+disordered otherwise.
+
+
+>>
+Delete
+|14 370 673 145 8
+5
+
+
+--
+
+>>
+Delete
+|15 448 141 55 8
+5.1
+
+
+--
+
+>>
+Delete
+|15 329 246 185 9|15 103 264 58 9
+14
+
+
+--
+
+>>
+Merge
+|15 329 246 185 9|15 103 264 58 9|15 161 264 263 9|15 424 264 90 9|15 103 283 165 9|15 268 283 57 9|15 325 283 189 9|15 103 301 65 9|15 168 301 211 9
+ultraviolet (UV) limit, and that (ii) the DQAT can also be mapped onto the
+(σ, τ model which, at the Ising transition, essentially reduces to a single critical
+Ising model of the order field σ(x) and disorder field 
+--
+ultraviolet (UV) limit, and that (ii) the DQAT can also be mapped onto the (σ,τ) model which, at the Ising transition, essentially reduces to a single critical Ising model of the order field σ(x) and disorder field 
+>>
+Replace
+|15 380 301 32 9
+µ(
+--
+μ(
+>>
+Delete
+|15 103 355 128 8
+5.1.1
+
+
+--
+
+>>
+Delete
+|15 400 452 114 8|15 103 470 51 8
+(40)
+(41)
+
+
+--
+
+>>
+Merge
+|15 363 574 151 9|15 103 592 129 9
+current 
+--
+current 
+>>
+Replace
+|15 103 610 200 9
+ξ 1 and ξ 2 
+--
+ξ1 and ξ2:
+
+
+>>
+Delete
+|15 103 610 200 9
+J(x) i [ξ1R (x)ξ2R (x) ξ1L (x)ξ2L (x)
+<AND>
+(42)
+
+
+<AND>
+J5 (x) i [ξ1R (x)ξ2R (x) ξ1L (x)ξ2L (x)
+<AND>
+(43)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|15 103 686 263 12|15 366 683 112 9
+(ξRa ξLa to (η a ζ a 
+--
+(ξaR,ξaL) to (ηa,ζa)
+>>
+Delete
+|15 479 683 36 9|15 103 701 150 8
+i
+(η1n η2n ζ1n ζ2n 2
+
+
+<AND>
+(44)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|16 288 111 102 8
+(45)
+
+
+--
+
+>>
+Delete
+|16 360 216 154 8|16 103 234 259 8
+15
+
+
+--
+
+>>
+Merge
+|16 360 216 154 8|16 103 234 259 8|16 362 234 152 8|16 103 252 102 8
+the continuum limit and thus find the expression for the current density at the
+infrared fixed point:
+
+--
+the continuum limit and thus find the expression for the current density at the infrared fixed point:
+
+
+>>
+Delete
+|16 362 234 152 8|16 103 252 102 8
+(46)
+
+
+--
+
+>>
+Replace
+|16 103 294 220 9
+hτ z i 
+--
+〈τz〉 
+>>
+Replace
+|16 323 294 181 9
+µ(
+--
+μ(
+>>
+Delete
+|16 460 313 54 8
+√1 ∂x Φ(x)
+π
+
+
+<AND>
+UV,
+
+
+<AND>
+C∂x µ(x)
+
+
+<AND>
+IR.
+
+
+<AND>
+(47)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|16 498 383 16 8|16 103 401 229 8
+(48)
+
+
+--
+
+>>
+Replace
+|16 498 458 16 9|16 103 476 328 9
+µ 
+--
+μ 
+>>
+Delete
+|16 339 531 116 9
+√1π ∂t Φ(x) UV,
+
+
+<AND>
+−C∂t µ(x)
+
+
+<AND>
+IR,
+
+
+<AND>
+(49)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|16 103 621 340 8|16 443 621 71 8|16 103 639 207 8|16 311 639 204 8|16 103 657 174 9
+As an important consistency check, we still need to explicitly determine the
+lattice version of the current operator. One might naïvely conclude that, since
+under the inverse chiral rotation 
+--
+As an important consistency check, we still need to explicitly determine the lattice version of the current operator. One might naïvely conclude that, since under the inverse chiral rotation 
+>>
+Delete
+|16 277 657 219 8
+(50)
+
+
+--
+
+>>
+Replace
+|16 300 735 214 12|17 103 92 122 9
+Jn5 
+--
+J5n. 
+>>
+Delete
+|17 215 111 226 8
+(51)
+
+
+--
+
+>>
+Replace
+|17 206 206 308 9|17 103 225 31 8
+hterm, 
+--
+h-term, 
+>>
+Delete
+|17 440 225 74 8|17 103 243 308 9
+16
+
+
+--
+
+>>
+Merge
+|17 440 225 74 8|17 103 243 308 9
+only contributed to by the Majorana kinetic energy term in 
+--
+only contributed to by the Majorana kinetic energy term in 
+>>
+Insert
+|17 103 304 411 8
+
+--
+where
+
+
+>>
+Delete
+|17 103 304 411 8
+(52)
+
+
+<AND>
+where
+
+
+<AND>
+J
+Qn,n+1 (η1,n+1 ζ2n ζ1n η2,n+1 4
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|17 103 346 195 8
+(53)
+
+
+<AND>
+(54)
+
+
+--
+
+<AND>
+
+>>
+Replace
+|17 103 407 248 9|17 351 407 153 9
+∂t µ since ∂t µ i[µz HQI µy 
+--
+∂tμ since ∂tμ i[μz,HQI] μy, 
+>>
+Split
+|17 103 564 241 8|17 344 564 170 8|17 103 582 86 11
+is in fact simpler than that of the holomorphic operators. There are two cases of
+physical interest: 
+--
+is in fact simpler than that of the holomorphic operators. There are two cases of physical interest: 
+>>
+Delete
+|17 261 621 10 7|17 245 630 270 8
+πΦ σ1 σ2 τ I,
+
+
+<AND>
+(55)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|18 137 234 105 9
+πΦ I ε,
+
+
+<AND>
+(56)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|18 400 331 114 8|18 103 349 57 8
+17
+
+
+<AND>
+Table 1: UV-IR transmutation of DSG-operators
+UV limit
+IR limit
+
+
+<AND>
+∂x Φ V√π V−π
+∂x µ
+
+
+<AND>
+µ
+
+
+<AND>
+V√π V−π V±4π
+I+ǫ
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|18 400 331 114 8|18 103 349 57 8|18 160 349 200 8|18 360 349 154 8|18 103 367 124 8
+and, more importantly, in the appearance of the Majorana mass, i.e. the Ising
+energy-density operator.
+
+--
+and, more importantly, in the appearance of the Majorana mass, i.e. the Ising energy-density operator.
+
+
+>>
+Split
+|18 103 385 189 9
+Furthermore, 
+--
+Furthermore, 
+>>
+Delete
+|18 103 446 313 10
+(57)
+
+
+<AND>
+πΦ 
+--
+
+<AND>
+
+>>
+Merge
+|18 103 446 313 10|18 416 446 98 10|18 103 464 247 8|18 351 464 164 8|18 103 482 108 8
+is the most divergent operator of the DSG model,
+
+
+<AND>
+with a nonzero expectation value at h hc and vanishing upon approaching the
+Ising critical point as
+
+--
+is the most divergent operator of the DSG model, 
+<AND>
+with a nonzero expectation value at h hc and vanishing upon approaching the Ising critical point as
+
+
+>>
+Split
+|18 103 525 211 11
+Finally, the behaviour of 
+--
+Finally, the behaviour of 
+>>
+Merge
+|18 366 525 148 11|18 103 543 122 8
+to the above discussion:
+
+
+--
+to the above discussion:
+
+
+>>
+Delete
+|18 366 525 148 11|18 103 543 122 8
+(59)
+
+
+--
+
+>>
+Delete
+|18 412 586 102 8|18 103 604 411 8
+5.2
+
+
+--
+
+>>
+Replace
+|18 395 706 120 8|18 103 724 103 8
+µ 
+--
+μ 
+>>
+Delete
+|18 103 762 411 8|19 167 157 347 14|19 255 166 42 5
+(R)
+
+
+<AND>
+(ω, p) −i
+
+
+<AND>
+Z
+
+
+<AND>
+dx
+
+
+<AND>
+Z
+
+
+<AND>
+0
+
+
+<AND>
+dte−ipx+iωt h[µ(x, t)µ(0, 0)i.
+
+
+<AND>
+(60)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|19 103 92 268 8|19 371 92 143 8|19 103 111 128 8|19 232 111 283 8|19 103 129 265 8|19 368 129 146 8|||||||18 103 762 411 8|19 167 157 347 14|19 255 166 42 5
+For physical applications of the DSG model, it is important to investigate the
+dynamical susceptibility defined as the frequency-momentum Fourier transform
+of the retarded auto-correlation function of the Ising disorder parameter: function
+
+--
+For physical applications of the DSG model, it is important to investigate the dynamical susceptibility defined as the frequency-momentum Fourier transform of the retarded auto-correlation function of the Ising disorder parameter: function
+
+
+>>
+Replace
+|19 197 188 180 10
+r 1/
+--
+r1 
+>>
+Delete
+|19 396 206 118 9|19 103 225 80 9
+18
+
+
+--
+
+>>
+Merge
+|19 396 206 118 9|19 103 225 80 9|19 183 225 187 9|19 370 225 145 9|19 103 243 129 9|19 232 243 209 9|19 441 243 74 9|19 103 261 127 9|19 231 261 134 9
+(A1 /π)K0 (mr) where A1 is related to the Glaisher constant. The crossover between these two regimes, r ξ 1/m and r ξ, respectively, is complicated and
+is described in terms of the Painlevé theory 
+--
+(A1 π)K0(mr) where A1 is related to the Glaisher constant. The crossover between these two regimes, r ξ 1 m and r ξ, respectively, is complicated and is described in terms of the Painlevé theory 
+>>
+Delete
+|19 365 261 149 9
+d ln D
+dr
+
+
+--
+
+>>
+Split
+|19 103 377 246 8|19 349 377 41 8|19 391 377 123 8|19 103 395 156 8|19 259 395 37 8|19 296 395 218 8|19 103 413 195 8|19 298 413 216 8|19 103 431 21 9|19 124 431 142 9|19 266 431 197 9|19 464 431 50 9|19 103 449 199 8
+which is related to Painlevé V equation and can, in turn, be shown to produce the
+correct conformal and massive limits. As the exact expressions are uncomfortable
+for calculations, we shall estimate the Fourier transforms from the asymptotes of
+the correlation function D(r)Therefore, first we summarise known results on
+the limiting behaviour of this function.
+
+--
+which is related to Painlevé V equation and can, in turn, be shown to produce the correct conformal and massive limits. As the exact expressions are uncomfortable for calculations, we shall estimate the Fourier transforms from the asymptotes of the correlation function D(r)Therefore, first we summarise known results on the limiting behaviour of this function.
+
+
+>>
+Split
+|19 103 468 83 8
+At criticality
+
+--
+At criticality
+
+
+>>
+Delete
+|19 103 468 83 8
+1
+r 1/4
+
+
+<AND>
+(61)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|19 103 546 123 8
+A1
+K0 (mr)π
+
+
+<AND>
+(62)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|19 103 590 141 8
+(63)
+
+
+--
+
+>>
+Delete
+|19 103 669 145 9
+D< (r) 
+<AND>
+(64)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|20 236 129 249 9
+A1 1 −2mr
+e
+8πm2 r 2
+
+
+<AND>
+(65)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|20 386 228 128 8
+19
+
+
+--
+
+>>
+Delete
+|20 278 259 91 9
+Γ(7/8) θ(p2 ω 2 cos(7π/8)θ(ω 2 p2 2 π
+Γ(1/8)
+|ω 2 p2 |7/8
+2i sin(7π/8)θ(ω 2 p2 (66)
+|ω 2 p2 |7/8
+1/4
+
+
+--
+
+>>
+Delete
+|20 132 365 270 9
+D> (ω, p) 
+<AND>
+πA1
+iπ 2 A1
+[δ(ω ǫp δ(ω ǫp −ω 2 ǫ2p
+2ǫp
+
+
+<AND>
+(67)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|20 385 438 73 9
+q
+
+
+<AND>
+q
+
+
+<AND>
+|ω 2 ǫ2p |θ(ǫ2p ω 2 2i |ω 2 ǫ2p |θ(ω 2 ǫ2p 
+<AND>
+(68)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|20 132 499 198 9
+ω 2 
+--
+ω2 
+>>
+Replace
+|20 376 535 97 9
+(ω 2 
+--
+(ω2 
+>>
+Delete
+|20 358 553 156 8|20 132 572 382 8
+D< (ω, p) 
+<AND>
+A1 4m
+θ(p2 4m2 ω 2 q
+ln
+2
+2
+2
+8m2 ω p 4m 2m
+2
+ω p2 4m2
+2
+2
+2
+θ(ω p 4m −i Arctg
+m
+
+
+<AND>
+(69)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|20 103 707 282 8
+6
+
+
+--
+
+>>
+Replace
+|20 103 762 411 8|21 103 278 72 9|21 103 581 411 8|21 103 596 411 7|21 103 611 411 7|21 103 626 411 7|21 103 641 411 7|21 103 656 411 7|21 103 671 411 7|21 103 686 411 7|21 103 701 411 7|21 103 716 411 7|21 103 731 411 11
+state1 
+--
+state.
+
+
+>>
+Delete
+|21 398 205 116 8|21 103 223 151 8
+20
+
+
+--
+
+>>
+Merge
+|21 398 205 116 8|21 103 223 151 8|21 254 223 112 8|21 366 223 148 8|21 103 241 197 9|21 300 241 214 9|21 103 259 56 8
+Abelian bosonization scheme when staggered fields breaking translational invariance, such as an explicit dimerization (bond alternation)
+--
+Abelian bosonization scheme when staggered fields breaking translational invariance, such as an explicit dimerization (bond alternation) 
+>>
+Split
+|21 103 296 290 9|21 393 296 121 9|21 103 314 197 9|21 301 314 214 9|21 103 332 138 8
+Perhaps the simplest example of this kind is given by the spin-1/2 Heisenberg
+chain with nearest-neighbour (J1 and next-nearest-neighbour (J2 antiferromagnetic exchange interactions
+
+--
+Perhaps the simplest example of this kind is given by the spin-1/2 Heisenberg chain with nearest-neighbour (J1) and next-nearest-neighbour (J2) antiferromagnetic exchange interactions
+
+
+>>
+Delete
+|21 301 314 214 9|21 103 332 138 8
+X
+n
+
+
+<AND>
+(J1 Sn Sn+1 J2 Sn Sn+2 
+<AND>
+(70)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|21 442 450 72 8|21 103 468 290 9
+broken parity[
+--
+broken parity 
+>>
+Merge
+|21 436 559 78 8|22 103 92 311 8|22 414 92 100 8|22 103 111 207 9
+can be considered, and the resulting quantum field theory is that of a critical
+
+
+--
+can be considered, and the resulting quantum field theory is that of a critical 
+>>
+Merge
+|22 414 92 100 8|22 103 111 207 9|22 311 111 204 9|21 103 762 411 8|22 103 129 152 9
+SU(2)1 Wess–Zumino–Novikov–Witten (WZNW) model perturbed a marginal
+current-current interaction[
+--
+SU(2)1 Wess-Zumino-Novikov-Witten (WZNW) model perturbed a marginal current-current interaction 
+>>
+Delete
+|22 404 191 111 8|22 103 209 266 8
+HJ1 −J2 
+--
+
+>>
+Merge
+|22 404 191 111 8|22 103 209 266 8|22 369 209 145 8|22 103 227 262 8|22 365 227 149 8|22 103 245 78 9
+However, at γ 0 the effective interaction flows to strong coupling, and the
+
+<AND>
+system ends up in a spontaneously dimerized phase with a dynamically generated
+spectral gap[
+--
+However, at γ 0 the effective interaction flows to strong coupling, and the 
+<AND>
+system ends up in a spontaneously dimerized phase with a dynamically generated spectral gap 
+>>
+Delete
+|22 369 209 145 8|22 103 227 262 8
+1
+
+
+<AND>
+While alternation of the nearest-neighbour exchange constants can originate from the spin-
+
+
+<AND>
+phonon coupling, the case of a nonuniform magnetic field with a period 2a0 (a0 being the
+lattice constant) used to be regarded as unrealistic, not achievable in experimental conditions.
+Fortunately, the status of the staggered magnetic field has recently changed from exotic to
+legitimate. It has been shown that, in some quasi-1D antiferromagnetic compounds, such
+field can be realized as an intrinsic one. An effective staggered field can originate from the
+Neel ordering of one magnetic sublattice and being experienced by loosely connected magnetic
+chains which form another sublattice and remain disordered down to very low temperatures
+[11]A sign-alternating component of the magnetic field can be also effectively generated due
+to a staggered anisotropy of the gyromagnetic tensor, as it is the case for the Copper-Benzoate
+organic molecule [12]
+<AND>
+21
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|22 366 264 149 9
+i
+1h
+γ
+γ
+8πΦ.
+x Φ)2 x Θ)2 ∂x ΦR ∂x ΦL cos
+2
+2π
+(2πα)2
+
+
+<AND>
+(72)
+
+
+--
+
+<AND>
+
+>>
+Split
+|22 103 474 269 9|||22 372 477 131 12||||22 285 496 15 5|22 256 509 258 11|22 285 521 15 5
+Consider the following deformation of the model: H HJ1 −J2 H where
+
+--
+Consider the following deformation of the model: H HJ1 J2 H'where
+
+
+>>
+Delete
+|22 285 496 15 5|22 256 509 258 11|22 285 521 15 5
+3
+X
+
+
+<AND>
+λa T r (τa ĝ) 
+<AND>
+(73)
+
+
+<AND>
+a=0
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|22 437 562 77 8|22 103 580 88 8
+(74)
+(75)
+
+
+--
+
+>>
+Delete
+|22 261 698 253 9
+(76)
+
+
+--
+
+>>
+Split
+|23 103 92 411 9|23 103 111 317 9|23 420 111 59 9
+The role of weak explicit (spin-Peierls) dimerization in the spontaneously
+dimerized J1 −J2 spin-1/2 chain has already been addressed by Affleck 
+--
+The role of weak explicit (spin-Peierls) dimerization in the spontaneously dimerized J1 J2 spin-1/2 chain has already been addressed by Affleck 
+>>
+Delete
+|23 420 111 59 9
+fective 
+--
+
+>>
+Merge
+|23 479 111 36 9|23 103 129 333 8|23 436 129 78 8|23 103 147 252 9
+double-frequency-sine-Gordon potential appearing in this case is different
+from the one studied in this paper (c.f. Eq.
+--
+double-frequency-sine-Gordon potential appearing in this case is different from the one studied in this paper (c.f. Eq.
+>>
+Delete
+|23 436 129 78 8|23 103 147 252 9
+γ
+cos
+8πΦ
+λ
+cos
+2πΦ.
+(2πα)2
+
+
+<AND>
+(77)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|23 408 226 107 11|23 103 244 269 9
+22
+
+
+--
+
+>>
+Merge
+|23 408 226 107 11|23 103 244 269 9|23 372 244 142 9|23 103 263 227 8|23 330 263 58 8|23 388 263 126 8|23 103 281 234 9|23 337 281 177 9|23 103 299 234 8|23 337 299 106 8
+ground states) and thus leads to confinement of the solitons. The main physical
+effect is the spinon-magnon transmutation: deconfined spinons of the frustrated
+Heisenberg chain, carrying the spin S 1/2, form bound states with S 0 and
+S 1, the latter representing coherent triplet magnon excitations.
+
+--
+ground states) and thus leads to confinement of the solitons. The main physical effect is the spinon-magnon transmutation: deconfined spinons of the frustrated Heisenberg chain, carrying the spin S 1/2, form bound states with S 0 and S 1, the latter representing coherent triplet magnon excitations.
+
+
+>>
+Split
+|23 103 317 357 8
+Let us concentrate on the case of the staggered magnetic field, 
+--
+Let us concentrate on the case of the staggered magnetic field, 
+>>
+Delete
+|23 103 317 357 8
+(78)
+
+
+<AND>
+Choosing hs hs ẑ, 
+--
+
+<AND>
+
+>>
+Delete
+|23 103 375 250 8
+(79)
+
+
+--
+
+>>
+Replace
+|23 450 514 64 8|23 103 532 194 9
+hǫs i 6 
+--
+〈εs〉 
+>>
+Merge
+|23 297 532 217 9|23 103 550 79 9|23 182 550 332 9
+case of uniform magnetic field that couples to the (conserved) total magnetisation,
+
+
+--
+case of uniform magnetic field that couples to the (conserved) total magnetisation, 
+>>
+Merge
+|23 103 569 182 9
+the dependence 
+--
+the dependence 
+>>
+Replace
+|23 155 623 222 10|||23 377 626 65 13
+3
+s 
+--
+3s. 
+>>
+Merge
+|23 103 678 292 8
+the total spin is not conserved, but the spin projection 
+--
+the total spin is not conserved, but the spin projection 
+>>
+Replace
+|23 395 678 119 8|23 103 696 199 8
+S z 
+--
+Sz 
+>>
+Replace
+|23 302 696 212 8|23 103 714 153 8
+S z 
+--
+Sz 
+>>
+Merge
+|23 360 732 154 9|24 103 92 151 10|24 254 92 188 10
+U(Φ)there will be “short” and “long” kinks, carrying the spin 
+--
+U(Φ)there will be "short" and "long" kinks, carrying the spin 
+>>
+Delete
+|24 254 92 188 10
+1
+2
+
+
+<AND>
+δ,
+
+
+--
+
+<AND>
+
+>>
+Merge
+|24 103 111 209 9|24 312 114 202 12|24 103 129 157 9|24 261 129 254 9
+where δ δ(hs smoothly increases from δ 0 at hs 0 to δ 1/2 at hs h∗s Therefore, in the mixed phase, the original massive S 1/2 spinon splits into two
+
+
+--
+where δ δ(hs) smoothly increases from δ 0 at hs 0 to δ 1 2 at hs h*s. Therefore, in the mixed phase, the original massive S 1/2 spinon splits into two 
+>>
+Merge
+|24 103 147 165 8|24 268 150 246 11
+topological excitations carrying fractional spins 
+<AND>
+and 
+--
+topological excitations carrying fractional spins 
+<AND>
+and 
+>>
+Replace
+|24 268 150 246 11
+S±z 
+<AND>
+S z 
+--
+Sz±
+<AND>
+Sz 
+>>
+Replace
+|24 103 165 387 8
+S z 
+--
+Sz 
+>>
+Merge
+|24 491 165 24 8|24 103 186 304 11|24 407 183 107 8|24 103 202 235 9|24 338 205 57 12|24 396 202 119 9|24 103 220 209 8|24 312 220 155 8|24 467 220 47 8|24 103 238 360 8|24 463 238 51 8|24 103 256 283 9
+its topological charge and becomes massless at hs h∗s The existence of the
+fractional-spin excitations in the mixed phase (hs h∗s is nothing but the spin
+version of the charge fractionization of topological excitations found earlier in 1D
+
+<AND>
+commensurate Peierls insulators with broken charge conjugation symmetry (e.g.
+cis-polyacetylene)
+--
+its topological charge and becomes massless at hs h*s. The existence of the fractional-spin excitations in the mixed phase (hs h*s) is nothing but the spin version of the charge fractionization of topological excitations found earlier in 1D 
+<AND>
+commensurate Peierls insulators with broken charge conjugation symmetry (e.g. cis-polyacetylene) 
+>>
+Delete
+|24 467 220 47 8|24 103 238 360 8
+23
+
+
+<AND>
+Table 2: UV-IR transmutation of operators
+field
+
+
+<AND>
+UV
+z
+
+
+<AND>
+uniform spin density
+
+
+<AND>
+J ∂x Φ
+
+
+<AND>
+uniform spin current
+
+
+<AND>
+IR
+z
+
+
+<AND>
+J ∂x µ
+
+
+<AND>
+J ∂t Φ
+J ∂t µ
+dimerization
+ǫs cos 2πΦ
+ǫs µ
+staggered magnetisation nz sin 2πΦ nz I ε
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|24 103 293 375 8|24 478 293 36 8|24 103 311 182 9
+To estimate the behaviour of physical quantities at the transition, let us consider an anisotropic 
+--
+To estimate the behaviour of physical quantities at the transition, let us consider an anisotropic 
+>>
+Delete
+|24 285 311 115 9
+(80)
+
+
+<AND>
+The γk -term in (80) 
+--
+
+<AND>
+
+>>
+Delete
+|24 308 395 206 9|24 103 413 60 11
+H H0 [Φ] 
+<AND>
+(81)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|24 399 510 53 9
+γ⊥
+cos 4πΦ hs sin πΦ,
+2
+(2πα)
+
+
+<AND>
+(82)
+
+
+--
+
+<AND>
+
+>>
+Split
+|24 103 625 215 8
+We have the following correspondence:
+
+--
+We have the following correspondence:
+
+
+>>
+Delete
+|24 103 625 215 8
+disordered phase hµi 6 0;
+ordered phase hµi 0.
+
+
+--
+
+>>
+Delete
+|25 103 290 350 9
+h∗s
+|hs h∗s 
+<AND>
+(83)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|25 143 395 278 8
+h∗s
+|hs h∗s 
+<AND>
+(84)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|25 416 459 98 9|25 103 478 76 8
+Z
+
+
+<AND>
+dx
+
+
+<AND>
+Z
+
+
+<AND>
+0
+
+
+<AND>
+dte−ipx+iωt h[S z (x, t)S z (0, 0)i
+
+
+<AND>
+(85)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|25 467 556 48 8|25 103 574 43 8
+(86)
+
+
+--
+
+>>
+Replace
+|25 306 635 208 8
+energydensity 
+--
+energy-density 
+>>
+Split
+|25 103 714 319 8|25 422 714 92 8|25 103 732 202 8|25 305 732 209 8|26 103 92 72 8|26 175 92 44 8
+Therefore, calculating the staggered magnetic susceptibility reduces to a simple task of computing the polarisation loop diagram for free, massive Majorana
+fermions. The result is
+
+--
+Therefore, calculating the staggered magnetic susceptibility reduces to a simple task of computing the polarisation loop diagram for free, massive Majorana fermions. The result is
+
+
+>>
+Delete
+|26 175 92 44 8
+s
+
+
+<AND>
+4m2 ω 2
+ω2
+−2
+arctg
+ω2
+4m2 ω 2
+
+<AND>
+(87)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|26 103 149 154 9
+ω 2 4m2
+ω2
+ω2
+π
+2
+1
+isignω
+arctg
+(88)
+χ(ω, π) ln
+4m2
+ω2
+ω 2 4m2 
+--
+
+>>
+Delete
+|26 103 212 67 9
+25
+
+
+--
+
+>>
+Replace
+|26 343 231 171 9|26 103 249 61 9
+(β 2 
+--
+(β2 
+>>
+Replace
+|26 363 303 151 8|26 103 322 44 9
+β 2 
+--
+β2 
+>>
+Replace
+|26 194 340 213 9
+(hµi=
+--
+μ〉
+>>
+Replace
+|26 413 467 101 9|26 103 485 120 8
+β 2 
+--
+β2 
+>>
+Replace
+|26 484 485 31 8|26 103 504 179 9
+β 2 
+--
+β2 
+>>
+Delete
+|26 103 522 411 9
+7
+
+
+--
+
+>>
+Delete
+|26 256 697 198 9
+X
+i,σ
+
+
+<AND>
+c†iσ ci+1,σ h.c. U
+
+
+<AND>
+X
+
+
+<AND>
+ni↑ ni↓ 
+<AND>
+i
+
+
+<AND>
+X
+
+
+<AND>
+1)i niσ 
+<AND>
+(89)
+
+
+<AND>
+i,σ
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|27 103 165 353 9
+In spite of its apparent simplicity, the model 
+--
+In spite of its apparent simplicity, the model 
+>>
+Insert
+|27 423 183 92 9|27 103 202 40 8
+
+--
+Δ 
+>>
+Delete
+|27 436 202 78 8
+26
+
+
+--
+
+>>
+Merge
+|27 103 220 238 8|27 342 220 173 8|27 103 238 58 8
+When the Hubbard interaction is switched on, the finite fermionic mass 
+--
+When the Hubbard interaction is switched on, the finite fermionic mass 
+>>
+Insert
+|27 342 220 173 8|27 103 238 58 8
+
+--
+Δ 
+>>
+Insert
+|27 194 256 275 9
+
+--
+Δ 
+>>
+Delete
+|27 166 313 277 11
+P
+
+
+<AND>
+i,σ
+
+
+<AND>
+niσ 1 
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|27 443 311 71 9|27 103 329 131 9|27 234 329 280 9|27 103 347 336 8|27 439 347 75 8|27 103 365 182 8|27 285 365 230 8|27 103 384 80 9|27 184 384 149 9|27 333 384 182 9|27 103 402 187 8|27 290 402 212 8|27 501 402 13 8|27 103 420 367 8|27 470 420 44 8|27 103 438 138 9
+(the case of a
+
+
+<AND>
+1/2-filled energy band)The MI state has a finite mass gap mc in the charge
+sector induced by commensurability of the electron density with the underlying
+lattice. At energies well below mc local charge fluctuations are suppressed, and
+the low-energy spin dynamics of the model coincides with that of the spin-1/2
+Heisenberg antiferromagnetic chain, the latter possessing a gapless spectrum. At
+a finite U, the charge-gaped MI phase is stable against site alternation, provided
+that 
+--
+(the case of a 
+<AND>
+1/2-filled energy band)The MI state has a finite mass gap mc in the charge sector induced by commensurability of the electron density with the underlying lattice. At energies well below mc, local charge fluctuations are suppressed, and the low-energy spin dynamics of the model coincides with that of the spin-1/2 Heisenberg antiferromagnetic chain, the latter possessing a gapless spectrum. At a finite U, the charge-gaped MI phase is stable against site alternation, provided that 
+>>
+Insert
+|27 470 420 44 8|27 103 438 138 9
+
+--
+Δ 
+>>
+Split
+|27 103 456 411 8|27 103 475 411 8
+Thus, the issue of interest is the nature of the crossover between the BI and MI
+regimes which is expected to occur in the strong-coupling region where the 
+--
+Thus, the issue of interest is the nature of the crossover between the BI and MI regimes which is expected to occur in the strong-coupling region where the 
+>>
+Replace
+|27 103 493 341 8
+singleparticle 
+--
+single-particle 
+>>
+Insert
+|27 103 493 341 8
+
+--
+Δ 
+>>
+Insert
+|27 473 493 42 8|27 103 511 292 8
+
+--
+Δ, 
+>>
+Insert
+|27 158 584 245 8
+
+<AND>
+
+--
+Δ 
+<AND>
+Δ, 
+>>
+Merge
+|27 465 584 49 8|27 103 602 184 9|27 287 602 227 9|27 103 620 35 9|27 138 620 62 9|27 200 620 314 9|27 103 639 63 8
+states of a diatomic (AB) unit cell in the limit t U, 
+<AND>
+where two charge configurations, 
+--
+states of a diatomic (AB) unit cell in the limit t U,
+<AND>
+where two charge configurations, 
+>>
+Insert
+|27 287 602 227 9|27 103 620 35 9
+
+--
+Δ, 
+>>
+Replace
+|27 287 602 227 9|27 103 620 35 9
+2∆
+
+
+--
+2Δ 
+>>
+Replace
+|27 200 620 314 9|27 103 639 63 8
+A1 B 1 and A0 B 2 
+--
+A1B1 and A0B2, 
+>>
+Merge
+|27 166 639 348 8|27 103 657 18 8|27 121 657 393 8|27 103 675 411 8|27 103 693 366 8|27 469 693 35 8
+for the charge redistribution among the two unit-cell configurations become soft.
+This means that, apart from the spin transition, a charge transition associated
+with vanishing of the charge gap at some value of U is also expected to occur.
+
+--
+for the charge redistribution among the two unit-cell configurations become soft. This means that, apart from the spin transition, a charge transition associated with vanishing of the charge gap at some value of U is also expected to occur.
+
+
+>>
+Split
+|27 103 711 378 9
+In Ref.
+--
+In Ref. 
+>>
+Insert
+|27 481 711 33 9|27 103 730 295 8
+
+--
+Δ, 
+>>
+Insert
+|28 236 129 136 8
+
+--
+Δ 
+>>
+Merge
+|28 424 129 90 8|28 103 147 274 9
+effective low-energy field theory for the lattice model 
+--
+effective low-energy field theory for the lattice model 
+>>
+Merge
+|28 378 147 137 9|28 103 165 185 8|28 288 165 100 8|28 388 165 126 8|28 103 183 229 8|27 103 762 411 8|28 332 183 182 8
+comment on the spin transition and mostly concentrate on the Ising transition in
+the charge sector of the model which will be described in terms of a DSG model.
+
+--
+comment on the spin transition and mostly concentrate on the Ising transition in the charge sector of the model which will be described in terms of a DSG model.
+
+
+>>
+Split
+|28 103 202 345 9
+The standard bosonization procedure (see e.g. 
+--
+The standard bosonization procedure (see e.g. 
+>>
+Delete
+|28 498 202 16 9
+27
+
+
+--
+
+>>
+Merge
+|28 498 202 16 9
+Hamiltonian density as
+
+--
+Hamiltonian density as
+
+
+>>
+Split
+|28 103 263 357 9|28 460 263 54 9|28 103 281 286 8|28 389 281 125 8|28 103 299 146 9
+Here the spin sector is described by the SU(2)1 WZNW model with a marginally
+irrelevant current-current perturbation originating from the electron backscattering processes (g Ua0 0)
+--
+Here the spin sector is described by the SU(2)1 WZNW model with a marginally irrelevant current-current perturbation originating from the electron backscattering processes (g Ua0 0)
+>>
+Delete
+|28 389 281 125 8|28 103 299 146 9
+2πvs
+JR JR JL JL 2gJR JL
+3
+
+
+<AND>
+(90)
+
+
+<AND>
+where JR,L 
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|28 103 477 81 8|28 184 477 194 8|28 378 477 136 8|28 103 495 181 9
+where m0 g. The cosine perturbation is caused by the electron Umklapp 
+--
+where m0 g. The cosine perturbation is caused by the electron Umklapp 
+>>
+Replace
+|28 378 477 136 8|28 103 495 181 9
+pro-
+
+
+--
+processes 
+>>
+Delete
+|28 378 477 136 8|28 103 495 181 9
+Hc 
+<AND>
+cesses 
+--
+
+<AND>
+
+>>
+Merge
+|28 378 477 136 8|28 103 495 181 9
+(see e.g.
+--
+(see e.g. 
+>>
+Merge
+|28 260 513 254 9|28 103 531 102 9
+that the model 
+--
+that the model 
+>>
+Insert
+|28 368 550 146 8|28 103 568 140 8
+
+--
+Δ-
+>>
+Insert
+|28 103 629 327 9
+
+--
+where εs 
+>>
+Delete
+|28 103 629 327 9
+q
+2∆
+ǫs sin 2πKc Φc
+πα
+
+
+<AND>
+(92)
+
+
+<AND>
+where ǫs 
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|28 103 666 384 8|28 488 666 27 8|28 103 684 289 8|28 392 684 122 8
+Let us assume that we are in the MI regime with a gaped charge sector. Since
+the charge field Φc is locked in one of degenerate minima of the periodic potential
+in 
+--
+Let us assume that we are in the MI regime with a gaped charge sector. Since the charge field Φc is locked in one of degenerate minima of the periodic potential in 
+>>
+Delete
+|28 392 684 122 8
+s
+
+
+<AND>
+π
+m,
+2Kc
+
+
+<AND>
+m Z∞
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|29 330 92 134 10
+2πKc Φc 
+--
+
+>>
+Merge
+|29 464 92 50 10|29 103 111 41 9
+appearing
+
+
+<AND>
+in 
+--
+appearing 
+<AND>
+in 
+>>
+Merge
+|29 508 129 6 9|29 103 147 117 8
+small 
+--
+small 
+>>
+Insert
+|29 508 129 6 9|29 103 147 117 8
+
+--
+Δ-
+>>
+Delete
+|29 313 202 202 9|29 103 220 149 8
+28
+
+
+--
+
+>>
+Merge
+|29 313 202 202 9|29 103 220 149 8|29 252 220 262 8
+coupling constant undergoes an additive renormalization. In the second order in
+
+--
+coupling constant undergoes an additive renormalization. In the second order in 
+>>
+Insert
+|29 252 220 262 8
+
+--
+Δ 
+>>
+Split
+|29 103 281 362 8|29 466 281 49 8|29 103 299 262 9
+where C 1 is a nonuniversal numerical constant. The spin sector now resembles
+
+
+--
+where C 1 is a nonuniversal numerical constant. The spin sector now resembles 
+>>
+Merge
+|29 466 281 49 8|29 103 299 262 9|29 366 299 149 9|29 103 317 203 8|29 306 317 195 8
+the J1 J2 frustrated spin-1/2 chain (see section 5) with an effecive next-nearest-
+
+
+<AND>
+neighbour interaction J2 generated by the staggered chemical potential 
+--
+the J1 J2 frustrated spin-1/2 chain (see section 5) with an effecive next-nearest-
+<AND>
+neighbour interaction J2 generated by the staggered chemical potential 
+>>
+Insert
+|29 306 317 195 8
+
+--
+Δ. 
+>>
+Insert
+|29 103 354 322 9
+
+<AND>
+
+--
+Δ 
+<AND>
+Δ 
+>>
+Split
+|29 103 445 352 8
+Thus, the condition 
+--
+Thus, the condition 
+>>
+Split
+|29 103 569 364 8|29 467 569 47 8|29 103 587 411 5
+The dimerization order parameter that becomes nonzero at U Uc2 is defined
+
+
+--
+The dimerization order parameter that becomes nonzero at U Uc2 is defined 
+>>
+Merge
+|29 467 569 47 8|29 103 587 411 5
+as
+
+--
+as
+
+
+>>
+Delete
+|29 467 569 47 8|29 103 587 411 5
+X
+
+
+<AND>
+1)i c†iσ ci+1,σ h.c.
+
+
+<AND>
+i,σ
+
+
+<AND>
+(94)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|29 103 636 254 8
+D(x) cos 2πKc Φc (x)T rĝs (x)
+
+
+<AND>
+(95)
+
+
+--
+
+<AND>
+
+>>
+Split
+|30 103 184 103 8
+invariant. These are
+
+
+--
+invariant. These are
+
+
+>>
+Delete
+|30 103 184 103 8
+PS 
+<AND>
+ψ(x) σ1 ψ(x)
+
+
+<AND>
+(96)
+
+
+<AND>
+PL 
+<AND>
+ψ(x) σ2 ψ(x)
+
+
+<AND>
+(97)
+
+
+<AND>
+29
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|30 103 344 261 8
+whereas the WZNW field ĝs transforms differently:
+
+--
+whereas the WZNW field ĝs transforms differently:
+
+
+>>
+Delete
+|30 103 344 261 8
+ĝs (x) −ĝs x)
+
+
+<AND>
+(98)
+
+
+<AND>
+PL 
+<AND>
+ĝs (x) ĝs x)
+
+
+<AND>
+(99)
+
+
+<AND>
+Comparing (92) and (95)
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|30 307 425 207 9|30 103 443 88 9
+
+--
+Δ-
+>>
+Split
+|30 103 589 242 8|30 345 589 169 8|30 103 607 25 9|30 128 607 337 9
+In what follows, we will not be dealing with estimation of the transition point
+Uc1 Referring the reader to Ref.
+--
+In what follows, we will not be dealing with estimation of the transition point Uc1. Referring the reader to Ref. 
+>>
+Delete
+|30 294 644 167 9
+1 const/ ln (t/
+--
+
+>>
+Merge
+|30 209 662 272 9|30 482 662 32 9|30 103 680 275 8|30 378 680 136 8|30 103 698 231 8|30 334 698 180 8|30 103 716 411 9|31 103 92 180 8
+where the positive constant is of the order of unity. Let us
+
+
+<AND>
+instead focus on a nonperturbative description of the charge transition to the BI
+phase. Suppose we are in the SDI phase with both charge and spin sectors gaped.
+Adopting an Abelian bosonic representation for the SU(2)1 WZNW model with
+a marginally relevant perturbation,
+
+--
+where the positive constant is of the order of unity. Let us 
+<AND>
+instead focus on a nonperturbative description of the charge transition to the BI phase. Suppose we are in the SDI phase with both charge and spin sectors gaped. Adopting an Abelian bosonic representation for the SU(2)1 WZNW model with a marginally relevant perturbation,
+
+
+>>
+Delete
+|31 103 92 180 8
+Hs 
+<AND>
+(100)
+
+
+--
+
+<AND>
+
+>>
+Insert
+|31 273 194 241 8|31 103 212 33 9
+
+--
+Δ) 
+>>
+Insert
+|31 109 256 405 14||31 103 281 411 8
+
+--
+with
+
+
+>>
+Delete
+|31 103 281 411 8
+30
+
+
+<AND>
+with
+µc 
+<AND>
+m0
+0,
+πα
+
+
+<AND>
+µs 
+<AND>
+λ
+0,
+2(πα)2
+
+
+<AND>
+δ=
+
+
+<AND>
+πα
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|31 103 455 345 11
+P
+
+
+<AND>
+i
+
+
+<AND>
+ni ni+1 
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|31 103 455 345 11|31 448 453 66 8|31 103 471 307 8|31 411 471 104 8|31 103 489 22 8|31 125 489 389 8|31 103 507 411 8
+In this case, new relevant vertex operators will be generated
+
+
+<AND>
+upon renormalization, and the continuous Ising transition in the charge sector
+can transform to a first-order one. We will comment on that in the end of this
+section.
+
+--
+In this case, new relevant vertex operators will be generated 
+<AND>
+upon renormalization, and the continuous Ising transition in the charge sector can transform to a first-order one. We will comment on that in the end of this section.
+
+
+>>
+Split
+|31 103 525 293 9|31 396 525 63 9
+A simple analysis of the saddle points of the potential U(εc εs 
+--
+A simple analysis of the saddle points of the potential U(εc,εs) 
+>>
+Delete
+|31 459 525 55 9|31 103 544 235 13
+q
+
+
+<AND>
+π/2n, 
+--
+
+<AND>
+
+>>
+Merge
+|31 459 525 55 9|31 103 544 235 13
+the location of its minima in the spin sector, 
+--
+the location of its minima in the spin sector, 
+>>
+Merge
+|31 415 544 99 13|31 103 562 49 8|31 152 562 221 8|31 373 562 141 8|31 103 580 58 9|31 162 580 353 9|31 103 598 130 8|31 233 598 281 8|31 103 616 89 11|31 192 616 44 11|31 236 616 221 11
+and hence the spin
+
+
+<AND>
+quantum numbers of the topological excitations, are the same as in the BI phase
+(U Uc1 So the spin part of the spectrum in the SDI phase smoothly transforms
+to that of the BI phase. Therefore, being interested in the redistribution of the
+charge degrees of freedom in the vicinity of Uc1 in 
+--
+and hence the spin 
+<AND>
+quantum numbers of the topological excitations, are the same as in the BI phase (U Uc1)So the spin part of the spectrum in the SDI phase smoothly transforms to that of the BI phase. Therefore, being interested in the redistribution of the charge degrees of freedom in the vicinity of Uc1, in 
+>>
+Merge
+|31 483 635 31 11|31 103 653 369 9|31 472 653 42 9|31 103 671 95 9
+the Z2 degeneracy of the dimerized ground state (spontaneously broken site parity; see Eq. 
+--
+the Z2 degeneracy of the dimerized ground state (spontaneously broken site parity; see Eq. 
+>>
+Insert
+|32 103 92 411 8
+
+--
+where
+
+
+>>
+Delete
+|32 103 92 411 8
+H c
+0
+
+
+<AND>
+0
+Hc(
+<AND>
+(102)
+
+
+<AND>
+where
+i
+vc h
+x Φc )2 x Θc )2
+2
+q
+q
+µc cos 8πKc Φc h sin 2πKc Φc
+
+
+<AND>
+Hc(
+<AND>
+(103)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|32 103 174 184 10
+Hc(Hc(
+--
+H( )c H( )c.
+
+
+>>
+Merge
+|32 459 192 55 9|32 103 210 18 8|32 121 210 393 8|32 103 228 340 9
+To make contact with the DQAT model discussed in detail in sections 2 and 3,
+we shall consider 
+--
+To make contact with the DQAT model discussed in detail in sections 2 and 3, we shall consider 
+>>
+Delete
+|32 444 228 71 9
+31
+
+
+<AND>
+1/2 (1 γ0 
+<AND>
+1
+Φ,
+2Kc
+
+
+<AND>
+Θc 
+<AND>
+q
+
+
+<AND>
+2Kc Θ
+
+
+<AND>
+transforms Hc(in (103) 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|32 444 228 71 9
+and rescaling the fields
+
+--
+and rescaling the fields
+
+
+>>
+Merge
+|32 103 344 24 8|32 127 344 127 8|32 254 344 260 8|32 103 362 130 8|32 233 362 281 8|32 103 383 28 13
+now able to describe in detail the Ising transition in the charge sector. As already
+explained in section 2.2, this can be done by considering only the Hamiltonian
+
+--
+now able to describe in detail the Ising transition in the charge sector. As already explained in section 2.2, this can be done by considering only the Hamiltonian 
+>>
+Replace
+|32 233 362 281 8|32 103 383 28 13
+Hc(
+--
+H( )c.
+
+
+>>
+Split
+|32 103 398 411 9
+When studying the physical properties of our model 
+--
+When studying the physical properties of our model 
+>>
+Split
+|32 103 581 348 9
+In full agreement with the physical picture, from 
+--
+In full agreement with the physical picture, from 
+>>
+Merge
+|32 172 600 342 8|32 103 618 36 8|32 139 618 102 8
+field at the Ising trasntion:
+
+
+--
+field at the Ising trasntion:
+
+
+>>
+Delete
+|32 139 618 102 8
+(104)
+
+
+--
+
+>>
+Replace
+|32 399 660 116 10
+hDi 
+--
+〈D〉 
+>>
+Merge
+|32 399 660 116 10|32 103 678 411 9
+approaching the charge transition point (remaining zero in the whole BI phase)
+--
+approaching the charge transition point (remaining zero in the whole BI phase)
+>>
+Insert
+|32 252 696 263 9|32 103 714 74 9
+
+--
+Δ-
+>>
+Replace
+|32 177 714 44 9|||32 221 714 84 9
+O∆ 
+--
+OΔ 
+>>
+Merge
+|32 306 714 209 9|32 103 732 151 8|||33 103 92 272 8
+remains finite in both phases.
+
+
+--
+remains finite in both phases.
+
+
+>>
+Delete
+|32 103 762 411 8|33 103 147 411 8
+1
+Jc (x) ∂x Θc (x)π
+
+
+--
+
+>>
+Replace
+|33 137 129 284 8
+cU V 
+--
+cUV 
+>>
+Insert
+|33 103 257 283 9
+
+--
+With μ(
+>>
+Delete
+|33 103 257 283 9
+Jc (x) −C∂t µ(x)
+32
+
+
+<AND>
+(105)
+
+
+<AND>
+With µ(
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|33 103 348 327 9|33 430 348 84 9|33 103 366 108 8|33 212 366 92 8|33 304 366 210 8|33 103 385 105 8
+An insulating (semi-metallic) behaviour of the model at the quantum critical
+point, reached at the charge transition, becomes manifest when one estimates the
+optical conductivity:
+
+--
+An insulating (semi-metallic) behaviour of the model at the quantum critical point, reached at the charge transition, becomes manifest when one estimates the optical conductivity:
+
+
+>>
+Delete
+|33 304 366 210 8|33 103 385 105 8
+(106)
+
+
+--
+
+>>
+Delete
+|33 103 462 54 8
+(107)
+
+
+--
+
+>>
+Split
+|33 103 540 411 8|33 103 559 338 9|33 441 559 73 9|33 103 577 144 9
+It is also possible to estimate the optical conductivity at finite temperatures
+(keeping in mind the σ −τ representation of the DQAT model, one should assume
+
+
+--
+It is also possible to estimate the optical conductivity at finite temperatures (keeping in mind the σ τ representation of the DQAT model, one should assume 
+>>
+Merge
+|33 441 559 73 9|33 103 577 144 9|33 248 577 267 9||33 103 595 411 8
+that T is much smaller than the mass gap in the decoupled τ degrees of freedom)This can be done using conformal mapping from a cylinder 
+--
+that T is much smaller than the mass gap in the decoupled τ degrees of freedom)This can be done using conformal mapping from a cylinder
+
+
+>>
+Insert
+|33 223 649 196 9|||33 420 649 105 9|33 103 671 45 14
+
+--
+μ (z, μ (z, 
+>>
+Delete
+|33 420 649 105 9|33 103 671 45 14
+τ β] onto a complex plane C. Starting with the T 0 asymptotics of the
+correlation function
+hµ(z1 z̄1 )µ(z2 z̄2 )i 
+<AND>
+1
+|z1 z2 |1/4
+
+
+<AND>
+and using the above mentioned conformal mapping, one obtains
+
+<AND>
+πT
+hµ(x, τ )µ(0, 0)i sinh πT (x iτ sinh πT (x iτ 
+<AND>
+#1/8
+
+
+<AND>
+(108)
+
+
+<AND>
+It can be shown that[23]
+1
+
+
+<AND>
+ω
+ℑmχ(ω) 7/4 ℑm ρ
+T
+4πT
+where
+ρ(x) 
+<AND>
+1
+16
+Γ 15
+16
+
+
+<AND>
+Γ
+
+
+<AND>
+2
+
+
+<AND>
+ix
+
+
+<AND>
+(109)
+
+
+<AND>
+(110)
+
+
+<AND>
+ix
+
+
+<AND>
+The final result for the temperature dependent optical conductivity at the Ising
+critical point is given by the following universal formula:
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|34 103 244 411 8||34 258 273 101 11
+ω
+T
+
+
+--
+ω T.
+
+
+>>
+Delete
+|34 258 273 101 11
+ω
+4πT
+
+
+<AND>
+2
+
+
+<AND>
+(111)
+
+
+<AND>
+At finite ω T the frequency dependence of σ(ω, T is classical but with a
+
+
+<AND>
+quantum, temperature dependent prefactor:
+
+
+<AND>
+σ(ω, T ω 2 /T 11/4 At ω T σ(ω, T reaches its maximum and then crosses over to its quantumcritical high-frequency (ω T asymptotics (107)
+<AND>
+8
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|34 103 365 411 14
+β 2 
+--
+β2 
+>>
+Replace
+|34 103 395 301 9
+β 2 
+--
+β2 
+>>
+Replace
+|34 330 414 184 9
+β 2 
+--
+β2 
+>>
+Replace
+|34 260 505 190 9
+β 2 
+--
+β2 
+>>
+Split
+|34 103 587 255 8|34 358 587 156 8|34 103 605 51 8
+one finds that the Ising transition is turned by a sufficiently large V into a first
+order one.
+
+--
+one finds that the Ising transition is turned by a sufficiently large V into a first order one.
+
+
+>>
+Split
+|34 103 623 356 8|34 460 623 55 8|34 103 641 331 8|34 434 641 81 8|34 103 660 187 8|34 290 660 224 8|34 103 678 411 9|34 103 696 379 9|34 482 696 32 9|34 103 714 274 9
+The capability of an apparently subleading operator to change a continuous
+transition to a first order one is indeed common to a variety of models. For
+instance, it is known that the critical line with non universal exponents separating
+the Charge Density Wave (CDW) and the Spin Density Wave (SDW) phases of the
+extended (U-V) Hubbard model, becomes a first order line at sufficiently strong
+coupling[
+--
+The capability of an apparently subleading operator to change a continuous transition to a first order one is indeed common to a variety of models. For instance, it is known that the critical line with non universal exponents separating the Charge Density Wave (CDW) and the Spin Density Wave (SDW) phases of the extended (U-V) Hubbard model, becomes a first order line at sufficiently strong coupling 
+>>
+Delete
+|34 103 762 411 8|35 392 147 123 8|35 103 165 197 9
+34
+
+
+<AND>
+9
+
+
+--
+
+<AND>
+
+>>
+Replace
+|35 440 277 75 8|35 103 296 87 9
+β 2 
+--
+β2 
+>>
+Split
+|35 103 423 380 8|35 483 423 31 8|35 103 441 278 8|35 382 441 133 8|35 103 462 129 11
+We believe that our quantum-Ising-chain approach can be generalised to the
+case when the number of the constituent Ising models, coupled by the interaction
+
+--
+We believe that our quantum-Ising-chain approach can be generalised to the case when the number of the constituent Ising models, coupled by the interaction 
+>>
+Delete
+|35 382 441 133 8|35 103 462 129 11
+Q
+
+
+<AND>
+j
+
+
+<AND>
+σj 
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|35 382 441 133 8|35 103 462 129 11|35 233 459 282 9|35 103 478 49 8|35 152 478 278 8|35 430 478 84 8|35 103 496 151 8|35 254 496 260 8|35 103 514 76 9|35 179 514 179 9|35 358 514 157 9|35 103 532 274 9
+is larger than 2. Such situation can indeed be realized in certain SU(2)
+<AND>
+invariant spin-ladders models which can be driven to criticality under the action
+of external staggered fields. In such systems, the quantum critical points may
+be not only of the Ising type but also correspond to SU(2)k WZNW universality
+class. Such examples will be considered elsewhere 
+--
+is larger than 2. Such situation can indeed be realized in certain SU(2)
+<AND>
+invariant spin-ladders models which can be driven to criticality under the action of external staggered fields. In such systems, the quantum critical points may be not only of the Ising type but also correspond to SU(2)k WZNW universality class. Such examples will be considered elsewhere 
+>>
+Split
+|35 103 592 374 8|35 477 592 37 8|35 103 611 299 8|35 402 611 112 8|35 103 629 286 8|35 390 629 125 8|35 103 647 97 8|35 200 647 314 8|35 103 665 317 8|35 420 665 94 8|35 103 683 228 8
+It is our pleasure to thank G. Mussardo for inspiring discussions. We are
+grateful A. Chubukov, D. Edwards, Yu Lu, N. Nagaosa, S. Sorella, E. Tosatti,
+A. M. Tsvelik, Y.J. Wang and V. Yakovenko for their interest in the work and
+helpful comments. M.F. is partly supported by INFM, under project PRA HTSC.
+A. O. G. is supported the EPSRC of the United Kingdom. A. A. N. is partly
+supported by INTAS-Georgia grant 97-1340.
+
+
+--
+It is our pleasure to thank G. Mussardo for inspiring discussions. We are grateful A. Chubukov, D. Edwards, Yu Lu, N. Nagaosa, S. Sorella, E. Tosatti, A. M. Tsvelik, Y.J. Wang and V. Yakovenko for their interest in the work and helpful comments. M.F. is partly supported by INFM, under project PRA HTSC. A. O. G. is supported the EPSRC of the United Kingdom. A. A. N. is partly supported by INTAS-Georgia grant 97-1340.
+
+
+>>
+Delete
+|35 420 665 94 8|35 103 683 228 8
+35
+
+
+<AND>
+A
+
+
+--
+
+<AND>
+
+>>
+Delete
+|36 103 92 411 12
+A.1
+
+
+--
+
+>>
+Delete
+|36 412 175 102 8
+R,L
+
+
+<AND>
+1
+exp ±i 4πφR,L
+2πα
+
+
+<AND>
+(112)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|36 103 308 328 8|36 431 308 83 8|36 103 326 318 8|36 421 326 93 8|36 103 344 286 8|36 389 344 35 8|36 424 344 90 8|36 103 362 282 8|36 386 362 129 8|36 103 381 251 8
+Notice that α is an ultraviolet cutoff in the bosonic theory which actually appears
+as a short-distance regulator in the normal-mode expansion of bosonic fields. For
+this reason it does not need to coincide with the original lattice constant a0 which
+appears in the continuum representation of fermionic fields. These two cutoffs
+are, however, related, as shown in Appendix A.2.
+
+--
+Notice that α is an ultraviolet cutoff in the bosonic theory which actually appears as a short-distance regulator in the normal-mode expansion of bosonic fields. For this reason it does not need to coincide with the original lattice constant a0 which appears in the continuum representation of fermionic fields. These two cutoffs are, however, related, as shown in Appendix A.2.
+
+
+>>
+Split
+|36 103 399 256 9|36 359 399 55 9
+The chiral components of the U(1) current are defined as
+
+--
+The chiral components of the U(1) current are defined as
+
+
+>>
+Delete
+|36 359 399 55 9
+(114)
+(115)
+
+
+<AND>
+Using (112)
+--
+
+<AND>
+
+>>
+Delete
+|36 103 492 156 9
+i −i√4πΦ
+e
+2πα
+
+
+<AND>
+1
+(ξ1R iξ2R (ξ1L iξ2L 2
+
+
+<AND>
+(116)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|36 103 580 70 8
+(117)
+(118)
+
+
+--
+
+>>
+Merge
+|36 103 696 287 9
+¿From 
+--
+>From 
+>>
+Delete
+|37 434 92 80 9|37 103 111 189 9
+(120)
+
+
+--
+
+>>
+Split
+|37 103 231 314 9
+Notice that the symmetry properties of r.h.sides of 
+--
+Notice that the symmetry properties of r.h.sides of 
+>>
+Delete
+|37 417 231 97 9|37 103 249 52 9
+Φ −Φ,
+
+
+<AND>
+Θ→
+<AND>
+A.2
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|37 417 231 97 9|37 103 249 52 9
+with 
+--
+with 
+>>
+Delete
+|37 485 337 30 8|37 103 355 151 8
+z
+σan
+iκa 
+<AND>
+y
+σan
+iκa 
+<AND>
+n
+Y
+
+
+<AND>
+j=1
+n
+Y
+
+
+<AND>
+j=1
+
+
+<AND>
+µxa,n+1/2 −iζan ηa,n+1
+n
+Y
+
+
+<AND>
+x σaj
+ζan 
+<AND>
+µza,n+1/2 
+<AND>
+x σaj
+ηan 
+<AND>
+µya,n+1/2 
+<AND>
+x
+σaj
+
+
+<AND>
+(122)
+(123)
+
+
+<AND>
+j=1
+
+
+<AND>
+n
+Y
+
+
+<AND>
+j=1
+
+
+<AND>
+x σaj
+ηa,n+1 ζan
+
+
+<AND>
+(124)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|37 103 536 154 12
+µz2,
+--
+μz2,
+>>
+Delete
+|37 257 533 184 9
+n
+Y
+
+
+<AND>
+x x
+σ1j
+σ2j
+
+
+<AND>
+(125)
+
+
+<AND>
+j=1
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|37 103 624 411 8
+x
+
+
+--
+
+>>
+Delete
+|37 459 683 55 8
+(η1n ζ1n η2n ζ2n 
+<AND>
+j=1
+
+
+<AND>
+37
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|37 103 762 411 8|38 394 192 82 11
+x x
+σ1j
+σ2j x x
+σ1j
+σ2j (η1j η2j (ζ1j ζ2j 
+--
+σx1jσx2j:
+
+
+>>
+Delete
+|37 103 762 411 8|38 394 192 82 11
+(126)
+
+
+--
+
+>>
+Delete
+|38 103 92 411 8
+x
+0
+
+
+<AND>
+dx′ (ξ1R ξ1L ξ2R ξ2L 
+--
+
+<AND>
+
+>>
+Insert
+|38 103 328 411 8
+
+--
+Therefore
+
+
+>>
+Delete
+|38 103 328 411 8
+(127)
+
+
+<AND>
+Therefore
+µz1,n+1/2 µz2,n+1/2
+
+
+<AND>
+n
+πX
+x x
+(η1j η2j ζ1j ζ2j σ1j
+σ2j exp 2 j=1
+j=1
+n
+Y
+
+
+<AND>
+(128)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|38 465 399 49 9|38 103 417 54 8
+µz1,n+1/2 µz2,n+1/2 exp ±π
+
+
+<AND>
+Z
+
+
+<AND>
+x
+
+
+<AND>
+dy (ξ1R ξ2R ξ1L ξ2L 
+<AND>
+0
+Zx
+dy ∂y Φ(y)
+exp ∓i π
+
+
+<AND>
+0
+
+
+<AND>
+∓i πΦ(x)
+
+
+<AND>
+(129)
+
+
+<AND>
+e
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|38 398 531 116 8|38 103 549 57 9
+from 
+--
+from 
+>>
+Merge
+|38 362 549 152 9|38 103 567 119 8|38 222 567 179 8
+is resolved by replacing the phase exponential by a cosine:
+
+--
+is resolved by replacing the phase exponential by a cosine:
+
+
+>>
+Replace
+|38 103 655 152 12
+µz2,
+--
+σz2,
+>>
+Delete
+|38 103 655 152 12
+cos πΦ(x)
+
+
+<AND>
+(130)
+
+
+<AND>
+z
+z
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|38 255 652 76 9
+Using 
+--
+Using 
+>>
+Delete
+|38 255 652 76 9
+z
+z
+σ1n
+σ2n
+(κ1 κ2 (ζ1n ζ2n 
+<AND>
+−κ1 κ2 ζ1n ζ2n
+38
+
+
+<AND>
+n
+Y
+
+
+<AND>
+j=1
+
+
+<AND>
+x x σ1j
+σ2j
+
+
+<AND>
+µz1,n+1/2 µz2,n+1/2
+
+
+<AND>
+(131)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|39 309 92 205 9|39 103 111 78 8
+ζ1n ζ2n 
+--
+ζ1nζ2n 
+>>
+Insert
+|39 103 233 411 8
+
+--
+So
+
+
+>>
+Delete
+|39 103 233 411 8
+(132)
+
+
+<AND>
+So
+z
+z
+σ1n
+σ2n
+
+
+<AND>
+iκ1 κ2 a0
+
+
+<AND>
+1
+1
+∂x Φ(x) sin 4πΦ(x) cos πΦ(x α)
+π
+πα
+
+<AND>
+(133)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|39 103 294 329 8
+(134)
+(135)
+
+
+--
+
+>>
+Split
+|39 208 410 306 23||39 103 426 277 9
+Intending to keep duality among 
+--
+Intending to keep duality among 
+>>
+Delete
+|39 103 426 277 9
+α=
+
+
+<AND>
+(136)
+
+
+<AND>
+a0
+π
+
+
+<AND>
+(137)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|39 103 484 94 8
+πΦ(x) 
+<AND>
+(138)
+
+
+--
+
+<AND>
+
+>>
+Replace
+|39 103 526 304 9
+κ1 κ2 
+--
+κ1κ2. 
+>>
+Merge
+|39 502 545 12 10|39 103 563 211 9
+the r.h.s. of 
+--
+the r.h.s. of 
+>>
+Replace
+|39 314 563 200 9
+κ1 κ2 
+<AND>
+κ1 κ2 
+--
+κ1κ2. 
+<AND>
+κ1κ2 
+>>
+Delete
+|39 103 581 256 8
+πΦ(x) 
+--
+
+>>
+Merge
+|39 103 657 321 8|39 424 657 90 8|39 103 676 161 8
+impose a constraint that identifies Φ and −Φ, in which case the scalar field Φ
+
+
+<AND>
+would transform to an orbifold.
+
+
+--
+impose a constraint that identifies Φ and Φ, in which case the scalar field Φ 
+<AND>
+would transform to an orbifold.
+
+
+>>
+Replace
+|39 103 702 122 11||||||39 192 733 234 15
+σ1n
+
+
+<AND>
+σ1n
+µz1,n+1/2
+
+
+--
+σz1nμz2,
+<AND>
+as
+
+
+>>
+Delete
+|39 192 733 234 15
+z
+z
+σ1n
+µz2,
+<AND>
+39
+
+
+<AND>
+µz1,n+1/2 µz2,n+1/2 
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|39 103 702 122 11||||||39 192 733 234 15
+n+1/2 
+--
+n 1 2 
+>>
+Merge
+|40 482 111 32 8|40 103 129 283 9
+continuum limit, with relation 
+--
+continuum limit, with relation 
+>>
+Insert
+|40 103 210 411 8
+
+--
+So
+
+
+>>
+Delete
+|40 103 210 411 8
+a0 [ξ1R (x) ξ1L (x)cos 4πΦR (x) cos 4πΦL (x)
+
+
+<AND>
+(139)
+
+
+<AND>
+So
+h
+i
+z
+σ1n
+µz2,n+1/2 −iκ1 cos 4πΦR (x) cos 4πΦL (x) cos πΦ(x α)
+
+
+<AND>
+(140)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|40 103 354 117 8
+we arrive at the result:
+
+--
+we arrive at the result:
+
+
+>>
+Replace
+|40 103 423 126 11
+2 −iκ1 cos
+
+
+--
+2σz2n.
+>>
+Delete
+|40 103 423 126 11
+πΘ(x) 
+<AND>
+(142)
+
+
+<AND>
+z
+µz1,n+1/2 σ2n
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|40 229 420 123 8
+Quite similarly one finds that
+
+--
+Quite similarly one finds that
+
+
+>>
+Delete
+|40 229 420 123 8
+πΘ(x) 
+<AND>
+(143)
+
+
+<AND>
+Using (121)
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|40 481 480 33 9|40 103 499 124 8
+transform to each other.
+
+
+--
+transform to each other.
+
+
+>>
+Delete
+|40 481 480 33 9|40 103 499 124 8
+40
+
+
+<AND>
+B
+
+
+--
+
+<AND>
+
+>>
+Split
+|41 103 159 258 9
+We start by the quantum Ising model 
+--
+We start by the quantum Ising model 
+>>
+Delete
+|41 361 159 153 9|41 103 177 411 8
+(144)
+(145)
+
+
+--
+
+>>
+Delete
+|41 103 263 194 9
+HQI 
+<AND>
+i J J)
+
+
+<AND>
+X
+
+
+<AND>
+ξRn ξLn 
+<AND>
+(146)
+
+
+<AND>
+n
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|41 478 379 36 8|41 103 397 103 8
+twocoupled 
+--
+two-coupled 
+>>
+Delete
+|41 478 379 36 8|41 103 397 103 8
+(147)
+
+
+--
+
+>>
+Delete
+|41 356 449 158 9|41 103 468 411 8
+X
+n
+
+
+<AND>
+z
+z
+z
+z
+x
+x
+σ1,n
+σ1,n+1
+σ2,n
+σ2,n+1
+σ1,n
+σ2,n
+
+<AND>
+(148)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|41 103 608 167 8
+1
+ζ1,n (ξRn ξLn 2
+1
+η1,n (ξRn ξLn 2
+1
+ζ2,n (ηRn ηLn 2
+1
+η2,n (ηRn ηLn 2
+41
+
+
+<AND>
+2
+
+
+<AND>
+(149)
+
+
+<AND>
+(150)
+(151)
+(152)
+(153)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|42 103 210 186 8
+1
+ξR(L)n iηR(L)n 2
+
+
+<AND>
+(154)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|42 103 265 166 9
+X
+n
+
+
+<AND>
+c†Rn cLn c†Ln cRn 
+<AND>
+(155)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|42 398 424 117 8|42 103 442 115 8
+2L−1
+X
+n=0
+L−1
+X
+
+
+<AND>
+c†n cn+1 H.c.
+
+<AND>
+c†2n+1 c2n c2n+2 c†2n c2n−1 c2n+1 
+<AND>
+n=0
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|42 103 539 237 8
+c2n c2n+1
+
+
+--
+
+>>
+Delete
+|42 473 630 41 8|42 103 649 256 8
+tX cRn cRn+1 cRn−1 c†Ln cLn+1 cLn−1
+2 n
+
+
+<AND>
+tX cRn 2cLn cLn+1 cLn−1 c†Ln 2cRn cRn+1 cRn−1 2 n
+(156)
+
+
+<AND>
+42
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|43 103 92 266 8
+X
+
+
+<AND>
+c†2n c2n+1 H.c.
+
+
+<AND>
+(157)
+
+
+<AND>
+n
+
+
+<AND>
+X
+n
+
+
+<AND>
+c†Rn cLn H.c. 
+<AND>
+(158)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|43 238 182 185 8
+
+--
+ΔJ 
+>>
+Replace
+|43 238 182 185 8
+J) 
+--
+Δ.
+
+
+>>
+Merge
+|43 457 200 57 9
+fermions reads
+
+--
+fermions reads
+
+
+>>
+Delete
+|43 457 200 57 9
+X
+
+
+<AND>
+ζ1n ζ2n (η1n+1 η2n+1 η1n η2n 
+<AND>
+n
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|43 103 264 375 8
+ζ1n ζ2n 
+--
+
+>>
+Split
+|43 103 448 237 8
+Therefore the coupling term can be written as
+
+--
+Therefore the coupling term can be written as
+
+
+>>
+Delete
+|43 103 448 237 8
+K
+
+
+<AND>
+X
+n
+
+
+<AND>
+X
+n
+
+
+<AND>
+(ρRn ρLn 1 ∆n (ρRn ρLn 1 ∆n 
+<AND>
+(ρRn ρLn 1 ∆n (ρRn+1 ρLn+1 1 ∆n+1 (159)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|43 441 536 73 8
+X
+
+
+<AND>
+c†2n c2n c†2n+1 c2n+1 c†2n+1 c2n+1 c†2n+2 c2n+2 
+<AND>
+n
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|43 288 635 226 8||43 103 653 411 8
+coupling which is not self-dual, e.g.
+
+--
+coupling which is not self-dual, e.g.
+
+
+>>
+Delete
+|43 103 653 411 8
+X
+
+
+<AND>
+z
+z
+z
+z
+σ1,n
+σ1,n+1
+σ2,n
+σ2,n+1
+K2
+
+
+<AND>
+n
+
+
+<AND>
+X
+
+
+<AND>
+x
+x
+σ1,n
+σ2,n
+
+<AND>
+n
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|43 382 732 132 8|44 103 92 225 8
+43
+
+
+--
+
+>>
+Merge
+|43 382 732 132 8|44 103 92 225 8|44 329 92 186 8|44 103 111 240 9
+spectrum, thus showing the importance of self-duality, even at the level of the
+coupling term 
+--
+spectrum, thus showing the importance of self-duality, even at the level of the coupling term 
+>>
+Split
+|43 103 762 411 8|44 103 183 411 8|44 103 202 341 8|44 444 202 70 8|44 103 220 203 8
+An interesting point in this respect regards quantum numbers. The spinless
+fermion model has for instance conserved number of particle. In ρ is the density,
+in the reduced chain we must have that
+
+--
+An interesting point in this respect regards quantum numbers. The spinless fermion model has for instance conserved number of particle. In ρ is the density, in the reduced chain we must have that
+
+
+>>
+Split
+|44 103 129 411 8|44 103 147 305 9
+Therefore we have shown the equivalence between a model of two coupled
+Ising chains in a transverse field, given by the Hamiltonian 
+--
+Therefore we have shown the equivalence between a model of two coupled Ising chains in a transverse field, given by the Hamiltonian 
+>>
+Delete
+|44 444 202 70 8|44 103 220 203 8
+(160)
+
+
+--
+
+>>
+Delete
+|44 468 358 46 8|44 103 377 322 8
+B.1
+
+
+--
+
+>>
+Delete
+|44 103 441 370 8
+(1) 
+--
+
+>>
+Delete
+|44 103 466 256 9
+(161)
+
+
+--
+
+>>
+Delete
+|44 454 517 60 8|44 132 535 163 8
+(2) 
+--
+
+>>
+Delete
+|44 103 562 255 9
+(162)
+
+
+--
+
+>>
+Delete
+|44 413 612 101 8|44 132 630 128 8
+(3) 
+--
+
+>>
+Delete
+|44 103 657 256 9
+(163)
+
+
+--
+
+>>
+Delete
+|44 132 725 81 8
+44
+
+
+<AND>
+C
+
+
+--
+
+<AND>
+
+>>
+Delete
+|45 365 123 149 8|45 103 142 73 9
+(164)
+
+
+--
+
+>>
+Insert
+|45 103 274 411 8
+
+--
+where
+
+
+>>
+Delete
+|45 103 274 411 8
+X
+
+
+<AND>
+z
+Jσ σnz σn+1
+∆σ σnx
+
+
+<AND>
+n
+
+
+<AND>
+X
+n
+
+
+<AND>
+z
+Jτ τnz τn+1
+hτnz ∆τ τnx
+
+
+<AND>
+z
+Jσ J 1 hτnz τn+1
+i 
+<AND>
+(165)
+
+<AND>
+(166)
+
+
+<AND>
+z
+Jτ Jhσnz σn+1
+i−K
+
+
+<AND>
+∆σ ∆hτnx i K,
+
+
+<AND>
+∆τ (1 hσnx i)
+
+
+<AND>
+(167)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|45 314 346 47 8
+Xh
+n
+
+
+<AND>
+z
+z
+z
+z
+J(σnz σn+1
+hσnz σn+1
+i)τnz τn+1
+hτnz τn+1
+i)
+
+
+<AND>
+σnx hσnx i)τnx hτnx i)
+<AND>
+(168)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|45 263 512 252 8|45 103 530 411 8
+(169)
+
+
+--
+
+>>
+Delete
+|45 442 626 18 8
+(170)
+
+
+--
+
+>>
+Delete
+|45 464 676 50 9|45 103 694 258 8
+(171)
+
+
+--
+
+>>
+Delete
+|46 459 111 20 9
+2
+π
+
+
+<AND>
+(172)
+
+
+--
+
+<AND>
+
+>>
+Split
+|46 103 214 180 9
+Then the condition 
+--
+Then the condition 
+>>
+Delete
+|46 103 214 180 9
+(173)
+
+
+<AND>
+2
+π
+
+
+<AND>
+(174)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Insert
+|46 420 274 34 9
+
+--
+Δ 
+>>
+Split
+|46 228 314 159 19|46 252 323 136 8||46 103 339 411 8
+we obtain a quadratic equation
+
+--
+we obtain a quadratic equation
+
+
+>>
+Delete
+|46 103 339 411 8
+C =1+
+
+
+<AND>
+2
+π
+
+
+<AND>
+(C 1)x2 C(J)2 x C 2 J)2 0,
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|46 103 398 251 8
+!2
+
+
+<AND>
+1
+2
+4(C 1)
+J
+
+<AND>
+s
+
+<AND>
+J
+
+
+<AND>
+2
+
+
+<AND>
+2
+
+
+<AND>
+4(C 1)1
+
+
+<AND>
+(175)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|46 416 469 99 9
+2
+>1+
+J
+π
+
+
+--
+Δ:
+
+
+>>
+Delete
+|46 416 469 99 9
+(176)
+
+
+--
+
+>>
+Insert
+|46 424 530 91 8|46 103 548 122 9
+
+--
+Δ 
+>>
+Insert
+|46 394 603 121 9|46 103 621 178 8
+
+--
+Δ 
+>>
+Merge
+|46 281 621 233 8|46 103 639 145 8|46 248 639 107 8|46 355 639 159 8|46 103 657 212 8
+already mentioned fact that the DM transition is indeed not a weak-coupling one
+from the standpoint of the DQAT model.
+
+--
+already mentioned fact that the DM transition is indeed not a weak-coupling one from the standpoint of the DQAT model.
+
+
+>>
+Split
+|46 103 676 293 8|46 396 676 118 8|46 103 694 176 9
+One could, in principle, perturbatively calculate the fluctuation corrections,
+i.e. those originating from 
+--
+One could, in principle, perturbatively calculate the fluctuation corrections, i.e. those originating from 
+>>
+Delete
+|46 424 730 81 8
+46
+
+
+<AND>
+D
+
+
+--
+
+<AND>
+
+>>
+Merge
+|47 103 195 321 8|47 424 195 76 8
+Therefore what one ought to do is to study analytic properties of the integral
+
+--
+Therefore what one ought to do is to study analytic properties of the integral
+
+
+>>
+Delete
+|47 424 195 76 8
+Z∞
+
+
+<AND>
+r α−1/2 drJ0 (qr)e−mr
+
+
+<AND>
+(177)
+
+
+<AND>
+0
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|47 103 268 411 8
+~q (ωn p)q 
+<AND>
+q
+
+
+<AND>
+ωn2 p2 
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|47 103 345 201 13
+(178)
+
+
+--
+
+>>
+Delete
+|47 103 415 219 9
+Γ(α 1/2)
+F (α/2 1/4, α/2 3/4; 1; −q 2/m2 α+1/2
+m
+
+
+<AND>
+(179)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|47 316 515 199 9
+(2m)α−1/2 Γ(α)
+1
+2
+π
+(q m2 )α
+
+
+<AND>
+(180)
+
+
+--
+
+<AND>
+
+>>
+Split
+|47 103 600 294 8|47 397 600 117 8|47 103 618 391 8
+This calculation explains how the correlation function has a branch cut at the
+threshold, unless α 1 which, of course, corresponds to the disordered case:
+
+--
+This calculation explains how the correlation function has a branch cut at the threshold, unless α 1 which, of course, corresponds to the disordered case:
+
+
+>>
+Delete
+|47 103 618 391 8
+πA1
+m2
+
+
+<AND>
+q2
+
+
+<AND>
+(181)
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|47 306 681 208 8
+Z
+
+
+<AND>
+47
+
+
+<AND>
+d2 ~q
+
+
+<AND>
+ei~q~r
+q 2 m2
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|47 103 762 411 8|48 224 183 44 9
+Γ(7/8) 1
+Γ(1/8) q 7/4
+
+
+<AND>
+(182)
+
+
+--
+
+<AND>
+
+>>
+Merge
+|48 403 111 111 8|48 103 129 118 8|48 222 129 221 8|48 442 129 72 8|48 103 147 128 8|48 231 147 244 8|48 475 147 39 8
+limit of this formula, as the main contribution to the integral comes from a
+different spatial domain. Therefore we should rather return to the general formula
+
+--
+limit of this formula, as the main contribution to the integral comes from a different spatial domain. Therefore we should rather return to the general formula 
+>>
+Delete
+|48 369 285 145 8|48 103 304 16 8
+Z dr
+dr
+J0 (qr)e−2mr Jν (qr)e−2mr
+r
+r
+0
+0
+2
+1
+q 4m2 2m)ν
+q 2 4m2 2m
+O(ν)
+ln
+νq ν
+ν
+q
+2m
+I−1/2
+(q)
+
+
+<AND>
+(183)
+
+
+--
+
+<AND>
+
+>>
+Delete
+|48 455 411 60 8
+q
+4m
+
+
+--
+
+>>
+Delete
+|48 324 490 168 8
+Z∞
+ξ
+
+
+<AND>
+dr
+J0 (qr)e−2mr r
+
+
+<AND>
+Z∞
+ξ
+
+
+<AND>
+X (2k)dr −2mr q2
+e
+2k
+2
+r
+4m2
+k=1 2 (k!
+<AND>
+!k
+
+
+<AND>
+(184)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|48 469 583 46 9||48 103 601 383 9
+result for the correlation function (up to an unessential additive constant)
+--
+result for the correlation function (up to an unessential additive constant)
+>>
+Delete
+|48 103 601 383 9
+(185)
+
+
+--
+
+>>
+Delete
+|48 451 668 63 8
+48
+
+
+--
+
+>>
+Split
+|48 103 762 411 8|49 347 207 135 8||||49 103 226 411 9
+We need to analytically continue formula 
+--
+We need to analytically continue formula 
+>>
+Split
+|49 103 153 239 9|49 342 153 173 9|49 103 171 79 8|49 182 171 35 8|49 218 171 256 8|49 474 171 41 8|49 103 189 121 9|49 225 189 260 9|49 485 189 29 9|49 103 207 244 8|48 103 762 411 8|49 347 207 135 8
+(that is provided the resulting function has no ‘accidental’ poles and is otherwise
+regular in the upper half-plane there is no general solution to the analytic
+continuation problem.The resulting function is, by construction, analytic in the
+upper half-plane and automatically satisfies the Kramers–Kronig relation.
+
+--
+(that is provided the resulting function has no 'accidental' poles and is otherwise regular in the upper half-plane there is no general solution to the analytic continuation problem.The resulting function is, by construction, analytic in the upper half-plane and automatically satisfies the Kramers-Kronig relation.
+
+
+>>
+Delete
+|49 103 226 411 9
+1
+(ωn2
+
+
+<AND>
+p2
+
+
+<AND>
+m2 )α
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|49 103 290 105 8
+θ(ǫ2p ω 2 cos(πα)θ(ω 2 ǫ2p |ω 2 ǫ2p |α
+2i sin(πα)θ(ω 2 ǫ2p |ω 2 ǫ2p |α
+
+
+<AND>
+49
+
+
+<AND>
+(186)
+
+
+<AND>
+References
+[1] G. Delfino and G. Mussardo, Nucl. Phys. B516, 675 (1998)hep-th/9709028.
+[2] A.A. Nersesyan and Y.J. Wang, in preparation.
+[3] I. Affleck, in Dynamical Properties of uncoventional magnetic systems,
+NATO ASI series E349, eds A. Skjeltorp and D. Sherrington, Kluwer Academic (1998)cond-mat/9705127.
+[4] S. Coleman, Phys. Rev. D 11 (1975) 2088.
+[5] A. Luther and V. Emery, Phys. Rev. B 12 (1975) 3908.
+[6] P. Pfeuty, Ann. Phys. (N.Y) 57 (1970) 79.
+[7] E. Lieb, T. Schultz, and D. Mattis, Ann. Phys. (N.Y.16 (1968) 539.
+[8] C. Itzykson and J. B. Zuber, Phys. Rev. D 15 (1977) 2875.
+[9] A.O. Gogolin, A.A. Nersesyan, and A.M. Tsvelik, Bosonization and Strongly
+Correlated Systems (Cambridge University Press, Cambridge, 1999)[10] T.T. Wu, B.M. McCoy, C.A. Tracy, and E. Barouch, Phys. Rev. B 13 (1976)
+315. For a recent review and an excellent collection of references see B.M.
+McCoy, The Connection Between Statistical Mechanics and Quantum Field
+Theory, hep-th/9403084.
+[11] S. Maslov and A. Zheludev, Phys. Rev. Lett. 80 (1998) 5786; condmat/9803393.
+[12] D. C. Dender, P. R. Hammar, D. H. Reich, C. Broholm, and G. Aeppli,
+Phys. Rev. Lett. 79 (1997) 1750;
+M. Oshikawa and I. Affleck, Phys. Rev. Lett. 79 (1997) 2883;
+F. H. L. Essler and A. M. Tsvelik, Phys. Rev. B 57 (1998) 10592;
+F. H. L. Essler, cond-mat/9811309; I. Affleck and M. Oshikawa, condmat/9905002.
+[13] I. Affleck, D. Gepner, H. J. Schulz, and T. Ziman, J. Phys. A 22 (1989) 511.
+[14] S. R. White and I. Affleck, Phys. Rev. B 54 (1996) 9862.
+
+
+<AND>
+50
+
+
+<AND>
+[15] S. A. Brazovskii, N. N. Kirova and S. I. Matveenko, Sov. Phys. JETP 59
+(1983) 434;
+A. J. Niemi and G. W. Semenoff, Phys. Rep. 135 (1986) 99.
+[16] M. Fabrizio, A. O. Gogolin and A. A. Nersesyan, Phys. Rev. Lett. 83 (1999)
+2014.
+[17] F.H.L. Essler, A.M. Tsvelik, and G. Delfino, Phys. Rev. B 56 (1997) 11001.
+[18] N. Nagaosa and J. Takimoto, J. Phys. Soc. Jpn. 55 (1986) 2735 N. Nagaosa,
+ibid. 55 (1986) 2754; 55 (1986) 3488.
+[19] T. Egami, S. Ishihara and M. Tachiki, Science 261 (1993) 1307.
+[20] E. H. Lieb and F. Y. Wu, Phys. Rev. Lett. 20 (1968) 1445; A. A. Ovchinnikov,
+Sov. Phys. JETP 30 (1970) 1160.
+[21] I. Affleck, Nucl. Phys. B 265 (1986) 409;
+I. Affleck and F. D. M. Haldane, Phys. Rev. B 36(1987) 5291.
+[22] S. Eggert and I. Affleck, Phys. Rev. 46 (1992) 10 866.
+[23] H. J. Schulz and C. Bourbonnais, Phys. Rev. B 12 (1983) 5856;
+see also Ref.9]chapter 11.
+[24] J.E. Hirsh, Phys. Rev. Lett. 53 (1984) 2327 [25] I.S. Gradsteyn and I.M. Ryzhik, Table of Integrals, Series, and Products
+(ed.A. Jeffrey, Academic Press Ltd.London, 1994)[26] A. A. Abrikosov, L. P. Gor’kov, and I. E. Dzyaloshinskii, Quantum field
+theoretical methods in statistical physics, 2nd edition (Oxford, Pergamon
+Press, 1965)
+<AND>
+51
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+

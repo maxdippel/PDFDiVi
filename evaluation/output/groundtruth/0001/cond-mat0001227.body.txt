@@ -1,0 +1,1080 @@
+##source	0001/cond-mat0001227/cond-mat0001227.tmp.tex
+Critical(38,15) properties(38,26) of(38,29) the(38,33) double-frequency(38,50) sine-Gordon(38,62) model(38,68) with(38,74) applications(38,87)
+
+aInternational(44,1) School(44,24) for(44,28) Advanced(44,37) Studies(44,45) and(44,49) INFM,(44,55) Via(45,3) Beirut(45,10) 4,(45,13) 34014(45,19) Trieste,(45,28) Italy(45,34) bDepartment(46,1) of(46,17) Mathematics,(46,30) Imperial(46,39) College,(46,48) 180(46,52) Queen's(46,60) Gate,(46,66) London(47,6) SW7(48,3) 2BZ,(48,8) United(48,15) Kingdom(48,23) c(49,1) The(49,8) Abdus(49,14) Salam(49,20) International(49,34) Centre(49,41) for(49,45) Theoretical(49,57) Physics,(49,66) P.O.Box(50,7) 586,(50,12) 34100,(50,19) Trieste,(50,28) Italy(50,34) dThe(51,1) Andronikashvili(51,23) Institute(51,33) of(51,36) Physics,(51,45) Tamarashvili(51,58) 6,(51,61) 380077,(51,69) Tbilisi,(52,8) Georgia(52,16)
+
+PACS:(70,5) 71.10.Pm;(70,15) 71.10.Fd;(70,25) 75.10.Jm(70,34)
+
+Keywords:(73,14) Fermions(73,24) in(73,27) reduced(73,35) dimensions;(73,47) Lattice(73,55) fermion(73,63) models;(73,71) Quantized(74,9) spin(74,14) models.(74,22)
+
+Introduction(75,21)
+
+The(77,3) problem(77,11) of(77,14) determining(77,26) the(77,30) asymptotic(77,41) behaviour(77,51) of(77,54) a(77,56) conformal(77,66) field(77,72) theory(78,6) (CFT)(78,12) under(78,18) the(78,22) action(78,29) of(78,32) a(78,34) relevant(78,43) operator(78,52) is(78,55) well(78,60) studied(78,68) and(78,72) understood,(79,11) also(79,16) in(79,19) view(79,24) of(79,27) its(79,31) relation(79,40) to(79,43) the(79,47) physics(79,55) of(79,58) many(79,63) quantum(80,7) one-dimensional(80,23) (1D)(80,28) and(80,32) classical(80,42) two-dimensional(80,58) (2D)(80,63) models.(81,7) A(82,1) less(82,6) studied(82,14) case(82,19) concerns(82,28) a(82,30) CFT(82,34) perturbed(83,9) by(83,12) two(83,16) relevant(83,25) operators.(83,36) Namely,(84,7) consider(84,16) a(84,18) CFT(84,22) subjected(84,32) to(84,35) such(84,40) relevant(84,49) perturbation,(85,13) gOΔg,(85,15) with(86,4) scaling(86,12) dimension(86,22) Δg(86,24) <(86,24) 2,(86,24) that(87,4) turns(87,10) it(88,2) into(88,7) a(88,9) fully(88,15) massive(88,23) quantum(88,31) field(88,37) theory(89,6) (QFT).(89,13) Then(90,4) add(90,8) another(90,16) relevant(90,25) perturbation,(90,39) λOΔλ,(91,1) which,(92,6) if(92,9) acting(92,16) alone,(92,23) would(92,29) also(92,34) make(92,39) our(93,3) QFT(93,7) fully(93,13) massive.(93,22) Although(94,8) this(94,13) is(94,16) not(94,20) as(94,23) common(94,30) situation(94,40) as(94,43) the(94,47) previous(94,56) one,(94,61) we(95,2) will(95,7) show(95,12) that(95,17) it(95,20) displays(95,29) interesting(95,41) features(95,50) which(95,56) may(96,3) be(96,6) realized(96,15) in(96,18) physical(96,27) systems.(96,36)
+
+Without(98,7) loss(98,12) of(98,15) generality,(98,27) we(98,30) assume(99,6) that(99,11) Δλ(99,13) <(99,13) Δg(99,13) <(99,13) 2,(99,13) i.e.(100,4) that(100,9) the(100,13) second(100,20) perturbation(100,33) is(100,36) more(100,41) relevant(100,50) then(101,4) the(101,8) first(101,14) one.(101,19) Moreover,(101,29) we(102,2) shall(102,8) require,(102,17) for(102,21) the(102,25) time(102,30) being,(102,37) that(102,42) the(102,46) operator(102,55) product(103,7) expansion(103,17) (OPE)(103,23) of(103,26) these(103,32) two(103,36) operators(104,9) is(104,12) closed(104,19) in(104,22) the(104,26) sense(104,32) that(104,37) it(104,40) does(105,4) not(105,8) produce(105,16) other(105,22) relevant(105,31) operators.(105,42) The(105,46) most(105,51) general(105,59) case(105,64) will(106,4) be(106,7) discussed(106,17) in(106,20) a(106,22) separate(106,31) section.(106,40) Then,(107,5) the(107,9) naïve(107,12) expectation,(107,32) which(107,38) prevailed(107,48) until(107,54) recently,(107,64) is(108,2) that(108,7) no(108,10) qualitative(108,22) changes(108,30) occur(108,36) in(108,39) this(108,44) case(108,49) with(108,54) respect(108,62) to(108,65) the(108,69) standard(109,8) situation(109,18) of(109,21) a(109,23) CFT(109,27) perturbed(109,37) by(109,40) a(109,42) single(109,49) relevant(109,58) operator:(109,68) the(110,3) low-energy(110,14) behaviour(110,24) of(110,27) the(110,31) theory(110,38) would(111,5) be(111,8) governed(111,17) by(111,20) the(111,24) most(111,29) relevant(111,38) operator(111,47) and,(112,4) at(112,7) any(112,11) rate,(112,17) the(112,21) theory(112,28) would(112,34) remain(112,41) fully(113,5) massive.(113,14) This(114,4) expectation(114,16) is(114,19) however(114,27) not(114,31) a(114,33) general(114,41) rule(114,46) if(114,49) the(114,53) two(115,3) operators(115,13) exclude(115,26) each(115,32) other,(115,39) that(115,44) is,(115,48) if(115,51) the(115,55) field(116,5) configurations(116,20) which(116,26) minimise(116,35) one(116,39) perturbation(116,52) term(116,57) do(117,2) not(117,6) minimise(117,15) the(117,19) other.(117,26) In(118,2) this(118,7) case,(118,13) the(118,17) interplay(118,27) between(118,35) the(118,39) two(118,43) competing(118,53) relevant(119,8) operators(119,18) can(120,3) produce(120,11) a(120,13) novel(120,19) quantum(120,27) phase(120,33) transition(120,44) between(120,52) two(120,56) massive(120,64) QFT's(120,70) through(121,7) a(121,9) critical(121,18) (massless)(121,29) point.(121,36) It(121,39) is(121,42) intuitively(121,54) clear(121,60) that(121,65) such(122,4) a(122,6) scenario(122,15) is(122,18) only(122,23) conceivable(122,35) if(122,38) the(122,42) ratio(122,48) of(122,51) the(122,55) bare(123,4) coupling(123,13) constants,(123,24) |g(123,26) /(123,26) λ|,(123,26) is(123,42) large(123,48) enough.(123,56)
+
+Recently(125,8) Delfino(125,16) and(125,20) Mussardo(125,29) (DM)[\cite=DM](125,34) considered(125,54) the(126,3) double-frequency(126,20) sine-Gordon(126,32) (DSG)(126,38) model,(126,45) which(126,51) is(126,54) a(126,56) Gaussian(127,8) model(127,14) of(127,17) a(127,19) scalar(127,26) field(127,32) Φ,(127,34) perturbed(128,9) by(128,12) two(128,16) relevant(128,25) vertex(128,32) operators(128,42) with(128,47) the(129,3) ratio(129,9) of(129,12) their(129,18) scaling(129,26) dimensions(129,37) Δg(129,39) /(129,39) Δλ(129,39) =(129,39) 4.(129,39) The(130,3) Hamiltonian(130,15) density(130,23) of(130,26) the(130,30) DSG(130,34) model(130,40) reads:(130,47)
+
+[formula](131,6)
+
+where(137,5)
+
+[formula](138,6)
+
+φR,L(142,1) being(142,18) the(142,22) chiral(142,29) components(142,40) of(142,43) the(142,47) Bose(142,52) field,(142,59) Φ(143,1) =(143,1) φR(143,1) +(143,1) φL.(143,1) DM(144,2) have(144,7) shown(144,13) that(144,18) there(144,24) exists(144,31) a(144,33) quantum(144,41) critical(144,50) line(145,4) λ(145,6) =(145,6) λc(g)(145,6) where(145,33) the(145,37) DSG(145,41) model(145,47) displays(145,56) an(146,2) Ising(146,8) criticality(146,20) with(146,25) central(146,33) charge(146,40) c(146,42) =(146,42) 1(146,42) /(146,42) 2.(146,42)
+
+The(148,3) purpose(148,11) of(148,14) this(148,19) paper(148,25) is(148,28) to(148,31) investigate(148,43) in(148,46) detail(148,53) the(149,3) critical(149,12) properties(149,23) of(149,26) this(149,31) transition(150,10) and(150,14) to(150,17) discuss(150,25) physical(150,34) applications(150,47) to(151,2) spin(151,7) chains(151,14) and(151,18) other(151,24) quantum(151,32) one-dimensional(151,48) (1D)(151,53) systems.(152,8) While(152,14) we(152,17) shall(152,23) concentrate(152,35) on(152,38) the(152,42) DSG(152,46) model(152,52) in(152,55) what(152,60) follows,(152,69) it(153,2) should(153,9) be(153,12) noted(153,18) that(153,23) the(153,27) phenomenon(153,38) is(153,41) more(153,46) general(153,54) -(153,56) similar(153,64) quantum(153,72) phase(154,5) transitions(154,17) do(154,20) happen(154,27) in(154,30) more(154,35) complicated(154,47) models;(154,55) those(155,5) shall(155,11) be(155,14) addressed(155,24) elsewhere(155,34) [\cite=else].(155,40)
+
+Apart(157,5) from(157,10) the(157,14) practical(157,24) interest(157,33) in(157,36) physical(157,45) realizations(157,58) of(157,61) the(157,65) DSG(157,69) model,(157,76) this(158,4) problem(158,12) is(158,15) of(158,18) relevance(158,28) also(158,33) from(158,38) a(158,40) pure(158,45) theoretical(159,11) point(159,17) of(159,20) view.(159,26) Indeed,(159,34) we(160,2) have(160,7) already(160,15) mentioned(160,25) that(160,30) the(160,34) Ising(160,40) critical(160,49) point(160,55) separates(160,65) two(161,3) strong-coupling,(161,24) massive(161,34) phases;(161,42) hence,(161,49) by(161,52) definition,(161,64) its(162,3) analytical(162,14) description(162,26) is(162,29) outside(162,37) the(162,41) range(162,47) of(162,50) applicability(162,64) of(163,2) perturbation(163,15) theory.(163,23) In(163,26) this(163,31) paper(163,37) we(163,40) propose(163,48) a(163,50) nonperturbative(163,66) scheme,(164,7) which(164,13) is(164,16) essentially(164,28) based(164,34) on(164,37) the(164,41) mapping(164,49) of(164,52) the(164,56) DSG(164,60) model(164,66) onto(164,71) another(165,7) equivalent(165,18) model(165,24) -(165,27) a(165,29) generalised(165,41) quantum(165,49) Ashkin-Teller(165,63) model(165,69) on(166,2) a(166,4) 1D(166,7) lattice,(166,16) where(166,22) the(166,26) Ising(166,32) critical(166,41) point(166,47) becomes(166,55) accessible.(166,67)
+
+The(168,3) paper(168,9) is(168,12) organised(168,22) as(168,25) follows.(168,34) In(168,37) section(168,45) 2(168,47) we(168,50) briefly(168,58) discuss(168,66) the(169,3) DSG(169,7) model(169,13) at(169,16) the(169,20) semi-classical(169,35) level(169,41) and(169,45) outline(169,53) our(169,57) approach(169,66) to(170,2) tackle(170,9) the(170,13) Ising(170,19) criticality(170,31) in(170,34) the(170,38) vicinity(170,47) of(170,50) the(170,54) decoupling(170,65) point(171,5) β2(171,7) =(171,7) 4π.(171,7) In(172,2) sections(172,11) 3-5(172,16) we(172,19) present(172,27) a(173,1) complete(173,10) description(173,22) of(173,25) the(173,29) critical(173,38) properties(173,49) of(173,52) the(173,56) DSG(173,60) model(173,66) at(174,2) the(174,6) Ising(174,12) transition.(174,24) In(175,2) section(175,10) 3(175,12) we(175,15) introduce(175,25) a(175,27) quantum(175,35) lattice(175,43) version(176,7) of(176,10) a(176,12) generalised(176,24) AT(176,27) model(176,33) which,(176,40) apart(176,46) from(176,51) the(177,3) conventional(177,16) marginal(177,25) inter-chain(177,37) coupling,(177,47) also(177,52) includes(177,61) a(177,63) 'magnetic(178,9) filed'(178,16) type(178,21) of(178,24) interaction,(178,37) hσ1σ2.(178,39) We(178,63) show(178,68) that,(178,74) in(179,2) the(179,6) continuum(179,16) limit,(179,23) this(179,28) model(179,34) is(179,37) equivalent(179,48) to(179,51) the(179,55) DSG(179,59) model(179,65) at(180,2) β2(180,4) ~(180,4) 4π.(180,4) In(180,26) section(180,34) 4(180,36) we(180,39) employ(180,46) a(180,48) new(180,52) (σ-τ)(181,1) representation(181,32) of(181,35) the(181,39) deformed(181,48) AT(181,51) model(181,57) which(182,5) enables(182,13) us(182,16) to(183,2) correctly(183,12) identify(183,21) those(183,27) degrees(183,35) of(183,38) freedom(183,46) that(183,51) become(183,58) critical.(183,68) In(184,2) section(184,10) 5(184,12) we(185,2) use(185,6) the(185,10) results(185,18) of(185,21) the(185,25) quantum-spin-chain(185,44) mappings(185,53) to(185,56) determine(185,66) the(186,3) physical(186,12) properties(186,23) of(186,26) the(186,30) DSG(186,34) model(186,40) close(186,46) to(186,49) the(186,53) criticality.(186,66)
+
+In(188,2) the(188,6) next(188,11) two(188,15) sections(189,8) we(189,11) discuss(189,19) applications(189,32) of(189,35) the(189,39) DSG(189,43) model(190,5) to(190,8) physical(190,17) systems.(190,26) In(190,29) particular,(190,41) we(190,44) discuss(190,52) Ising(190,58) transitions(190,70) in(191,2) a(191,4) spontaneously(191,18) dimerized(191,28) S=1/2(191,34) antiferromagnetic(191,52) chain(191,58) in(191,61) a(191,63) staggered(191,73) magnetic(192,8) field(192,14) (section(192,23) 6),(192,27) and(192,31) in(192,34) the(192,38) 1D(192,41) Hubbard(192,49) model(192,55) with(192,60) a(192,62) staggered(192,72) potential(193,9) (section(193,18) 7).(193,22) In(194,2) section(194,10) 8(194,12) we(194,15) show(194,20) that(194,25) at(194,28) β2(194,30) <(194,30) 2π(194,30) the(194,49) second-order(194,62) Ising(194,68) transition(194,79) may(195,3) transform(195,13) to(195,16) a(195,18) first-order(195,30) one.(195,35) Section(195,43) 9(195,45) contains(195,54) discussion(195,65) of(195,68) the(195,72) results(196,7) and(196,11) conclusions.(196,24)
+
+The(198,3) paper(198,9) is(198,12) supplied(198,21) with(198,26) four(198,31) Appendices(198,42) which(198,48) provide(198,56) some(198,61) details(198,69) concerning(199,10) bosonization(200,12) of(200,15) products(200,24) of(200,27) order(200,33) and(200,37) disorder(200,46) operators(200,56) for(200,60) a(200,62) system(200,69) of(200,72) two(200,76) identical(201,9) Ising(201,15) models,(201,23) the(201,27) relationship(201,40) between(201,48) the(201,52) quantum(201,60) AT(201,63) model(201,69) and(201,73) lattice(202,7) fermions,(202,17) a(202,19) mean-field(202,30) treatment(202,40) of(202,43) the(202,47) σ-τ(202,49) model,(202,70) and(203,3) calculation(203,15) of(203,18) the(203,22) correlation(203,34) functions.(203,45)
+
+The(205,12) model(205,18) and(205,22) its(205,26) quasi-classical(205,42) analysis(205,51)
+
+In(207,2) this(207,7) paper(207,13) we(207,16) will(207,21) be(207,24) dealing(207,32) with(207,37) the(208,3) particular(208,14) version(208,22) of(208,25) the(208,29) DSG(208,33) model(208,39) ([\ref=HDSG])(208,41) corresponding(209,13) to(209,16) the(209,20) case(209,25) g(209,27) >(209,27) 0.(209,27) We(210,2) will(210,7) also(210,12) assume(210,19) that(210,24) λ(210,26) >(210,26) 0,(210,26) although(210,48) its(210,52) sign(211,4) is(211,7) unimportant(211,19) due(211,23) to(211,26) the(211,30) obvious(211,38) symmetry(211,47) Φ(211,49) →(211,49) -(211,49) Φ.(211,49)
+
+For(213,3) 2π(213,5) <(213,5) β2(213,5) <(213,5) 8π(213,5) the(213,30) Gaussian(213,39) model(213,45) is(213,48) perturbed(213,58) by(213,61) two(214,3) relevant(214,12) vertex(214,19) operators(214,29) closed(214,36) under(214,42) the(214,46) OPE(214,50) [\cite=DM].(214,56) The(215,3) existence(215,13) of(215,16) the(215,20) Ising(215,26) phase(215,32) transition(215,43) can(216,3) be(216,6) qualitatively(216,20) understood(216,31) via(216,35) a(217,1) quasi-classical(217,17) analysis:(217,27) inspecting(217,38) the(217,42) profile(217,50) of(218,2) the(218,6) potential(218,16) U(Φ)(218,18) as(218,38) a(218,40) function(218,49) of(218,52) the(218,56) ratio(218,62) x(218,64) =(218,64) λ(218,64) /(218,64) 4g.(218,64) At(219,2) x(219,4) =(219,4) 0(219,4) one(219,14) has(219,18) a(219,20) periodic(220,8) potential(220,18) of(220,21) a(220,23) single-frequency(220,40) sine-Gordon(220,52) (SG)(220,57) model.(220,64) For(221,3) x(221,5) ≠(221,5) 0(221,5) the(221,18) period(221,25) of(221,28) the(221,32) potential(221,42) is(221,45) doubled(221,53) in(221,56) such(221,61) a(221,63) way(221,67) that(221,72) in(222,2) the(222,6) region(222,13) 0(222,15) <(222,15) x(222,15) <(222,15) 1(222,15) it(223,2) can(223,6) be(223,9) viewed(223,16) as(223,19) a(223,21) sequence(223,30) of(223,33) double-well(223,45) potentials(223,56) with(224,4) the(224,8) local(224,14) structure(224,24) AΦ2(224,26) +(224,26) BΦ4,(224,26) where(224,53) A(224,55) <(224,55) 0,B(224,55) >(224,55) 0.(224,55) Precisely(225,9) at(225,12) x(225,14) =(225,14) 1(225,14) each(225,23) local(225,29) double-well(225,41) potential(226,9) transforms(226,20) to(226,23) a(226,25) Φ4(226,27) one(226,38) (A(227,1) =(227,1) 0),(227,1) and(227,12) (in(227,16) the(227,20) Ginzburg-Landau(227,37) sense)(227,44) this(228,4) is(228,7) a(228,9) signature(228,19) of(228,22) the(228,26) Ising(228,32) criticality(228,44) with(229,4) the(229,8) central(229,16) charge(229,23) c(229,25) =(229,25) 1(229,25) /(229,25) 2.(229,25) It(230,2) should(230,9) be(230,12) stressed(230,21) that(230,26) the(230,30) double-well(230,42) structure(230,52) of(230,55) the(230,59) potential(230,69) U(Φ)(231,1) only(231,22) occurs(231,29) for(231,33) g(231,35) >(231,35) 0.(231,35) Hence(232,5) the(232,9) Ising(232,15) critical(232,24) point(232,30) only(232,35) exist(232,41) for(232,45) positive(233,8) g.(233,10) The(233,17) case(233,22) of(233,25) g(233,27) <(233,27) 0(233,27) is(233,36) qualitatively(233,50) different:(233,61) here(234,4) the(234,8) λ-perturbation(234,10) removes(234,39) the(234,43) degeneracy(234,54) between(234,62) neighbouring(234,75) minima(235,6) of(235,9) cos(235,11) βΦ(235,11) and(235,29) thus(235,34) leads(235,40) to(235,43) soliton(235,51) confinement(236,11) (similarly(236,22) to(236,25) the(236,29) analysis(236,38) in(236,41) Ref[\cite=aff-conf]).(236,45) The(237,3) spectrum(237,12) in(237,15) this(237,20) case(237,25) always(237,32) remains(237,40) massive.(237,49)
+
+Thus,(239,5) for(239,9) model(239,15) ([\ref=HDSG])(239,17) with(239,33) g(239,35) >(239,35) 0,(239,35) a(240,1) plausible(240,11) scenario(240,20) is(240,23) that(240,28) the(241,3) relevant(241,12) perturbations(241,26) naturally(242,9) act(242,13) on(242,16) the(242,20) two(242,24) constituent(242,36) Ising(243,5) models(243,12) of(243,15) the(243,19) starting(243,28) Gaussian(243,37) model,(243,44) leaving(244,7) one(244,11) of(244,14) them(244,19) massless(244,28) on(244,31) the(244,35) critical(245,8) line(245,13) λ(245,15) =(245,15) λc(g).(245,15) (Quasi-classically(246,18) λc(g)(246,20) =(246,20) 4g.(246,20) A(246,39) better(246,46) estimation(246,57) which(246,63) takes(246,69) into(246,74) account(247,7) quantum(247,15) fluctuations(247,28) yields(247,35) a(247,37) power(247,43) law(247,47) λc(g)(247,49) ~(247,49) gν,(247,49) where(248,5) [formula]).(248,7) Indeed,(249,7) DM(250,2) have(250,7) argued(250,14) that(250,19) the(250,23) Ising(250,29) transition(250,40) is(250,43) a(250,45) universal(251,9) property(251,18) of(251,21) the(251,25) DSG(251,29) model(251,35) ([\ref=HDSG])(251,37) as(251,51) long(251,56) as(251,59) β2(251,61) <(251,61) 8π.(251,61) This(252,4) makes(252,10) it(252,13) possible(252,22) to(252,25) consider(252,34) the(252,38) vicinity(252,47) of(252,50) the(252,54) point(252,60) β2(253,1) =(253,1) 4π(253,1) where(253,22) the(253,26) description(253,38) of(253,41) the(253,45) transition(253,56) greatly(253,64) simplifies.(253,76) Namely,(254,7) it(255,2) is(255,5) well(255,10) known[\cite=Coleman](255,16) [\cite=LE](255,21) that(255,38) β2(255,40) =(255,40) 4π(255,40) is(255,58) the(255,62) decoupling(255,73) (or(256,3) Luther-Emery)(256,17) point(256,23) of(256,26) the(256,30) ordinary(256,39) SG(256,42) model(256,48) (λ(256,50) =(256,50) 0),(256,50) at(257,2) which(257,8) the(257,12) latter(257,19) is(257,22) equivalent(257,33) to(257,36) a(257,38) theory(257,45) of(257,48) free(257,53) massive(257,61) fermions.(257,71) The(258,3) scaling(258,11) dimension(258,21) 1/4(258,25) of(258,28) the(258,32) λ-term(258,34) in(258,50) ([\ref=HDSG])(258,52) indicates(258,73) that(259,4) this(259,9) point(259,15) is(259,18) special(259,26) for(259,30) the(259,34) DSG(259,38) model(259,44) as(259,47) well,(259,53) suggesting(259,64) an(260,2) Ising(260,8) model(260,14) interpretation.(260,30) In(260,33) this(260,38) paper(260,44) we(260,47) shall(260,53) be(260,56) working(260,64) in(260,67) the(261,3) vicinity(261,12) of(261,15) the(261,19) decoupling(261,30) point.(261,37) Rescaling(261,47) the(261,51) field(261,57) Φ,(261,59) the(262,3) DSG(262,7) model(262,13) can(262,17) be(262,20) written(262,28) in(262,31) an(262,34) equivalent(262,45) form:(262,51)
+
+[formula](263,6)
+
+where(269,5) [formula](269,7) and(270,3) [formula].(270,5) It(271,2) was(271,6) originally(271,17) noted(271,23) by(271,26) DM(271,29) that(271,34) this(271,39) form(271,44) of(271,47) the(272,3) DSG(272,7) model(272,13) can(272,17) be(272,20) related(272,28) to(272,31) a(272,33) deformed(272,42) 2D(272,45) Ashkin-Teller(272,60) (AT)(272,65) model,(273,6) which(273,12) can(273,16) be(273,19) viewed(273,26) as(273,29) the(273,33) standard(273,42) AT(273,45) model,(273,52) i.e.(273,57) a(274,1) model(274,7) of(274,10) two(274,14) marginally(274,25) coupled(274,33) 2D(274,36) Ising(274,42) models(274,49) with(275,4) order(275,10) parameters(275,21) σ1(275,23) and(275,36) σ2,(275,38) extended(275,57) to(275,60) include(276,7) a(276,9) magnetic(276,18) field(276,24) type(276,29) coupling,(276,39) λσ1σ2.(276,41) DM(277,2) then(277,7) argued(277,14) that,(277,20) in(277,23) the(277,27) strong-coupling(277,43) limit(277,49) (λ(278,1) →(278,1) ∞(278,1) ),(278,1) the(278,35) system(278,42) effectively(278,54) reduces(278,62) to(279,2) a(279,4) single(279,11) Ising(279,17) model(279,23) which(279,29) may(279,33) become(279,40) critical(279,49) if(279,52) the(279,56) temperature(280,11) is(280,14) properly(280,23) tuned(280,29) to(280,32) its(280,36) critical(280,45) value.(280,52) This(281,4) argument(281,13) can(281,17) be(281,20) extended(281,29) to(281,32) finite(281,39) values(281,46) of(281,49) λ,(281,51) provided(282,8) that(282,13) the(282,17) two(282,21) Ising(282,27) copies(282,34) are(282,38) originally(282,49) in(283,2) a(283,4) disordered(283,15) phase,(283,22) and(283,26) thus(283,31) explains(283,40) the(283,44) existence(283,54) of(283,57) a(283,59) critical(283,68) line(283,73) in(284,2) the(284,6) t-λ(284,8) plane(284,26) (t(284,28) =(284,28) (T(284,28) -(284,28) Tc)(284,28) /(284,28) Tc(284,28) >(284,28) 0)(284,28) along(285,5) which(285,11) the(285,15) deformed(285,24) AT(285,27) model(285,33) flows(285,39) from(285,44) the(285,48) ultraviolet(285,60) c(286,1) =(286,1) 1(286,1) fixed(286,13) point(286,19) to(286,22) the(286,26) infrared(286,35) c(286,37) =(286,37) 1(286,37) /(286,37) 2(286,37) Ising(286,51) fixed(286,57) point.(286,64)
+
+We(288,2) shall(288,8) elaborate(288,18) on(288,21) the(288,25) DM(288,28) argument(288,37) by(289,2) explicitly(289,13) constructing(289,26) the(289,30) mappings(289,39) between(289,47) the(289,51) DSG(290,3) model(290,9) and(290,13) various(290,21) spin(290,26) models,(290,34) with(290,39) the(290,43) aim(290,47) to(290,50) fully(291,5) describe(291,14) the(291,18) Ising(291,24) transition(291,35) and,(291,40) in(291,43) particular,(291,55) calculate(292,9) correlation(292,21) functions(292,31) of(293,2) the(293,6) operators(293,16) in(293,19) the(293,23) original(293,32) DSG(293,36) model.(293,43) The(294,3) novel(294,9) points(294,16) of(294,19) our(294,23) analysis(294,32) are(294,36) as(294,39) follows.(294,48) First,(295,6) we(295,9) concentrate(295,21) on(295,24) quantum(295,32) lattice(295,40) spin(295,45) chain(295,51) models(296,6) rather(297,6) than(297,11) on(297,14) their(297,20) classical(297,30) counterparts(297,43) (in(298,3) the(298,7) transfer(298,16) matrix(298,23) sense),(298,31) as(298,34) this(298,39) formulation(298,51) profits(299,7) from(299,12) the(299,16) use(299,20) of(299,23) the(299,27) powerful(299,36) apparatus(299,46) of(300,2) various(300,10) spin(300,15) operator(300,24) transformations(300,40) like(300,45) the(301,3) duality(301,11) transformation.(301,27) Secondly,(302,9) we(302,12) identify(302,21) the(302,25) correct(302,33) degrees(302,41) of(302,44) freedom(302,52) in(302,55) the(303,3) deformed(303,12) quantum(303,20) AT(303,23) model(303,29) that(304,4) become(304,11) critical.(304,21) Since(305,5) the(305,9) original(305,18) Ising(305,24) models(305,31) enter(305,37) symmetrically,(305,52) this(306,4) is(306,7) a(306,9) nontrivial(306,20) step(306,25) which(307,5) is(307,8) accomplished(307,21) via(307,25) a(307,27) 'change(307,35) of(307,38) basis'(307,45) transformation.(308,15) Let(308,19) us(308,22) denote(308,29) the(308,33) critical(308,42) degrees(308,50) of(308,53) freedom(308,61) by(308,64) σ(309,1) and(309,12) the(309,16) remaining(309,26) gaped(309,32) degrees(309,40) of(309,43) freedom(309,51) by(310,2) τ(310,4) (see(310,14) the(310,18) main(310,23) text(310,28) for(310,32) precise(310,40) definitions).(310,54) The(311,3) strategy(311,12) to(311,15) calculate(311,25) the(311,29) correlation(311,41) functions(311,51) is(312,2) then(312,7) to(312,10) express(312,18) the(312,22) DSG-operators(312,36) in(312,39) terms(312,45) of(312,48) the(313,3) lattice(313,11) σ(313,13) and(313,24) τ(313,26) operators.(313,42) At(313,45) the(313,49) Ising(313,55) transition(313,66) σ(314,1) and(314,12) τ(314,14) operators(314,29) asymptotically(314,44) decouple,(314,54) with(315,4) the(315,8) σ-operators(315,10) being(315,33) critical(315,42) and(315,46) (some(315,52) of)(315,56) the(316,3) τ(316,5) operators(316,20) acquiring(316,30) finite(316,37) average(316,45) values.(316,53) This(317,4) allows(317,11) us(317,14) to(317,17) trace(317,23) the(317,27) relation(317,36) between(318,7) the(318,11) original(318,20) DSG-operators(318,34) and(318,38) those(318,44) from(319,4) the(319,8) operator(319,17) content(319,25) of(319,28) the(319,32) underlying(319,43) critical(320,8) Ising(320,14) model,(320,21) which(320,27) ultimately(320,38) accomplishes(320,51) a(320,53) complete(321,8) description(321,20) of(321,23) the(321,27) critical(321,36) properties(321,47) at(321,50) the(321,54) Ising(322,5) transition.(322,17)
+
+Relation(324,17) between(324,25) DSG(324,29) model(324,35) and(324,39) deformed(324,48) quantum(324,56) Ashkin-Teller(324,70) model(324,76)
+
+Quantum(326,19) Ising(326,25) spin(326,30) chain(326,36)
+
+We(328,2) start(328,8) with(328,13) recollecting(328,26) some(328,31) basic(328,37) facts(328,43) about(328,49) the(328,53) quantum(329,7) Ising(329,13) (QI)(329,18) spin(329,23) chain.(329,30) The(329,34) Hamiltonian(329,46) of(329,49) the(329,53) QI(329,56) chain(329,62) describes(330,9) a(330,11) 1D(330,14) Ising(330,20) model(330,26) in(330,29) a(330,31) transverse(330,42) magnetic(330,51) field(331,5) [\cite=Pf]:(331,11)
+
+[formula](332,6)
+
+where(337,5) σαn(337,7) are(337,29) the(337,33) Pauli(337,39) matrices(337,48) associated(337,59) with(337,64) the(337,68) lattice(337,76) sites(337,82) {n}.(338,1) The(338,13) Hamiltonian(338,25) HQI(338,27) defines(338,42) the(338,46) transfer(338,55) matrix(339,6) of(339,9) the(339,13) classical(339,23) 2D(339,26) Ising(339,32) model(339,38) [\cite=LSM].(340,5)
+
+An(342,2) important(342,12) tool(342,17) in(342,20) studying(342,29) 1D(342,32) spin(342,37) lattice(342,45) models(342,52) is(343,2) the(343,6) Kramers-Wannier(343,22) duality(343,30) transformation(343,45) that(343,50) we(344,2) shall(344,8) make(344,13) extensive(344,23) use(344,27) of(344,30) in(344,33) the(344,37) sequel.(344,45) Consider(344,54) a(345,1) dual(345,6) lattice(345,14) consisting(345,25) of(345,28) sites(345,34) {n(346,1) +(346,1) 1(346,1) /(346,1) 2},(346,1) defined(347,7) as(347,10) the(347,14) centres(347,22) of(347,25) the(347,29) links(347,35) <(347,37) n,n(347,37) +(347,37) 1(347,37) >(347,37) of(348,2) the(348,6) original(348,15) lattice,(348,24) and(348,28) assign(348,35) spin(348,40) operators(348,50) μn(349,1) +(349,1) 1(349,1) /(349,1) 2(349,1) to(349,16) the(349,20) dual(349,25) lattice(349,33) sites.(349,40) The(350,3) duality(350,11) transformation(350,26) then(350,31) relates(351,7) the(351,11) dual(351,16) spins(351,22) to(351,25) the(351,29) original(351,38) ones(351,43) as(351,46) follows(352,7)
+
+[formula](353,6)
+
+the(358,3) inverse(358,11) transformation(358,26) being(358,32)
+
+[formula](359,6)
+
+In(364,2) Hamiltonian(364,14) ([\ref=QI]),(364,16) the(364,30) parameters(364,41) J(364,43) and(364,49) Δ(365,1) are(365,12) interchanged(365,25) under(365,31) the(365,35) duality(365,43) transformation,(365,59) so(365,62) that(366,4) J(366,6) =(366,6) Δ(366,6) is(366,18) the(366,22) self-duality(366,35) point(366,41) where(366,47) the(366,51) model(367,5) displays(367,14) an(367,17) Ising(367,23) criticality.(367,36)
+
+The(369,3) operators(369,13) σzn(369,15) and(369,30) μzm(369,32) +(369,32) 1(369,32) /(369,32) 2,(369,32) conventionally(369,62) referred(369,71) to(370,2) as(370,5) order(370,11) and(370,15) disorder(370,24) operators,(370,35) are(371,3) mutually(371,12) nonlocal(371,21) and(371,25) play(372,4) the(372,8) role(372,13) of(373,2) 'string(373,10) operators'(373,21) with(373,26) respect(373,34) to(373,37) each(373,42) other.(373,49) In(373,52) particular,(374,11) they(375,4) commute(375,12) for(375,16) m(375,18) <(375,18) n(375,18) but(375,26) anticommute(375,38) otherwise.(376,10) These(377,5) commutation(377,17) properties(377,28) make(377,33) the(377,37) duality(377,45) construction(378,12) a(379,1) convenient(379,12) starting(379,21) point(379,27) for(379,31) introducing(379,43) lattice(379,51) fermions.(380,9) It(380,12) is(380,15) immediate(380,25) to(380,28) check(380,34) that(380,39) two(380,43) objects(380,51)
+
+[formula](381,6)
+
+satisfy(386,7) the(386,11) anticommutation(387,15) relations(387,25) for(387,29) the(387,33) real(388,4) (Majorana)(388,15) fermions(388,24) on(388,27) the(388,31) lattice,(388,40) with(388,45) the(388,49) normalisation(389,13) η2n(390,1) =(390,1) ζ2n(390,1) =(390,1) 1.(390,1) Relations(390,33) ([\ref=d1])(390,35) and(390,48) ([\ref=d2])(390,50) are(391,3) nothing(391,11) but(391,15) the(391,19) inverse(391,27) of(392,2) the(392,6) Jordan-Wigner(392,21) transformation,(392,37) with(392,42) the(393,3) 'direct'(393,12) transformation(393,27) being(393,33) of(393,36) the(393,40) form(393,45)
+
+[formula](394,6)
+
+In(400,2) terms(400,8) of(400,11) the(400,15) Majorana(400,24) fermions(400,33) the(400,37) QI(400,40) Hamiltonian(400,52) becomes(401,7)
+
+[formula](402,6)
+
+The(406,3) next(406,8) step(406,13) is(406,16) to(406,19) take(406,24) a(406,26) continuum(406,36) limit.(406,43) To(407,2) this(407,7) end(407,11) one(407,15) introduces(407,26) a(407,28) lattice(407,36) spacing(408,7) a0,(408,9) treats(408,21) x(408,23) =(408,23) na0(408,23) as(408,33) a(408,35) continuum(408,45) variable,(409,9) and(409,13) replaces(409,22) ηn(409,24) and(409,35) ζn(409,37) by(409,48) slowly(409,55) varying(409,63) Majorana(409,72) fields,(409,80) η(x)(410,1) and(410,14) ζ(x):(410,16)
+
+[formula](411,2)
+
+Notice(415,6) that(415,11) the(415,15) factor(415,22) [formula](415,24) ensures(415,41) the(415,45) correct(415,53) continuum(416,9) anticommutation(416,25) relations:(416,36) {η(x),η(y)}(417,1) =(417,1) {ζ(x),ζ(y)}(417,1) =(417,1) δ(x(417,1) -(417,1) y).(417,1) The(418,19) Hamiltonian(418,31) density(418,39) of(418,42) ([\ref=QIM])(418,44) then(418,59) is(418,62)
+
+[formula](419,2)
+
+with(422,4) v(422,6) =(422,6) 2Ja0(422,6) and(422,18) m(422,20) =(422,20) 2(Δ(422,20) -(422,20) J).(422,20) Performing(423,10) a(423,12) chiral(423,19) rotation(423,28) of(423,31) the(423,35) Majorana(423,44) spinor(423,51)
+
+[formula](424,6)
+
+or,(428,3) inversely,(428,14)
+
+[formula](429,6)
+
+transforms(433,10) this(433,15) Hamiltonian(433,27) to(433,30) a(433,32) standard(433,41) form:(433,47)
+
+[formula](434,6)
+
+The(439,3) relation(439,12) between(439,20) the(439,24) QI(439,27) model(439,33) and(439,37) the(439,41) massive(439,49) Majorana(439,58) QFT(440,3) is(441,2) therefore(441,12) summarised(441,23) as(441,26) follows(441,34)
+
+[formula](442,6)
+
+Bosonization(447,24) of(447,27) the(447,31) deformed(447,40) quantum(447,48) Ashkin-Teller(447,63) model(447,69)
+
+The(449,3) standard(449,12) quantum(449,20) Ashkin-Teller(449,34) (QAT)(449,40) model(449,46) is(449,49) defined(449,57) as(449,60) a(449,62) model(449,68) of(450,2) two(450,6) identical(450,16) QI(450,19) spin(450,24) chains,(450,32) described(450,42) by(450,45) Hamiltonians(450,58) HQI[σ1](451,1) and(451,22) HQI[σ2](451,24) [see(451,-2147483648) Eq.([\ref=QI])],(451,51) which(452,5) are(452,9) coupled(452,17) via(452,21) a(452,23) self-dual(452,33) inter-chain(452,45) interaction:(452,58)
+
+[formula](453,6)
+
+We(460,2) will(460,7) be(460,10) interested(460,21) in(460,24) a(460,26) deformed(460,35) version(460,43) of(460,46) this(460,51) model(460,57) which,(461,6) apart(461,12) from(461,17) H'AT,(461,19) includes(461,37) a(461,39) 'magnetic(462,9) field'(462,16) type(462,21) of(462,24) coupling(462,33) between(462,41) the(462,45) chains:(462,53)
+
+[formula](463,6)
+
+We(468,2) wish(468,7) to(468,10) establish(468,20) a(468,22) relationship(468,35) between(468,43) the(468,47) deformed(469,8) quantum(469,16) Ashkin-Teller(469,31) (DQAT)(469,38) model(469,44) ([\ref=DQAT])(469,46) and(470,3) the(470,7) DSG(470,11) model.(470,18) These(470,24) two(470,28) models(470,35) can(470,39) be(470,42) mapped(470,49) onto(470,54) each(470,59) other(470,65) using(471,5) the(471,9) Zuber-Itsykson(471,24) trick[\cite=ZI].(471,30) The(472,3) idea(472,8) is(472,11) to(472,14) associate(472,24) the(472,28) two(472,32) QI(472,35) chains(472,42) with(472,47) two(472,51) copies(472,58) of(473,2) Majorana(473,11) fermions,(473,21)
+
+[formula](474,6)
+
+combine(480,7) ξ1(480,9) and(480,19) ξ2(480,21) into(481,4) a(481,6) single(481,13) Dirac(481,19) field(481,25) and(481,29) then(481,34) bosonize(481,43) the(481,47) latter(481,54) using(481,60) the(481,64) standard(481,73) rules(482,5) of(482,8) Abelian(482,16) bosonization.(482,30)
+
+First(484,5) we(484,8) notice(484,15) that,(484,21) in(484,24) the(484,28) case(484,33) of(484,36) two(484,40) QI(484,43) spin(485,4) chains,(485,12) the(485,16) Jordan-Wigner(485,31) transformation(485,46) ([\ref=d1])-([\ref=JW])(485,48) should(486,6) be(486,9) slightly(486,18) modified.(486,28) This(486,33) follows(486,41) from(486,46) the(487,3) requirement(487,15) that(487,20) the(487,24) spin(487,29) operators(487,39) belonging(487,49) to(487,52) different(487,62) chains(487,69) should(488,6) commute.(488,15) While(488,21) this(488,26) is(488,29) automatically(488,43) true(488,48) for(488,52) the(488,56) disorder(488,65) operators(488,75) μαa,n(489,1) +(489,1) 1(489,1) /(489,1) 2(489,1) ~(489,1) (α(489,1) =(489,1) x,y,z;(489,1) ~(489,1) a(489,1) =(489,1) 1,2)(489,1) because(489,55) of(489,58) their(489,64) bosonic(490,7) character,(490,18) to(490,21) ensure(490,28) commutation(490,40) between(490,48) the(491,3) order(491,9) parameters(491,20) σz1n(492,1) and(492,22) σz2n(492,24) one(493,3) has(493,7) to(493,10) introduce(493,20) two(493,24) anticommuting(493,38) (Klein)(493,46) factors(493,54)
+
+[formula](494,6)
+
+and(498,3) replace(498,11) ([\ref=d1]),(498,13) ([\ref=d2])(498,25) by(498,37)
+
+[formula](499,6)
+
+With(506,4) the(506,8) spin(506,13) variables(506,23) σ1,2(506,25) and(506,42) μ1,2(506,44) subject(506,62) to(506,65) the(506,69) duality(506,77) relations(507,9) ([\ref=dual]),(508,1) ([\ref=dualinv]),(508,15) definitions(509,11) ([\ref=Majbis])(509,13) ensure(509,33) the(509,37) correct(509,45) statistics(509,56) for(509,60) the(510,3) Majorana(510,12) fermions(510,21) ηa,n(510,23) and(510,38) ζa,n.(510,40)
+
+In(512,2) terms(512,8) of(512,11) the(512,15) lattice(512,23) Majorana(512,32) fermions,(512,42) the(512,46) standard(512,55) QAT(512,59) Hamiltonian(513,11) becomes(513,19)
+
+[formula](514,6)
+
+and(521,3) admits(521,10) a(521,12) straightforward(521,28) passage(521,36) to(521,39) the(522,3) continuum(522,13) limit.(522,20) The(522,24) corresponding(522,38) Hamiltonian(522,50) density(522,58) reduces(523,7) to(523,10) a(523,12) theory(523,19) of(523,22) two(523,26) interacting(523,38) massive(523,46) Majorana(523,55) fermions(523,64)
+
+[formula](524,6)
+
+which(529,5) is(529,8) obviously(529,18) equivalent(529,29) to(529,32) the(529,36) massive(529,44) Thirring(529,53) model(529,59) for(529,63) a(529,65) single(529,72) Dirac(530,5) fermion.(530,14) Using(530,20) the(530,24) standard(530,33) rules(530,39) of(530,42) Abelian(530,50) bosonization(530,63) which(531,5) are(531,9) briefly(531,17) summarised(531,28) in(531,31) Appendix(531,40) A.1,(531,45) one(532,3) maps(532,8) the(532,12) QAT(532,16) model(532,22) onto(532,27) a(532,29) β2(532,31) =(532,31) 4π(532,31) quantum(532,54) SG(532,57) model(532,63) with(533,4) a(533,6) marginal(533,15) perturbation(533,28) [\cite=Coleman]:(533,34)
+
+[formula](534,6)
+
+Notice(541,6) that,(541,12) the(541,16) bosonization(541,29) of(541,32) the(541,36) QAT(541,40) model(541,46) can(541,50) be(541,53) also(541,58) achieved(541,67) by(541,70) first(542,5) mapping(542,13) the(542,17) model(542,23) onto(542,28) a(542,30) single(542,37) chain(542,43) of(542,46) spinless(542,55) fermions,(542,65) and(543,3) then(543,8) bosonizing(543,19) the(543,23) latter.(543,31) This(543,36) alternative(543,48) route(543,54) is(543,57) traced(543,64) in(544,2) Appendix(544,11) [\ref=Lattice-fermions].(544,16)
+
+Turning(546,7) to(546,10) the(546,14) DQAT(546,19) model,(546,26) we(546,29) observe(546,37) that(546,42) the(546,46) h-term(546,48) in(546,58) ([\ref=DQAT])(546,60) is(547,2) nonlocal(547,11) in(547,14) terms(547,20) of(547,23) lattice(547,31) Majorana(547,40) operators.(547,51) However,(547,60) it(548,2) is(548,5) known(548,11) that,(548,17) for(548,21) two(548,25) identical(548,35) Ising(548,41) models(548,48) close(548,54) to(548,57) criticality,(548,70) products(549,8) of(549,11) two(550,3) Ising(550,9) operators(550,19) belonging(550,29) to(550,32) different(550,42) chains,(550,50) σ1σ2,(551,1) ~(551,1) μ1μ2,(551,1) ~(551,1) σ1μ2,(551,1) ~(551,1) μ1σ2,(551,1) all(552,3) with(552,8) scaling(552,16) dimension(553,9) 1/4,(553,14) can(553,18) be(553,21) expressed(553,31) locally(553,44) in(553,48) terms(553,54) of(553,57) bosonic(553,65) vertex(554,6) operators(554,16) with(554,21) the(554,25) same(554,30) scaling(554,38) dimension(554,48) (see,(554,54) for(554,58) instance,(554,68) [\cite=GNT](554,74) and(555,3) references(555,14) therein).(555,24) In(556,2) Appendix(556,11) A.2,(556,16) we(556,19) rederive(556,28) this(556,33) correspondence(556,48) starting(557,8) from(557,13) the(557,17) lattice(557,25) theory(557,32) of(557,35) two(557,39) quantum(557,47) Ising(557,53) chains(557,60) and(558,3) paying(558,10) special(558,18) attention(558,28) to(558,31) the(558,35) Klein(558,41) factors:(558,50)
+
+[formula](559,6)
+
+Here(572,4) Θ(572,6) =(572,6) -(572,6) φR(572,6) +(572,6) φL(572,6) is(572,36) a(572,38) scalar(572,45) field(572,51) dual(572,56) to(572,59) Φ.(572,61)
+
+Thus,(574,5) Eq.(574,9) ([\ref=ss1])(574,11) establishes(574,33) the(574,37) continuum(574,47) bosonized(574,57) version(574,65) of(575,2) the(575,6) "magnetic(575,17) field"(575,25) coupling(575,34) term(575,39) in(575,42) ([\ref=DQAT]):(575,44)
+
+[formula](576,6)
+
+Notice(581,6) that(581,11) algebra(581,19) ([\ref=Klein-algebra])(581,21) of(581,44) the(581,48) Klein(581,54) factors(581,62) allows(581,69) one(581,73) to(582,2) identify(582,11) them(582,16) with(582,21) Pauli(582,27) matrices,(582,37)
+
+[formula](583,2)
+
+Therefore,(587,10) in(587,13) the(587,17) continuum(587,27) limit,(587,34) the(587,38) DQAT(587,43) model(587,49) can(587,53) be(587,56) represented(587,68) in(587,71) a(587,73) diagonal(588,8) 2×(588,10) 2(588,10) matrix(588,26) form:(588,32)
+
+[formula](589,6)
+
+with(601,4) the(601,8) two(601,12) Hamiltonians(601,25)
+
+[formula](602,6)
+
+having(609,6) the(609,10) structure(609,20) of(609,23) the(609,27) DSG(609,31) model(609,37) ([\ref=HDSGbis])(609,39) and(610,3) differing(610,13) only(610,18) in(610,21) the(610,25) sign(610,30) of(610,33) the(610,37) coupling(610,46) constant(610,55) h.(610,57) The(611,3) identification(611,18) of(611,21) the(611,25) parameters(611,36) is(611,39) as(611,42) follows:(611,51) γ(612,1) =(612,1) 8Ka0,(612,1) g(612,19) =(612,19) m(612,19) /(612,19) a0,(612,19) and(612,32) λ(612,34) =(612,34) h(612,34) /(612,34) a0(612,34) (it(613,10) is(613,13) understood(613,24) that(613,29) when(613,34) a0(613,36) →(613,36) 0,(613,36) K(613,48) →(613,48) ∞(613,48) ,(613,48) m,h(614,1) →(614,1) 0(614,1) so(614,14) as(614,17) to(614,20) keep(614,25) the(614,29) DSG(614,33) parameters(614,44) finite).(614,53)
+
+The(616,3) 2×(616,5) 2(616,5) matrix(616,21) form(616,26) of(616,29) [formula](616,31) reflects(616,54) the(616,58) symmetry(617,8) of(617,11) the(617,15) DQAT(617,20) model(617,26) with(618,4) respect(618,12) to(618,15) the(618,19) interchange(618,31) of(619,2) the(619,6) two(619,10) constituent(619,22) quantum(619,30) chains,(619,38) (P12),(619,40) under(620,5) which(620,11) the(620,15) DSG(620,19) Hamiltonians(620,32) H±(620,34) transform(620,60) to(620,63) each(620,68) other.(620,75) Formally,(621,9) this(621,14) symmetry(621,23) appears(621,31) as(621,34) "unphysical"(621,49) because(621,57) the(621,61) Hamiltonian(621,73) [formula](622,1) commutes(622,24) with(622,29) τ3.(622,31) This(623,4) allows(623,11) one(623,15) to(623,18) set(623,22)
+
+[formula](624,6)
+
+and(627,3) study(628,5) the(628,9) Ising(628,15) transition(628,26) by(628,29) projecting(629,10) the(629,14) matrix(629,21) DQAT(629,26) model(629,32) onto(629,37) the(629,41) subspace(629,50) of(630,2) a(630,4) single(630,11) DSG(630,15) Hamiltonian(630,27) H+(630,29) (the(631,4) choice(631,11) [formula],(631,13) H(631,46) →(631,46) H-(631,46) would(632,5) be(632,8) as(632,11) good(632,16) as(632,19) the(632,23) above(632,29) one).(632,35) However,(632,44) while(632,50) κ1κ2(633,1) is(633,21) a(633,23) conserved(633,33) quantity,(633,43) each(633,48) κi(633,50) is(633,62) not,(633,67) implying(634,8) that(634,13) correlations(634,26) functions(634,36) of(634,39) operators(634,49) which(634,55) contain(634,63) the(635,3) Klein(635,9) factors(635,17) may(635,21) involve(635,29) transitions(635,41) between(635,49) the(635,53) two(635,57) different(635,67) sectors(636,7) τ3(636,9) =(636,9) ±(636,9) 1.(636,9)
+
+We(638,2) shall(638,8) see(638,12) below(638,18) that(638,23) some(638,28) physical(638,37) models(638,44) are(638,48) automatically(638,62) mapped(638,69) onto(638,74) a(639,1) single(639,8) DSG(639,12) model(639,18) with(639,23) a(639,25) fixed(639,31) sign(639,36) of(639,39) h(639,41) (section(639,52) 5),(639,56) while(640,5) some(640,10) others(640,17) reduce(640,24) to(640,27) the(640,31) matrix(640,38) form(640,43) ([\ref=matrixDGS])(641,1) (section(641,26) 6).(641,30) In(642,2) the(642,6) latter(642,13) case,(642,19) the(643,3) effective(643,13) P12(643,15) symmetry(643,39) corresponds(643,51) to(643,54) a(644,1) physical(644,15) discrete(644,25) Z2(644,27) symmetry(644,40) of(644,43) the(645,3) model(645,9) in(645,12) question,(645,22) which(645,28) is(645,31) spontaneously(645,45) broken(645,52) in(645,55) the(645,59) ground(645,66) state,(645,73) a(646,1) typical(646,9) example(646,17) of(646,20) this(646,25) kind(646,30) being(646,36) a(646,38) spontaneously(646,52) dimerized(646,62) phase.(646,69) In(647,2) such(647,7) situations,(647,19) the(647,23) Hamiltonians(647,36) H±,(648,1) when(648,15) considered(648,26) separately,(648,38) describe(648,47) only(648,52) excitations(649,11) above(649,17) each(649,22) of(649,25) the(649,29) two(649,33) degenerate(649,44) vacua.(649,51) On(649,54) the(649,58) other(649,64) hand,(649,70) the(650,3) two-fold(650,12) degeneracy(650,23) of(650,26) the(650,30) ground(650,37) state(650,43) necessarily(650,55) implies(650,63) the(651,3) existence(651,13) of(651,16) topological(651,28) kinks(651,34) which(652,5) interpolate(652,17) between(652,25) neighbouring(652,38) degenerate(652,49) minima(652,56) of(652,59) two(653,3) different(653,18) potentials(653,30) U±,(653,32) corresponding(653,63) to(653,66) H±.(654,1) However,(654,27) in(655,2) the(655,6) entire(655,13) parameter(655,23) space(655,29) of(655,32) the(655,36) model(655,42) ([\ref=matrixDGS]),(655,44) including(656,9) the(656,13) Ising(656,19) transition(656,30) point,(656,37) the(656,41) sets(656,46) of(656,49) minima(656,56) of(656,59) the(656,63) potentials(656,74) U±(657,1) always(657,24) have(657,29) a(657,31) finite(657,38) relative(657,47) shift.(657,54) This(657,59) means(657,65) that(657,70) the(658,3) topological(658,15) Z2(658,17) kinks(658,27) always(658,34) remain(658,41) massive(658,49) and(658,53) thus(659,4) appear(659,11) as(659,14) irrelevant(659,25) excitations(659,37) as(659,40) long(659,45) as(659,48) Ising(659,54) criticality(659,66) is(660,2) concerned.(660,13)
+
+Thus,(662,5) when(662,10) working(662,18) with(662,23) a(662,25) single(662,32) Hamiltonian(662,44) H+,(662,46) all(663,3) operators(663,13) representing(664,12) strongly(664,21) fluctuating(664,33) fields(664,40) at(664,43) the(664,47) Ising(664,53) critical(664,62) point(664,68) are(665,3) automatically(665,17) taken(665,23) into(665,28) account.(665,37) All(665,41) "off-diagonal"(665,58) operators(665,68) proportional(666,12) to(667,2) κ1(667,4) or(667,16) κ2,(667,18) such(667,33) as(667,36) those(667,42) given(667,48) by(667,51) ([\ref=smu1])(667,53) and(667,68) ([\ref=mus1]),(668,1) can(669,3) be(669,6) dropped(669,14) as(669,17) they(669,22) represent(669,32) short-ranged(669,45) fields(669,52) at(670,2) the(670,6) critical(670,15) point.(670,22)
+
+Deformed(672,17) quantum(672,25) Ashkin-Teller(672,39) model(672,46) in(672,49) the(672,53) (σ,τ)(672,55) representation(672,84) and(672,88) the(672,92) Ising(672,98) transition(672,109)
+
+The(675,3) original(675,12) two-chain(675,22) representation(675,37) of(675,40) the(675,44) Hamiltonian(675,56) ([\ref=DQAT])(675,58) is(676,2) not(676,6) the(676,10) most(676,15) appropriate(676,27) one(676,31) to(676,34) describe(676,43) the(676,47) role(676,52) of(676,55) the(676,59) coupling(677,8) term(677,13) ([\ref=hterm]),(677,15) but(677,32) some(677,37) general(677,45) statements(678,10) can(678,14) already(678,22) be(678,25) drawn(678,31) at(678,34) this(678,39) stage.(678,46) First(678,52) of(678,55) all(678,59) it(678,62) is(678,65) clear(679,5) that,(679,11) if(679,14) the(679,18) chains(679,25) are(679,29) originally(679,40) in(679,43) the(679,47) ordered(679,55) phase,(679,62) the(680,3) role(680,8) of(680,11) the(680,15) h-term(680,17) would(680,30) be(680,33) exhausted(680,43) by(680,46) removing(680,55) the(680,59) degeneracy(681,10) between(681,18) the(681,22) four(681,27) ground(681,34) states(681,41) specified(681,51) by(681,54) the(682,3) signs(682,9) of(682,12) the(682,16) order(682,22) parameters(682,33) σ1(682,35) =(682,35) 〈σz1n〉(682,35) and(683,3) σ2(683,5) =(683,5) 〈σz2n〉.(683,5) The(683,50) lowest-energy(683,64) sector,(683,72) determined(684,10) by(684,13) the(684,17) condition(684,27) hσ1σ2(684,29) >(684,29) 0,(684,29) will(684,55) stay(684,60) massive(684,68) anyway.(684,76) (For(685,4) two(685,8) ordered(685,16) Ising(685,22) copies,(685,30) the(685,34) h-term(685,36) gives(685,49) rise(685,54) to(685,57) an(685,60) effective(685,70) longitudinal(686,12) magnetic(686,21) field(686,27) applied(686,35) to(686,38) both(686,43) Ising(686,49) systems(686,57) and(686,61) thus(687,4) keeping(687,12) them(687,17) massive.)(687,27) Therefore,(688,10) new(688,14) effects(688,22) can(688,26) be(688,29) only(688,34) expected(688,43) if(688,46) the(689,3) two(689,7) chains(689,14) are(689,18) originally(689,29) disordered.(689,41)
+
+We(691,2) can(691,6) give(691,11) an(691,14) heuristic(691,24) argument(691,33) in(691,36) favour(691,43) of(691,46) an(691,49) Ising(691,55) critical(691,64) point(691,70) that(691,75) appears(692,7) at(692,10) a(692,12) finite(692,19) h,(692,21) if(692,27) at(692,30) h(692,32) =(692,32) 0(692,32) the(692,40) chains(692,47) are(692,51) disordered.(692,63) For(693,3) the(693,7) sake(693,12) of(693,15) clarity,(693,24) let(693,28) us(693,31) make(693,36) a(693,38) duality(693,46) transformation(693,61) and(693,65) replace(694,7) the(694,11) original(694,20) model(694,26) by(694,29) a(694,31) pair(694,36) of(694,39) two(694,43) ordered(694,51) Ising(694,57) copies(694,64) well(694,69) below(695,5) Tc,(695,7) coupled(695,20) by(695,23) the(695,27) interaction(695,39) hμ1μ2.(695,41) Consider(696,8) a(696,10) single(696,17) quantum(696,25) Ising(696,31) model(696,37) ([\ref=QI])(696,39) at(696,51) J(696,53) ≫(696,53) Δ.(696,53) In(697,2) the(697,6) leading(697,14) approximation,(697,29) its(697,33) ground(697,40) state(697,46) is(697,49) fully(697,55) polarised.(697,66) The(698,3) disorder(698,12) operator(698,21) μzn(698,23) +(698,23) 1(698,23) /(698,23) 2(698,23) creates(698,46) a(698,48) domain(698,55) wall(698,60) by(698,63) flipping(698,72) all(699,3) the(699,7) spins(699,13) within(699,20) the(699,24) interval(699,33) 1(699,35) ≤(699,35) j(699,35) ≤(699,35) n.(699,35) At(700,2) short(700,8) distances,(700,19) the(700,23) domain(700,30) walls(700,36) behave(701,6) like(701,11) hard-core(701,21) bosons(701,28) which,(701,35) in(701,38) the(701,42) dilute(701,49) limit,(701,56) are(701,60) equivalent(701,71) to(701,74) spinless(702,8) fermions(702,17) with(702,22) the(702,26) dispersion(702,37)
+
+[formula](703,2)
+
+The(706,3) coupling(706,12) term(706,17) hμ1μ2(706,19) creates(706,41) or(706,44) destroys(706,53) a(706,55) pair(706,60) of(706,63) domains(706,71) walls,(707,6) one(707,10) for(707,14) each(707,19) chain.(707,26) Therefore,(707,37) in(707,40) the(707,44) dilute(707,51) limit,(707,58) the(707,62) effective(707,72) Hamiltonian(708,11) for(708,15) the(708,19) fermions(708,28) describing(708,39) domain(708,46) walls(708,52) is(708,55) of(708,58) the(708,62) form:(708,68)
+
+[formula](709,6)
+
+where(716,5) [formula].(716,7) The(717,3) combinations(717,16) of(717,19) the(717,23) creation(717,32) and(717,36) annihilation(717,49) operators(717,59) that(717,64) appear(718,6) in(718,9) the(718,13) coupling(718,22) term(718,27) reflect(718,35) the(718,39) fact(718,44) that(718,49) [formula].(719,1) It(720,2) is(720,5) clear(720,11) that(720,16) the(720,20) model(720,26) ([\ref=dilute-ham])(720,28) is(720,48) a(720,50) theory(720,57) of(720,60) four(720,65) Majorana(720,74) fermions,(721,9) two(721,13) of(721,16) which(721,22) are(721,26) not(721,30) affected(721,39) by(721,42) the(721,46) coupling(721,55) term.(721,61) The(722,3) remaining(722,13) part(722,18) of(722,21) Hamiltonian(722,33) can(722,37) be(722,40) straightforwardly(722,58) diagonalized(722,71) and(723,3) reduced(723,11) to(723,14) two(723,18) Majorana(723,27) fields(723,34) with(723,39) the(723,43) masses(723,50)
+
+[formula](724,2)
+
+The(727,3) Ising(727,9) criticality(727,21) is(727,24) reached(727,32) when(727,37) one(727,41) of(727,44) the(727,48) masses(727,55) vanishes,(727,65) which(727,71) occurs(728,6) when(728,11) h(728,13) ~(728,13) J2(728,13) /(728,13) Δ.(728,13) In(728,36) the(728,40) dual(728,45) representation,(728,61) the(728,65) above(728,71) estimation(729,10) of(729,13) the(729,17) critical(729,26) field(729,32) should(729,39) be(729,42) replaced(729,51) by(729,54) h(730,1) ~(730,1) Δ2(730,1) /(730,1) J.(730,1) Strictly(731,8) speaking,(731,18) the(731,22) domain(731,29) walls(731,35) do(731,38) not(731,42) posses(731,49) a(731,51) fermionic(731,61) statistics(732,10) but(732,14) contain(732,22) a(732,24) Jordan-Wigner(732,38) type(732,43) phase,(732,50) which(732,56) can(733,3) only(733,8) be(733,11) neglected(733,21) in(733,24) the(733,28) extreme(733,36) dilute(733,43) limit.(733,50)
+
+Although(735,8) the(735,12) above(735,18) argument(735,27) provides(735,36) a(735,38) qualitative(736,11) explanation(736,23) of(736,26) the(736,30) transition,(736,42) a(737,1) satisfying(737,12) description(737,24) of(737,27) the(737,31) critical(737,40) region(737,47) can(737,51) only(737,56) be(737,59) reached(737,67) if(738,2) we(738,5) are(738,9) able(738,14) to(738,17) properly(738,26) identify(738,35) the(738,39) degrees(738,47) of(738,50) freedom(738,58) which(739,5) get(739,9) critical(739,18) and(739,22) those(739,28) which(739,34) do(739,37) not(739,41) (and,(740,5) of(740,8) course,(740,16) take(740,21) into(740,26) account(740,34) the(740,38) correct(740,46) stastistics(740,58) of(741,2) the(741,6) domain(741,13) walls).(741,21) For(742,3) this(742,8) purpose,(742,17) let(742,21) us(742,24) introduce(742,34) a(742,36) new(742,40) Ising(742,46) variable(742,55)
+
+[formula](743,6)
+
+Namely,(747,7) let(747,11) us(747,14) switch(747,21) from(747,26) the(747,30) original(747,39) two-chain(747,49) representation,(747,65) with(748,4) basic(748,10) spin(748,15) operators(748,25) σz1n(748,27) and(748,46) σz2n,(748,48) to(749,2) a(749,4) new(749,8) one(749,12) where(749,18) the(749,22) basic(749,28) variables(749,38) are(750,3) τzn(750,5) and(750,20) σzn(750,22) =(750,22) σz1n(750,22) (due(750,58) to(750,61) the(750,65) P12(750,67) symmetry(751,8) of(751,11) the(751,15) model,(751,22) the(751,26) choice(751,33) τzn(751,35) and(751,50) σzn(751,52) =(751,52) σz2n(751,52) would(752,5) be(752,8) equivalent).(752,21) In(752,24) the(752,28) original(752,37) (σ1-σ2)(752,39) representation,(752,77) the(753,3) local(753,9) (i.e.(753,15) at(753,18) a(753,20) fixed(753,26) lattice(753,34) site(753,39) n)(753,41) Hilbert(753,52) space(753,58) of(753,61) the(753,65) two-chain(753,75) model(754,5) is(754,8) spanned(754,16) by(754,19) the(754,23) basis(754,29) vectors(754,37) |σ1,σ2〉(754,39) which(754,73) are(754,77) eigenstates(754,89) of(755,2) σz1(756,1) and(756,19) σz2:(756,21)
+
+[formula](757,2)
+
+The(761,3) new(761,7) local(761,13) basis(761,19) |σ,τ〉(761,21) is(761,46) defined(761,54) as(761,57)
+
+[formula](762,2)
+
+where(766,5) σ(766,7) =(766,7) σ1,(766,7) ~(766,7) τ(766,7) =(766,7) σ1σ2.(766,7) Comparing(766,60) matrix(766,67) elements(766,76) of(766,79) the(766,83) operators(767,9) σα1n(767,11) and(767,36) σα2n(767,38) in(767,62) the(767,66) two(767,70) bases,(767,77) we(768,2) find(768,7) the(768,11) following(768,21) correspondence:(768,37)
+
+[formula](769,6)
+
+We(775,2) also(775,7) need(775,12) to(775,15) define(775,22) the(775,26) variables(775,36) μn(775,38) and(775,48) νn(776,1) dual(776,12) to(776,15) σn(776,17) and(776,30) τn,(776,32) respectively.(776,54) The(776,58) pairs(776,64) (σn,μn)(777,1) and(777,23) (τn,νn)(777,25) should(777,48) obey(777,53) the(777,57) duality(777,65) relations(777,75) ([\ref=dual])(778,1) and(778,16) ([\ref=dualinv]).(778,18) Using(778,39) these(778,45) relations(778,55) together(778,64) with(778,69) ([\ref=s1s2-st]),(779,1) one(779,20) finds(779,26) out(779,30) how(779,34) the(779,38) dual(779,43) spins(779,49) transform(779,59) under(779,65) the(780,3) change(780,10) of(780,13) basis:(780,20)
+
+[formula](781,6)
+
+In(789,2) the(789,6) σ-τ(789,8) representation(789,37) the(789,41) DQAT(789,46) model(789,52) ([\ref=DQAT])(789,54) transforms(789,76) to(789,79) another(790,7) two-chain(790,17) model(790,23) which(790,29) we(790,32) call(790,37) the(790,41) σ-τ(790,43) model:(790,64)
+
+[formula](791,6)
+
+Here(794,4) Hσ(794,6) is(794,20) a(794,22) QI(794,25) Hamiltonian(794,37) similar(794,45) to(794,48) ([\ref=QI])(794,50) but(794,63) with(794,68) different(794,78) parameters:(795,11)
+
+[formula](796,6)
+
+Hτ(800,1) is(800,13) also(800,18) of(800,21) the(800,25) QI(800,28) type(800,33) model(800,39) but(800,43) the(800,47) magnetic(800,56) field(800,62) is(800,65) nonzero(800,73) both(801,4) in(801,7) the(801,11) transverse(801,22) and(801,26) longitudinal(801,39) directions:(801,51)
+
+[formula](802,6)
+
+Finally,(807,8) the(807,12) coupling(807,21) term(807,26) is(807,29) of(807,32) the(807,36) Ashkin-Teller(807,50) type:(807,56)
+
+[formula](808,6)
+
+A(814,1) mean-field(814,12) approach(814,21) to(814,24) ([\ref=H-new-rep])(814,26) is(814,45) outlined(814,54) in(815,2) Appendix(815,11) [\ref=meanfield],(815,16) here(815,33) we(815,36) shall(815,42) concentrate(815,54) on(816,2) the(816,6) large-h(816,13) limit.(816,23) For(817,3) large(817,9) h,(817,11) the(817,18) τ-degrees(817,20) of(817,36) freedom(817,44) freeze(817,51) in(817,54) a(817,56) configuration(818,13) where(818,19) 〈τzn〉≃1,(818,21) and(818,59) 〈τxn〉≃Δ(819,1) /(819,1) h.(819,1) The(819,46) σ-degrees(820,1) of(820,19) freedom(820,27) are(820,31) then(820,36) described(820,46) by(820,49) an(820,52) effective(820,62) Ising(821,5) model(821,11)
+
+[formula](822,6)
+
+which(827,5) can(828,3) indeed(828,10) become(828,17) critical(828,26) when(828,31) [formula].(828,33) Although(828,65) this(829,4) simple(829,11) picture(829,19) holds(829,25) only(829,30) when(829,35) h(829,37) ≫(829,37) Δ(829,37) ≫(829,37) J,K,(829,37) if(830,2) a(830,4) universal(830,14) behaviour(830,24) is(830,27) to(830,30) be(830,33) expected,(830,43) then(830,48) we(830,51) are(830,55) lead(830,60) to(830,63) conclude(830,72) that,(831,5) both(831,10) at(831,13) strong(831,20) and(831,24) weak(831,29) h,(831,31) the(831,38) Ising(831,44) transition(831,55) essentially(831,67) corresponds(832,11) the(832,15) situation(832,25) when(832,30) the(832,34) σ(832,36) degrees(832,51) of(832,54) freedom(832,62) go(832,65) massless,(832,75) while(833,5) the(833,9) τ(833,11) degrees(833,24) of(833,27) freedom(833,35) remain(833,42) frozen(833,49) in(833,52) a(833,54) disordered(833,65) configuration(834,13) with(834,18) both(834,23) 〈τz〉(834,25) and(834,52) 〈τx〉(834,54) nonzero.(835,8) Notice(836,6) that,(836,12) with(836,17) the(836,21) above(836,27) strong-coupling(836,43) description,(836,56) we(837,2) are(837,6) unable(837,13) to(837,16) determine(837,26) the(838,3) critical(838,12) line(838,17) and(838,21) even(838,26) estimate(838,35) the(838,39) strength(839,8) of(839,11) the(839,15) irrelevant(839,31) operators(839,42) close(839,48) to(839,51) this(839,56) line.(839,62) This(840,4) means(840,10) that,(840,16) even(840,21) though(840,28) the(840,32) universal(840,42) properties(840,53) of(840,56) the(840,60) DSG(840,64) model(840,70) at(841,2) the(841,6) Ising(841,12) transition,(841,24) including(841,34) the(841,38) singular(841,47) parts(842,5) of(842,8) physical(842,17) quantities(842,28) and(842,32) critical(842,41) exponents(842,51) of(842,54) the(842,58) correlation(842,70) functions,(843,10) will(843,15) be(843,18) captured(843,27) correctly,(843,38) the(843,42) nonuniversal(843,55) parts,(843,62) such(843,67) as(843,70) prefactors(844,10) and(844,14) subleading(844,25) corrections(844,37) to(844,40) main(844,45) asymptotics,(844,58) are(845,3) not(845,7) to(845,10) be(845,13) trusted.(845,22)
+
+Let(847,3) us(847,6) conclude(847,15) this(847,20) section(847,28) by(847,31) noticing(847,40) two(847,44) important(848,9) facts(848,15) which(848,21) will(848,26) prove(848,32) useful(848,39) in(849,2) the(849,6) next(849,11) Section(849,19) devoted(849,27) to(849,30) the(849,34) correlation(849,46) functions.(849,57)
+
+Quantum(852,7) critical(852,16) points(852,23) are(852,27) associated(852,38) with(852,43) gapless(852,51) phases(852,58) which(852,64) are(852,68) realized(853,8) under(853,14) certain(853,22) conditions(853,33) imposed(853,41) on(853,44) the(853,48) parameters(853,59) of(853,62) the(854,3) model.(854,10) As(854,13) soon(854,18) as(854,21) any(854,25) of(854,28) those(854,34) parameters(854,45) is(855,2) shifted(855,10) away(855,15) from(855,20) the(855,24) criticality(855,36) constraint,(855,48) the(856,3) system(856,10) becomes(856,18) off-critical.(856,32) The(856,36) corresponding(856,50) perturbations(856,64) to(857,2) the(857,6) critical(857,15) Hamiltonian(857,27) are(857,31) therefore(857,41) relevant(858,13) operators(858,24) with(858,29) conformal(858,39) dimensions(858,50) determined(859,10) by(859,13) the(859,17) universality(859,30) class(859,36) of(859,39) the(859,43) critical(859,52) model.(859,59) Notice(860,6) that(860,11) there(860,17) is(860,20) no(860,23) magnetic(860,32) field(860,38) coupled(860,46) to(860,49) σz(860,51) in(860,63) the(860,67) exact(860,73) lattice(861,7) Hamiltonian(861,19) ([\ref=H-new-rep]).(861,21) Therefore(861,48) a(861,50) departure(861,60) from(861,65) criticality(862,11) by(862,14) changing(862,23) any(862,27) one(862,31) of(862,34) the(862,38) couplings(862,48) (h,(862,50) J,(862,56) ΔJ,(863,1) or(864,2) K)(864,4) will(864,12) give(864,17) rise(864,22) to(864,25) an(864,28) Ising(864,34) mass(864,39) term.(864,45)
+
+From(867,4) Eq.([\ref=Hseffect]),(867,9) if(867,28) we(867,31) reasonably(867,42) take(867,47) |K|(867,49) <(867,49) 2J,(867,49) we(867,60) arrive(867,67) at(867,70) the(868,3) conclusion(868,14) that,(868,20) for(868,24) h(868,26) >(868,26) hc,(868,26) the(868,37) σ(868,39) degrees(868,54) of(868,57) freedom(868,65) are(869,3) ordered,(869,12) while(869,18) they(869,23) are(869,27) disordered(869,38) otherwise.(869,49)
+
+Correlation(872,20) functions(872,30)
+
+In(875,2) this(875,7) Section(875,15) we(875,18) use(875,22) the(875,26) results(875,34) of(875,37) the(875,41) above(875,47) quantum-spin-chain(876,18) type(876,23) mappings(876,32) to(876,35) determine(876,45) the(876,49) physical(877,8) properties(877,19) of(877,22) the(877,26) DSG(877,30) model(877,36) close(877,42) to(877,45) the(878,3) criticality.(878,16)
+
+DSG(880,15) operators(880,25) in(880,28) the(880,33) (σ,τ)(880,35) representation:(880,65) UV-IR(880,71) transmutation(880,85)
+
+In(882,2) preceding(882,12) sections(882,21) we(882,24) have(882,29) shown(882,35) that(882,40) (i)(882,44) the(882,48) DQAT(882,53) model(883,5) can(883,9) be(883,12) mapped(883,19) onto(883,24) the(883,28) DSG(883,32) model(883,38) which(883,44) is(883,47) a(883,49) Gaussian(883,58) free(884,4) theory(884,11) of(884,14) the(884,18) field(884,24) Φ(x)(884,26) in(884,37) the(884,41) ultraviolet(884,53) (UV)(885,4) limit,(885,11) and(885,15) that(885,20) (ii)(885,25) the(885,29) DQAT(885,34) can(885,38) also(885,43) be(885,46) mapped(886,6) onto(886,11) the(886,15) (σ,τ)(886,17) model(886,37) which,(886,44) at(886,47) the(886,51) Ising(886,57) transition,(887,11) essentially(888,11) reduces(888,19) to(888,22) a(888,24) single(888,31) critical(888,40) Ising(888,46) model(888,52) of(889,2) the(889,6) order(889,12) field(889,18) σ(x)(889,20) and(889,34) disorder(889,43) field(889,49) μ(x)(890,1) in(891,2) the(891,6) infrared(891,15) (IR)(891,20) limit.(891,27) Our(891,31) aim(891,35) here(891,40) is(891,43) to(891,46) find(891,51) out(891,55) how(892,3) the(892,7) operators(892,17) of(892,20) the(892,24) DSG(892,28) model,(892,35) originally(892,46) defined(892,54) in(892,57) the(892,61) vicinity(893,8) of(893,11) the(893,15) UV(893,18) fixed(893,24) point,(893,31) "transmute"(893,45) when(893,50) going(893,56) from(893,61) the(893,65) UV(894,2) limit(894,8) to(894,11) the(894,15) IR(894,18) limit.(894,25)
+
+Current(896,22) operators(896,32)
+
+We(898,2) start(898,8) with(898,13) holomorphic,(898,26) or(898,29) current,(898,38) operators(898,48) that(898,53) are(898,57) made(898,62) up(898,65) of(898,68) additive(898,77) (analytic(899,9) and(899,13) anti-analytic)(899,28) chiral(899,35) parts.(899,42) Of(899,45) physical(899,54) interest(899,63) are(899,67) the(900,3) vector(900,10) and(900,14) axial(900,20) current(900,28) densities(900,38) which,(900,45) in(900,48) terms(900,54) of(900,57) the(900,61) bosonic(900,69) field(900,75) of(901,2) the(901,6) DSG(901,10) model,(901,17) are(901,21) defined(901,29) as(901,32)
+
+[formula](902,6)
+
+In(908,2) physical(908,11) situations,(908,23) J(x)(908,25) determines(908,41) the(908,45) smooth(908,52) part(908,57) of(908,60) the(908,64) charge(908,71) or(908,74) spin(909,4) density(909,12) [[formula]],(909,-2147483648) while(909,44) J5(x)(909,46) describes(909,64) the(909,68) corresponding(910,13) charge(910,20) or(910,23) spin(910,28) current(910,36) [[formula]].(910,-2147483648) As(911,2) follows(911,10) from(911,15) ([\ref=cur-R]),(911,17) ([\ref=cur-L]),(911,32) these(911,51) can(911,55) be(911,58) expressed(911,68) in(911,71) terms(912,5) of(912,8) the(912,12) Majorana(912,21) fields(912,28) ξ1(912,30) and(912,40) ξ2:(912,42)
+
+[formula](913,6)
+
+Making(917,6) the(917,10) inverse(917,18) chiral(917,25) rotation(917,34) from(917,39) (ξaR,ξaL)(917,41) to(917,65) (ηa,ζa),(918,1) ~(918,21) (a(918,21) =(918,21) 1,2),(918,21) we(919,2) can(919,6) define(919,13) a(919,15) local(919,21) lattice(919,29) operator(919,38)
+
+[formula](920,6)
+
+which(924,5) reproduces(924,16) ([\ref=2cur])(924,18) in(924,32) the(924,36) continuum(924,46) limit.(924,53) Using(925,5) the(925,9) inverse(925,17) Jordan-Wigner(925,31) relations(925,41) ([\ref=Majbis])(925,43) and(925,60) transformations(925,76) ([\ref=s1s2-st]),([\ref=mu1mu2-munu]),(926,1) we(926,39) obtain:(926,47)
+
+[formula](927,6)
+
+(here(935,5) we(935,8) have(935,13) implemented(935,25) our(935,29) Klein(935,35) factor(935,42) convention(935,53) ([\ref=proj-H+])).(935,55) Using(936,5) the(936,9) fact(936,14) that(936,19) the(936,23) τ-field(936,25) is(936,39) noncritical(936,51) and(936,55) has(936,59) a(936,61) nonzero(936,69) expectation(937,11) value,(937,18) we(937,21) pass(937,26) to(937,29) the(937,33) continuum(937,43) limit(937,49) and(937,53) thus(937,58) find(937,63) the(937,67) expression(937,78) for(938,3) the(938,7) current(938,15) density(938,23) at(938,26) the(938,30) infrared(938,39) fixed(938,45) point:(938,52)
+
+[formula](939,6)
+
+where(943,5) C(943,7) ~(943,7) 〈τz〉(943,7) is(943,39) a(943,41) nonuniversal(943,54) number,(943,62) and(944,3) μ(x)(944,5) is(944,16) the(944,20) Ising(944,26) disorder(944,35) field(944,41) at(945,2) the(945,6) criticality.(945,19) Thus,(945,25) the(945,29) UV-IR(945,35) transmutation(945,49) of(945,52) the(945,56) current(945,64) density(945,72) is(946,2) given(946,8) by(946,11)
+
+[formula](947,6)
+
+Turning(959,7) to(959,10) the(959,14) axial(959,20) current(959,28) J5,(959,30) we(959,38) notice(959,45) that(959,50) the(960,3) latter(960,10) is(960,13) related(960,21) to(960,24) the(961,3) vector(961,10) current(961,18) J(961,20) via(961,26) the(961,30) continuity(961,41) equation:(961,51)
+
+[formula](962,6)
+
+As(965,2) a(965,4) result,(965,12) the(965,16) IR(965,19) form(965,24) of(965,27) J5(x)(965,29) can(965,40) be(965,43) immediately(965,55) recovered.(965,66) Indeed,(965,74) the(966,3) Ising(966,9) disorder(966,18) field(966,24) μ(966,26) is(966,33) a(966,35) scalar(966,42) field(966,48) (with(966,54) zero(966,59) conformal(966,69) spin).(966,76) This(967,4) means(967,10) that(967,15) holomorphic(967,27) properties(967,38) of(967,41) the(967,45) vector(967,52) and(967,56) axial(967,62) current(967,70) operators(967,80) are(968,3) lost(968,8) at(968,11) the(968,15) IR(968,18) fixed(968,24) point.(968,31) Then(968,36) the(968,40) result(968,47) ([\ref=cur-IR]),(969,1) together(969,24) with(969,29) the(969,33) requirements(970,12) of(970,15) Lorentz(970,23) invariance(970,34) and(970,38) continuity(970,49) equation(970,58) ([\ref=cont.eq]),(970,60) leads(971,5) to(971,8) the(971,12) correspondence(971,27)
+
+[formula](972,6)
+
+with(983,4) the(983,8) same(983,13) prefactor(983,23) C(983,25) as(983,30) in(983,33) Eq.([\ref=csum]),(983,38) provided(983,59) that(983,64) the(984,3) velocity(984,12) is(984,15) set(984,19) v(984,21) =(984,21) 1.(984,21)
+
+As(986,2) an(986,5) important(986,15) consistency(986,27) check,(986,34) we(986,37) still(986,43) need(986,48) to(986,51) explicitly(986,62) determine(987,9) the(987,13) lattice(987,21) version(987,29) of(987,32) the(987,36) current(987,44) operator.(987,54) One(988,3) might(988,9) naïvely(988,12) conclude(988,30) that,(988,36) since(988,42) under(988,48) the(988,52) inverse(988,60) chiral(988,67) rotation(988,76) ([\ref=chiral-rot2])(989,1) the(989,23) axial(989,29) current(989,37) density(989,45) transforms(989,56) to(989,59)
+
+[formula](990,6)
+
+it(994,2) would(994,8) be(994,11) sufficient(994,22) to(994,25) replace(994,33) the(994,37) r.h.s.(994,44) of(994,47) ([\ref=J-5-eta-zeta])(994,49) by(995,2) its(995,6) local(995,12) (single-site)(995,26) counterpart(995,38) which(995,44) one(995,48) might(995,54) identify(995,63) with(995,68) J5n.(996,1) This(996,14) route(996,20) is(996,23) misleading(996,34) because,(996,43) in(996,46) the(996,50) lattice(996,58) formulation,(996,71) the(997,3) particle(997,12) current(997,20) is(998,2) always(998,9) defined(998,17) on(998,20) a(998,22) link(998,32) (n,n(998,35) +(998,35) 1)(998,35) and,(998,48) therefore,(998,59) should(999,6) be(999,9) determined(999,20) from(999,25) the(999,29) equation(999,38) of(999,41) motion(999,48)
+
+[formula](1000,6)
+
+which,(1004,6) in(1004,9) the(1004,13) continuum(1004,23) limit,(1004,30) is(1004,33) supposed(1004,42) to(1004,45) reduce(1004,52) to(1004,55) Eq.([\ref=cont.eq]).(1004,60) It(1005,2) can(1005,6) easily(1005,13) be(1005,16) checked(1005,24) that(1005,29) the(1005,33) (density)(1005,43) operator,(1005,53) Jn,(1005,55) commutes(1006,8) with(1006,13) all(1006,17) the(1006,21) interaction(1006,33) terms(1006,39) in(1006,42) the(1006,46) lattice(1006,54) DQAT(1007,4) Hamiltonian(1007,16) ([\ref=DQAT]),(1007,18) since(1007,36) all(1007,40) of(1007,43) them,(1007,49) including(1007,59) the(1007,63) h-term,(1007,65) are(1008,3) made(1008,8) up(1008,11) of(1008,14) the(1008,18) density(1008,26) operators.(1008,37) Therefore(1008,47) the(1008,51) above(1008,57) commutator(1009,10) is(1009,13) only(1009,18) contributed(1009,30) to(1009,33) by(1009,36) the(1009,40) Majorana(1009,49) kinetic(1009,57) energy(1009,64) term(1009,69) in(1009,72) ([\ref=DQAT])(1010,1) and(1010,16) so(1010,19) is(1010,22) easily(1010,29) computed:(1010,39)
+
+[formula](1011,6)
+
+where(1014,5)
+
+[formula](1015,6)
+
+In(1019,2) terms(1019,8) of(1019,11) the(1019,15) lattice(1019,23) spins(1019,29) this(1019,34) reads(1019,40)
+
+[formula](1020,6)
+
+In(1024,2) the(1024,6) IR(1024,9) continuum(1024,19) limit(1024,25) this(1024,30) becomes(1024,38) ~(1024,40) ∂tμ(1024,40) since(1025,5) ∂tμ(1025,7) ~(1025,7) i[μz,HQI](1025,7) ~(1025,7) μy,(1025,7) as(1026,2) immediately(1026,14) follows(1026,22) from(1027,4) the(1027,8) dual(1027,13) version(1027,21) of(1027,24) the(1027,28) QI(1027,31) spin(1027,36) chain(1027,42) Hamiltonian.(1027,55) Thus(1028,4) we(1028,7) arrive(1028,14) at(1028,17) the(1028,21) IR(1028,24) representation(1028,39) of(1028,42) the(1028,46) axial(1028,52) current(1028,60) given(1028,66) by(1028,69) ([\ref=c5sum]).(1029,1)
+
+Vertex(1031,21) operators(1031,31)
+
+The(1033,3) analysis(1033,12) of(1033,15) the(1033,19) vertex(1033,26) operators(1033,36)
+
+[formula](1034,2)
+
+is(1037,2) in(1037,5) fact(1037,10) simpler(1037,18) than(1037,23) that(1037,28) of(1037,31) the(1037,35) holomorphic(1037,47) operators.(1038,10) There(1038,16) are(1038,20) two(1038,24) cases(1038,30) of(1038,33) physical(1038,42) interest:(1038,52) [formula](1039,1) and(1040,3) [formula].(1040,5)
+
+From(1042,4) ([\ref=ss1]),(1042,6) ([\ref=proj-H+])(1042,19) and(1042,37) ([\ref=relation])(1042,39) it(1042,57) follows(1042,65) that(1043,4)
+
+[formula](1044,6)
+
+(I(1048,1) being(1048,10) the(1048,14) identity(1048,23) operator),(1048,34) as(1048,37) the(1048,41) τ(1048,43) model(1048,54) is(1049,2) always(1049,9) off-critical.(1049,23) This(1050,4) is(1050,7) a(1050,9) reasonable(1050,20) result(1050,27) since(1051,5) the(1051,9) above(1051,15) operator(1051,24) is(1051,27) directly(1051,36) present(1051,44) in(1051,47) the(1051,51) DSG(1052,3) Hamiltonian(1052,15) ([\ref=HDSGbis]).(1052,17) However,(1053,8) as(1053,11) we(1053,14) mentioned(1053,24) in(1053,27) the(1053,31) previous(1053,40) Section,(1053,49) the(1054,3) operator(1054,12) [formula](1054,14) corresponds(1054,45) to(1054,48) the(1055,3) departure(1055,13) from(1055,18) the(1055,22) criticality(1055,34) of(1055,37) the(1055,41) σ-model.(1056,1) So,(1057,3) this(1057,8) operator,(1057,18) though(1057,25) having(1057,32) a(1057,34) finite(1057,41) average(1057,49) value,(1058,6) should(1058,13) also(1058,18) possess(1058,26) an(1058,29) extra(1058,35) term(1058,40) which,(1059,6) at(1059,9) the(1059,13) critical(1059,22) point,(1059,29) represents(1059,40) a(1059,42) strongly(1059,51) fluctuating(1060,11) field(1060,17) (with(1060,23) a(1060,25) power-law(1060,35) decaying(1060,44) correlation(1060,56) function).(1060,67) A(1061,1) more(1061,6) correct(1061,14) version(1061,22) of(1061,25) the(1061,29) formula(1061,37) ([\ref=sin])(1061,39) is(1062,2) therefore(1062,12) as(1062,15) follows:(1062,24)
+
+[formula](1063,6)
+
+where(1067,5) ε(1067,7) is(1067,22) the(1067,26) energy(1067,33) density(1067,41) (or(1068,3) a(1068,5) Majorana(1068,14) mass(1068,19) bilinear)(1068,29) operator.(1068,39) This(1069,4) follows(1069,12) from(1069,17) the(1069,21) first(1069,27) observation(1069,39) (i)(1069,48) at(1070,2) the(1070,6) end(1070,10) of(1070,13) Section(1070,21) [\ref=DAT],(1070,26) which(1070,38) states(1070,45) that(1070,50) moving(1070,57) h(1070,59) from(1071,4) its(1071,8) critical(1071,17) value(1071,23) results(1072,7) in(1072,10) the(1072,14) stress-energy(1072,28) tensor(1073,6) renormalisation(1073,22) and,(1073,27) more(1073,32) importantly,(1074,12) in(1074,15) the(1074,19) appearance(1074,30) of(1074,33) the(1074,37) Majorana(1075,8) mass,(1075,14) i.e.(1075,19) the(1075,23) Ising(1075,29) energy-density(1075,44) operator.(1075,54)
+
+Furthermore,(1077,12) ([\ref=mumu1])(1077,14) and(1077,30) the(1077,34) lattice(1078,7) fusion(1078,14) rule(1078,19) ([\ref=mu1mu2-munu])(1078,21) give(1078,44)
+
+[formula](1079,6)
+
+Thus,(1083,5) the(1083,9) operator(1083,18) [formula](1083,20) is(1083,42) the(1083,46) most(1083,51) divergent(1083,61) operator(1083,70) of(1084,2) the(1084,6) DSG(1084,10) model,(1084,17) with(1084,22) a(1084,24) nonzero(1084,32) expectation(1084,44) value(1084,50) at(1084,53) h(1084,55) <(1084,55) hc(1084,55) and(1084,67) vanishing(1085,9) upon(1085,14) approaching(1085,26) the(1085,30) Ising(1085,36) critical(1085,45) point(1085,51) as(1085,54)
+
+[formula](1086,6)
+
+Finally,(1091,8) the(1091,12) behaviour(1091,22) of(1091,25) [formula](1091,27) operators(1092,9) is(1093,2) determined(1093,13) in(1093,16) full(1093,21) analogy(1093,29) to(1093,32) the(1093,36) above(1093,42) discussion:(1093,54)
+
+[formula](1094,6)
+
+Our(1099,3) results(1099,11) on(1099,14) UV-IR(1099,20) DSG(1099,24) operators(1099,34) transmutations(1099,49) are(1099,53) summarised(1100,10) in(1100,13) table(1100,19) I.(1100,22)
+
+Correlation(1116,23) functions(1116,33)
+
+Having(1118,6) identified(1118,17) the(1118,21) operators(1118,31) at(1118,34) the(1118,38) IR(1118,41) fixed(1118,47) point,(1118,54) we(1119,2) can(1119,6) now(1119,10) determine(1119,20) leading(1119,28) asymptotics(1119,40) of(1119,43) the(1119,47) correlation(1119,59) functions.(1119,70) Most(1120,4) of(1120,7) the(1120,11) operators(1120,21) of(1120,24) physical(1120,33) interest(1120,42) can(1121,3) be(1121,6) expressed(1121,16) in(1121,19) terms(1121,25) of(1121,28) the(1121,32) Ising(1121,38) disorder(1121,47) operator(1122,8) μ(1122,10) at(1122,17) the(1122,21) Ising(1122,27) transition(1122,38) point(1122,44) and(1123,3) in(1123,6) its(1123,10) close(1123,16) vicinity.(1123,26)
+
+For(1125,3) physical(1125,12) applications(1125,25) of(1125,28) the(1125,32) DSG(1125,36) model,(1125,43) it(1125,46) is(1125,49) important(1126,9) to(1126,12) investigate(1126,24) the(1126,28) dynamical(1126,38) susceptibility(1126,53) defined(1127,7) as(1127,10) the(1127,14) frequency-momentum(1127,33) Fourier(1127,41) transform(1127,51) of(1128,2) the(1128,6) retarded(1128,15) auto-correlation(1128,32) function(1128,41) of(1128,44) the(1128,48) Ising(1128,54) disorder(1129,8) parameter:(1129,19) function(1130,8)
+
+[formula](1131,6)
+
+It(1137,2) is(1137,5) known(1137,11) that,(1137,17) at(1138,2) criticality,(1138,15) D(r)(1138,17) =(1138,17) 1(1138,17) /(1138,17) r1(1138,17) /(1138,17) 4(1138,17) where(1138,39) [formula](1139,1) ([formula],(1139,20) and(1140,3) v(1140,5) is(1140,10) set(1140,14) to(1140,17) 1).(1140,19) Furthermore,(1140,36) away(1141,4) from(1141,9) criticality,(1141,22) in(1141,25) the(1141,29) ordered(1142,12) phase,(1142,20) D(r)(1142,22) =(1142,22) (A1(1142,22) /(1142,22) π)K0(mr)(1142,22) where(1143,5) A1(1143,7) is(1143,14) related(1143,22) to(1143,25) the(1143,29) Glaisher(1143,38) constant.(1144,9) The(1144,13) crossover(1144,23) between(1144,31) these(1144,37) two(1144,41) regimes,(1144,50) r(1145,1) ≪(1145,1) ξ(1145,1) =(1145,1) 1(1145,1) /(1145,1) m(1145,1) and(1145,18) r(1145,20) >(1145,20) ξ,(1145,20) respectively,(1145,42) is(1146,2) complicated(1146,14) and(1146,18) is(1146,21) described(1146,31) in(1146,34) terms(1146,40) of(1147,2) the(1147,6) Painlevé(1147,14) theory(1147,26) [\cite=MC].(1147,32) If,(1148,3) following(1148,13) [\cite=MC],(1148,19) we(1148,27) introduce,(1148,38)
+
+[formula](1149,2)
+
+then(1152,4) the(1152,8) function(1152,17) ζ(1152,19) can(1152,29) be(1152,32) shown(1152,38) to(1152,41) satisfy(1152,49)
+
+[formula](1153,2)
+
+which(1157,5) is(1157,8) related(1157,16) to(1157,19) Painlevé(1157,27) V(1157,34) equation(1157,43) and(1157,47) can,(1157,52) in(1158,2) turn,(1158,8) be(1159,2) shown(1159,8) to(1159,11) produce(1159,19) the(1159,23) correct(1159,31) conformal(1159,41) and(1159,45) massive(1159,53) limits.(1160,7) As(1161,2) the(1161,6) exact(1161,12) expressions(1161,24) are(1161,28) uncomfortable(1161,42) for(1162,3) calculations,(1162,17) we(1162,20) shall(1162,26) estimate(1162,35) the(1162,39) Fourier(1163,7) transforms(1163,18) from(1163,23) the(1163,27) asymptotes(1163,38) of(1163,41) the(1163,45) correlation(1164,11) function(1164,20) D(r).(1164,22) Therefore,(1165,10) first(1165,16) we(1165,19) summarise(1165,29) known(1165,35) results(1166,7) on(1166,10) the(1166,14) limiting(1166,23) behaviour(1166,33) of(1166,36) this(1166,41) function.(1166,51)
+
+At(1168,2) criticality(1168,14)
+
+[formula](1169,6)
+
+It(1173,2) is(1173,5) understood(1173,16) that(1173,21) this(1173,26) asymptotics(1173,38) is(1173,41) still(1173,47) valid(1173,53) away(1174,4) from(1174,9) criticality(1174,21) in(1174,24) the(1174,28) region(1174,35) r(1174,37) ≪(1174,37) ξ.(1174,37)
+
+In(1176,2) the(1176,6) ordered(1176,14) phase(1176,20)
+
+[formula](1177,6)
+
+the(1181,3) large-r(1181,10) limit(1181,19) of(1181,22) which(1181,28) is(1181,31)
+
+[formula](1182,6)
+
+In(1188,2) the(1188,6) disordered(1188,17) phase,(1188,24) thanks(1188,31) to(1188,34) the(1189,3) work(1189,8) by(1189,11) McCoy,(1189,18) Wu,(1189,22) Tracy,(1189,29) and(1189,33) collaborators(1189,47) [\cite=MC],(1189,53) we(1190,2) know(1190,7) that(1190,12)
+
+[formula](1191,6)
+
+which(1198,5) is(1198,8) understood(1198,19) to(1198,22) be(1198,25) the(1198,29) connected(1198,39) part(1198,44) of(1198,47) the(1198,51) correlator(1199,10) (i.e.(1200,5) without(1200,13) the(1200,17) constant(1200,26) piece).(1200,34) The(1200,38) large-r(1200,45) asymptotics(1201,11) of(1202,2) this(1202,7) function(1202,16) can(1202,20) be(1202,23) obtained(1202,32) from(1202,37) the(1202,41) relevant(1202,50) expansions(1202,61) of(1203,2) the(1203,6) modified(1203,15) Bessel(1203,22) functions(1203,32) quoted(1203,39) e.g.(1203,44) in(1203,47) [\cite=GNT]:(1203,53)
+
+[formula](1204,6)
+
+The(1210,3) retarded(1210,12) function(1210,21) ([\ref=ret])(1210,23) can(1210,37) be(1210,40) found(1211,5) by(1211,8) calculating(1211,20) the(1211,24) Fourier(1211,32) transforms(1211,43) of(1211,46) the(1212,3) above(1212,9) asymptotic(1212,20) forms(1212,26) with(1212,31) a(1212,33) subsequent(1212,44) analytic(1213,8) continuation(1213,21) to(1213,24) real(1213,29) frequencies.(1213,42) This(1214,4) procedure(1214,14) is(1214,17) outlined(1214,26) in(1214,29) Appendix(1214,38) [\ref=corrf].(1214,43) The(1215,3) results(1215,11) are(1215,15) as(1215,18) follows.(1215,27)
+
+Criticality.(1218,22) Using(1218,29) ([\ref=fan])(1218,31) and(1219,3) ([\ref=Dnotq]),(1219,5) one(1219,22) obtains(1219,30)
+
+[formula](1220,6)
+
+Ordered(1229,17) Phase.(1229,24) Here(1229,30) we(1230,2) have(1230,7) a(1230,9) particle(1230,18) pole(1230,23) ([\ref=Dorq]):(1230,25)
+
+[formula](1231,6)
+
+Disordered(1238,20) phase.(1238,27) Specialising(1238,41) to(1238,44) α(1238,46) =(1238,46) -(1238,46) 1(1238,46) /(1238,46) 2(1238,46) in(1239,2) ([\ref=fan])(1239,4) we(1239,17) have:(1239,23)
+
+[formula](1240,6)
+
+Therefore,(1248,10) as(1248,13) long(1248,18) as(1248,21) ω2(1248,23) <(1248,23) p2(1248,23) +(1248,23) 4m2,(1248,23) the(1249,3) argument(1249,12) of(1249,15) the(1249,19) log-function(1249,32) in(1249,35) ([\ref=Ddisq])(1249,37) is(1250,2) real(1250,7) and(1250,11) positive,(1250,21) so(1250,24) the(1250,28) correlation(1250,40) function(1250,49) remains(1251,7) real(1251,12) without(1251,20) dissipation.(1251,33) Above(1252,5) the(1252,9) two-particle(1252,22) threshold(1252,32) (ω2(1253,1) >(1253,1) p2(1253,1) +(1253,1) 4m2),(1253,1) the(1254,3) correlation(1254,15) function(1254,24) has(1254,28) a(1254,30) branch(1254,37) cut(1254,41) and(1254,45) the(1254,49) dissipative(1255,11) part(1255,16) will(1255,21) appear(1255,28) as(1255,31) follows:(1255,40)
+
+[formula](1256,6)
+
+The(1267,3) excitations(1267,15) are(1267,19) therefore(1267,29) incoherent(1267,40) in(1267,43) this(1267,48) regime.(1267,56)
+
+Dimerized(1269,18) Heisenberg(1269,29) chain(1269,35) in(1269,38) a(1269,41) staggered(1269,51) magnetic(1269,60) field(1269,66)
+
+The(1271,3) DSG(1271,7) model(1271,13) exhibiting(1271,24) a(1271,26) nontrivial(1271,37) flow(1271,42) towards(1271,50) Ising(1271,56) criticality(1271,68) can(1272,3) be(1272,6) realized(1272,15) as(1272,18) an(1272,21) effective(1272,31) continuum(1272,41) theory(1272,48) for(1272,52) a(1273,1) number(1273,8) of(1273,11) quantum(1273,19) 1D(1273,22) models(1273,29) of(1273,32) strongly(1273,41) correlated(1273,52) electrons,(1274,10) in(1274,13) particular(1274,24) quantum(1274,32) spin(1274,37) chains(1274,44) and(1274,48) ladders.(1274,57) In(1275,2) the(1275,6) context(1275,14) of(1275,17) spin(1275,22) systems,(1275,31) an(1275,34) effective(1275,44) DSG(1275,48) model(1275,54) can(1276,3) emerge(1276,10) within(1276,17) the(1276,21) Abelian(1276,29) bosonization(1276,42) scheme(1276,49) when(1277,4) staggered(1277,14) fields(1277,21) breaking(1278,8) translational(1278,22) invariance,(1278,34) such(1278,39) as(1278,42) an(1278,45) explicit(1278,54) dimerization(1278,67) (bond(1279,5) alternation)[\cite=aff-conf](1279,18) or(1279,36) a(1279,38) staggered(1279,48) magnetic(1279,57) field,(1279,64) are(1280,3) added(1280,9) to(1280,12) an(1280,15) originally(1280,26) translationally(1280,42) invariant(1280,52) model(1280,58) with(1280,63) a(1280,65) gaped(1280,71) ground(1281,6) state.(1281,12)
+
+Perhaps(1283,7) the(1283,11) simplest(1283,20) example(1283,28) of(1283,31) this(1283,36) kind(1283,41) is(1283,44) given(1283,50) by(1283,53) the(1284,3) spin-1/2(1284,12) Heisenberg(1284,23) chain(1284,29) with(1284,34) nearest-neighbour(1284,52) (J1)(1284,54) and(1284,64) next-nearest-neighbour(1285,22) (J2)(1285,24) antiferromagnetic(1285,48) exchange(1285,57) interactions(1285,70)
+
+[formula](1286,6)
+
+This(1292,4) model(1292,10) has(1293,3) been(1293,8) extensively(1293,20) studied(1293,28) during(1293,35) past(1293,40) years.(1293,47) If(1293,50) frustrating(1293,62) interaction(1293,74) J2(1294,1) is(1294,8) small(1294,14) enough,(1294,22) the(1294,26) model(1294,32) maintains(1294,42) the(1294,46) critical(1294,55) properties(1294,66) of(1294,69) the(1294,73) unfrustrated(1295,12) Heisenberg(1295,23) chain(1295,29) (J2(1295,31) =(1295,31) 0).(1295,31) At(1296,2) J2(1296,4) ≥(1296,4) J2c≃0.24J1,(1296,4) frustration(1296,48) gets(1297,4) relevant(1297,13) and(1297,17) drives(1297,24) the(1297,28) model(1297,34) to(1297,37) a(1297,39) massive(1297,47) phase(1297,53) characterised(1297,67) by(1297,70) spontaneously(1298,13) broken(1298,20) parity[\cite=j1j2](1298,27) [\cite=WA].(1298,32) The(1298,46) ground(1298,53) state(1298,59) is(1298,62) dimerized(1298,72) and(1298,76) doubly(1299,6) degenerate,(1300,11) and(1300,15) there(1300,21) exist(1300,27) massive(1300,35) elementary(1300,46) excitations(1300,58) -(1300,60) topological(1300,72) Z2(1301,1) kinks(1301,11) carrying(1301,20) the(1301,24) spin(1301,29) 1/2.(1301,34) At(1301,37) a(1301,39) special(1301,47) (Majumdar-Ghosh)(1301,65) point,(1302,6) J2(1302,8) =(1302,8) 0.5J1,(1302,8) the(1302,27) picture(1302,35) is(1302,38) particularly(1302,51) simple(1302,58) because(1302,66) the(1303,3) two(1303,7) Z2-degenerate(1303,9) ground(1303,31) states(1303,38) are(1303,42) given(1303,48) by(1303,51) matrix(1304,6) products(1304,15) of(1304,18) singlet(1304,26) dimers(1304,33) formed(1304,40) either(1304,47) on(1304,50) the(1304,54) lattice(1304,62) links(1305,5) <(1305,7) 2n,2n(1305,7) +(1305,7) 1(1305,7) >(1305,7) or(1305,20) <(1305,22) 2n(1305,22) -(1305,22) 1,2n(1305,22) >(1305,22) .(1305,22)
+
+Under(1307,5) assumption(1307,16) that(1307,21) J1(1307,23) ≫(1307,23) J2,(1307,23) the(1307,40) continuum(1307,50) limit(1307,56) of(1307,59) the(1307,63) J1(1308,1) -(1308,1) J2(1308,1) model(1308,17) can(1308,21) be(1308,24) considered,(1308,36) and(1308,40) the(1308,44) resulting(1308,54) quantum(1308,62) field(1308,68) theory(1308,75) is(1309,2) that(1309,7) of(1309,10) a(1309,12) critical(1309,21) SU(2)1(1309,23) Wess-Zumino-Novikov-Witten(1309,61) (WZNW)(1310,6) model(1310,12) perturbed(1310,22) a(1310,24) marginal(1310,33) current-current(1311,15) interaction[\cite=WA]:(1311,27)
+
+[formula](1312,6)
+
+where(1318,5) γ(1318,7) ~(1318,7) J2c(1318,7) -(1318,7) J2(1318,7) >(1318,7) 0.(1318,7) At(1318,40) γ(1318,42) <(1318,42) 0,(1318,42) the(1318,58) perturbation(1318,71) is(1318,74) marginally(1319,10) irrelevant.(1319,22) However,(1319,31) at(1319,34) γ(1319,36) >(1319,36) 0(1319,36) the(1319,51) effective(1319,61) interaction(1319,73) flows(1319,79) to(1320,2) strong(1320,9) coupling,(1320,19) and(1320,23) the(1320,27) system(1320,34) ends(1320,39) up(1320,42) in(1320,45) a(1320,47) spontaneously(1320,61) dimerized(1320,71) phase(1320,77) with(1321,4) a(1321,6) dynamically(1321,18) generated(1321,28) spectral(1321,37) gap[\cite=WA]:(1321,41) [formula],(1322,1) where(1323,5) Λ(1323,7) ~(1323,7) J1(1323,7) is(1323,27) the(1323,31) UV(1323,34) cutoff.(1323,42)
+
+Using(1325,5) Abelian(1325,13) bosonization,(1325,27) we(1325,30) can(1325,34) rewrite(1325,42) ([\ref=J1-J2-WZW])(1325,44) as(1326,2) a(1326,4) sine-Gordon(1326,16) (SG)(1326,21) model:(1326,28)
+
+[formula](1327,6)
+
+The(1333,3) "hidden"(1333,14) SU(2)(1333,20) symmetry(1333,29) of(1333,32) this(1333,37) bosonic(1333,45) Hamiltonian(1333,57) is(1334,2) encoded(1334,10) in(1334,13) the(1334,17) robust(1334,24) structure(1334,34) of(1334,37) the(1334,41) last(1334,46) two(1334,50) terms(1334,56) in(1334,59) Eq.([\ref=J1-J2-bos]),(1335,4) parametrised(1336,12) by(1336,15) a(1336,17) single(1336,24) coupling(1336,33) constant(1336,42) γ.(1336,44) This(1336,57) fact(1336,62) enforces(1336,71) the(1337,3) SG(1337,6) model(1337,12) ([\ref=J1-J2-bos])(1337,14) to(1337,33) occur(1337,39) either(1337,46) on(1337,49) the(1337,53) weak-coupling(1337,67) SU(2)(1337,73) separatrix(1338,10) of(1338,13) the(1338,17) Kosterliz-Thouless(1338,36) phase(1338,42) diagram(1338,50) (γ(1338,52) <(1338,52) 0),(1338,52) or(1338,69) on(1339,2) the(1339,6) strong-coupling(1339,22) SU(2)(1339,28) separatrix(1339,39) (γ(1339,41) >(1339,41) 0).(1339,41) In(1340,2) the(1340,6) latter(1340,13) case,(1340,19) quantum(1340,27) solitons(1340,36) with(1340,41) the(1340,45) mass(1340,50) [formula](1340,52) and(1340,68) topological(1341,11) charge(1341,18) Q(1341,20) =(1341,20) 1(1341,20) are(1341,30) identified(1341,41) with(1341,46) the(1341,50) Z2(1341,52) dimerization(1341,69) kinks(1342,5) carrying(1342,14) the(1342,18) spin(1342,23) S(1342,25) =(1342,25) Q(1342,25) /(1342,25) 2(1342,25) =(1342,25) 1(1342,25) /(1342,25) 2.(1342,25) In(1343,2) the(1343,6) remainder(1343,16) of(1343,19) this(1343,24) section(1344,7) we(1344,10) will(1344,15) be(1344,18) dealing(1344,26) with(1344,31) the(1344,35) massive,(1344,44) spontaneously(1344,58) dimerized(1344,68) phase.(1344,75)
+
+Consider(1346,8) the(1346,12) following(1346,22) deformation(1346,34) of(1346,37) the(1346,41) model:(1346,48) H(1347,1) =(1347,1) HJ1(1347,1) -(1347,1) J2(1347,1) +(1347,1) H',(1347,1) where(1350,5)
+
+[formula](1351,6)
+
+Here(1354,4) ĝ(1354,6) is(1354,17) the(1354,21) 2(1354,23) ×(1354,23) 2(1354,23) WZNW(1354,38) matrix(1354,45) field(1354,51) with(1354,56) conformal(1354,66) dimensions(1355,10) (1/4,(1355,16) 1/4),(1355,22) and(1355,26) τa(1355,28) are(1355,39) the(1355,43) Pauli(1355,49) matrices(1355,58) including(1355,68) the(1355,72) unit(1356,4) matrix(1356,11) τ0(1356,13) =(1356,13) I.(1356,13) The(1357,3) scalar(1357,10) and(1357,14) vector(1357,21) parts(1357,27) of(1357,30) ĝ,(1357,32)
+
+[formula](1358,6)
+
+constitute(1365,10) the(1365,14) staggered(1365,24) magnetisation(1365,38) and(1365,42) dimerization(1365,55) field(1365,61) of(1365,64) the(1365,68) S=1/2(1365,74) Heisenberg(1366,10) chain.(1366,17) Representing(1367,12)
+
+[formula](1368,6)
+
+let(1371,3) us(1371,6) consider(1371,15) the(1371,19) two(1371,23) terms(1371,29) in(1371,32) ([\ref=deform1])(1371,34) separately.(1371,60)
+
+The(1373,3) role(1373,8) of(1373,11) weak(1373,16) explicit(1373,25) (spin-Peierls)(1373,40) dimerization(1373,53) in(1373,56) the(1373,60) spontaneously(1373,74) dimerized(1374,9) J1(1374,11) -(1374,11) J2(1374,11) spin-1/2(1374,30) chain(1374,36) has(1374,40) already(1374,48) been(1374,53) addressed(1374,63) by(1374,66) Affleck(1375,7) [\cite=aff-conf].(1375,13) The(1376,3) effective(1376,13) double-frequency-sine-Gordon(1376,42) potential(1376,52) appearing(1376,62) in(1376,65) this(1376,70) case(1377,4) is(1377,7) different(1377,17) from(1377,22) the(1377,26) one(1377,30) studied(1377,38) in(1377,41) this(1377,46) paper(1377,52) (c.f.(1377,58) Eq.([\ref=HDSG])):(1377,63)
+
+[formula](1378,6)
+
+The(1383,3) λ-term(1383,5) in(1383,21) ([\ref=pot-dimer])(1383,23) removes(1383,47) the(1383,51) degeneracy(1383,62) between(1383,70) the(1384,3) neighbouring(1384,16) minima(1384,23) of(1385,2) the(1385,6) unperturbed(1385,18) potential(1385,28) [formula](1385,30) (i.e.(1385,60) between(1385,68) the(1385,72) two(1385,76) degenerate(1386,10) dimerized(1386,20) ground(1386,27) states)(1386,35) and(1386,39) thus(1386,44) leads(1386,50) to(1386,53) confinement(1386,65) of(1386,68) the(1386,72) solitons.(1387,9) The(1387,13) main(1387,18) physical(1387,27) effect(1387,34) is(1387,37) the(1387,41) spinon-magnon(1387,55) transmutation:(1387,70) deconfined(1388,10) spinons(1389,7) of(1389,10) the(1389,14) frustrated(1389,25) Heisenberg(1389,36) chain,(1389,43) carrying(1389,52) the(1389,56) spin(1389,61) S(1389,63) =(1389,65) 1/2,(1389,70) form(1390,4) bound(1390,10) states(1390,17) with(1390,22) S(1390,24) =(1390,26) 0(1390,28) and(1390,32) S(1390,34) =(1390,36) 1,(1390,39) the(1390,43) latter(1390,50) representing(1390,63) coherent(1390,72) triplet(1391,7) magnon(1391,14) excitations.(1391,27)
+
+Let(1393,3) us(1393,6) concentrate(1393,18) on(1393,21) the(1393,25) case(1393,30) of(1393,33) the(1393,37) staggered(1393,47) magnetic(1393,56) field,(1393,63) [formula]:(1393,65)
+
+[formula](1394,6)
+
+Choosing(1397,8) [formula],(1397,10) we(1397,38) arrive(1397,45) at(1397,48) a(1397,50) bosonic(1397,58) model(1397,64)
+
+[formula](1398,6)
+
+in(1405,2) which(1405,8) we(1405,11) recognise(1405,21) the(1405,25) DSG(1405,29) model(1405,35) with(1405,40) the(1405,44) structure(1405,54) ([\ref=HDSG]).(1405,56) From(1406,4) the(1406,8) analysis(1406,17) of(1406,20) the(1406,24) preceding(1406,34) section(1406,42) we(1406,45) conclude(1406,54) that(1406,59) the(1406,63) spontaneously(1407,13) dimerized(1407,23) chain(1407,29) in(1407,32) a(1407,34) staggered(1407,44) magnetic(1407,53) field(1407,59) has(1407,63) two(1407,67) phases(1408,6) separated(1408,16) by(1408,19) a(1408,21) quantum(1408,29) critical(1408,38) point(1408,44) at(1408,47) hs(1408,49) =(1408,49) h*s.(1408,49) At(1409,2) hs(1409,4) <(1409,4) h*s(1409,4) a(1409,19) "mixed"(1409,29) phase(1409,35) is(1409,38) realized,(1409,48) with(1409,53) coexisting(1409,64) dimerization(1410,12) 〈εs〉(1410,14) ≠(1410,14) 0(1410,14) and(1410,52) staggered(1410,62) magnetization(1410,76) [formula].(1411,1) Notice(1411,42) that,(1411,48) as(1411,51) opposed(1411,59) to(1411,62) the(1411,66) case(1411,71) of(1411,74) uniform(1411,82) magnetic(1412,8) field(1412,14) that(1412,19) couples(1412,27) to(1412,30) the(1412,34) (conserved)(1412,46) total(1412,52) magnetisation,(1412,67) the(1413,3) dependence(1413,14) [formula](1413,16) shows(1413,50) no(1414,2) threshold(1414,12) in(1414,15) hs.(1414,17) Dimerization(1414,35) vanishes(1414,44) at(1414,47) the(1414,51) Ising(1414,57) critical(1414,66) point(1415,5) hs(1415,7) =(1415,7) h*s(1415,7) and(1415,24) remains(1415,32) zero(1415,37) in(1415,40) the(1415,44) "pure(1415,51) Neel"(1415,58) phase,(1415,65) hs(1416,1) >(1416,1) h*s.(1416,1) The(1416,19) critical(1416,28) field(1416,34) h*s(1416,36) can(1416,48) be(1416,51) estimated(1416,61) by(1417,2) comparing(1417,12) the(1417,16) dimerization(1417,29) gap(1417,33) [formula](1418,1) with(1419,4) the(1419,8) gap(1419,12) that(1419,17) would(1419,23) open(1419,28) up(1419,31) at(1419,34) γ(1419,36) ≤(1419,36) 0:(1419,36) mh(1420,1) ~(1420,1) h2(1420,1) /(1420,1) 3s.(1420,1) So(1423,2) the(1423,6) critical(1423,15) staggered(1423,25) field(1423,31) is(1423,34) exponentially(1423,48) small:(1423,55) [formula](1424,1)
+
+Since(1428,5) the(1428,9) spin(1428,14) SU(2)(1428,20) symmetry(1428,29) is(1428,32) broken(1428,39) by(1428,42) the(1428,46) (staggered)(1428,58) magnetic(1428,67) field,(1428,74) the(1429,3) total(1429,9) spin(1429,14) is(1429,17) not(1429,21) conserved,(1429,32) but(1429,36) the(1429,40) spin(1429,45) projection(1429,56) Sz(1430,1) is.(1430,9) The(1430,13) latter(1430,20) circumstance(1430,33) allows(1430,40) one(1430,44) to(1430,47) identify(1430,56) the(1430,60) spin(1431,4) Sz(1431,6) of(1431,13) elementary(1431,24) excitations(1431,36) as(1431,39) the(1431,43) topological(1431,55) quantum(1431,63) number(1431,70) of(1432,2) the(1432,6) kinks(1432,12) interpolating(1432,26) between(1432,34) the(1432,38) nearest(1432,46) degenerate(1432,57) minima(1432,64) of(1433,2) the(1433,6) potential(1433,16) U(Φ)(1433,18) in(1433,37) ([\ref=j1j2-DSG]).(1433,39) According(1434,9) to(1434,12) the(1434,16) structure(1434,26) of(1434,29) U(Φ),(1434,31) there(1434,54) will(1434,59) be(1434,62) "short"(1434,72) and(1435,3) "long"(1435,12) kinks,(1435,19) carrying(1435,28) the(1435,32) spin(1435,37) [formula](1436,1) where(1439,5) δ(1439,7) =(1439,7) δ(hs)(1439,7) smoothly(1439,38) increases(1439,48) from(1439,53) δ(1440,1) =(1440,1) 0(1440,1) at(1440,15) hs(1440,17) =(1440,17) 0(1440,17) to(1440,28) δ(1440,30) =(1440,30) 1(1440,30) /(1440,30) 2(1440,30) at(1440,46) hs(1440,48) ≥(1440,48) h*s.(1440,48) Therefore,(1441,10) in(1441,13) the(1441,17) mixed(1441,23) phase,(1441,30) the(1442,3) original(1442,12) massive(1442,20) S(1442,22) =(1442,24) 1/2(1442,28) spinon(1442,35) splits(1442,42) into(1442,47) two(1442,51) topological(1443,11) excitations(1443,23) carrying(1443,32) fractional(1444,10) spins(1444,16) Sz±.(1444,18) These(1444,36) spins(1444,42) become(1444,49) Sz(1444,51) =(1444,51) 1(1444,51) and(1444,63) Sz(1445,1) =(1445,1) 0(1445,1) at(1445,12) the(1445,16) Ising(1445,22) transition,(1445,34) and(1445,38) it(1445,41) is(1445,44) just(1445,49) the(1445,53) singlet(1445,61) kink(1445,66) which(1445,72) loses(1446,5) its(1446,9) topological(1446,21) charge(1446,28) and(1446,32) becomes(1446,40) massless(1446,49) at(1446,52) hs(1446,54) =(1446,54) h*s.(1446,54) The(1447,3) existence(1447,13) of(1447,16) the(1447,20) fractional-spin(1447,36) excitations(1447,48) in(1447,51) the(1447,55) mixed(1447,61) phase(1447,67) (hs(1448,1) <(1448,1) h*s)(1448,1) is(1449,2) nothing(1449,10) but(1449,14) the(1449,18) spin(1449,23) version(1449,31) of(1449,34) the(1449,38) charge(1449,45) fractionization(1449,61) of(1449,64) topological(1450,11) excitations(1450,23) found(1450,29) earlier(1451,7) in(1451,10) 1D(1451,13) commensurate(1451,26) Peierls(1451,34) insulators(1451,45) with(1451,50) broken(1451,57) charge(1451,64) conjugation(1451,76) symmetry(1452,8) (e.g.(1452,14) cis-polyacetylene)[\cite=braz],(1452,33) and(1452,49) also(1452,54) in(1452,57) a(1452,59) recent(1452,66) study(1452,72) of(1452,75) a(1453,1) 1D(1453,4) Mott(1453,9) insulator(1453,19) with(1453,24) alternating(1453,36) single-site(1453,48) energy(1453,55) [\cite=FGN].(1453,61)
+
+To(1455,2) estimate(1455,11) the(1455,15) behaviour(1455,25) of(1455,28) physical(1455,37) quantities(1455,48) at(1455,51) the(1455,55) transition,(1455,67) let(1455,71) us(1456,2) consider(1456,11) an(1456,14) anisotropic(1456,26) ([formula])(1456,28) version(1457,7) of(1457,10) the(1457,14) model(1457,20) in(1457,23) which(1457,29)
+
+[formula](1458,6)
+
+The(1465,3) [formula]-term(1465,5) in(1465,32) ([\ref=j1j2-DSG-anis])(1465,34) can(1465,58) be(1465,61) eliminated(1465,72) by(1466,2) an(1466,5) appropriate(1466,17) rescaling(1466,27) of(1466,30) the(1466,34) field,(1466,41) [formula]:(1466,43)
+
+[formula](1467,6)
+
+As(1473,2) already(1473,10) mentioned,(1473,21) universality(1473,34) arguments(1473,44) lead(1473,49) to(1473,52) the(1473,56) conclusion(1473,67) that(1474,4) the(1474,8) anisotropic(1474,20) model(1474,26) ([\ref=anis-DSG])(1474,28) also(1474,48) incorporates(1475,12) the(1475,16) Ising(1475,22) criticality(1475,34) at(1475,37) some(1475,42) value(1475,48) of(1475,51) hs.(1475,53) Choosing(1476,8) [formula],(1476,10) we(1476,43) reduce(1476,50) the(1476,54) perturbation(1476,67) to(1476,70) the(1477,3) form(1477,8) ([\ref=HDSGbis])(1477,10)
+
+[formula](1478,6)
+
+discussed(1483,9) in(1483,12) detail(1483,19) in(1483,22) previous(1483,31) sections.(1483,41) Using(1483,47) the(1483,51) (σ-τ)(1483,53) representation,(1484,15) we(1485,2) derive(1485,9) the(1485,13) relations(1485,23) in(1485,26) Table(1485,32) [\ref=TABB](1485,37) describing(1486,10) the(1486,14) UV-IR(1486,20) transmutation(1486,34) of(1486,37) the(1486,41) physical(1486,50) fields.(1486,58)
+
+We(1511,2) have(1511,7) the(1511,11) following(1511,21) correspondence:(1511,37)
+
+[formula](1512,6)
+
+We(1516,2) see(1516,6) that(1516,11) dimerization(1516,24) is(1516,27) finite(1516,34) at(1516,37) hs(1516,39) <(1516,39) h*s(1516,39) and(1516,56) vanishes(1516,65) as(1516,68)
+
+[formula](1517,2)
+
+on(1520,2) approaching(1520,14) the(1520,18) critical(1520,27) point.(1520,34) The(1520,38) staggered(1520,48) magnetisation,(1520,63) on(1520,66) the(1520,70) other(1520,76) hand,(1521,5) is(1522,2) always(1522,9) finite(1522,16) in(1522,19) both(1522,24) phases.(1522,32) Its(1522,36) behaviour(1522,46) at(1522,49) the(1522,53) transition(1522,64) is(1522,67) determined(1522,78) by(1523,2) the(1523,6) subleading(1523,17) correction(1523,28) to(1523,31) the(1523,35) identity(1523,44) operator(1523,53) (see(1523,58) Table(1524,5) [\ref=TABB]):(1524,10)
+
+[formula](1525,6)
+
+The(1530,3) logarithmic(1530,15) divergence(1530,26) of(1530,29) the(1530,33) staggered(1530,43) magnetic(1530,52) susceptibility(1530,67) at(1530,70) the(1530,74) transition(1531,10) is(1532,2) similar(1532,10) to(1532,13) that(1532,18) of(1532,21) the(1532,25) specific(1532,34) heat(1532,39) of(1532,42) the(1532,46) Ising(1532,52) model:(1532,59)
+
+[formula](1533,6)
+
+Next(1537,4) we(1537,7) consider(1537,16) the(1537,20) dynamical(1537,30) magnetic(1537,39) susceptibility.(1537,55) In(1538,2) analogy(1538,10) to(1538,13) ([\ref=ret]),(1538,15) it(1538,29) is(1538,32) defined(1538,40) by(1538,43)
+
+[formula](1539,6)
+
+Using(1546,5) the(1546,9) continuum(1546,19) limit(1546,25) decomposition(1546,39) of(1546,42) the(1547,3) spin(1547,8) operators(1547,18) and(1547,22) the(1547,26) above(1547,32) glossary,(1547,42) we(1548,2) conclude(1548,11) that(1548,16) while(1548,22) the(1548,26) uniform(1548,34) magnetic(1548,43) susceptibility(1548,58) is(1549,2) readily(1549,10) given(1549,16) by(1549,19)
+
+[formula](1550,6)
+
+(the(1554,4) function(1554,13) D(R)(1554,15) has(1554,27) been(1554,32) extensively(1554,44) discussed(1555,9) in(1555,12) Section(1555,20) ([\ref=corf])),(1555,22) the(1556,3) staggered(1556,13) susceptibility(1556,28) is(1556,31) in(1556,34) turn(1556,39) related(1556,47) to(1556,50) the(1556,54) correlation(1557,11) function(1557,20) of(1557,23) the(1557,27) Ising(1557,33) energy-density(1557,48) operator.(1557,58) The(1558,3) latter(1558,10) object(1558,17) is(1558,20) a(1558,22) Majorana(1558,31) bilinear(1558,40)
+
+[formula](1559,2)
+
+Therefore,(1562,10) calculating(1562,22) the(1562,26) staggered(1562,36) magnetic(1562,45) susceptibility(1562,60) reduces(1563,7) to(1563,10) a(1563,12) simple(1563,19) task(1563,24) of(1563,27) computing(1563,37) the(1563,41) polarisation(1563,54) loop(1564,4) diagram(1564,12) for(1564,16) free,(1564,22) massive(1564,30) Majorana(1564,39) fermions.(1564,49) The(1565,3) result(1565,10) is(1565,13)
+
+[formula](1566,6)
+
+inside(1574,6) the(1574,10) gap(1574,14) (|ω|(1574,16) <(1574,16) 2m)(1574,16) and(1574,34)
+
+[formula](1575,6)
+
+for(1585,3) |ω|(1585,5) >(1585,5) 2m.(1585,5)
+
+We(1587,2) notice(1587,9) that(1587,14) for(1587,18) h(1587,20) >(1587,20) hs(1587,20) it(1587,29) obviously(1587,39) is(1587,42) the(1587,46) staggered(1588,9) field(1588,15) operator(1588,24) (β2(1588,26) =(1588,26) 2π)(1588,26) which(1588,47) alone(1588,53) dictates(1589,8) the(1589,12) physics(1589,20) of(1589,23) our(1589,27) effective(1589,37) DSG(1589,41) model(1590,5) (not(1590,10) only(1590,15) is(1590,18) it(1590,21) the(1590,25) most(1590,30) relevant(1590,39) operator,(1591,9) but(1591,13) it(1591,16) also(1591,21) has(1591,25) a(1591,27) large(1591,33) amplitude).(1591,45) It(1592,2) is(1592,5) therefore(1592,15) instructive(1592,27) to(1592,30) compare(1592,38) the(1593,3) results(1593,11) for(1593,15) the(1593,19) dynamical(1593,29) magnetic(1593,38) susceptibility(1594,14) of(1594,17) the(1594,21) DSG(1594,25) model(1594,31) we(1594,34) have(1595,4) found(1595,10) via(1595,14) Ising-type(1595,25) mappings(1595,34) with(1595,39) those(1596,5) for(1596,9) the(1596,13) SG(1596,16) model(1596,22) with(1596,27) a(1596,29) β2(1596,31) =(1596,31) 2π(1596,31) operator(1597,8) only,(1597,14) which(1597,20) were(1597,25) obtained(1597,34) in(1597,37) the(1597,41) paper(1598,5) [\cite=ETD](1598,11) by(1598,19) means(1598,25) of(1598,28) the(1598,32) form-factor(1599,11) technique.(1599,22) As(1600,2) for(1600,6) h(1600,8) >(1600,8) hs(1600,8) we(1600,17) enter(1600,23) the(1600,27) ordered(1600,35) phase(1600,41) (〈μ〉=0),(1600,43) the(1601,19) uniform(1601,27) susceptibility(1602,14) ([\ref=chiun],[\ref=Dorfin])(1602,16) is(1603,2) of(1603,5) a(1603,7) coherent(1603,16) nature,(1603,24) very(1603,29) much(1603,34) in(1604,2) agreement(1604,12) with(1604,17) [\cite=ETD](1604,23) ('magnon'(1604,38) contribution).(1605,14) The(1605,18) staggered(1605,28) susceptibility(1605,43) ([\ref=chiin],[\ref=chiout]),(1606,1) on(1606,30) the(1606,34) other(1606,40) hand,(1607,5) is(1607,8) incoherent(1607,19) in(1607,22) excellent(1607,32) agreement(1607,42) with(1608,4) the(1608,8) kink-antikink(1608,22) continuum(1608,32) observed(1608,41) in(1609,2) [\cite=ETD](1609,8) (the(1609,18) breather(1609,27) contribution(1609,40) is(1610,2) missed(1610,9) in(1610,12) our(1610,16) approach;(1610,26) it(1610,29) might(1610,35) be(1610,38) recovered(1611,9) as(1611,12) a(1611,14) bound(1611,20) state(1611,26) of(1611,29) Majorana(1611,38) fermions,(1612,9) but(1612,13) we(1612,16) shall(1612,22) not(1612,26) push(1612,31) our(1612,35) analysis(1612,44) beyond(1613,6) this(1613,11) point).(1613,19) No(1614,2) analogous(1614,12) comparison(1614,23) can(1614,27) be(1614,30) made(1614,35) for(1614,39) h(1614,41) <(1614,41) hs(1614,41) (no(1615,3) form-factor(1615,15) calculations(1615,28) are,(1615,33) to(1615,36) our(1615,40) knowledge,(1616,10) currently(1616,20) available(1616,30) for(1616,34) the(1616,38) β2(1617,1) =(1617,1) 8π(1617,1) SG(1617,17) model,(1617,24) and,(1617,29) even(1617,34) if(1617,37) they(1617,42) were,(1617,48) a(1618,1) comparison(1618,12) would(1618,18) have(1618,23) been(1618,28) of(1618,31) dubious(1618,39) validity,(1618,49) as(1619,2) the(1619,6) addition(1619,15) of(1619,18) the(1619,22) β2(1619,24) =(1619,24) 2π-operator(1619,24) qualitatively(1620,13) changes(1620,21) the(1620,25) spectrum(1620,34) from(1620,39) the(1620,43) start).(1621,7)
+
+Ising(1623,14) transition(1623,25) in(1623,28) the(1623,32) 1D(1623,35) Hubbard(1623,43) model(1623,49) with(1623,54) alternating(1623,66) chemical(1623,75) potential(1623,85)
+
+The(1625,3) DSG(1625,7) model(1625,13) finds(1625,19) a(1625,21) number(1625,28) of(1625,31) interesting(1625,43) applications(1625,56) in(1625,59) the(1625,63) theory(1625,70) of(1625,73) 1D(1626,2) strongly(1626,11) correlated(1626,22) electron(1626,31) systems.(1626,40) In(1627,2) this(1627,7) section(1627,15) we(1627,18) shall(1627,24) consider(1627,33) a(1627,35) particular(1627,46) example(1627,54) of(1627,57) this(1627,62) kind(1627,67) which(1628,5) has(1628,9) been(1628,14) recently(1628,23) discussed(1628,33) in(1628,36) Ref.[\cite=FGN](1628,41) -(1628,54) a(1628,56) 1D(1628,59) repulsive(1628,69) Hubbard(1628,77) model(1629,5) at(1630,2) 1/2-filling(1630,14) with(1630,19) a(1630,21) sign-alternating(1630,38) single-site(1630,50) energy(1630,57) (i.e.(1630,63) staggered(1630,73) chemical(1631,8) potential).(1632,11) The(1632,15) Hamiltonian(1632,27) of(1632,30) this(1632,35) model(1632,41) reads:(1632,48)
+
+[formula](1633,6)
+
+where(1639,5) ciσ(1639,7) is(1639,22) the(1639,26) annihilation(1639,39) operator(1639,48) of(1639,51) an(1639,54) electron(1639,63) with(1639,68) the(1639,72) spin(1639,77) projection(1640,10) σ,(1641,1) residing(1641,18) at(1641,21) the(1641,25) lattice(1641,33) site(1641,38) i,(1641,40) and(1642,3) [formula].(1642,5) The(1643,3) model(1643,9) ([\ref=ham])(1643,11) was(1643,25) originally(1643,36) proposed(1643,45) in(1643,48) the(1643,52) context(1643,60) of(1643,63) quasi-1D(1643,72) organic(1643,80) materials(1644,9) [\cite=nagaosa](1644,15) and(1644,28) is(1644,31) also(1644,36) believed(1644,45) to(1644,48) be(1644,51) prototypical(1644,64) for(1645,3) ferroelectric(1645,17) perovskites(1645,29) [\cite=egami].(1645,35)
+
+In(1647,2) spite(1647,8) of(1647,11) its(1647,15) apparent(1647,24) simplicity,(1647,36) the(1647,40) model(1647,46) ([\ref=ham])(1647,48) reveals(1647,66) nontrivial(1647,77) physics.(1648,8) At(1648,11) U(1648,13) =(1648,13) 0(1648,13) it(1648,22) describes(1648,32) a(1648,34) band(1648,39) insulator(1648,49) (BI)(1648,54) with(1648,59) a(1648,61) spectral(1648,70) gap(1648,74) for(1648,78) all(1649,3) excitations.(1649,16) At(1649,19) Δ(1649,21) ≪(1649,21) t,(1649,21) the(1650,3) low-energy(1650,14) spectrum(1650,23) of(1650,26) the(1650,30) BI(1650,33) is(1650,36) that(1650,41) of(1650,44) free(1650,49) massive(1650,57) Dirac(1651,5) fermions.(1651,15) When(1652,4) the(1652,8) Hubbard(1652,16) interaction(1652,28) is(1652,31) switched(1652,40) on,(1652,44) the(1653,3) finite(1653,10) fermionic(1653,20) mass(1653,25) Δ(1653,27) makes(1653,40) the(1653,44) theory(1653,51) free(1654,4) of(1654,7) infrared(1654,16) divergences,(1654,29) so(1654,32) that(1654,37) the(1654,41) BI(1654,44) phase(1654,50) remains(1654,58) stable(1654,65) for(1655,3) small(1655,9) enough(1655,16) U.(1655,18) On(1656,2) the(1656,6) other(1656,12) hand,(1656,18) at(1656,21) Δ(1656,23) =(1656,23) 0,(1656,23) the(1656,39) Hamiltonian(1656,51) ([\ref=ham])(1656,53) coincides(1657,9) with(1657,14) the(1657,18) standard(1657,27) (translationally(1657,44) invariant)(1657,55) Hubbard(1657,63) model(1657,69) which(1657,75) is(1658,2) exactly(1658,10) solvable(1658,19) [\cite=LW](1658,25) and(1658,33) is(1658,36) well(1658,41) known(1658,47) to(1658,50) describe(1659,8) a(1659,10) Mott(1659,15) insulator(1659,25) (MI)(1659,30) at(1659,33) any(1659,37) positive(1659,46) value(1659,52) of(1659,55) U,(1659,57) if(1660,2) the(1660,6) electron(1660,15) concentration(1660,29) [formula](1660,31) (the(1661,4) case(1661,9) of(1661,12) a(1661,14) 1/2-filled(1661,25) energy(1661,32) band).(1661,39) The(1662,3) MI(1662,6) state(1662,12) has(1662,16) a(1662,18) finite(1662,25) mass(1662,30) gap(1662,34) mc(1662,36) in(1662,43) the(1662,47) charge(1662,54) sector(1663,6) induced(1663,14) by(1663,17) commensurability(1663,34) of(1663,37) the(1663,41) electron(1663,50) density(1663,58) with(1663,63) the(1664,3) underlying(1664,14) lattice.(1664,23) At(1664,26) energies(1664,35) well(1664,40) below(1664,46) mc,(1664,48) local(1665,5) charge(1665,12) fluctuations(1665,25) are(1665,29) suppressed,(1665,41) and(1665,45) the(1665,49) low-energy(1665,60) spin(1666,4) dynamics(1666,13) of(1666,16) the(1666,20) model(1666,26) coincides(1667,9) with(1667,14) that(1667,19) of(1667,22) the(1667,26) spin-1/2(1667,35) Heisenberg(1667,46) antiferromagnetic(1667,64) chain,(1667,71) the(1668,3) latter(1668,10) possessing(1668,21) a(1668,23) gapless(1668,31) spectrum.(1668,41) At(1669,2) a(1669,4) finite(1669,11) U,(1669,13) the(1669,20) charge-gaped(1669,33) MI(1669,36) phase(1669,42) is(1669,45) stable(1669,52) against(1669,60) site(1669,65) alternation,(1669,78) provided(1670,8) that(1670,13) Δ(1670,15) is(1670,25) small(1670,31) enough(1670,38) [\cite=nagaosa].(1670,44)
+
+Thus,(1672,5) the(1672,9) issue(1672,15) of(1672,18) interest(1672,27) is(1672,30) the(1672,34) nature(1672,41) of(1672,44) the(1672,48) crossover(1672,58) between(1672,66) the(1672,70) BI(1672,73) and(1672,77) MI(1672,80) regimes(1673,7) which(1673,13) is(1673,16) expected(1673,25) to(1673,28) occur(1673,34) in(1673,37) the(1673,41) strong-coupling(1673,57) region(1673,64) where(1673,70) the(1673,74) single-particle(1674,15) mass(1674,20) gap(1674,24) Δ(1674,26) becomes(1674,41) comparable(1674,52) with(1674,57) the(1674,61) MI(1674,64) charge(1674,71) gap(1674,75) mc.(1675,1) Starting(1676,8) out(1676,12) from(1676,17) the(1676,21) MI(1676,24) phase(1676,30) and(1676,34) decreasing(1676,45) U(1676,47) at(1676,52) a(1676,54) fixed(1676,60) Δ,(1676,62) one(1677,3) has(1677,7) to(1677,10) identify(1677,19) the(1677,23) mechanism(1677,33) for(1678,3) the(1678,7) mass(1678,12) generation(1678,23) in(1678,26) the(1678,30) spin(1678,35) sector.(1678,43) On(1678,46) the(1678,50) other(1678,56) hand,(1678,62) it(1679,2) is(1679,5) clear(1679,11) that(1679,16) the(1679,20) charge(1679,27) degrees(1679,35) of(1679,38) freedom(1679,46) should(1679,53) also(1679,58) be(1679,61) involved(1679,70) in(1680,2) the(1680,6) BI-MI(1680,12) crossover.(1680,23) Indeed,(1680,31) dividing(1681,8) the(1681,12) lattice(1681,20) into(1681,25) two(1681,29) sublattices,(1681,42) A(1681,44) and(1681,48) B,(1681,51) with(1681,56) the(1681,60) single-site(1681,72) electron(1682,8) energies(1682,17) Δ(1682,19) and(1682,30) -(1682,32) Δ,(1682,32) respectively,(1682,55) and(1682,59) considering(1683,11) electronic(1684,10) states(1684,17) of(1684,20) a(1684,22) diatomic(1684,31) (AB)(1684,36) unit(1684,41) cell(1684,46) in(1684,49) the(1685,3) limit(1685,9) t(1685,11) ≪(1685,11) U,Δ,(1685,11) one(1685,32) finds(1685,38) a(1685,40) region(1685,47) U(1685,49) ~(1685,49) 2Δ(1685,49) where(1685,70) two(1686,3) charge(1686,10) configurations,(1687,15) A1B1(1687,17) and(1687,29) A0B2,(1687,31) become(1687,47) almost(1687,54) degenerate.(1687,66) This(1687,71) is(1687,74) the(1687,78) so-called(1688,9) mixed-valence(1688,23) regime(1688,30) where(1688,36) those(1688,42) excitations(1688,54) responsible(1688,66) for(1688,70) the(1689,3) charge(1689,10) redistribution(1689,25) among(1689,31) the(1689,35) two(1689,39) unit-cell(1689,49) configurations(1689,64) become(1689,71) soft.(1689,77) This(1690,4) means(1690,10) that,(1690,16) apart(1690,22) from(1690,27) the(1690,31) spin(1690,36) transition,(1690,48) a(1690,50) charge(1690,57) transition(1690,68) associated(1690,79) with(1691,4) vanishing(1691,14) of(1691,17) the(1691,21) charge(1691,28) gap(1691,32) at(1691,35) some(1691,40) value(1691,46) of(1691,49) U(1691,51) is(1691,56) also(1691,61) expected(1691,70) to(1692,2) occur.(1692,9)
+
+In(1694,2) Ref.[\cite=FGN](1694,7) we(1694,20) have(1694,25) shown(1694,31) that(1694,36) the(1694,40) MI-to-BI(1694,49) crossover,(1694,60) taking(1694,67) place(1694,73) on(1695,2) decreasing(1695,13) U(1695,15) at(1695,20) a(1695,22) fixed(1695,28) Δ,(1695,30) is(1695,41) realized(1695,50) as(1695,53) a(1695,55) sequence(1695,64) of(1695,67) two(1695,71) continuous(1696,10) transitions:(1696,23) a(1696,25) Berezinskii-Kosterlitz-Thouless(1696,57) (BKT)(1696,63) transition(1696,74) at(1697,2) U(1697,4) =(1697,4) Uc2(1697,4) where(1697,21) a(1697,23) spin(1697,28) gap(1697,32) is(1697,35) dynamically(1697,47) generated,(1697,58) and(1697,62) an(1697,65) Ising(1697,71) critical(1698,8) point(1698,14) at(1698,17) U(1698,19) =(1698,19) Uc1(1698,19) <(1698,19) Uc2(1698,19) where(1698,45) the(1698,49) charge(1698,56) gap(1698,60) vanishes.(1698,70) Assuming(1699,8) that(1699,13) U,Δ(1699,15) ≪(1699,15) t,(1699,15) below(1700,5) we(1700,8) shall(1701,5) consider(1701,14) the(1701,18) effective(1701,28) low-energy(1701,39) field(1701,45) theory(1701,52) for(1701,56) the(1701,60) lattice(1701,68) model(1701,74) ([\ref=ham]).(1702,1) We(1702,15) shall(1702,21) then(1702,26) briefly(1702,34) comment(1702,42) on(1702,45) the(1702,49) spin(1702,54) transition(1702,65) and(1702,69) mostly(1703,6) concentrate(1703,18) on(1704,2) the(1704,6) Ising(1704,12) transition(1704,23) in(1704,26) the(1704,30) charge(1704,37) sector(1704,44) of(1704,47) the(1704,51) model(1704,57) which(1704,63) will(1704,68) be(1704,71) described(1705,9) in(1705,12) terms(1705,18) of(1705,21) a(1705,23) DSG(1705,27) model.(1705,34)
+
+The(1707,3) standard(1707,12) bosonization(1707,25) procedure(1707,35) (see(1707,40) e.g.(1707,45) [\cite=GNT])(1707,51) allows(1707,64) one(1707,68) to(1707,71) represent(1708,9) the(1709,3) Hamiltonian(1709,15) density(1709,23) as(1709,26)
+
+[formula](1710,2)
+
+Here(1713,4) the(1713,8) spin(1713,13) sector(1713,20) is(1713,23) described(1713,33) by(1713,36) the(1713,40) SU(2)1(1713,42) WZNW(1713,55) model(1713,61) with(1713,66) a(1713,68) marginally(1714,10) irrelevant(1714,21) current-current(1714,37) perturbation(1714,50) originating(1714,62) from(1714,67) the(1715,3) electron(1715,12) backscattering(1715,27) processes(1715,37) (g(1715,39) ~(1715,39) Ua0(1715,39) >(1715,39) 0):(1715,39)
+
+[formula](1716,6)
+
+where(1721,5) [formula](1721,7) are(1721,25) chiral(1721,32) components(1721,43) of(1721,46) the(1721,50) vector(1721,57) spin(1721,62) current(1721,70) satisfying(1722,10) the(1722,14) SU1(2)(1723,1) Kac-Moody(1723,19) algebra.(1723,28) This(1723,33) Hamiltonian(1723,45) accounts(1723,54) for(1723,58) the(1723,62) universal(1724,9) properties(1724,20) of(1724,23) the(1724,27) spin-1/2(1724,36) antiferromagnetic(1724,54) Heisenberg(1724,65) chain(1725,5) in(1725,8) the(1725,12) scaling(1725,20) limit(1725,26) [\cite=affleck].(1725,32) The(1726,3) charge(1726,10) degrees(1726,18) of(1726,21) freedom(1726,29) are(1726,33) represented(1726,45) by(1727,2) a(1727,4) sine-Gordon(1727,16) model(1727,22) for(1727,26) a(1727,28) scalar(1727,35) field(1727,41) Φc:(1727,43)
+
+[formula](1728,6)
+
+where(1733,5) m0(1733,7) ~(1733,7) g.(1733,7) The(1734,3) cosine(1734,10) perturbation(1734,23) is(1734,26) caused(1734,33) by(1734,36) the(1735,3) electron(1735,12) Umklapp(1735,20) processes(1735,30) (see(1735,35) e.g.[\cite=GNT]).(1735,40) For(1735,56) a(1735,58) wide(1735,63) class(1735,69) of(1736,2) Hamiltonians(1736,15) with(1736,20) finite-range(1736,33) interactions(1736,46) (of(1736,50) which(1736,56) the(1736,60) Hubbard(1736,68) model(1736,74) is(1737,2) a(1737,4) member)(1737,12) the(1737,16) parameter(1737,26) Kc(1737,28) <(1737,28) 1.(1737,28) This(1737,42) means(1737,48) that(1737,53) the(1737,57) model(1737,63) ([\ref=charge])(1737,65) is(1738,2) in(1738,5) a(1738,7) strong-coupling(1738,23) regime,(1738,31) and(1738,35) the(1738,39) dynamically(1738,51) generated(1738,61) mass(1738,66) determines(1739,10) the(1739,14) gap(1739,18) mc(1739,20) in(1739,27) the(1739,31) charge(1739,38) sector.(1739,46) The(1740,3) charge(1740,10) and(1740,14) spin(1740,19) sectors(1740,27) are(1740,31) coupled(1740,39) by(1740,42) the(1740,46) Δ-term:(1740,48)
+
+[formula](1741,6)
+
+where(1746,5) εs(1746,7) is(1746,21) the(1746,25) spin(1746,30) dimerization(1746,43) field(1746,49) of(1746,52) the(1746,56) S=1/2(1746,62) Heisenberg(1746,73) chain,(1747,6) defined(1747,14) in(1747,17) ([\ref=eps-bos]).(1747,19)
+
+Let(1749,3) us(1749,6) assume(1749,13) that(1749,18) we(1749,21) are(1749,25) in(1749,28) the(1749,32) MI(1749,35) regime(1749,42) with(1749,47) a(1749,49) gaped(1749,55) charge(1749,62) sector.(1749,70) Since(1750,5) the(1750,9) charge(1750,16) field(1750,22) Φc(1750,24) is(1750,34) locked(1750,41) in(1750,44) one(1750,48) of(1750,51) degenerate(1750,62) minima(1750,69) of(1751,2) the(1751,6) periodic(1751,15) potential(1751,25) in(1751,28) ([\ref=charge]),(1751,30)
+
+[formula](1752,2)
+
+it(1755,2) follows(1755,10) immediately(1755,22) that,(1755,28) in(1755,31) the(1755,35) MI(1755,38) phase,(1755,45) the(1756,3) operator(1756,12) [formula](1756,14) appearing(1757,9) in(1757,12) ([\ref=delta-term])(1757,14) does(1758,4) not(1758,8) represent(1758,18) a(1758,20) strongly(1758,29) fluctuating(1759,11) field;(1759,18) it(1759,21) is(1759,24) rather(1759,31) short-ranged(1759,44) at(1759,47) distances(1759,57) ξc(1760,1) ~(1760,1) vc(1760,1) /(1760,1) mc,(1760,1) and(1760,27) this(1760,32) explains(1760,41) the(1760,45) stability(1760,55) of(1760,58) the(1760,62) MI(1760,65) phase(1760,71) against(1760,79) a(1761,1) small(1761,7) Δ-perturbation.(1761,9) Assuming(1762,8) that(1762,13) the(1762,17) charge(1762,24) gap(1762,28) is(1762,31) nonzero,(1762,40) we(1762,43) integrate(1762,53) out(1762,57) the(1762,61) massive(1762,69) charge(1763,6) degrees(1763,14) of(1763,17) freedom(1763,25) to(1763,28) obtain(1763,35) the(1763,39) effective(1763,49) action(1763,56) in(1763,59) the(1763,63) spin(1763,68) sector.(1763,76) According(1764,9) to(1764,12) the(1764,16) unbroken(1764,25) SU(2)(1764,31) symmetry(1764,40) of(1764,43) the(1764,47) model,(1764,54) the(1765,3) effective(1765,13) Hamiltonian(1765,25) in(1765,28) the(1765,32) spin(1765,37) sector(1765,44) retains(1766,7) its(1767,3) form(1767,8) ([\ref=spin]),(1767,10) but(1767,26) the(1767,30) current-current(1767,46) coupling(1767,55) constant(1767,64) undergoes(1767,74) an(1768,2) additive(1768,11) renormalization.(1768,28) In(1768,31) the(1768,35) second(1768,42) order(1768,48) in(1768,51) Δ(1768,53) we(1768,63) obtain:(1768,71)
+
+[formula](1769,2)
+
+where(1772,5) C(1772,7) ~(1772,7) 1(1772,7) is(1772,19) a(1772,21) nonuniversal(1772,34) numerical(1772,44) constant.(1772,54) The(1772,58) spin(1772,63) sector(1772,70) now(1772,74) resembles(1773,9) the(1773,13) J1(1773,15) -(1773,15) J2(1773,15) frustrated(1773,36) spin-1/2(1773,45) chain(1773,51) (see(1773,56) section(1773,64) 5)(1773,67) with(1774,4) an(1774,7) effecive(1774,16) next-nearest-neighbour(1774,39) interaction(1774,51) J2(1774,53) generated(1774,67) by(1774,70) the(1775,3) staggered(1775,13) chemical(1775,22) potential(1775,32) Δ.(1775,34) As(1776,2) long(1776,7) as(1776,10) [formula],(1776,12) the(1776,33) spin(1776,38) excitation(1776,49) spectrum(1776,58) remains(1777,7) gapless.(1777,16) However,(1777,25) decreasing(1777,36) U(1778,1) at(1778,6) a(1778,8) fixed(1778,14) Δ(1778,16) (or(1778,27) increasing(1778,38) Δ(1778,40) at(1778,50) a(1778,52) fixed(1778,58) U)(1778,60) eventually(1778,74) reverts(1779,7) the(1779,11) above(1779,17) inequality(1779,28) to(1779,31) [formula].(1779,33) In(1779,53) this(1779,58) case(1779,63) the(1779,67) current-current(1780,15) perturbation(1781,12) becomes(1781,20) marginally(1781,31) relevant,(1781,41) and(1782,3) a(1782,5) continuous(1782,16) (BKT)(1782,22) transition(1782,33) takes(1782,39) place(1782,45) to(1782,48) a(1782,50) spontaneously(1782,64) dimerized(1783,9) insulating(1783,20) (SDI)(1783,26) phase(1783,32) with(1783,37) broken(1783,44) (site)(1783,51) parity(1783,58) and(1783,62) a(1784,1) finite(1784,8) mass(1784,13) gap(1784,17) in(1784,20) the(1784,24) spin(1784,29) sector.(1784,37)
+
+Thus,(1786,5) the(1786,9) condition(1786,19) [formula](1786,21) determines(1786,48) the(1786,52) spin(1786,57) transition(1786,68) point(1786,74) Uc2.(1787,1) Using(1788,5) the(1788,9) exact(1788,15) result(1788,22) for(1788,26) the(1788,30) charge(1788,37) gap(1788,41) in(1788,44) the(1788,48) small-U(1788,55) Hubbard(1788,66) model[\cite=LW],(1789,5)
+
+[formula](1790,2)
+
+we(1793,2) find(1793,7) that(1793,12)
+
+[formula](1794,6)
+
+The(1800,3) dimerization(1800,16) order(1800,22) parameter(1800,32) that(1800,37) becomes(1800,45) nonzero(1800,53) at(1800,56) U(1800,58) <(1800,58) Uc2(1800,58) is(1801,2) defined(1801,10) as(1801,13)
+
+[formula](1802,6)
+
+and(1806,3) in(1806,6) the(1806,10) continuum(1806,20) limit(1806,26) its(1806,30) density(1806,38) is(1806,41) given(1806,47) by(1806,50)
+
+[formula](1807,6)
+
+It(1812,2) is(1812,5) instructive(1812,17) to(1812,20) compare(1812,28) the(1812,32) parity(1812,39) properties(1812,50) of(1812,53) the(1812,57) SDI(1812,61) and(1812,65) BI(1812,68) phases.(1812,76) For(1813,3) models(1813,10) defined(1813,18) on(1813,21) a(1813,23) 1D(1813,26) lattice,(1813,35) there(1813,41) are(1813,45) two(1813,49) parity(1813,56) transformations(1813,72) -(1813,75) the(1814,3) site(1814,8) parity(1814,15) (PS)(1814,17) and(1814,27) link(1814,32) parity(1814,39) (PL)(1814,41) [\cite=EA].(1814,53) The(1814,62) difference(1814,73) between(1815,7) PS(1815,9) and(1815,17) PL(1815,19) survives(1815,32) the(1815,36) continuum(1815,46) limit(1815,52) and(1815,56) shows(1815,62) up(1815,65) in(1815,68) two(1816,3) inequivalent(1816,16) parity(1816,23) transformations(1816,39) that(1816,44) keep(1816,49) the(1816,53) massless(1816,62) Dirac(1816,68) equation(1816,77)
+
+[formula](1817,2)
+
+invariant.(1826,10) These(1826,16) are(1826,20)
+
+[formula](1827,6)
+
+Using(1831,5) bosonization(1831,18) rules(1831,24) for(1831,28) spin-1/2(1831,37) Dirac(1831,43) fermions(1831,52) (see(1831,57) e.g.(1831,62) [\cite=GNT]),(1831,68) one(1832,3) easily(1832,10) finds(1832,16) that(1832,21) both(1832,26) PS(1832,28) and(1832,36) PL(1832,38) lead(1832,47) to(1832,50)
+
+[formula](1833,2)
+
+whereas(1836,7) the(1836,11) WZNW(1836,16) field(1836,22) ĝs(1836,24) transforms(1836,45) differently:(1836,58)
+
+[formula](1837,6)
+
+Comparing(1841,9) ([\ref=delta-term])(1841,11) and(1841,32) ([\ref=dimer-op-den]),(1841,34) we(1841,57) see(1841,61) that(1841,66) the(1842,3) Δ-perturbation(1842,5) breaks(1842,32) PL(1842,34) but(1842,42) is(1842,45) invariant(1842,55) under(1842,61) PS(1842,63) (in(1843,3) fact,(1843,9) PS(1843,11) is(1843,18) the(1843,22) symmetry(1843,31) of(1843,34) the(1843,38) Hamiltonian(1843,50) ([\ref=ham])),(1843,52) while(1843,70) the(1844,3) dimerization(1844,16) operator(1844,25) D(1844,27) breaks(1844,36) PS(1844,38) but(1844,46) preserves(1844,56) PL.(1844,58) This(1845,4) is(1845,7) easily(1845,14) understood(1845,25) by(1845,28) noticing(1845,37) that(1845,42) these(1845,48) two(1845,52) terms(1845,58) have(1845,63) the(1845,67) structure(1845,77) of(1846,2) two(1846,6) different(1846,16) fermionic(1846,26) mass(1846,31) bilinears,(1846,42) [formula](1847,1) and(1847,35) [formula],(1847,37) with(1848,4) opposite(1848,13) transformation(1848,28) properties(1848,39) with(1848,44) respect(1848,52) to(1848,55) PS(1848,57) and(1848,65) PL.(1848,67) Thus,(1849,5) the(1849,9) parity(1849,16) properties(1849,27) of(1849,30) the(1849,34) SDI(1849,38) and(1849,42) BI(1849,45) phases(1849,52) are(1849,56) different,(1849,67) and(1850,3) this(1850,8) is(1850,11) a(1850,13) strong(1850,20) indication(1850,31) that(1850,36) the(1850,40) passage(1850,48) from(1850,53) SDI(1850,57) to(1850,60) BI(1850,63) should(1850,70) be(1851,2) associated(1851,13) with(1851,18) a(1851,20) significant(1851,32) redistribution(1851,47) of(1851,50) the(1851,54) charge(1851,61) density(1851,69) (charge(1852,7) transition).(1852,20)
+
+In(1854,2) what(1854,7) follows,(1854,16) we(1854,19) will(1854,24) not(1854,28) be(1854,31) dealing(1854,39) with(1854,44) estimation(1855,10) of(1855,13) the(1855,17) transition(1855,28) point(1855,34) Uc1.(1855,36) Referring(1856,9) the(1856,13) reader(1856,20) to(1856,23) Ref.[\cite=FGN](1856,28) where(1856,44) the(1856,48) mechanism(1856,58) of(1856,61) the(1856,65) charge(1856,72) transition(1857,10) is(1857,13) discussed(1857,23) in(1857,26) the(1857,30) context(1857,38) of(1857,41) excitonic(1857,51) instability(1857,63) of(1857,66) the(1857,70) BI(1857,73) phase,(1858,6) here(1858,11) we(1858,14) simply(1858,21) claim(1858,27) that(1858,32) for(1858,36) the(1858,40) model(1858,46) ([\ref=ham]),(1858,48) within(1858,66) the(1859,3) leading(1859,11) logarithmic(1859,23) accuracy,(1859,33) [formula],(1860,1) where(1861,5) the(1861,9) positive(1861,18) constant(1861,27) is(1861,30) of(1861,33) the(1861,37) order(1861,43) of(1861,46) unity.(1861,53) Let(1862,3) us(1862,6) instead(1862,14) focus(1862,20) on(1862,23) a(1862,25) nonperturbative(1862,41) description(1862,53) of(1862,56) the(1862,60) charge(1863,6) transition(1863,17) to(1863,20) the(1863,24) BI(1863,27) phase.(1863,34) Suppose(1863,42) we(1863,45) are(1863,49) in(1863,52) the(1863,56) SDI(1863,60) phase(1863,66) with(1863,71) both(1864,4) charge(1864,11) and(1864,15) spin(1864,20) sectors(1864,28) gaped.(1864,35) Adopting(1865,8) an(1865,11) Abelian(1865,19) bosonic(1865,27) representation(1865,42) for(1865,46) the(1865,50) SU(2)1(1865,52) WZNW(1865,65) model(1865,71) with(1865,76) a(1866,1) marginally(1866,12) relevant(1866,26) perturbation,(1866,41)
+
+[formula](1867,6)
+
+we(1874,2) can(1874,6) regard(1874,13) the(1874,17) effective(1874,27) Hamiltonian(1874,39) given(1874,45) by(1874,48) ([\ref=spin-Abel]),(1874,50) ([\ref=charge])(1875,1) and(1875,18) ([\ref=delta-term])(1875,20) as(1875,40) a(1875,42) phenomenological(1875,59) Landau-Ginzburg(1875,75) energy(1876,6) functional,(1876,18) in(1876,21) the(1876,25) sense(1876,31) that(1876,36) all(1876,40) the(1876,44) couplings(1876,54) (m0,Kc,λ,Δ)(1876,56) and(1878,3) velocities(1878,14) (vs,vc)(1878,16) are(1878,31) effective(1878,41) ones(1878,46) obtained(1878,55) by(1878,58) integrating(1879,11) out(1879,15) high-energy(1879,27) degrees(1879,35) of(1879,38) freedom.(1879,47) The(1880,3) effective(1880,13) potential(1880,23) is(1880,26) given(1880,32) by:(1880,36)
+
+[formula](1881,6)
+
+with(1887,4)
+
+[formula](1888,2)
+
+The(1893,3) robust(1893,10) ingredients(1893,22) of(1893,25) the(1893,29) potential(1893,39) ([\ref=U-eff])(1893,41) are(1893,57) the(1894,3) vertex(1894,10) operators(1894,20) and(1894,24) the(1894,28) signs(1894,34) of(1894,37) the(1894,41) corresponding(1894,55) amplitudes.(1894,67) It(1895,2) can(1895,6) be(1895,9) shown(1895,15) that,(1895,21) as(1895,24) long(1895,29) as(1895,32) the(1895,36) parameter(1895,46) Kc(1895,48) is(1896,2) confined(1896,11) within(1896,18) the(1896,22) interval(1896,31) 1(1896,33) /(1896,33) 2(1896,33) <(1896,33) Kc(1896,33) <(1896,33) 1,(1896,33) this(1897,4) potential,(1897,15) with(1897,20) all(1897,24) terms(1897,30) being(1897,36) strongly(1897,45) relevant(1897,54) perturbations,(1897,69) is(1898,2) indeed(1898,9) the(1898,13) most(1898,18) representative(1898,33) one(1899,3) for(1899,7) the(1899,11) model(1899,17) under(1899,23) discussion(1899,34) because(1899,42) no(1899,45) new(1899,49) relevant(1899,58) operators(1899,68) are(1899,72) generated(1900,9) in(1901,2) the(1901,6) course(1901,13) of(1901,16) renormalization.(1901,33) This(1901,38) is(1901,41) no(1901,44) longer(1901,51) true(1901,56) if(1901,59) Kc(1901,61) <(1901,61) 1(1901,61) /(1901,61) 2,(1901,61) the(1901,76) regime(1902,6) which(1903,5) can(1903,9) be(1903,12) realized(1903,21) for(1903,25) an(1903,28) extended(1903,37) model(1903,43) with(1903,48) extra(1903,54) finite-range(1903,67) interactions,(1904,13) e.g.(1905,4) [formula].(1905,6) In(1905,31) this(1905,36) case,(1905,42) new(1905,46) relevant(1905,55) vertex(1905,62) operators(1905,72) will(1905,77) be(1906,2) generated(1906,12) upon(1906,17) renormalization,(1906,34) and(1906,38) the(1906,42) continuous(1906,53) Ising(1906,59) transition(1906,70) in(1907,2) the(1907,6) charge(1907,13) sector(1907,20) can(1907,24) transform(1908,9) to(1908,12) a(1908,14) first-order(1908,26) one.(1908,31) We(1908,34) will(1908,39) comment(1908,47) on(1908,50) that(1908,55) in(1908,58) the(1908,62) end(1908,66) of(1908,69) this(1908,74) section.(1909,8)
+
+A(1911,1) simple(1911,8) analysis(1911,17) of(1911,20) the(1911,24) saddle(1911,31) points(1911,38) of(1911,41) the(1911,45) potential(1911,55) U(εc,εs)[\cite=FGN](1912,1) shows(1913,5) that(1913,10) the(1913,14) location(1913,23) of(1913,26) its(1913,30) minima(1913,37) in(1913,40) the(1913,44) spin(1913,49) sector,(1913,57) [formula],(1914,1) and(1915,3) hence(1915,9) the(1915,13) spin(1915,18) quantum(1915,26) numbers(1916,7) of(1916,10) the(1916,14) topological(1916,26) excitations,(1916,39) are(1916,43) the(1917,3) same(1917,8) as(1917,11) in(1917,14) the(1917,18) BI(1917,21) phase(1917,27) (U(1917,29) <(1917,29) Uc1).(1917,29) So(1918,2) the(1918,6) spin(1918,11) part(1918,16) of(1918,19) the(1918,23) spectrum(1918,32) in(1918,35) the(1918,39) SDI(1918,43) phase(1918,49) smoothly(1918,58) transforms(1918,69) to(1919,2) that(1919,7) of(1919,10) the(1919,14) BI(1919,17) phase.(1919,24) Therefore,(1920,10) being(1920,16) interested(1920,27) in(1920,30) the(1920,34) redistribution(1920,49) of(1920,52) the(1920,56) charge(1920,63) degrees(1920,71) of(1920,74) freedom(1921,7) in(1922,2) the(1922,6) vicinity(1922,15) of(1922,18) Uc1,(1922,20) in(1922,31) ([\ref=U-eff])(1922,33) we(1922,48) can(1922,52) replace(1922,60) [formula](1923,1) by(1923,28) its(1923,32) vacuum(1923,39) expectation(1923,51) value,(1923,58) [formula].(1924,1) The(1924,56) two(1924,60) signs(1924,66) here(1924,71) reflect(1925,7) the(1925,11) Z2(1926,1) degeneracy(1926,16) of(1926,19) the(1926,23) dimerized(1926,33) ground(1926,40) state(1926,46) (spontaneously(1926,61) broken(1926,68) site(1927,4) parity;(1927,12) see(1927,16) Eq.(1927,20) ([\ref=g-PS])).(1927,22) Thus,(1928,5) the(1928,9) Hamiltonian(1928,21) of(1928,24) effective(1928,34) model(1928,40) describing(1928,51) the(1928,55) charge(1928,62) degrees(1928,70) of(1928,73) freedom(1929,7) can(1930,3) be(1930,6) represented(1930,18) in(1930,21) the(1930,25) following(1930,35) 2×(1930,37) 2(1930,37) matrix(1930,53) form:(1930,59)
+
+[formula](1931,6)
+
+where(1940,5)
+
+[formula](1941,6)
+
+(here(1946,5) h(1946,7) =(1946,7) δc0).(1946,7) Notice(1946,31) that(1946,36) under(1946,42) PS(1946,44) ~(1946,50) H((1946,50) +(1946,50) )c(1946,50) ↔(1946,50) H((1946,50) -(1946,50) )c.(1946,50)
+
+We(1949,2) have(1949,7) arrived(1949,15) at(1949,18) the(1949,22) matrix(1949,29) version(1949,37) of(1949,40) DSG(1949,44) model(1949,50) similar(1949,58) to(1949,61) ([\ref=matrixDGS]),(1950,1) ([\ref=QAT-DSG]).(1950,20) To(1950,38) make(1951,4) contact(1951,12) with(1951,17) the(1951,21) DQAT(1951,26) model(1951,32) discussed(1951,42) in(1951,45) detail(1951,52) in(1951,55) sections(1951,64) 2(1951,66) and(1951,70) 3,(1951,73) we(1952,2) shall(1952,8) consider(1952,17) [formula](1952,19) in(1952,36) the(1952,40) vicinity(1952,49) of(1952,52) the(1952,56) point(1952,62) Kc(1952,64) =(1952,64) 1(1952,64) /(1952,64) 2.(1952,64) Setting(1953,7) [formula](1953,9) and(1953,50) rescaling(1953,60) the(1953,64) fields(1953,71)
+
+[formula](1954,2)
+
+transforms(1958,10) H((1958,12) ±(1958,12) )c(1958,12) in(1958,27) ([\ref=charge-ham])(1958,29) to(1958,49) a(1958,51) form(1958,56) similar(1958,64) to(1959,2) H±(1959,4) of(1959,23) Eq.([\ref=QAT-DSG]).(1959,28)
+
+With(1961,4) this(1961,9) correspondence(1961,24) and(1961,28) all(1961,32) the(1961,36) results(1961,44) of(1961,47) the(1961,51) previous(1961,60) sections,(1961,70) we(1961,73) are(1961,77) now(1962,3) able(1963,4) to(1963,7) describe(1963,16) in(1963,19) detail(1963,26) the(1964,3) Ising(1964,9) transition(1964,20) in(1964,23) the(1964,27) charge(1964,34) sector.(1964,42) As(1964,45) already(1964,53) explained(1964,63) in(1964,66) section(1964,74) 2.2,(1964,79) this(1965,4) can(1965,8) be(1965,11) done(1965,16) by(1965,19) considering(1965,31) only(1965,36) the(1965,40) Hamiltonian(1965,52) H((1965,54) +(1965,54) )c.(1965,54)
+
+When(1967,4) studying(1967,13) the(1967,17) physical(1967,26) properties(1967,37) of(1967,40) our(1967,44) model(1967,50) ([\ref=ham])(1967,52) at(1967,65) the(1967,69) charge(1967,76) transition(1968,10) point,(1968,17) it(1968,20) is(1968,23) important(1968,33) to(1968,36) remember(1968,45) that(1968,50) the(1968,54) disordered(1968,65) (h(1968,67) <(1968,67) hc)(1968,67) and(1969,3) ordered(1969,11) (h(1969,13) >(1969,13) hc)(1969,13) phases(1969,30) of(1969,33) the(1969,37) effective(1969,47) Ising(1969,53) model(1969,59) correspond(1970,10) to(1970,13) the(1970,17) SDI(1970,21) and(1970,25) BI(1970,28) phases(1970,35) of(1970,38) the(1970,42) electronic(1970,53) model(1970,59) ([\ref=ham]).(1970,61) First(1971,5) we(1971,8) consider(1971,17) the(1971,21) dimerization(1971,34) operator(1971,43) ([\ref=dimer-op-den]):(1971,45)
+
+[formula](1972,2)
+
+With(1975,4) the(1975,8) spin(1975,13) field(1975,19) Φs(1975,21) locked(1975,35) in(1975,38) the(1975,42) SDI(1975,46) phase,(1975,53) [formula](1976,1) and(1976,52) Kc(1976,54) =(1976,54) 1(1976,54) /(1976,54) 2,(1976,54) this(1976,69) transforms(1976,80) to(1976,83) the(1977,3) charge(1977,10) polarisation(1977,23) field(1977,29)
+
+[formula](1978,2)
+
+In(1981,2) full(1981,7) agreement(1981,17) with(1981,22) the(1981,26) physical(1981,35) picture,(1981,44) from(1981,49) ([\ref=cos])(1981,51) it(1981,64) follows(1981,72) that(1981,77) the(1982,3) operator(1982,12) D,(1982,14) being(1982,31) the(1982,35) order(1983,5) parameter(1983,15) of(1983,18) the(1983,22) SDI(1983,26) phase,(1983,33) is(1983,36) the(1983,40) most(1983,45) strongly(1983,54) fluctuating(1983,66) field(1983,72) at(1984,2) the(1984,6) Ising(1984,12) trasntion:(1984,23)
+
+[formula](1985,6)
+
+Its(1988,3) average(1988,11) value(1988,17) is(1988,20) nonzero(1988,28) in(1988,31) the(1988,35) SDI(1988,39) phase(1988,45) and(1988,49) vanishes(1988,58) as(1989,2) 〈D〉(1989,4) ~(1989,4) (hc(1989,4) -(1989,4) h)1(1989,4) /(1989,4) 8(1989,4) on(1989,54) approaching(1989,66) the(1989,70) charge(1989,77) transition(1989,88) point(1990,5) (remaining(1990,16) zero(1990,21) in(1990,24) the(1990,28) whole(1990,34) BI(1990,37) phase).(1990,45)
+
+Using(1992,5) ([\ref=sin]),(1992,7) we(1992,21) find(1992,26) that(1992,31) the(1993,3) average(1993,11) value(1993,17) of(1993,20) the(1993,24) Δ-perturbation,(1993,26) which,(1993,54) at(1993,57) Kc(1993,59) =(1993,59) 1(1993,59) /(1993,59) 2,(1993,59) is(1993,73) given(1994,5) by(1994,8) OΔ(1995,1) ~(1995,1) sin(1995,1) πΦc(1995,1) is(1998,2) nonsingular(1998,14) across(1998,21) the(1998,25) transition(1998,36) and(1998,40) remains(1998,48) finite(1998,55) in(1998,58) both(1998,63) phases.(1999,7)
+
+The(2001,3) most(2001,8) interesting(2001,20) feature(2001,28) of(2001,31) the(2001,35) Ising(2001,41) transition(2001,52) is(2002,2) the(2002,6) UV-IR(2002,12) transmutation(2002,26) of(2002,29) the(2002,33) charge(2002,40) density(2002,48) ρc(x)(2002,50) and(2003,3) current(2003,11) Jc(x).(2003,13) At(2003,25) Kc(2003,27) =(2003,27) 1(2003,27) /(2003,27) 2,(2003,27) the(2003,42) UV(2003,45) limit(2003,51) of(2003,54) our(2003,58) model(2003,64) represents(2004,10) a(2004,12) metallic(2004,21) state(2004,27) with(2004,32) central(2004,40) charge(2004,47) cUV(2004,49) =(2004,49) 2,(2004,49) described(2005,9) in(2005,12) terms(2005,18) of(2005,21) two(2005,25) massless(2005,34) Gaussian(2005,43) fields(2005,50) Φc(2005,52) and(2005,63) Φs.(2005,65) In(2006,2) this(2006,7) limit(2006,13)
+
+[formula](2007,2)
+
+According(2011,9) to(2011,12) ([\ref=csum]),([\ref=c5sum]),(2011,14) at(2011,43) the(2011,47) Ising(2011,53) criticality(2011,65) (cIR(2012,1) =(2012,1) 1(2012,1) /(2012,1) 2),(2012,1)
+
+[formula](2013,6)
+
+With(2017,4) μ(x)(2017,6) representing(2017,27) the(2017,31) charge(2017,38) polarization(2017,51) field,(2017,58) Eqs.([\ref=rho-J-IR])(2018,5) identify(2018,29) ρc(2018,31) and(2018,42) Jc(2018,44) as(2018,51) the(2018,55) bound(2018,61) charge(2018,68) and(2019,3) polarisation-current(2019,24) densities,(2019,35) respectively.(2020,13) Such(2020,18) an(2020,21) identification(2020,36) is(2020,39) typical(2020,47) for(2021,3) insulators(2021,14) rather(2021,21) than(2021,26) metals.(2021,34) This(2022,4) could(2022,10) have(2022,15) been(2022,20) anticipated(2022,32) from(2022,37) the(2022,41) fact(2022,46) that(2022,51) a(2022,53) true(2022,58) metallic(2022,67) state(2022,73) with(2023,4) charge-carrying(2023,20) gapless(2023,28) excitations(2023,40) cannot(2023,47) be(2023,50) described(2023,60) by(2023,63) a(2023,65) single(2023,72) massless(2024,8) real(2024,13) (Majorana)(2024,24) field.(2024,31)
+
+An(2026,2) insulating(2026,13) (semi-metallic)(2026,29) behaviour(2026,39) of(2026,42) the(2026,46) model(2026,52) at(2026,55) the(2026,59) quantum(2027,7) critical(2027,16) point,(2027,23) reached(2027,31) at(2027,34) the(2027,38) charge(2028,6) transition,(2028,18) becomes(2029,7) manifest(2029,16) when(2029,21) one(2029,25) estimates(2029,35) the(2029,39) optical(2029,47) conductivity:(2029,61)
+
+[formula](2030,6)
+
+Here(2034,4) D(R)(ω,q)(2034,6) is(2034,28) the(2034,32) retarded(2034,41) correlation(2034,53) function(2034,62) defined(2035,7) in(2035,10) ([\ref=ret]).(2035,12) Using(2035,29) the(2035,33) result(2035,40) ([\ref=Dnotfin]),(2035,42) we(2035,60) find(2035,65) that,(2035,71) at(2036,2) zero(2036,7) temperature,(2036,20) σ(ω)(2036,22) displays(2036,46) a(2036,48) universal(2036,58) power-law(2036,68) behaviour:(2037,10)
+
+[formula](2038,6)
+
+Although(2041,8) the(2041,12) optical(2041,20) conductivity(2041,33) is(2041,36) divergent(2041,46) in(2041,49) the(2041,53) zero-frequency(2041,68) limit,(2041,75) there(2042,5) is(2042,8) no(2042,11) Drude-peak(2042,22) contribution(2042,35) (~(2042,37) δ(ω))(2042,37) typical(2042,67) of(2043,2) true(2043,7) metals.(2043,15)
+
+It(2045,2) is(2045,5) also(2045,10) possible(2045,19) to(2045,22) estimate(2045,31) the(2045,35) optical(2045,43) conductivity(2045,56) at(2045,59) finite(2045,66) temperatures(2045,79) (keeping(2046,8) in(2046,11) mind(2046,16) the(2046,20) σ(2046,22) -(2046,22) τ(2046,22) representation(2046,49) of(2046,52) the(2046,56) DQAT(2046,61) model,(2046,68) one(2046,72) should(2047,6) assume(2047,13) that(2047,18) T(2047,20) is(2047,25) much(2047,30) smaller(2047,38) than(2047,43) the(2048,3) mass(2048,8) gap(2048,12) in(2048,15) the(2048,19) decoupled(2048,29) τ(2048,31) degrees(2048,44) of(2048,47) freedom).(2048,57) This(2048,62) can(2048,66) be(2048,69) done(2048,74) using(2049,5) conformal(2049,15) mapping(2049,23) from(2049,28) a(2050,1) cylinder(2050,10)
+
+[formula](2050,13)
+
+〈(2053,7) μ(2053,11) (z,(2053,14) )(2053,28) μ(2053,32) (z,(2053,35) )(2053,49) 〉(2053,57) ,(2054,36)
+
+[formula](2055,2)
+
+σ(2087,6) (ω,(2087,8) T)(2087,18) ~(2087,23) ω(2087,30) /(2087,34) T.(2087,36)
+
+[formula](2088,2)
+
+First(2093,14) order(2093,20) transition(2093,31) at(2093,34) β2(2093,36) <(2093,36) 2π(2093,36)
+
+Until(2095,5) now(2095,9) we(2095,12) assumed(2095,20) that(2095,25) 2π(2095,27) <(2095,27) β2(2095,27) <(2095,27) 8π,(2095,27) so(2095,50) that(2095,55) no(2095,58) other(2096,5) relevant(2096,14) operators(2096,24) were(2096,29) generated(2096,39) upon(2096,44) renormalization.(2096,61) Indeed,(2097,7) already(2097,15) at(2097,18) β2(2097,20) <(2097,20) 32π(2097,20) /(2097,20) 9,(2097,20) the(2097,41) operator(2097,50) [formula],(2098,1) which(2098,54) is(2098,57) generated(2099,9) by(2099,12) the(2099,16) OPE(2099,20) of(2099,23) the(2099,27) two(2099,31) operators(2099,41) present(2099,49) in(2099,52) ([\ref=HDSG]),(2100,1) becomes(2100,21) relevant.(2100,31) However,(2100,40) such(2100,45) an(2100,48) operator(2100,57) does(2101,4) not(2101,8) modify(2101,15) the(2101,19) qualitative(2101,31) behaviour(2101,41) of(2101,44) the(2101,48) model,(2101,55) as(2101,58) one(2102,3) can(2102,7) easily(2102,14) realize(2102,22) by(2102,25) a(2102,27) quasi-classical(2102,43) analysis.(2102,53) On(2103,2) the(2103,6) contrary,(2103,16) the(2103,20) operator(2103,29) [formula],(2103,31) which(2104,5) is(2104,8) also(2104,13) generated(2104,23) by(2104,26) the(2104,30) OPE,(2104,35) and(2104,39) which(2104,45) becomes(2104,53) relevant(2105,8) at(2105,11) β2(2105,13) <(2105,13) 2π,(2105,13) can(2105,31) modify(2105,38) the(2105,42) properties(2106,10) of(2106,13) the(2106,17) model(2106,23) in(2106,26) a(2106,28) relevant(2106,37) manner.(2106,45) Indeed,(2106,53) inspecting(2107,10) the(2107,14) quasi-classical(2107,30) potential(2107,40)
+
+[formula](2108,2)
+
+one(2113,3) finds(2113,9) that(2113,14) the(2113,18) Ising(2113,24) transition(2113,35) is(2113,38) turned(2113,45) by(2113,48) a(2113,50) sufficiently(2114,12) large(2114,18) V(2114,20) into(2114,27) a(2114,29) first(2114,35) order(2114,41) one.(2114,46)
+
+The(2116,3) capability(2116,14) of(2116,17) an(2116,20) apparently(2116,31) subleading(2116,42) operator(2116,51) to(2116,54) change(2116,61) a(2116,63) continuous(2117,10) transition(2117,21) to(2117,24) a(2117,26) first(2117,32) order(2117,38) one(2117,42) is(2117,45) indeed(2117,52) common(2117,59) to(2117,62) a(2117,64) variety(2117,72) of(2118,2) models.(2118,10) For(2118,14) instance,(2118,24) it(2118,27) is(2118,30) known(2118,36) that(2118,41) the(2118,45) critical(2118,54) line(2119,4) with(2119,9) non(2119,13) universal(2119,23) exponents(2119,33) separating(2119,44) the(2120,3) Charge(2120,10) Density(2120,18) Wave(2120,23) (CDW)(2120,29) and(2120,33) the(2120,37) Spin(2120,42) Density(2120,50) Wave(2120,55) (SDW)(2120,61) phases(2120,68) of(2120,71) the(2120,75) extended(2121,8) (U-V)(2121,14) Hubbard(2121,22) model,(2121,29) becomes(2121,37) a(2121,39) first(2121,45) order(2121,51) line(2121,56) at(2121,59) sufficiently(2121,72) strong(2122,6) coupling[\cite=Hirsh].(2122,15) In(2122,31) fact,(2122,37) in(2122,40) the(2122,44) extended(2122,53) Hubbard(2122,61) model,(2122,68) the(2123,3) charge(2123,10) Luttinger(2123,20) liquid(2123,27) exponent(2123,36) Kc(2123,38) can(2123,46) be(2123,49) lower(2123,55) than(2123,60) 1(2123,62) /(2123,62) 2,(2123,62) the(2124,3) point(2124,9) at(2124,12) which(2124,18) the(2124,22) second(2124,29) harmonics(2124,39) of(2124,42) the(2124,46) Umklapp(2124,54) scattering(2124,65) starts(2125,6) to(2125,9) be(2125,12) relevant.(2125,22) Therefore,(2125,33) at(2125,36) sufficiently(2125,49) strong(2125,56) interaction,(2125,69) it(2125,72) can(2126,3) indeed(2126,10) turn(2126,15) the(2126,19) CDW-SDW(2126,28) transition(2126,39) line(2126,44) into(2126,49) a(2126,51) first(2126,57) order(2126,63) one.(2126,68) A(2127,1) similar(2127,9) situation(2127,19) occurs(2127,26) with(2127,31) the(2127,35) charge(2127,42) transition(2127,53) in(2127,56) the(2127,60) electronic(2128,10) model,(2128,17) considered(2128,28) in(2128,31) section(2128,39) 7,(2128,42) when(2128,47) the(2128,51) latter(2128,58) is(2128,61) generalised(2128,73) to(2129,2) include(2129,10) a(2129,12) sufficiently(2129,25) strong(2129,32) nearest-neighbour(2129,50) repulsion(2129,60) [\cite=nagaosa].(2129,66)
+
+Conclusions(2131,20)
+
+In(2133,2) this(2133,7) paper,(2133,14) we(2133,17) have(2133,22) proposed(2133,31) a(2133,33) nonperturbative(2133,49) description(2133,61) of(2133,64) the(2133,68) Ising(2134,5) criticality(2134,17) in(2134,20) the(2134,24) DSG(2134,28) model(2134,34) ([\ref=HDSG]).(2134,36) Using(2135,5) the(2135,9) equivalence(2135,21) between(2135,29) the(2135,33) DSG(2135,37) model(2135,43) and(2135,47) a(2135,49) deformed(2135,58) quantum(2136,7) Ashkin-Teller(2136,21) model,(2136,28) valid(2136,34) in(2136,37) the(2136,41) vicinity(2136,50) of(2136,53) the(2137,3) decoupling(2137,14) point,(2137,21) β2(2137,23) =(2137,23) 4π,(2137,23) we(2138,2) were(2138,7) able(2138,12) to(2138,15) identify(2138,24) the(2139,3) effective(2139,13) Ising(2139,19) degrees(2139,27) of(2139,30) freedom(2139,38) that(2139,43) asymptotically(2139,58) decouple(2140,8) from(2140,13) the(2140,17) rest(2140,22) of(2140,25) the(2140,29) spectrum(2140,38) and(2140,42) become(2140,49) critical(2140,58) in(2141,2) the(2141,6) infrared(2141,15) limit.(2141,22) This(2141,27) identification(2141,42) allowed(2141,50) us(2141,53) to(2141,56) describe(2141,65) the(2142,3) UV-IR(2142,9) "transmutation"(2142,27) of(2142,30) all(2142,34) physical(2142,43) fields(2142,50) of(2142,53) the(2142,57) DSG(2142,61) model(2142,67) and(2143,3) calculate(2143,13) the(2143,17) correlation(2143,29) functions(2143,39) at(2143,42) and(2143,46) close(2143,52) to(2143,55) the(2143,59) transition.(2143,71) We(2144,2) have(2144,7) also(2144,12) demonstrated(2144,25) the(2144,29) efficiency(2144,40) of(2144,43) our(2144,47) approach(2144,56) to(2144,59) describe(2145,8) Ising(2145,14) transitions(2145,26) in(2145,29) some(2145,34) physical(2145,43) realizations(2145,56) of(2145,59) the(2145,63) DSG(2146,3) model.(2146,10)
+
+We(2148,2) believe(2148,10) that(2148,15) our(2148,19) quantum-Ising-chain(2148,39) approach(2148,48) can(2148,52) be(2148,55) generalised(2148,67) to(2149,2) the(2149,6) case(2149,11) when(2149,16) the(2149,20) number(2149,27) of(2149,30) the(2149,34) constituent(2149,46) Ising(2149,52) models,(2149,60) coupled(2150,7) by(2150,10) the(2150,14) interaction(2150,26) [formula],(2150,28) is(2150,51) larger(2150,58) than(2150,63) 2.(2150,66) Such(2151,4) situation(2151,14) can(2151,18) indeed(2151,25) be(2151,28) realized(2151,37) in(2151,40) certain(2151,48) SU(2)-invariant(2151,64) spin-ladders(2152,12) models(2152,19) which(2152,25) can(2152,29) be(2152,32) driven(2152,39) to(2152,42) criticality(2152,54) under(2153,5) the(2153,9) action(2153,16) of(2153,19) external(2153,28) staggered(2153,38) fields.(2153,46) In(2154,2) such(2154,7) systems,(2154,16) the(2154,20) quantum(2154,28) critical(2154,37) points(2154,44) may(2154,48) be(2154,51) not(2154,55) only(2154,60) of(2154,63) the(2155,3) Ising(2155,9) type(2155,14) but(2155,18) also(2155,23) correspond(2155,34) to(2156,2) SU(2)k(2156,8) WZNW(2156,17) universality(2156,30) class.(2156,37) Such(2157,4) examples(2157,13) will(2157,18) be(2157,21) considered(2157,32) elsewhere(2157,42) [\cite={else}].(2157,48)
+
+Acknowledgements(2160,21)
+
+It(2162,2) is(2162,5) our(2162,9) pleasure(2162,18) to(2162,21) thank(2162,27) G.(2162,30) Mussardo(2162,39) for(2162,43) inspiring(2162,53) discussions.(2162,66) We(2163,2) are(2163,6) grateful(2163,15) A.(2163,18) Chubukov,(2163,28) D.(2163,31) Edwards,(2163,40) Yu(2163,43) Lu,(2163,47) N.(2163,50) Nagaosa,(2163,59) S.(2164,2) Sorella,(2164,11) E.(2164,14) Tosatti,(2164,23) A.(2165,2) M.(2165,5) Tsvelik,(2165,14) Y.-J.(2165,20) Wang(2165,25) and(2165,29) V.(2165,32) Yakovenko(2165,42) for(2165,46) their(2165,52) interest(2166,8) in(2166,11) the(2166,15) work(2166,20) and(2166,24) helpful(2166,32) comments.(2166,42) M.F.(2167,4) is(2167,7) partly(2167,14) supported(2167,24) by(2167,27) INFM,(2167,33) under(2167,39) project(2167,47) PRA(2167,51) HTSC.(2167,57) A.(2168,2) O.(2168,5) G.(2168,8) is(2168,11) supported(2168,21) the(2168,25) EPSRC(2168,31) of(2168,34) the(2168,38) United(2168,45) Kingdom.(2168,54) A.(2169,2) A.(2169,5) N.(2169,8) is(2169,11) partly(2169,18) supported(2169,28) by(2169,31) INTAS-Georgia(2169,45) grant(2169,51) 97-1340.(2169,60)
+
+Bosonization(2174,21)
+
+Bosonization(2175,24) of(2175,27) Fermi(2175,33) fields,(2175,41) currents(2175,50) and(2175,54) mass(2175,59) bilinears(2175,69)
+
+We(2177,2) build(2177,8) up(2177,11) a(2177,13) Dirac(2177,19) field(2177,25) out(2177,29) of(2177,32) two(2177,36) Majorana(2177,45) fields,(2177,53) ξ1(2177,55) and(2177,65) ξ2,(2178,1) and(2178,12) bosonize(2178,21) it:(2178,25)
+
+[formula](2179,6)
+
+To(2191,2) ensure(2191,9) anticommutation(2191,25) between(2191,33) the(2191,37) right(2191,43) and(2191,47) left(2191,52) components(2191,63) of(2191,66) the(2191,70) Fermi(2191,76) field,(2192,6) it(2193,2) is(2193,5) assumed(2193,13) that(2193,18)
+
+[formula](2194,6)
+
+Notice(2197,6) that(2197,11) α(2197,13) is(2197,23) an(2197,26) ultraviolet(2197,38) cutoff(2197,45) in(2197,48) the(2197,52) bosonic(2197,65) theory(2197,73) which(2197,79) actually(2198,8) appears(2198,16) as(2198,19) a(2198,21) short-distance(2198,36) regulator(2198,46) in(2198,49) the(2198,53) normal-mode(2198,65) expansion(2198,75) of(2198,78) bosonic(2199,7) fields.(2199,15) For(2199,19) this(2199,24) reason(2199,31) it(2199,34) does(2199,39) not(2199,43) need(2199,48) to(2199,51) coincide(2199,60) with(2199,65) the(2199,69) original(2199,78) lattice(2200,7) constant(2201,8) a0(2201,10) which(2201,20) appears(2201,28) in(2201,31) the(2201,35) continuum(2201,45) representation(2201,60) of(2201,63) fermionic(2201,78) fields.(2202,7) These(2202,13) two(2202,17) cutoffs(2202,25) are,(2202,30) however,(2202,39) related,(2202,48) as(2202,51) shown(2202,57) in(2202,60) Appendix(2202,69) A.2.(2202,74)
+
+The(2204,3) chiral(2204,10) components(2204,21) of(2204,24) the(2204,28) U(1)(2204,33) current(2204,41) are(2205,3) defined(2205,11) as(2205,14)
+
+[formula](2206,6)
+
+Using(2213,5) ([\ref=Maj-Dirac-Bose]),(2213,7) one(2213,33) also(2213,38) finds(2213,44) that(2213,49)
+
+[formula](2214,6)
+
+implying(2220,8) that(2220,13)
+
+[formula](2221,6)
+
+The(2229,3) DQAT(2229,8) Hamiltonian(2229,20) ([\ref=DQAT])(2229,22) is(2229,36) symmetric(2229,46) under(2229,52) interchange(2229,64) (P12)(2230,1) of(2230,21) the(2230,25) two(2230,29) chains.(2230,37) Let(2230,41) us(2230,44) find(2230,49) the(2230,53) transformation(2230,68) properties(2230,79) of(2231,2) all(2232,3) the(2232,7) fields(2232,14) under(2232,20) P12.(2232,22) >From(2233,5) ([\ref=Maj-Dirac-Bose])(2233,7) it(2233,31) follows(2233,39) that(2233,44) interchanging(2233,58) the(2233,62) two(2233,66) chains(2233,73) leads(2234,5) to(2234,8) transformations(2234,24)
+
+[formula](2235,6)
+
+The(2240,3) chiral(2240,10) currents(2240,19) JR,L,(2240,21) and(2240,34) therefore(2240,44) the(2240,48) total(2240,54) (J(2240,56) =(2240,56) JR(2240,56) +(2240,56) JL)(2240,56) and(2241,3) axial(2241,9) (J5(2241,11) =(2241,11) JR(2241,11) -(2241,11) JL)(2241,11) currents(2241,42) change(2241,49) their(2241,55) signs:(2241,62)
+
+[formula](2242,6)
+
+Under(2247,5) P12(2247,7) the(2247,26) scalar(2247,33) field(2247,39) Φ(2247,41) =(2247,41) φR(2247,41) +(2247,41) φL(2247,41) and(2247,68) its(2247,72) dual(2247,77) counterpart(2248,11) Θ(2249,1) =(2249,1) -(2249,1) φR(2249,1) +(2249,1) φL(2249,1) transform(2249,38) as(2249,41) follows:(2249,50)
+
+[formula](2250,6)
+
+Notice(2254,6) that(2254,11) the(2254,15) symmetry(2254,24) properties(2254,35) of(2254,38) r.h.sides(2254,48) of(2254,51) ([\ref=cos-Maj])and(2254,53) ([\ref=sin-Maj])(2255,1) are(2255,19) consistent(2255,30) with(2255,35) ([\ref=P-12-Phi-Theta]).(2255,37)
+
+Bosonization(2257,24) of(2257,27) products(2257,36) of(2257,39) order(2257,45) and(2257,49) disorder(2257,58) operators(2257,68)
+
+Starting(2259,8) with(2259,13) the(2259,17) Jordan-Wigner(2259,32) transformation(2259,47) for(2259,51) two(2259,55) QI(2259,58) spin(2259,63) chains,(2259,71) which(2260,5) can(2260,9) be(2260,12) summarised(2260,23) as(2260,26) follows(2260,34)
+
+[formula](2261,6)
+
+here(2272,4) we(2272,7) derive(2272,14) bosonized(2272,24) expressions(2272,36) for(2272,40) products(2272,49) of(2272,52) Ising(2272,58) fields(2272,65) belonging(2272,75) to(2272,78) different(2273,9) chains.(2273,17)
+
+[formula](2277,1) μz1,n(2277,23) +(2277,23) 1(2277,23) /(2277,23) 2(2277,23) ~(2277,23) μz2,n(2277,23) +(2277,23) 1(2277,23) /(2277,23) 2~(2277,23) .(2277,23) Using(2278,5) the(2278,9) lattice(2278,17) definition(2278,28) ([\ref=b1]),(2278,30) we(2278,43) have:(2278,49)
+
+[formula](2279,6)
+
+There(2284,5) are(2284,9) many(2284,14) ways(2284,19) to(2284,22) exponentiate(2284,35) the(2284,39) product(2284,47) in(2284,50) ([\ref=mumu-1]),(2284,52) the(2284,70) naive(2284,76) assumption(2285,10) would(2286,5) be(2286,8) to(2286,11) use(2286,15) the(2286,19) identity(2286,28)
+
+[formula](2287,2)
+
+and(2290,3) then(2290,8) replace(2290,16) in(2290,19) the(2290,23) exponential(2290,35) σx(2290,37) by(2290,49) [formula].(2290,51) This(2290,77) will(2290,82) bring(2290,88) us(2291,2) to(2292,2) a(2292,4) phase(2292,10) proportional(2292,23) to(2292,26)
+
+[formula](2293,2)
+
+which,(2296,6) in(2296,9) the(2296,13) continuum(2296,23) limit,(2296,30) reduces(2296,38) to(2296,41)
+
+[formula](2297,2)
+
+According(2300,9) to(2300,12) ([\ref=cos-Maj]),(2300,14) the(2300,33) integrand(2300,43) represents(2300,54) a(2300,56) bosonic(2300,64) cosine(2300,71) operator,(2301,9) which(2302,5) is(2302,8) not(2302,12) what(2302,17) we(2302,20) would(2302,26) like(2302,31) to(2302,34) have(2302,39) for(2302,43) practical(2302,53) purposes.(2302,63) To(2303,2) get(2303,6) a(2303,8) better(2303,15) representation,(2303,31) one(2303,35) has(2303,39) first(2303,45) to(2303,48) rearrange(2303,58) the(2303,62) four(2303,67) Majorana(2303,76) fields(2304,6) in(2304,9) the(2305,3) product(2305,11) σx1jσx2j:(2305,13)
+
+[formula](2306,6)
+
+It(2310,2) is(2310,5) readily(2310,13) seen(2310,18) that(2310,23) a(2310,25) product(2310,33) of(2310,36) two(2310,40) local(2310,46) Majorana(2310,55) fields,(2310,63) defined(2310,71) on(2310,74) the(2310,78) lattice,(2311,8) can(2312,3) be(2312,6) represented(2312,18) as(2312,21)
+
+[formula](2313,6)
+
+Therefore(2316,9)
+
+[formula](2317,6)
+
+Now(2322,3) we(2322,6) pass(2322,11) to(2322,14) the(2322,18) continuum(2322,28) limit(2322,34) by(2322,37) making(2322,44) chiral(2322,51) rotation(2322,60) ([\ref=chiral-rot2])(2322,62) and(2323,3) using(2323,9) ([\ref=cur-R]),(2323,11) ([\ref=cur-L]):(2323,26)
+
+[formula](2324,6)
+
+The(2330,3) l.h.s.(2330,10) of(2330,13) this(2330,18) relation(2330,27) is(2330,30) symmetric(2330,40) under(2330,46) P12,(2330,48) so(2330,67) must(2330,72) the(2331,3) r.h.side.(2331,13) As(2331,16) follows(2331,24) from(2331,29) ([\ref=P-12-Phi-Theta]),(2331,31) under(2332,5) P12(2332,7) the(2332,26) field(2332,32) Φ(2332,34) changes(2332,47) its(2332,51) sign.(2332,57) So(2333,2) the(2333,6) sign(2333,11) ambiguity(2333,21) in(2333,24) ([\ref=mumu-intermed1])(2333,26) is(2333,50) resolved(2333,59) by(2333,62) replacing(2334,9) the(2334,13) phase(2334,19) exponential(2334,31) by(2334,34) a(2334,36) cosine:(2334,44)
+
+[formula](2335,6)
+
+[formula](2341,1) σz1,n(2341,23) +(2341,23) 1(2341,23) /(2341,23) 2(2341,23) ~(2341,23) σz2,n(2341,23) +(2341,23) 1(2341,23) /(2341,23) 2.~(2341,23) Using(2342,5) ([\ref=b1]),(2342,7) we(2342,20) have:(2342,26)
+
+[formula](2343,6)
+
+With(2352,4) the(2352,8) representation(2352,23) ([\ref=mumu-fin])(2352,25) at(2352,43) hand,(2352,49) we(2353,2) only(2353,7) need(2353,12) to(2353,15) pass(2353,20) to(2353,23) the(2353,27) continuum(2353,37) limit(2353,43) in(2353,46) ζ1nζ2n(2353,48) and(2354,3) then(2354,8) make(2354,13) use(2354,17) of(2354,20) proper(2354,27) operator(2354,36) product(2354,44) expansions.(2354,56) We(2354,59) have:(2354,65)
+
+[formula](2355,6)
+
+So(2363,2)
+
+[formula](2364,6)
+
+Picking(2369,7) up(2369,10) the(2369,14) most(2369,19) relevant(2369,28) operators(2369,38) in(2369,41) the(2369,45) following(2369,55) OPE(2369,59)
+
+[formula](2370,6)
+
+one(2379,3) finds(2379,9) that(2379,14)
+
+[formula](2380,6)
+
+Intending(2386,9) to(2386,12) keep(2386,17) duality(2386,25) among(2386,31) ([\ref=ss-int])(2386,33) and(2386,50) ([\ref=mumu-fin])(2386,52) we(2387,2) set(2387,6)
+
+[formula](2388,6)
+
+and(2391,3) finally(2391,11) obtain:(2391,19)
+
+[formula](2392,6)
+
+Notice(2398,6) the(2398,10) important(2398,20) role(2398,25) of(2398,28) the(2398,32) Klein(2398,38) product(2398,46) κ1κ2.(2398,48) The(2399,3) l.h.s.(2399,10) of(2399,13) ([\ref=ss-fin])(2399,15) is(2399,31) P12-symmetric(2399,33) while(2399,64) in(2400,2) the(2400,6) r.h.side(2400,15) [formula](2400,17) is(2400,45) antisymmetric(2400,59) (see(2401,4) ([\ref=P-12-Phi-Theta])).(2401,6) So(2402,2) the(2402,6) r.h.s.(2402,13) of(2402,16) ([\ref=ss-fin])(2402,18) is(2402,34) symmetric(2402,44) just(2402,49) due(2402,53) to(2402,56) the(2403,3) presence(2403,12) of(2403,15) κ1κ2.(2403,17) If(2403,39) we(2403,42) had(2403,46) replaced(2403,55) κ1κ2(2403,57) by(2404,2) a(2404,4) constant,(2404,14) [formula],(2404,16) we(2405,2) would(2405,8) obtain(2405,15)
+
+[formula](2406,2)
+
+In(2409,2) this(2409,7) representation,(2409,23) the(2409,27) only(2409,32) way(2409,36) to(2410,2) ensure(2410,9) the(2410,13) P12-symmetry(2410,15) would(2410,45) be(2410,48) to(2410,51) impose(2411,6) a(2411,8) constraint(2411,19) that(2411,24) identifies(2411,35) Φ(2411,37) and(2411,46) -(2411,48) Φ,(2411,48) in(2411,59) which(2411,65) case(2411,70) the(2412,3) scalar(2412,10) field(2412,16) Φ(2412,18) would(2412,29) transform(2412,39) to(2412,42) an(2412,45) orbifold.(2412,55)
+
+[formula](2415,1) σz1nμz2,n(2415,23) +(2415,23) 1(2415,23) /(2415,23) 2.~(2415,23) First(2416,5) we(2416,8) represent(2416,18) σz1nμz2,n(2416,20) +(2416,20) 1(2416,20) /(2416,20) 2(2416,20) as(2416,55)
+
+[formula](2417,2)
+
+The(2422,3) continuum(2422,13) limit(2422,19) for(2422,23) second(2422,30) product(2422,38) has(2422,42) already(2422,50) been(2423,4) found(2423,10) (see(2423,15) Eq.([\ref=mumu-fin])).(2423,20) The(2424,3) first(2424,9) product(2424,17) reduces(2424,25) to(2424,28) a(2424,30) Majorana(2424,39) field:(2424,46) [formula](2425,1) In(2428,2) the(2428,6) continuum(2428,16) limit,(2428,23) with(2428,28) relation(2428,37) ([\ref=alpha-vs-a0])(2428,39) taken(2428,63) into(2428,68) account,(2428,77)
+
+[formula](2429,6)
+
+So(2434,2)
+
+[formula](2435,6)
+
+Making(2441,6) use(2441,10) of(2441,13) the(2441,17) following(2441,27) OPE(2441,31)
+
+[formula](2442,6)
+
+we(2448,2) arrive(2448,9) at(2448,12) the(2448,16) result:(2448,24)
+
+[formula](2449,6)
+
+[formula](2456,1) μz1,n(2456,23) +(2456,23) 1(2456,23) /(2456,23) 2σz2n.~(2456,23) Quite(2457,5) similarly(2457,15) one(2457,19) finds(2457,25) that(2457,30)
+
+[formula](2458,6)
+
+Using(2463,5) ([\ref=P-12-Phi-Theta]),(2463,7) we(2463,32) see(2463,36) that(2464,4) under(2464,10) P12(2464,12) the(2464,31) r.h.sides(2464,41) of(2464,44) Eqs.([\ref=smu-fin])(2464,50) and(2464,68) ([\ref=mus-fin])(2465,1) indeed(2466,6) transform(2466,16) to(2466,19) each(2466,24) other.(2466,31)
+
+More(2470,13) on(2470,16) lattice(2470,24) fermions(2470,33)
+
+An(2473,2) alternative(2473,14) way(2473,18) to(2473,21) bosonize(2473,30) the(2473,34) QAT(2473,38) model,(2473,45) is(2473,48) to(2473,51) pass(2473,56) through(2473,64) a(2473,66) mapping(2474,7) onto(2474,12) spinless(2474,21) fermions,(2474,31) and(2474,35) bosonize(2474,44) the(2474,48) latter.(2474,56)
+
+We(2476,2) start(2476,8) by(2476,11) the(2476,15) quantum(2476,23) Ising(2476,29) model(2476,35) ([\ref=QIM]).(2476,37) By(2476,51) means(2477,5) of(2477,8) the(2477,12) following(2477,22) unitary(2477,30) transformation(2477,45)
+
+[formula](2478,6)
+
+the(2482,3) Hamiltonian(2482,15) ([\ref=QIM])(2482,17) transforms(2482,38) onto(2482,43)
+
+[formula](2483,6)
+
+We(2491,2) now(2491,6) consider(2491,15) the(2491,19) following(2491,29) quantum(2491,37) Ashkin-Teller(2491,52) Hamiltonian(2491,64) of(2492,2) two-coupled(2492,14) Ising(2492,20) chains(2492,27)
+
+[formula](2493,6)
+
+where(2498,5) HQI's(2498,7) are(2498,20) Ising(2498,26) Hamiltonians(2498,39) [see(2498,-2147483648) Eq.([\ref=HIsing])](2498,49) for(2499,3) two(2499,7) spin(2499,12) species,(2499,21) σ1(2499,23) and(2499,36) σ2,(2499,38) and(2499,52)
+
+[formula](2500,6)
+
+is(2506,2) the(2506,6) coupling(2506,15) term.(2506,21) For(2507,3) each(2507,8) spin(2507,13) species(2507,21) we(2507,24) introduce(2507,34) Majorana's(2507,45) fermions.(2507,55) In(2507,58) order(2508,5) to(2508,8) make(2508,13) σ1(2508,15) and(2508,28) σ2(2508,30) commute(2508,47) we(2508,50) multiply(2508,59) each(2509,4) Majorana's(2509,15) fermion(2509,23) for(2509,27) the(2509,31) chain(2509,37) 1(2509,39) by(2509,42) another(2509,50) Majorana(2509,59) κ1,(2510,1) and(2510,15) for(2510,19) chain(2510,25) 2(2510,27) by(2510,30) κ2.(2510,32) That(2510,47) is,(2510,51) if(2510,54) a(2510,56) =(2510,56) 1,2,(2510,56) we(2511,2) define(2511,9)
+
+[formula](2512,6)
+
+as(2518,2) well(2518,7) as(2518,10) their(2518,16) R,L(2518,18) components(2518,33)
+
+[formula](2519,6)
+
+Let(2525,3) us(2525,6) concentrate(2525,18) for(2525,22) the(2525,26) moment(2525,33) onto(2525,38) the(2525,42) two(2525,46) Ising(2525,52) Hamiltonians,(2525,66) which(2525,72) are(2526,3) bilinear(2526,12) in(2526,15) the(2526,19) Majorana(2526,28) fermions.(2526,38) We(2526,41) notice(2526,48) the(2526,52) following(2526,62) general(2527,7) property(2527,16) (p,q(2527,18) =(2527,18) R,L)(2527,18)
+
+[formula](2528,6)
+
+where(2535,5) we(2535,8) define(2535,15) the(2535,19) Fermi(2535,25) operators(2535,35)
+
+[formula](2536,6)
+
+Therefore,(2540,10) through(2540,18) ([\ref=HIsing]),(2540,20) we(2540,37) find(2540,42)
+
+[formula](2541,6)
+
+The(2553,3) analogy(2553,11) with(2553,16) a(2553,18) fermionic(2553,28) model(2553,34) on(2553,37) a(2553,39) lattice(2553,47) is(2553,50) already(2553,58) apparent.(2553,68) Let(2554,3) us(2554,6) make(2554,11) this(2554,16) analogy(2554,24) more(2554,29) firm.(2554,35) We(2554,38) consider(2554,47) the(2554,51) following(2554,61) spinless(2555,8) fermion(2555,16) model(2555,22) on(2555,25) a(2555,27) lattice(2555,35) of(2555,38) 2L(2555,40) sites(2555,49)
+
+[formula](2556,6)
+
+We(2562,2) make(2562,7) the(2562,11) following(2562,21) unitary(2562,29) transformation(2562,44)
+
+[formula](2563,6)
+
+where(2567,5) the(2567,9) right-(2567,16) and(2567,20) left-moving(2567,32) fermions(2567,41) are(2567,45) defined(2567,53) on(2567,56) a(2567,58) lattice(2567,66) of(2567,69) half(2568,4) the(2568,8) number(2568,15) of(2568,18) sites,(2568,25) i.e.(2568,30) L.(2568,32) The(2568,39) Hamiltonian(2568,51) becomes(2568,59)
+
+[formula](2569,6)
+
+Let(2579,3) us(2579,6) add(2579,10) to(2579,13) this(2579,18) Hamiltonian(2579,30) a(2579,32) staggered(2579,42) hopping(2579,50)
+
+[formula](2580,6)
+
+We(2585,2) notice(2585,9) that(2585,14) ([\ref=Hsf])(2585,16) plus(2585,31) ([\ref=dHsf])(2586,1) coincide(2586,21) with(2586,26) ([\ref=2Ising])(2586,28) if(2586,44) 2J(2586,46) =(2586,46) t(2586,46) and(2586,57) 2(ΔJ(2586,59) -(2586,59) J)(2586,59) =(2586,59) Δ.(2586,59)
+
+Now(2589,3) we(2589,6) focus(2589,12) on(2589,15) the(2589,19) coupling(2589,28) term(2589,33) ([\ref=HAT]),(2589,35) which,(2589,53) in(2589,56) terms(2589,62) of(2589,65) Majorana's(2590,10) fermions(2590,19) reads(2590,25)
+
+[formula](2591,2)
+
+Transforming(2595,12) into(2595,17) right-(2595,24) and(2595,28) left-moving(2595,40) Majorana(2595,49) fermions(2595,58) we(2595,61) find(2595,66) that(2595,71)
+
+[formula](2596,6)
+
+where(2604,5) we(2604,8) used(2604,13) ([\ref=def:fermion]),(2604,15) and(2604,38) we(2604,41) defined(2604,49) [formula](2605,1) (p(2605,40) =(2605,40) R,L)(2605,40) as(2605,51) well(2605,56) as(2605,59) [formula].(2606,1) We(2607,2) can(2607,6) equivalently(2607,19) show(2607,24) that(2607,29)
+
+[formula](2608,2)
+
+Therefore(2611,9) the(2611,13) coupling(2611,22) term(2611,27) can(2611,31) be(2611,34) written(2611,42) as(2611,45)
+
+[formula](2612,6)
+
+On(2619,2) the(2619,6) other(2619,12) hand(2619,17) let(2619,21) us(2619,24) consider(2619,33) the(2619,37) simplest(2619,46) nearest-neighbour(2619,64) interaction(2620,11) for(2620,15) spinless(2620,24) fermions,(2620,34) namely(2620,41)
+
+[formula](2621,2)
+
+This(2625,4) interaction(2625,16) term(2625,21) turns(2625,27) out(2625,31) to(2625,34) be(2625,37) equivalent(2625,48) to(2625,51) ([\ref=Hint]),(2625,53) apart(2626,5) from(2626,10) a(2626,12) chemical(2626,21) potential(2626,31) term,(2626,37) provided(2626,46) 4K(2626,48) =(2626,48) -(2626,48) V.(2626,48) Notice(2627,6) that,(2627,12) if(2627,15) one(2627,19) considers(2627,29) an(2627,32) Ashkin-Teller(2627,46) coupling(2627,55) which(2627,61) is(2627,64) not(2628,3) self-dual,(2628,14) e.g.(2628,19)
+
+[formula](2629,2)
+
+this(2634,4) translates(2634,15) into(2634,20) a(2634,22) staggered(2634,32) interaction(2634,44) for(2634,48) the(2634,52) spinless(2634,61) fermion(2634,69) model.(2635,6) This(2635,11) interaction,(2635,24) even(2635,29) without(2635,37) an(2635,40) explicit(2635,49) dimerization,(2635,63) is(2635,66) able(2636,4) to(2636,7) gap(2636,11) the(2636,15) fermionic(2636,25) spectrum,(2636,35) thus(2636,40) showing(2636,48) the(2636,52) importance(2636,63) of(2636,66) self-duality,(2637,13) even(2637,18) at(2637,21) the(2637,25) level(2637,31) of(2637,34) the(2637,38) coupling(2638,8) term(2638,13) ([\ref=HAskin]),(2638,15) to(2638,32) get(2638,36) a(2638,38) critical(2638,47) behaviour.(2638,58)
+
+Therefore(2640,9) we(2640,12) have(2640,17) shown(2640,23) the(2640,27) equivalence(2640,39) between(2640,47) a(2640,49) model(2640,55) of(2640,58) two(2640,62) coupled(2640,70) Ising(2641,5) chains(2641,12) in(2641,15) a(2641,17) transverse(2641,28) field,(2641,35) given(2641,41) by(2641,44) the(2641,48) Hamiltonian(2641,60) ([\ref=HAskin]),(2642,1) and(2642,19) a(2642,21) model(2642,27) of(2642,30) spinless(2642,39) fermion(2642,47) with(2642,52) nearest(2642,60) neighbour(2643,9) interaction(2643,21) and(2643,25) dimerized(2643,35) hopping.(2643,44)
+
+An(2645,2) interesting(2645,14) point(2645,20) in(2645,23) this(2645,28) respect(2645,36) regards(2645,44) quantum(2645,52) numbers.(2645,61) The(2645,65) spinless(2645,74) fermion(2646,7) model(2646,13) has(2646,17) for(2646,21) instance(2646,30) conserved(2646,40) number(2646,47) of(2646,50) particle.(2646,60) In(2646,63) ρ(2646,65) is(2647,2) the(2647,6) density,(2647,15) in(2647,18) the(2647,22) reduced(2647,30) chain(2647,36) we(2647,39) must(2647,44) have(2647,49) that(2647,54)
+
+[formula](2648,6)
+
+is(2652,2) conserved.(2652,13) On(2652,16) the(2652,20) other(2652,26) hand(2652,31)
+
+[formula](2653,6)
+
+which,(2657,6) in(2657,9) terms(2657,15) of(2657,18) Ising(2657,24) variables,(2657,35) implies(2657,43) the(2657,47) conservation(2657,60) of(2657,63) a(2657,65) very(2657,70) non-local(2658,9) operator,(2658,19) which(2658,25) includes(2658,34) the(2658,38) spins(2658,44) and(2658,48) their(2658,54) dual(2658,59) counterparts.(2658,73)
+
+Operator(2660,20) identities(2660,31)
+
+We(2661,2) can(2661,6) build(2661,12) up(2661,15) several(2661,23) operator(2661,32) identities(2661,43) in(2661,46) the(2661,50) lattice(2661,58) representation.(2662,15)
+
+The(2665,13) simplest(2665,22) one(2665,26) is(2665,29) obtained(2665,38) by(2665,41) the(2665,45) identity(2665,54)
+
+[formula](2666,6)
+
+which(2672,5) relates(2672,13) the(2672,17) density(2672,25) operator(2672,34) of(2672,37) the(2672,41) spinless(2672,50) fermions(2672,59) to(2672,62) a(2673,1) particular(2673,12) bilinear(2673,21) of(2673,24) Majorana's(2673,35) fermions.(2673,45)
+
+The(2675,14) other(2675,20) identity(2675,29) derives(2675,37) from(2675,42) the(2675,46) equality(2675,55)
+
+[formula](2676,6)
+
+which(2681,5) relates(2681,13) the(2681,17) charge(2681,24) density(2681,32) wave(2681,37) operator(2681,46) of(2681,49) the(2681,53) spinless(2682,8) fermions(2682,17) to(2682,20) the(2682,24) Majorana's(2682,35) fermions.(2682,45)
+
+The(2684,14) last(2684,19) identity(2684,28) is(2684,31) obtained(2684,40) by(2684,43) the(2684,47) equality(2684,56)
+
+[formula](2685,6)
+
+which(2690,5) provides(2690,14) a(2690,16) relation(2690,25) between(2690,33) the(2690,37) dimerization(2690,50) operator(2690,59) and(2690,63) the(2690,67) Majorana's(2691,10) fermions.(2691,20)
+
+Mean-field(2696,19) treatment(2696,29) of(2696,32) the(2696,36) (σ,τ)-model(2696,38)
+
+In(2699,2) oder(2699,7) to(2699,10) devise(2699,17) an(2699,20) appropriate(2699,32) mean-field(2699,43) scheme,(2699,51) let(2700,3) us(2700,6) formally(2700,15) rewrite(2700,23) Hamiltonian(2700,35) ([\ref=H-new-rep])(2700,37) as(2700,56)
+
+[formula](2701,6)
+
+Here(2706,4) the(2706,8) two(2706,12) terms(2706,18) of(2706,21) the(2706,25) mean-field(2706,36) Hamiltonian(2706,48) are:(2706,53)
+
+[formula](2707,6)
+
+where(2715,5)
+
+[formula](2716,6)
+
+The(2723,3) coupling(2723,12) between(2723,20) the(2723,24) fluctuations,(2723,38) is(2724,2) given(2724,8) by(2724,11)
+
+[formula](2725,6)
+
+In(2731,2) the(2731,6) leading(2731,14) approximation,(2731,29) fluctuations(2731,42) described(2731,52) by(2731,55) ([\ref=staufluc])(2731,57) are(2732,3) neglected,(2732,14) and(2732,18) the(2732,22) σ(2732,24) and(2732,35) τ(2732,37) degrees(2732,50) of(2732,53) freedom(2732,61) decouple.(2732,71) We(2733,2) notice(2733,9) that(2733,14) the(2733,18) parameter(2733,28) h(2733,30) appears(2733,40) only(2733,45) in(2733,48) Hmf[τ](2733,50) where(2733,69) it(2734,2) plays(2734,8) the(2734,12) role(2734,17) of(2734,20) an(2734,23) effective(2734,33) longitudinal(2734,51) field.(2734,59) Therefore(2734,69) the(2735,3) model(2736,5) ([\ref=mfa-tau])(2736,7) is(2736,24) a(2736,26) quantum(2736,34) counterpart(2736,46) of(2736,49) a(2736,51) 2D(2736,54) Ising(2736,60) model(2736,66) in(2736,69) a(2737,1) nonzero(2737,9) external(2737,18) field(2737,24) which(2737,30) is(2737,33) known(2737,39) to(2737,42) be(2737,45) always(2737,52) noncritical.(2737,65) Thus,(2737,71) as(2738,2) expected,(2738,12) the(2739,3) τ-chain(2739,5) is(2739,19) always(2739,26) gapped.(2739,34) The(2740,3) condition(2740,13) for(2740,17) the(2740,21) σ-chain(2740,23) to(2740,39) be(2740,42) critical(2740,51) then(2740,56) reads:(2740,63)
+
+[formula](2741,6)
+
+Despite(2747,7) the(2747,11) fact(2747,16) that(2747,21) the(2747,25) Ising(2747,31) model(2747,37) in(2748,2) the(2748,6) field(2748,12) is(2748,15) supposed(2748,24) to(2748,27) be(2748,30) integrable(2748,41) in(2749,2) the(2749,6) continuum(2749,16) limit(2749,22) (see(2749,27) references(2749,38) in(2749,41) [\cite=MC]),(2749,47) the(2750,3) explicit(2750,12) expectation(2750,24) values(2750,31) of(2751,2) the(2751,6) τ(2751,8) operators(2751,23) appearing(2751,33) in(2751,36) ([\ref=crit-cond])(2751,38) are(2751,58) not(2751,62) known.(2751,69) To(2752,2) make(2752,7) further(2752,15) analytic(2752,24) progress(2752,33) possible,(2752,43) we(2752,46) choose(2752,53) a(2753,1) special(2753,9) value(2753,15) of(2753,18) the(2753,22) field(2753,28) rescaling(2753,38) parameter(2753,48) K,(2754,1)
+
+[formula](2755,6)
+
+at(2759,2) which(2759,8) Jτ(2759,10) =(2759,10) 0,(2759,10) and(2759,28) interaction(2759,40) between(2759,48) the(2759,52) neighbouring(2759,65) τ-spins(2759,67) in(2760,2) Hmf[τ](2760,4) vanishes.(2760,27) This(2760,32) trivialises(2760,44) the(2760,48) τ-model(2760,50) and(2760,65) leads(2760,71) to(2760,74)
+
+[formula](2761,6)
+
+Self-consistency(2766,16) requires(2766,25) the(2766,29) knowledge(2766,39) of(2766,42) the(2766,46) averages(2766,55) related(2766,63) to(2766,66) the(2766,70) σ-model.(2767,1) Specialising(2767,28) to(2767,31) the(2767,35) critical(2767,44) point(2767,50) and(2767,54) making(2767,61) use(2767,65) of(2767,68) the(2767,72) known(2767,78) results(2768,7) [\cite=Pf],(2768,13)
+
+[formula](2769,6)
+
+we(2772,2) obtain(2772,9)
+
+[formula](2773,6)
+
+Then(2777,4) the(2777,8) condition(2777,18) ([\ref=crit-cond])(2777,20) reduces(2777,44) to(2777,47)
+
+[formula](2778,6)
+
+This(2782,4) equation(2782,13) determines(2782,24) the(2782,28) critical(2782,37) value(2782,43) of(2782,46) h(2782,48) at(2782,53) a(2782,55) given(2782,61) ratio(2782,67) Δ(2783,1) /(2783,1) J.(2783,1) Introducing(2784,11) the(2784,15) quantity(2784,24)
+
+[formula](2785,2)
+
+we(2788,2) obtain(2788,9) a(2788,11) quadratic(2788,21) equation(2788,30)
+
+[formula](2789,2)
+
+whose(2792,5) solution(2792,14) determines(2792,25) the(2792,29) critical(2792,38) value(2792,44) of(2792,47) h:(2792,49)
+
+[formula](2793,6)
+
+The(2799,3) requirement(2799,15) that(2799,20) the(2799,24) r.h.side(2799,33) of(2799,36) ([\ref=crit-h])(2799,38) is(2799,54) positive(2799,63) yields(2799,70) a(2799,72) restriction(2800,11) upon(2800,16) Δ:(2800,18)
+
+[formula](2801,6)
+
+Recall(2804,6) that(2804,11) we(2804,14) already(2804,22) assumed(2804,30) that(2804,35) at(2804,38) h(2804,40) =(2804,40) 0(2804,40) the(2804,50) two(2804,54) QI(2804,57) chains(2804,64) of(2805,2) the(2805,6) QAT(2805,10) model(2805,16) are(2805,20) disordered:(2805,32) Δ(2805,34) >(2805,34) J.(2805,34) The(2806,3) restriction(2806,15) ([\ref=restr-ising])(2806,17) tells(2807,5) us(2807,8) that,(2807,14) for(2807,18) the(2807,22) Ising(2807,28) criticality(2807,40) to(2807,43) be(2807,46) reached(2807,54) at(2807,57) some(2807,62) critical(2807,71) value(2807,77) of(2808,2) h,(2808,4) the(2808,11) original(2808,20) disordered(2808,31) σ1(2808,33) and(2808,46) σ2(2808,48) chains(2808,64) should(2808,71) be(2808,74) far(2809,3) enough(2809,10) from(2809,15) their(2809,21) original(2809,30) critical(2809,39) point.(2809,46) In(2809,49) fact,(2809,55) as(2809,58) follows(2809,66) from(2809,71) ([\ref=restr-ising]),(2810,1) the(2810,24) value(2810,30) of(2810,33) the(2810,37) Majorana(2810,46) mass,(2810,52) when(2810,57) estimated(2810,67) as(2810,70) m(2811,1) ~(2811,1) 2(Δ(2811,1) -(2811,1) J)(2811,1) ~(2811,1) 4J(2811,1) /(2811,1) π,(2811,1) turns(2811,41) out(2811,45) to(2811,48) be(2811,51) of(2811,54) the(2811,58) order(2811,64) of(2811,67) the(2811,71) ultraviolet(2812,11) cutoff.(2812,19) This(2812,24) estimation(2812,35) reflects(2812,44) the(2812,48) already(2812,56) mentioned(2812,66) fact(2812,71) that(2812,76) the(2813,3) DM(2813,6) transition(2813,17) is(2813,20) indeed(2814,6) not(2814,10) a(2814,12) weak-coupling(2814,26) one(2814,30) from(2814,35) the(2814,39) standpoint(2814,50) of(2814,53) the(2814,57) DQAT(2815,4) model.(2815,11)
+
+One(2817,3) could,(2817,10) in(2817,13) principle,(2817,24) perturbatively(2817,39) calculate(2817,49) the(2817,53) fluctuation(2818,11) corrections,(2818,24) i.e.(2818,29) those(2818,35) originating(2818,47) from(2818,52) ([\ref=staufluc]),(2818,54) to(2819,2) the(2819,6) criticality(2819,18) condition.(2819,29) As(2820,2) the(2820,6) model(2820,12) is(2820,15) only(2820,20) tractable(2820,30) under(2821,5) fine(2821,10) tuning(2821,17) ([\ref=special-K])(2821,19) of(2821,38) the(2821,42) parameter(2821,52) K,(2821,54) that(2822,4) is(2822,7) not(2822,11) expected(2822,20) to(2822,23) generalise(2822,34) the(2822,38) qualitative(2822,50) picture(2822,58) obtained(2822,67) in(2822,70) the(2822,74) mean-field(2823,10) approximation.(2823,25)
+
+Correlation(2826,20) functions(2826,30)
+
+Let(2829,3) us(2829,6) start(2829,12) calculating(2829,24) the(2829,28) Fourier(2829,36) transform(2829,46) of(2829,49) D(R)(ω,p),(2829,51) given(2830,5) by(2830,8) ([\ref=ret]),(2830,10) with(2831,4) the(2831,8) remark(2831,15) that(2831,20) using(2831,26) the(2831,30) Bessel(2831,37) functions(2832,9) (despite(2832,18) some(2832,23) convenient(2832,34) Fourier(2832,42) transforms)(2832,54) is(2833,2) beyond(2833,14) the(2833,18) accuracy.(2833,27) The(2833,33) analytic(2833,42) properties(2833,53) (and(2834,4) the(2834,8) issue(2834,14) of(2834,17) coherent(2834,26) particle(2834,35) poles)(2834,42) should(2834,49) not(2834,53) depend(2835,6) on(2835,9) fine(2835,14) details(2835,22) of(2835,25) the(2835,29) correlators(2835,41) at(2835,44) r(2836,1) ~(2836,1) ξ(2836,1) =(2836,1) 1(2836,1) /(2836,1) m.(2836,1) Therefore(2837,9) what(2837,14) one(2837,18) ought(2837,24) to(2837,27) do(2837,30) is(2837,33) to(2837,36) study(2837,42) analytic(2837,51) properties(2838,10) of(2838,13) the(2838,17) integral(2838,26)
+
+[formula](2839,6)
+
+in(2844,2) terms(2844,8) of(2844,11) which(2844,17) the(2844,21) Fourier(2844,29) transforms,(2844,41)
+
+[formula](2845,2)
+
+[formula],(2850,1) [formula],(2850,25) are(2850,54) given(2851,5) by(2851,8)
+
+[formula](2852,6)
+
+In(2859,2) the(2859,6) area(2859,11) of(2859,14) convergence,(2859,27) we(2859,30) have(2859,35) [\cite=GR]:(2859,41)
+
+[formula](2860,6)
+
+where(2865,5) F(a,b;c;z)(2865,7) stands(2865,25) for(2865,29) the(2865,33) hypergeometric(2865,48) function.(2866,9) The(2867,3) character(2867,13) of(2867,16) the(2867,20) singularity(2867,32) at(2867,35) z(2867,37) =(2867,37) 1(2867,37) can(2867,45) be(2867,48) determined(2868,10) by(2868,13) using(2868,19) appropriate(2868,31) transformation(2868,46) formulas(2869,8) for(2869,12) the(2869,16) hypergeometric(2869,31) functions(2869,41) and(2870,3) the(2870,7) Γ-function(2870,9) doubling(2870,34) formula[\cite=GR]:(2870,42)
+
+[formula](2871,6)
+
+where(2877,5) only(2877,10) the(2877,14) leading,(2877,23) most(2877,28) divergent(2877,38) term(2877,43) is(2877,46) retained.(2878,9)
+
+This(2880,4) calculation(2880,16) explains(2880,25) how(2880,29) the(2880,33) correlation(2880,45) function(2880,54) has(2881,3) a(2881,5) branch(2881,12) cut(2881,16) at(2881,19) the(2881,23) threshold,(2881,34) unless(2881,41) α(2881,43) =(2881,43) 1(2881,43) which,(2882,6) of(2882,9) course,(2882,17) corresponds(2882,29) to(2882,32) the(2882,36) disordered(2882,47) case:(2882,53)
+
+[formula](2883,6)
+
+where(2887,5) the(2887,9) coefficient,(2887,22) as(2887,25) expected,(2887,35) is(2887,38) the(2887,42) same(2888,4) as(2888,7) one(2888,11) finds(2888,17) by(2888,20) Fourier(2888,28) transforming(2888,41) K0(mr)(2888,43)
+
+[formula](2889,2)
+
+Although(2894,8) this(2894,13) calculation(2894,25) is(2894,28) instructive,(2895,12) formula(2895,20) ([\ref=Idiv])(2895,22) doesn't(2895,41) solve(2895,47) all(2895,51) our(2896,3) problems.(2896,13) So,(2897,3) the(2897,7) critical(2897,16) correlation(2897,28) function(2897,37) has(2897,41) nothing(2897,49) to(2898,2) do(2898,5) with(2898,10) the(2898,14) m(2898,16) →(2898,16) 0(2898,16) limit(2898,29) of(2898,32) this(2898,37) formula,(2898,46) as(2899,2) the(2899,6) main(2899,11) contribution(2899,24) to(2899,27) the(2899,31) integral(2899,40) comes(2900,5) from(2900,10) a(2900,12) different(2900,22) spatial(2900,30) domain.(2900,38) Therefore(2901,9) we(2901,12) should(2901,19) rather(2901,26) return(2901,33) to(2901,36) the(2901,40) general(2901,48) formula(2902,7) ([\ref=Igen]),(2903,1) set(2903,17) m(2903,19) =(2903,19) 0(2903,19) there,(2903,30) and(2903,34) analytically(2903,47) continue(2904,8) beyond(2904,15) the(2904,19) convergence(2904,31) domain(2904,38) (-(2905,1) 1(2905,1) /(2905,1) 2(2905,1) <(2905,1) α(2905,1) <(2905,1) 1(2905,1) /(2905,1) 2).(2905,1) The(2906,3) result(2906,10) is(2906,13)
+
+[formula](2907,6)
+
+The(2913,3) correlation(2913,15) function(2913,24) in(2913,27) the(2913,31) disordered(2913,42) phase(2913,48) is(2914,2) also(2914,7) outside(2914,15) the(2914,19) validity(2914,28) of(2914,31) ([\ref=Idiv])(2914,33) and,(2914,49) furthermore,(2915,12) the(2915,16) integral(2915,25) ([\ref=Igen])(2915,27) is(2915,41) logarithmically(2916,15) divergent(2917,9) at(2917,12) the(2917,16) lower(2917,22) limit(2917,28) in(2917,31) this(2917,36) case.(2917,42) It(2917,45) should(2917,52) therefore(2918,9) be(2918,12) regularised.(2918,25) One(2919,3) way(2919,7) to(2919,10) do(2919,13) it(2919,16) is(2919,19) as(2919,22) follows(2919,30) [\cite=GR]:(2919,36)
+
+[formula](2920,6)
+
+This(2931,4) regularisation(2931,19) is,(2931,23) however,(2931,32) not(2931,36) good(2931,41) enough.(2931,49) That(2931,54) is(2932,2) because(2932,10) the(2933,3) integral(2933,12) still(2933,18) diverges(2933,27) in(2933,30) the(2933,34) q(2933,36) →(2933,36) 0(2933,36) limit(2933,49) as(2933,52)
+
+[formula](2934,2)
+
+while(2937,5) the(2937,9) physical(2937,18) regularisation(2937,33) is(2937,36) finite(2937,48) in(2938,2) the(2938,6) q(2938,8) →(2938,8) 0(2938,8) limit(2938,21) and(2938,25) expands(2938,33) as:(2938,37)
+
+[formula](2939,6)
+
+Since(2947,5) different(2947,15) limiting(2947,24) processes(2947,34) must(2947,39) lead(2947,44) to(2947,47) the(2947,51) same(2948,4) result,(2949,7) one(2949,11) can(2949,15) simply(2949,22) substruct(2949,32) the(2949,36) unphysical(2949,47) q(2949,49) →(2949,49) 0(2949,49) divergence(2951,10) from(2951,15) ([\ref=regp]).(2951,17) This(2951,34) leads(2951,40) to(2951,43) the(2951,47) following(2952,9) result(2953,6) for(2953,10) the(2953,14) correlation(2953,26) function(2953,35) (up(2953,39) to(2953,42) an(2953,45) unessential(2954,11) additive(2954,20) constant):(2954,31)
+
+[formula](2955,6)
+
+Turning(2961,7) to(2961,10) the(2961,14) problem(2961,22) of(2961,25) analytic(2961,34) continuation,(2961,48) we(2961,51) recall(2961,58) that,(2961,64) according(2962,9) to(2962,12) the(2962,16) standard(2962,25) approach(2962,34) [\cite=AGD](2962,40)
+
+[formula](2963,2)
+
+in(2966,2) the(2966,6) upper(2966,12) half-plane.(2966,24) Put(2966,28) another(2966,36) way,(2966,41) one(2966,45) has(2966,49) to(2966,52) substitute(2967,10)
+
+[formula](2968,2)
+
+(that(2971,5) is(2971,8) provided(2971,17) the(2971,21) resulting(2971,31) function(2971,40) has(2971,44) no(2971,47) 'accidental'(2972,12) poles(2972,18) and(2972,22) is(2972,25) otherwise(2972,35) regular(2972,43) in(2972,46) the(2972,50) upper(2973,5) half-plane(2974,10) -(2974,12) there(2974,18) is(2974,21) no(2974,24) general(2974,32) solution(2974,41) to(2974,44) the(2974,48) analytic(2975,8) continuation(2975,21) problem.)(2975,31) The(2976,3) resulting(2976,13) function(2976,22) is,(2976,26) by(2976,29) construction,(2976,43) analytic(2976,52) in(2977,2) the(2977,6) upper(2977,12) half-plane(2977,23) and(2977,27) automatically(2977,41) satisfies(2977,51) the(2978,3) Kramers-Kronig(2978,19) relation.(2978,29)
+
+We(2980,2) need(2980,7) to(2980,10) analytically(2980,23) continue(2980,32) formula(2980,40) ([\ref=Idiv]),(2981,1) or(2981,16) equivalently(2981,29) the(2981,33) function(2981,42)
+
+[formula](2982,2)
+
+It(2985,2) is(2985,5) easy(2985,10) to(2985,13) see(2985,17) that(2985,22)
+
+[formula](2986,6)

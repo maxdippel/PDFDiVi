@@ -1,0 +1,940 @@
+[48;5;167marXiv:cond-mat/0001220v1 [cond-mat.stat-mech] 17 Jan 2000[0m
+
+Reducing quasi-ergodicity in a double well potential by Tsallis Monte Carlo simulation
+
+[38;5;1mMasao Iwamatsu†[0mand Yutaka Okabe [90m[formula][0m*Department of Computer Engineering, Hiroshima City University Hiroshima 731-3194, Japan and [90m[formula]Department[0m of Physics, Tokyo Metropolitan University Hachioji, Tokyo 192-0397, Japan
+
+[48;5;167mAbstract[0m
+[48;5;167mA new Monte Carlo scheme based on the system of Tsallis’s generalized statistical mechanics is applied to a simple double well potential[0m
+[48;5;167mto calculate the canonical thermal average of potential energy. Although we observed serious quasi-ergodicity when using the standard[0m
+[48;5;167mMetropolis Monte Carlo algorithm, this problem is largely reduced by[0m
+[48;5;167mthe use of the new Monte Carlo algorithm. Therefore the ergodicity is[0m
+[48;5;167mguaranteed even for short Monte Carlo steps if we use this new canonical Monte Carlo scheme.[0m
+[48;5;167mPACS: 02.70.Lq; 05.70.a[0m
+[48;5;167mKey words: Monte Carlo; Tsallis statistics; double well potential[0m
+
+[48;5;167mPermanent address. E-mail:iwamatsu@ce.hiroshima-cu.ac.jp[0m
+
+[48;5;167m1[0m
+
+[48;5;167m1[0m
+
+Introduction
+
+The ergodic hypothesis is fundamental to statistical mechanics. This hypothesis states that the time average of an observable event equals the phase-space average. In practical application, however, problems can arise in various types of simulations if the system must overcome high energy barriers to reach other regions of phase space. In that case, the length of a simulation needed in order to obtain enough statistical samples of all regions of phase space may be extremely long. In the Monte Carlo simulation, the errors arise as a consequence of the finite length of the Monte Carlo walk. This error can be serious in canonical Monte Carlo sampling, especially at low temperatures. This problem, referred as "quasi-ergodicity" by Valleau and Whittington [90m[\cite=VW],[0m appears even in the simplest double well problem, where the two wells are separated by a large barrier [90m[\cite=FFD].[0m
+
+[38;5;1m‖[0m Recently several authors [90m[\cite=Pe] [\cite=TS] [\cite=AS1][0m have proposed a generalized simulated annealing method to locate the global minimum based on the generalized statistical mechanics proposed by Tsallis [90m[\cite=Ts],[0m which can overcome the slow convergence of the traditional simulated annealing method [90m[\cite=KGV][0m based on the standard Monte Carlo scheme. Subsequently, Andricioaei and Straub have pointed out that their generalized Monte Carlo (Tsallis Monte Carlo) [90m[\cite=AS2][0m method may be used to overcome the quasi-ergodicity appearing in the canonical average at constant temperatures.
+
+[38;5;1m‖[0m In this short note we use a new Monte Carlo scheme [90m[\cite=AS2] [\cite=AS3] [\cite=SA][0m based on Tsallis's generalized statistical mechanics [90m[\cite=TS][0m for the calculation of the thermal average of the potential energy of a simple double well potential at constant temperatures. We examine the performance of this new algorithm designed to overcome the quasi-ergodicity.
+
+[48;5;167m2[0m
+
+A generalized Monte Carlo scheme
+
+In the generalized statistical mechanics proposed by Tsallis [90m[\cite=Ts],[0m a crucial role is played by the generalized entropy Sq defined as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m1 pqi[0m
+[48;5;167mq−1[0m
+[48;5;167mP[0m
+
+[48;5;167m(1)[0m
+
+where q is a real number which characterizes the statistical mechanics, and pi is the probability of states i. This entropy Sq becomes the usual [90m[[0m[38;5;1mGibbsP[0m[90m/[0m[38;5;22mGibbs-[0m[90m][0m Shannon entropy [90m[formula][0m when q 1. By maximizing the [90m[[0m[38;5;1mgen2[0m[90m/[0m[38;5;22mgeneralized[0m[90m][0m [38;5;1meralized[0m [38;5;1m==[0m entropy with the constraints
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;22mwhere εi[0m [48;5;167mX[0m
+
+[48;5;167mpi 1 and[0m
+
+[48;5;167mpqi ǫi const[0m
+
+[48;5;167m(2)[0m
+
+[38;5;1mwhere ǫi[0m is the energy spectrum, the statistical weight for the generalized canonical ensemble characterized by the parameter q is given by the Tsallis weight
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwith[0m
+
+[90m[formula][0m
+
+[90mwhere [formula][0m [48;5;167mh[0m
+[48;5;167mi[0m
+[48;5;167mq[0m
+[48;5;167mln 1 (1 q)βǫi[0m
+[48;5;167mβ(q 1)[0m
+
+[48;5;167m(4)[0m
+
+[38;5;1mwhere ǫi[0m is the generalized energy and [90m[formula][0m is the Lagrange multiplier, which plays the role of the generalized temperature in the Tsallis statistical mechanics. We should note here that the statistical weight is not given by the probability distribution pi but rather by pqi in order to calculate thermal averages, as can be seen in [90m([\ref=eq:2]).[0m The generalized canonical partition function Zq in [90m([\ref=eq:3])[0m is given by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m In the limit q 1, [90m[formula] and [formula][0m where T is the usual temperature [90m[\cite=CT],[0m then the Tsallis weight [90m([\ref=eq:3])[0m becomes the Boltamann weight pi exp [90m[[0m[38;5;1mβǫi[0m[90m/[0m[38;5;22mβεi)[0m[90m][0m Z1 of the usual canonical ensemble.
+
+[38;5;1m‖[0m In this generalized statistical mechanics, Andricioaei and Straub [90m[\cite=AS1][0m have noted that since the average of an observable O is defined by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mpqi Oi[0m [48;5;167m(6)[0m
+
+the detailed balance condition should be written as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(7)[0m
+
+where Wij is the element of the transition matrix. Based on this observation, they [90m[\cite=AS1][0m pointed out that the generalized Monte Carlo algorithm [90m[\cite=TS][0m originally proposed by Penna [90m[\cite=Pe][0m in his generalized simulated annealing method cannot satisfy the detailed balance. They [90m[\cite=AS1][0m then proposed a new generalized Monte Carlo scheme, where the acceptance probability p of the Monte Carlo move is given by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m3[0m
+
+which has a similar form to the familiar Metropolis algorithm [90m[\cite=MRRTT][0m
+
+[90m[formula][0m
+
+[90mwhere [formula][0m [48;5;167m(9)[0m
+
+[38;5;1mwhere ∆ǫ[0m is the increase of the generalized energy [90m([\ref=eq:4]) while Δε[0m is that of the usual energy. Andricioaei and Straub [90m[\cite=AS1][0m combined this Monte Carlo algorithm with the usual simulated annealing technique [90m[\cite=KGV][0m to optimize the conformation of tetrapeptides. They showed that their algorithm is more effective than the standard simulated annealing based on the usual molecular dynamics or Monte Carlo methods.
+
+[38;5;1m‖[0m Recently, Andricioaei and Straub [90m[\cite=AS2] [\cite=AS3][0m pointed out that their generalized Monte Carlo scheme [90m[\cite=AS1][0m for simulated annealing can also be used to calculate the standard canonical ensemble averages at constant temperatures
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(10)[0m
+
+[48;5;167mexp(βǫi[0m using the general rule of the importance sampling [90m[\cite=VW][0m
+
+[90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mfi[0m [48;5;167mX fi[0m [48;5;167mgi[0m
+
+[48;5;167mgi[0m
+
+[48;5;167m(11)[0m
+
+Then, equation [90m([\ref=eq:9])[0m can be calculated using the generalized Monte Carlo scheme from
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mP[0m
+
+[48;5;167mOi exp βǫi βǫi[0m
+
+[48;5;167mP[0m
+
+[48;5;167mexp βǫi βǫi[0m
+[48;5;167mO exp βǫ βǫ[0m
+[48;5;167mexp βǫ βǫ[0m
+
+[48;5;167mexp −βǫi[0m
+
+[48;5;167mexp(βǫi[0m [48;5;167m>q[0m
+
+[48;5;167m>q[0m
+
+[48;5;167m(12)[0m
+
+[48;5;167m(13)[0m
+
+where the generalized average q is defined by [90m([\ref=eq:6]).[0m In practice, the equilibrium thermal average in the standard canonical ensemble can be calculated by conducting these "generalized" Monte Carlo steps and accumulating the samples by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+where the sum j runs over to the generalized Tsallis Monte Carlo steps produced by eq.[90m[\ref=eq:7])[0minstead of the usual Metropolis algorithm [90m([\ref=eq:8]).[0m The equation [90m([\ref=eq:12])[0m [38;5;1m(14)[0m [38;5;1m==[0m is a generalized expression, and we may choose [90m[formula].[0m Then, the equation [90m([\ref=eq:12])[0m reduces to
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mexp β (ǫj ǫj[0m [48;5;167m(15)[0m
+
+which has been used in [90m[\cite=AS2] [\cite=AS3].[0m From now on, the actual calculation will be done by choosing [90m[formula].[0m
+
+[38;5;1m‖[0m We would like to point out here that a similar reweighting technique is used in the histogram method [90m[\cite=FS][0m and the multicanonical ensemble method [90m[\cite=BN].[0m Andricioaei and Straub applied this Tsallis Monte Carlo algorithm to the two-dimensional Ising system [90m[\cite=AS2],[0m a classical one-dimensional potential and a 13-atom Lennard-Jones cluster [90m[\cite=AS3],[0m and showed that this new Monte Carlo algorithm is more effective than the standard Metropolis algorithm. They also proposed the generalized molecular dynamics based on Tsallis generalized statistical mechanics [90m[\cite=AS3] [\cite=SA][0m
+
+[48;5;167m3[0m
+
+Application to a classical double well potential
+
+In order to check the performance of this new Monte Carlo algorithm [90m[\cite=AS2] [\cite=AS3][0m in a classical system such as molecules and liquids, we look at the problem of a classical particle in a one-dimensional double well potential defined by
+
+[90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167m2α 1[0m
+
+[48;5;167m(16)[0m
+
+[48;5;167m(17)[0m
+
+which was examined by Frantz et al. [90m[\cite=FFD][0m to demonstrate the quasi-ergodicity of the standard Metropolis algorithm. The potential given by [90m([\ref=eq:13])[0m has the double minimum at x 1 and x α; therefore, it represents a symmetrical double well when α 1 and a single well when α 0. This potential is more conveniently characterized by the parameter γ [90m[\cite=FFD][0m
+
+[90m[formula][0m
+
+[48;5;167m(18)[0m
+
+In figure 1, we show the asymmetric double well potential V(x) when γ 0.9 as well as the equilibrium Tsallis weight [90m[formula],[0m which is renormalized, and Boltzmann weight pB exp βV(x)Z1. It is obvious that [38;5;1m5[0m
+
+[38;5;1m==[0m the statistical weight pT of the Tsallis generalized statistical mechanics has a greater chance of crossing the barrier and, therefore, a greater possibility of avoiding quasi-ergodicity.
+
+[38;5;1m‖[0m Alternatively this Tsallis's statistical mechanics can be regarded as a search-space smoothing method which deforms the rugged potential landscape by a smoother one. In figure 2, we show the smoothed potential [90m[formula][0m calculated from [90m([\ref=eq:4]),[0m which has a smoother landscape and a lower energy barrier than the original landscape V(x)[38;5;1m‖[0m We use this double well potential to look at the quasi-ergodicity of the standard as well as the generalized Monte Carlo scheme by examining the classical average potential energy [90m[\cite=FFD][0m
+
+[90m[formula][0m
+
+[48;5;167mR[0m
+
+[48;5;167mV (x) exp βV (x)dx[0m
+[48;5;167mR[0m
+[48;5;167mexp βV (x)dx[0m
+
+[48;5;167m(19)[0m
+
+which can be calculated rigorously by numerical quadrature as a function of the temperature β and the asymmetry parameter γ. We employ the same Monte Carlo procedure of Frantz et al. [90m[\cite=FFD][0m and use the uniform sampling distribution from previous position x to new position x' given by
+
+[90m[formula][0m
+
+[48;5;167mT (x |x)[0m [48;5;167m(20)[0m
+
+The step size [38;5;22mΔ[0m can be chosen to be large enough for the one-dimensional problem so that the quasi-ergodicity can be reduced [90m[\cite=FFD].[0m However, we follow Frantz et al. [90m[\cite=FFD][0m and use the scaling [90m[formula],[0m which maintains an approximately 50% acceptance rate at all temperatures β, by considering the application to multidimensional systems. This 50% acceptance is commonly employed in the classical Monte Carlo community [90m[\cite=AT].[0m
+
+[38;5;1m‖[0m Since the error caused by the quasi-ergodicity depends upon the walk initialization, we start the Monte Carlo walk at the global minimum x 1 and at the metastable minimum x α. If the walk starts at the global minimum, then the average potential V will be low if the walk is [90m[[0m[38;5;1mquasiergodic,[0m[90m/[0m[38;5;22mquasi-ergodic,[0m[90m][0m as the distribution associated with the higher energy well around α-minimum will be insufficiently sampled. While the walk is initialized at α, the walk may be trapped at this metastable α-well and the average potential V will be too high.
+
+[38;5;1m‖[0m In figure 3, we show the average potential energy V calculated from (i) the standard Metropolis Monte Carlo and (ii~ iv) the generalized Tsallis [38;5;1m6[0m
+
+[38;5;1m==[0m Monte Carlo algorithm as a function of temperature β. Similar curves can be found in figure 2 of reference [90m[\cite=FFD];[0m however, those authors plotted the results from the usual Metropolis algorithm initialized at the global minimum x 1 and at the random positions. In order to check the quasi-ergodicity of the walk, we instead show two curves initialized at the global minimum x 1 and the metastable α-minimum at x α for each scheme. The average potential V is obtained from 100 independently initialized walks, each consisting of 500 warm-up steps followed by 104 steps with data accumulation. The average energy V calculated from the standard Metropolis algorithm shows large errors due to the quasi-ergodicity. In particular, the walk initialized at the metastable α-minimum greatly overestimates the potential energy. The walk starting from the global minimum also shows noticeable error and underestimates the average energy, as expected.
+
+[38;5;1m‖[0m In contrast to the results from the standard Metropolis algorithm, the results from the generalized Monte Carlo algorithm [90m[\cite=AS2] [\cite=AS3][0m show excellent agreement with the numerically exact result. The walks started from the global minimum x 1 produce the average energy which is almost indistinguishable from the exact result up to the lowest temperature (high β) examined. Even the walk started from the metastable α minimum produces the energies that are fairly accurate up to rather low temperature β 15 for q 1.5, which shows that this generalized algorithm does a much better job than the standard Monte Carlo scheme. The agreement with the exact result is further improved if we increase the value of parameter q from 1.5 (see Figure 3)It should be noted that the probability distribution associated with the parameter q 2 is given by the Cauchy distribution and with q 5 3 by the super-diffusive Lévy distribution [90m[\cite=TS].[0m The theoretical upper boundary is q 3. The quasi-ergodicity can be largely circumvented by the use of Tsallis's generalized statistical mechanics with q 1, as shown in figure 3.
+
+[38;5;1m‖[0m In order to overcome the quasi-ergodicity, the Monte Carlo walk has to pass many times through the energy barrier. Figure 4 compares the time series of the Monte Carlo walk generated by the standard Monte Carlo scheme (q 1) and that of the generalized Monte Carlo scheme. Similar diagrams can be found in reference [90m[\cite=AS3].[0m Although the trajectory of the standard Monte Carlo scheme is mostly confined within the metastable α minimum, the number of barrier crossing of the Tsallis Monte Carlo scheme is significantly greater. This barrier crossing occurs more often when the parameter q is larger. The quasi-ergodicity can be removed by Tsallis's generalized Monte Carlo scheme by increasing the magnitude of the parameter q from [38;5;1m7[0m
+
+[38;5;1m==[0m 1.
+
+[38;5;1m‖[0m In figure 5, we show the average energy V as a function of the asymmetry parameter γ. Again a similar diagram can be found in reference [90m[\cite=FFD].[0m Here again we can clearly observe a large error for the initialization at the metastable α minimum when the standard Monte Carlo procedure is used. In this case, the superiority of Tsallis's generalized Monte Carlo scheme over the traditional one is also obvious.
+
+[38;5;1m‖[0m In table 1 we showed the effect of quasi-ergodicity in the convergence when γ 0.9 and β 10 for both the standard Monte Carlo and the generalized Monte Carlo algorithms with q 1.5, each originating at the metastable α-minimum. We show the average energy V and the standard deviation (STD) obtained from 100 independently initialized walks. We found that the problem of quasi-ergodicity obtained with the standard Metropolis algorithm is still present, even if we increase the number of Monte Carol steps. On the other hand the result from the generalized Monte Carlo simulation is significantly improved by increasing the number of Monte Carlo steps, and ergodicity can be recovered. Furthermore, STD decreases as [90m[formula][0m when the Monte Carlo step N is increased for the generalized Monte Carlo simulation, while such a systemic decrease is not observed for the standard Monte Carlo simulation.
+
+[38;5;1m‖[0m This convergence can be clearly visualized by plotting the visiting probability P(x) of the Monte Carlo walks, which should be given by the Boltzmann weight for the standard Monte Carlo scheme and by the Tsallis weight [90m([\ref=eq:3])[0m for the generalized Monte Carlo scheme. In figure 6, we compare P(x) generated by the standard and generalized Monte Carlo walks with the Boltzmann and the Tsallis weights. The visiting probability P(x) converges rapidly to the Tsallis weight as the number of the Mone Carlo walks is increased for the generalized Monte Carlo scheme. On the other hand, P(x) recovers the Boltzmann weight only when the Monte Carlo steps are increased upto 106 in the standard Monte Carlo scheme.
+
+[38;5;1m‖[0m It is also interesting to discuss the convergence in the context of the "generalized ergodic measure" of Thirumalai, Mountain, and Kirkpatrick [90m[\cite=TMK] [\cite=AS3].[0m Using the energy metric, the ergodic measure dV(n) is defined by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;22mwhere Va([0m[48;5;167mdV (n) V a (n) V b (n)[0m
+
+[48;5;167m(21)[0m
+
+[48;5;167mwhere V a[0m n) and [90m[[0m[38;5;1mV b[0m[90m/[0m[38;5;22mVb([0m[90m][0m n) are the move average of the potential energy V [48;5;167m8[0m
+
+[38;5;1m==[0m along the trajectories a and b, which are defined from [90m([\ref=eq:12x]) by[0m
+
+[90m[formula][0m
+
+[48;5;167mPn[0m
+
+[48;5;167ma[0m
+[48;5;167mj=0 Vj exp[0m
+
+[48;5;167mPn[0m
+
+[48;5;167mj=0 exp[0m
+
+[48;5;167ma[0m
+
+[48;5;167m−β Vja V j[0m
+[48;5;167ma[0m
+
+[48;5;167m−β Vja V j[0m
+
+[48;5;167m(22)[0m
+
+[48;5;167m(23)[0m
+
+for the generalized Tsallis Monte Carlo scheme, and
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mPn[0m
+
+[48;5;167ma[0m
+[48;5;167ma[0m
+[48;5;167mj=0 Vj exp −βVj[0m
+
+[48;5;167mPn[0m
+
+[48;5;167mj=0 1[0m
+
+for the standard Monte Carlo scheme. For an ergodic system, Thirumalai et al. [90m[\cite=TMK][0m suggested that the ergodic measure converges as dV(n) if n They found that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167mDV n[0m
+
+[48;5;167m(24)[0m
+
+where the "diffusion" constant DV depends on temperature. In figure 7, we show dV(0) dV(n) for γ 0.9 potential obtained from 100 independent pairs (a, b) of Monte Carlo walks as a function of Monte Carlo steps n. We chose the trajectory starting from the metastable minimum x α 0.9163) and that from the stable minimum x 1, respectively, as the two independent trajectories a and b. It is clear from figure 7 that the normalized inverse of the ergodic measure dV(0) dV(n) grows linearly with the Monte Carlo steps n. Therefore, the ergodic measure dV(n) decreases according to [90m([\ref=eq:20]),[0m and the diffusion constant DV can be determined.
+
+[38;5;1m‖[0m Figure 8 shows the diffusion constant DV as a function of temperature β. The diffusion constant is a decreasing function of the inverse temperature β; it is more difficult to recover the ergodicity when the temperature is lowered. However, at lower temperatures β 20 with [90m[[0m[38;5;1mβ∆V[0m[90m/[0m[38;5;22mβΔV[0m[90m][0m 1 where [90m[[0m[38;5;1m∆V[0m[90m/[0m[38;5;22mΔV[0m[90m][0m V( α) V(1) 0.1, the diffusion constant starts to increase again for the Tsallis Monte Carlo walks (q [38;5;1m6=[0m 1)This is due to the fact that the equilibrium thermal distribution around the metastable minimum at x α becomes negligibly small at such low temperatures, and the ergodicity of the trajectory among the stable and the metastable minima is irrelevant once trajectories a and b both fall into the stable minimum around x 1.
+
+[38;5;1m‖[0m It is apparent from figure 8 that the diffusion constant DV obtained from the standard Monte Carlo algorithm obeys the usual activation form
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(25)[0m
+
+where the activation energy Eb is estimated to be Eb≃0.4, which is the same order of magnitude as the barrier height 1) between two wells, as shown in figure 1. On the other hand, the diffusion constant DV obtained from the Tsallis generalized Monte Carlo scheme is characterized by a power-law form
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m with the exponent η. This result is conceivable, based on the acceptance probability [90m([\ref=eq:7])[0m using the Tsallis weight, because
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mexp(β Ēb[0m [48;5;167m[1 (1 q)βEb q/q−1)[0m
+
+[48;5;167m(27)[0m
+
+and DV β- q (q 1)We note in figure 8 that η 1.6 for q 1.5 and η 0.85 for q 2.5. These values are close to q (q 1) 3 for q 1.5 and q (q 1) 1.66 if q 2.5. Therefore, the diffusion constant decreases more slowly as a function of the inverse temperature β as β- η for the generalized Monte Carlo scheme, though it decreases exponentially faster for the standard Monte Carlo scheme. The exponent η becomes smaller as q is increased and the diffusion is possible even at low temperatures. This result can be anticipated based on data presented in figures 3 and 6. This power-law temperature dependence of the diffusion constant DV for q [38;5;1m6=[0m 1 has been pointed out by Straub and Andricioaei [90m[\cite=SA2].[0m
+
+[48;5;167m4[0m
+
+Concluding remarks
+
+In conclusion, we found that the so-called "quasi-ergodicity" in a double well potential encountered in the standard Metropolis Monte Carlo algorithm is largely circumvented by the use of the generalized Monte Carlo algorithm of Andricioaei and Straub [90m[\cite=AS2] [\cite=AS3][0m based on Tsallis's [90m[\cite=TS][0m generalized statistical mechanics. Therefore this algorithm will be useful in the Monte Carlo study of any system, in particular, when the first order phase transition occurs. We believe that this algorithm will be useful, for example, in the study of the melting transition of clusters for which the J-walk algorithm [90m[\cite=FFD][0m and the multiple histrogram method [90m[\cite=WA][0m have been utilized. It is also interesting to apply this new algorithm to the problems where the slow dynamics due to randomness or frustration is serious, for example, the spin-glass problems. This generalized Monte Carlo algorithm based on Tsallis's statistical mechanics use the reweighting technique similar to the multicanonical [38;5;1m10[0m
+
+[38;5;1m==[0m method [90m[\cite=BN].[0m But this algorithm is much simpler than the multicanonical methods and appears to be more promising because it does not require an iterative determination of the weighting factor by preliminary Monte Carlo runs.
+
+[38;5;1m‖[0m Recently, a new formulation of the Tsallis statistics has been proposed [90m[\cite=TMP].[0m With a new choice of energy constraint, unfamiliar consequences in the previous formulation have been erased. However, the Lagrange parameter used in the new formulation can be related to that in the previous formulation. Therefore, in performing Monte Carlo simulations with reweighting technique, we may use the previous formulation of the Tsallis statistics.
+
+Acknowlegement
+
+[38;5;1m‖[0m Authors are grateful to the reviewer for several useful comments which were incorporated into the final version of the manuscript. M. I. acknowledges support from the Hiroshima City University Grant for Special Academic Research. He is also grateful to the Department of Physics, Tokyo Metropolitan University, where this work was initiated, for its hospitality to him. [48;5;167mReferences[0m
+[48;5;167m[1] J. P. Valleau and S. G. Whittington, in:Statistical Mechanics, edited[0m
+[48;5;167mby B. J. Berne (Plenum Press, New York, 1977)Ch. 4.[0m
+[48;5;167m[2] D. D. Frantz, D. L. Freeman and J. D. Doll, J. Chem. Phys. 93 (1990)[0m
+[48;5;167m2769.[0m
+[48;5;167m[3] T. J. P. Penna, Phys. Rev. E 51 (1995) R1.[0m
+[48;5;167m[4] C. Tsallis and D. A. Stariolo, Physica A 233 (1996) 395.[0m
+[48;5;167m[5] I. Andricioaei and J. E. Straub, Phys. Rev. E 53 (1996) R3055.[0m
+[48;5;167m[6] C. Tsallis, J. Stat. Phys. 52 (1988) 479.[0m
+[48;5;167m[7] S. Kirkpatrick, C. D. Gelatt, and M. P. Vecchi, Science 220 (1983) 671.[0m
+[48;5;167m[8] I. Andricioaei and J. E. Straub, Physica A 247 (1997) 553.[0m
+[48;5;167m[9] I. Andricioaei and J. E. Straub, J. Chem. Phys. 107 (1997) 9117.[0m
+[48;5;167m11[0m
+
+[48;5;167m[10] J. E. Straub and I. Andricioaei, Braz. J. Phys. 29 (1999) 179.[0m
+[48;5;167m[11] E. M. F. Curado and C. Tsallis, J. Phys. A 24 (1991) L69.[0m
+[48;5;167m[12] N. Metropolis, A. W. Rosenbluth, N. N. Rosenbluth, A. H. Teller and[0m
+[48;5;167mE. Teller, J. Chem. Phys. 21 (1953) 1087.[0m
+[48;5;167m[13] A. M. Ferrenberg and R. H. Swendsen, Phys. Rev. Lett. 61 (1988) 2635;[0m
+[48;5;167mR. H. Swendsen, J. S. Wang, and A. M. Ferrenberg, The Monte Carlo[0m
+[48;5;167mMethods in Condensed Matter Physics, edited by K. Binder (Springer[0m
+[48;5;167mVerlag, Berlin, 1992)pp. 75-91.[0m
+[48;5;167m[14] B. Berg and T. Neuhaus, Phys. Lett. B 267 (1991) 249.[0m
+[48;5;167m[15] M. P. Allen and D. J. Tildesley, Computer Simulation of Liquids[0m
+[48;5;167m(Clarendon Press, Oxford, 1987)pp.121-123.[0m
+[48;5;167m[16] D. Thirumalai, R. D. Mountain and T. R. Kirkpatrick, Phys. Rev. A[0m
+[48;5;167m39 (1989) 3563.[0m
+[48;5;167m[17] J. E. Straub and I. Andricioaei, ”Exploiting Tsallis statistics,in: Algorithms for Macromolecular Modeling, Edited by P. Deuflhard, J.[0m
+[48;5;167mHermans, B. Leimkuhler, A. Mark, S. Reich and R. D. Skeel, Lecture Notes in Computational Science and Engineering (Springer Verlag[0m
+[48;5;167mBerlin, 1998)vol. 4, pp. 189-204.[0m
+[48;5;167m[18] S. Weerasinghe and F. G. Amar, J. Chem. Phys. 98 (1993) 4967.[0m
+[48;5;167m[19] C. Tsallis, R.S. Mendes, and A.R. Plastino, Physica A 261 (1998) 534.[0m
+
+[48;5;167m12[0m
+
+[48;5;167m3.5[0m
+
+[48;5;167m5[0m
+
+[48;5;167mp[0m
+
+[48;5;167mq=1.0 (Boltzmann)[0m
+[48;5;167mq=1.5 (Tsallis)[0m
+[48;5;167mq=2.5 (Tsallis)[0m
+
+[48;5;167mV(x)[0m
+[48;5;167m4[0m
+
+[48;5;167mB,T[0m
+
+[48;5;167m3[0m
+
+[48;5;167m2.5[0m
+
+[48;5;167mβ=10[0m
+[48;5;167m3[0m
+
+[48;5;167m2[0m
+
+[48;5;167mV(x)[0m
+[48;5;167m1.5[0m
+
+[48;5;167mγ=0.9[0m
+
+[48;5;167m2[0m
+
+[48;5;167m1[0m
+[48;5;167m1[0m
+[48;5;167m0.5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0[0m
+[48;5;167m-2[0m
+
+[48;5;167m-1.5[0m
+
+[48;5;167m-1[0m
+
+[48;5;167m-0.5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m1[0m
+
+[48;5;167m1.5[0m
+
+[48;5;167m2[0m
+
+[48;5;167mx[0m
+
+[48;5;167mFigure 1: A classical double well potential (16) (thin solid curve)for γ 0.9,[0m
+[48;5;167mthe Tsallis weight pT exp(βV (x)with q 1.5 (dotted curve)q 2.5[0m
+[48;5;167m(chain curve) and the Boltzmann weight pB exp(βV (x)Z1 (thick solid[0m
+[48;5;167mcurve) both at temperature β 10. The Tsallis weights are renormalized.[0m
+
+[48;5;167m13[0m
+
+[48;5;167m2[0m
+
+[48;5;167mV(x)[0m
+
+[48;5;167mq=1.0[0m
+[48;5;167mq=1.5[0m
+[48;5;167mq=2.5[0m
+
+[48;5;167m1.5[0m
+
+[48;5;167mβ=10[0m
+
+[48;5;167m1[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m0[0m
+[48;5;167m-2[0m
+
+[48;5;167m-1.5[0m
+
+[48;5;167m-1[0m
+
+[48;5;167m-0.5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m1[0m
+
+[48;5;167m1.5[0m
+
+[48;5;167m2[0m
+
+[48;5;167mx[0m
+[48;5;167mFigure 2: A smoothed potential landscape V (x) when q 1.5 (dotted curve)[0m
+[48;5;167mand q 2.5 (chain curve) for γ 0.9 and β 10, compared with the original[0m
+[48;5;167mpotential landscape V (x) (q 1, thin solid curve)The energy barrier is[0m
+[48;5;167mlowered by the smoothing defined by (3) of Tsallis’s statistical mechanics.[0m
+
+[48;5;167m14[0m
+
+[48;5;167m0.16[0m
+[48;5;167mx0 0.9613[0m
+
+[48;5;167m0.14[0m
+
+[48;5;167mx =1.0000[0m
+[48;5;167m0[0m
+
+[48;5;167m0.12[0m
+
+[48;5;167m<V>[0m
+
+[48;5;167mq=1.0[0m
+[48;5;167m0.1[0m
+
+[48;5;167m0.08[0m
+[48;5;167mq=1.5[0m
+[48;5;167m0.06[0m
+
+[48;5;167m0.04[0m
+[48;5;167mq=2.0[0m
+[48;5;167m0.02[0m
+
+[48;5;167mq=1.5[0m
+
+[48;5;167mq=1.0[0m
+
+[48;5;167mq=2.5[0m
+
+[48;5;167m0[0m
+[48;5;167m0[0m
+
+[48;5;167m10[0m
+
+[48;5;167m20[0m
+
+[48;5;167m30[0m
+
+[48;5;167m40[0m
+
+[48;5;167m50[0m
+
+[48;5;167m60[0m
+
+[48;5;167mβ[0m
+
+[48;5;167mFigure 3: The classical average potential energy V for the γ 0.9[0m
+[48;5;167mpotential as a function of β. The thin solid curves are initialized at the[0m
+[48;5;167mmetastable α-minimum x0 −0.9613 with the standard Monte Carlo algorithm with the parameter q 1 and the generalized Monte Carlo algorithm[0m
+[48;5;167mwith q 1.5, q 2.0 and q 2.5. The exact result is represented by the[0m
+[48;5;167mthick solid curve. The results initialized at the global minimum x0 1[0m
+[48;5;167mand calculated from the Metropolis algorithm with q 1 and that from the[0m
+[48;5;167mgeneralized Monte Carlo algorithm with q 1.5 are shown by the dotted[0m
+[48;5;167mcurve. All results are obtained from 100 independently initialized Monte[0m
+[48;5;167mCarlo walks, each consisting of 500 warm-up steps followed by 104 steps[0m
+[48;5;167mwith data accumulation. Some representative error bars are also shown.[0m
+
+[48;5;167m15[0m
+
+[48;5;167m2[0m
+
+[48;5;167m(a)[0m
+
+[48;5;167m1.5[0m
+
+[48;5;167mq=1.0[0m
+
+[48;5;167m1[0m
+
+[48;5;167mx[0m
+
+[48;5;167m0.5[0m
+[48;5;167m0[0m
+[48;5;167m-0.5[0m
+[48;5;167m-1[0m
+[48;5;167m-1.5[0m
+[48;5;167m-2[0m
+[48;5;167m0[0m
+
+[48;5;167m2000[0m
+
+[48;5;167m4000[0m
+
+[48;5;167m6000[0m
+
+[48;5;167m8000[0m
+
+[48;5;167m1 10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m1 10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m1 10[0m
+
+[48;5;167m4[0m
+
+[48;5;167mMC steps[0m
+[48;5;167m2[0m
+
+[48;5;167m(b)[0m
+
+[48;5;167m1.5[0m
+[48;5;167m1[0m
+
+[48;5;167mx[0m
+
+[48;5;167m0.5[0m
+[48;5;167m0[0m
+[48;5;167m-0.5[0m
+[48;5;167m-1[0m
+
+[48;5;167mq=1.5[0m
+
+[48;5;167m-1.5[0m
+[48;5;167m-2[0m
+[48;5;167m0[0m
+
+[48;5;167m2000[0m
+
+[48;5;167m4000[0m
+
+[48;5;167m6000[0m
+
+[48;5;167m8000[0m
+
+[48;5;167mMC steps[0m
+[48;5;167m2[0m
+
+[48;5;167m(c)[0m
+
+[48;5;167m1.5[0m
+[48;5;167m1[0m
+
+[48;5;167mx[0m
+
+[48;5;167m0.5[0m
+[48;5;167m0[0m
+[48;5;167m-0.5[0m
+[48;5;167m-1[0m
+
+[48;5;167mq=2.5[0m
+
+[48;5;167m-1.5[0m
+[48;5;167m-2[0m
+[48;5;167m0[0m
+
+[48;5;167m2000[0m
+
+[48;5;167m4000[0m
+
+[48;5;167m6000[0m
+
+[48;5;167m8000[0m
+
+[48;5;167mMC steps[0m
+
+[48;5;167mFigure 4:[0m
+[48;5;167mTime series of the Monte Carlo walks generated by (a) the[0m
+[48;5;167mstandard Monte Calro (q 1)(b) the16Tsallis Monte Carlo with q 1.5, and[0m
+[48;5;167m(c) q 2.5 when β 10 and γ 0.9. All walks start from the metastable αminimum, and 500 warm up steps are also included. The number of barrier[0m
+[48;5;167mcrossing is greater for larger q.[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167mx 0.9613[0m
+[48;5;167m0[0m
+[48;5;167mx =1.0000[0m
+[48;5;167m0[0m
+
+[48;5;167m0.15[0m
+
+[48;5;167mβ=10[0m
+
+[48;5;167mq=1.0[0m
+
+[48;5;167m<V>[0m
+
+[48;5;167mq=1.5[0m
+
+[48;5;167m0.1[0m
+
+[48;5;167m0.05[0m
+
+[48;5;167mq=1.0[0m
+[48;5;167mq=1.5[0m
+
+[48;5;167m0[0m
+[48;5;167m0[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167m0.6[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167m1[0m
+
+[48;5;167mγ[0m
+
+[48;5;167mFigure 5: The average potential energy V for the temperature β 10[0m
+[48;5;167mas a function of the asymmetry parameter γ of the double well potential.[0m
+[48;5;167mThe solid and dotted curves are used the same as in figure 3. We only show[0m
+[48;5;167mthe result and some representative error bars for the cases q 1 and q 1.5[0m
+[48;5;167mof figure 3.[0m
+
+[48;5;167m17[0m
+
+[48;5;167m3[0m
+
+[48;5;167m3.5[0m
+
+[48;5;167m(a)[0m
+
+[48;5;167m(b)[0m
+
+[48;5;167mBoltzmann[0m
+
+[48;5;167mP(x)[0m
+
+[48;5;167mP(x)[0m
+
+[48;5;167m2[0m
+
+[48;5;167m10 steps[0m
+[48;5;167m4[0m
+[48;5;167m10 steps[0m
+[48;5;167m6[0m
+[48;5;167m10 steps[0m
+
+[48;5;167m3[0m
+
+[48;5;167mTsallis(q=1.5)[0m
+[48;5;167m2[0m
+[48;5;167m10 steps[0m
+
+[48;5;167m2.5[0m
+
+[48;5;167m4[0m
+
+[48;5;167m10 steps[0m
+[48;5;167m106 steps[0m
+
+[48;5;167m2.5[0m
+[48;5;167m2[0m
+
+[48;5;167mβ=10[0m
+
+[48;5;167mβ=10[0m
+
+[48;5;167m2[0m
+
+[48;5;167m1.5[0m
+[48;5;167m1.5[0m
+[48;5;167m1[0m
+[48;5;167m1[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0[0m
+[48;5;167m-2[0m
+
+[48;5;167m-1.5[0m
+
+[48;5;167m-1[0m
+
+[48;5;167m-0.5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m1[0m
+
+[48;5;167m1.5[0m
+
+[48;5;167m-2[0m
+
+[48;5;167m2[0m
+
+[48;5;167m-1.5[0m
+
+[48;5;167m-1[0m
+
+[48;5;167m-0.5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.5[0m
+
+[48;5;167m1[0m
+
+[48;5;167m1.5[0m
+
+[48;5;167m2[0m
+
+[48;5;167mx[0m
+
+[48;5;167mx[0m
+
+[48;5;167mFigure 6: The Visiting probabilities P (x) obtained from (a) the standard[0m
+[48;5;167mMonte Carlo walk compared with the Boltzmann weight, and (b) the generalized Monte Carlo walks compared with the Tsallis weight (c.f. figure 1)Probability distribution P (x) generated from the generalized Monte Carlo[0m
+[48;5;167mscheme can recovers the equilibrium Tsallis weight within short Monte Carlo[0m
+[48;5;167msteps (a)while it cannot recover the equilibrium Boltzmann weight until[0m
+[48;5;167mrather long 106 Monte Carlo steps are executed (b)[0m[48;5;167m18[0m
+
+[48;5;167m4000[0m
+
+[48;5;167mβ=10[0m
+
+[48;5;167m3500[0m
+
+[48;5;167m3000[0m
+
+[48;5;167mq=2.5[0m
+
+[48;5;167mV[0m
+
+[48;5;167mV[0m
+
+[48;5;167md (0)d (n)[0m
+
+[48;5;167m2500[0m
+
+[48;5;167m2000[0m
+[48;5;167mq=1.5[0m
+[48;5;167m1500[0m
+
+[48;5;167m1000[0m
+
+[48;5;167m500[0m
+[48;5;167mq=1.0[0m
+[48;5;167m0[0m
+[48;5;167m0[0m
+
+[48;5;167m2 10[0m
+
+[48;5;167m5[0m
+
+[48;5;167m4 10[0m
+
+[48;5;167m5[0m
+
+[48;5;167m6 10[0m
+
+[48;5;167m5[0m
+
+[48;5;167m8 10[0m
+
+[48;5;167m5[0m
+
+[48;5;167m1 10[0m
+
+[48;5;167m6[0m
+
+[48;5;167mMC steps[0m
+
+[48;5;167mFigure 7: The normalized inverse of the generalized ergodic measure[0m
+[48;5;167mdV (0)dV (n) as a function of the number of Monte Carlo steps n calculated for γ 0.9 potential at β 10 using the standard Monte Carlo scheme[0m
+[48;5;167m(q 1) and the generalized Monte Carlo scheme (q 1.5, 2.5)dV (0)dV (n)[0m
+[48;5;167mgrows linearly with the Monte Carlo steps n and the diffusion is faster for[0m
+[48;5;167mlarger q.[0m
+
+[48;5;167m19[0m
+
+[48;5;167m0.01[0m
+
+[48;5;167m0.01[0m
+
+[48;5;167m0.001[0m
+[48;5;167m0.005[0m
+[48;5;167mq=2.5[0m
+
+[48;5;167m0.0001[0m
+
+[48;5;167mDV[0m
+
+[48;5;167mD[0m
+
+[48;5;167mq=1.0[0m
+
+[48;5;167m10-5[0m
+
+[48;5;167mV[0m
+
+[48;5;167mq=1.5[0m
+
+[48;5;167m10-6[0m
+[48;5;167m0.001[0m
+
+[48;5;167m10[0m
+
+[48;5;167m-7[0m
+
+[48;5;167m10[0m
+
+[48;5;167m-8[0m
+
+[48;5;167m0.0005[0m
+
+[48;5;167m6[0m
+
+[48;5;167m8[0m
+
+[48;5;167m10[0m
+
+[48;5;167m12[0m
+
+[48;5;167m14[0m
+
+[48;5;167m5[0m
+
+[48;5;167m16[0m
+
+[48;5;167m6[0m
+
+[48;5;167m7[0m
+
+[48;5;167m8[0m
+
+[48;5;167m9[0m
+
+[48;5;167m10[0m
+
+[48;5;167m20[0m
+
+[48;5;167mβ[0m
+
+[48;5;167mβ[0m
+
+[48;5;167mFigure 8: The diffusion constant DV as a function of temperature β. (a) A[0m
+[48;5;167mstraight line of the semi-log plot of DV vs β for the standard Monte Carlo[0m
+[48;5;167mscheme indicates activation-type diffusion, while (b) straight lines of the loglog plot for the Tsallis Monte Carlo scheme in the high temperature region[0m
+[48;5;167mindicate slow power-law decrease of the diffusion constant as the temperature[0m
+[48;5;167mis lowered (larger β)[0m[48;5;167m20[0m
+
+[48;5;167mTable 1: The convergence of the Metropolis and the generalized Tsallis[0m
+[48;5;167mMonte Carlo algorithms at β 10. The average energy V the standard[0m
+[48;5;167mdeviation (STD) obtained from 100 independently initialized walks, each[0m
+[48;5;167moriginating at the metastable α-minimum.[0m
+[48;5;167msteps[0m
+[48;5;167m102[0m
+[48;5;167m103[0m
+[48;5;167m104[0m
+[48;5;167m105[0m
+[48;5;167m106[0m
+[48;5;167mExact[0m
+
+[48;5;167mMetropolis Monte Carlo[0m
+[48;5;167mV (STD)[0m
+[48;5;167m0.1500 (0.0177)[0m
+[48;5;167m0.1520 (0.0049)[0m
+[48;5;167m0.1475 (0.0192)[0m
+[48;5;167m0.1052 (0.0320)[0m
+[48;5;167m0.0805 (0.0124)[0m
+[48;5;167m0.0799[0m
+
+[48;5;167mTsallis Monte Carlo (q 1.5)[0m
+[48;5;167mV (STD)[0m
+[48;5;167m0.1065 (0.0518)[0m
+[48;5;167m0.0937 (0.0394)[0m
+[48;5;167m0.0798 (0.0162)[0m
+[48;5;167m0.0798 (0.0049)[0m
+[48;5;167m0.0800 (0.0017)[0m
+[48;5;167m0.0799[0m
+
+[48;5;167m21[0m
+

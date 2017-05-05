@@ -1,0 +1,1520 @@
+>>
+Rearrange|para
+|1 54 299 245 6||1 54 325 245 7|1 54 337 245 7|1 54 348 29 7|1 83 348 216 7|1 54 360 39 7|1 93 360 137 7|1 230 360 69 7|1 54 371 138 7|1 192 371 107 7|1 54 383 91 7|1 145 383 154 7|1 54 394 64 7|1 118 394 181 7|1 54 406 72 7|1 126 406 173 7|1 54 417 117 7|1 171 417 128 7|1 54 429 158 7|1 212 429 87 7|1 54 440 153 7|1 207 440 92 7|1 54 451 91 7|1 145 451 154 7|1 54 463 116 7|1 170 463 129 7|1 54 474 124 7|1 178 474 121 7|1 54 486 110 7|1 164 486 135 7|1 54 497 139 7|1 193 497 106 7|1 54 509 204 7|1 258 509 41 7|1 54 520 204 7|1 258 520 41 7|1 54 532 245 7|1 54 543 245 7|1 54 555 57 7|1 111 555 188 7|1 54 566 106 7|1 160 566 139 7|1 54 577 101 7
+Since the discovery of carbon nanotubes in 1991 [1] 
+<AND>
+a
+lot of progress has been made in the synthesis as well as
+in the characterization of the electronic, optical and mechanical properties of these remarkable molecules [2–5]They are promising structures to use as components in
+submicrometer-scale devices [6,7] and in nanocomposites
+[8]A carbon nanotube can be visualized as a graphite
+sheet rolled up seamlessly into a cylinder. They have
+diameters in the range of 0.6-30 nm and are many microns in length. Depending on the synthesis conditions
+they can appear in multi-walled or single-walled configurations [1,9,10]The tube symmetry determines not only
+the electronic (metallic or semiconducting) character [4]
+but also the plastic/brittle behavior [11,12]The special geometry makes the nanotubes excellent candidates
+for mesoscopic quantum wires. Evidence for (1D) quantum confinement was obtained from electronic transport
+measurements on single-walled nanotubes [13]The transition from one-dimensional (wire) to zero-dimensional
+(quantum dot) behavior can be achieved directly by cutting a long nanotube to a shorter length. This has
+been recently done by Venema et al [14] by applying
+voltage pulses to the tip of a scanning tunneling microscope 
+--
+Introduction
+
+Since the discovery of 
+<AND>
+in 1991 [\cite=Iijima] a lot of progress has been made in the synthesis as well as in the characterization of the electronic, optical and mechanical properties of these remarkable molecules [\cite=book] [\cite=book1] [\cite=book2] [\cite=dekker_pt]. They are promising structures to use as components in submicrometer-scale devices [\cite=devices] [\cite=pipe] and in nanocomposites [\cite=nanoc]. A carbon nanotube can be visualized as a graphite sheet rolled up seamlessly into a cylinder. They have diameters in the range of 0.6-30 nm and are many microns in length. Depending on the synthesis conditions they can appear in multi-walled or single-walled configurations [\cite=Iijima] [\cite=Smalley] [\cite=Catherine]. The tube symmetry determines not only the electronic (metallic or semiconducting) character [\cite=book2]but also the plastic/brittle behavior [\cite=Marco][\cite=Paul]. The special geometry makes the nanotubes excellent candidates for mesoscopic quantum wires. Evidence for (1D) quantum confinement was obtained from electronic transport measurements on single-walled nanotubes [\cite=Dekker]. The transition from one-dimensional (wire) to zero-dimensional (quantum dot) behavior can be achieved directly by cutting a long nanotube to a shorter length. This has been recently done by Venema et al [\cite=Venema]by applying voltage pulses 
+>>
+Delete|para
+|1 54 337 245 7|1 54 348 29 7
+arXiv:cond-mat/0001225v1 [cond-mat.mtrl-sci] 17 Jan 2000
+
+
+--
+
+>>
+Delete|para
+|1 83 348 216 7|1 54 360 39 7
+Angel Rubioa,b S. Peter Apellb,c Liesbeth C. Venemad and Cees Dekkerd
+a. Departamento de Física Teórica, Universidad de Valladolid, E-47011 Valladolid, Spain
+b. Departamento de Física de Materiales, Euskal Herriko Unibertsitatea Aptdo. 1072 San Sebastian 20080, Basque Country
+and Donostia International Physics Center, San Sebastian, Spain
+c. Department of Applied Physics, Chalmers University of Technology and Göteborg University, S-41296 Göteborg, Sweden
+d. Department of Applied Sciences and DIMES, Delft University of Technology, Lorentzweg 1, 2628 CJ Delft, The Netherlands
+(February 1, 2008)
+We discuss the local cutting of single-walled 
+--
+
+>>
+Merge|word
+|1 54 325 245 7
+carbon nanotubes 
+--
+carbon nanotubes 
+>>
+Delete|para
+|1 155 577 144 7|1 54 589 174 7
+by a voltage pulse 
+--
+
+>>
+Merge|word
+|1 160 566 139 7|1 54 577 101 7|1 155 577 144 7|1 54 589 174 7
+to the tip of a
+scanning tunneling microscope. 
+--
+to the tip of a scanning tunneling microscope 
+>>
+Rearrange|para
+|1 155 577 144 7|1 54 589 174 7|1 228 589 71 7|1 54 600 245 7|1 54 612 175 7|1 229 612 70 7|1 54 623 168 7|1 222 623 77 7|1 54 635 193 7
+(STM) located just above a nanotube. Discrete energy states, consistent with a 1D particle-in-abox model [15,16]
+<AND>
+have been measured with STM spectroscopy in such short tubes [15]The possibility to control the length of nanotubes by the cutting 
+--
+(STM) located just above a nanotube. Discrete energy states, consistent with a 1D particle-
+<AND>
+a-box model [\cite=Venema2] [\cite=Rubio], have been measured with STM spectroscopy in such short tubes [\cite=Venema2].The possibility to control the length of nanotubes by 
+>>
+Delete|para
+|1 229 612 70 7|1 54 623 168 7
+The tip voltage V 3.8 eV) is the key physical quantity 
+--
+
+>>
+Merge|word
+|1 54 612 175 7
+in 
+--
+in-
+>>
+Merge|word
+|1 222 623 77 7|1 54 635 193 7
+the
+cutting 
+--
+the cutting 
+>>
+Rearrange|para
+|1 247 635 52 7|1 54 646 200 7|1 254 646 45 7|1 54 658 112 7||1 54 669 245 7|1 54 681 65 7|1 119 681 180 7|1 54 692 100 7|1 154 692 145 7|1 54 704 152 7|1 206 704 93 7|1 54 715 182 7|1 317 299 245 7|1 236 715 63 7
+technique is
+of interest for various applications of carbon nanotubes
+in nanoscale devices [5,6]In this paper we discuss a number of possible mechanisms that can explain the experimental observed cutting
+of tubes by a voltage pulse to the STM tip for singlewalled 
+<AND>
+carbon nanotubes. In the following Section the
+experimental data is briefly described. In Section III, we
+
+
+--
+technique is of interest for various applications of carbon nanotubes in nanoscale devices [\cite=dekker_pt] [\cite=devices].
+
+In this paper we discuss a number of possible mechanisms that can explain the experimental observed cutting of tubes by a voltage pulse 
+<AND>
+STM tip for single-walled carbon nanotubes. In the following Section the experimental data is briefly described. In Section III, we 
+>>
+Delete|para
+|1 206 704 93 7|1 54 715 182 7
+process. After reviewing several possible physical mechanisms we conclude that the cutting
+process relies on the weakening of the carbon-carbon bonds through a combination of localized
+particle-hole excitations induced by inelastically tunneling electrons and elastic deformation due
+
+--
+
+>>
+Merge|word
+|1 154 692 145 7|1 54 704 152 7
+to the 
+--
+to the 
+>>
+Delete|para
+|1 317 310 245 7
+electric field between tip and sample. The carbon network releases part of the induced
+mechanical stress by forming topological defects that act as nucleation centers for the formation of
+dislocations that dynamically propagate towards bond-breaking.
+PACS numbers: 61.16.Ch, 61.48.c, 62.20.Fe
+
+
+--
+
+>>
+Merge|word
+|1 317 299 245 7|1 236 715 63 7|1 317 310 245 7|1 317 322 245 7|1 317 333 62 7|1 379 333 183 7|1 317 345 112 7|1 429 345 133 7|1 317 356 203 7|||1 317 391 245 6
+discuss some relevant physical mechanisms that can result in breaking of tubes and then select one as the most
+promising mechanism. We analyze the proposed cutting
+mechanism in Section IV in more detail and compare the
+theoretical model to the experimental results. We end
+the paper with a short discussion and outlook.
+
+
+--
+discuss some relevant physical mechanisms that can result in breaking of tubes and then select one as the most promising mechanism. We analyze the proposed cutting mechanism in Section IV in more detail and compare the theoretical model to the experimental results. We end the paper with a short discussion and outlook.
+
+
+>>
+Delete|para
+|1 317 417 245 7|1 317 429 13 7
+I. INTRODUCTION
+
+
+--
+
+>>
+Delete|word
+|1 330 429 232 7|1 317 440 41 7
+II. 
+--
+
+>>
+Split|word
+|1 317 532 245 7|1 317 543 60 7|1 377 543 186 7|1 317 555 121 7|1 438 555 124 7|1 317 566 171 7|1 488 566 74 7|1 317 578 199 7|1 516 578 46 7|1 317 589 222 7|1 539 589 23 7|1 317 601 245 7|1 317 612 22 7|1 339 612 223 7|1 317 623 74 7|1 391 623 171 7|1 317 635 115 7|1 432 635 130 7|1 317 646 156 7|1 473 646 89 7|1 317 658 190 7|1 507 658 55 7|1 317 669 245 7|1 317 681 245 7|1 317 692 34 7|1 351 692 211 7|1 317 704 63 7|1 380 704 182 7|1 317 715 120 7|1 437 715 47 7
+Nanotubes are cut by the following procedure: During
+imaging of a nanotube in constant-current mode, scanning is interrupted and the STM tip moves to a selected
+position on the nanotube. Feedback is then switched off
+and a voltage pulse between tip and sample is applied for
+1 ms. After this pulse, the feedback is switched on again
+and scanning resumes where imaging was interrupted.
+The distance between the STM tip and the nanotube
+during a pulse is determined by the settings for the feedback current and voltage. Fig. 1(b) shows an example of
+a nanotube that has been cut into various smaller tube
+pieces as a result of voltage pulses of -3.75 V applied at
+the positions marked in Fig. 1(a)Often, tube parts beneath the STM tip are picked up during a pulse. This
+usually leads to degradation of the tip quality. Cleaning
+of the tip can then be done by applying voltages on the
+gold surface, away from the nanotube.
+
+--
+Nanotubes are cut by the following procedure: During imaging of a nanotube in constant-current mode, scanning is interrupted and the STM tip moves to a selected position on the nanotube. Feedback is then switched off and a voltage pulse between tip and sample is applied for 1 ms. After this pulse, the feedback is switched on again and scanning resumes where imaging was interrupted. The distance between the STM tip and the nanotube during a pulse is determined by the settings for the feedback current and voltage. Fig. 1(b) shows an example of a nanotube that has been cut into various smaller tube pieces as a result of voltage pulses of -3.75 V applied at the positions marked in Fig. 1(a)Often, tube parts beneath the STM tip are picked up during a pulse. This usually leads to degradation of the tip quality. Cleaning of the tip can then be done by applying voltages on the gold surface, away from the nanotube.
+
+
+>>
+Delete|word
+|2 54 62 245 7|2 54 73 36 7
+1
+
+
+--
+
+>>
+Delete|word
+|2 54 286 245 4|2 79 298 79 7
+III. 
+--
+
+>>
+Delete|word
+|2 158 298 141 7|2 79 309 164 7
+1. 
+--
+
+>>
+Delete|word
+|2 54 350 245 4|2 79 361 91 7
+2. 
+--
+
+>>
+Split|word
+|2 54 437 245 4|2 79 448 68 7|2 147 448 152 7|2 79 460 162 7|2 240 460 59 7|2 79 471 132 7
+The cutting procedure appears to be effective for
+different types of nanotubes. We observe no dependence on the electronic character (i.e. semiconducting or metallic) of a tube.
+
+
+--
+The cutting procedure appears to be effective for different types of nanotubes. We observe no dependence on the electronic character (i.e. semiconducting or metallic) of a tube.
+
+
+>>
+Delete|word
+|2 54 489 245 4|2 79 501 43 7
+3. 
+--
+
+>>
+Split|word
+|2 54 519 245 4|2 79 530 52 7|2 131 530 168 7|2 79 542 32 7
+Nanotubes within bundles can be cut as efficiently
+as isolated single-wall tubes (see for an example
+Fig. 3)
+--
+Nanotubes within bundles can be cut as efficiently as isolated single-wall tubes (see for an example Fig. 3)
+>>
+Split|word
+|2 54 560 245 4|2 79 571 106 7|2 185 571 114 7|2 79 582 208 7|2 287 582 12 7|2 79 594 69 7
+Upon decreasing the tunnel distance considerably
+by increasing the tunnel current beyond 1 nA, nanotubes are moved away laterally by the STM tip
+during imaging.
+
+--
+Upon decreasing the tunnel distance considerably by increasing the tunnel current beyond 1 nA, nanotubes are moved away laterally by the STM tip during imaging.
+
+
+>>
+Split|word
+|2 54 612 245 4|2 79 623 50 7|2 129 623 170 7|2 79 635 116 7|2 195 635 104 7|2 79 646 163 7|2 242 646 57 7|2 79 658 220 7|2 79 669 220 7|2 79 681 48 7|2 127 681 172 7|2 79 692 85 7|2 164 692 135 7|2 79 704 124 7|2 203 704 96 7
+The separation between nanotube ends created by
+a cut varies significantly in size, from a few nm to 20
+nm. Sometimes, the tube ends are displaced after
+the cut. Fig. 4(a) for example shows a strongly bent
+nanotube on which two voltage pulses were applied
+near the marked positions. Fig. 4(b) shows that the
+three tube parts separated by the cuts were moved
+significantly by the cutting events. Most likely, the
+nanotube was fixed on the substrate under some
+strain that was released by the cutting.
+
+--
+The separation between nanotube ends created by a cut varies significantly in size, from a few nm to 20 nm. Sometimes, the tube ends are displaced after the cut. Fig. 4(a) for example shows a strongly bent nanotube on which two voltage pulses were applied near the marked positions. Fig. 4(b) shows that the three tube parts separated by the cuts were moved significantly by the cutting events. Most likely, the nanotube was fixed on the substrate under some strain that was released by the cutting.
+
+
+>>
+Rearrange|para
+|2 317 62 245 6|2 317 73 245 6||2 317 118 245 7|2 317 130 56 7|2 373 130 189 7|2 317 141 114 7|2 431 141 103 7|||2 317 177 98 6|2 415 177 147 7|2 342 189 142 7|2 484 189 78 7|2 342 200 220 7|2 342 211 220 7|2 342 223 74 7|2 416 223 146 7|2 342 234 108 7|2 450 234 112 7|2 342 246 126 7|2 467 246 95 7|2 342 257 199 7|2 541 257 21 7|2 342 269 220 7|2 342 280 220 7|2 342 292 50 7|2 392 292 170 7|2 342 303 94 7|2 436 303 126 7|2 342 315 220 4||2 317 349 245 6|2 342 360 44 7|2 386 360 176 7|2 342 372 127 7|2 468 372 94 7|2 342 383 176 7|2 518 383 44 7|2 342 395 220 7|2 342 406 35 7|2 376 406 186 7|2 342 417 166 7||2 317 452 185 6|2 502 452 61 7|2 342 463 220 7|2 342 474 31 7|2 373 474 190 7|2 342 486 131 7|2 473 486 89 7|2 342 497 220 7|2 342 509 220 7|2 342 520 37 7|2 379 520 183 7|2 342 532 120 7|2 462 532 100 7|2 342 543 171 7|2 513 543 49 7|2 342 555 220 7|2 342 566 220 7|2 342 578 220 7|2 342 589 26 7|2 368 589 194 7|2 342 601 102 7|2 444 601 118 7|2 342 612 175 7|2 517 612 45 7|2 342 623 220 7|2 342 635 34 7|2 375 635 187 7|2 342 646 49 7|2 391 646 171 7|2 342 658 93 7|2 435 658 127 7|2 342 669 136 7|2 478 669 84 7|2 342 681 206 7|2 548 681 14 7|2 342 692 220 7|2 342 704 48 7|2 390 704 172 7|2 342 715 154 7|2 496 715 55 7
+PHYSICAL CONCEPTS FOR THE CUTTING
+MECHANISM
+
+In this Section we survey a number of possible physical
+mechanisms for the breaking of nanotubes by a voltage
+pulse that are interrelated to various degrees [17]Shear pressure; Simply crashing the tip into the
+tube could be a possible cutting mechanism. However, experimentally we find that the tubes are
+moved laterally when the tip is brought close to
+the tube. This is related to the large reversible elastic response (flexibility) exhibited by carbon nanotubes [18]Simulations of C60 -molecules impact
+on carbon nanotubes have shown that even large
+radial forces produce reversible elastic distortions
+indicating that crashing the tip onto the tube is not
+an efficient method to cut [19]Furthermore, there
+is no obvious energy scale of 4 
+<AND>
+eV in the crashing
+process.
+
+Crack propagation; This is related to the propagation of voids and cracks already present in asgrown nanotubes under low (tensile) loads. However, there is no evidence, from STM or otherwise,
+for the presence of local defects or cracks in the
+SWNT material studied here. This mechanism is
+hence not considered to be important.
+
+Collective excitations (plasmons)Plasmons excited by inelastic electron scattering of the tunneling current can decay into electron-hole pairs,
+phonons or other excitations that induce a polarization or charge separation in the tube. Eventually the release of the plasmon energy leads to
+a break through local heating and atom evaporation. Due to the particular cylindrical geometry of
+carbon nanotubes we expect to have a π-plasmon
+excitation at about 5 eV [20]This has been confirmed experimentally [21] for SWNTs of 1.4 nm
+diameter. The decay of the plasmon excitation into
+atom evaporation is a well-known phenomenon in
+metallic clusters where the surface-plasmon energy
+is of the order of the binding energy leading to
+atom-evaporation as an effective decaying mechanism of the collective excitations [22]In the case of
+tubes with an internal binding energy greater than
+7 eV/atom (as for most carbon solids; see Table
+I)however, multiple-plasmon excitations need to
+be active to induce transitions which weaken the
+carbon bonds. This puts this mechanism behind
+first-order models. However, it can enhance the
+probability of electronic excitations (see below)
+--
+Physical concepts for the cutting mechanism
+
+In this Section we survey a number of possible physical mechanisms for the breaking of nanotubes by a voltage pulse that are interrelated to various degrees [\cite=comment_binding].Shear pressure; Simply crashing the tip into the tube could be a possible cutting mechanism. However, experimentally we find that the tubes are moved laterally when the tip is brought close to the tube. This is related to the large reversible elastic response (flexibility) exhibited by carbon nanotubes [\cite=falvo98]. Simulations of C60-molecules impact on carbon nanotubes have shown that even large radial forces produce reversible elastic distortions indicating that crashing the tip onto the tube is not an efficient method to cut [\cite=ar1].Furthermore, there is no obvious energy scale of 
+<AND>
+eV in the crashing process.
+
+Crack propagation; This is related to the propagation of voids and cracks already present in as-grown nanotubes under low (tensile) loads. However, there is no evidence, from STM or otherwise, for the presence of local defects or cracks in the SWNT material studied here. This mechanism is hence not considered to be important.
+
+Collective excitations (plasmons)Plasmons excited by inelastic electron scattering of the tunneling current can decay into electron-hole pairs, phonons or other excitations that induce a polarization or charge separation in the tube. Eventually the release of the plasmon energy leads to a break through local heating and atom evaporation. Due to the particular cylindrical geometry of carbon nanotubes we expect to have a π-plasmon excitation at about 5 eV [\cite=plasmon]. This has been confirmed experimentally [\cite=Pichler] for SWNTs of 1.4 nm diameter. The decay of the plasmon excitation into atom evaporation is a well-known phenomenon in metallic clusters where the surface-plasmon energy is of the order of the binding energy leading to atom-evaporation as an effective decaying mechanism of the collective excitations [\cite=Heer]. In the case of tubes with an internal binding energy greater than 7 eV/atom (as for most carbon solids; see Table I)however, multiple-plasmon excitations need to be active to induce transitions which weaken the carbon bonds. This puts this mechanism behind first-order models. However, it can enhance the probability of electronic excitations (see below)
+>>
+Delete|word
+|2 317 349 245 6|2 342 360 44 7
+2
+
+
+--
+
+>>
+Merge|word
+|2 436 303 126 7|2 342 315 220 4
+4. 
+--
+4 
+>>
+Replace|word
+|3 158 165 141 7|3 79 177 99 7
+tiptube 
+--
+tip-tube 
+>>
+Rearrange|para
+|3 54 462 179 6|3 233 462 66 7|3 79 473 220 7|3 79 485 220 7|3 79 496 51 7|3 130 496 169 7|3 79 508 57 7|3 136 508 163 7|3 79 519 118 7|3 197 519 102 7|3 79 531 164 7|3 243 531 57 7|3 79 542 142 7|3 221 542 78 7|3 79 554 220 7|3 79 565 220 7|3 79 577 16 7|3 95 577 204 7|3 79 588 94 7|3 173 588 126 7|3 79 600 156 7|3 235 600 64 7|3 79 611 220 7||3 54 635 245 7|3 54 646 41 7|3 95 646 204 7|3 54 658 73 7|3 127 658 172 7|3 54 669 78 7|3 132 669 167 7|3 54 681 87 7|3 141 681 158 7|3 54 692 124 7|3 178 692 121 7|3 54 704 169 7|3 223 704 76 7|3 54 715 205 7|3 317 62 245 7|3 259 715 40 7
+Field-induced elastic deformation; The large electric field from the tip apex causes significant
+changes in the C-C bond lengths. This introduces a
+mechanical instability in the tube that triggers the
+formation of topological defects (double pentagonheptagon defect pairs, see Fig. 6) [24,25] that dynamically evolve towards breaking of the tube (see
+next section for details) [26]This effect is enhanced by the stress introduced in the nanotube
+during the electronic excitation of localized σ-states
+(as discussed in the previous mechanism)The induced stress acts on the tube for the whole 1 ms
+applied voltage pulse which is long enough for the
+formation and evolution of the dislocation cores.
+The combination of the last two processes is the most
+likely to constitute the basic mechanism for cutting of
+nanotubes. The cutting process then is triggered by the
+inelastic electron excitations involving transitions of localized σ-states at about 3.6 eV. This accounts for
+the threshold voltage found in the experiments. The CC bonds are further weakened by the mechanical stress
+induced by the large electric field between tip and sam3
+
+
+--
+Field-induced elastic deformation; The large electric field from the tip apex causes significant changes in the C-C bond lengths. This introduces a mechanical instability in the tube that triggers the formation of topological defects (double pentagon-heptagon defect pairs, see Fig. 6) [\cite=SW][\cite=Vin] that dynamically evolve towards breaking of the tube (see next section for details) [\cite=jump_to_contact].This effect is enhanced by the stress introduced in the nanotube during the electronic excitation of localized σ-states (as discussed in the previous mechanism)The induced stress acts on the tube for the whole 1 ms applied voltage pulse which is long enough for the formation and evolution of the dislocation cores.
+
+The combination of the last two processes is the most likely to constitute the basic mechanism for cutting of nanotubes. The cutting process then is triggered by the inelastic electron excitations involving transitions of localized σ-states at about 3.6 eV. This accounts for the threshold voltage found in the experiments. The C-C bonds are further weakened by the mechanical stress induced by the large electric field between tip and sample. 
+>>
+Delete|word
+|3 317 73 245 7|3 317 85 18 7
+ple. 
+--
+
+>>
+Merge|word
+|3 317 62 245 7|3 259 715 40 7|3 317 73 245 7|3 317 85 18 7|3 335 85 227 7|3 317 96 63 7|3 380 96 182 7|3 317 108 99 7|3 416 108 146 7|3 317 119 164 7|3 481 119 47 7
+These two processes together induce topological defects and drive the system to mechanical instability. In
+the next section we present a more detailed analysis of
+mechanisms 4 and 5 as well as specific molecular dynamics simulations of bond rearrangement and bond-breaking
+driven by the stress introduced in the nanotube.
+
+
+--
+These two processes together induce topological defects and drive the system to mechanical instability. In the next section we present a more detailed analysis of mechanisms 4 and 5 as well as specific molecular dynamics simulations of bond rearrangement and bond-breaking driven by the stress introduced in the nanotube.
+
+
+>>
+Delete|word
+|3 317 155 245 6
+IV. 
+--
+
+>>
+Delete|word
+|3 317 275 245 6
+A. 
+--
+
+>>
+Replace|word
+|3 528 371 34 7|3 317 382 231 7
+densityfunctional 
+--
+density-functional 
+>>
+Split|word
+|3 317 452 245 7|3 317 463 45 7|3 362 463 200 7|3 317 474 92 7|3 409 474 153 7|3 317 486 103 9|3 420 484 142 7|3 317 497 129 7|3 446 497 116 7|3 317 509 157 7|3 474 509 88 7|3 317 520 189 7|3 506 520 56 7|3 317 532 222 7|3 539 532 23 7|3 317 543 245 7|3 317 555 245 7|3 317 566 35 7|3 352 566 210 7|3 317 578 28 7|3 345 578 217 7|3 317 589 52 7|3 369 589 193 7|3 317 601 75 7|3 392 601 170 7|3 317 612 115 7|3 432 612 130 7|3 317 623 152 7|3 469 623 93 7|3 317 635 245 7|3 317 646 245 7|3 317 658 245 7|3 317 669 46 7|3 363 669 199 7|3 317 681 81 7|3 398 681 164 7|3 317 692 106 7|3 423 692 139 7|3 317 704 99 7|3 416 704 146 7|3 317 715 126 7|3 443 715 119 7|4 54 62 141 7
+In the calculations shown in Fig. 5 the field acts on
+the whole tube for fixed atomic coordinates. Results are
+shown corresponding to electric fields accessible in the experimental setup (up to 1 eV/Å)One could also take into
+account the spatial variation of the applied field related
+to the tip-size. In that case there are distinct regions:
+one far from the tip where the electronic properties of
+the tube are dictated by the isolated tube and the other
+just beneath the tip where the electronic properties are
+modified by the applied field. From Fig. 5 we see that the
+applied field results in the appearance of localized levels
+which increases the DOS in an energy region close to the
+Fermi level (this effect is related to the bond-weakening
+and bond-length increase in carbon nanotubes under an
+applied voltage discussed above)The increase of density of states near the Fermi level enhances the number
+of possible transitions that can take place. Semiconducting nanotubes have a DOS comparable to that of metallic
+nanotubes, but have an energy gap with zero DOS near
+the Fermi energy. However, the electric field will induce
+states within the gap, similar to the increase of DOS
+near the Fermi level for metallic nanotubes. This allows
+localized particle-hole excitations to take place also for
+semiconducting nanotubes. Indeed, in the experiments
+
+
+--
+In the calculations shown in Fig. 5 the field acts on the whole tube for fixed atomic coordinates. Results are shown corresponding to electric fields accessible in the experimental setup (up to 1 eV/Å)One could also take into account the spatial variation of the applied field related to the tip-size. In that case there are distinct regions: one far from the tip where the electronic properties of the tube are dictated by the isolated tube and the other just beneath the tip where the electronic properties are modified by the applied field. From Fig. 5 we see that the applied field results in the appearance of localized levels which increases the DOS in an energy region close to the Fermi level (this effect is related to the bond-weakening and bond-length increase in carbon nanotubes under an applied voltage discussed above)The increase of density of states near the Fermi level enhances the number of possible transitions that can take place. Semiconducting nanotubes have a DOS comparable to that of metallic nanotubes, but have an energy gap with zero DOS near the Fermi energy. However, the electric field will induce states within the gap, similar to the increase of DOS near the Fermi level for metallic nanotubes. This allows localized particle-hole excitations to take place also for semiconducting nanotubes. Indeed, in the experiments 
+>>
+Merge|word
+|3 443 715 119 7|4 54 62 141 7|4 195 62 104 7|4 54 73 155 7
+no difference is found in cutting efficiency between semiconducting and metallic nanotubes.
+
+--
+no difference is found in cutting efficiency between semiconducting and metallic nanotubes.
+
+
+>>
+Split|word
+|3 54 745 508 6|4 54 86 245 7|4 54 97 34 7|4 88 97 211 7|4 54 109 87 7|4 141 109 158 7|4 54 120 91 7|4 145 120 154 7|4 54 132 136 7|4 190 132 109 7|4 54 143 196 7|4 250 143 49 7|4 54 154 245 7|4 54 166 245 7|4 54 177 14 7|4 68 177 231 7|4 54 189 64 7|4 118 189 181 7|4 54 200 95 7|4 149 200 150 7|4 54 212 138 7|4 192 212 107 7|4 54 223 147 7|4 201 223 98 7|4 54 235 164 7
+It may appear that any electronic mechanism should be
+current dependent. However the number of broken bonds
+is far less than the number of available electrons in the
+cutting process. The excitations become possible because
+of the large current available in the STM experiment.
+The experimental range of currents during the cutting
+process (more than 50 nA) is such that during the 1 ms
+pulse more than thousand electrons are involved in inelastic events. This means that we are in a saturated regime
+where cutting can in principle be achieved independent
+of the current. This situation can be compared to the
+situation of cutting Si:H bonds with an STM, where the
+desorption yield was found to be independent of bias or
+current once the bias is large enough 
+--
+It may appear that any electronic mechanism should be current dependent. However the number of broken bonds is far less than the number of available electrons in the cutting process. The excitations become possible because of the large current available in the STM experiment. The experimental range of currents during the cutting process (more than 50 nA) is such that during the 1 ms pulse more than thousand electrons are involved in inelastic events. This means that we are in a saturated regime where cutting can in principle be achieved independent of the current. This situation can be compared to the situation of cutting Si:H bonds with an STM, where the desorption yield was found to be independent of bias or current once the bias is large enough 
+>>
+Delete|word
+|4 195 62 104 7|4 54 73 155 7
+5. 
+--
+
+>>
+Delete|para
+|4 54 307 245 6
+F 
+--
+
+>>
+Delete|para
+|4 54 337 245 7|4 54 348 62 7
+(2)
+
+
+--
+
+>>
+Delete|word
+|4 116 348 183 7|4 54 360 89 7
+B. 
+--
+
+>>
+Split|word
+|4 54 532 245 7|4 54 544 70 7|4 124 544 175 7|4 54 555 113 7|4 167 555 132 7|4 54 567 111 7|4 165 567 134 7|4 54 578 135 7|4 189 578 110 7|4 54 589 140 8|4 194 589 105 8|4 54 601 160 7|4 214 601 65 7
+We consider the tube as a thin hollow rod which is
+clamped to the surface by van der Waals forces. In the
+cutting process, the tube is distorted by the tip in a region the size of the tip (length-scale L)For a hollow
+tube (inner radius a and outer radius b) of bending inertia I=π(b4 a4 4 and Young’s modulus Y, we expect a
+relative deformation δ for an applied force F of 
+--
+We consider the tube as a thin hollow rod which is clamped to the surface by van der Waals forces. In the cutting process, the tube is distorted by the tip in a region the size of the tip (length-scale L)For a hollow tube (inner radius a and outer radius b) of bending inertia I=π(b4 a4) 4 and Young's modulus Y, we expect a relative deformation δ for an applied force F of 
+>>
+Delete|para
+|4 54 631 245 15|4 148 638 44 7
+ǫ0 Rb(2πV )2 d
+
+
+--
+
+>>
+Delete|para
+|4 54 658 245 7|4 54 669 28 7
+C. Dynamical bond-breaking
+
+
+--
+
+>>
+Delete|para
+|4 82 669 217 7|4 54 681 68 7
+(1)
+
+
+--
+
+>>
+Rearrange|para
+|4 163 702 137 7|4 54 715 44 7||4 317 70 245 18|4 317 91 245 7|4 317 103 245 7|4 317 114 36 7|4 353 114 209 7|4 317 126 73 7|4 390 126 173 7|4 317 137 111 7|4 428 137 134 7|4 317 149 129 9|4 446 147 116 7|4 317 160 112 7|4 429 160 133 7|4 317 171 87 7|4 404 171 158 7|4 317 183 81 7|4 398 183 164 7|4 317 194 32 7|4 349 194 213 7|4 317 206 78 9|4 395 204 162 7|4 317 217 95 7|4 412 217 151 7|4 317 229 130 7|4 447 229 115 7|4 317 240 142 7|4 459 240 103 7|4 317 252 137 7|4 454 252 108 7|4 317 263 142 7|4 459 263 104 7|4 317 275 170 8|4 487 275 75 8|4 317 286 101 7||4 317 299 245 7|4 317 310 37 7|4 354 310 209 7|4 317 322 45 7|4 362 322 200 7|4 317 333 100 7|4 417 333 145 7|4 317 344 116 7|4 433 344 129 7|4 317 356 104 9|4 421 354 141 7|4 317 367 108 7|4 425 367 137 7|4 317 379 112 7|4 429 379 133 7|4 317 390 140 7|4 457 390 105 7|4 317 402 180 7|||4 317 442 245 6||4 317 473 245 7|4 317 485 60 7|4 377 485 185 7|4 317 496 101 7|4 418 496 144 7|4 317 508 145 7|4 462 508 101 7|4 317 519 173 7|4 490 519 72 7|4 317 531 245 7|4 317 542 245 7|4 317 554 29 7|4 346 554 216 7|4 317 565 23 7|4 340 565 222 7|4 317 576 245 7|4 317 588 44 7|4 361 588 201 7|4 317 599 96 7|4 413 599 149 7|4 317 611 100 7||4 317 623 245 7|4 317 635 66 7|4 383 635 179 7|4 317 646 80 7|4 397 646 165 7|4 317 658 84 7|4 401 658 161 7|4 317 669 20 7|4 337 669 225 7|4 317 681 56 7|4 373 681 189 7|4 317 692 78 7|4 395 692 167 7|4 317 704 103 7|4 420 704 142 7|4 317 715 122 7|4 439 715 123 7|5 54 62 97 7
+where V is the applied bias voltage and d the tip-tube
+distance. We see that it depends on the inverse separation. In this equation we have 
+<AND>
+neglected the hollow inner
+part of the tube that would reduce the force by approximately 20 but not its dependence on d and V With
+V=4 Volts, a distance of d=10 Å and R=100 Å (a reasonable value in STM when simulating a tip with a sphere
+[35]we find a force of 15 nN [36]This is independent of
+the polarity of the bias, as found experimentally. Soler et
+al. [37] 
+<AND>
+experimentally found that graphite surface would
+be experiencing a 1 Å deformation in an STM configuration for a force of the order of 1 nN. Notice however that
+the relevant elastic constants in their case are related to
+the weak interlayer bonding in graphite as reflected in
+the corresponding c33 and c44 elastic contansts. These
+are much smaller than the c11 constant (reflecting the
+strong intralayer sp2 -like bond) which is relevant in our
+case (see Table II) [38]Using now Eqn. (1) and inserting Y 1 TPa, we find
+that for a distortion δ/L higher than the 10% Lindeman
+criterion, L has at least to be 
+<AND>
+about 5 nm (of course
+strongly depending on N)The 10 change in the bond
+lengths can lead to brittle behavior (see below) [11]All
+this happens for electric fields of the order of 1 V/Å which
+are in the experimental range. Notice that this pull of
+electro-magnetic origin is happening over the length covered by the tip shape and drops dramatically outside the
+tip providing a highly “distorted” region.
+
+Now we address how the electronically and mechanically induced strain can lead to the breakdown of a tube.
+A plausible mechanism is the Stone-Wales (SW) transformation leading to bond-rotation defects [24]This comprises of a pair of pentagon-heptagon defects obtained
+by a simple C-C bond–rotation in the hexagonal network, see Fig. 6. These defects are the main source of
+strain release for tubes under tension [11,12] and determine the overall electronic character of the tube [25]The
+pentagon-heptagon defect behaves as a single edge dislocation in the tube circumference. Once nucleated, the
+pair dislocations can relax further by successive StoneWales transformations.
+We have performed molecular dynamics simulations of
+strain-induced defect and plastic/brittle behavior using
+the tight binding parameterization of Ref. [39] that reproduces quite well density-functional calculations within
+the local-density-approximation [40]The computed
+(T=0K) SW defect formation energy in an armchair nanotube at different applied strains shows that for a tensile
+strain of about 5% for a (10,10) tube and 12% for a (12,0)
+tube, the defect geometry is energetically favourable over
+
+
+--
+[\cite=DJ]:
+
+[formula]
+
+where V is the applied bias voltage and d the tip-tube distance. We see that it depends on the inverse separation. In this equation 
+<AND>
+neglected the hollow inner part of the tube that would reduce the force by approximately 20 but not its dependence on d and V. With V=4 Volts, a distance of d=10 Å and R=100 Å (a reasonable value in STM when simulating a tip with a sphere [\cite=Johansson]) we find a force of 15 nN [\cite=linear]. This is independent of the polarity of the bias, 
+<AND>
+Soler et al. [\cite=soler] experimentally found that graphite surface would be experiencing a 1 Å deformation in an STM configuration for a force of the order of 1 nN. Notice however that the relevant elastic constants in their case are related to the weak interlayer bonding in graphite as reflected in the corresponding c33 and c44 elastic contansts. These are much smaller than the c11 constant (reflecting the strong intralayer sp2-like bond) which is relevant in our case (see Table II) [\cite=shear].
+
+Using now Eqn. (1) and inserting Y 1 TPa, we find that for a distortion δ L higher than the 10% Lindeman criterion, L has at least 
+<AND>
+about 5 nm (of course strongly depending on N)The 10 change in the bond lengths can lead to brittle behavior (see below) [\cite=Marco].All this happens for electric fields of the order of 1 V/Å which are in the experimental range. Notice that this pull of electro-magnetic origin is happening over the length covered by the tip shape and drops dramatically outside the tip providing a highly "distorted" region.
+
+Dynamical bond-breaking
+
+Now we address how the electronically and mechanically induced strain can lead to the breakdown of a tube. A plausible mechanism is the Stone-Wales (SW) transformation leading to bond-rotation defects [\cite=SW].This comprises of a pair of pentagon-heptagon defects obtained by a simple C-C bond-rotation in the hexagonal network, see Fig. 6. These defects are the main source of strain release for tubes under tension [\cite=Marco] [\cite=Paul] and determine the overall electronic character of the tube [\cite=Vin]. The pentagon-heptagon defect behaves as a single edge dislocation in the tube circumference. Once nucleated, the pair dislocations can relax further by successive Stone-Wales transformations.
+
+We have performed molecular dynamics simulations of strain-induced defect and plastic/brittle behavior using the tight binding parameterization of Ref. [\cite=tbmd] that reproduces quite well density-functional calculations within the local-density-approximation [\cite=md].The computed (T=0K) SW defect formation energy in an armchair nanotube at different applied strains shows that for a tensile strain of about 5% for a (10,10) tube and 12% for a (12,0) tube, the defect geometry is energetically favourable over 
+>>
+Delete|word
+|4 390 126 173 7|4 317 137 111 7
+[34]4
+
+
+--
+
+>>
+Delete|word
+|4 428 137 134 7|4 317 149 129 9
+the 
+--
+
+>>
+Merge|word
+|4 353 114 209 7|4 317 126 73 7
+we have 
+--
+we have 
+>>
+Merge|word
+|4 398 183 164 7|4 317 194 32 7
+as found experimentally. 
+--
+as found experimentally. 
+>>
+Merge|word
+|4 362 322 200 7|4 317 333 100 7
+to be 
+--
+to be 
+>>
+Merge|word
+|4 439 715 123 7|5 54 62 97 7
+the perfect tube 
+--
+the perfect tube 
+>>
+Delete|para
+|5 54 340 245 6
+ACKNOWLEDGMENTS
+
+
+--
+
+>>
+Delete|word
+|5 54 370 245 7|5 54 381 61 7
+V. 
+--
+
+>>
+Split|word
+|5 54 508 245 7|5 54 520 30 7
+It would be interesting to attempt the cutting in 
+--
+It would be interesting to attempt the cutting in 
+>>
+Replace|word
+|5 54 508 245 7|5 54 520 30 7
+multiwalled 
+--
+multi-walled 
+>>
+Split|word
+|5 54 658 245 7|5 54 669 245 7|5 54 681 57 7|5 111 681 188 7|5 54 692 105 7|5 159 692 140 7|5 54 704 153 7|5 207 704 92 7|5 54 715 182 7|5 317 62 203 7|5 236 715 63 7
+It may be interesting to see if the breaking process is
+accompanied by photon emission to any significant degree to gain further information about the energetic of
+the possible processes. Photon emission provides a signal that is dependent on the local physical environment
+beneath the tip with a spatial resolution determined by
+
+
+--
+It may be interesting to see if the breaking process is accompanied by photon emission to any significant degree to gain further information about the energetic of the possible processes. Photon emission provides a signal that is dependent on the local physical environment beneath the tip with a spatial resolution determined by 
+>>
+Delete|para
+|5 520 62 42 7|5 317 73 245 7|5 317 85 14 9
+[1] S. Iijima, Nature 354, 56 (1991)P.M. Ajayan and S.
+Iijima, Nature 361, 333 (1993)[2] See for example 
+--
+
+>>
+Merge|word
+|5 317 62 203 7|5 236 715 63 7
+the 
+--
+the 
+>>
+Rearrange|para
+|5 317 62 203 7|5 236 715 63 7|5 520 62 42 7|5 317 73 245 7|5 317 85 14 9
+size of the local creening charge (colective mode) involved in the photon
+emission. Typical resolution can
+be estimated as Rd 20Å 
+--
+size of the local creening charge (colective mode) involved in the photon emission. Typical resolution 
+>>
+Delete|para
+|5 331 83 219 7
+special issues on Nanotubes in Carbon 33 (1996)J. Appl. Phys. A 67 (1998)68 (1999)[3] M.S. Dresselhaus, G. Dresselhaus, P.C. Eklund, Science
+of Fullerenes and Carbon Nanotubes (Academic Press
+Inc.San Diego, 1996)M.S. Dresselhaus, G. Dresselhaus,
+K. Sugihara, I.L. Spain and H.A. Goldberg, Graphite
+Fibers and Filaments, Springer Verlag (1988)[4] T.W. Ebbesen, Carbon nanotubes: preparation and properties (CRC Press, New York, 1997)[5] C. Dekker, Physics Today 52, 22 (1999)[6] S.J. Tans, A.R.M. Verschueren and C.Dekker, Nature,
+393 49 (1998)[7] J. Liu, A. G. Rinzler, H. Dai, J. H. Hafner, R. K. Bradley,
+P. J. Boul, A. Lu, T. Iverson, K. Shelimov, C. B. Huffman, F. Rodriguez-Macias, Y. Shon, T. R. Lee, D. T.
+Colbert, and R. E. Smalley, Science, 280, 1253 (1998)P.G. Collins, A. Zettl, H. Bando, A. Thess, R.E. Smalley,
+Science 278, 100 (1997)[8] S. Curran, P.M. Ajayan, W. Blau, D.L. Carroll, J.Coleman, A.B. Dalton, A.P.Davey, A. Drudy, B. McCarthy,
+S. Maier and A. Strevens, Advanced Materials 10, 1091
+
+
+--
+
+>>
+Delete|para
+|5 317 96 182 7
+5
+
+
+<AND>
+from the derivative
+of the elastic and electrostatic forces in equilibrium [O.
+Hansen, J.T. Ravnkilde, U. Quaade, K. Stokbro and F.
+Grey, Phys. Rev. Lett. 81, 5572 (1998)to be of the order of a few volts depending on the effective tip-sample
+distance. The jump-to-contact voltage is very sensitive
+to the equilibrium tunnel gap. This indicates that it is
+unlikely that we are in this regime here.
+[27] Removing or adding an electron from/to a tube bond
+can introduce stresses in the network. So, for instance,
+the bond length of the C2 -dimer increases from 1.24 to
+1.30 Å when taking one electron out, which is a 5% effect.
+However in more confined structures (e.g. benzene) the
+effect is less relevant 
+--
+
+<AND>
+
+>>
+Delete|para
+|5 499 96 63 7|5 317 108 114 7
+[9]
+
+
+--
+
+>>
+Delete|para
+|5 317 120 245 7|5 317 132 22 7
+[10]
+
+
+--
+
+>>
+Delete|para
+|5 339 132 223 7|5 317 143 41 7
+[11]
+
+
+--
+
+>>
+Delete|para
+|5 358 143 204 7|5 317 155 90 7
+[12]
+[13]
+
+
+<AND>
+long as the electron is removed
+from the π-cloud.
+[28] W.E. Pickett, Comput. Phys. Rep. 9, 115 (1989)M.C. Payne, M.P. Teter, D.C. Allan, T.A. Arias, J.D.
+Joannopoulos, Rev. Mod. Phys. 64, 1045 (1992)[29] The calculations show a slight asymmetry in the response
+of the carbon nanotube with respect of the applied bias
+polarity for potentials larger than ±4eV (in agreement
+with calculations performed by D. Tomanek, private communication 1999)Note that the field introduces a quite
+large mechanical stress in the system. We can estimate
+from a simple displaced harmonic oscillator model (displacement ∆x) the field strength k∆x/e necessary for a
+10% change in bond distance (Lindemann melting criterion [32]Using k-values from Table I we obtain values of
+the order of 4V/Å 
+--
+
+<AND>
+
+>>
+Delete|para
+|5 407 155 155 7|5 317 166 140 7
+[14]
+
+
+<AND>
+single bond. This corresponds
+to a change in elastic energy of 6-7 eV. Once this energy
+is higher than bonding-antibonding transition energies
+it cannot be accommodated and the bond will tend to
+break.
+[30] Ph. Avouris, R.E. Walkup, A.R Rossi, H.C. Akpati, P.
+Nordlander, T.C. Shen, G.C. Abeln and J.W. Lyding,
+Surf. Sci. 363, 368 (1996)[31] E. Hernández, C. Goze, P. Bernier and A. Rubio, Phys.
+Rev. Lett. 80, 4502 (1998)L. Vaccarini, C. Goze, L.
+Henrard, E. Hernández, P. Bernier and A. Rubio, Carbon (in press)[32] F.A. Lindemann, Z. Physik 11, 609 (1910)[33] L. D. Landau and E. M. Lifschitz, Theory of Elasticity,
+2nd ed. (Pergamon, Oxford 1975)[34] B. Derjagin, Kolloid Z. 69, 155 (1934)L.R. White, J.
+Colloid interface Sci. 95, 286 (1983)To compute the
+force we use the Derjagin approximation, that was later
+on elaborated by White. In this approach, the force between two objects is related to the curvatures involved
+and the interaction energy E(d) per unit area 
+--
+
+<AND>
+
+>>
+Delete|para
+|5 457 166 105 7|5 317 177 163 7
+[15]
+
+
+--
+
+>>
+Delete|para
+|5 480 177 82 7|5 317 189 67 7
+[16]
+[17]
+
+
+--
+
+>>
+Delete|para
+|5 317 227 245 6
+[18]
+
+
+--
+
+>>
+Delete|para
+|5 317 258 245 7|5 317 269 60 7
+[19]
+[20]
+
+
+--
+
+>>
+Delete|para
+|5 377 269 185 7|5 317 281 128 7
+[21]
+[22]
+[23]
+
+
+--
+
+>>
+Delete|para
+|5 445 281 117 7|5 317 292 245 7
+[24]
+[25]
+
+
+--
+
+>>
+Delete|para
+|5 317 303 245 7|5 317 315 39 7
+[26] The mechanical deformation might also lead, in some
+conditions, to jump to contact of tip and sample with
+potential material transfer between the two. The jumpto-contact voltage 
+--
+
+>>
+Merge|word
+|5 520 62 42 7|5 317 73 245 7|5 317 85 14 9|5 331 83 219 7
+can be estimated 
+--
+can be estimated 
+>>
+Rearrange|para
+|5 331 83 219 7|5 317 96 182 7|5 499 96 63 7|5 317 108 114 7||5 317 120 245 7|5 317 132 22 7|5 339 132 223 7|5 317 143 41 7|5 358 143 204 7|5 317 155 90 7
+using our length scales introduced above [35,42]A related topic would be field
+emission from nano-tubes.
+To summarize, characterized in detail the possible mechanisms responsible for the 
+<AND>
+breaking up of tubes
+Nanotube cutting is a promising technique for the 
+--
+[formula]Å using our length scales introduced above [\cite=Johansson] [\cite=comment_field]. A related topic would be field emission from nano-tubes.
+
+To summarize, we have characterized in detail the possible mechanisms responsible 
+<AND>
+breaking up of tubes as found experimentally. Nanotube cutting is a promising technique 
+>>
+Merge|word
+|5 339 132 223 7|5 317 143 41 7
+for the 
+--
+for the 
+>>
+Merge|word
+|5 358 143 204 7|5 317 155 90 7
+for the
+
+--
+for the 
+>>
+Rearrange|para
+|5 407 155 155 7|5 317 166 140 7|5 457 166 105 7|5 317 177 163 7|5 480 177 82 7|5 317 189 67 7||5 317 227 245 6||5 317 258 245 7|5 317 269 60 7|5 377 269 185 7|5 317 281 128 7|5 445 281 117 7|5 317 292 245 7|5 317 303 245 7|5 317 315 39 7|5 356 315 206 7|5 317 326 75 7|5 392 326 170 7|5 317 338 115 7
+emerging field of nano-manipulation
+and nanodevices. More studies will have made to
+understand all the interesting physics taking place at this
+nanoscale level.
+
+This work was supported in part by grants from
+the Swedish Natural Science Research Council, Iberdrola S.A, JCyL (Grant: VA28/99) and the European Community TMR contracts ERB-FMRX-CT980198 and ERBFMRX-CT96-0067 (DG12-MIHT)SPA
+and AR are grateful to the enlightening atmosphere at
+the University of the Basque Country where most of this
+work was done. We thank H.L.J. Temminck Tuinstra for
+help with the 
+--
+emerging field of nano-manipulation and nanodevices. More studies will have to be made to understand all the interesting physics taking place at this nanoscale level.
+
+Acknowledgments
+
+This work was supported in part by grants from the Swedish Natural Science Research Council, Iberdrola S.A, JCyL (Grant: VA28/99) and the European Community TMR contracts ERB-FMRX-CT98-0198 and ERBFMRX-CT96-0067 (DG12-MIHT)SPA and AR are grateful to the enlightening atmosphere at the University of the Basque Country where most of this work was done. We thank 
+>>
+Delete|para
+|5 432 338 130 7|5 317 349 140 7
+corresponding planar situation: F 2πRef f E(d) where
+d is the separation between the two solids (average distance between tip and tube in our situation) and Ref f
+expresses
+the curvatures involved and is given by: Ref f q
+b
+Rb. The latter approximation is valid when
+R R+b
+R≫b, which applies to our case. The interaction energy
+for two planar surfaces making up a capacitor with a bias
+voltage V is the classical charging energy: E(d) 12 CV 2 
+--
+
+>>
+Delete|para
+|5 457 349 105 7|5 317 361 176 7
+(1998)P.M. Ajayan, L.S. Schadler, C. Giannaris and A.
+Rubio (submitted for publication)A. Thess, R. Lee, P. Nikolaev, H. Dai, P. Petit, J. Robert,
+C. Xu, Y.H. Lee, S.G. Kim, A.G. Rinzler, D.T. Colbert,
+G.E. Scuseria, D. Tomanek, J.E. Fisher, R.E. Smalley,
+Science 273, 483 (1996)
+C. Journet, W. Maser, P. Bernier, A. Loiseau, P. Deniard, S. Lefrant, R. Lee, J. Fischer, Nature 388, 756
+(1997)M. Buongiorno-Nardelli, B.I. Yakobson and J. Bernhold,
+Phys. Rev. Lett. 81, 4656 (1998)Phys. Rev. B 57, 4277
+(1998)P. Zhang, P.E. Lammert and V.H. Crespi, Phys. Rev.
+Lett. 81, 5346 (1998)S.J. Tans, M.H. Devoret, H. Dai, A. Thess, R.E. Smalley, L.J. Geerligs, C. Dekker, Nature 386, 474 (1997)M. Bockrath, D.H. Cobden, P.L. McEuen, N.G. Chopra,
+A. Zettl, A. Thess and R.E. Smalley, Science 275, 1922
+(1997)L.C. Venema, J.W.G. Wildöer, H.J.L. Temminck Tuinstra, C. Dekker, A.G. Rinzler and R.E. Smalley, Appl.
+Phys. Lett. 71, 2629 (1997)L.C. Venema, J.W.G. Wildöer, S.J. Tans, J.W. Janssen,
+
+<AND>
+L.P. Kouwenhoven and C.
+Dekker, Science, 283, 52 (1999)A. Rubio, D. Sanchez-Portal, E. Artacho, P. Ordejón and
+J.M.Soler, Phys. Rev. Lett. 82, 3520 (1999)As a starting point 
+--
+
+<AND>
+
+>>
+Merge|word
+|5 432 338 130 7|5 317 349 140 7
+H.L.J. Temminck Tuinstra, 
+--
+H.L.J. Temminck Tuinstra 
+>>
+Replace|para
+|5 432 338 130 7|5 317 349 140 7
+all the possible cutting mechanisms a strong binding between the tube and the substrate is necessary either chemically or through van der
+Waals forces. Experiments [T. Hertel, R. Martel and P.
+Avouris, J. Phys. Chem. 102, 910 (1998)Phys. Rev.
+B 58 13870 (1998)and first-principle calculations [16]
+show that tubes have a fairly good binding to the gold
+substrate. It is typically of the order of 2 meV/atom and
+adds up to a significant amount of binding energy for a
+tube.
+S. Iijima, C. Brabec, A. Maiti and J. Bernholc, J.
+Chem. Phys. 104 2089 (1996)M.R. Falvo, G.J. Clary,
+R.M. Taylor, V. Chi, F.P. Brooks, S. Washburn and
+R. Superfine, Nature 389, 582 (1997)A. Lordi and N. Yao, J. Chem. Phys. 109, 2509 (1998)Note that the imaginary part of the inverse dielectric
+function for graphite (sheet) has a peak around 6-7 eV,
+related to a collective plasma excitation [3]Geometric
+arguments indicate that for a cylinder this excitation
+should move down in energy by 2.
+T. Pichler, M. Knupfer, M.S. Golden, J. Fink, A. Rinzler
+and R.E. Smalley, Phys. Rev. Lett. 80, 4729 (1998)W.A. de Heer, Rev. Mod. Phys. 65, 611 (1993)M.
+Brack, Rev. Mod. Phys. 65, 677 (1993)A. Rubio, Appl. Phys. A 68 275 (1999)Although interactions 
+--
+help 
+>>
+Rearrange|para
+|5 432 338 130 7|5 317 349 140 7|5 457 349 105 7|5 317 361 176 7|5 493 361 69 7|5 317 372 202 7|5 519 372 44 7|5 317 384 245 7||5 317 395 245 7
+experiments and acknowledge discussions
+with J.W.G. Wildöer, D. Tomanek, P. Bernier and M.
+
+<AND>
+Buongiorno-Nardelli. The work at Delft was supported
+by the 
+<AND>
+Dutch Foundation for Fundamental Research of
+Matter (FOM)
+--
+experiments and acknowledge discussions with J.W.G. Wildöer, D. Tomanek, P. Bernier 
+<AND>
+Buongiorno-Nardelli. The work at Delft was supported 
+<AND>
+Dutch Foundation for Fundamental Research of Matter (FOM)
+>>
+Delete|para
+|5 519 372 44 7|5 317 384 245 7
+metallic substrate or other tubes introduces some modifications in the shape of the van Hove
+singularities and the opening of pseudogaps, the main
+electronic structure is well described by the isolated tube.
+A.J. Stone and D.J. Wales, Chem. Phys. Lett. 128, 501
+(1986)V.H. Crespi, M.L. Cohen and A. Rubio, Phys. Rev. Lett.
+79, 2093 (1997)
+
+
+--
+
+>>
+Delete|para
+|5 317 395 245 7
+6
+
+
+<AND>
+M.J. Treacy, Phys. Rev. B 58, 14013 (1998)b
+J.P. Salvetat, G.A.D. Briggs, J.M. Bonard, R.R. Bacsa,
+A.J. Kulik, T. Stöckli, N.A. Burnham and L. Forro, Phys.
+Rev. Lett. 82, 944 (1999)
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 317 474 245 7
+[35]
+[36]
+
+
+<AND>
+FIG. 1. Room temperature images of a carbon nanotube
+(a) before and (b) after it was cut at three positions marked
+with crosses in (a)
+<AND>
+total number of applied pulses at that specific voltage.
+About 150 voltage pulses were applied on various nanotubes.
+The feedback current was varied between 20 pA and 1 nA;
+the feedback voltage between 0.1 V and 3V.
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete|para
+|5 335 485 127 7
+[37]
+[38]
+
+
+<AND>
+FIG. 2. Cutting efficiency versus applied voltage. Efficiency is here defined as the number of successful cuts divided
+
+<AND>
+FIG. 3.
+Room temperature image of a bundle of nanotubes. An individual nanotube within the bundle, indicated
+by the arrow, could be cut by a voltage pulse.
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete|para
+|5 317 496 245 7
+[39]
+[40]
+
+
+<AND>
+TABLE I. Typical spring constants k [N/m]energy Do
+[eV] needed to break a bond at T=0, and equilibrium distances Req (Å) for different carbon bonds. In rough terms
+displacing an atom by 0.1 Å corresponds to an elastic energy
+change of 5-10 eV.
+bond
+C-H
+C-C
+C=C
+C≡C
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 335 507 221 7
+[41]
+[42]
+
+
+<AND>
+Y (GPa)
+200
+400
+1140
+(c11 =1090; c12 =120; c44 =640)
+700
+(c11 =1060; c33 =36.5; c44 =4.5)
+SWNT 1250 a
+SWNT-ropes b 1000
+(TB calc. Y=1240; ν=0.26) [31]
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 317 518 245 7
+TABLE II. Typical elasticity parameters Y (Young’s
+modulus) and σY (yield stress) for different carbon
+materials [3] compared to steel. Due to the large anisotropy
+in the elastic constants of graphite we add those in parenthesis. They are relevant for the elastic strength and flexibility
+of the single wall nanotubes (SWNT)
+<AND>
+FIG. 4. Room temperature images of a strongly bent nanotube (a) before and (b) after it was cut near the two positions
+marked with crosses in (a)The three separated tube parts
+appear to be displaced as a result of the cutting events. Image
+(b) is an enlargement of the area within the square in (a)
+--
+
+<AND>
+
+>>
+Delete|para
+|5 335 529 227 7|5 335 540 92 7
+For C=4πǫ0 /d (per unit area) we then get the final result
+for the force given in Eqn.2)P. Johansson, R. Monreal and P. Apell, Phys. Rev. B42,
+9210 (1990)It is known from other works (H.F. Budd and J. Vannimenus, Phys. Rev. Lett. 31, 1218 (1973)Phys. Rev.
+B12, 509 (1975)S. Andersson, B.N.J. Persson, M. Persson and N.D. Lang, Phys. Rev. Lett. 52, 2073 (1984)that the classical force used by invoking Eq.2) actually
+reflects an average over the true force acting. There is
+also a first order response which we should consider since
+our system is truly microscopic. Within linear response
+the total force F acting on the ions from an external field
+E has to average to zero. We checked that this linear term
+contribution is very small in our particular case.
+J.M. Soler, A.M. Baro, N. García and H. Rohrer, Phys.
+Rev. Lett. 57, 444 (1986)The Young’s modulus, Y=k/ro where ro is an interatomic
+distance, will be of the order of TPa (see Table II)As the
+shear stress µ Y 1 ν) (where ν 0.26 is the Poisson [31]is of the same order of magnitude as the Young
+modulus therefore, we concentrate all the discussion of
+the cutting on the strain.
+C. H. Xu, C. Z. Wang, C. T. Chan, and K. M. Ho, J.
+Phys. Condens. Matter 4, 6047 (1992)More exhaustive calculations have been done in
+refs. [11,12] using a semiempirical Tersoff parametrization of the carbon-carbon interaction.
+Above this critical value the defect density increases
+rapidly with length [12]Higher resolution and photon intensities can be achieved
+by taking advantage of the optical-field enhancement at
+the STM-tip when the tip-surface cavity is illuminated on
+with a laser. The field enhancement factor is of the order of 1000 for typical STM-tips and substrates as highly
+oriented pyrolytic graphite or gold (A.V. Bragas, S.M.
+Landi and O.E. Martínez, Appl. Phys. Lett. 72, 2075
+(1998)This new optical microscopy can also be used to
+study the linear and nonlinear optical response of carbon
+nanotubes and other nanostructures.
+
+
+<AND>
+Req (Å)1.11
+1.52
+1.34
+1.21
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 427 540 135 7|5 335 551 192 6
+Material
+Steel
+Fullerenes
+Diamond
+Graphite
+Tubes
+
+
+<AND>
+FIG. 5. Density of states of an armchair (10,10) single-wall
+nanotube for various applied electric fields perpendicular to
+the tube axis. There is an increase of the density of states at
+the Fermi level that leads to bond weakening (see text)We
+also show the results for a field of 4 eV/Å as the dashed line
+in the bottom panel. For comparison the density of states
+for a single graphene layer (dash line) is also given in the top
+panel.
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 527 551 35 6|5 335 562 185 7
+k (N/m)460
+440
+960
+1560
+
+
+<AND>
+M.F. Ashby, Acta. Metall. 37, 1273 (1989)
+--
+
+<AND>
+
+>>
+Delete|para
+|5 317 573 245 7
+Do (eV)4.0
+3.4
+7.4
+10.0
+
+
+<AND>
+FIG. 6. Schematic description of the strain-induced topological pentagon-heptagon pair defect (Stone-Wales transformation) [24]The tube axis is in the vertical direction.
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 335 584 149 7
+σY (GPa)
+3
+12
+50-90
+40
+∼1
+
+
+<AND>
+7
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 317 595 182 7
+b
+
+
+<AND>
+a
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 317 605 18 7
+a
+
+
+<AND>
+x
+x
+x
+10 nm
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 335 605 227 7|5 335 616 59 7
+A. Krishnan, E. Dujardin, T.W. Ebbesen, P.N. Yanilos
+
+<AND>
+b
+
+
+--
+
+<AND>
+
+>>
+Merge|word
+|5 493 361 69 7|5 317 372 202 7
+and M.
+--
+and M. 
+>>
+Merge|word
+|5 519 372 44 7|5 317 384 245 7
+by the 
+--
+by the 
+>>
+Delete|para
+|5 317 627 245 7|5 335 638 12 6
+F ig 1 A R u b io et a l.
+
+
+--
+
+>>
+Delete|para
+|5 347 638 215 6|5 335 649 37 6
+Cutting efficiency
+
+
+--
+
+>>
+Delete|para
+|5 372 649 190 6|5 335 660 81 7
+1
+
+
+--
+
+>>
+Delete|para
+|5 417 660 146 7|5 335 671 90 6
+0
+-6
+
+
+--
+
+>>
+Delete|para
+|5 425 671 137 6|5 335 682 99 7
+-5
+
+
+--
+
+>>
+Delete|para
+|5 317 693 178 7
+-4
+
+
+--
+
+>>
+Delete|para
+|5 495 693 67 7|5 335 704 227 6|5 335 715 11 6
+-3
+
+
+--
+
+>>
+Delete|para
+|5 346 715 216 6|6 72 62 31 7
+-2
+
+
+--
+
+>>
+Delete|para
+|5 54 745 508 6|6 54 84 214 7
+1
+
+
+--
+
+>>
+Delete|para
+|6 103 62 196 7|6 72 73 71 7
+-1
+
+
+--
+
+>>
+Delete|para
+|6 144 73 68 7
+0
+
+
+--
+
+>>
+Delete|para
+|6 268 84 31 7|6 72 95 227 6|6 72 106 23 6
+Voltage (V)
+
+
+--
+
+>>
+Delete|para
+|6 95 106 204 6|6 72 117 96 7
+Fig. 2. A. Rubio et al.
+
+
+--
+
+>>
+Delete|para
+|6 54 128 245 7
+2
+
+
+--
+
+>>
+Delete|para
+|6 72 139 227 6|6 72 150 227 7
+3
+
+
+--
+
+>>
+Delete|para
+|6 54 161 245 7
+4
+
+
+--
+
+>>
+Delete|para
+|6 72 172 227 7|6 72 183 227 7
+5
+
+
+--
+
+>>
+Delete|para
+|6 54 194 245 7|6 72 205 36 7
+6
+
+
+--
+
+>>
+Delete|para
+|6 108 205 53 7
+a
+x
+x
+
+
+--
+
+>>
+Delete|para
+|6 54 215 245 7|6 72 226 17 7
+20 nm
+
+
+--
+
+>>
+Delete|para
+|6 90 226 210 7|6 72 237 14 6
+b
+
+
+--
+
+>>
+Delete|para
+|6 86 237 213 6|6 72 248 50 6
+20 nm
+F ig 3. A R u b io et a l.
+
+
+--
+
+>>
+Delete|para
+|6 122 248 177 6|6 72 259 227 7
+10 nm
+
+
+--
+
+>>
+Delete|para
+|6 54 270 245 7|6 72 281 22 6
+F ig 4 A R u b io et a l.
+
+
+--
+
+>>
+Delete|para
+|6 94 281 205 6|6 72 292 114 7
+Fig. 6. A. Rubio et al.
+
+
+--
+

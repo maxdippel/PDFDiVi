@@ -1,0 +1,800 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.18)  28 APR 2017 11:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**input/src/0001/cond-mat0001224/tsh364.tmp.tex
+(./input/src/0001/cond-mat0001224/tsh364.tmp.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/latex209.def
+File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
+
+
+          Entering LaTeX 2.09 COMPATIBILITY MODE
+ *************************************************************
+    !!WARNING!!    !!WARNING!!    !!WARNING!!    !!WARNING!!   
+ 
+ This mode attempts to provide an emulation of the LaTeX 2.09
+ author environment so that OLD documents can be successfully
+ processed. It should NOT be used for NEW documents!
+ 
+ New documents should use Standard LaTeX conventions and start
+ with the \documentclass command.
+ 
+ Compatibility mode is UNLIKELY TO WORK with LaTeX 2.09 style
+ files that change any internal macros, especially not with
+ those that change the FONT SELECTION or OUTPUT ROUTINES.
+ 
+ Therefore such style files MUST BE UPDATED to use
+          Current Standard LaTeX: LaTeX2e.
+ If you suspect that you may be using such a style file, which
+ is probably very, very old by now, then you should attempt to
+ get it updated by sending a copy of this error message to the
+ author of that file.
+ *************************************************************
+
+\footheight=\dimen102
+\@maxsep=\dimen103
+\@dblmaxsep=\dimen104
+\@cla=\count79
+\@clb=\count80
+\mscount=\count81
+(/usr/share/texlive/texmf-dist/tex/latex/base/tracefnt.sty
+Package: tracefnt 2015/02/21 v3.0k Standard LaTeX package (font tracing)
+\tracingfonts=\count82
+LaTeX Info: Redefining \selectfont on input line 106.
+)
+\symbold=\mathgroup4
+\symsans=\mathgroup5
+\symtypewriter=\mathgroup6
+\symitalic=\mathgroup7
+\symsmallcaps=\mathgroup8
+\symslanted=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 299.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 300.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 306.
+LaTeX Info: Redefining \em on input line 316.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 377.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 379.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 381.
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/revtex/revtex.cls
+(/home/dippelm/PDFDiVi/texmf/tex/latex/revtex/revtex.sty
+Filename: revtex.sty, v3.0 <27 October 92>
+(/home/dippelm/PDFDiVi/texmf/tex/latex/revtex/aps.sty
+Filename: aps.sty, v3.0 <28 October 1992>
+REVTeX message: NFSS detected! Assuming NFSS.
+(/home/dippelm/PDFDiVi/texmf/tex/latex/revtex/aps10.sty
+Filename: aps10.sty, v3.0 <2 October 1992>
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\@indentflag=\count89
+\@eqtoeqnum=\dimen105
+\c@eqletter=\count90
+\c@equation=\count91
+\@testboxa=\box26
+\@testboxb=\box27
+ (/home/dippelm/PDFDiVi/texmf/tex/latex/revtex/prabib.sty
+Filename: prabib.sty, v3.0 <9/14/92>
+\WidestRefLabelThusFar=\dimen106
+)
+\c@figure=\count92
+\c@table=\count93
+\c@tablenote=\count94
+\@Ldec=\dimen107
+\@Rdec=\dimen108
+))) (/home/dippelm/PDFDiVi/texmf/tex/latex/epsf/epsfig.sty
+Package: epsfig 1996/10/04 v1.7 (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/home/dippelm/PDFDiVi/texmf/tex/latex/graphics.sty
+(/home/dippelm/PDFDiVi/texmf/tex/latex/epsf/epsf.sty
+This is `epsf.tex' v2.7k <10 July 1997>
+\epsffilein=\read1
+\epsfframemargin=\dimen109
+\epsfframethickness=\dimen110
+\epsfrsize=\dimen111
+\epsftmp=\dimen112
+\epsftsize=\dimen113
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+\pspoints=\dimen116
+\epsfnoopenhelp=\toks15
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+\epsfxsize=\dimen119
+\epsfysize=\dimen120
+) (input/src/0001/cond-mat0001224/tsh364.tmp.aux)
+\openout1 = `tsh364.tmp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 21.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 21.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 21.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+! Undefined control sequence.
+\@tempc #1->\Gin@bboxtrue 
+                          \Gread@parse@bb #1 \\
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@tempc #1->\Gin@bboxtrue \Gread@parse@bb 
+                                          #1 \\
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...width \Gin@scalex \Gin@nat@width 
+                                                  \Gin@req@height \Gin@scale...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...idth \Gin@req@height \Gin@scaley 
+                                                  \Gin@nat@height }\fi \fi \...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...ight \Gin@scaley \Gin@nat@height 
+                                                  }\fi \fi \fi \let \Gin@ewi...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten \endgroup.
+\Gin@esetsize ...ght \Gin@scaley \Gin@nat@height }
+                                                  \fi \fi \fi \let \Gin@ewid...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra \fi.
+\KV@do ...plit #1==\relax \expandafter \KV@do \fi 
+                                                  
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\Gin@esetsize ...expand \Gin@eresize {\Gin@ewidth 
+                                                  }{\Gin@eheight }{\the \tok...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...size {\Gin@ewidth }{\Gin@eheight 
+                                                  }{\the \toks@ }}}\@tempa \...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\Gin@esetsize ...ley \Gin@nat@height }\fi \fi \fi 
+                                                  \let \Gin@ewidth \Gin@excl...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+<inserted text> \Gscale@@box 
+                             \Gin@eresize {}{}{\Gin@erotate {270}{\Ginclude@...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@eresize ->\height 
+                       
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate #1#2->\Grot@setangle 
+                                  {#1}\setbox \z@ \hbox {{#2}}\Grot@x \z@ \G...
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \Ginclude@graphics 
+                              {\Gfigname }
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...1}\setbox \z@ \hbox {{#2}}\Grot@x 
+                                                  \z@ \Grot@y \z@ \Grot@box 
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...@ \hbox {{#2}}\Grot@x \z@ \Grot@y 
+                                                  \z@ \Grot@box 
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...\Grot@x \z@ \Grot@y \z@ \Grot@box 
+                                                  
+l.198 ...b= 30 80 600 560, width=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2]
+! Undefined control sequence.
+\@tempc #1->\Gin@bboxtrue 
+                          \Gread@parse@bb #1 \\
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@tempc #1->\Gin@bboxtrue \Gread@parse@bb 
+                                          #1 \\
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\KV@do ...plit #1==\relax \expandafter \KV@do \fi 
+                                                  
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\Gin@esetsize ...expand \Gin@eresize {\Gin@ewidth 
+                                                  }{\Gin@eheight }{\the \tok...
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...size {\Gin@ewidth }{\Gin@eheight 
+                                                  }{\the \toks@ }}}\@tempa \...
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\Gin@esetsize ...ley \Gin@nat@height }\fi \fi \fi 
+                                                  \let \Gin@ewidth \Gin@excl...
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+<inserted text> \Gscale@@box 
+                             \Gin@eresize {}{}{\Gin@erotate {270}{\Ginclude@...
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@eresize ->\height 
+                       
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate #1#2->\Grot@setangle 
+                                  {#1}\setbox \z@ \hbox {{#2}}\Grot@x \z@ \G...
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \Ginclude@graphics 
+                              {\Gfigname }
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...1}\setbox \z@ \hbox {{#2}}\Grot@x 
+                                                  \z@ \Grot@y \z@ \Grot@box 
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...@ \hbox {{#2}}\Grot@x \z@ \Grot@y 
+                                                  \z@ \Grot@box 
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...\Grot@x \z@ \Grot@y \z@ \Grot@box 
+                                                  
+l.310 ...170 35 590 655 , height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@tempc #1->\Gin@bboxtrue 
+                          \Gread@parse@bb #1 \\
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@tempc #1->\Gin@bboxtrue \Gread@parse@bb 
+                                          #1 \\
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\KV@do ...plit #1==\relax \expandafter \KV@do \fi 
+                                                  
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\Gin@esetsize ...expand \Gin@eresize {\Gin@ewidth 
+                                                  }{\Gin@eheight }{\the \tok...
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...size {\Gin@ewidth }{\Gin@eheight 
+                                                  }{\the \toks@ }}}\@tempa \...
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\Gin@esetsize ...ley \Gin@nat@height }\fi \fi \fi 
+                                                  \let \Gin@ewidth \Gin@excl...
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+<inserted text> \Gscale@@box 
+                             \Gin@eresize {}{}{\Gin@erotate {270}{\Ginclude@...
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@eresize ->\height 
+                       
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate #1#2->\Grot@setangle 
+                                  {#1}\setbox \z@ \hbox {{#2}}\Grot@x \z@ \G...
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \Ginclude@graphics 
+                              {\Gfigname }
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...1}\setbox \z@ \hbox {{#2}}\Grot@x 
+                                                  \z@ \Grot@y \z@ \Grot@box 
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...@ \hbox {{#2}}\Grot@x \z@ \Grot@y 
+                                                  \z@ \Grot@box 
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...\Grot@x \z@ \Grot@y \z@ \Grot@box 
+                                                  
+l.349 ... 410 30 585 650, height=8.5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+! Undefined control sequence.
+\Gin@esetsize ...width \Gin@scalex \Gin@nat@width 
+                                                  \Gin@req@height \Gin@scale...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...idth \Gin@req@height \Gin@scaley 
+                                                  \Gin@nat@height }\fi \fi \...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...ight \Gin@scaley \Gin@nat@height 
+                                                  }\fi \fi \fi \let \Gin@ewi...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten \endgroup.
+\Gin@esetsize ...ght \Gin@scaley \Gin@nat@height }
+                                                  \fi \fi \fi \let \Gin@ewid...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra \fi.
+\KV@do ...plit #1==\relax \expandafter \KV@do \fi 
+                                                  
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\Gin@esetsize ...expand \Gin@eresize {\Gin@ewidth 
+                                                  }{\Gin@eheight }{\the \tok...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@esetsize ...size {\Gin@ewidth }{\Gin@eheight 
+                                                  }{\the \toks@ }}}\@tempa \...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\Gin@esetsize ...ley \Gin@nat@height }\fi \fi \fi 
+                                                  \let \Gin@ewidth \Gin@excl...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+<inserted text> \Gscale@@box 
+                             \Gin@eresize {}{}{\Gin@erotate {270}{\Ginclude@...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@eresize ->\height 
+                       
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate #1#2->\Grot@setangle 
+                                  {#1}\setbox \z@ \hbox {{#2}}\Grot@x \z@ \G...
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \Ginclude@graphics 
+                              {\Gfigname }
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...1}\setbox \z@ \hbox {{#2}}\Grot@x 
+                                                  \z@ \Grot@y \z@ \Grot@box 
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...@ \hbox {{#2}}\Grot@x \z@ \Grot@y 
+                                                  \z@ \Grot@box 
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@erotate ...\Grot@x \z@ \Grot@y \z@ \Grot@box 
+                                                  
+l.379 ...le=tsh364-Fig4.eps, width=5cm, angle=270}
+                                                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4] (input/src/0001/cond-mat0001224/tsh364.tmp.aux) ) 
+Here is how much of TeX's memory you used:
+ 858 strings out of 494953
+ 10253 string characters out of 6180977
+ 72511 words of memory out of 5000000
+ 4158 multiletter control sequences out of 15000+600000
+ 15499 words of font info for 57 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 32i,10n,21p,664b,171s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti9.pfb>
+Output written on input/src/0001/cond-mat0001224/tsh364.tmp.pdf (4 pages, 20834
+0 bytes).
+PDF statistics:
+ 81 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

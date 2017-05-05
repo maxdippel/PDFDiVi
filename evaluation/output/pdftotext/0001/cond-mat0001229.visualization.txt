@@ -1,0 +1,143 @@
+[48;5;167marXiv:cond-mat/0001229v1 [cond-mat.supr-con] 17 Jan 2000[0m
+
+[48;5;167m1[0m
+
+The physics of the stripe quantum critical point in the superconducting cuprates
+
+[48;5;167mC. Di Castro, L. Benfatto, S. Caprara, C. Castellani, and M. Grillia[0m
+[48;5;167ma[0m
+
+[48;5;167mINFM and Dipartimento di Fisica Università di Roma “La Sapienza”[0m
+[48;5;167m00185 Rome, Italy[0m
+[48;5;167mWe elaborate on several observable consequences of the Quantum-Critical-Point scenario. In particular we show[0m
+[48;5;167mthat the strong k-dependent scattering of the quasiparticles with the quasi-critical charge and spin fluctuations[0m
+[48;5;167mreproduces the main features of the low-energy spectral weights and of the observed Fermi surfaces. In the[0m
+[48;5;167munderdoped cuprates the attractive k-dependent charge scattering drives the formation of the pseudogap at the[0m
+[48;5;167mM points below the crossover temperature T In this context we discuss models for pseudogap formation with[0m
+[48;5;167mrelevant scattering in the particle-particle and particle-hole channels. The experimental consequences for the[0m
+[48;5;167mpair-fluctuation and for the pseudogap behavior are investigated.[0m
+
+[38;5;1m1.[0m THE STRIPE QUANTUM CRITICAL POINT SCENARIO
+
+[38;5;1m‖[0m The non-Fermi-liquid behavior of the [90m[[0m[38;5;1mnormalstate[0m[90m/[0m[38;5;22mnormal-state[0m[90m][0m of the cuprates has two major features depending on the doping (δ) regimes. Specifically, (i) near optimal doping no energy scales seem to be present besides the temperature (e.g. the [90m[[0m[38;5;1minplane[0m[90m/[0m[38;5;22min-plane[0m[90m][0m resistivity stays linear in T from just above the critical temperature Tc)while (ii) in the underdoped regime, new energy scales appear in the form of pseudogaps, which persist well above Tc up to a doping-dependent crossover temperature T* [90m[\cite=timusk].[0m Starting in the deeply underdoped phase, Tc increases with increasing doping and T* decreases from high values of several hundreds of kelvins until it merges with Tc near optimal doping. On the other hand, a Fermi-liquid-like behavior is observed in the overdoped materials. Correspondingly, many different physical quantities display qualitatively different behaviors in going from the under- to the optimally and to the over-doped regimes. As schematically described in Fig. 1, the subdivision of the phase diagram in three regions naturally arises from the occurrence of an instability line starting at high temperature in the deeply underdoped phase and ending at zero temperature in a quantum critical point (QCP) located near optimal doping. In [38;5;1m==[0m this scheme the optimally doped and overdoped regimes would be related to the quantum critical (QC) and to the quantum disordered (QD) region of the QCP respectively. The two regions are separated by a crossover line T̃δ)The underdoped regime corresponds to the (quasi)ordered region below the instability line. However, precursor effects of the ordering could extend up to a higher temperature T0(δ)[38;5;1m‖[0m It was shown that in strongly correlated systems (e.g.in the large-U Hubbard model with an electron-phonon interaction and long-range Coulomb forces) an incommensurate [90m[[0m[38;5;1mchargedensity-[0m[90m/[0m[38;5;22mcharge-density-[0m[90m][0m wave instability occurs when the doping is reduced below a critical value δc [90m[\cite=prl95] [\cite=prb96] [\cite=jpcs98].[0m This tendency to order the charge arises as a compromise between the local tendency towards phase separation and the electrostatic cost to segregate charged carriers [90m[\cite=PS].[0m For reasonable values of the parameters this instability line starts near optimal doping at zero temperature. In the underdoped regime this charge ordering tendency occurs below a doping-dependent TCDW(δ) instability line. The charge ordering strongly mixes with spin degrees of freedom and gives rise to the so-called stripe phase.
+
+[38;5;1m‖[0m As shown in Ref. [90m[\cite=prl95] [\cite=jpcs98][0m a crucial consequence of the stripe formation is the occurrence nearby [48;5;167m2[0m
+[48;5;167mT0[0m
+
+[48;5;167mT[0m
+[48;5;167mT*[0m
+
+[48;5;167mQUANTUM[0m
+[48;5;167mCRITICAL[0m
+
+[48;5;167mT[0m
+
+[48;5;167mCDW[0m
+
+[48;5;167mQUANTUM[0m
+[48;5;167mDISORDERED[0m
+
+[48;5;167mPSEUDOGAP[0m
+[48;5;167mDYNAM.[0m
+[48;5;167mSTRIPES[0m
+
+[48;5;167mSUPERCOND.[0m
+
+[48;5;167mTC[0m
+
+[48;5;167mδ[0m
+
+[48;5;167mc[0m
+
+[48;5;167mδ[0m
+
+[48;5;167mSTRIPE-QCP[0m
+
+[48;5;167mFigure 1. Schematic structure of the temperature[0m
+[48;5;167mvs. doping δ phase diagram around the StripeQCP.[0m
+
+[38;5;1m==[0m the instability of a singular effective interaction, strongly dependent on momentum, doping, and temperature:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mV[0m
+[48;5;167mκ2 |q qc |2 iγω[0m
+
+[48;5;167m(1)[0m
+
+where Ũ is the residual repulsive interaction between the quasiparticles, γ is a damping parameter, and [90m[formula][0m is the wavevector of the CDW instability. The crucial parameter κ2 [90m[[0m[38;5;1mξc−2[0m[90m/[0m[38;5;22mξ- 2c[0m[90m][0m is the inverse square of the correlation length of charge order and provides a measure of the distance from criticality. At T 0, in the overdoped regime, κ2 is linear in the doping deviation from the critical concentration, κ2 a(δ δc)In Ref. [90m[\cite=prl95][0m the instability was found at δc 0.2, with qc 1. On the other hand, in the QC region above δc, κ2 T, according to the behavior of a Gaussian QCP. In the underdoped regime κ2 vanishes approaching the instability line TCDW(δ)[38;5;1m‖[0m The occurrence of singular interactions near the QCP and near the instability line determines the physical properties of the cuprates. In particular, the non-Fermi-liquid behavior characteristic of the optimally doped materials is a signature of the QCP [90m[\cite=prl95].[0m In the next section we report on some spectroscopic consequences of the [38;5;1m==[0m strong scattering mediated by charge fluctuations near optimal doping. On the other hand in the overdoped region the term κ2 a(δ δc) reduces the scattering and determines a region of Fermi-liquid behavior. In the underdoped compounds, when the instability line TCDW is approached, a singular scattering between the quasiparticles is again mediated by the charge fluctuations at wavevectors [90m[formula].[0m Thus the region near TCDW(δ) is characterized by a strong effective interaction both in the particle-particle (p-p) and the particle-hole (p-h) channels, with a new doping-dependent energy scale. In both cases a pseudogap is an expected outcome, as it will be discussed in Section 3.
+
+[38;5;1m2.[0m SPECTRAL PROPERTIES NEAR OPTIMAL DOPING
+
+[38;5;1m‖[0m The charge fluctuations couple with spin degrees of freedom since in the hole-poor regions the system is locally closer to half-filling where antiferromagnetic correlations are more pronounced. Both charge and spin fluctuations then mediate a nearly singular scattering between the quasiparticles, strongly affecting the spectral properties. In order to compare the outcomes of this scattering with the ARPES experiments, mostly performed on optimally doped Bi2212 [90m[\cite=SAINI],[0m we assumed [90m[\cite=CAPRARA][0m a tight-binding model with the band parameters commonly accepted for this material. The exchange of QC charge fluctuations at wavevectors [90m[formula],[0m and QC antiferromagnetic spin fluctuations at [90m[formula][0m was then considered within a perturbative approach. Since in general the critical wavevector is model and doping dependent, the present choice of [90m[formula][0m was suggested to match the experiments [90m[\cite=SAINI].[0m The resulting single-particle spectra are characterized by (i) a transfer of spectral weight from the quasiparticle peak to the incoherent shadow peaks; (ii) a redistribution of the low-energy spectral weight with a modification of the FS; (iii) a strong anisotropic suppression of spectral weight around the M points π,0) and (0, π)All these features have a counterpart in the experiments.
+
+[38;5;1m‖[0m In this framework one can also investigate the bilayer structure of Bi2212 and explain the [90m[[0m[38;5;1mpuz-[0m[90m/[0m[38;5;22mpuzzling[0m[90m][0m [48;5;167m3[0m
+[48;5;167m0.045[0m
+
+[48;5;167mT*[0m
+[48;5;167mTc[0m
+[48;5;167mLE/2[0m
+
+[48;5;167m0.04[0m
+[48;5;167m0.035[0m
+[48;5;167mTc, T*LE[0m
+
+[38;5;1mzling[0m [38;5;1m==[0m absence of bonding-antibonding band splitting. According to the band calculations [90m[\cite=andersen],[0m we introduced [90m[\cite=CAPRARA2][0m a k-dependent interplane hopping [90m[formula] with [formula]. [formula][0m is large near the M points only. The intraplane scattering, however, mostly reduces the quasiparticle spectral weight near the M points. Thus, within our scenario, the absence of detectable band splitting in ARPES spectra follows directly from the in-plane spectral properties.
+
+[38;5;1m‖[0m The interaction mediated by the quasicritical fluctuations also provides an effective pairing mechanism. In this regard approaching the superconducting region from the overdoped regime, the doping and the temperature dependences of the κ2 term in the QD and QC regimes give rise to a non-trivial increase of Tc followed by a saturation around optimal doping [90m[\cite=prb96].[0m The more involved case of the underdoped regime, with pseudogap formation will be discussed in the next section.
+
+[48;5;167m0.03[0m
+[48;5;167m0.025[0m
+[48;5;167m0.02[0m
+[48;5;167m0.015[0m
+[48;5;167m0.01[0m
+[48;5;167m0.005[0m
+[48;5;167m0[0m
+[48;5;167m0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2[0m
+[48;5;167mδ[0m
+
+[48;5;167mFigure 2. Doping dependence of T Tc and the[0m
+[48;5;167mzero-temperature LE. We assumed the T (δ)[0m
+[48;5;167mdependence measured in Bi2212 [11] and used[0m
+[48;5;167mc 2.5 and V 90 meV to reproduce the experimentally observed values of the LE in the[0m
+[48;5;167munderdoped region and the maximum Tc[0m [38;5;1m3.[0m PARTICLE-PARTICLE AND PARTICLE-HOLE PSEUDOGAP
+
+[38;5;1m‖[0m The effect of the stripe instability can be more dramatic in underdoped materials, when the system approaches the instability line at temperatures T TCDW(δ)In this case, near TCDW(δ) the critical fluctuations at wavevectors near [90m[formula][0m can mediate a large effective interaction between the quasiparticles states [90m[formula] and [formula][0m such that [90m[formula].[0m The generic outcome is that states of the Fermi surface near the M points are strongly interacting, while quasiparticles around the diagonals (Γ X and Γ Y directions) are less affected. This finds a correspondence in ARPES experiments [90m[\cite=marshall] [\cite=ding],[0m where at T* the Leading Edge shift (LE) starts to develop near the M points. Indeed the strong interaction near the M points can give rise to pairing and gaps both in the p-p and p-h channels. Although it is quite natural that both channels contribute to the formation of the pseudogap below the crossover temperature T*the two limiting cases, when a single channel (either p-p or p-h) dominates the pseudogap formation, are simpler to analyze and each one of them shows relevant aspects of the physics of the cuprates.
+
+In the first mechanism we propose, the pseudogap opens due to incoherent pairing in the p-p channel. The strong momentum dependence of the effective interaction [90m([\ref=fitgamlr])[0m plays in this regard a crucial role in selecting the quasiparticle states which are most strongly paired. This leads to non-trivial fluctuation effects, because strongly paired states near the M points coexist with weakly interacting quasiparticles along the diagonals. This situation is quite different from the case described by a single superconducting order parameter [90m[formula].[0m In the present case, indeed, the momentum dependence of the effective pairing interaction not only produces the k structure of [90m[formula],[0m but also confers different fluctuation properties in k-space to the Cooper pairs depending on their strongly or weakly paired character. This physical situation has recently been described within a two-gap model [90m[\cite=twogap].[0m In this latter framework, incoherent tightly bound Cooper pairs around the M points are formed at T*while phase coherence is established at a lower temperature Tc by coupling to the stiffness of the weakly bound pairs near the diagonal directions.
+
+[38;5;1m4[0m
+The scattering in the p-h channel can provide an additional mechanism for the pseudogap formation. If this happens, the issue arises of the interplay between the preformed p-h pseudogap and an additional BCS pairing for the weakly interacting quasiparticles. While this issue was discussed in Ref. [90m[\cite=nozieres][0m for a simple isotropic pseudogap, in Ref. [90m[\cite=benfatto][0m a specific band structure is considered, which includes a preformed k-dependent gap. The whole complication of the strong scattering around the M points is schematized by this preformed p-h gap [90m[formula],[0m which separates the conduction and the valence band, and vanishes at the points π 2, π 2)Each band has a width 4t≃1 eV, t being the [90m[[0m[38;5;1mnearestneighbor[0m[90m/[0m[38;5;22mnearest-neighbor[0m[90m][0m hopping. We assume T*δ) as the critical line for the preformed gap formation and take [90m[[0m[38;5;1m∆0[0m[90m/[0m[38;5;22mΔ0([0m[90m][0m δ,T) cT*δ)g(T T*δ)where c is a fitting parameter, g(0) 1, g(1) 0, and g(x) interpolates smoothly between these two limits. A suitable weak pairing V in the Cooper channel promotes a d-wave superconducting gap [90m[formula][0m in the low valence band of the hole doped system. The mean-field BCS critical temperature Tc vanishes at δ 0, increases with increasing doping, and reaches a maximum at δc when the chemical potential crosses the peak which individuates the pseudogap region in the density of states, and then decreases. Therefore T* and Tc merge near optimum doping and the Tc(δ) curve has the characteristic bell-shaped form in reasonable agreement with the experiments (see Fig. 2)[38;5;1m‖[0m The quasiparticle spectra are characterized by a LE, i.e. a finite minimum distance of the quasiparticle peak from the Fermi level, which persists in the normal state and is largest at the M points, where LE≃[90m[[0m[38;5;1m∆0 |µ|[0m[90m/[0m[38;5;22mΔ0 |μ|[0m[90m][0m In underdoped SC regime, the LE is controlled by two parameters, as seen in experiments [90m[\cite=PX] [\cite=TWO].[0m The M points are dominated by the normal-state pseudogap, whereas the nodal region are controlled by [90m[[0m[38;5;1m∆s[0m[90m/[0m[38;5;22mΔs,[0m[90m][0m which scales as Tc. In the overdoped regime the LE≃[90m[[0m[38;5;1m∆s[0m[90m/[0m[38;5;22mΔs.[0m[90m][0m [38;5;1m‖[0m The above preformed gap accounts for most of the non-mean-field effects by the input of a normal-state pseudogap [90m[[0m[38;5;1m∆0[0m[90m/[0m[38;5;22mΔ0([0m[90m][0m δ,T)In particular, the model yields a phase diagram in good qualitative agreement with the experiments.
+
+On the other hand, the bifurcation between T* and Tc nearby optimum doping is also an outcome of the two-gap model [90m[\cite=twogap].[0m Clearly, the two models assign a different relevance to the effect of the strong QCP effective interaction in the p-p and p-h channels, and select just one of the two channels as the most affected one. It is quite plausible that the stripe fluctuations will indeed produce non-Fermi-liquid- and non-mean-field-like effects in both channels. However, whether the results discussed above within each of the two models should cooperate to produce a better quantitative description of the cuprates, is still an open problem under investigation. [48;5;167mREFERENCES[0m
+[48;5;167m1. For a recent review see, e.g. T. Timusk and[0m
+[48;5;167mB. Statt, Rep. Prog. Phys. 62, (1999) 61.[0m
+[48;5;167m2. C. Castellani, C. Di Castro, and M. Grilli,[0m
+[48;5;167mPhys. Rev. Lett. 75, (1995) 4650.[0m
+[48;5;167m3. A. Perali, et al.Phys. Rev. B 54, (1996)[0m
+[48;5;167m16216.[0m
+[48;5;167m4. C. Castellani, C. Di Castro, and M. Grilli, J.[0m
+[48;5;167mPhys. Chem. Solids 59, (1998) 1694.[0m
+[48;5;167m5. U. Löw, et al.Phys. Rev. Lett. 72, (1994)[0m
+[48;5;167m1918.[0m
+[48;5;167m6. N. L. Saini, et al.Phys. Rev. Lett. 79, (1997)[0m
+[48;5;167m3467.[0m
+[48;5;167m7. S. Caprara, et al.Phys. Rev. B 59, (1999)[0m
+[48;5;167m14980.[0m
+[48;5;167m8. O. K. Andersen, et al.Phys. Rev. B49,[0m
+[48;5;167m(1994) 4145.[0m
+[48;5;167m9. S. Caprara and M. Grilli, Journal de Physique[0m
+[48;5;167mIV (Colloques) 10, (1999) 337.[0m
+[48;5;167m10. D. S. Marshall, et al.Phys. Rev. Lett. 76,[0m
+[48;5;167m(1996) 4871.[0m
+[48;5;167m11. H. Ding, et al.Nature 382, (1996) 51; J.[0m
+[48;5;167mPhys. Chem. Solids 59, (1998) 1888.[0m
+[48;5;167m12. A. Perali, et al.cond-mat/9912363, C.[0m
+[48;5;167mCastellani, et al.this proceeding.[0m
+[48;5;167m13. P. Nozières and F. Pistolesi, Eur. Phys. J. B[0m
+[48;5;167m10, (1999) 649.[0m
+[48;5;167m14. L. Benfatto, S. Caprara, and C. Di Castro,[0m
+[48;5;167mpreprint (2000)15. C. Panagopoulos and T. Xiang, Phys. Rev.[0m
+[48;5;167mLett. 81, (1998) 2336.[0m
+[48;5;167m16. G. Deutscher, Nature 397, (1999) 410.[0m
+

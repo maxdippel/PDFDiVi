@@ -1,0 +1,3631 @@
+>>
+Delete|para
+|1 54 171 67 15
+Yves-Patrick Pellegrini1 and Marc Barthélémy1,2
+
+
+--
+
+>>
+Delete|para
+|1 121 171 280 15
+arXiv:cond-mat/0001223v1 [cond-mat.mtrl-sci] 17 Jan 2000
+
+
+--
+
+>>
+Delete|para
+|1 401 171 161 15|1 54 182 161 6
+1
+
+
+--
+
+>>
+Delete|para
+|1 215 182 173 6
+2
+
+
+--
+
+>>
+Delete|para
+|1 388 182 119 6|1 54 193 130 6
+Service de Physique de la Matière Condensée,
+Commissariat à l’Energie Atomique,
+BP12, 91680 Bruyères-le-Châtel, France.
+Center for Polymer Studies and Dept. of Physics, Boston University, Boston, MA 02215.
+(Last modified: December 9, 1999. Printed: February 1, 2008
+To be published in Physical Review E.
+--
+
+>>
+Delete|para
+|1 184 193 130 6
+We study effective-medium approximations for linear composite media by means of a path integral
+formalism with replicas. We show how to recover the Bruggeman and Hori-Yonezawa effectivemedium formulas. Using a replica-coupling ansatz, these formulas are extended into new ones which
+have the same percolation thresholds as that of the Bethe lattice and Potts model of percolation,
+and critical exponents s 0 and t 2 in any space dimension d 2. Like the Bruggeman and
+Hori-Yonezawa formulas, the new formulas are exact to second order in the weak-contrast and dilute
+limits. The dimensional range of validity of the four effective-medium formulas is discussed, and it
+is argued that the new ones are of better relevance than the classical ones in dimensions d 3, 4 for
+systems obeying the Nodes-Links-Blobs picture, such as random-resistor networks.
+
+
+--
+
+>>
+Delete|para
+|1 314 193 170 6
+PACS numbers: 05.10.a, 05.40.a, 05.50.q, 72.70.m
+
+
+--
+
+>>
+Delete|word
+|1 484 193 78 6|1 54 204 295 6
+I. 
+--
+
+>>
+Split|word
+|1 54 593 287 7|1 341 593 221 7|1 54 605 16 7|1 70 605 195 7|1 265 605 297 7|1 54 616 295 7|1 349 616 213 7|1 54 628 97 7|1 151 628 333 7|1 484 628 78 7|1 54 639 187 7|1 241 639 321 7|1 54 651 261 7|1 315 651 247 7
+Apart from phenomelogical variants, and up to our knowledge, the Bruggeman and HY effective-medium formulas
+are the only ones obtained from the equations of electrostatics in continuous media which are able to describe, at least
+qualitatively, the overall features of a percolation transition in any dimension. One intriguing question concerns the
+possibility of deriving alternative effective-medium formulas from a continuum formulation, which do not lead to the
+seemingly unavoidable values s t 1 and pc 1/d. As we show in this paper, such a possibility exists. Our starting
+point is the path integral approach recently put forward by Barthélémy and Orland 
+--
+Apart from phenomelogical variants, and up to our knowledge, the Bruggeman and HY effective-medium formulas are the only ones obtained from the equations of electrostatics in continuous media which are able to describe, at least qualitatively, the overall features of a percolation transition in any dimension. One intriguing question concerns the possibility of deriving alternative effective-medium formulas from a continuum formulation, which do not lead to the seemingly unavoidable values s t 1 and pc 1 d. As we show in this paper, such a possibility exists. Our starting point is the path integral approach recently put forward by Barthélémy and Orland 
+>>
+Delete|para
+|2 54 62 128 7
+1
+
+
+--
+
+>>
+Split|word
+|2 54 233 508 6
+PATH INTEGRAL FORMULATION OF THE PROBLEM
+
+
+--
+Path integral formulation of the problem
+
+
+>>
+Split|word
+|2 54 334 282 7|2 336 334 226 7|2 54 345 317 7|2 371 345 191 7|2 54 357 278 7
+Hereafter, we take the volume V of the sample equal to one. In heterogeneous materials, wx depends on constitutive
+parameters randomly varying from point to point. For linear conducting media with j(x) σ(x)E(x)where σ is the
+local random conductivity and j is the electric current, we have
+
+--
+Hereafter, we take the volume V of the sample equal to one. In heterogeneous materials, wx depends on constitutive parameters randomly varying from point to point. For linear conducting media with j(x) σ(x)E(x)where σ is the local random conductivity and j is the electric current, we have
+
+
+>>
+Replace|word
+|2 465 399 97 8|2 54 411 26 7
+E 2 
+--
+E2(
+>>
+Split|word
+|2 54 433 321 7|2 375 433 187 7|2 54 445 114 9
+An alternative to solving Maxwell’s equations is to minimize the total energy W subjected to the two constraints
+
+--
+An alternative to solving Maxwell's equations is to minimize the total energy W subjected to the two constraints 
+>>
+Delete|para
+|2 291 478 70 7|2 54 495 508 7|2 300 503 26 5|2 300 509 26 3
+min W [E]
+
+
+--
+
+>>
+Delete|para
+|2 54 528 225 7
+(3)
+
+
+--
+
+>>
+Delete|para
+|2 279 528 226 7
+E=E0
+E=φ
+
+
+--
+
+>>
+Delete|word
+|2 279 528 226 7
+h·i 
+--
+
+>>
+Delete|para
+|2 54 573 508 21
+∂W (E0 σeff E0 ∂E0
+
+
+--
+
+>>
+Delete|para
+|2 54 592 302 7
+(4)
+
+
+--
+
+>>
+Split|word
+|2 54 603 248 7|2 302 603 261 7|2 54 615 21 7|2 75 615 310 7|2 385 615 177 7
+The problem thus reduces to computing the average of the constrained minimum of a functional of the electric field.
+The electric field derives from a potential and has a fixed mean value. We can rewrite the constrained minimum in
+
+--
+The problem thus reduces to computing the average of the constrained minimum of a functional of the electric field. The electric field derives from a potential and has a fixed mean value. We can rewrite the constrained minimum in 
+>>
+Delete|para
+|2 54 710 508 14
+(6)
+
+
+--
+
+>>
+Delete|para
+|2 54 745 508 6|3 268 122 160 7
+β→n→0
+
+
+--
+
+>>
+Delete|para
+|3 54 85 508 14
+Z
+
+
+--
+
+>>
+Delete|para
+|3 54 110 174 7
+Dφ δ(E ∇φ)
+
+
+--
+
+>>
+Delete|para
+|3 228 110 286 7
+(7)
+
+
+--
+
+>>
+Delete|para
+|3 54 147 508 13|3 269 153 54 4
+1
+(hZ n i 1)nβ
+
+
+--
+
+>>
+Delete|para
+|3 54 172 215 7
+(8)
+
+
+--
+
+>>
+Delete|para
+|3 54 196 508 13|3 277 203 54 4
+1
+ln hZ n i
+nβ
+
+
+<AND>
+β→n→0
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|3 54 221 174 7
+(9)
+
+
+--
+
+>>
+Replace|para
+|3 54 233 222 7
+hZ n i 
+--
+〈Zn〉 
+>>
+Delete|para
+|3 210 292 3 9
+α
+
+
+--
+
+>>
+Delete|para
+|3 213 295 243 12
+Qn
+
+
+--
+
+>>
+Delete|para
+|3 457 292 105 9|3 54 304 508 7
+α=1
+
+
+--
+
+>>
+Delete|para
+|3 279 313 6 7|3 54 327 508 14
+hZ n i with
+He 
+--
+
+>>
+Delete|para
+|3 54 352 508 7
+D̃E α 
+--
+
+>>
+Merge|word
+|3 213 295 243 12
+the average 
+--
+the average 
+>>
+Replace|para
+|3 213 295 243 12
+hZ n i 
+--
+〈Zn〉 
+>>
+Replace|para
+|3 457 292 105 9|3 54 304 508 7
+Z
+
+
+--
+Hamiltonian"
+
+
+>>
+Insert|para
+|3 54 352 508 7
+
+--
+with
+
+
+>>
+Delete|para
+|3 265 367 99 6|3 54 381 490 11
+D̃ E α e−βHe 
+--
+
+>>
+Delete|para
+|3 54 399 312 7
+1 D −β Pn W [E α E
+α=1
+ln e
+β
+
+
+--
+
+>>
+Delete|para
+|3 366 399 196 7|3 54 411 88 7
+(11)
+
+
+--
+
+>>
+Delete|para
+|3 142 411 268 7
+(12)
+
+
+--
+
+>>
+Replace|word
+|3 142 411 268 7
+Rintegrals 
+--
+integrals 
+>>
+Delete|word
+|3 410 411 152 7|3 54 422 84 8
+P 
+--
+
+>>
+Split|word
+|3 54 485 289 7|3 343 485 219 7|3 54 497 64 7|3 118 497 293 7|3 412 497 150 7|3 54 508 176 7|||||3 54 528 508 8
+Note that our discussion in Sec. III will be specialized to binary disorder for which the constitutive parameters can
+take only two values (but the proofs are general)That is, we assume that the local energy density is distributed
+according to the probability distribution
+
+--
+Note that our discussion in Sec. III will be specialized to binary disorder for which the constitutive parameters can take only two values (but the proofs are general)That is, we assume that the local energy density is distributed according to the probability distribution
+
+
+>>
+Split|word
+|3 54 548 158 7
+(where q 1 p)With this choice,
+
+--
+(where q 1 p)With this choice,
+
+
+>>
+Delete|para
+|3 200 560 6 7|3 54 575 490 15|3 191 580 30 4
+(15)
+
+
+--
+
+>>
+Split|word
+|3 54 655 508 6
+PRINCIPLE OF SELF-CONSISTENT APPROXIMATIONS
+
+
+--
+Principle of self-consistent approximations
+
+
+>>
+Delete|word
+|4 54 62 508 6
+3
+
+
+--
+
+>>
+Delete|word
+|4 54 88 260 7
+A. 
+--
+
+>>
+Split|word
+|4 54 165 193 7|4 247 165 179 7|4 426 165 136 7|4 54 176 157 7|4 211 176 290 7|4 501 176 61 7|4 54 188 220 7
+where σ0 0 is to be determined by an appropriate self-consistency condition. This Hamiltonian is that of a
+(replicated) homogeneous medium, but without couplings between replicas. Its meaning and that of other possible
+choices with replica couplings are discussed below.
+
+--
+where σ0 0 is to be determined by an appropriate self-consistency condition. This Hamiltonian is that of a (replicated) homogeneous medium, but without couplings between replicas. Its meaning and that of other possible choices with replica couplings are discussed below.
+
+
+>>
+Split|word
+|4 54 199 219 7
+The partition function 
+--
+The partition function 
+>>
+Replace|para
+|4 54 199 219 7
+hZ n i 
+--
+〈Zn〉 
+>>
+Delete|para
+|4 54 282 508 11|4 337 289 4 4
+(18)
+
+
+--
+
+>>
+Delete|para
+|4 54 308 241 8
+W W0 ∆W,
+
+
+--
+
+>>
+Delete|para
+|4 295 311 186 11
+(19)
+
+
+--
+
+>>
+Delete|para
+|4 482 308 80 8|4 54 319 84 7
+0
+
+
+--
+
+>>
+Delete|para
+|4 54 385 152 13
+(20)
+(21)
+
+
+--
+
+>>
+Replace|word
+|4 54 446 301 7
+∆W 
+--
+ΔW(
+>>
+Split|word
+|4 54 469 207 7|||||4 54 490 508 7
+A natural self-consistency condition for H0 is
+
+--
+A natural self-consistency condition for H0 is
+
+
+>>
+Delete|para
+|4 54 511 235 7
+(22)
+
+
+--
+
+>>
+Delete|word
+|4 54 579 508 6
+B. 
+--
+
+>>
+Replace|para
+|4 361 639 72 9
+∆E α E α 
+--
+ΔEα Eα 
+>>
+Insert|para
+|4 54 715 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|5 54 62 112 9
+(23)
+
+
+--
+
+>>
+Delete|para
+|5 166 62 59 9
+2
+aij h∂ij
+wx (E0 )i,
+(2)
+cij (x
+
+
+--
+
+>>
+Delete|para
+|5 225 64 337 11|5 54 80 112 10
+(24)
+
+
+--
+
+>>
+Delete|para
+|5 166 83 59 13
+y) h∂i wx (E0 j wy (E0 )i h∂i wx (E0 )ih∂j wy (E0 )i.
+
+
+--
+
+>>
+Delete|para
+|5 225 80 337 10
+(25)
+
+
+--
+
+>>
+Delete|para
+|5 54 168 508 13
+(2)
+
+
+--
+
+>>
+Delete|para
+|5 54 183 128 7
+cij (x y) vcij (0)δ(x y)
+--
+
+>>
+Delete|para
+|5 54 216 508 24|5 225 221 139 3
+(26)
+
+
+<AND>
+Z
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|5 54 238 260 7
+dx
+
+
+--
+
+>>
+Delete|para
+|5 314 238 248 7|5 54 249 40 7
+X
+
+
+--
+
+>>
+Delete|para
+|5 94 249 292 7
+aij ∆Eiα (x)Ejα (x)
+
+
+--
+
+>>
+Delete|para
+|5 386 249 176 7
+vβ
+
+
+--
+
+>>
+Delete|para
+|5 54 260 434 7
+α
+
+
+--
+
+>>
+Delete|para
+|5 488 260 70 7
+X
+
+
+--
+
+>>
+Delete|para
+|5 54 272 271 7
+(2)
+cij (0)Eiα (x)Ejγ (x)
+
+
+--
+
+>>
+Delete|para
+|5 325 272 83 7
+α,γ
+
+
+--
+
+>>
+Delete|para
+|5 54 302 508 20|5 271 306 14 3
+(27)
+
+
+--
+
+>>
+Split|word
+|5 54 272 271 7
+Expansion 
+--
+Expansion 
+>>
+Insert|para
+|5 54 323 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|5 54 343 508 11
+(29)
+
+
+--
+
+>>
+Delete|word
+|5 147 382 235 10
+(2)
+
+--
+
+>>
+Replace|para
+|5 382 385 180 13
+cij 
+--
+c(2)ij 
+>>
+Split|word
+|5 54 418 251 7
+An interesting feature of the ansatz 
+--
+An interesting feature of the ansatz 
+>>
+Split|word
+|5 54 554 184 7
+Carrying out the derivative of 
+--
+Carrying out the derivative of 
+>>
+Delete|para
+|5 252 564 56 7|5 54 586 508 18|5 221 591 53 4|5 308 594 4 4
+(31)
+
+
+--
+
+>>
+Delete|para
+|5 54 611 264 9
+(32)
+
+
+--
+
+>>
+Delete|para
+|5 318 611 244 9
+0
+
+
+--
+
+>>
+Replace|word
+|5 318 611 244 9
+v 1/
+--
+v1 
+>>
+Replace|word
+|5 54 622 142 9
+V 1/
+--
+V1 
+>>
+Replace|word
+|5 196 622 366 9|5 54 634 90 7
+h·i0 
+--
+〉0 
+>>
+Replace|word
+|5 144 634 301 7
+∆E 
+--
+ΔE 
+>>
+Delete|para
+|5 54 667 508 24
+(33)
+
+
+--
+
+>>
+Delete|word
+|6 54 62 508 6
+5
+
+
+--
+
+>>
+Delete|word
+|6 54 88 310 7
+C. 
+--
+
+>>
+Replace|word
+|6 195 122 249 7
+∆W 
+--
+ΔW(
+>>
+Delete|para
+|6 54 300 508 27
+(35)
+
+
+--
+
+>>
+Delete|para
+|6 54 321 256 7
+(36)
+
+
+--
+
+>>
+Replace|word
+|6 95 356 95 7
+hσi, 
+--
+〈σ〉
+>>
+Split|word
+|6 54 401 234 7|6 288 401 244 7
+We now turn to the determination of σ0 σν A first obvious self-consistency condition for σ0 is 
+--
+We now turn to the determination of σ0(σν}A first obvious self-consistency condition for σ0 is 
+>>
+Split|word
+|6 54 436 291 7|6 345 439 201 10
+“Type 2” effective-medium formulas are obtained by taking σ0 as the solution of 
+--
+"Type 2" effective-medium formulas are obtained by taking σ0 as the solution of 
+>>
+Delete|word
+|6 54 492 508 6
+IV. 
+--
+
+>>
+Replace|word
+|6 340 518 222 7|6 54 529 31 8
+∆W 
+--
+ΔW(
+>>
+Replace|word
+|6 85 529 191 8
+∆W 
+--
+ΔW, 
+>>
+Replace|word
+|6 515 532 47 11|6 54 541 30 7
+σ02 
+--
+σ20, 
+>>
+Delete|para
+|6 54 562 508 7
+(37)
+
+
+--
+
+>>
+Delete|word
+|6 54 606 508 6
+A. 
+--
+
+>>
+Delete|para
+|7 54 62 508 6
+6
+
+
+--
+
+>>
+Delete|word
+|7 54 88 252 7
+1. 
+--
+
+>>
+Replace|word
+|7 54 88 252 7
+∆W 
+--
+ΔW(
+>>
+Delete|para
+|7 182 185 253 7
+(39)
+
+
+--
+
+>>
+Delete|para
+|7 54 209 508 10|7 271 220 14 3
+the one-impurity approximation results in
+E
+E
+D
+1 DD −βv∆wx [E(x)E
+−1 e
+e−β(He −H0 1 v
+0
+0
+
+
+--
+
+>>
+Delete|para
+|7 54 239 183 7
+(40)
+
+
+--
+
+>>
+Delete|para
+|7 54 265 508 13|7 254 272 125 4
+α
+
+
+--
+
+>>
+Delete|para
+|7 54 290 276 7
+Because of statistical translation invariance, the final result is independant of the point x. The right-hand side can
+be computed exactly for any potential wx in the limit β using a saddle-point method. Setting ∆σ σ σ0 and
+1
+∆σ
+µ= 1+
+dσ0
+
+
+--
+
+>>
+Delete|para
+|7 330 290 232 7|7 54 302 59 7
+(41)
+
+
+--
+
+>>
+Delete|para
+|7 113 302 237 7
+we arrive at
+∆W (E0 
+--
+
+>>
+Delete|para
+|7 350 302 212 7
+q
+1
+h∆σµiE02 hσµiE02 2
+2
+
+
+--
+
+>>
+Delete|para
+|7 54 338 508 23
+(42)
+
+
+--
+
+>>
+Delete|para
+|7 54 358 52 7
+The condition ∆W (E0 0 yields
+q=
+--
+
+>>
+Delete|para
+|7 54 389 508 20
+h∆σµi
+hσµi
+
+
+--
+
+>>
+Delete|para
+|7 54 407 149 7
+(43)
+
+
+--
+
+>>
+Delete|word
+|7 54 442 508 21
+2. 
+--
+
+>>
+Replace|word
+|7 54 510 163 7
+h∆σµi 
+--
+〈Δσμ〉 
+>>
+Delete|para
+|7 54 545 508 21
+(44)
+
+
+--
+
+>>
+Replace|word
+|7 54 566 415 7
+hµi 
+<AND>
+hσµi/hµi. 
+--
+〈μ〉 
+<AND>
+〈σμ〉 〈μ〉
+>>
+Replace|word
+|7 217 577 165 7
+hσi) 
+--
+〈σ〉
+>>
+Split|word
+|7 54 600 194 7
+The fluctuations computed from 
+--
+The fluctuations computed from 
+>>
+Delete|para
+|7 54 638 508 24
+(45)
+
+
+--
+
+>>
+Delete|word
+|8 54 62 508 6
+3. 
+--
+
+>>
+Delete|word
+|8 239 88 173 8
+6= 
+--
+
+>>
+Delete|para
+|8 54 124 508 22
+hµihσ 2 µ2 i hσµ2 ihσµi
+1+
+2dhσµi2
+7
+
+
+--
+
+>>
+Delete|para
+|8 54 145 316 7
+(46)
+
+
+--
+
+>>
+Replace|word
+|8 370 145 193 7
+hσi. 
+--
+〈σ〉
+>>
+Replace|word
+|8 288 159 165 11
+σ0∗ 
+--
+σ*0. 
+>>
+Insert|para
+|8 54 241 508 7
+
+--
+and
+
+
+>>
+Delete|para
+|8 54 281 508 29
+h
+i
+p
+1 dp (1 p)1 p/pc p2 (d 1)2
+
+
+--
+
+>>
+Delete|para
+|8 54 301 287 7
+(p pc 
+--
+
+>>
+Delete|para
+|8 341 301 221 7|8 54 313 93 8
+(48)
+
+
+--
+
+>>
+Delete|para
+|8 54 375 197 17
+σ0∗ σ2
+σeff
+
+
+--
+
+>>
+Delete|para
+|8 251 379 311 21|8 54 400 197 15
+(49)
+(p pc 
+--
+
+>>
+Delete|para
+|8 251 407 311 22
+(50)
+
+
+--
+
+>>
+Delete|para
+|8 54 432 158 11
+Since σeff (p pc )2 for p pc 
+--
+
+>>
+Split|word
+|8 54 440 215 8
+For the special case of d 1, 
+--
+For the special case of d 1, 
+>>
+Replace|word
+|8 54 440 215 8
+µ 
+--
+μ 
+>>
+Split|word
+|8 54 517 186 7
+and in the dilute limit where (e.g.p2 1
+
+--
+and in the dilute limit where (e.g.p2 1
+
+
+>>
+Delete|para
+|8 54 552 508 21
+σ2 σ1
+1+d
+σ2 (d 1)σ1
+
+
+--
+
+>>
+Delete|para
+|8 54 573 252 7
+(52)
+
+
+--
+
+>>
+Split|word
+|8 54 641 508 6
+Cumulant series approximation
+
+
+--
+Cumulant series approximation
+
+
+>>
+Replace|word
+|8 337 666 225 7|8 54 678 68 7
+∆W 
+--
+ΔW 
+>>
+Delete|para
+|8 54 745 508 6|9 54 166 508 20|9 283 170 18 3
+(53)
+
+
+--
+
+>>
+Delete|word
+|9 54 62 508 6
+1. 
+--
+
+>>
+Delete|para
+|9 54 189 308 7
+∆W (E0 n→0
+lim
+β→
+--
+
+>>
+Delete|para
+|9 362 189 200 7|9 54 201 52 7
+1
+hHe H0 i0 n
+
+
+--
+
+>>
+Delete|para
+|9 106 201 285 7
+(54)
+
+
+--
+
+>>
+Insert|para
+|9 54 261 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|9 54 285 508 14|9 276 294 4 4
+where
+
+
+--
+
+>>
+Delete|para
+|9 54 312 251 7
+h0 (z) 
+--
+
+>>
+Delete|para
+|9 305 312 179 7
+Z
+
+
+--
+
+>>
+Delete|para
+|9 54 350 508 25
+du e−u lnhe−uσz i.
+
+
+<AND>
+(57)
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 54 394 508 6
+(56)
+
+
+--
+
+>>
+Delete|para
+|9 54 420 295 7
+0
+
+
+--
+
+>>
+Replace|word
+|9 305 312 179 7
+∆W 
+--
+ΔW(
+>>
+Delete|word
+|9 54 394 508 6
+2. 
+--
+
+>>
+Delete|para
+|9 54 452 508 20
+(58)
+
+
+--
+
+>>
+Split|word
+|9 54 560 508 6
+Type 2 formula
+
+
+--
+Type 2 formula
+
+
+>>
+Delete|word
+|9 54 623 508 25
+6= 
+--
+
+>>
+Delete|para
+|9 54 623 508 25
+(60)
+
+
+--
+
+>>
+Delete|para
+|9 54 684 508 25
+1 h1 1/dσ0 0.
+2+
+d h20 1/dσ0 
+--
+
+>>
+Delete|para
+|9 54 704 209 7
+(61)
+
+
+--
+
+>>
+Delete|para
+|9 54 745 508 6|10 54 155 508 9
+(62)
+
+
+--
+
+>>
+Delete|para
+|10 54 176 325 7
+pc 1 e−1/2d) 
+--
+
+>>
+Delete|para
+|10 379 176 183 7
+(63)
+
+
+--
+
+>>
+Delete|para
+|10 54 226 508 26
+(p pc 
+--
+
+>>
+Delete|para
+|10 54 252 107 8
+(64)
+
+
+--
+
+>>
+Delete|para
+|10 161 255 213 11
+Since σeff (pc p)0 for p pc 
+--
+
+>>
+Split|word
+|10 54 263 255 7|10 309 263 253 7|10 54 275 325 7|10 379 275 70 7
+In the opposite insulator/conductor case, where σ1 0 and σ2 is finite, the solution for p pc can only be found
+perturbatively around the percolation threshold. Expanding the logarithm in h0 and h1 as
+
+--
+In the opposite insulator/conductor case, where σ1 0 and σ2 is finite, the solution for p pc can only be found perturbatively around the percolation threshold. Expanding the logarithm in h0 and h1 as
+
+
+>>
+Delete|para
+|10 54 311 508 24|10 313 316 14 5
+(65)
+
+
+--
+
+>>
+Delete|para
+|10 54 336 54 7
+l≥1
+
+
+--
+
+>>
+Delete|para
+|10 54 376 508 27
+X 1)l−1
+l≥1
+
+
+--
+
+>>
+Delete|para
+|10 54 396 53 7
+l2
+
+
+--
+
+>>
+Delete|para
+|10 54 425 508 18
+xl 
+--
+
+>>
+Delete|para
+|10 54 446 38 7
+Z
+
+
+--
+
+>>
+Delete|para
+|10 54 474 508 18
+0
+
+
+<AND>
+4d2 A
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|10 54 495 317 7
+x
+
+
+<AND>
+4d2 A
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|10 371 495 191 7|10 54 507 100 7
+dt
+ln(1 t)t
+
+
+<AND>
+σ2
+(p pc O (p pc )2 pc 1 pc 
+--
+
+<AND>
+
+>>
+Delete|para
+|10 154 507 312 7
+(66)
+
+
+<AND>
+σ2
+(p pc )2 O (p pc )3
+pc 1 pc 
+--
+
+<AND>
+
+>>
+Split|word
+|10 54 446 38 7
+and that
+
+--
+and that
+
+
+>>
+Delete|para
+|10 466 507 96 7|10 54 518 181 7
+(p pc 
+--
+
+>>
+Delete|para
+|10 235 518 302 7
+(67)
+
+
+--
+
+>>
+Delete|para
+|10 537 518 26 7|10 54 530 187 7
+(68)
+
+
+--
+
+>>
+Replace|word
+|10 371 495 191 7|10 54 507 100 7
+replicacoupling 
+--
+replica-coupling 
+>>
+Split|word
+|10 54 541 277 7
+After a few manipulations, we now obtain with 
+--
+After a few manipulations, we now obtain with 
+>>
+Delete|para
+|10 54 577 508 23
+∆E 2
+q
+(69)
+2q
+1
+2
+2
+hEi
+
+
+--
+
+>>
+Delete|word
+|10 54 621 508 6
+V. 
+--
+
+>>
+Split|word
+|10 54 692 284 7|10 338 692 224 7|10 54 704 19 7|10 73 704 298 7|10 371 704 191 7|10 54 715 108 7|10 162 715 302 7|10 464 715 98 7|11 54 62 172 7|11 226 62 282 7|11 508 62 54 7|11 54 73 183 7|11 237 73 311 7|11 548 73 14 7|11 54 85 268 7|11 322 85 240 7
+For moderate contrast (Figs. 1 and 3)we observe that all four self-consistent formulas lie close to each other. This
+is a consequence of the fact that they are exact to second order in the contrast. Also, for any contrast, the slopes
+at p 0 and p 1 are all identical, which is a consequence of the fact that they are exact to second order in the
+dilute limit p 0 (the expression near p 1 is obtained by replacing p by p 1 and by interchanging σ1 and σ2 We also observe that the HS bounds are satisfied in each case considered. However, the formulas obtained via the
+cumulant series summation, i.e. both the HY formula and its “type 2” counterpart, do not reduce to the exact result
+
+--
+For moderate contrast (Figs. 1 and 3)we observe that all four self-consistent formulas lie close to each other. This is a consequence of the fact that they are exact to second order in the contrast. Also, for any contrast, the slopes at p 0 and p 1 are all identical, which is a consequence of the fact that they are exact to second order in the dilute limit p 0 (the expression near p 1 is obtained by replacing p by p 1 and by interchanging σ1 and σ2)We also observe that the HS bounds are satisfied in each case considered. However, the formulas obtained via the cumulant series summation, i.e. both the HY formula and its "type 2" counterpart, do not reduce to the exact result 
+>>
+Delete|word
+|11 54 154 308 7
+10
+
+
+--
+
+>>
+Delete|word
+|11 417 314 134 10
+2
+
+--
+
+>>
+Merge|word
+|11 528 303 34 7|11 54 314 363 10
+will have to be clarified in the future. In Fig. 
+--
+will have to be clarified in the future. In Fig. 
+>>
+Split|word
+|11 54 348 288 7|11 342 348 220 7|11 54 360 84 7|11 138 360 256 7|11 394 360 168 7|11 54 371 82 7|11 136 371 323 7|11 459 371 103 7|11 54 383 226 7|11 280 383 172 7
+“Type 1” formulas give exponents s t 1, while for “type 2” formulas they are s 0, t 2. Mean-field theories
+yield s 0, t 3 which are the exact values for d 6. It is interesting to compare these values to exact bounds
+deduced from the Nodes-Links-Blobs (NLB) model, in all dimensions. The NLB model is currently accepted as a
+good one for the backbone structure of real random resistor networks 
+--
+"Type 1" formulas give exponents s t 1, while for "type 2" formulas they are s 0, t 2. Mean-field theories yield s 0, t 3 which are the exact values for d 6. It is interesting to compare these values to exact bounds deduced from the Nodes-Links-Blobs (NLB) model, in all dimensions. The NLB model is currently accepted as a good one for the backbone structure of real random resistor networks 
+>>
+Delete|para
+|11 54 400 203 7
+(70a)
+(70b)
+
+
+--
+
+>>
+Split|word
+|11 54 569 294 7|11 348 569 214 7|11 54 580 294 7
+We also quote theoretical bounds for t due to Golden, valid for hierarchical NLB models: 1 t 2 for d 2, 3
+and 2 t 3 for d 4 
+--
+We also quote theoretical bounds for t due to Golden, valid for hierarchical NLB models: 1 t 2 for d 2,3 and 2 t 3 for d 4 
+>>
+Split|word
+|11 54 649 272 7|11 326 649 236 7|11 54 660 63 7
+An interesting observation is that actually both “type 1” and “type 2” formulas can be given by a variational
+formulation as
+
+--
+An interesting observation is that actually both "type 1" and "type 2" formulas can be given by a variational formulation as
+
+
+>>
+Delete|para
+|11 54 677 184 9
+min
+
+
+--
+
+>>
+Delete|para
+|11 238 680 42 12
+σeff (σ0 
+--
+
+>>
+Delete|para
+|11 279 677 283 7|11 281 683 34 4|11 281 689 34 4|11 54 705 184 9
+(71)
+
+
+--
+
+>>
+Delete|para
+|11 238 708 42 12
+max
+
+
+--
+
+>>
+Delete|para
+|11 279 705 283 4|11 281 710 34 4|11 281 717 34 4
+σeff (σ0 
+--
+
+>>
+Delete|para
+|12 54 62 207 7
+(72)
+
+
+--
+
+>>
+Delete|para
+|12 261 62 255 7
+σ0 ≥0
+0≤q(σ0 1
+
+
+--
+
+>>
+Delete|para
+|12 516 62 46 7|12 54 73 218 7
+σ0 ≥0
+0≤q(σ0 1
+
+
+--
+
+>>
+Delete|para
+|12 181 87 249 10
+(σ0 0 corresponds to a
+
+--
+
+>>
+Replace|word
+|12 181 87 249 10
+σ0∗ 
+--
+σ*0 
+>>
+Replace|word
+|12 311 96 251 7|12 54 108 47 7
+selfconsistent 
+--
+self-consistent 
+>>
+Delete|word
+|12 241 131 299 7
+11
+
+
+--
+
+>>
+Merge|word
+|12 436 119 126 7|12 54 131 187 7|12 241 131 299 7|12 540 131 22 7|12 54 142 263 7|12 317 142 245 7|12 54 154 63 9
+the minimization principle states that the dissipated power is minimized with respect to the electric field; but there
+is no reason why an extremization with respect to arbitrary variational parameters should not lead to a maximum of
+
+--
+the minimization principle states that the dissipated power is minimized with respect to the electric field; but there is no reason why an extremization with respect to arbitrary variational parameters should not lead to a maximum of 
+>>
+Delete|para
+|12 117 154 203 9
+type 1
+type 2
+
+--
+
+>>
+Split|word
+|12 54 177 315 7|12 369 177 193 7|12 54 188 90 7|12 144 188 204 7
+We now consider some points that were not explicitly treated in the paper. First, we presented the formalism in
+terms of the electric field E, from which we obtained a conductivity 
+--
+We now consider some points that were not explicitly treated in the paper. First, we presented the formalism in terms of the electric field E, from which we obtained a conductivity 
+>>
+Delete|word
+|12 54 313 508 6
+VI. 
+--
+
+>>
+Delete|word
+|12 54 462 508 6
+ACKNOWLEDGMENTS
+
+
+--
+
+>>
+Delete|para
+|12 54 487 318 7
+We gratefully acknowledge H. Orland for stimulating discussions. One of us (MB) wants to thank H.E. Stanley for
+his hospitality at the CPS and the DGA for financial support.
+
+
+--
+
+>>
+Delete|word
+|12 372 487 190 7|12 54 499 133 7
+APPENDIX A: 
+--
+
+>>
+Delete|word
+|12 80 568 35 8
+P
+
+--
+
+>>
+Delete|para
+|12 54 613 508 24
+X
+
+
+--
+
+>>
+Delete|para
+|12 54 630 259 7
+pν σν
+
+
+--
+
+>>
+Delete|para
+|12 313 630 141 7
+ν
+
+
+--
+
+>>
+Delete|para
+|12 54 660 508 20|12 286 664 14 3
+hE 2 iν
+E02
+
+
+<AND>
+X
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|12 54 681 224 8
+(A1)
+
+
+<AND>
+σν
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|12 278 681 142 8
+ν
+
+
+--
+
+>>
+Delete|para
+|12 420 684 142 11|12 54 692 37 8
+∂σeff
+∂σν
+
+
+--
+
+>>
+Delete|para
+|12 91 692 158 8
+(A2)
+
+
+--
+
+>>
+Delete|word
+|12 248 692 212 8
+P
+
+--
+
+>>
+Replace|para
+|12 278 681 142 8
+hE 2 iν 
+--
+〈E2〉ν 
+>>
+Replace|para
+|12 460 692 102 8|12 54 704 146 7
+h∆E 2 i 
+--
+〈ΔE2〉 
+>>
+Delete|para
+|12 54 745 508 6|13 200 105 123 7|13 54 123 508 17|13 280 128 15 5
+e−β(He −H0 
+--
+
+>>
+Delete|para
+|13 54 62 508 6
+12
+
+
+--
+
+>>
+Delete|word
+|13 54 88 406 7
+APPENDIX B: 
+--
+
+>>
+Delete|para
+|13 54 148 215 7
+E
+
+
+--
+
+>>
+Delete|para
+|13 269 148 293 7|13 54 160 146 7
+0
+
+
+--
+
+>>
+Delete|para
+|13 54 185 508 14
+X β)k 
+
+
+
+--
+
+>>
+Delete|para
+|13 54 211 508 7
+(He H0 )k 0 k!
+
+
+--
+
+>>
+Delete|para
+|13 54 242 508 20
+(B1)
+
+
+<AND>
+E
+D
+1
+ln e−βv∆wx [E(x)βv
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|13 54 262 260 7
+k≥0
+
+
+<AND>
+(B3)
+
+
+--
+
+<AND>
+
+>>
+Insert|para
+|13 54 211 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|13 54 288 134 14
+(B4a)
+(B4b)
+
+
+--
+
+>>
+Replace|word
+|13 370 441 192 9|13 54 453 71 7
+v 1/
+--
+v1 
+>>
+Split|word
+|13 54 476 257 7|13 311 476 251 7|13 54 489 63 10|13 117 489 249 10
+When β the functional I(y) can be computed exactly. Let us briefly indicate how to do it. We first
+introduce the notation 
+--
+When β the functional I(y) can be computed exactly. Let us briefly indicate how to do it. We first introduce the notation 
+>>
+Delete|para
+|13 54 540 508 23
+−βv∆wy (E)
+
+
+--
+
+>>
+Delete|para
+|13 54 560 268 7
+Z
+
+
+--
+
+>>
+Delete|para
+|13 322 560 40 7
+d~h d~h′ −i~h·h′ −βv∆wy
+e
+e
+(2π)nd
+
+
+--
+
+>>
+Delete|para
+|13 54 596 508 23
+−i
+
+
+<AND>
+Z
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|13 54 619 254 9
+h′
+
+
+<AND>
+d~h d~h′ −i~h·h′ −βv∆wy
+e
+e
+(2π)nd
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|13 308 619 85 9
+eih ·E
+
+
+<AND>
+−i
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|13 393 621 169 12|13 54 633 74 9
+(B7)
+
+
+<AND>
+h′
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|13 128 633 213 9
+Z
+
+
+--
+
+>>
+Delete|para
+|13 341 633 221 9
+D̃E e−β/2)
+
+
+--
+
+>>
+Delete|para
+|13 54 644 354 7
+R
+
+
+--
+
+>>
+Delete|para
+|13 54 681 508 23
+dx E(x)M̃E(x)i
+h′ ·E(y)
+
+
+<AND>
+β/2)
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|13 54 704 211 10
+(B8)
+
+
+<AND>
+P
+
+
+--
+
+<AND>
+
+>>
+Delete|word
+|13 265 704 171 10
+where M̃ 
+--
+
+>>
+Delete|word
+|13 341 633 221 9
+D̃
+--
+
+>>
+Delete|para
+|13 265 704 171 10
+αγ
+
+
+--
+
+>>
+Delete|para
+|13 436 704 123 10|13 54 715 508 7
+M αγ E02
+
+
+--
+
+>>
+Delete|para
+|13 54 745 508 6|14 54 129 508 18|14 198 136 17 6|14 260 141 13 3
+h′
+
+
+<AND>
+e
+
+
+<AND>
+I(y) Det(M 
+--
+
+<AND>
+
+<AND>
+
+>>
+Replace|word
+|13 54 704 211 10
+vβ∆wy 
+--
+vβΔwy) 
+>>
+Delete|para
+|14 54 70 508 18|14 184 77 17 6
+Z
+
+
+<AND>
+J (y) Det(M 
+--
+
+<AND>
+
+>>
+Delete|para
+|14 54 98 264 7
+d~h d~h′ −i~h·h′ −vβ∆wy
+e
+e
+(2π)nd
+
+
+<AND>
+vβd
+2π
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|14 318 98 130 7
+−i
+
+
+<AND>
+n d/2
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|14 54 160 256 7
+eih ·E0 −h ·M̃
+
+
+<AND>
+β/2)
+
+
+<AND>
+vβd
+2π
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete|para
+|14 310 160 252 7|14 54 171 19 7
+−1
+
+
+<AND>
+P
+
+
+<AND>
+n d/2 Z Y
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete|para
+|14 73 171 235 7
+h′ 2βvd)
+
+
+<AND>
+αγ
+
+
+<AND>
+dhα e
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete|para
+|14 308 171 254 7
+(B9)
+
+
+<AND>
+M αγ E02
+
+
+<AND>
+−vβ
+
+
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete|para
+|14 54 183 303 7
+Z
+
+
+<AND>
+α
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|14 357 183 205 7
+d~h e−vβd/2)E0 −h)M̃E0 −h)vβ∆wy (h) 
+<AND>
+d P
+2
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|14 54 194 75 7
+(B10)
+
+
+<AND>
+αγ
+
+
+--
+
+<AND>
+
+>>
+Replace|word
+|14 318 98 130 7
+∆wy 0)
+--
+Δwy 0)
+>>
+Delete|para
+|14 54 230 508 23
+M αγ (E0 −hα )i (E0 −hγ )i wy [h]
+
+	
+
+
+--
+
+>>
+Delete|para
+|14 54 250 42 7
+(B11)
+
+
+--
+
+>>
+Replace|word
+|14 54 160 256 7
+∆wy 
+--
+Δwy, 
+>>
+Replace|word
+|14 54 194 75 7
+∆σ 
+--
+Δσ 
+>>
+Split|word
+|14 54 250 42 7
+we obtain
+
+--
+we obtain
+
+
+>>
+Delete|para
+|14 54 282 508 21
+(B13)
+
+
+--
+
+>>
+Split|word
+|14 54 337 508 6
+CALCULATION IN THE “CUMULANT SERIES” APPROXIMATION
+
+
+--
+Calculation in the "cumulant series" approximation
+
+
+>>
+Delete|para
+|14 54 406 508 19
+n→0
+
+
+--
+
+>>
+Delete|para
+|14 54 429 59 10
+1
+σ0 E02 2
+
+
+--
+
+>>
+Delete|para
+|14 113 426 208 7
+(C1)
+
+
+--
+
+>>
+Delete|para
+|14 54 473 508 22|14 292 478 15 5
+(C2)
+
+
+--
+
+>>
+Delete|para
+|14 54 498 81 7
+k≥1
+
+
+--
+
+>>
+Delete|para
+|14 283 514 87 5|14 54 529 508 13|14 230 536 77 6|14 239 540 88 3
+(C3)
+
+
+--
+
+>>
+Delete|para
+|14 54 561 69 7
+1
+1 X X βv)k
+hHe i0 Ck (σ) Ck (E 2 /2)n
+Vβ x
+k!
+
+
+--
+
+>>
+Delete|para
+|14 359 587 7 15
+(C4)
+
+
+--
+
+>>
+Delete|para
+|14 54 594 508 22|14 267 599 31 3
+k≥1
+
+
+--
+
+>>
+Insert|para
+|14 54 619 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|14 54 650 508 20|14 274 657 6 4|14 296 662 80 3
+where
+1
+Ck (E /2) n
+2
+
+
+--
+
+>>
+Delete|para
+|14 54 682 303 7
+X
+
+
+--
+
+>>
+Delete|para
+|14 357 682 205 7
+α
+
+
+--
+
+>>
+Delete|para
+|14 54 693 340 7
+2
+
+
+--
+
+>>
+Delete|para
+|15 54 67 171 15
+E (x) /2
+
+
+<AND>
+X X)k
+Ck (E 2 /2)
+k!
+k≥1
+1
+1 X α2
+exp X
+E (x)
+−1
+n
+2
+α
+0
+1 X α2
+1
+ln exp X
+E (x)
+O(n)n
+2
+α
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|15 225 74 337 22|15 225 79 15 5|15 54 103 171 17
+α
+
+
+<AND>
+Z(X) 
+--
+
+<AND>
+
+>>
+Delete|para
+|15 225 103 337 17|15 226 110 62 4|15 299 114 65 3|15 54 137 171 17
+#k 
+<AND>
+(C6)
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|15 225 137 337 17|15 226 144 63 4|15 301 149 65 3
+(C5)
+0
+
+
+<AND>
+0
+
+
+--
+
+<AND>
+
+>>
+Split|word
+|15 54 243 293 7
+Expanding 
+--
+Expanding 
+>>
+Split|word
+|15 54 305 264 7
+Use of this expression in 
+--
+Use of this expression in 
+>>
+Delete|para
+|15 54 341 508 23
+(C7)
+
+
+--
+
+>>
+Delete|para
+|15 54 358 311 7
+(C8)
+
+
+--
+
+>>
+Delete|para
+|15 365 358 197 7|15 54 370 121 7
+(C9)
+
+
+--
+
+>>
+Split|word
+|15 54 431 176 7
+where we defined the family of functions
+
+--
+where we defined the family of functions
+
+
+>>
+Delete|para
+|15 54 458 508 14|15 233 467 4 4
+0
+
+
+--
+
+>>
+Delete|para
+|15 54 510 508 16|15 254 514 5 4
+h′m (z) 
+--
+
+>>
+Delete|para
+|15 54 532 247 7
+(m −2)
+--
+
+>>
+Delete|para
+|15 54 558 95 13
+1
+[hm+1 (z) (k 1)hm (z)z
+
+
+<AND>
+lim
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|15 149 558 413 13|15 149 564 26 4|15 177 570 14 3|15 54 589 133 13
+(C11)
+
+
+<AND>
+n→0
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|15 149 595 413 19
+(C12)
+
+
+--
+
+>>
+Delete|para
+|15 54 693 213 7
+1
+Tr h−1 (M −1 /d) dh−1 1/dσ0 vβ dσ0 q h0 1/dσ0 E02 n
+
+
+--
+
+>>
+Delete|para
+|15 267 693 48 7
+(C13)
+
+
+--
+
+>>
+Delete|para
+|15 54 704 201 7
+[1] D. A. G. Bruggeman, Ann. Physik (Leipzig) 24, 636 (1935)[2] R. Landauer, J. Appl. Phys. 23, 779 (1952)also, in Electical Transport and Optical Properties of Inhomogeneous Media,
+edited by J. C. Garland and D. B. Tanner. AIP Conf. Proc. No. 40 (AIP, New York, 1978)
+--
+
+>>
+Delete|para
+|15 255 704 216 7
+15
+
+
+--
+
+>>
+Delete|para
+|15 471 704 91 7|15 72 715 192 7
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+
+
+--
+
+>>
+Delete|para
+|15 265 715 177 7
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+[19]
+[20]
+[21]
+[22]
+[23]
+[24]
+[25]
+[26]
+[27]
+[28]
+[29]
+
+
+--
+
+>>
+Delete|para
+|15 54 745 508 6|16 54 139 174 7
+Hashin−Shtrikman
+Br. (OI type 1)
+HY (CS type 1)
+OI type 2
+CS type 2
+
+
+--
+
+>>
+Delete|para
+|16 54 62 185 7
+[30]
+[31]
+[32]
+[33]
+[34]
+[35]
+
+
+--
+
+>>
+Delete|para
+|16 239 62 166 7
+[36]
+
+
+--
+
+>>
+Delete|para
+|16 54 73 199 7
+S. Kirkpatrick, Phys. Rev. Lett. 27, 1722 (1971)Rev. Mod. Phys. 45, 574 (1973)J. P. Clerc, G. Giraud, J. M. Laugier, and J. M. Luck, Adv. Phys. 39, 191 (1990)D. Stauffer and A. Aharony, Introduction to Percolation Theory (Taylor Francis, London, 1992)M. Sahimi, Phys. Rep. 306, 213 (1998)and references therein.
+G. W. Milton, Commun. Math. Phys. 99, 463 (1985)M. N. Miller, J. Math. Phys. 12, 1057 (1971)R. B. Stinchcombe, J. Phys. C 6, L1 (1973)J. P. Straley, J. Phys. C 9, 783 (1976)P
+This is because the key ingredient of the continuum theory, namely the Green function
+k k /k2 (computed at x 0 in
+k i j
+the calculations of this paper, cf. [29]has the same low-momentum structure as its counterpart on an hypercubic lattice
+(see, e.g. Ref. [15]M. J. Stephen, Phys. Rev. B 17, 4444 (1977)M. Hori and F. Yonezawa, J. Math. Phys. 16, 352 (1975)D. J. Bergman and Y. Kantor, J. Phys. C 14, 3365 (1981)J. M. Luck, Phys. Rev. B 43, 3933 (1991)M. Hori, J. Math. Phys. 18, 487 (1977)M. Barthélémy and H. Orland, J. Phys. I (France) 3 2171 (1993)M. Barthélémy and H. Orland, Eur. Phys. J. B 6 537 (1998)cond-mat/9806302.
+R. Blumenfeld and D. J. Bergman, Phys. Rev. B 44, 7378 (1991)D. J. Bergman and R. Blumenfeld, Phys. Rev. B 54,
+7378 (1996)J. R. Willis, in Homogeneization and Effective Moduli of Materials and Media, edited by J. L. Ericksen et al. (SpringerVerlag, New York, 1896)p. 247; D. R. S. Talbot and J. R. Willis, IMA J. Appl. Math. 39, 215 (1987)E. Sanchez-Palencia and A. Zaoui eds. Homogeneization Techniques for Composite Media. Proceedings, Udine, Italy 1985,
+Lecture notes in Physics 272 (Springer-Verlag, Berlin, 1987)and references therein.
+P. Ponte Castañeda, SIAM J. Appl. Math. 52, 1321 (1992)S. F. Edwards and P. W. Anderson, J. Phys. F 5 965 (1975)M. Mézard, G. Parisi, and M. Virasoro, Spin Glass Theory and Beyond (World Scientific, Singapore, 1987)D. J. Bergman and D. Stroud, Solid State Phys. 46, 147 (1992)P. Ponte Castañeda, G. DeBotton, and G. Li, Phys. Rev. B 46, 4387 (1992)K. W. Yu, Y. C. Chu, and E. M. Y. Chan, Phys. Rev. B 50, 4387 (1994)P. Ponte Castañeda and M. Kailasam, Proc. R. Soc. London A 453, 793 (1997)Integration is performed over the independant scalars
+1/2v) such couples of Fourier modes involved. Use
+P φk Rand φ−k with
+d
+1
+dk/2π)
+with
+an upper cut-off on the k implied. In particular,
+is made in the calculations of
+the
+equality
+1/v
+k
+P
+one appeals to the formula
+k k /k2 δij dv)k i j
+D. J. Bergman, Phys. Rep. 43, 377 (1978)Z. Hashin and S. Shtrikman, J. Appl. Phys. 33, 3125 (1962)D. C. Wright, D. J. Bergman, and Y. Kantor, Phys. Rev. B 33, 396 (1986)and references therein.
+J. P. Straley, Phys. rev. B 15, 5733 (1977)K. Golden, Phys. Rev. Lett. 65, 2923 (1990)G. Parisi, in Les Houches, Session XXXIX 1982 Développements Récents en Théorie des Champs et Mécanique Statistique Recent Advances in Field Theory and Statistical Mechanics, edited by J.B. Zuber and R. Stora (North Holland,
+Amsterdam, 1984)pp. 473–523.
+J. W. Negele and H. Orland, Quantum Many-Particle Systems (Addison-Wesley, New York, 1987)
+--
+
+>>
+Delete|para
+|16 253 73 151 7
+16
+
+
+--
+
+>>
+Delete|para
+|16 54 84 18 7
+10
+
+
+--
+
+>>
+Delete|para
+|16 72 84 398 7
+10
+Hashin−Shtrikman
+Br. (OI type 1)
+HY (CS type 1)
+OI type 2
+CS type 2
+
+
+--
+
+>>
+Delete|para
+|16 54 95 197 7
+8
+
+
+--
+
+>>
+Delete|para
+|16 251 95 76 7
+6
+
+
+--
+
+>>
+Delete|para
+|16 54 106 235 7
+σeff/σ1
+
+
+--
+
+>>
+Delete|para
+|16 54 117 203 7
+σeff/σ1
+
+
+--
+
+>>
+Delete|para
+|16 54 128 197 7
+8
+
+
+--
+
+>>
+Delete|para
+|16 54 150 228 8
+4
+
+
+--
+
+>>
+Delete|para
+|16 282 153 272 11
+2
+
+
+--
+
+>>
+Delete|para
+|16 554 150 8 8|16 72 161 159 7
+6
+
+
+--
+
+>>
+Delete|para
+|16 231 161 259 7
+4
+
+
+--
+
+>>
+Delete|para
+|16 490 161 72 7|16 72 172 78 7
+2
+d=2
+
+
+--
+
+>>
+Delete|para
+|16 54 183 203 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 54 194 221 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 275 194 31 7
+0.2
+
+
+--
+
+>>
+Delete|para
+|16 54 205 225 7
+0.4
+
+
+--
+
+>>
+Delete|para
+|16 279 205 31 7
+0.6
+
+
+--
+
+>>
+Delete|para
+|16 54 215 190 7
+0.8
+
+
+--
+
+>>
+Delete|para
+|16 54 226 180 7
+d=3
+
+
+--
+
+>>
+Delete|para
+|16 54 237 18 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 72 237 265 7
+1
+
+
+--
+
+>>
+Delete|para
+|16 54 248 217 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 271 248 129 7
+0.2
+
+
+--
+
+>>
+Delete|para
+|16 54 259 222 7
+0.4
+
+
+--
+
+>>
+Delete|para
+|16 276 259 273 7
+p
+
+
+--
+
+>>
+Delete|para
+|16 549 259 13 7|16 72 270 50 7
+FIG. 1. Rescaled effective conductivities in dimension
+d 2 for a binary medium, versus the volume concentation
+p of component 2. The conductivity ratio is σ2 /σ1 10.
+Highest and lowest solid curves: Hashin-Shtrikman bounds;
+Br.the Bruggeman formula type 1”one-impurity approximation OI)HY: the Hori-Yonezawa formula type 1”cumulant series approximation CS)both “type 2” curves
+are the new formulas, within OI and CS approximations.
+
+
+--
+
+>>
+Delete|para
+|16 54 281 241 7
+1
+
+
+--
+
+>>
+Delete|para
+|16 295 281 267 7
+1000
+Hashin−Shtrikman
+Br. (OI type 1)
+HY (CS type 1)
+OI type 2
+CS type 2
+
+
+--
+
+>>
+Delete|para
+|16 72 292 289 7
+800
+
+
+--
+
+>>
+Delete|para
+|16 361 292 127 7
+Hashin−Shtrikman
+Br. (OI type 1)
+HY (CS type 1)
+OI type 2
+CS type 2
+
+
+--
+
+>>
+Delete|para
+|16 54 303 177 7
+800
+
+
+--
+
+>>
+Delete|para
+|16 231 303 289 7
+σeff/σ1
+
+
+--
+
+>>
+Delete|para
+|16 520 303 43 7|16 72 314 247 7
+600
+
+
+--
+
+>>
+Delete|para
+|16 319 314 94 7
+400
+
+
+--
+
+>>
+Delete|para
+|16 54 325 207 7
+600
+
+
+--
+
+>>
+Delete|para
+|16 261 325 53 7
+400
+
+
+--
+
+>>
+Delete|para
+|16 54 336 217 7
+200
+
+
+--
+
+>>
+Delete|para
+|16 271 336 48 7
+200
+
+
+--
+
+>>
+Delete|para
+|16 54 347 199 7
+d=3
+
+
+--
+
+>>
+Delete|para
+|16 253 347 253 7
+d=2
+
+
+--
+
+>>
+Delete|para
+|16 54 358 230 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 284 358 48 7
+0.8
+
+
+--
+
+>>
+Delete|para
+|16 54 369 328 7
+FIG. 3. Rescaled effective conductivities in dimension
+d 3 for a binary medium, versus the volume concentation p
+of component 2. The conductivity ratio is σ2 /σ1 10. Same
+plots as in Fig. 1.
+
+
+--
+
+>>
+Delete|para
+|16 54 380 263 7
+1000
+
+
+--
+
+>>
+Delete|para
+|16 317 380 53 7
+σeff/σ1
+
+
+--
+
+>>
+Delete|para
+|16 54 391 342 7
+0.6
+p
+
+
+--
+
+>>
+Delete|para
+|16 54 402 232 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 286 402 223 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 509 402 53 7|16 72 413 134 8
+0.2
+
+
+--
+
+>>
+Delete|para
+|16 207 416 177 11
+0.4
+
+
+--
+
+>>
+Delete|para
+|16 384 413 178 8|16 72 424 58 8
+0.6
+
+
+--
+
+>>
+Delete|para
+|16 130 427 147 11
+0.8
+
+
+--
+
+>>
+Delete|para
+|16 54 435 191 7
+1
+
+
+--
+
+>>
+Delete|para
+|16 54 446 211 7
+0
+
+
+--
+
+>>
+Delete|para
+|16 265 446 53 7
+0.2
+
+
+--
+
+>>
+Delete|para
+|16 54 457 18 7
+0.4
+
+
+--
+
+>>
+Delete|para
+|16 72 457 400 7
+0.6
+
+
+--
+
+>>
+Delete|para
+|16 54 468 192 7
+0.8
+
+
+--
+
+>>
+Delete|para
+|16 54 478 201 7
+1
+
+
+--
+
+>>
+Delete|para
+|16 54 489 228 7
+p
+
+
+--
+
+>>
+Delete|para
+|16 282 489 280 7
+p
+
+
+--
+
+>>
+Delete|para
+|16 72 500 278 7
+FIG. 4. Rescaled effective conductivities in dimension
+d 3 for a binary medium, versus the volume concentation
+p of component 2.The conductivity ratio is σ2 /σ1 1000.
+Same plots as in Fig. 1.
+
+
+--
+
+>>
+Delete|para
+|16 350 500 212 7|16 72 511 93 7
+FIG. 2. Rescaled effective conductivities in dimension
+d 2 for a binary medium, versus the volume concentation
+p of component 2. The conductivity ratio is σ2 /σ1 1000.
+Same plots as in Fig. 1.
+
+
+--
+
+>>
+Delete|para
+|16 165 511 38 7
+17
+
+
+--
+
+>>
+Delete|para
+|16 54 522 175 7
+Br. (OI type 1)
+HY (CS type 1)
+OI type 2
+CS type 2
+
+
+--
+
+>>
+Delete|para
+|16 72 522 490 7
+d=3
+
+
+--
+
+>>
+Delete|para
+|16 54 745 508 6
+2
+
+
+--
+
+>>
+Delete|para
+|17 54 302 245 6|17 54 313 245 6|17 54 324 245 7|17 54 335 245 6|17 54 346 245 7|17 54 357 245 7|17 54 368 245 7|17 54 379 245 6
+E E>
+
+
+--
+
+>>
+Delete|para
+|17 54 644 245 6|17 54 655 245 6|17 54 666 245 7|17 54 677 245 6
+2
+
+
+--
+
+>>
+Delete|para
+|17 317 284 245 221
+10
+
+
+--
+
+>>
+Delete|para
+|17 317 302 245 6|17 317 313 245 6|17 317 324 245 7|17 317 335 245 6
+5
+
+
+--
+
+>>
+Delete|para
+|17 317 624 245 221
+0
+
+
+--
+
+>>
+Delete|para
+|17 317 642 245 6|17 317 653 245 6|17 317 664 245 7|17 317 675 245 6
+0
+
+
+--
+
+>>
+Delete|para
+|17 54 745 508 6|18 54 302 245 6|18 54 313 245 6|18 54 324 245 6|18 54 335 245 6
+0.2
+
+
+--
+
+>>
+Delete|para
+|18 54 600 245 7|18 54 611 245 7|18 54 622 245 6|18 54 633 245 7|18 54 644 245 6|18 54 655 245 6|18 54 666 245 6|18 54 677 245 7
+0.4
+
+
+<AND>
+0.6
+
+
+<AND>
+0.8
+
+
+<AND>
+1
+
+
+<AND>
+p
+
+
+<AND>
+FIG. 5. Relative quadratic fluctuations of the field in dimension d 3 for a binary medium, versus the volume concentation p of component 2. The conductivities are σ1 1,
+σ2 1000.
+
+
+<AND>
+3
+σeff/σ1
+q
+
+
+<AND>
+type 2
+type 1
+
+
+<AND>
+1
+
+
+<AND>
+−1
+
+
+<AND>
+0
+
+
+<AND>
+2
+
+
+<AND>
+4
+
+
+<AND>
+6
+
+
+<AND>
+8
+
+
+<AND>
+10
+
+
+<AND>
+σ0/σ1
+FIG. 6. Rescaled effective conductivity σeff (σ0 σ1 and reduced replica coupling parameter q(σ0 vs. σ0 in dimension
+d 3 for a binary medium. In this exemple computed from
+Eqs. (37)(43)the conductivity ratio is σ2 /σ1 100, and
+the volume fraction p of component 2 is p 0.18. The “type
+1” effective conductivity is obtained when q 0, whereas the
+“type 2” effective conductivity corresponds to the maximum
+of the curve σeff (σ0 
+<AND>
+18
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+

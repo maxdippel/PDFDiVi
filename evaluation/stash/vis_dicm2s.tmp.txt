@@ -1,0 +1,443 @@
+>>
+Delete
+|1 61 244 329 6
+arXiv:cond-mat/0001229v1 [cond-mat.supr-con] 17 Jan 2000
+
+
+<AND>
+1
+
+
+<AND>
+C. Di Castro, L. Benfatto, S. Caprara, C. Castellani, and M. Grillia
+a
+
+
+<AND>
+INFM and Dipartimento di Fisica Università di Roma “La Sapienza”
+00185 Rome, Italy
+We elaborate on several observable consequences of the Quantum-Critical-Point scenario. In particular we show
+that the strong k-dependent scattering of the quasiparticles with the quasi-critical charge and spin fluctuations
+reproduces the main features of the low-energy spectral weights and of the observed Fermi surfaces. In the
+underdoped cuprates the attractive k-dependent charge scattering drives the formation of the pseudogap at the
+M points below the crossover temperature T In this context we discuss models for pseudogap formation with
+relevant scattering in the particle-particle and particle-hole channels. The experimental consequences for the
+pair-fluctuation and for the pseudogap behavior are investigated.
+
+
+<AND>
+1. 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|1 61 389 213 7|1 61 401 132 7
+The non-Fermi-liquid behavior of the 
+--
+The non-Fermi-liquid behavior of the 
+>>
+Replace
+|1 61 389 213 7|1 61 401 132 7
+normalstate 
+--
+normal-state 
+>>
+Replace
+|1 162 436 111 7|1 61 448 188 7
+inplane 
+--
+in-plane 
+>>
+Merge
+|1 302 476 213 7|1 302 488 124 7|1 264 687 9 7|1 425 488 89 7|1 302 500 213 7|1 302 512 27 7|1 329 512 186 7|1 302 524 111 9|1 412 524 102 9|1 302 536 186 7|1 488 536 27 7|1 302 548 213 7|1 302 560 91 7|1 393 560 121 7|1 302 571 82 7
+this scheme the optimally doped and overdoped
+regimes would be related to the quantum critical
+(QC) and to the quantum disordered (QD) region
+of the QCP respectively. The two regions are separated by a crossover line T̃ (δ)The underdoped
+regime corresponds to the (quasi)ordered region
+below the instability line. However, precursor effects of the ordering could extend up to a higher
+temperature T0 (δ)
+--
+this scheme the optimally doped and overdoped regimes would be related to the quantum critical (QC) and to the quantum disordered (QD) region of the QCP respectively. The two regions are separated by a crossover line T̃δ)The underdoped regime corresponds to the (quasi)ordered region below the instability line. However, precursor effects of the ordering could extend up to a higher temperature T0(δ)
+>>
+Split
+|1 302 583 213 7|1 302 595 83 7|1 384 595 130 7|1 302 607 17 7|1 318 607 196 7|1 302 619 181 7
+It was shown that in strongly correlated systems (e.g.in the large-U Hubbard model with
+an electron-phonon interaction and long-range
+Coulomb forces) an incommensurate 
+--
+It was shown that in strongly correlated systems (e.g.in the large-U Hubbard model with an electron-phonon interaction and long-range Coulomb forces) an incommensurate 
+>>
+Replace
+|1 483 619 31 7|1 302 631 213 7|1 302 643 83 7
+chargedensity-
+--
+charge-density-
+>>
+Split
+|2 83 212 213 7|2 83 224 58 7
+As shown in Ref. 
+--
+As shown in Ref. 
+>>
+Delete
+|2 188 224 108 7|2 83 236 213 7
+2
+T0
+
+
+<AND>
+T
+T*
+
+
+<AND>
+QUANTUM
+CRITICAL
+
+
+<AND>
+T
+
+
+<AND>
+CDW
+
+
+<AND>
+QUANTUM
+DISORDERED
+
+
+<AND>
+PSEUDOGAP
+DYNAM.
+STRIPES
+
+
+<AND>
+SUPERCOND.
+
+
+<AND>
+TC
+
+
+<AND>
+δ
+
+
+<AND>
+c
+
+
+<AND>
+δ
+
+
+<AND>
+STRIPE-QCP
+
+
+<AND>
+Figure 1. Schematic structure of the temperature
+vs. doping δ phase diagram around the StripeQCP.
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|2 188 224 108 7|2 83 236 213 7|2 83 248 213 7|2 83 260 56 6
+the instability of a singular effective interaction,
+strongly dependent on momentum, doping, and
+temperature:
+
+--
+the instability of a singular effective interaction, strongly dependent on momentum, doping, and temperature:
+
+
+>>
+Delete
+|2 83 248 213 7|2 83 260 56 6
+V
+κ2 |q qc |2 iγω
+
+
+<AND>
+(1)
+
+
+--
+
+<AND>
+
+>>
+Replace
+|2 224 347 58 11
+ξc−2 
+--
+ξ- 2c 
+>>
+Split
+|2 83 476 213 7|2 83 488 83 7|2 166 488 130 7|2 83 500 121 7|2 204 500 92 7|2 83 512 213 7|2 83 524 46 7|2 129 524 167 7|2 83 536 152 7
+The occurrence of singular interactions near the
+QCP and near the instability line determines the
+physical properties of the cuprates. In particular, the non-Fermi-liquid behavior characteristic of the optimally doped materials is a signature of the QCP 
+--
+The occurrence of singular interactions near the QCP and near the instability line determines the physical properties of the cuprates. In particular, the non-Fermi-liquid behavior characteristic of the optimally doped materials is a signature of the QCP 
+>>
+Merge
+|2 209 548 87 7|2 83 560 213 7|2 83 571 23 7|2 106 571 190 7|2 83 583 121 8|2 204 583 92 8|2 83 595 205 7|2 288 595 8 7|2 83 607 213 7|2 83 619 134 7|2 218 619 78 7|2 83 631 213 7|2 83 643 40 7|2 124 643 172 7|2 83 655 95 7
+strong scattering mediated by charge fluctuations
+near optimal doping. On the other hand in the
+overdoped region the term κ2 a(δ δc reduces the scattering and determines a region of
+Fermi-liquid behavior. In the underdoped compounds, when the instability line TCDW is approached, a singular scattering between the quasiparticles is again mediated by the charge fluctuations at wavevectors 
+--
+strong scattering mediated by charge fluctuations near optimal doping. On the other hand in the overdoped region the term κ2 a(δ δc) reduces the scattering and determines a region of Fermi-liquid behavior. In the underdoped compounds, when the instability line TCDW is approached, a singular scattering between the quasiparticles is again mediated by the charge fluctuations at wavevectors 
+>>
+Delete
+|2 441 140 96 7|2 324 152 98 7
+2. 
+--
+
+>>
+Split
+|2 324 213 213 7|2 324 225 122 7|2 447 225 90 7|2 324 237 213 7|2 324 249 213 7|2 324 261 95 7|2 419 261 118 7|2 324 273 213 7|2 324 285 213 7|2 324 297 38 7|2 363 297 174 7|2 324 308 168 7|2 493 308 44 7|2 324 320 213 7|2 324 332 9 7
+The charge fluctuations couple with spin degrees of freedom since in the hole-poor regions the
+system is locally closer to half-filling where antiferromagnetic correlations are more pronounced.
+Both charge and spin fluctuations then mediate a
+nearly singular scattering between the quasiparticles, strongly affecting the spectral properties. In
+order to compare the outcomes of this scattering
+with the ARPES experiments, mostly performed
+on optimally doped Bi2212 
+--
+The charge fluctuations couple with spin degrees of freedom since in the hole-poor regions the system is locally closer to half-filling where antiferromagnetic correlations are more pronounced. Both charge and spin fluctuations then mediate a nearly singular scattering between the quasiparticles, strongly affecting the spectral properties. In order to compare the outcomes of this scattering with the ARPES experiments, mostly performed on optimally doped Bi2212 
+>>
+Split
+|2 324 536 213 7|2 324 548 121 7|2 446 548 91 7|2 324 560 213 7
+In this framework one can also investigate the
+bilayer structure of Bi2212 and explain the 
+--
+In this framework one can also investigate the bilayer structure of Bi2212 and explain the 
+>>
+Replace
+|2 446 548 91 7|2 324 560 213 7
+puz-
+
+
+--
+puzzling 
+>>
+Delete
+|2 446 548 91 7|2 324 560 213 7
+3
+0.045
+
+
+<AND>
+T*
+Tc
+LE/2
+
+
+<AND>
+0.04
+0.035
+Tc, T*LE
+
+
+<AND>
+zling 
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|2 446 548 91 7|2 324 560 213 7|2 324 571 201 7
+absence of bonding-antibonding band splitting. According to the band calculations 
+--
+absence of bonding-antibonding band splitting. According to the band calculations 
+>>
+Split
+|2 324 679 213 7|2 324 691 144 7|2 468 691 69 7|3 61 128 84 7|3 145 128 128 7|3 61 140 213 7|3 61 152 213 7|3 61 164 121 8|3 182 164 91 8|3 61 176 168 7|3 229 176 44 7|3 61 188 213 7|3 61 200 52 7
+The interaction mediated by the quasicritical fluctuations also provides an effective pairing
+mechanism. In this regard approaching the superconducting region from the overdoped regime, the
+doping and the temperature dependences of the
+κ2 term in the QD and QC regimes give rise to a
+non-trivial increase of Tc followed by a saturation
+around optimal doping 
+--
+The interaction mediated by the quasicritical fluctuations also provides an effective pairing mechanism. In this regard approaching the superconducting region from the overdoped regime, the doping and the temperature dependences of the κ2 term in the QD and QC regimes give rise to a non-trivial increase of Tc followed by a saturation around optimal doping 
+>>
+Delete
+|2 83 98 454 6
+0.03
+0.025
+0.02
+0.015
+0.01
+0.005
+0
+0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2
+δ
+
+
+<AND>
+Figure 2. Doping dependence of T Tc and the
+zero-temperature LE. We assumed the T (δ)
+dependence measured in Bi2212 [11] and used
+c 2.5 and V 90 meV to reproduce the experimentally observed values of the LE in the
+underdoped region and the maximum Tc 
+<AND>
+3. 
+--
+
+<AND>
+
+<AND>
+
+>>
+Split
+|3 61 273 213 7|3 61 285 108 7|3 168 285 105 7|3 61 297 213 7|3 61 308 213 7|3 61 320 53 7|3 114 320 69 7|3 183 320 90 7|3 61 332 177 7
+The effect of the stripe instability can be more
+dramatic in underdoped materials, when the system approaches the instability line at temperatures T TCDW (δ)In this case, near TCDW (δ)
+the critical fluctuations at wavevectors near 
+--
+The effect of the stripe instability can be more dramatic in underdoped materials, when the system approaches the instability line at temperatures T TCDW(δ)In this case, near TCDW(δ) the critical fluctuations at wavevectors near 
+>>
+Delete
+|3 393 416 88 7
+4
+
+--
+
+>>
+Replace
+|3 431 595 83 7|3 302 607 213 7|3 302 619 15 7
+nearestneighbor 
+--
+nearest-neighbor 
+>>
+Replace
+|3 317 619 198 7
+∆0 
+--
+Δ0(
+>>
+Split
+|4 83 236 213 7|4 83 248 121 7|4 205 248 91 7|4 83 260 213 7|4 83 272 34 7|4 117 272 178 7|4 83 284 60 7
+The quasiparticle spectra are characterized by
+a LE, i.e. a finite minimum distance of the quasiparticle peak from the Fermi level, which persists in the normal state and is largest at the M
+points, where LE 
+--
+The quasiparticle spectra are characterized by a LE, i.e. a finite minimum distance of the quasiparticle peak from the Fermi level, which persists in the normal state and is largest at the M points, where LE≃
+>>
+Replace
+|4 117 272 178 7|4 83 284 60 7
+∆0 |µ|
+--
+Δ0 |μ|
+>>
+Replace
+|4 276 332 20 7|4 83 344 213 7
+∆s 
+<AND>
+∆s 
+--
+Δs, 
+<AND>
+Δs.
+
+
+>>
+Split
+|4 83 367 213 7|4 83 379 148 7|4 231 379 65 7|4 83 391 213 7
+The above preformed gap accounts for most
+of the non-mean-field effects by the input of a
+normal-state pseudogap 
+--
+The above preformed gap accounts for most of the non-mean-field effects by the input of a normal-state pseudogap 
+>>
+Replace
+|4 231 379 65 7|4 83 391 213 7
+∆0 
+--
+Δ0(
+>>
+Delete
+|4 104 571 192 7|4 83 583 125 7
+REFERENCES
+1. For a recent review see, e.g. T. Timusk and
+B. Statt, Rep. Prog. Phys. 62, (1999) 61.
+2. C. Castellani, C. Di Castro, and M. Grilli,
+Phys. Rev. Lett. 75, (1995) 4650.
+3. A. Perali, et al.Phys. Rev. B 54, (1996)
+16216.
+4. C. Castellani, C. Di Castro, and M. Grilli, J.
+Phys. Chem. Solids 59, (1998) 1694.
+5. U. Löw, et al.Phys. Rev. Lett. 72, (1994)
+1918.
+6. N. L. Saini, et al.Phys. Rev. Lett. 79, (1997)
+3467.
+7. S. Caprara, et al.Phys. Rev. B 59, (1999)
+14980.
+8. O. K. Andersen, et al.Phys. Rev. B49,
+(1994) 4145.
+9. S. Caprara and M. Grilli, Journal de Physique
+IV (Colloques) 10, (1999) 337.
+10. D. S. Marshall, et al.Phys. Rev. Lett. 76,
+(1996) 4871.
+11. H. Ding, et al.Nature 382, (1996) 51; J.
+Phys. Chem. Solids 59, (1998) 1888.
+12. A. Perali, et al.cond-mat/9912363, C.
+Castellani, et al.this proceeding.
+13. P. Nozières and F. Pistolesi, Eur. Phys. J. B
+10, (1999) 649.
+14. L. Benfatto, S. Caprara, and C. Di Castro,
+preprint (2000)15. C. Panagopoulos and T. Xiang, Phys. Rev.
+Lett. 81, (1998) 2336.
+16. G. Deutscher, Nature 397, (1999) 410.
+
+
+--
+

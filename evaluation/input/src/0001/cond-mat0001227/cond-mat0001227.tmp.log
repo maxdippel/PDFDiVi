@@ -1,0 +1,301 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.18)  28 APR 2017 11:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**input/src/0001/cond-mat0001227/cond-mat0001227.tmp.tex
+(./input/src/0001/cond-mat0001227/cond-mat0001227.tmp.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/latex209.def
+File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
+
+
+          Entering LaTeX 2.09 COMPATIBILITY MODE
+ *************************************************************
+    !!WARNING!!    !!WARNING!!    !!WARNING!!    !!WARNING!!   
+ 
+ This mode attempts to provide an emulation of the LaTeX 2.09
+ author environment so that OLD documents can be successfully
+ processed. It should NOT be used for NEW documents!
+ 
+ New documents should use Standard LaTeX conventions and start
+ with the \documentclass command.
+ 
+ Compatibility mode is UNLIKELY TO WORK with LaTeX 2.09 style
+ files that change any internal macros, especially not with
+ those that change the FONT SELECTION or OUTPUT ROUTINES.
+ 
+ Therefore such style files MUST BE UPDATED to use
+          Current Standard LaTeX: LaTeX2e.
+ If you suspect that you may be using such a style file, which
+ is probably very, very old by now, then you should attempt to
+ get it updated by sending a copy of this error message to the
+ author of that file.
+ *************************************************************
+
+\footheight=\dimen102
+\@maxsep=\dimen103
+\@dblmaxsep=\dimen104
+\@cla=\count79
+\@clb=\count80
+\mscount=\count81
+(/usr/share/texlive/texmf-dist/tex/latex/base/tracefnt.sty
+Package: tracefnt 2015/02/21 v3.0k Standard LaTeX package (font tracing)
+\tracingfonts=\count82
+LaTeX Info: Redefining \selectfont on input line 106.
+)
+\symbold=\mathgroup4
+\symsans=\mathgroup5
+\symtypewriter=\mathgroup6
+\symitalic=\mathgroup7
+\symsmallcaps=\mathgroup8
+\symslanted=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 299.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 300.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 306.
+LaTeX Info: Redefining \em on input line 316.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 377.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 379.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 381.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+Compatibility mode: definition of \rm ignored.
+Compatibility mode: definition of \sf ignored.
+Compatibility mode: definition of \tt ignored.
+Compatibility mode: definition of \bf ignored.
+Compatibility mode: definition of \it ignored.
+Compatibility mode: definition of \sl ignored.
+Compatibility mode: definition of \sc ignored.
+LaTeX Info: Redefining \cal on input line 511.
+LaTeX Info: Redefining \mit on input line 512.
+\bibindent=\dimen105
+)
+(input/src/0001/cond-mat0001227/cond-mat0001227.tmp.aux)
+\openout1 = `cond-mat0001227.tmp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 41.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 41.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 44.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8
+] [9] [10]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 672.
+
+Overfull \hbox (6.1928pt too wide) in paragraph at lines 672--672
+[]\OT1/cmr/bx/n/17.28 Deformed quan-tum Ashkin-Teller model in the
+ []
+
+[11]
+LaTeX Font Warning: Command \em invalid in math mode on input line 711.
+LaTeX Font Warning: Command \em invalid in math mode on input line 716.
+ [12] [13] [14] [15] [16] [17] [18]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1218
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1218.
+
+ [19]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1281.
+ [20]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1322.
+ [21]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1340.
+
+Overfull \hbox (2.20157pt too wide) in paragraph at lines 1364--1368
+\OT1/cmr/m/n/12 constitute the stag-gered mag-neti-sa-tion and dimer-iza-tion f
+ield of the S=1/2 Heisen-
+ []
+
+LaTeX Font Warning: Command \em invalid in math mode on input line 1379.
+[22]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1418.
+LaTeX Font Warning: Command \em invalid in math mode on input line 1425.
+ [23]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1513.
+LaTeX Font Warning: Command \em invalid in math mode on input line 1514.
+ [24] [25]
+Overfull \hbox (3.12871pt too wide) in paragraph at lines 1623--1623
+[]\OT1/cmr/bx/n/17.28 Ising tran-si-tion in the 1D Hub-bard model with
+ []
+
+[26]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1711.
+ [27]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1770.
+ [28]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1776.
+LaTeX Font Warning: Command \em invalid in math mode on input line 1779.
+LaTeX Font Warning: Command \em invalid in math mode on input line 1786.
+ [29]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1860.
+ [30]
+LaTeX Font Warning: Command \em invalid in math mode on input line 1932.
+LaTeX Font Warning: Command \em invalid in math mode on input line 1952.
+ [31] [32]
+! Display math should end with $$.
+<to be read again> 
+                   C
+l.2051 plane $C
+               $. Starting with the $T=0$ asymptotics of the correlation fun...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2057 \begin{equation}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! You can't use `\eqno' in math mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.2061 \end{equation}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2061 \end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2061 \end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.2061 \end{equation}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (10.86168pt too wide) in paragraph at lines 2051--2063
+\OT1/cmr/m/n/12 C$\OML/cmm/m/it/12 :Startingwiththe$\OT1/cmr/m/n/12 T=0$\OML/cm
+m/m/it/12 asymptoticsofthecorrelationfunction$$\OMS/cmsy/m/n/12 h\OML/cmm/m/it/
+12 ^^V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z[]; []\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
+2 ^^V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z[]; []\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12
+ i /
+ []
+
+
+Overfull \hbox (33.34088pt too wide) in paragraph at lines 2051--2063
+[]\OML/cmm/m/it/12 ;$$andusingtheabovementionedconformalmapping; oneobtains$$\O
+MS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; ^^\\OT
+1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr
+/m/n/12 0)\OMS/cmsy/m/n/12 i /
+ []
+
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] (input/src/0001/cond-mat0001227/cond-mat0001227.tmp.aux) ) 
+Here is how much of TeX's memory you used:
+ 663 strings out of 494953
+ 7385 string characters out of 6180977
+ 58966 words of memory out of 5000000
+ 3982 multiletter control sequences out of 15000+600000
+ 24210 words of font info for 88 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 24i,13n,21p,1068b,212s stack positions out of 5000i,500n,10000p,200000b,80000s
+<
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti8.pfb>
+Output written on input/src/0001/cond-mat0001227/cond-mat0001227.tmp.pdf (51 pa
+ges, 388322 bytes).
+PDF statistics:
+ 246 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

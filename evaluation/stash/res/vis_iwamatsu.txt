@@ -1,0 +1,2649 @@
+>>
+Delete|para
+|1 126 190 359 12|1 126 212 359 12|1 126 243 359 10|1 129 257 347 10|1 129 271 347 10|1 129 285 347 10|1 129 299 347 10|1 129 313 347 10|1 126 662 359 7
+arXiv:cond-mat/0001220v1 [cond-mat.stat-mech] 17 Jan 2000
+
+
+--
+
+>>
+Delete|word
+|1 126 365 359 7|1 141 383 12 7
+Masao Iwamatsu†
+--
+
+>>
+Delete|para
+|1 126 365 359 7|1 141 383 12 7
+Abstract
+A new Monte Carlo scheme based on the system of Tsallis’s generalized statistical mechanics is applied to a simple double well potential
+to calculate the canonical thermal average of potential energy. Although we observed serious quasi-ergodicity when using the standard
+Metropolis Monte Carlo algorithm, this problem is largely reduced by
+the use of the new Monte Carlo algorithm. Therefore the ergodicity is
+guaranteed even for short Monte Carlo steps if we use this new canonical Monte Carlo scheme.
+PACS: 02.70.Lq; 05.70.a
+Key words: Monte Carlo; Tsallis statistics; double well potential
+
+
+--
+
+>>
+Delete|para
+|1 153 383 304 7|1 153 395 28 7
+Permanent address. E-mail:iwamatsu@ce.hiroshima-cu.ac.jp
+
+
+--
+
+>>
+Delete|para
+|1 181 395 276 7
+1
+
+
+--
+
+>>
+Delete|para
+|1 153 407 304 7
+1
+
+
+--
+
+>>
+Split|word
+|2 126 334 257 8
+Recently several authors 
+--
+Recently several authors 
+>>
+Split|word
+|2 126 442 332 8
+In this short note we use a new Monte Carlo scheme 
+--
+In this short note we use a new Monte Carlo scheme 
+>>
+Delete|para
+|2 126 531 359 10
+2
+
+
+--
+
+>>
+Delete|para
+|2 267 600 217 16|2 300 607 41 7
+1 pqi
+q−1
+P
+
+
+--
+
+>>
+Delete|para
+|2 126 629 286 8
+(1)
+
+
+--
+
+>>
+Replace|word
+|2 306 642 178 8|2 126 656 81 8
+GibbsP
+
+--
+Gibbs-
+>>
+Replace|word
+|2 386 656 98 8|3 126 147 175 8
+gen2
+
+
+--
+generalized 
+>>
+Delete|word
+|2 126 691 359 7|3 229 174 256 14
+eralized 
+--
+
+>>
+Merge|word
+|2 386 656 98 8|3 126 147 175 8
+entropy with the constraints
+
+--
+entropy with the constraints
+
+
+>>
+Insert|word
+|3 126 196 269 8
+
+--
+where εi 
+>>
+Delete|para
+|3 395 196 90 8|3 126 209 194 8
+X
+
+
+--
+
+>>
+Delete|para
+|3 320 209 165 8|3 126 223 31 8
+pi 1 and
+
+
+--
+
+>>
+Delete|para
+|3 256 240 228 14
+pqi ǫi const
+
+
+--
+
+>>
+Delete|para
+|3 126 259 359 8
+(2)
+
+
+--
+
+>>
+Delete|word
+|3 306 261 75 7|3 253 265 39 5|3 229 272 255 5|3 253 281 39 8
+where ǫi 
+--
+
+>>
+Insert|para
+|3 126 259 359 8
+
+--
+with
+
+
+>>
+Delete|para
+|3 306 261 75 7|3 253 265 39 5|3 229 272 255 5|3 253 281 39 8
+h
+i
+q
+ln 1 (1 q)βǫi
+β(q 1)
+
+
+--
+
+>>
+Delete|para
+|3 126 300 184 10
+(4)
+
+
+--
+
+>>
+Delete|word
+|3 310 300 175 10|3 126 314 48 8
+where ǫi 
+--
+
+>>
+Split|word
+|3 126 407 99 10
+In the limit q 1, 
+--
+In the limit q 1, 
+>>
+Replace|word
+|3 398 421 86 8|3 126 434 196 8
+βǫi 
+--
+βεi) 
+>>
+Split|word
+|3 126 448 288 8|3 413 448 71 8
+In this generalized statistical mechanics, Andricioaei and Straub 
+--
+In this generalized statistical mechanics, Andricioaei and Straub 
+>>
+Delete|para
+|3 261 489 224 14
+X
+
+
+--
+
+>>
+Delete|para
+|3 126 511 245 8
+pqi Oi 
+--
+
+>>
+Delete|para
+|3 270 538 214 12
+(6)
+
+
+<AND>
+(7)
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|3 248 642 236 12
+3
+
+
+--
+
+>>
+Delete|para
+|4 250 171 234 8
+(9)
+
+
+--
+
+>>
+Delete|word
+|4 126 196 156 8
+where ∆ǫ 
+--
+
+>>
+Split|word
+|4 126 277 306 8
+Recently, Andricioaei and Straub 
+--
+Recently, Andricioaei and Straub 
+>>
+Delete|para
+|4 292 326 74 8|4 243 341 241 8
+(10)
+
+
+--
+
+>>
+Delete|para
+|4 126 364 253 8
+exp(βǫi 
+--
+
+>>
+Delete|para
+|4 239 394 246 15|4 344 401 9 5
+X
+
+
+--
+
+>>
+Delete|para
+|4 126 423 298 8
+fi 
+--
+
+>>
+Delete|para
+|4 424 423 61 8|4 126 437 59 8
+X fi 
+--
+
+>>
+Delete|para
+|4 126 471 113 22
+gi
+
+
+<AND>
+P
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|4 249 461 176 12|4 238 481 246 12|4 126 514 113 22
+gi
+
+
+<AND>
+Oi exp βǫi βǫi
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|4 249 503 126 12|4 238 524 246 12
+(11)
+
+
+<AND>
+P
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|4 126 550 249 8
+exp βǫi βǫi
+
+--
+
+>>
+Delete|para
+|4 375 550 110 8|4 126 564 182 8
+O exp βǫ βǫ
+
+--
+
+>>
+Delete|para
+|4 308 564 177 8|4 126 578 98 8
+exp βǫ βǫ
+
+
+--
+
+>>
+Delete|para
+|4 224 578 260 8|4 126 591 52 8
+exp −βǫi
+
+
+--
+
+>>
+Delete|para
+|4 267 606 124 12|4 218 627 266 14
+exp(βǫi 
+--
+
+>>
+Delete|para
+|4 126 648 283 8
+>q
+
+
+--
+
+>>
+Delete|para
+|4 409 648 76 8|4 126 661 171 8
+>q
+
+
+--
+
+>>
+Delete|para
+|4 297 661 188 8|5 126 147 25 10
+(12)
+
+
+--
+
+>>
+Delete|para
+|4 126 691 359 7|5 272 183 110 8|5 223 198 261 8
+exp β (ǫj ǫj 
+--
+
+>>
+Delete|para
+|5 150 147 235 10
+(13)
+
+
+--
+
+>>
+Delete|word
+|5 150 147 235 10
+(14) 
+--
+
+>>
+Merge|word
+|5 150 147 235 10
+is a generalized expression, and we may choose 
+--
+is a generalized expression, and we may choose 
+>>
+Delete|para
+|5 126 221 271 8
+(15)
+
+
+--
+
+>>
+Split|word
+|5 126 248 302 8|5 428 248 57 8|5 126 262 180 8
+We would like to point out here that a similar reweighting technique is
+used in the histogram method 
+--
+We would like to point out here that a similar reweighting technique is used in the histogram method 
+>>
+Delete|para
+|5 126 378 359 10
+3
+
+
+--
+
+>>
+Insert|para
+|5 126 480 359 8
+
+--
+where
+
+
+>>
+Delete|para
+|5 278 496 206 14|5 299 503 31 7
+1
+2α 1
+
+
+--
+
+>>
+Delete|para
+|5 126 520 265 8
+(16)
+
+
+--
+
+>>
+Delete|para
+|5 391 520 94 8|5 126 533 210 8
+(17)
+
+
+--
+
+>>
+Delete|para
+|5 221 612 264 23
+(18)
+
+
+--
+
+>>
+Merge|word
+|5 464 662 20 8|6 126 147 241 8|6 367 147 118 8|6 126 160 191 8|6 316 160 168 8|6 126 174 133 8
+the statistical weight pT of the Tsallis generalized statistical mechanics has
+a greater chance of crossing the barrier and, therefore, a greater possibility
+of avoiding quasi-ergodicity.
+
+--
+the statistical weight pT of the Tsallis generalized statistical mechanics has a greater chance of crossing the barrier and, therefore, a greater possibility of avoiding quasi-ergodicity.
+
+
+>>
+Split|word
+|5 126 691 359 7|6 126 187 338 8|6 464 187 20 8|6 126 201 359 8|6 126 214 289 9|6 415 214 69 9|6 126 228 155 8
+Alternatively this Tsallis’s statistical mechanics can be regarded as a
+search-space smoothing method which deforms the rugged potential landscape by a smoother one. In figure 2, we show the smoothed potential 
+--
+Alternatively this Tsallis's statistical mechanics can be regarded as a search-space smoothing method which deforms the rugged potential landscape by a smoother one. In figure 2, we show the smoothed potential 
+>>
+Delete|word
+|6 367 147 118 8|6 126 160 191 8
+5
+
+
+--
+
+>>
+Split|word
+|6 126 255 331 8|6 457 255 28 8|6 126 269 291 8|6 416 269 68 8|6 126 282 174 8
+We use this double well potential to look at the quasi-ergodicity of the
+standard as well as the generalized Monte Carlo scheme by examining the
+classical average potential energy 
+--
+We use this double well potential to look at the quasi-ergodicity of the standard as well as the generalized Monte Carlo scheme by examining the classical average potential energy 
+>>
+Delete|para
+|6 270 305 113 8|6 226 320 259 8
+R
+
+
+--
+
+>>
+Delete|para
+|6 126 342 308 8
+V (x) exp βV (x)dx
+R
+exp βV (x)dx
+
+
+--
+
+>>
+Delete|para
+|6 433 342 51 8|6 126 356 239 8
+(19)
+
+
+--
+
+>>
+Delete|para
+|6 126 412 159 15
+T (x |x) 
+--
+
+>>
+Delete|para
+|6 275 412 210 15|6 286 419 97 7|6 126 432 149 8
+(20)
+
+
+--
+
+>>
+Insert|word
+|6 126 456 282 8
+
+--
+Δ 
+>>
+Split|word
+|6 126 537 317 8|6 443 537 42 8|6 126 551 232 8|6 357 551 127 8|6 126 564 209 8|6 334 564 150 8|6 126 578 133 8|6 259 578 226 8|6 126 592 56 8
+Since the error caused by the quasi-ergodicity depends upon the walk
+initialization, we start the Monte Carlo walk at the global minimum x 1
+and at the metastable minimum x −α. If the walk starts at the global
+minimum, then the average potential V will be low if the walk is 
+--
+Since the error caused by the quasi-ergodicity depends upon the walk initialization, we start the Monte Carlo walk at the global minimum x 1 and at the metastable minimum x α. If the walk starts at the global minimum, then the average potential V will be low if the walk is 
+>>
+Replace|word
+|6 259 578 226 8|6 126 592 56 8
+quasiergodic, 
+--
+quasi-ergodic, 
+>>
+Split|word
+|6 126 646 337 8|6 462 646 22 8|6 126 659 271 8|6 397 659 87 8|7 126 147 184 8
+In figure 3, we show the average potential energy V calculated from
+(i) the standard Metropolis Monte Carlo and (ii∼iv) the generalized Tsallis
+
+--
+In figure 3, we show the average potential energy V calculated from (i) the standard Metropolis Monte Carlo and (ii~ iv) the generalized Tsallis 
+>>
+Merge|word
+|6 397 659 87 8|7 126 147 184 8|7 310 147 175 8|7 126 160 95 8|7 221 160 264 8
+Monte Carlo algorithm as a function of temperature β. Similar curves can be
+found in figure 2 of reference 
+--
+Monte Carlo algorithm as a function of temperature β. Similar curves can be found in figure 2 of reference 
+>>
+Delete|word
+|7 310 147 175 8|7 126 160 95 8
+6
+
+
+--
+
+>>
+Split|word
+|7 126 323 344 8|7 469 323 15 8|7 126 336 289 8
+In contrast to the results from the standard Metropolis algorithm, the
+results from the generalized Monte Carlo algorithm 
+--
+In contrast to the results from the standard Metropolis algorithm, the results from the generalized Monte Carlo algorithm 
+>>
+Split|word
+|7 126 540 304 8|7 430 540 55 8|7 126 553 214 8|7 340 553 145 8|7 126 567 136 8|7 262 567 222 8|7 126 580 83 8|7 209 580 275 8|7 126 594 230 8
+In order to overcome the quasi-ergodicity, the Monte Carlo walk has to
+pass many times through the energy barrier. Figure 4 compares the time series of the Monte Carlo walk generated by the standard Monte Carlo scheme
+(q 1) and that of the generalized Monte Carlo scheme. Similar diagrams
+can be found in reference 
+--
+In order to overcome the quasi-ergodicity, the Monte Carlo walk has to pass many times through the energy barrier. Figure 4 compares the time series of the Monte Carlo walk generated by the standard Monte Carlo scheme (q 1) and that of the generalized Monte Carlo scheme. Similar diagrams can be found in reference 
+>>
+Delete|word
+|7 126 691 359 7|8 126 160 312 8
+7
+
+
+--
+
+>>
+Merge|word
+|7 228 662 256 8|8 126 147 8 7
+1.
+
+--
+1.
+
+
+>>
+Split|word
+|7 126 691 359 7|8 126 160 312 8|8 438 160 46 8|8 126 174 239 8|8 365 174 119 8|8 126 187 92 8
+In figure 5, we show the average energy V as a function of the asymmetry parameter γ. Again a similar diagram can be found in reference 
+--
+In figure 5, we show the average energy V as a function of the asymmetry parameter γ. Again a similar diagram can be found in reference 
+>>
+Split|word
+|8 126 242 302 8|8 428 242 57 8|8 126 255 160 8|8 286 255 199 8|8 126 269 83 8|8 209 269 276 8|8 126 282 270 8|8 396 282 89 8|8 126 296 200 8|8 326 296 159 8|8 126 309 150 8|8 276 309 209 8|8 126 323 104 8|8 230 323 255 8|8 126 336 66 8|8 192 336 292 8|8 126 350 12 8|8 138 350 320 8|8 458 350 27 8|8 126 364 255 10|8 381 364 103 10|8 126 377 159 8
+In table 1 we showed the effect of quasi-ergodicity in the convergence
+when γ 0.9 and β 10 for both the standard Monte Carlo and the generalized Monte Carlo algorithms with q 1.5, each originating at the metastable
+α-minimum. We show the average energy V and the standard deviation
+(STD) obtained from 100 independently initialized walks. We found that
+the problem of quasi-ergodicity obtained with the standard Metropolis algorithm is still present, even if we increase the number of Monte Carol steps.
+On the other hand the result from the generalized Monte Carlo simulation
+is significantly improved by increasing the number of Monte Carlo steps,
+and ergodicity can be recovered. Furthermore, STD decreases as 
+--
+In table 1 we showed the effect of quasi-ergodicity in the convergence when γ 0.9 and β 10 for both the standard Monte Carlo and the generalized Monte Carlo algorithms with q 1.5, each originating at the metastable α-minimum. We show the average energy V and the standard deviation (STD) obtained from 100 independently initialized walks. We found that the problem of quasi-ergodicity obtained with the standard Metropolis algorithm is still present, even if we increase the number of Monte Carol steps. On the other hand the result from the generalized Monte Carlo simulation is significantly improved by increasing the number of Monte Carlo steps, and ergodicity can be recovered. Furthermore, STD decreases as 
+>>
+Split|word
+|8 126 418 295 8|8 421 418 64 8|8 126 431 219 8|8 344 431 140 8|8 126 445 142 8|8 268 445 217 8|8 126 458 35 8
+This convergence can be clearly visualized by plotting the visiting probability P (x) of the Monte Carlo walks, which should be given by the Boltzmann weight for the standard Monte Carlo scheme and by the Tsallis weight
+
+--
+This convergence can be clearly visualized by plotting the visiting probability P(x) of the Monte Carlo walks, which should be given by the Boltzmann weight for the standard Monte Carlo scheme and by the Tsallis weight 
+>>
+Split|word
+|8 126 553 315 8|8 441 553 43 8|8 126 567 269 8|8 395 567 90 8|8 126 580 217 8
+It is also interesting to discuss the convergence in the context of the ”generalized ergodic measure” of Thirumalai, Mountain, and Kirkpatrick 
+--
+It is also interesting to discuss the convergence in the context of the "generalized ergodic measure" of Thirumalai, Mountain, and Kirkpatrick 
+>>
+Insert|word
+|8 126 636 314 9
+
+--
+where Va(
+>>
+Delete|para
+|8 439 636 43 9|9 126 147 193 8
+dV (n) V a (n) V b (n)
+
+
+--
+
+>>
+Replace|word
+|8 126 636 314 9
+V b 
+--
+Vb(
+>>
+Merge|word
+|8 439 636 43 9|9 126 147 193 8|9 319 147 102 8
+along the trajectories a and b, which are defined from 
+--
+along the trajectories a and b, which are defined from 
+>>
+Delete|para
+|8 126 691 359 7|9 261 175 143 14|9 249 196 235 14
+a
+j=0 Vj exp
+
+
+--
+
+>>
+Delete|para
+|9 319 147 102 8
+(21)
+
+
+<AND>
+8
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 126 183 124 22
+where V a 
+<AND>
+Pn
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 126 218 248 8
+Pn
+
+
+--
+
+>>
+Delete|para
+|9 126 253 144 22
+j=0 exp
+
+
+<AND>
+Pn
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 281 246 103 14|9 270 264 215 11
+a
+
+
+<AND>
+a
+a
+j=0 Vj exp −βVj
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 126 284 191 8
+−β Vja V j
+
+<AND>
+Pn
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 317 284 168 8|9 126 298 125 8
+a
+
+
+<AND>
+j=0 1
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 250 298 234 8
+−β Vja V j
+
+
+--
+
+>>
+Delete|para
+|9 126 311 121 8
+(22)
+
+
+--
+
+>>
+Delete|para
+|9 258 339 227 14|9 328 346 23 7
+(23)
+
+
+<AND>
+1
+DV n
+
+
+--
+
+<AND>
+
+>>
+Delete|para
+|9 126 367 350 8
+(24)
+
+
+--
+
+>>
+Split|word
+|9 126 489 346 8|9 472 489 13 8|9 126 502 300 8|9 426 502 59 8|9 126 516 267 8|9 393 516 91 8|9 126 529 272 8
+Figure 8 shows the diffusion constant DV as a function of temperature β.
+The diffusion constant is a decreasing function of the inverse temperature
+β; it is more difficult to recover the ergodicity when the temperature is
+lowered. However, at lower temperatures β 20 with 
+--
+Figure 8 shows the diffusion constant DV as a function of temperature β. The diffusion constant is a decreasing function of the inverse temperature β; it is more difficult to recover the ergodicity when the temperature is lowered. However, at lower temperatures β 20 with 
+>>
+Replace|word
+|9 397 529 87 8|9 126 543 203 8
+β∆V 
+<AND>
+∆V 
+--
+βΔV 
+<AND>
+ΔV 
+>>
+Delete|word
+|9 291 557 194 8|9 126 570 155 8
+6= 
+--
+
+>>
+Split|word
+|9 126 624 337 8|9 462 624 22 8|9 126 638 328 8
+It is apparent from figure 8 that the diffusion constant DV obtained from
+the standard Monte Carlo algorithm obeys the usual activation form
+
+--
+It is apparent from figure 8 that the diffusion constant DV obtained from the standard Monte Carlo algorithm obeys the usual activation form
+
+
+>>
+Delete|para
+|9 262 662 222 8
+(25)
+
+
+--
+
+>>
+Split|word
+|10 126 234 307 8|10 433 234 52 8|10 126 248 230 8
+with the exponent η. This result is conceivable, based on the acceptance
+probability 
+--
+with the exponent η. This result is conceivable, based on the acceptance probability 
+>>
+Delete|para
+|10 126 273 135 9
+exp(β Ēb 
+--
+
+>>
+Delete|para
+|10 261 273 223 9|10 126 290 135 11
+[1 (1 q)βEb q/q−1)
+
+
+--
+
+>>
+Delete|para
+|10 261 290 223 11
+(27)
+
+
+--
+
+>>
+Delete|word
+|10 356 437 24 8
+6= 
+--
+
+>>
+Delete|para
+|10 126 471 359 10
+4
+
+
+--
+
+>>
+Delete|word
+|11 126 147 270 8
+10
+
+
+--
+
+>>
+Merge|word
+|11 126 147 270 8
+method 
+--
+method 
+>>
+Split|word
+|11 126 201 256 8|11 382 201 108 8|11 126 214 137 8
+Recently, a new formulation of the Tsallis statistics has been proposed 
+--
+Recently, a new formulation of the Tsallis statistics has been proposed 
+>>
+Split|word
+|11 126 320 331 8|11 457 320 28 8|11 126 333 289 8|11 415 333 70 8|11 126 347 248 8|11 374 347 110 8|11 126 360 178 8|11 304 360 181 8|11 126 374 120 8|11 246 374 239 8|11 126 387 359 8
+Authors are grateful to the reviewer for several useful comments which
+were incorporated into the final version of the manuscript. M. I. acknowledges support from the Hiroshima City University Grant for Special Academic Research. He is also grateful to the Department of Physics, Tokyo
+Metropolitan University, where this work was initiated, for its hospitality to
+him.
+
+
+--
+Authors are grateful to the reviewer for several useful comments which were incorporated into the final version of the manuscript. M. I. acknowledges support from the Hiroshima City University Grant for Special Academic Research. He is also grateful to the Department of Physics, Tokyo Metropolitan University, where this work was initiated, for its hospitality to him. 
+>>
+Delete|para
+|11 126 422 359 10
+References
+[1] J. P. Valleau and S. G. Whittington, in:Statistical Mechanics, edited
+by B. J. Berne (Plenum Press, New York, 1977)Ch. 4.
+[2] D. D. Frantz, D. L. Freeman and J. D. Doll, J. Chem. Phys. 93 (1990)
+2769.
+[3] T. J. P. Penna, Phys. Rev. E 51 (1995) R1.
+[4] C. Tsallis and D. A. Stariolo, Physica A 233 (1996) 395.
+[5] I. Andricioaei and J. E. Straub, Phys. Rev. E 53 (1996) R3055.
+[6] C. Tsallis, J. Stat. Phys. 52 (1988) 479.
+[7] S. Kirkpatrick, C. D. Gelatt, and M. P. Vecchi, Science 220 (1983) 671.
+[8] I. Andricioaei and J. E. Straub, Physica A 247 (1997) 553.
+[9] I. Andricioaei and J. E. Straub, J. Chem. Phys. 107 (1997) 9117.
+11
+
+
+--
+
+>>
+Delete|para
+|11 126 446 330 8
+[10] J. E. Straub and I. Andricioaei, Braz. J. Phys. 29 (1999) 179.
+[11] E. M. F. Curado and C. Tsallis, J. Phys. A 24 (1991) L69.
+[12] N. Metropolis, A. W. Rosenbluth, N. N. Rosenbluth, A. H. Teller and
+E. Teller, J. Chem. Phys. 21 (1953) 1087.
+[13] A. M. Ferrenberg and R. H. Swendsen, Phys. Rev. Lett. 61 (1988) 2635;
+R. H. Swendsen, J. S. Wang, and A. M. Ferrenberg, The Monte Carlo
+Methods in Condensed Matter Physics, edited by K. Binder (Springer
+Verlag, Berlin, 1992)pp. 75-91.
+[14] B. Berg and T. Neuhaus, Phys. Lett. B 267 (1991) 249.
+[15] M. P. Allen and D. J. Tildesley, Computer Simulation of Liquids
+(Clarendon Press, Oxford, 1987)pp.121-123.
+[16] D. Thirumalai, R. D. Mountain and T. R. Kirkpatrick, Phys. Rev. A
+39 (1989) 3563.
+[17] J. E. Straub and I. Andricioaei, ”Exploiting Tsallis statistics,in: Algorithms for Macromolecular Modeling, Edited by P. Deuflhard, J.
+Hermans, B. Leimkuhler, A. Mark, S. Reich and R. D. Skeel, Lecture Notes in Computational Science and Engineering (Springer Verlag
+Berlin, 1998)vol. 4, pp. 189-204.
+[18] S. Weerasinghe and F. G. Amar, J. Chem. Phys. 98 (1993) 4967.
+[19] C. Tsallis, R.S. Mendes, and A.R. Plastino, Physica A 261 (1998) 534.
+
+
+--
+
+>>
+Delete|para
+|11 455 446 29 8
+12
+
+
+--
+
+>>
+Delete|para
+|11 148 460 336 8|11 126 482 312 8
+3.5
+
+
+--
+
+>>
+Delete|para
+|11 438 482 46 8
+5
+
+
+--
+
+>>
+Delete|para
+|11 148 496 336 7|11 126 518 22 8
+p
+
+
+--
+
+>>
+Delete|para
+|11 148 518 336 8|11 126 541 22 8
+q=1.0 (Boltzmann)
+q=1.5 (Tsallis)
+q=2.5 (Tsallis)
+
+
+--
+
+>>
+Delete|para
+|11 148 541 336 8|11 126 563 290 8
+V(x)
+4
+
+
+--
+
+>>
+Delete|para
+|11 148 563 336 8|11 126 586 22 8
+B,T
+
+
+--
+
+>>
+Delete|para
+|11 148 586 336 8|11 126 608 284 8
+3
+
+
+--
+
+>>
+Delete|para
+|11 410 608 55 8
+2.5
+
+
+--
+
+>>
+Delete|para
+|11 465 608 19 8|11 126 631 22 8
+β=10
+3
+
+
+--
+
+>>
+Delete|para
+|11 148 631 336 8|11 126 653 307 8
+2
+
+
+--
+
+>>
+Delete|para
+|11 148 653 336 8|12 126 147 295 8
+V(x)
+1.5
+
+
+--
+
+>>
+Delete|para
+|11 126 691 359 7|12 148 169 336 8|12 126 192 341 8
+2
+
+
+--
+
+>>
+Delete|para
+|12 148 147 336 8|12 126 169 22 8
+γ=0.9
+
+
+--
+
+>>
+Delete|para
+|12 467 192 18 8
+1
+1
+0.5
+
+
+--
+
+>>
+Delete|para
+|12 148 205 336 8|12 126 228 285 8
+0
+
+
+--
+
+>>
+Delete|para
+|12 411 228 73 8|12 148 241 30 8
+0
+-2
+
+
+--
+
+>>
+Delete|para
+|12 178 241 306 8|12 148 255 58 8
+-1.5
+
+
+--
+
+>>
+Delete|para
+|12 206 255 92 8
+-1
+
+
+--
+
+>>
+Delete|para
+|12 298 255 186 8
+-0.5
+
+
+--
+
+>>
+Delete|para
+|12 148 268 336 8|12 126 291 22 8
+0
+
+
+--
+
+>>
+Delete|para
+|12 148 291 336 8|12 126 313 359 8
+0.5
+
+
+--
+
+>>
+Delete|para
+|12 148 327 336 8|12 126 350 325 8
+1
+
+
+--
+
+>>
+Delete|para
+|12 450 350 34 8
+1.5
+
+
+--
+
+>>
+Delete|para
+|12 148 363 336 8|12 126 386 272 8
+2
+
+
+--
+
+>>
+Delete|para
+|12 398 386 87 8|12 148 399 271 8
+x
+
+
+--
+
+>>
+Delete|para
+|12 419 399 65 8|12 148 413 336 8
+Figure 1: A classical double well potential (16) (thin solid curve)for γ 0.9,
+the Tsallis weight pT exp(βV (x)with q 1.5 (dotted curve)q 2.5
+(chain curve) and the Boltzmann weight pB exp(βV (x)Z1 (thick solid
+curve) both at temperature β 10. The Tsallis weights are renormalized.
+
+
+--
+
+>>
+Delete|para
+|12 148 426 336 8
+13
+
+
+--
+
+>>
+Delete|para
+|12 148 440 336 8|12 126 462 22 8
+2
+
+
+--
+
+>>
+Delete|para
+|12 148 462 336 8|12 126 485 283 8
+V(x)
+
+
+--
+
+>>
+Delete|para
+|12 409 485 56 8
+q=1.0
+q=1.5
+q=2.5
+
+
+--
+
+>>
+Delete|para
+|12 465 485 19 8
+1.5
+
+
+--
+
+>>
+Delete|para
+|12 126 691 359 7
+β=10
+
+
+--
+
+>>
+Delete|para
+|13 126 387 359 251
+1
+
+
+--
+
+>>
+Delete|para
+|13 126 411 359 8|13 126 424 359 9|13 126 438 359 8|13 126 451 359 8
+0.5
+
+
+--
+
+>>
+Delete|para
+|13 126 691 359 7
+0.04
+q=2.0
+0.02
+
+
+--
+
+>>
+Delete|para
+|14 126 501 359 272
+0
+-2
+
+
+--
+
+>>
+Delete|para
+|14 126 525 359 9|14 126 538 359 8|14 126 552 359 8|14 126 565 359 8
+-1.5
+
+
+--
+
+>>
+Delete|para
+|15 126 451 359 265
+-1
+
+
+--
+
+>>
+Delete|para
+|15 126 474 359 8|15 126 488 359 8|15 126 501 359 8|15 126 515 359 8|15 126 528 359 8|15 126 542 359 8|15 126 556 359 8|15 126 569 359 8|15 126 583 359 8|15 126 596 359 9|15 126 610 359 8
+-0.5
+
+
+--
+
+>>
+Delete|para
+|16 126 300 359 164
+0
+
+
+--
+
+>>
+Delete|para
+|16 126 476 359 164
+0.5
+
+
+--
+
+>>
+Delete|para
+|16 126 653 359 164
+1
+
+
+--
+
+>>
+Delete|para
+|16 126 676 359 8|16 126 703 359 8|16 126 717 359 8|16 126 730 359 8
+1.5
+
+
+--
+
+>>
+Delete|para
+|17 126 495 359 273
+2
+
+
+--
+
+>>
+Delete|para
+|17 126 519 359 8|17 126 532 359 8|17 126 546 359 8|17 126 559 359 8|17 126 573 359 8
+x
+Figure 2: A smoothed potential landscape V (x) when q 1.5 (dotted curve)
+and q 2.5 (chain curve) for γ 0.9 and β 10, compared with the original
+potential landscape V (x) (q 1, thin solid curve)The energy barrier is
+lowered by the smoothing defined by (3) of Tsallis’s statistical mechanics.
+
+
+--
+
+>>
+Delete|para
+|18 126 420 169 7
+14
+
+
+--
+
+>>
+Delete|para
+|18 313 420 169 7
+0.16
+x0 0.9613
+
+
+--
+
+>>
+Delete|para
+|18 126 321 359 104|18 126 439 359 8|18 126 453 359 8|18 126 466 359 8|18 126 480 359 8|18 126 493 359 8|18 126 507 359 8|18 126 521 359 9
+0.14
+
+
+--
+
+>>
+Delete|para
+|19 126 486 359 268
+x =1.0000
+0
+
+
+--
+
+>>
+Delete|para
+|19 126 509 359 8|19 126 523 359 8|19 126 536 359 8|19 126 550 359 8|19 126 564 359 8|19 126 577 359 8
+0.12
+
+
+--
+
+>>
+Delete|para
+|20 126 430 169 7
+<V>
+
+
+--
+
+>>
+Delete|para
+|20 313 430 169 7
+q=1.0
+0.1
+
+
+--
+
+>>
+Delete|para
+|20 126 328 359 108|20 126 450 359 8|20 126 463 359 8|20 126 477 359 8|20 126 490 359 8|20 126 504 359 8|20 126 517 359 8
+0.08
+q=1.5
+0.06
+
+
+--
+
+>>
+Delete|para
+|21 126 325 359 8|21 126 339 359 8|21 126 352 359 8|21 126 366 359 8
+q=1.5
+
+
+--
+
+>>
+Delete|para
+|21 126 445 206 9
+q=1.0
+
+
+--
+
+>>
+Delete|para
+|21 332 445 107 9|21 126 458 206 9
+q=2.5
+
+
+--
+
+>>
+Delete|para
+|21 332 458 107 9|21 126 472 206 9
+0
+0
+
+
+--
+
+>>
+Delete|para
+|21 332 472 107 9|21 126 485 227 9
+10
+
+
+--
+
+>>
+Delete|para
+|21 353 485 85 9
+20
+
+
+--
+
+>>
+Delete|para
+|21 126 438 359 58
+30
+
+
+<AND>
+40
+
+
+<AND>
+50
+
+
+<AND>
+60
+
+
+<AND>
+β
+
+
+<AND>
+Figure 3: The classical average potential energy V for the γ 0.9
+potential as a function of β. The thin solid curves are initialized at the
+metastable α-minimum x0 −0.9613 with the standard Monte Carlo algorithm with the parameter q 1 and the generalized Monte Carlo algorithm
+with q 1.5, q 2.0 and q 2.5. The exact result is represented by the
+thick solid curve. The results initialized at the global minimum x0 1
+and calculated from the Metropolis algorithm with q 1 and that from the
+generalized Monte Carlo algorithm with q 1.5 are shown by the dotted
+curve. All results are obtained from 100 independently initialized Monte
+Carlo walks, each consisting of 500 warm-up steps followed by 104 steps
+with data accumulation. Some representative error bars are also shown.
+
+
+<AND>
+15
+
+
+<AND>
+2
+
+
+<AND>
+(a)
+
+
+<AND>
+1.5
+
+
+<AND>
+q=1.0
+
+
+<AND>
+1
+
+
+<AND>
+x
+
+
+<AND>
+0.5
+0
+-0.5
+-1
+-1.5
+-2
+0
+
+
+<AND>
+2000
+
+
+<AND>
+4000
+
+
+<AND>
+6000
+
+
+<AND>
+8000
+
+
+<AND>
+1 10
+
+
+<AND>
+4
+
+
+<AND>
+1 10
+
+
+<AND>
+4
+
+
+<AND>
+1 10
+
+
+<AND>
+4
+
+
+<AND>
+MC steps
+2
+
+
+<AND>
+(b)
+
+
+<AND>
+1.5
+1
+
+
+<AND>
+x
+
+
+<AND>
+0.5
+0
+-0.5
+-1
+
+
+<AND>
+q=1.5
+
+
+<AND>
+-1.5
+-2
+0
+
+
+<AND>
+2000
+
+
+<AND>
+4000
+
+
+<AND>
+6000
+
+
+<AND>
+8000
+
+
+<AND>
+MC steps
+2
+
+
+<AND>
+(c)
+
+
+<AND>
+1.5
+1
+
+
+<AND>
+x
+
+
+<AND>
+0.5
+0
+-0.5
+-1
+
+
+<AND>
+q=2.5
+
+
+<AND>
+-1.5
+-2
+0
+
+
+<AND>
+2000
+
+
+<AND>
+4000
+
+
+<AND>
+6000
+
+
+<AND>
+8000
+
+
+<AND>
+MC steps
+
+
+<AND>
+Figure 4:
+Time series of the Monte Carlo walks generated by (a) the
+standard Monte Calro (q 1)(b) the16Tsallis Monte Carlo with q 1.5, and
+(c) q 2.5 when β 10 and γ 0.9. All walks start from the metastable αminimum, and 500 warm up steps are also included. The number of barrier
+crossing is greater for larger q.
+
+
+<AND>
+0.2
+
+
+<AND>
+x 0.9613
+0
+x =1.0000
+0
+
+
+<AND>
+0.15
+
+
+<AND>
+β=10
+
+
+<AND>
+q=1.0
+
+
+<AND>
+<V>
+
+
+<AND>
+q=1.5
+
+
+<AND>
+0.1
+
+
+<AND>
+0.05
+
+
+<AND>
+q=1.0
+q=1.5
+
+
+<AND>
+0
+0
+
+
+<AND>
+0.2
+
+
+<AND>
+0.4
+
+
+<AND>
+0.6
+
+
+<AND>
+0.8
+
+
+<AND>
+1
+
+
+<AND>
+γ
+
+
+<AND>
+Figure 5: The average potential energy V for the temperature β 10
+as a function of the asymmetry parameter γ of the double well potential.
+The solid and dotted curves are used the same as in figure 3. We only show
+the result and some representative error bars for the cases q 1 and q 1.5
+of figure 3.
+
+
+<AND>
+17
+
+
+<AND>
+3
+
+
+<AND>
+3.5
+
+
+<AND>
+(a)
+
+
+<AND>
+(b)
+
+
+<AND>
+Boltzmann
+
+
+<AND>
+P(x)
+
+
+<AND>
+P(x)
+
+
+<AND>
+2
+
+
+<AND>
+10 steps
+4
+10 steps
+6
+10 steps
+
+
+<AND>
+3
+
+
+<AND>
+Tsallis(q=1.5)
+2
+10 steps
+
+
+<AND>
+2.5
+
+
+<AND>
+4
+
+
+<AND>
+10 steps
+106 steps
+
+
+<AND>
+2.5
+2
+
+
+<AND>
+β=10
+
+
+<AND>
+β=10
+
+
+<AND>
+2
+
+
+<AND>
+1.5
+1.5
+1
+1
+
+
+<AND>
+0.5
+
+
+<AND>
+0.5
+
+
+<AND>
+0
+
+
+<AND>
+0
+-2
+
+
+<AND>
+-1.5
+
+
+<AND>
+-1
+
+
+<AND>
+-0.5
+
+
+<AND>
+0
+
+
+<AND>
+0.5
+
+
+<AND>
+1
+
+
+<AND>
+1.5
+
+
+<AND>
+-2
+
+
+<AND>
+2
+
+
+<AND>
+-1.5
+
+
+<AND>
+-1
+
+
+<AND>
+-0.5
+
+
+<AND>
+0
+
+
+<AND>
+0.5
+
+
+<AND>
+1
+
+
+<AND>
+1.5
+
+
+<AND>
+2
+
+
+<AND>
+x
+
+
+<AND>
+x
+
+
+<AND>
+Figure 6: The Visiting probabilities P (x) obtained from (a) the standard
+Monte Carlo walk compared with the Boltzmann weight, and (b) the generalized Monte Carlo walks compared with the Tsallis weight (c.f. figure 1)Probability distribution P (x) generated from the generalized Monte Carlo
+scheme can recovers the equilibrium Tsallis weight within short Monte Carlo
+steps (a)while it cannot recover the equilibrium Boltzmann weight until
+rather long 106 Monte Carlo steps are executed (b)
+<AND>
+18
+
+
+<AND>
+4000
+
+
+<AND>
+β=10
+
+
+<AND>
+3500
+
+
+<AND>
+3000
+
+
+<AND>
+q=2.5
+
+
+<AND>
+V
+
+
+<AND>
+V
+
+
+<AND>
+d (0)d (n)
+
+
+<AND>
+2500
+
+
+<AND>
+2000
+q=1.5
+1500
+
+
+<AND>
+1000
+
+
+<AND>
+500
+q=1.0
+0
+0
+
+
+<AND>
+2 10
+
+
+<AND>
+5
+
+
+<AND>
+4 10
+
+
+<AND>
+5
+
+
+<AND>
+6 10
+
+
+<AND>
+5
+
+
+<AND>
+8 10
+
+
+<AND>
+5
+
+
+<AND>
+1 10
+
+
+<AND>
+6
+
+
+<AND>
+MC steps
+
+
+<AND>
+Figure 7: The normalized inverse of the generalized ergodic measure
+dV (0)dV (n) as a function of the number of Monte Carlo steps n calculated for γ 0.9 potential at β 10 using the standard Monte Carlo scheme
+(q 1) and the generalized Monte Carlo scheme (q 1.5, 2.5)dV (0)dV (n)
+grows linearly with the Monte Carlo steps n and the diffusion is faster for
+larger q.
+
+
+<AND>
+19
+
+
+<AND>
+0.01
+
+
+<AND>
+0.01
+
+
+<AND>
+0.001
+0.005
+q=2.5
+
+
+<AND>
+0.0001
+
+
+<AND>
+DV
+
+
+<AND>
+D
+
+
+<AND>
+q=1.0
+
+
+<AND>
+10-5
+
+
+<AND>
+V
+
+
+<AND>
+q=1.5
+
+
+<AND>
+10-6
+0.001
+
+
+<AND>
+10
+
+
+<AND>
+-7
+
+
+<AND>
+10
+
+
+<AND>
+-8
+
+
+<AND>
+0.0005
+
+
+<AND>
+6
+
+
+<AND>
+8
+
+
+<AND>
+10
+
+
+<AND>
+12
+
+
+<AND>
+14
+
+
+<AND>
+5
+
+
+<AND>
+16
+
+
+<AND>
+6
+
+
+<AND>
+7
+
+
+<AND>
+8
+
+
+<AND>
+9
+
+
+<AND>
+10
+
+
+<AND>
+20
+
+
+<AND>
+β
+
+
+<AND>
+β
+
+
+<AND>
+Figure 8: The diffusion constant DV as a function of temperature β. (a) A
+straight line of the semi-log plot of DV vs β for the standard Monte Carlo
+scheme indicates activation-type diffusion, while (b) straight lines of the loglog plot for the Tsallis Monte Carlo scheme in the high temperature region
+indicate slow power-law decrease of the diffusion constant as the temperature
+is lowered (larger β)
+<AND>
+20
+
+
+<AND>
+Table 1: The convergence of the Metropolis and the generalized Tsallis
+Monte Carlo algorithms at β 10. The average energy V the standard
+deviation (STD) obtained from 100 independently initialized walks, each
+originating at the metastable α-minimum.
+steps
+102
+103
+104
+105
+106
+Exact
+
+
+<AND>
+Metropolis Monte Carlo
+V (STD)
+0.1500 (0.0177)
+0.1520 (0.0049)
+0.1475 (0.0192)
+0.1052 (0.0320)
+0.0805 (0.0124)
+0.0799
+
+
+<AND>
+Tsallis Monte Carlo (q 1.5)
+V (STD)
+0.1065 (0.0518)
+0.0937 (0.0394)
+0.0798 (0.0162)
+0.0798 (0.0049)
+0.0800 (0.0017)
+0.0799
+
+
+<AND>
+21
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+

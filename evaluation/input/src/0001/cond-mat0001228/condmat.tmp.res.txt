@@ -1,0 +1,2486 @@
+>>
+Delete|para
+|1 54 149 69 15
+arXiv:cond-mat/0001228v1 [cond-mat.mtrl-sci] 17 Jan 2000
+
+
+--
+
+>>
+Delete|para
+|1 123 149 333 15
+Yves-Patrick Pellegrini∗
+Service de Physique de la Matière Condensée,
+Commissariat à l’Energie Atomique,
+BP12, 91680 Bruyères-le-Châtel, France.
+(Last modified: November 18, 1999. Printed: February 1, 2008)
+An effective-medium theory is proposed for random weakly nonlinear dielectric media. It is
+based on a new gaussian approximation for the probability distributions of the electric field in each
+component of a multi-phase composite. These distributions are computed to linear order from a
+Bruggeman-like self-consistent formula. The resulting effective-medium formula for the nonlinear
+medium reduces to Bruggeman’s in the linear case. It is exact up to second order in a weakdisorder expansion, and close to the exact result in the dilute limit (in particular, it is exact for
+d 1 and d In a high contrast situation, the noise exponents are κ κ′ 0 near the
+percolation threshold. Numerical results are provided for different weak nonlinearities. The use of
+the Bruggeman formula as a starting point for nonlinear homogeneization theories in dimensions
+d 2 is questioned on the basis of known exact bounds on the noise exponents.
+
+
+--
+
+>>
+Delete|para
+|1 456 149 106 15|1 54 160 294 6
+PACS numbers: 77.84.Lf, 77.84.s, 77.20.Ht, 05.40.a
+
+
+--
+
+>>
+Delete|word
+|1 348 160 214 6|1 54 171 173 6
+I. 
+--
+
+>>
+Split|word
+|1 54 394 341 8
+A convenient approach to the homogeneization problem is the “energetic” 
+--
+A convenient approach to the homogeneization problem is the "energetic" 
+>>
+Delete|para
+|1 54 438 508 8
+(1)
+
+
+--
+
+>>
+Replace|word
+|1 135 483 103 7
+h·iα 
+--
+〉α, 
+>>
+Split|word
+|1 54 626 289 7|1 343 626 219 7|1 54 637 64 7|1 118 637 291 7|1 409 637 153 7|1 54 649 130 7|1 184 649 286 7|1 470 649 92 7|1 54 660 178 7|1 232 660 254 7|1 487 660 75 7|2 54 62 182 7
+The purpose of this paper is to present a means to overcome this approximation, starting from the following remark:
+actually, with an additional hypothesis of ergodicity per phase, a volume phase average can be reinterpreted as an
+average over some probability distribution for the electric field in the phase under consideration. In this paper, volume
+averages will henceforth be identified to statistical averages. Then, the problem of computing W Equ. 
+--
+The purpose of this paper is to present a means to overcome this approximation, starting from the following remark: actually, with an additional hypothesis of ergodicity per phase, a volume phase average can be reinterpreted as an average over some probability distribution for the electric field in the phase under consideration. In this paper, volume averages will henceforth be identified to statistical averages. Then, the problem of computing W, Equ. 
+>>
+Merge|word
+|1 487 660 75 7|2 54 62 182 7|2 236 62 241 7|2 478 62 84 7|2 54 73 119 7
+to computing the probability distribution Pα of the field in each phase, by means of which the phase averages 
+--
+to computing the probability distribution Pα of the field in each phase, by means of which the phase averages 
+>>
+Delete|para
+|2 236 62 241 7
+e-mail: pellegri@bruyeres.cea.fr
+
+
+--
+
+>>
+Delete|para
+|2 478 62 84 7|2 54 73 119 7
+1
+
+
+--
+
+>>
+Replace|word
+|2 478 62 84 7|2 54 73 119 7
+h·iα
+
+--
+〉α 
+>>
+Split|word
+|2 54 85 230 7
+Note that the full probability distribution 
+--
+Note that the full probability distribution 
+>>
+Split|word
+|2 54 275 270 7|2 324 275 238 7|2 54 287 45 7|2 99 287 284 7|2 384 287 179 7|2 54 298 34 8|2 88 298 278 8|2 365 298 197 8|2 54 310 28 7
+Still, in parallel with the second moment of the field, the first moment in each phase (the average field) can be
+computed as well from any linear effective-medium theory, without requiring any a priori knowledge about Pα Widely
+used in mechanics of random continuous media in the framework of the so-called “thermoelastic problem”
+--
+Still, in parallel with the second moment of the field, the first moment in each phase (the average field) can be computed as well from any linear effective-medium theory, without requiring any a priori knowledge about Pα. Widely used in mechanics of random continuous media in the framework of the so-called "thermoelastic problem" 
+>>
+Split|word
+|2 54 367 316 7|2 370 367 192 7|2 54 378 66 8
+The scope of the paper is limited however to WNL media, for which it is sufficient to compute the field distribution
+to linear order 
+--
+The scope of the paper is limited however to WNL media, for which it is sufficient to compute the field distribution to linear order 
+>>
+Delete|word
+|2 54 412 508 6
+II. 
+--
+
+>>
+Insert|para
+|2 54 490 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|2 54 521 508 20
+(5)
+
+
+--
+
+>>
+Delete|para
+|2 54 539 264 8
+where
+wxlin (E) 
+--
+
+>>
+Delete|para
+|2 318 542 244 11
+1 2
+εE
+2
+
+
+--
+
+>>
+Delete|para
+|2 54 551 281 7
+(6)
+
+
+--
+
+>>
+Delete|para
+|2 54 584 508 21
+∂wx (E)
+∂Ei
+
+
+--
+
+>>
+Delete|para
+|2 54 603 327 7
+(7)
+
+
+--
+
+>>
+Insert|para
+|2 54 656 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|2 54 680 179 13
+(8)
+
+
+--
+
+>>
+Delete|para
+|2 233 680 52 13
+where
+1X
+pα εα hE 2 iα 2 α
+X
+Wnl (E 0 pα hwαnl (E)iα 
+--
+
+>>
+Delete|para
+|2 286 680 276 13|2 287 687 5 6|2 295 691 14 3|2 54 707 179 10
+Wlin (E 0 
+--
+
+>>
+Delete|para
+|2 233 707 52 10
+α
+
+
+--
+
+>>
+Delete|para
+|2 286 709 276 13|2 286 718 14 3
+2
+
+
+--
+
+>>
+Delete|para
+|2 54 745 508 6|3 54 99 508 24
+Di0 
+--
+
+>>
+Delete|para
+|3 54 62 286 7
+(9)
+(10)
+
+
+--
+
+>>
+Delete|para
+|3 54 121 237 11
+(11)
+
+
+--
+
+>>
+Delete|para
+|3 54 142 243 8
+1
+Ei εij Ej Pi Ei 2
+
+
+--
+
+>>
+Delete|para
+|3 54 175 508 20
+(12)
+
+
+--
+
+>>
+Delete|word
+|3 54 196 99 10
+α
+
+--
+
+>>
+Replace|word
+|3 54 196 99 10
+εα
+ij 
+<AND>
+Pi 
+--
+εαij 
+<AND>
+Pαi 
+>>
+Replace|word
+|3 414 193 148 7|3 54 205 114 7
+εij Ej 
+--
+εijEj 
+>>
+Delete|para
+|3 54 247 283 7
+(13)
+
+
+--
+
+>>
+Delete|para
+|3 54 278 172 17
+1 W̃lin 
+hEi iα α
+
+
+--
+
+>>
+Delete|para
+|3 226 281 52 20
+p ∂Piα  εij =εδij
+
+
+--
+
+>>
+Delete|para
+|3 278 278 284 17|3 284 282 5 3|3 279 287 73 3|3 326 294 28 3|3 54 317 172 17
+(14a)
+
+
+--
+
+>>
+Delete|para
+|3 226 317 52 17|3 258 321 5 3
+P =0
+
+
+--
+
+>>
+Delete|para
+|3 278 317 284 17|3 284 321 5 3|3 279 326 73 3|3 326 333 28 3
+hEi Ej iα
+
+ 
+--
+
+>>
+Delete|para
+|3 54 353 3 7
+i
+2 W̃lin 
+α
+
+
+--
+
+>>
+Delete|para
+|3 57 353 290 7
+p ∂εα
+ij  εij =εδij
+
+
+--
+
+>>
+Delete|para
+|3 348 355 79 10
+(14b)
+
+
+--
+
+>>
+Delete|para
+|3 426 353 136 7|3 54 367 32 9
+Pi =0
+
+
+--
+
+>>
+Delete|word
+|3 86 369 121 12
+α
+α
+
+--
+
+>>
+Replace|para
+|3 348 355 79 10|3 426 353 136 7|3 54 367 32 9
+εα
+ij ε δij where ε 
+--
+εαij εαδij where εα 
+>>
+Delete|para
+|3 54 401 508 20
+hE 2 iα 
+--
+
+>>
+Delete|para
+|3 54 421 235 7
+2 ∂Wlin
+pα ∂εα
+
+
+--
+
+>>
+Delete|para
+|3 289 421 273 7|3 54 433 43 8
+(15)
+
+
+--
+
+>>
+Delete|para
+|3 97 433 270 8
+Both (14a) and (14b) 
+--
+
+>>
+Replace|word
+|3 82 444 122 7
+hDi 
+--
+〈DiEi〉 〈Di〉
+>>
+Delete|para
+|3 203 444 271 7
+i hDi ihEi i 
+--
+
+>>
+Split|word
+|3 54 467 53 7
+Let us set
+
+--
+Let us set
+
+
+>>
+Delete|para
+|3 54 491 215 10
+(16)
+(17)
+
+
+--
+
+>>
+Delete|para
+|3 269 491 293 10|3 54 505 215 10
+α
+α
+(δij Êi0 Êj0 
+--
+
+>>
+Replace|para
+|3 343 530 214 12
+Êi0 Ei0 /E 0
+with Miα M α Êi0 and Cij
+Ckα Êi0 Êj0 +C⊥
+
+--
+Ê0i E0i E0 
+>>
+Delete|para
+|3 54 575 508 23
+1
+
+
+--
+
+>>
+Delete|para
+|3 54 596 226 7
+1
+
+
+--
+
+>>
+Delete|para
+|3 54 607 285 7
+1/2
+
+
+--
+
+>>
+Delete|para
+|3 339 610 47 10
+2π)d det(C α 
+--
+
+>>
+Delete|para
+|3 386 607 177 7|3 419 611 5 3
+α
+
+
+--
+
+>>
+Delete|para
+|3 54 621 263 9
+e− 2 (Ei −Mi
+
+
+--
+
+>>
+Delete|para
+|3 317 621 174 9
+α
+)C α−1
+ij (Ej −Mj 
+--
+
+>>
+Delete|para
+|3 491 621 71 9|3 54 632 200 8
+(18)
+
+
+--
+
+>>
+Split|word
+|3 54 607 285 7
+There remains to compute an approximation for the quantities 
+--
+There remains to compute an approximation for the quantities 
+>>
+Replace|word
+|3 491 621 71 9|3 54 632 200 8
+selfconsistent 
+--
+self-consistent 
+>>
+Delete|para
+|3 54 670 508 13|3 316 677 5 6
+1
+2
+ε0 E 0 2
+
+
+--
+
+>>
+Delete|para
+|3 54 696 184 8
+(19)
+
+
+--
+
+>>
+Delete|para
+|3 54 745 508 6|4 274 200 288 20
+(20)
+02
+
+
+--
+
+>>
+Insert|para
+|4 54 116 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|4 54 142 220 15
+3
+
+
+--
+
+>>
+Delete|para
+|4 274 149 288 22|4 54 166 220 11
+M α µα E 0 
+--
+
+>>
+Delete|para
+|4 274 173 288 18|4 54 193 220 14
+hEi Ej iα zµα 2 Ei0 Ej0 
+--
+
+>>
+Delete|para
+|4 54 221 211 7
+E
+1 yhµ2 i δij d+2
+
+
+--
+
+>>
+Delete|para
+|4 265 221 112 7
+(21)
+
+
+--
+
+>>
+Delete|para
+|4 376 221 93 7
+where
+dε0
+εα (d 1)ε0
+ε0
+y= 2 hµ εi
+d+2
+z=
+dhµ2 i 2/y
+
+
+--
+
+>>
+Delete|para
+|4 469 221 93 7|4 54 233 78 8
+µα 
+--
+
+>>
+Delete|para
+|4 132 233 82 8
+(22)
+(23)
+(24)
+
+
+--
+
+>>
+Replace|word
+|4 265 221 112 7
+hµi 
+--
+〈μ〉 
+>>
+Replace|para
+|4 265 221 112 7
+hµεi hµiε0 
+--
+〈με〉 〈μ〉ε0 
+>>
+Delete|word
+|4 132 233 82 8
+α
+
+--
+
+>>
+Replace|para
+|4 469 221 93 7|4 54 233 78 8|4 132 233 82 8|4 214 233 103 8
+hεEi ε0 hEi; (ii) hεE 2 i ε0 hEi2 where hEi E 0 
+--
+〈εE〉 ε0〈E〉(ii) 〈εE2〉 ε0〈E〉2, where 〈E〉 E0, 
+>>
+Split|word
+|4 54 257 260 8
+In Fig. 1 are displayed curves for the probability density 
+--
+In Fig. 1 are displayed curves for the probability density 
+>>
+Delete|para
+|4 54 329 508 29
+Pk (Ek /E E
+
+
+--
+
+>>
+Delete|para
+|4 54 349 216 7
+0
+
+
+--
+
+>>
+Delete|para
+|4 270 349 68 7
+Z
+
+
+--
+
+>>
+Delete|para
+|4 338 349 224 7|4 54 362 40 8
+d−1
+
+
+--
+
+>>
+Delete|para
+|4 94 362 188 8
+d
+
+
+--
+
+>>
+Delete|para
+|4 282 362 207 8
+E⊥ P(E) E
+
+
+--
+
+>>
+Delete|para
+|4 489 362 73 8|4 54 373 202 7
+0
+
+
+--
+
+>>
+Delete|para
+|4 256 373 153 7
+X
+α
+
+
+--
+
+>>
+Delete|para
+|4 54 385 268 7
+21
+1
+pα
+e
+α
+1/2
+(2πCk 
+--
+
+>>
+Delete|para
+|4 322 385 240 7
+(Ek −M α )2
+Cα
+k
+
+
+--
+
+>>
+Delete|para
+|4 54 396 251 8
+(25)
+
+
+--
+
+>>
+Delete|word
+|4 54 436 508 27
+where E⊥ 
+--
+
+>>
+Split|word
+|4 54 385 268 7|4 322 385 240 7
+Under the same conditions, Fig. 2 displays the probability density of the scaled modulus of the transverse electric
+field, 
+--
+Under the same conditions, Fig. 2 displays the probability density of the scaled modulus of the transverse electric field, 
+>>
+Delete|para
+|4 54 436 508 27
+d−1
+
+
+--
+
+>>
+Delete|para
+|4 54 459 198 9
+Z
+
+
+--
+
+>>
+Delete|para
+|4 252 459 239 9
+dEk dΩE⊥ P(E) E 0
+
+
+--
+
+>>
+Delete|para
+|4 491 459 71 9|4 54 470 181 7
+X
+α
+
+
+--
+
+>>
+Delete|para
+|4 235 470 108 7
+pα
+
+
+--
+
+>>
+Delete|para
+|4 343 470 219 7|4 54 481 508 7
+Sd−1
+α d−1)2
+(2πC⊥
+
+
+--
+
+>>
+Delete|para
+|4 54 493 183 8
+E⊥
+E0
+
+
+--
+
+>>
+Delete|para
+|4 237 493 131 8
+d−2
+
+
+--
+
+>>
+Delete|para
+|4 367 493 195 8|4 54 504 53 7
+e
+
+
+--
+
+>>
+Delete|para
+|4 107 504 289 7
+12
+
+
+--
+
+>>
+Delete|para
+|4 396 504 167 7|4 54 516 48 8
+2
+E⊥
+Cα
+
+--
+
+>>
+Delete|para
+|4 102 516 270 8
+(26)
+
+
+--
+
+>>
+Replace|word
+|4 54 459 198 9
+2π d/
+--
+2πd 
+>>
+Split|word
+|4 54 493 183 8
+Fig. 3 displays 
+--
+Fig. 3 displays 
+>>
+Split|word
+|4 54 665 266 7|4 320 665 242 7|4 54 676 294 7|4 348 676 165 7
+With these results in hand, analytical investigations of the theory can be carried out in some limiting cases, as well
+as numerical ones in more complicated situations. The next section examines particular WNL potentials.
+
+
+--
+With these results in hand, analytical investigations of the theory can be carried out in some limiting cases, as well as numerical ones in more complicated situations. The next section examines particular WNL potentials.
+
+
+>>
+Delete|para
+|4 54 745 508 6|5 54 113 508 13|5 276 120 42 6
+1 2 1
+εE χE 4 O(E 6 2
+4
+
+
+--
+
+>>
+Delete|para
+|5 54 62 508 6
+4
+
+
+--
+
+>>
+Delete|word
+|5 54 88 258 7
+III. 
+--
+
+>>
+Delete|para
+|5 54 139 314 8
+(27)
+
+
+--
+
+>>
+Replace|word
+|5 54 139 314 8
+E 4 
+--
+E4 
+>>
+Delete|para
+|5 54 171 508 9
+(28)
+
+
+--
+
+>>
+Delete|word
+|5 54 226 508 6
+A. 
+--
+
+>>
+Delete|para
+|5 54 277 508 13|5 267 284 51 6
+1 0 02 1 0 04
+4
+ε E χ E O(E 0 2
+4
+
+
+--
+
+>>
+Delete|para
+|5 54 303 178 8
+(29)
+
+
+--
+
+>>
+Delete|para
+|5 54 326 508 11|5 306 337 14 3
+χ0 hχE 4 i/E 0 
+--
+
+>>
+Delete|para
+|5 54 357 229 8
+X
+
+
+--
+
+>>
+Delete|para
+|5 283 357 279 8
+4
+
+
+--
+
+>>
+Delete|para
+|5 54 368 325 8
+pα χα hE 4 iα /E 0 
+--
+
+>>
+Delete|para
+|5 379 371 152 11
+(30)
+
+
+--
+
+>>
+Delete|para
+|5 54 390 508 8
+α
+
+
+<AND>
+(31)
+
+
+--
+
+<AND>
+
+>>
+Replace|para
+|5 54 357 229 8
+hE 4 iα 
+--
+〈E4〉α 
+>>
+Replace|para
+|5 379 371 152 11
+Miα hAi Ai Aj Aj iα hAi Ai iα hAj Aj iα 2hAi Aj iα hAi Aj iα 
+--
+Mαi,
+
+
+>>
+Delete|para
+|5 54 514 508 9
+(32)
+
+
+--
+
+>>
+Delete|para
+|5 54 535 282 7
+(33)
+
+
+--
+
+>>
+Replace|word
+|5 542 535 20 7|5 54 546 193 7
+µ 
+--
+μ 
+>>
+Delete|word
+|5 54 580 508 6
+B. 
+--
+
+>>
+Replace|word
+|5 301 628 202 9
+hwx 
+--
+〈wx(
+>>
+Delete|word
+|5 502 628 60 9|5 54 642 221 10
+i. 
+--
+
+>>
+Delete|word
+|5 275 642 188 10
+(1)
+
+--
+
+>>
+Replace|para
+|5 275 642 188 10
+wx 
+--
+w(1)x(
+>>
+Delete|para
+|5 54 667 508 12
+(34)
+
+
+--
+
+>>
+Delete|para
+|5 54 689 383 10
+(1)
+
+
+--
+
+>>
+Replace|para
+|5 54 667 508 12||5 54 689 383 10
+hwx 
+--
+〈w(1)x(
+>>
+Delete|word
+|5 54 712 508 9
+i 
+--
+
+>>
+Delete|para
+|5 54 745 508 6|6 265 180 297 7
+(36)
+
+
+--
+
+>>
+Insert|para
+|6 54 115 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|6 54 141 141 16
+(35)
+
+
+--
+
+>>
+Delete|para
+|6 195 141 70 16
+Then15 1 nk
+W (E hw(E )i 2 εk
+0
+
+
+--
+
+>>
+Delete|para
+|6 265 150 297 24|6 54 166 211 9
+0
+
+
+--
+
+>>
+Delete|para
+|6 265 168 297 12|6 54 180 211 7
+h
+i2 
+(1)
+0
+0
+t2 O(t3 ∂i wx (E )Êi
+
+
+--
+
+>>
+Delete|para
+|6 54 203 193 9
+where
+nk 
+--
+
+>>
+Delete|para
+|6 247 203 222 9
+Z
+
+
+--
+
+>>
+Delete|para
+|6 470 203 92 9
+dΩk̂
+r(k̂ Ê0 )2
+Sd 1 (r 1)k̂ Ê0 )2
+
+
+--
+
+>>
+Delete|para
+|6 54 214 226 8
+∂i ∂j w(0) (E 0 εk Êi0 Êj0 ε⊥ (δij Êi0 Êj0 r εk /ε⊥ 
+--
+
+>>
+Delete|para
+|6 54 225 95 8
+(37)
+(38)
+(39)
+
+
+--
+
+>>
+Split|word
+|6 54 225 95 8
+Let us therefore set ε 
+--
+Let us therefore set ε 
+>>
+Replace|word
+|6 54 225 95 8
+hεi 
+--
+〈ε〉 
+>>
+Replace|word
+|6 149 225 81 8
+hχi 
+--
+〈χ〉 
+>>
+Split|word
+|6 54 354 286 7
+Comparing now formula 
+--
+Comparing now formula 
+>>
+Delete|para
+|6 54 380 508 13|6 268 389 14 3
+(41)
+
+
+--
+
+>>
+Delete|para
+|6 54 407 229 7
+(42)
+
+
+--
+
+>>
+Delete|para
+|6 283 407 240 7
+α
+
+
+--
+
+>>
+Delete|para
+|6 54 440 508 22
+(43)
+
+
+--
+
+>>
+Replace|para
+|6 54 471 218 8
+hE 4 i hE 
+--
+〈E4〉E2〉
+>>
+Delete|word
+|6 272 471 64 8
+i2 C. 
+--
+
+>>
+Delete|para
+|6 54 593 199 7
+ε2 ε1
+ε2 (d 1)ε1
+
+
+--
+
+>>
+Delete|para
+|6 54 626 508 21
+(44)
+
+
+--
+
+>>
+Delete|para
+|6 54 646 218 7
+(45)
+
+
+--
+
+>>
+Split|word
+|6 54 745 508 6|7 54 131 191 7
+On the other hand, expression 
+--
+On the other hand, expression 
+>>
+Replace|word
+|7 353 73 145 8
+hχi. 
+--
+〈χ〉
+>>
+Replace|word
+|7 498 73 64 8|7 54 85 137 8
+T 2 
+--
+T2, 
+>>
+Replace|word
+|7 410 85 153 8|7 54 96 59 8
+T 3 
+--
+T3. 
+>>
+Replace|word
+|7 113 96 192 8
+T 4 
+--
+T4 
+>>
+Replace|para
+|7 143 108 181 8
+hE 4 iα 
+--
+〈E4〉α 
+>>
+Split|word
+|7 54 184 260 7|7 314 184 248 7|7 54 195 40 7|7 94 195 270 7
+At the present time, since it requires an exact solution for the one-body problem, the test of the dilute limit appears
+to be the most challenging one for nonlinear effective-medium theories.
+
+--
+At the present time, since it requires an exact solution for the one-body problem, the test of the dilute limit appears to be the most challenging one for nonlinear effective-medium theories.
+
+
+>>
+Split|word
+|7 54 207 244 8|7 298 207 186 8
+This test is illustrated in Fig. 4 which displays χ0 as calculated from 
+--
+This test is illustrated in Fig. 4 which displays χ0, as calculated from 
+>>
+Delete|word
+|7 54 286 508 6
+D. 
+--
+
+>>
+Split|word
+|7 54 335 284 7|7 338 335 224 7|7 54 346 222 8
+An insulator/perfect conductor binary mixture undergoes a percolation transition for a critical metal fraction
+p pc 
+--
+An insulator/perfect conductor binary mixture undergoes a percolation transition for a critical metal fraction p pc 
+>>
+Delete|para
+|7 54 380 508 10
+χ0 χ1 (p pc 2s+κ 
+--
+
+>>
+Delete|para
+|7 54 401 154 7
+(48)
+
+
+--
+
+>>
+Delete|para
+|7 54 422 508 9
+χ0 χ2 (pc p)2t−κ) 
+--
+
+>>
+Delete|para
+|7 54 442 261 7
+(49)
+
+
+--
+
+>>
+Replace|para
+|7 54 465 168 8
+hE 4 i hE 
+--
+〈E4〉 〈E2〉
+>>
+Delete|word
+|7 97 465 317 8
+i2 
+--
+
+>>
+Split|word
+|7 54 477 188 7|7 242 477 124 7|7 366 477 151 7|7 518 477 44 7|7 54 488 86 7|7 140 488 192 7
+In the Bruggeman formula, pc 1/d, and ε0 ε1 1−dp) for p 1/d, ε0 ε2 (1−dp)1−d) for p 1/d (ε1 ε2 whence s t 1. Reporting these expressions into 
+--
+In the Bruggeman formula, pc 1 d, and ε0≃ε1 (1 dp) for p 1 d, ε0≃ε2(1 dp) (1 d) for p 1 d (ε1 ε2)whence s t 1. Reporting these expressions into 
+>>
+Split|word
+|7 54 511 263 7|7 317 511 143 7|7 460 511 103 7|7 54 523 134 7|7 188 523 230 7|7 418 523 144 7|7 67 530 8 4
+These values can be compared to exact bounds obtained for κ and κ′ on the basis of the links-nodes-blob (LNB)
+model for electric percolation, now commonly accepted as a model for e.g. random resistor networks (RRNs)These
+
+--
+These values can be compared to exact bounds obtained for κ and κ' on the basis of the links-nodes-blob (LNB) model for electric percolation, now commonly accepted as a model for e.g. random resistor networks (RRNs)These 
+>>
+Delete|para
+|7 54 555 154 7
+(50a)
+(50b)
+
+
+--
+
+>>
+Delete|para
+|7 54 645 205 7
+(51)
+(52)
+
+
+--
+
+>>
+Delete|word
+|8 54 62 249 7
+7
+
+
+--
+
+>>
+Split|word
+|8 54 119 292 7|8 346 119 216 7|8 54 131 41 7|8 95 131 267 7|8 362 131 201 7|8 54 142 100 8|8 154 142 204 8|8 358 142 64 8
+The above argument is to be brought together with another one by Bergman. Discussing the failure of a “non ambiguous” non-linear Bruggeman-type model, he concluded that bounds for fluctuations always refer to some particular
+type of microstructure, and that no such bounds exist which apply to all 
+--
+The above argument is to be brought together with another one by Bergman. Discussing the failure of a "non ambiguous" non-linear Bruggeman-type model, he concluded that bounds for fluctuations always refer to some particular type of microstructure, and that no such bounds exist which apply to all 
+>>
+Split|word
+|8 54 154 228 7|8 282 154 224 7|8 506 154 56 7|8 54 165 174 7|8 228 165 225 7|8 452 165 110 7|8 54 177 96 7|8 150 177 198 7|8 348 177 214 7|8 54 188 234 7|8 288 188 149 7
+Because of these problems, comparisons between effective-medium theories built on the Bruggeman formula, and
+simulations on RRNs are expected to be more significant in dimension d 2 (another reason for preferring the
+two-dimensional case as a test-bench is that the bond percolation threshold pc 1/2 on a square lattice is exactly
+reproduced by Bruggeman’s formula)In Fig. 5 are displayed formulas 
+--
+Because of these problems, comparisons between effective-medium theories built on the Bruggeman formula, and simulations on RRNs are expected to be more significant in dimension d 2 (another reason for preferring the two-dimensional case as a test-bench is that the bond percolation threshold pc 1 2 on a square lattice is exactly reproduced by Bruggeman's formula)In Fig. 5 are displayed formulas 
+>>
+Delete|word
+|8 54 294 508 6
+E. 
+--
+
+>>
+Delete|para
+|8 270 316 4 4
+χ(x) γ+1
+E
+γ+1
+
+
+--
+
+>>
+Delete|para
+|8 54 354 508 21
+(53)
+
+
+--
+
+>>
+Delete|para
+|8 54 418 508 9
+(54)
+
+
+--
+
+>>
+Replace|word
+|8 206 463 210 8
+E 0 
+--
+E0 
+>>
+Replace|word
+|8 295 474 250 8
+E 0 
+--
+E0 
+>>
+Delete|para
+|8 54 586 290 7
+hf (z)i 
+--
+
+>>
+Replace|para
+|8 406 574 156 9
+(hzi)
+--
+z)f(z〉
+>>
+Delete|word
+|8 54 631 508 6
+IV. 
+--
+
+>>
+Merge|word
+|8 459 714 103 7|9 54 62 204 7|9 258 62 304 7|9 54 73 316 7|9 370 73 192 7|9 54 85 119 7|9 173 85 304 7|9 478 85 85 7|9 54 96 228 7|9 282 96 280 7|9 54 108 18 7|9 72 108 301 7|9 373 108 189 7|9 54 119 87 8|9 141 119 257 8
+in the contrast, and close to the exact result in the dilute limit. Significant quantitative improvement is obtained
+on previous nonlinear effective-medium theories, even in the percolating regime, at least in the two-dimensional case.
+This study emphasizes the importance of accounting for the vector character of the electric field when averaging the
+local potentials. Improvements of the present theory could consist in finding a better approximation than the gaussian
+one for the components of the probability distribution of the field. More realistic distributions could be obtained by,
+e.g.extending the perturbative theory of Barthélémy and 
+--
+in the contrast, and close to the exact result in the dilute limit. Significant quantitative improvement is obtained on previous nonlinear effective-medium theories, even in the percolating regime, at least in the two-dimensional case. This study emphasizes the importance of accounting for the vector character of the electric field when averaging the local potentials. Improvements of the present theory could consist in finding a better approximation than the gaussian one for the components of the probability distribution of the field. More realistic distributions could be obtained by, e.g.extending the perturbative theory of Barthélémy and 
+>>
+Delete|word
+|9 258 62 304 7
+8
+
+
+--
+
+>>
+Delete|word
+|9 54 164 508 6
+ACKNOWLEDGMENTS
+
+
+--
+
+>>
+Delete|para
+|9 54 190 330 7
+Stimulating discussions with M. Barthélémy and H. Orland are gratefully acknowledged. I also thank H. E. Stanley
+and M. Barthélémy for their kind hospitality at the Center for Polymer Studies (Boston University)where part of
+this work was performed.
+APPENDIX A: 
+--
+
+>>
+Insert|para
+|9 54 335 508 7
+
+--
+where
+
+
+>>
+Delete|para
+|9 54 360 217 14
+1
+1 0 0 0
+Ei εij Ej Pi0 Ej0 h∆Pi µij gjk ∆Pj i,
+2
+2
+
+
+--
+
+>>
+Delete|para
+|9 271 369 291 24|9 54 385 217 11
+(A1)
+
+
+--
+
+>>
+Delete|para
+|9 271 385 291 12|9 54 401 217 11
+where
+dΩk̂ ki kj
+Sd kl ε0lm km
+
+
+--
+
+>>
+Delete|para
+|9 271 399 291 9|9 54 417 217 11
+(A2)
+
+
+--
+
+>>
+Delete|para
+|9 271 417 291 11
+α
+0 −1
+µα
+ij [1 g(ε ε ij 
+--
+
+>>
+Delete|para
+|9 54 438 170 11
+(A3)
+
+
+--
+
+>>
+Delete|para
+|9 224 436 52 8
+gij 
+--
+
+>>
+Delete|para
+|9 54 449 269 8
+Pi0
+∆Piα
+
+
+--
+
+>>
+Delete|para
+|9 323 449 239 8
+Z
+
+
+--
+
+>>
+Delete|para
+|9 54 463 228 11
+hPj µji i,
+
+--
+
+>>
+Delete|para
+|9 282 460 280 8|9 54 472 16 7
+Piα
+
+
+--
+
+>>
+Delete|para
+|9 70 472 263 7
+(A4)
+
+
+--
+
+>>
+Delete|para
+|9 334 472 228 7|9 54 483 24 8
+Pi0 
+--
+
+>>
+Delete|para
+|9 78 483 292 8
+(A5)
+
+
+--
+
+>>
+Replace|word
+|9 224 436 52 8
+hµij i 
+--
+〈μij〉 
+>>
+Split|word
+|9 54 449 269 8
+Formula 
+--
+Formula 
+>>
+Replace|para
+|9 54 463 228 11
+Ei ε0ij Ej Pi0 Ei 
+--
+Eiε0ijEj P0iEi 
+>>
+Replace|para
+|9 54 497 253 10
+hEi iα Miα 
+--
+〈Ei〉α Mαi, 
+>>
+Replace|word
+|9 307 495 208 7
+µg; µ 
+--
+μg; μ 
+>>
+Delete|para
+|9 54 534 508 26
+1 W̃lin (E 0 0
+α
+µα
+ij (Ej gjk ∆Pk pα
+∂Piα
+
+
+--
+
+>>
+Delete|para
+|9 54 555 255 11
+(A6)
+
+
+--
+
+>>
+Replace|word
+|9 54 555 255 11
+Pi0 
+--
+P0i, 
+>>
+Replace|para
+|9 54 555 255 11
+hM i E 0 
+--
+〈M〉 E0, 
+>>
+Delete|para
+|9 54 603 508 26
+W̃lin (E 0 ε0ij Ej0 Pi0 ∂Ei0
+
+
+--
+
+>>
+Delete|para
+|9 54 620 134 7
+(A7)
+
+
+--
+
+>>
+Insert|word
+|9 54 666 229 10
+
+--
+with Mαj 
+>>
+Delete|para
+|9 283 663 232 7
+(A8)
+
+
+--
+
+>>
+Delete|word
+|9 514 663 48 7|9 54 679 159 11
+with Mjα 
+--
+
+>>
+Replace|para
+|9 283 663 232 7||9 514 663 48 7|9 54 679 159 11||9 213 679 123 11
+hεij µjk i α
+α
+0
+ε0ij hµjk i 
+<AND>
+µα
+ij δij µik gkl (εli εli 
+--
+〈εijμjk〉 ε0ij〈μjk〉 
+<AND>
+μαij δij μαikgkl(εαli ε0li)
+>>
+Delete|para
+|9 54 745 508 6|10 54 84 10 8
+4
+
+
+--
+
+>>
+Delete|para
+|10 54 62 10 8
+9
+
+
+--
+
+>>
+Delete|para
+|10 64 62 187 8
+1
+
+
+--
+
+>>
+Delete|para
+|10 54 73 10 8
+A. Aharony, Phys. Rev. Lett. 58, 2726 (1987)D. Stroud and P. M. Hui, Phys. Rev. B 37, 8719 (1988)3
+X. C. Zeng and D. J. Bergman, P. M. Hui and D. Stroud, Phys. Rev. B 38, 10970 (1988)4
+D. J. Bergman, Phys. Rev. B 39, 4598 (1989)5
+R. Blumenfeld and D. J. Bergman, Phys. Rev. B 40, 1987 (1989)Phys. Rev. B 44, 7378 (1991)D. J. Bergman and R.
+Blumenfeld, Phys. Rev. B 54, 9555 (1996)6
+N. C. Kothari, Phys. Rev. A 41, 4486 (1990)7
+P. Ponte Castañeda, G. deBotton and G. Li, Phys. Rev. B 46, 4387 (1992)8
+G. Q. Gu and K. W. Yu, Phys. Rev. B 46, 4502 (1992)9
+K. W. Yu, P. M. Hui and D. Stroud, Phys. Rev. B 47, 14150 (1993)Phys. Rev. B 56, 14195 (1997)10
+K. W. Yu, Y. C. Chu and E. M. Y. Chan, Phys. Rev. B 50, 7984 (1994)11
+H.C. Lee, K. W. Yu and G. Q. Gu, J. Phys.Condens. Matter 7, 8785 (1995)12
+L. Gao, Z.Y. Li, Phys. Lett. A 219, 324 (1996)13
+W. M. V. Wan, H. C. Lee, P. M. Hui, and K. W. Yu, Phys. Rev. B 54, 3946 (1996)14
+L. Sali and D. J. Bergman, J. Stat. Phys. 86, 455 (1997)15
+P. Ponte Castañeda and M. Kailasam, Proc. R. Soc. London A, 793 (1997)16
+M. Barthélémy and H. Orland, Eur. Phys. J. B 6, 537 (1998)cond-mat/9806302. In this reference, a slight error has led to
+the erroneous weak-contrast expansion (37) for χ0 the minus sign should be a in Eqs. (33a)(33c)and the sign of the
+second order term in (35) is a One then retrieves our result (41)17
+P. M. Duxbury, P. D. Beale and P. M. Leath, Phys. Rev. Lett. 57, 1052 (1986)18
+D. J. Bergman, Phys. Rep. 43, 377 (1978)19
+P. M. Hui, Y. F. Woo and W. M. V. Van, J. Phys.Condens. Matter 7, L593 (1995)20
+R. Hill, J. Mech. Phys. Solids 11, 357 (1963)21
+P. Ponte Castañeda, SIAM J. Appl. Math. 52, 1321 (1992)and references therein.
+22
+M. Barthélémy and H. Orland, Phys. Rev. E 56, 2835 (1997)and references therein.
+23
+P. M. Duxbury, M. Beale and C. Moukarzel, Phys. Rev. B 51, 3476 (1995)24
+Z. Chen and P. Sheng, Phys. Rev. B 43, 5735 (1991)25
+H. Cheng and S. Torquato, Phys. Rev. B 56, 8060 (1997)26
+D. Cule and S. Torquato, cond-mat/9805030 (1998)27
+J. Willis, Adv. Appl. Mech. 21, 1 (1981)28
+It can be shown that the boundary condition hEi E 0 truly corresponds to the more standard condition of uniform normal
+induction on the boundary ∂V namely ni Di ni Di0 (see, e.g. Ponte-Castañeda21 we then have hDi D0 but the
+relationship (11) between D0 and E0 is known only after the homogeneization problem has been solved.
+29
+P. Ponte Castañeda and P. Suquet, Adv. Appl. Mech. 34, 171 (1998)30
+D. A. G. von Bruggeman, Ann. Phys. (Leipzig) 24, 636 (1935)R. Landauer, J. Appl. Phys. 23, 779 (1952)See also R. Landauer, in Electical Transport and Optical Properties of Inhomogeneous Media, edited by J. C. Garland and D. B. Tanner.
+AIP Conf. Proc. No. 40 (AIP, New York, 1978)31
+M. Le Bellac and G. Barton (translator) Quantum and Statistical Field Theory (Oxford University Press, Oxford, 1992)32
+J. P. Clerc, G. Giraud, J. M. Laugier and J. M. Luck, Adv. Phys. 39, 191 (1990)and references therein.
+33
+X. Zhang and D. Stroud, Phys. Rev. B 49, 944 (1994)34
+R. Rammal, J. Phys. (Paris) Lett. 46, L129 (1985)R. Rammal, C. Tannous, P. Breton and A.M. S. Tremblay, Phys. Rev.
+Lett. 54, 1718 (1985)35
+D. C. Wright, D. J. Bergman and Y. Kantor, Phys. Rev. B 33, 396 (1986)36
+J. P. Straley, Phys. rev. B 15, 5733 (1977)37
+O. Levy and D. J. Bergman, Phys. Rev. B 50, 3652 (1994)38
+Y.P. Pellegrini and M. Barthélémy, cond-mat/0001223, to be published.
+39
+Y.P. Pellegrini, unpublished.
+2
+
+
+--
+
+>>
+Delete|para
+|10 64 73 228 8
+10
+
+
+--
+
+>>
+Delete|para
+|10 64 84 363 8
+1.5
+
+
+--
+
+>>
+Delete|para
+|10 54 95 197 8
+ε2/ε1=5.0
+3
+1
+Ppar
+
+
+--
+
+>>
+Delete|para
+|10 54 106 158 8
+Ppar 2
+
+
+--
+
+>>
+Delete|para
+|10 212 106 258 8
+0.5
+
+
+--
+
+>>
+Delete|para
+|10 470 106 92 8|10 64 117 173 7
+1
+
+
+--
+
+>>
+Delete|para
+|10 54 128 195 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 139 10 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 64 139 305 8
+−1
+
+
+--
+
+>>
+Delete|para
+|10 54 150 10 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 64 150 226 8
+1
+2
+0
+Epar/E
+
+
+--
+
+>>
+Delete|para
+|10 54 161 10 8
+3
+
+
+--
+
+>>
+Delete|para
+|10 64 161 408 8
+4
+
+
+--
+
+>>
+Delete|para
+|10 54 172 10 8
+1
+
+
+--
+
+>>
+Delete|para
+|10 64 172 295 8
+3
+
+
+--
+
+>>
+Delete|para
+|10 54 183 163 8
+5
+
+
+--
+
+>>
+Delete|para
+|10 217 183 164 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 194 10 8
+Epar/E
+
+
+--
+
+>>
+Delete|para
+|10 64 194 196 8
+FIG. 3. Field probability density function Pk (Ek /E 0 (Ek E Ê0 in the Bruggeman approximation, for various
+volume fractions p2 of component 2. The dielectric constant
+ratio is ε2 /ε1 1000. Solid: p2 0.12; dashes: p2 0.24;
+dots: p2 0.36.
+
+
+--
+
+>>
+Delete|para
+|10 54 205 10 8
+FIG. 1. Field probability density function Pk (Ek /E 0 (Ek E Ê0 in the Bruggeman approximation, for various
+volume fractions p2 of component 2. The dielectric constant
+ratio is ε2 /ε1 5. Dots: p2 0.05 (violet,highest curve)p2 0.25 (blue,lowest curve)Solid line: p2 0.5 (green)Dashes: p2 0.75 (orange, lowest curve)p2 0.95 (red,
+highest curve)
+--
+
+>>
+Delete|para
+|10 64 205 340 8
+8
+
+
+--
+
+>>
+Delete|para
+|10 54 215 130 8
+0.1
+
+
+--
+
+>>
+Delete|para
+|10 184 215 112 8
+ε2/ε1=5.0
+
+
+--
+
+>>
+Delete|para
+|10 54 226 10 8
+6
+
+
+--
+
+>>
+Delete|para
+|10 64 226 305 8
+Pperp
+
+
+--
+
+>>
+Delete|para
+|10 54 237 138 8
+−1
+
+
+--
+
+>>
+Delete|para
+|10 192 237 205 8
+0.08
+
+
+--
+
+>>
+Delete|para
+|10 397 237 165 8|10 64 248 58 8
+χ
+
+
+--
+
+>>
+Delete|para
+|10 122 248 216 8
+4
+
+
+--
+
+>>
+Delete|para
+|10 339 248 223 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 64 259 252 7
+0.06
+0.04
+
+
+--
+
+>>
+Delete|para
+|10 317 259 22 7
+2
+
+
+--
+
+>>
+Delete|para
+|10 54 270 10 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 64 270 322 8
+0.02
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 281 184 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 292 190 8
+0.5
+0
+Eperp/E
+
+
+--
+
+>>
+Delete|para
+|10 244 292 165 8
+1
+
+
+--
+
+>>
+Delete|para
+|10 54 303 50 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 104 303 143 8
+0.2
+
+
+--
+
+>>
+Delete|para
+|10 54 314 119 8
+0.4
+
+
+--
+
+>>
+Delete|para
+|10 173 314 226 8
+0.6
+
+
+--
+
+>>
+Delete|para
+|10 54 325 10 8
+0.8
+
+
+--
+
+>>
+Delete|para
+|10 64 325 344 8
+1
+
+
+--
+
+>>
+Delete|para
+|10 54 336 10 8
+p
+
+
+--
+
+>>
+Delete|para
+|10 64 336 304 8
+FIG. 2. Field probability density function P⊥ (E⊥ /E 0 (E⊥ E Ek E0 in the Bruggeman approximation, for
+various volume fractions p2 of component 2. The dielectric
+constant ratio is ε2 /ε1 5. Dots: p2 0.05 (violet, highest
+curve)p2 0.25 (blue, lowest curve)Solid line: p2 0.5
+(green)Dashes: p2 0.75 (orange, lowest curve)p2 0.95
+(red, highest curve)
+--
+
+>>
+Delete|para
+|10 54 347 10 8
+FIG. 4. Comparison between Eqs. (33) (solid line) and (42)
+(dashes)Effective nonlinear susceptibility vs. volume fraction p of component 2. The space dimension is d 2. The
+parameters are: ε1 1, ε2 10, χ1 0.01, χ2 0.1. The
+segments at p 0 and p 1 represent exact slopes computed
+with expression (46)
+--
+
+>>
+Delete|para
+|10 64 347 216 8
+11
+
+
+--
+
+>>
+Delete|para
+|10 54 358 10 8
+1
+0.8
+
+
+--
+
+>>
+Delete|para
+|10 64 358 235 8
+χ
+
+
+--
+
+>>
+Delete|para
+|10 54 369 222 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 380 177 8
+0.6
+0.4
+0.2
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 391 191 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 245 391 166 8
+0.2
+
+
+--
+
+>>
+Delete|para
+|10 411 391 151 8|10 64 402 73 8
+0.4
+
+
+--
+
+>>
+Delete|para
+|10 138 402 156 8
+0.6
+
+
+--
+
+>>
+Delete|para
+|10 294 402 164 8
+0.8
+
+
+--
+
+>>
+Delete|para
+|10 458 402 104 8|10 64 413 63 7
+1
+
+
+--
+
+>>
+Delete|para
+|10 127 413 145 7
+p
+FIG. 5. Comparison between Eqs. (33) (solid line) and (42)
+(dashes)Effective nonlinear susceptibility vs. volume fraction p of component 2. The space dimension is d 2. The
+parameters are: ε1 1, ε2 104 χ1 10−4 χ2 0.1. The
+segment at p 1 represents the exact slope computed with
+expression (46)
+--
+
+>>
+Delete|para
+|10 272 413 212 7
+0.5
+0.4
+
+
+--
+
+>>
+Delete|para
+|10 54 424 175 8
+χ
+
+
+--
+
+>>
+Delete|para
+|10 229 424 117 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 54 435 116 8
+0.3
+0.2
+0.1
+0
+
+
+--
+
+>>
+Delete|para
+|10 170 435 149 8
+0
+
+
+--
+
+>>
+Delete|para
+|10 319 435 178 8
+0.2
+
+
+--
+
+>>
+Delete|para
+|10 497 435 65 8|10 64 446 138 6
+0.4
+
+
+--
+
+>>
+Delete|para
+|10 202 446 88 6
+0.6
+
+
+--
+
+>>
+Delete|para
+|10 290 446 272 6
+0.8
+
+
+--
+
+>>
+Delete|para
+|10 64 457 193 7
+1
+
+
+--
+
+>>
+Delete|para
+|10 54 468 214 8
+p
+FIG. 6. Comparison between Eqs. (54) (solid line) and (55)
+(dashes) for power-law nonlinearities wxnl χ(x)E γ+1 γ +1)Effective nonlinear susceptibility vs. volume fraction p of component 2. The space dimension is d 2. The parameters are:
+ε1 1, ε2 10, χ1 0.01, χ2 0.1. From bottom to top:
+γ 1.5 (blue)2 (cyan)3 (turquoise)4 (green)5 (black)
+--
+
+>>
+Delete|para
+|10 268 468 150 8
+12
+
+
+--
+

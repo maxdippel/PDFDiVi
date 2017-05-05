@@ -1,0 +1,294 @@
+Localized and Delocalized Charge Transport in Single-Wall Carbon-Nanotube Mats
+
+[48;5;167mO. Hilt and H. B. Brom[0m
+[48;5;167mKamerlingh Onnes Laboratory, Leiden University, P.O. Box 9504, 2300 RA Leiden, The Netherlands[0m
+
+[48;5;167marXiv:cond-mat/0001222v1 [cond-mat.soft] 17 Jan 2000[0m
+
+[48;5;167mM. Ahlskog[0m
+[48;5;167mLow Temperature Laboratory, Helsinki University of Technology, FIN-02015 HUT, Finland[0m
+[48;5;167m(November 16, 1999, accepted for Rapid Communications)[0m
+[48;5;167mWe measured the complex dielectric constant in mats of single-wall carbon-nanotubes between[0m
+[48;5;167m2.7 K and 300 K up to 0.5 THz. The data are well understood in a Drude approach with a negligible temperature dependence of the plasma frequency ωp and scattering time τ with an additional[0m
+[48;5;167mcontribution of localized charges. The dielectric properties resemble those of the best ”metallic”[0m
+[48;5;167mpolypyrroles and polyanilines. The absence of metallic islands makes the mats a relevant piece in[0m
+[48;5;167mthe puzzle of the interpretation of τ and ωp in these polymers.[0m
+[48;5;167mPACSnumbers: 71.20.Hk,71.20.Tx,72.80.Le,77.84.Jd[0m
+
+Depending on the wrapping of the graphene sheet, the intrinsic electronic properties of single-wall [90m[[0m[38;5;1mcarbonnanotubes[0m[90m/[0m[38;5;22mcarbon-nanotubes[0m[90m][0m (SWNTs) are either semiconducting (zigzag and most chiral nanotubes) or metallic (armchair and part of the chiral nanotubes) [90m[\cite=Hamada92][\cite=Wildoer98].[0m Single ropes of armchaired SWNTs as well as entangled networks (mats) show a decrease of the dc conductivity, σdc, with increasing temperature (T) for T above a critical temperature (T*[90m[\cite=Fischer97][\cite=Kane98] [\cite=Kaiser98] [\cite=Petit97].[0m For T T*σdc decreases with cooling. T* typically lies between 40 K and 250 K and depends on the morphology and the degree of disorder [90m[\cite=Kane98].[0mThe transition from dσdc dT 0 to dσdc dT 0 at T* is ascribed to structural defects and built-in impurities of the individual nanotubes [90m[\cite=Fuhrer99][\cite=Lee97],[0m or to barriers between the nanotubes or ropes limiting the extension of the charge-carrier states [90m[\cite=Kaiser98].[0mAdditional information about this issue can be obtained from frequency- dependent phase-sensitive permittivity experiments, giving the complex conductivity σ(ω) σ'ω) iσ'ω) or dielectric constant, [90mε(ω) ε'ω) iε'ω) [\cite=sigma].[0mDifferent frequency dependencies of σ' and [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m are expected for the two limiting cases of localized and delocalized charge transport and also the sign of [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m changes with the two models. Here we apply this method to mats of SWNTs. The data do not need Kramers-Kronig analysis, which is a great advantage for the analysis of the response of the delocalized charge carriers [90m[\cite=Chapman99].[0mLike heavily doped polymers SWNTs are shown to be an example of a system with exceptional long scattering times τ and low plasma frequencies ωp, but in contrast to the polymers metallic islands can be excluded as an explanation. For that reason SWNTs form an important new element in the not-yet understood physics behind τ and ωp.
+
+[48;5;110mWeak inter-nanotube contacts or strong [90m[[0m[48;5;110m[38;5;1mintrananotube[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mintra-nanotube[0m[48;5;110m[90m][0m[48;5;110m defects might lead to charge localization. The motion of the localized charge carriers will be diffusion controlled and the frequency-dependent conductivity σ(ω) (ne2 [90m[[0m[48;5;110m[48;5;167m/kB T )D(ω)[0m[48;5;110m[90m/[0m[48;5;110m[48;5;70mkBT)[0m[48;5;110m[90m][0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m D(ω) [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m is given by linear response theory as [90m[\cite=Scherlax73][0m[48;5;110m[90m[formula][0m[48;5;110m[0m
+
+[48;5;167m1 2[0m
+[48;5;167mω[0m
+[48;5;167m2d[0m
+
+[48;5;167mZ[0m
+
+[48;5;167mh(r(t) r(0)2 ie−iωt dt[0m
+
+[48;5;167m(1)[0m
+
+[48;5;167m0[0m
+
+with d the dimensionality of the transport system, r the charge-carrier position and [38;5;1mhi[0m the configurational average. Eq. (1) reduces to Fick's law for a frequency independent D. With increasing frequency σ' will increase while the positive [90mε' decreases [\cite=Schirmacher91][\cite=Adriaanse97].[0m In the delocalized case charge transport is expected to follow the scheme of a Drude electron-gas with a conductivity:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mwith ω2p nq2 (ε0m )[\cite=AM].[0m [48;5;167m1[0m
+[48;5;167m1 iωτ[0m
+
+[48;5;167m(2)[0m
+
+[48;5;167mwith ωp2 nq 2 ǫ0 m∗ [14][0mFor most metals ωp 1015 s- 1. If charge transport is governed by (anomalous) diffusion (Eq.1)dσ' dω 0 and [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m 1. In contrast, the Drude model of delocalized charge transport (Eq.2)predicts [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m 0 for ω ωp and dσ' dω 0 and [90m[[0m[38;5;1mdǫ′[0m[90m/[0m[38;5;22mdε'[0m[90m][0m dω 0 for ω τ- 1.
+
+[38;5;1m‖[0m SWNT mats [90m[\cite=Rice99][0mwere prepared by vacuum-filtering a suspension of SWNT's in water with approx. 0.5 Triton X-100, a non-ionic surfactant, through filter paper with a pore size of 1 [90m[[0m[38;5;1mµm.[0m[90m/[0m[38;5;22mμm.[0m[90m][0m The SWNT's were produced using laser-ablation [90m[\cite=Thess96].[0mPurification of the mats was performed by washing the filter paper with the attached SWNT mat with deionized water to remove the Triton [90m[[0m[38;5;1mX100[0m[90m/[0m[38;5;22mX-100[0m[90m][0m and with methanol to remove residual NaOH [90m[\cite=Rinzler98].[0mIn this way, mats with a diameter of 34 mm and a thickness of typically 10 [90m[[0m[38;5;1mµm[0m[90m/[0m[38;5;22mμm[0m[90m][0m were obtained. Some of these SWNT mats were investigated with the filter paper attached to it. Other mats could be peeled off the filter paper. Up to now SWNT mats are always mixtures of chiral, zig-zag and armchaired nanotubes. The fraction of metallic nanotubes is estimated to be of the order of 0.1-0.5 [90m[\cite=Fischer97][\cite=Petit97] [\cite=Ugawa99].[0m For these strand-like materials such numbers are sufficiently high to be well above the percolation threshold for dc-conduction [90m[\cite=Adriaanse97].[0m[38;5;1m‖[0m The dc conductivity (σdc) of the mats was measured with the four-probe technique. The T-dependent dc measurements were performed in an Oxford flow (down to 4 [38;5;1m==[0m K) and a [90m[[0m[38;5;1m3 He[0m[90m/[0m[38;5;22m3He[0m[90m][0m cryostat (down to 0.4 K)Complex σ(ω) or [90m[[0m[38;5;1mǫ([0m[90m/[0m[38;5;22mε([0m[90m][0m ω)data in the GHz regime were obtained by [90m[[0m[38;5;1mrunningwave[0m[90m/[0m[38;5;22mrunning-wave[0m[90m][0m transmission-measurements with the electric-field vector parallel to the plane of the mat. The transmission and the phase shift introduced by the sample were directly measured with an ABmm millimeter-wave network analyzer. The complex dielectric constant at the given ω could be obtained by fitting the data to first principles formulae [90m[\cite=Reedijk99][0mwithout the need of a Kramers-Kronig analysis. The attenuation of the samples was approximately 45 dB. For the transmission experiments at 10 GHz and at 15 GHz, resp. X-band and P-band rectangular waveguides were used. The sample was mounted onto a choke flange of the waveguides. Between 40 GHz and 500 GHz a free-space electromagnetic wave, focused with polyethylene lenses was transmitting the SWNT mat. For the T-dependent measurements at 285 GHz the SWNT mat was mounted in an optical He-flow cryostat. The mm-wave reached the sample by passing two quartz and capton windows with a diameter of 40 mm. The sample space of the cryostat was filled with liquid He for measurements below 4.2 K. The resulting change of [90m[[0m[38;5;1mǫ[0m[90m/[0m[38;5;22mε[0m[90m][0m of the medium surrounding the sample was considered in the analysis.
+
+[38;5;1mto ǫ′[0m [48;5;167m8x10[0m
+
+[48;5;167mσdc[0m
+[48;5;167m4[0m
+
+[48;5;167mσ’ (S/m)[0m
+
+[48;5;167m6x10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m4x10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m2x10[0m
+
+[48;5;167mε’[0m
+
+[48;5;167m0[0m
+[48;5;167m0[0m
+
+[48;5;167m4[0m
+
+[48;5;167m-1x10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m-2x10[0m
+
+[48;5;167m10[0m
+
+[48;5;167m10[0m
+
+[48;5;167m10[0m
+
+[48;5;167m11[0m
+
+[48;5;167m-1[0m
+
+[48;5;167mω (s[0m [48;5;167m10[0m
+
+[48;5;167m12[0m
+
+[48;5;167m10[0m
+
+[48;5;167m13[0m
+
+[48;5;167mFIG. 2. Dependence on ω of ǫ′ and σ for cleaned SWNT[0m
+[48;5;167mmats at 300 K (full circles)The arrow marks σdc Lines are[0m
+[48;5;167mfits with a Drude model (τ 4.0 ps and ωp 3.3 1013 s−1 without (dashed line) and with (full line) background conductivity σb 3 104 S/m.[0m
+
+In Fig. [90m[\ref=fig1][0m the T dependences of [90m[[0m[38;5;1mσ285GHz[0m[90m/[0m[38;5;22mσ'285GHz[0m[90m][0m and σdc, normalized to the 300 K value of 6.9 104 S/m for the cleaned and 2 104 S/m for the uncleaned SWNT mats are shown.
+
+[48;5;167m1.2[0m
+[48;5;167m1.1[0m
+
+[48;5;167m4[0m
+
+[48;5;167m0[0m
+
+[48;5;167m4x10[0m
+
+[48;5;167m1.0[0m
+[48;5;167m(cleaned mat)[0m
+
+[48;5;167mσdc (uncleaned mat)[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167m-400[0m
+
+[48;5;167mσ’ (S/m)[0m
+
+[48;5;167mσdc[0m
+
+[48;5;167m0.7[0m
+[48;5;167m0.6[0m
+[48;5;167m0.5[0m
+
+[48;5;167m-600[0m
+
+[48;5;167m3x10[0m
+
+[48;5;167m-800[0m
+
+[48;5;167mσ285 GHz(cleaned mat)[0m
+
+[48;5;167m-1000[0m
+
+[48;5;167m0.4[0m
+[48;5;167m0.3[0m
+[48;5;167m0.1[0m
+
+[48;5;167m4[0m
+
+[48;5;167mε’[0m
+
+[48;5;167mσ(T) σ(300 K)[0m
+
+[48;5;167m-200[0m
+
+[48;5;167m0.9[0m
+
+[48;5;167m4[0m
+
+[48;5;167m2x10[0m
+
+[48;5;167m1[0m
+
+[48;5;167m10[0m
+
+[48;5;167m100[0m
+
+[48;5;167m0[0m
+
+[48;5;167m50[0m
+
+[48;5;167m100[0m
+
+[48;5;167m150[0m
+
+[48;5;167m200[0m
+
+[48;5;167m250[0m
+
+[48;5;167m300[0m
+
+[48;5;167m-1200[0m
+
+[48;5;167mT (K)[0m
+
+[48;5;167m1000[0m
+
+[48;5;167mT (K)[0m
+
+[48;5;167mFIG. 3. T dependence of σ (open circles)and ǫ′ (full circles)[0m
+[48;5;167mfor cleaned SWNT mats between 2.7 K and 300 K at 285 GHz.[0m
+
+[48;5;167mFIG. 1. Normalized T dependence of σdc (circles) and[0m
+[48;5;167mσ280GHz[0m
+[48;5;167m(open squares) for a cleaned SWNT mat. The triangles show σdc (T for a desiccated mat.[0m
+
+Clearly visible is the change from a positive dσ' dT at low T to a negative dσ' dT at high T. The transition temperatures between the two regimes is close to T* 120 K in agreement with recently reported values for similar prepared SWNT mats [90m[\cite=Fischer97][0m(for the uncleaned mat T* 200 K)The measured frequency dependences of [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m and σ' show the following main features, see Fig [90m[\ref=fig2]:[0m the conductivity almost keeps its dc value up to about 10 GHz and decreases at higher frequencies. Saturation is observed close to 1 THz. The dielectric constant increases from [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m 104 in the 10 GHz-regime [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [38;5;22mto ε'[0m[48;5;110m 100 close to 1 THz, apparently approaching the regime of [90m[[0m[48;5;110m[38;5;1mǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mε'[0m[48;5;110m[90m][0m[48;5;110m 0 at still higher frequencies.[0m
+
+[48;5;110m[38;5;1m4[0m[48;5;110m[0m
+
+[48;5;110mThe dielectric constant at 285 GHz remains negative down to 2.7 K, see the temperature-dependent data in Fig. [90m[\ref=fig3].[0m[48;5;110m For T T*[90m[[0m[48;5;110m[38;5;1mσ285GHz[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mσ'285GHz([0m[48;5;110m[90m][0m[48;5;110m T) is proportional to σdc(T)For T T*[90m[[0m[48;5;110m[38;5;1mσ285GHz[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mσ'285GHz([0m[48;5;110m[90m][0m[48;5;110m T) remains constant, while σdc(T) decreases with decreasing T, see Fig. [90m[\ref=fig1].[0m[48;5;110m[0m
+
+[48;5;110mTo study the influence of inter-rope barriers, desiccated SWNT mats were prepared by evaporating the water after casting the suspension onto a quartz substrate. After desiccation, the remaining surfactant covers the [90m[[0m[48;5;110m[38;5;1mSWNTropes.[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mSWNT-ropes.[0m[48;5;110m[90m][0m[48;5;110m Fig. [90m[\ref=fig4][0m[48;5;110m shows the dielectric constant to be positive for such an unpurified SWNT mat. After rinsing the mat with deionized water and methanol, the [90m[[0m[48;5;110m[38;5;1mchargetransport[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mcharge-transport[0m[48;5;110m[90m][0m[48;5;110m properties turned from a localized-carrier dominated regime with [90m[[0m[48;5;110m[38;5;1mǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mε'[0m[48;5;110m[90m][0m[48;5;110m 0, [90m[[0m[48;5;110m[38;5;1mdǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mdε'[0m[48;5;110m[90m][0m[48;5;110m dω 0 and dσ' dω 0 for the unpurified sample to a delocalized-carrier dominated (metallic) regime with an increased σdc, [90m[[0m[48;5;110m[38;5;1mǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mε'[0m[48;5;110m[90m][0m[48;5;110m 0, [90m[[0m[48;5;110m[38;5;1mdǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mdε'[0m[48;5;110m[90m][0m[48;5;110m dω 0 and dσ' dω 0, see Fig. [90m[\ref=fig4].[0m[48;5;110m[0m
+
+[48;5;110mThe peculiar T dependence of σdc has been explained as a transition from metallic charge-transport at high temperatures to a non-metallic regime at low temperatures caused by charge-transport barriers of the order of some 10 meV [90m[\cite=Kane97].[0m[48;5;110mSuch a model is expected to give a thermally activated behavior of the conductivity at very low temperatures. In our data (see Fig. [90m[\ref=fig1])[0m[48;5;110m σdc(T) flattens below 10 K showing the model to be too crude. The metallic nature at room temperature is supported by the negative dielectric constant obtained from the high-frequency dielectric measurements, and dσ' dω 0 and [90m[[0m[48;5;110m[38;5;1mdǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mdε'[0m[48;5;110m[90m][0m[48;5;110m dω 0 for ω τ- 1, see Fig. [90m[\ref=fig2].[0m[48;5;110m A qualitative discrepancy between the observed frequency dependencies and the Drude behavior lies in the saturation of σ' for ω τ- 1. The high-frequency conductivity remains at approx. 40 of σdc. This points to a [90m[[0m[48;5;110m[38;5;1mbackgroundconductivity,[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mbackground-conductivity,[0m[48;5;110m[90m][0m[48;5;110m σb, due to localized charge carriers present in the system. A possible increase with frequency of this background [90m[\cite=Reedijk98][0m[48;5;110m(here neglected) will enhance the Drude response at the lowest frequencies at most by a factor of [38;5;1m2.[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m 2. [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m The positive contribution to [90m[[0m[48;5;110m[38;5;1mǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mε'[0m[48;5;110m[90m][0m[48;5;110m (also neglected) is usually well below 103 in the GHz-regime and decreases with ω.[0m
+
+[48;5;110m[38;5;1m‖[0m[48;5;110m A fit of the Drude model including background conductivity is shown in Fig. [90m[\ref=fig2].[0m[48;5;110m At low frequencies the value of σ' is not accurate and the experimental error of [90m[[0m[48;5;110m[38;5;1mǫ′[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mε'[0m[48;5;110m[90m][0m[48;5;110m in the 10 GHz-range is considerable. Although discrepancies in the shape of the frequency dependencies remain, the principal characteristics as described above can be reproduced. The observed more stretched frequency dependence is expected for a distribution of τ and ωp. Given the experimental inaccuracies, the order of magnitude of the fit parameters is correct. The scattering time is estimated as [90m[formula][0m[48;5;110m s, the plasma frequency as [90m[formula][0m[48;5;110m s- 1 and the background conductivity as [90m[formula][0m[48;5;110m S/m.[0m
+
+[48;5;110m[38;5;1m3[0m[48;5;110m[0m
+
+Using the Fermi velocity of graphite, vF 8 105 m/s, the scattering time τ gives a mean free path of Λ 3 [90m[[0m[38;5;1mµm.[0m[90m/[0m[38;5;22mμm.[0m[90m][0m A similar value has been estimated from ESR measurements at 100 K on SWNT mats [90m[\cite=Petit97].[0mFrom DC measurements on an isolated SWNT at a few mK Λ 3 [90m[[0m[38;5;1mµm[0m[90m/[0m[38;5;22mμm[0m[90m][0m is suggested as a lower limit [90m[\cite=Tans97].[0mAlthough theoretical arguments [90m[\cite=Farajian99][0mpredict a very low scattering probability with acoustic phonons inside a tube, which might allow similar values also at higher temperatures, the Λ found here refers to 3D transport, for which such a value seems (far) too high. We will return to this problem below.
+
+[38;5;1m‖[0m The obtained plasma frequency is about one percent of ωp for normal metals. Assuming m* me, the value of ωp implies a charge-carrier density n 3 9 1023 m- 3. Correcting for the lower density of the mats 0.65 g/cm3) compared to that of a SWNT 2 g/cm3) and assuming a fraction of 50% metallic tubes [90m[\cite=Petit97][0mwould give n 4 1024 m- 3, comparable to graphite. However, for SWNT n is predicted to be about 102 higher [90m[\cite=Mintmire92].[0mFischer et al. [90m[\cite=Fischer97][0mfound after mass-density corrections a more than 10 higher σdc for single ropes than for mats. It is plausible that in a mat only a fraction of the charge carriers present participate in the delocalized (metallic) charge transport, while due to localization the remaining charge carriers have a smaller contribution to σdc [90m[\cite=Bezryadin98].[0mIn the model proposed here localized charge carriers are incorporated and contribute to σb.
+
+[38;5;1m‖[0m At T 300 K [90m[[0m[38;5;1mσ285GHz[0m[90m/[0m[38;5;22mσ'285GHz[0m[90m][0m is mainly due to σb, i.e. localized charge carriers (see fit in Fig.2)At such a high frequency σ'ω) might well be determined by photon- in stead of phonon-assisted hopping [90m[\cite=Boettger85][\cite=Reedijk98],[0m which explains the constant value of [90m[[0m[38;5;1mσ285GHz[0m[90m/[0m[38;5;22mσ'285GHz([0m[90m][0m T) for T 102 K [90m[[0m[48;5;167mHow′[0m
+[48;5;167mever, ǫ[0m[90m/[0m[48;5;70mHowever, ε'[0m[90m][0m is still dominated by the delocalized charges over the whole temperature range [90m[[0m[38;5;1m(ǫ′[0m[90m/[0m[38;5;22m(ε'[0m[90m][0m 0 at 285 GHz, Fig. [90m[\ref=fig3]).[0m The decrease by 40 of [90m[[0m[38;5;1m|ǫ′[0m[90m/[0m[38;5;22m|ε'[0m[90m][0m between 70 K and 2.7 K can be accounted for by the decrease of carriers from the semiconducting tubes and a growing contribution of localized states. It shows that the metallic part of [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m ω) for ω 1 τ has no strong T dependence, which implies an almost T independence of ωp. Also σdc at 0.4 K is only a factor 0.7 lower than at 300 K, which indicates that not only ωp but also τ have not changed appreciably with T. An opening of a gap due to twistons in the order of 20 meV as suggested by Kane and Mele [90m[\cite=Kane97][0mseems therefore unlikely. Based on the measured metallic [90m[[0m[38;5;1mlowtemperature[0m[90m/[0m[38;5;22mlow-temperature[0m[90m][0m behavior down to 4.2 K of the thermoelectric power in SWNT ropes, Hone et al. [90m[\cite=Hone98][0malso excluded the opening of a gap at low T [90m[\cite=n1].[0m[38;5;1m‖[0m The room temperature data presented in Fig. [90m[\ref=fig4][0m confirm the importance of inter-rope contacts at low temperatures. The purification procedure removed the surfactant and other impurities from the surface of the SWNT ropes allowing better contacts between ropes. Intra-tube or intra-rope transport are likely not changed by the purification, meaning that charge-localization effects due to defects in the graphene-sheet pattern of the tubes or bending of them should be unaffected. The effect of the purification on σdc(T)see Fig. [90m[\ref=fig1],[0m supports the picture. [48;5;167m4[0m
+
+[48;5;167m4x10[0m
+
+[48;5;167mσdc after purification[0m
+
+[48;5;167m4[0m
+
+[48;5;167mσ’ (S/m)[0m
+
+[48;5;167m3x10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m2x10[0m
+
+[48;5;167m4[0m
+
+[48;5;167m1x10[0m
+
+[48;5;167mσdc before purification[0m
+
+[48;5;167m0[0m
+[48;5;167m3[0m
+
+[48;5;167m1x10[0m
+
+[48;5;167mbefore purification[0m
+
+[48;5;167m2[0m
+
+[48;5;167mε’[0m
+
+[48;5;167m5x10[0m
+[48;5;167m0[0m
+
+[48;5;167m2[0m
+
+[48;5;167m-5x10[0m
+
+[48;5;167m3[0m
+
+[48;5;167m-1x10[0m
+
+[48;5;167m50[0m
+
+[48;5;167mafter purification[0m
+[48;5;167m60[0m
+
+[48;5;167m70[0m
+
+[48;5;167m80 90 100[0m
+[48;5;167mfrequency (GHz)[0m
+
+[48;5;167m200[0m
+
+[48;5;167mFIG. 4. Frequency dependence of σ and ǫ′ for a desiccated[0m
+[48;5;167mSWNT mat before (full circles) and after (open circles) purification at 300 K. The charge transport is dominated by localized carriers in the unpurified mat and shows metallic properties after purification.[0m
+
+[38;5;1m==[0m The transition temperature T* for the uncleaned sample is higher than for the cleaned one. Also, dσdc dT below T* is larger for the latter. Both indicate that inter-rope barriers limit σdc at low temperatures. These findings are consistent with the higher σdc, lower T* and weaker dσdc dT below T* [90m[\cite=Fischer97][0mof single rope data, where [90m[[0m[38;5;1minterrope[0m[90m/[0m[38;5;22minter-rope[0m[90m][0m barriers are eliminated.
+
+[38;5;1m‖[0m Highly conducting polymers like doped polyaniline (PAN) and polypyrrole (PPy) [90m[\cite=Lee95][\cite=Kohlman97][0m and SWNT-mats show analogous dielectric behavior. In the metallic polymers σdc typically has a maximum value of order 104 S/m (around 200 K) and decreases to lower temperatures. The values of [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m ω) are strongly frequency and T dependent. Let us take one of the best conducting materials, PAN doped with d,1-camphorsulfonic acid (PAN-CSA)as an example [90m[\cite=Kohlman97].[0mAround 1 meV (ω 1.5 THz) at 200 K [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m ω) is a few times 103, and becomes less negative at lower T. For the same samples at room temperature [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m ω) starts negative, becomes positive around 30 meV, returns negative around 0.1 eV and finally comes close to zero in the optical regime. In the SWNT-mats the maximum value of σdc is almost 105 S/m, and [90m[[0m[38;5;1mǫ([0m[90m/[0m[38;5;22mε([0m[90m][0m 285 GHz) reaches a value of 103 and decreases in absolute value with decreasing temperature (by a factor of two at 4.2 K)At room temperature below 0.5 meV [90m[[0m[38;5;1mǫ′[0m[90m/[0m[38;5;22mε'[0m[90m][0m ω) is negative, likely becomes positive at higher energies and returns negative again around 10 meV [90m[\cite=Ugawa99][\cite=note1] [\cite=Chapman99].[0m The comparison shows that best conducting polymers are essentially behaving like well-rinsed mats of single wall nanotubes (the same similarity exists between not-rinsed mats and the slightly less conducting polymers)Like in the mats, in these polymers values for Λ will be of the order of 100 nm for vF 5 105 m/s [90m[\cite=Kohlman97].[0mIn the metallic polymers homogeneous and inhomogeneous disorder models [90m[\cite=Kohlman97][\cite=Chapman99][0m are frequently used to explain these extreme values. For the nanotubes crystalline regions are excluded (TEM pictures show the nanotube mats to be completely entangled and disordered)which at least for the SWNT-mats requires an alternative for the inhomogeneous disorder model.
+
+[38;5;1m‖[0m In summary, we have shown that the delocalized properties of nanotube mats can be completely determined by sub-THz measurements and are well described in a Drude picture with a negligible temperature dependence of the plasma frequency and scattering time. The values of ωp and τ resemble those found in well conducting doped polymers. When modeled with the usually chosen Fermi velocities, unusually large values of the mean free path result for both systems. This finding and the absence of crystalline regions in the mats underline the need for a better description of these disordered [90m[[0m[38;5;1mstrandlike[0m[90m/[0m[38;5;22mstrand-like[0m[90m][0m systems.
+
+[38;5;1m‖[0m Acknowledgements. We like to acknowledge Hubert Martens for enlightening discussions and critical reading of the manuscript and Roel Smit for support in the experiments with the [90m[[0m[38;5;1m3 He[0m[90m/[0m[38;5;22m3He[0m[90m][0m cryostat. This investigation is [38;5;1m==[0m part of the research program of FOM-PPM with financial support from NWO. M. Ahlskog was supported by the Academy of Finland. [48;5;167m[1] N. Hamada, S. Sawada and A. Oshiyama, Phys. Rev.[0m
+[48;5;167mLett. 68, 1579 (1992)[2] J.W.G. Wildöer et al.Nature 391, 59 (1998)[3] J. E. Fischer et al.Phys. Rev. B 55, R4921 (1997)[4] C. L. Kane et al.Europhys. Lett. 41, 683 (1998)[5] A. B. Kaiser et al.Phys. Rev. B 57, 1418 (1998)[6] P. Petit et al.Phys. Rev. B 56, 9275 (1997)[7] M. S. Fuhrer et al.Sol. Stat. Comm. 109, 109 (1999)[8] R.S. Lee et al.Nature (London) 388, 255 (1997)[9] ǫ0 ǫ′(ω) σ (ω)ω and ǫ0 (ǫ′ (ω) 1) σ (ω)ω.[0m
+[48;5;167m[10] B. Chapman et al. Phys. Rev. B 60, 13479 (1999)[11] H. Scher and M. Lax, Phys. Rev. B 7, 4491 (1973)[12] W. Schirmacher, Ber. Bunsenges. Phys. Chem. 95, 368[0m
+[48;5;167m(1991)[13] L.J. Adriaanse et al.Phys. Rev. Lett. 78, 1755 (1997)[14] N.W. Ashcroft and N.D. Mermin, ”Solid State Physics”Saunders College Publishers, Fort Worth (1976)[15] The nanotube-solutions were provided by Tubes@Rice.[0m
+[48;5;167m[16] A. Thess et al.Science 273, 483 (1996)[17] A. G. Rinzler et al.Appl. Phys. A 67, 29 (1998)[18] A. Ugawa, A.G. Rinzler, and D.B. Tanner, Phys. Rev. B[0m
+[48;5;167m60, R11305 (1999)[19] J. A. Reedijk et al.to be published in Rev. Sci. Instr.[0m
+[48;5;167m[20] C. Kane and E.J. Mele, Phys. Rev. Lett. 78, 1932 (1997)[21] J.A. Reedijk et al.Phys. Rev. B 57 R15116 (1998)[22] S.J. Tans et al.Nature (London) 386, 474 (1997)[23] A.A. Farajian et al.Phys. Rev. Lett. 82, 5084 (1999)[24] J.W.Mintmire et al.Phys. Rev. Lett. 68, 631 (1992)[25] A. Bezryadin et al.Phys. Rev. Lett. 80, 4036 (1998)[26] H. Böttger and V.V. Bryskin, ”Hopping Conduction in[0m
+[48;5;167mSolids”Akademie-Verlag, Berlin (1985)[27] J. Hone et al.Phys. Rev. Lett. 80, 1042 (1998)[28] In these 3-dimensional mats of SWNTs we do not expect[0m
+[48;5;167mto see the typical one-dimensional characteristics of isolated armchair-SWNT behavior, see R. Egger and A.O.[0m
+[48;5;167mGogolin, Phys. Rev. Lett. 79, 5082 (1997)and C. Kane,[0m
+[48;5;167mL. Balents and M.P.A. Fisher, Phys. Rev. Lett. 79, 5086[0m
+[48;5;167m(1997)[29] K. Lee, R. Menon, C.O. Yoon and A.J. Heeger, Phys.[0m
+[48;5;167mRev. B 52, 4779 (1995)[30] R.S. Kohlman et al.Phys. Rev. Lett. 77, 2766 (1996)id.78, 3915 (1997)[31] Recently Ugawa et al. [18] found negative values of ǫ[0m
+[48;5;167mabove 100 cm−1 or 0.1 eV, which is higher than the[0m
+[48;5;167mplasma energy of 0.02 eV found here. These results can be[0m
+[48;5;167mreconciled by adopting the picture that already in the far[0m
+[48;5;167minfrared localized states dominate, or point to essential[0m
+[48;5;167mdifferences between the mats.[0m
+
+[48;5;167m4[0m
+

@@ -1,0 +1,2 @@
+- add legend window
+- use pdfs from arxiv-server (tmp.pdf method)

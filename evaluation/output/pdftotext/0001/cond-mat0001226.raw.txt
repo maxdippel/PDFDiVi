@@ -1,0 +1,1778 @@
+arXiv:cond-mat/0001226v2 [cond-mat.mes-hall] 31 Jul 2000
+
+1
+
+Quantum Hall Solitons with Intertwined Spin and Pseudospin at
+ν = 1
+Sankalpa Ghosh and R. Rajaraman∗
+School of Physical Sciences
+Jawaharlal Nehru University
+New Delhi 110067, INDIA
+
+Abstract
+In this paper we study in detail different types of topological solitons which
+are possible in bilayer quantum Hall systems at filling fraction ν = 1 when spin
+degrees of freedom are included. Starting from a microscopic Hamiltonian we
+derive an effective energy functional for studying such excitations. The gauge
+invariance and CP 3 character of this energy fuctional and their consequences
+are examined. Then we identify permissible classes of finite energy solutions
+which are topologically non-trivial. We also numerically evaulate a representative solution in which a pseudospin (layer degrees of freedom) bimeron in a
+given spin component is intertwined with spin-skyrmions in each layer , and
+and discuss whether it is energetically favoured as the lowest lying excitation
+in such system with some numerical results.
+
+I. INTRODUCTION
+
+Systems which permit topological excitations, i.e. where field configurations can be
+classifield by homotopy sectors characterised typically by some winding number, have been
+studied in a general sense in mathematical physics for a long time. That such interesting
+possibilities can actually arise and play a significant role in the Quantum Hall physics was
+2
+
+demonstrated in the work of of Sondhi et al [1]. They showed that for example , in a
+single layer Hall liquid at filling factor ν = 1, the lowest energy excitations in spin, for low
+Zeeman coupling are the so-called Skyrmions and not single spin flips. These Skyrmions
+are topological excitations in the spin texture, in which the spin starts being, say, ”up”
+at the origin and as you go outwards, starts tilting down in a flared manner to become
+asymptotically ”down” spin at large distances. Subsequently experimental support for the
+existence of such excitations was also discovered in NMR measurements [2].
+Meanwhile Quantum Hall phenomena have also been studied in double layer systems [3],
+[4]. The double well Hall plateaux at unit filling can be understood by associating with each
+electron a ”pseudospin” in addition to its lowest Landau level (LLL) orbital wavefunction
+[5], [6]. The up and down components of this pseudospinor give the probability amplitudes
+for the electron being in the upper and lower layer respectively. The ground state of the
+ν = 1 double layer system, known to be a quantum Hall state with a Hall conductivity
+plateaux is a pseudospin ferromagnet, with the pseudospin aligned in the x-direction. This
+is a very remarkable phenomenon in that it amounts to interlayer coherence between the
+electrons in the two layers. This pseudospin degree of freedom is in addition to physical
+spin. To start with, in analysing double layer phenomena, the spin degrees of freedom are
+suppresed for simplicity. Even then one can still consider excitations in the pseudospin.
+Inspired by the presence of Skyrmions in spin, people have also considered the possibility
+of topological excitations in pseudospin. Such pseudospin textures called ”merons” and
+”bimerons” have been suggested as possible low lying excitations of double layer systems [5].
+The homotopy group π2 [S2 ] and its winding number are identical for spin and pseudospin
+since mathematically pseudospin is identical to spin, both being SU(2) spinor fields on
+a plane. The change in terminology from Skyrmions to bimerons does not indicate any
+topological difference between the two in going from spin to pseudospin excitations but only
+differences in their detailed profiles. This difference in turn happens because of the difference
+in the energetics of spin and pseudospin and correspondingly , their asymptotic direction.
+Meron excitations , if present in double layers, can give rise to a Kosterlitz-Thouless (KT)
+3
+
+[7] transition which may be enable them also to be experimentally observable.
+Clearly there are prospects of even more esoteric excitations when both spin and pseudospin degrees of freedom are considered simultaneously. That is the theme of this present
+work. We will continue to study the unit filling factor (ν = 1) case. There has already
+been some discussion of the combined spin-pseudospin ν = 1 double layer system [8], [9].
+Our work discusses diferent aspects of the problem than these studies. We analyse in substantive detail intertwined spin-pseudospin topological excitations of this system . When
+both spin and pseudospin are active degrees of freedom , these are together described by
+a 4-component object. This 4-component object has been referred to as a CP3 spinor in
+the literature [9]. That is correct, but needs to be justified. A theory does not become a
+CP3 theory just because its field is a normalised 4-component object. The system must
+enjoy a U(1) gauge invariance, which is what makes the spinors span a projective space,
+implied in the acronym CP. Without that gauge invariance the beautiful results on CPN in
+the literature [10], [11] cannot be borrowed.
+So we begin in sec. II by showing, starting from the basic microscopic theory of the
+ν = 1 system that in the effective LLL theory for the spin-pseudospin texture such gauge
+invariance is there. This is a straightforward derivation following the procedure developed
+by Moon et al [6]. In fact we find that in the limit where the layer-separation d vanishes,
+the Coulomb interaction energy is precisely the protoype CP3 Euclidean action used in the
+pioneering papers on that topic [10], for which exact topological solutions are known in terms
+of analytic functions. Of course, when d 6= 0, the energy functional is more complicated and
+these analytical solutions do not hold. But the theory is still a CP3 theory, and the homotopy
+classification of the solutions still holds. Only the solutions themselves have to be calculated
+numerically.
+A topologically non-trivial CP3 solution will generally involve an intertwined texture in
+the physical spin in each layer as well as in the pseudospin of each physical spin projection.
+One can ask whether such solutions can be legitimately interpreted as containing, as subsystems, spin-Skyrmions in either or both of the layers, possibly intertwined with a pseudospin
+4
+
+meron or bimeron . If so, then such possibilities of containing several topological entities
+as subsystems has to be made compatible with the fact that any finite energy CP3 texture
+carries altogether only one topological winding number. We study all these questions in
+sec.III and find that there are certain restrictions on the types of solutions permitted. We
+show that the individual layers of a double layer system cannot accomodate all possible spin
+structures one may find in a pair of unrelated single layers. The spin winding numbers in
+the two layers are related to one another and to the pseudospin winding number.
+Consistent with these restrictions, we then pick in sec IV a representative ansatz which
+can be viewed as a spin-Skyrmion intertwined with a pseudospin bimeron. We then numerically evaluate such a solution by solving the coupled nonlinear partial differential equations
+that arise from extremising the texture energy functional. In earlier work [12], [13] we had
+studied in some detail both meron and bimeron excitations in pseudospin for double layer
+systems, with the spin degree of freedom suppresed. The present calculation is a more complicated version with CP3 spinors, but is done by similar numerical techniques. We present
+the spin and pseudospin proflies of our intertwined solutions for different values of interlayer
+separation.
+We also estimate the interaction energy of these solutions for some typical sets of values of
+system parameters. We discuss the dependence of this energy on the separation between the
+two meron centers. We find , as expected, that if only the gradient and capacitance energies
+are considered ,their minimisation will drive the textures towards zero size. Therefore we also
+calculate the topological charge dependent Coulomb energy of our solutions which, being
+repulsive , should drive the merons farther apart, offsetting the above tendency towards zero
+size. Then we extremise the total energy so obtained and find that it does show a minimum
+at some optimal meron separation, for each value of layer separation.
+We also find that these energies are approximately of the same order as those of purely
+spin Skyrmions of the single layer system. We make qualitative speculations on whether
+or not our spin-pseudospin intertwined solitons can be energetically favoured over solitons
+purely in spin or pseadospin, or over simple spin-flips.
+5
+
+II. TEXTURE ENERGY AND ITS GAUGE INVARIANCE
+
+In a double layer quantum Hall system with both spin and pseudospin degrees of freedom
+present, an electron will carry, apart from its coordinate wavefunction φX (~r), a 4-component
+normalised spinor whose components in general may vary with the orbital quantum number
+X. For any given X, this spinor can be denoted by
+
+
+aσ (X)
+
+=
+
+a1 (X)
+
+
+
+
+
+
+
+ a2 (X) 
+
+
+
+
+
+
+ a3 (X) 
+
+
+
+
+
+(2.1)
+
+a4 (X)
+
+where the spin-pseudospin index σ = 1, 2, 3, 4 corresponds to amplitudes that the electron
+is in the upper-layer up-spin, upper-layer down- spin, lower layer up-spin and lower -layer
+down-spin states respectively. It will henceforth be understood that the spinor is normalised,
+i.e.
+
+P
+
+σ
+
+| aσ (X) |2 = 1 for each X In the literature, this aσ has sometimes been referred to as a
+
+CP3 spinor (see for instance Ezawa [9]). That is correct, but requires a little justification. In
+a CP3 theory, the spinor must not only be normalised 4-component object, but be defined
+only modulo a local gauge transformation common to all four components. This in turn
+requires that the Euclidean action or static energy functional of the spinor field enjoy a
+corresponding gauge invariance. In this section we will verify all this. We will also see that
+the nature of the gauge symmetry is different for a double layer system than for a pair of
+isolated single layers. This, as we shall see, has the important consequence of prohibiting
+certain topological spin excitations in the double layer system which would have been present
+in the individual layers had they been far apart. In this way, along with establishing the
+CP3 nature of the system we will also identify permissible types of excitations where the
+spin and pseudospin are nontrivially intertwined, some of which we numerically evaluate in
+later sections.
+Let us start by deriving the energy functional of any spin-pseudospin texture from the
+microscopic Hamiltonian. This is just a straightforward generalisation of the procedure
+6
+
+already in the literature for the simpler case of a spinless bilayer problem [6]. Therefore we
+need to present only the essential equations needed for completeness and understandability.
+We take the microscopic Hamiltonian to be
+H = HK + H1 + HC
+
+(2.2)
+
+Here
+HK =
+
+4 Z
+1 X
+d~rψσ† D 2 ψσ
+2m σ=1
+
+(2.3)
+
+is the kinetic energy in the presence of the magnetic field. We will be working at ν = 1 in
+the lowest Landau level (LLL) approximation. Corespondingly, the operator ψσ (~r) is the
+LLL-projected electron field operator expanded in terms of Lowest Landau Level orbitals as
+ψσ (~r) =
+
+N
+X
+
+φX (~r) CσX
+
+(2.4)
+
+X=1
+
+with φX (~r) being a LLL orbital, say, in the Landau gauge with X as its guiding center.
+The second term in the Hamiltonian is the one body term representing the Zeeman and
+interlayer tunnelling energies.
+XZ
+
+H1 =
+
+σ,δ
+
+d~rψσ† (~r) (g̃σ̂z − tτ̂x )σδ ψδ (~r)
+
+(2.5)
+
+where σ̂z and τ̂x are spin and pseudospin matrices suitably generalised as 4 × 4 matrices on
+the outer product space of spin and pseudospin.
+The third term in the Hamiltonian is the Coulomb term :
+HC
+
+4
+1 X
+=
+2 σ1 ,σ2 =1
+
+Z
+
+d~r1 d~r2 ψσ† 1 (~r1 )ψσ† 2 (~r2 )V σ1 σ2 (~r1 − ~r2 )ψσ2 (~r2 )ψσ1 (~r1 )
+
+(2.6)
+
+In the above , the Coulomb potential V σ1 σ2 depends on whether the particles are in the
+same layer or different layers
+V σ1 σ2 = v s ≡
+
+e2
+ǫ r12
+
+.... σ1 , σ2 in same layer,
+
+e2
+V σ1 σ2 = v d ≡ q
+2
+ǫ r12
++ d2
+
+.... σ1 , σ2 in dif f erent layers
+7
+
+(2.7)
+
+where d is the interlayer distance. To obtain the energy of an arbitrary spin-pseudospin
+texture, we adopt the strategy followed in the work of Moon et al [6]. We first consider the
+ansatz state
+| Ψi =
+
+†
+aσ (X)] | 0i
+CσX
+
+Y X
+
+[
+
+X
+
+σ
+
+(2.8)
+
+where | 0i is the vacuum (no electron) state , X stands for Landau gauge orbitals and aσ (X)
+is an orbital dependent 4-spinor as in eq.(2.1). In the high-B limit each Landau gauge orbital
+density is uniform along the y-axis with support on a thin line localised around some value
+of x. Further these states are closely spaced along the x-direction. Using this feature, we
+will later on replace the orbital label X by the x-coordinate itself. In that case the above
+texture aσ (X) depends only on the x-coordinate and not on y, and therefore carries zero
+topological number density (see eq.( 3.14) below). Nevertheless we will use this ansatz to
+calculate its energy functional, and then later that energy functional to the more general and
+topologically non-trivial textures by invoking isotropy of the system in the x-y plane. This
+was the exactly the strategy used in ref( [6]). We will calculate the energy functional of the
+spin-pseudospin texture (2.8) by taking the mean value of the second quantised Hamiltonian
+in that state .
+At unit filling ν = 1, and in the space of LLL orbitals the kinetic term HK is just a
+constant equal to (N/2)h̄ω ,the energy of the filled LLL band. This constant will henceforth
+be neglected.
+The Zeeman and tunnelling one-body energies yield
+E1 [aσ (X)] =
+
+X
+X
+
+
+
+2
+
+2
+
+2
+
+g̃ |a1 (X)| − |a2 (X)| + |a3 (X)| − |a4 (X)|
+
+
+
+− t a1 (X)a∗3 (X) + a2 (X)a∗4 (X) + c.c.
+
+
+
+2
+
+
+
+(2.9)
+
+The expectation value of the Coulomb interaction Hamiltonian can be convenientlly
+written in terms of the following spinorial bilinears for the upper(u) and lower(l) layers
+Fu (X) = |a1 (X)|2 + |a2 (X)|2
+8
+
+(2.10)
+
+Fl (X) = |a3 (X)|2 + |a4 (X)|2
+Gu (X1 , X2 ) =
+
+X
+
+(2.11)
+
+ai (X1 )ai∗ (X2 )
+
+(2.12)
+
+ai (X1 )ai∗ (X2 )
+
+(2.13)
+
+i=1,2
+
+Gl (X1 , X2 ) =
+
+X
+
+i=3,4
+
+On inserting HC from (2.6) and the state Ψ from (2.8) straightforward algebra then gives
+us the Coulomb energy in terms of the spinors aσ .
+EC [aσ (X)] ≡ hΨ | HC | Ψi = hHC idirect − hHC iexchange
+
+(2.14)
+
+with
+hHC idirect =
+
+1 X
+D s + (D d − D s )(Fu (X1 )Fl (X2 ) + Fl (X1 )Fu (X2 ))
+2 X1 ,X2
+
+
+
+
+(2.15)
+
+and
+hHC iexchange
+
+1 X
+E s (|Gu |2 + |Gl |2 ) + E d (G∗u Gl + Gu G∗l )
+=
+2 X1 ,X2
+
+
+
+
+(2.16)
+
+Here
+D s,d (X2 − X1 ) = VXs,d
+1 ,X2 ,X1 ,X2
+E s,d (X2 − X1 ) = VXs,d
+2 ,X1 ,X1 ,X2
+
+(2.17)
+
+with
+VXsd1 ,X2 ,X3 ,X4 =
+
+Z
+
+d~r1 d~r2 V s,d(~r1 − ~r2 ) × φ∗X1 (~r1 )φ∗X2 (~r2 )φX3 (~r1 )φX4 (~r2 )
+
+(2.18)
+
+These direct and exchange Coulomb interaction matrix elements D s,d and E s,d between two
+electrons in LLL orbitals X1 and X2 , in the same(s) or different(d) layers, are exactly the
+same as were used in the spinless double layer problem by Moon et al [6]. However, the
+inclusion of the physical spin degrees of freedom is reflected in the energy expressions in 2.15
+and 2.16 , which involve all four components of the spin-pseudospin multiplet aσ .
+Adding the contributions in eq.(2.14) and eq.(2.9) we get the total energy expectation
+value
+9
+
+E[aσ (X)] = E1 [aσ (X)] + EC [aσ (X)]
+
+(2.19)
+
+In the Hartre-Fock approximation, this energy expectation value E[aσ (X)] in eq.(2.14) will
+be minimised to get the ground state and excited state spin-pseudospin textures.
+But, let us first examine the gauge invariance of the energy functional E[aσ (X)]. Consider
+the transformation
+aσ (X) → eiΛu (X) aσ (X)
+
+f or σ = 1, 2
+
+aσ (X) → eiΛl (X) aσ (X)
+
+f or σ = 3, 4
+
+(2.20)
+
+Notice that we have used different phases Λu (X) and Λl (X) for the upper and lower layer
+components respectively. This is a U(1) × U(1) transformation. These phases can also vary
+with the orbital index X. [ Note : X is not the space coordinate. But, following accepted
+approximations (see ref [6]) eventually the sum over the orbital index X will be converted
+into an integral over space coordinate, invoking the fact that for large magnetic fields, each
+LLL orbital wavefunction is highly localised. Hence the above X dependent transformation
+corresponds to spatially local gauge transformations.]
+Under these local U(1)×U(1) transformations, the one-body Zeeman energy in (2.9) and
+the direct part of the Coulomb energy (2.15) are trivially invariant since they involve only
+the squared-modulus of aσ (X) . So is the first part (proportional to E s ) of the exchange
+Coulomb energy (2.16) . But the tunnelling energy in (2.9) and the second piece of the
+exchange energy (2.16), which involves exchange Coulomb interaction E d between different
+layers are invariant only if
+Λu (X) = Λl (X) = Λ(X)
+
+(2.21)
+
+Thus the full energy of the double layer system enjoys only a U(1) subgroup of U(1) × U(1)
+defined in (2.20) – a subgroup where all 4 components of aσ are transformed by the same
+phase. This is the U(1) gauge invariance modulo which our CP3 spinors are defined.
+Consider, however, what would happen if we had very widely separated ν = 1 layers
+(the separation d → ∞). Then each can have its own 2-component spin texture described
+10
+
+by a CP1 system (equivalent to a non-linear O(3) sigma model) with its own U(1) gauge
+symmetry (see [5] and [11]). The well separated pair of layers should enjoy U(1) × U(1)
+gauge symmetry. Our derivation shows a similar effect. When d → ∞, both the tunnelling
+parameter t in (2.9) and the interlayer Coulomb potential v d involved in (2.16) would vanish
+and the full U(1) × U(1) gauge invariance would indeed be restored. We will see later that
+this reduced gauge symmetry of a double-layer system at finite separation has consequences
+in terms of what types of finite energy excitations are permitted in it as compared to a pair
+of isolated single layers.
+
+III. GRADIENT EXPANSION AND THE CP3 FIELD THEORY
+
+To rewrite the energy expression 2.19 in a continuum field theory language, we proceed
+following Moon et al [6] and convert sums over the LLL label X into an integral over space.
+Clearly the one body energy (2.9), which involves only a single sum over the index X, will
+become a local term, i.e. a spatial integral over the 1-body energy density. But the Coulomb
+term (2.14) containing a double sum over X1 and X2 will become a non-local term involving
+a double integral over some coordinates x1 and x2 . For long wavelength excitations one then
+makes the usual gradient expansion . Expand the spinor for X2 as
+aσ (X2 ) = aσ (X1 ) + ((X2 − X1 )
+
+∂
+aσ (X1 ) + .....
+∂X1
+
+(3.1)
+
+Up till now we found the energy of textures which were y-independent.
+Now we will invoke the isotropy of the basic system in the x-y plane and generalise this
+expression for arbitrary textures by This is done by making the replacement
+X
+X
+
+1
+→
+2πl2
+
+Z
+
+d2 r
+
+(3.2)
+
+and by replacing x-derivatives by gradients. Insert the above expansion (3.1) into the
+2
+Coulomb energy expressions (2.13 - 2.16). Keep terms only upto order ∂X
+and replace
+1
+
+the sum
+
+P
+
+X1
+
+by an integral over space as indicated. (These steps are given in the Moon et
+11
+
+al work [6] for the simpler spinless double layer case). The result, for our problem , is the
+following local expression for the total energy (2.19), with overall constants subtracted out :
+E[aσ ] =
+
+1
+2πlZ2
+
++ βm
+
+s
+
++ 2ρ
+
+Z
+
+Z
+
+
+
+
+
+
+
+
+
+dr g̃ |a1 |2 − |a2 |2 + |a3 |2 − |a4 |2 − t a1 a∗3 + a2 a∗4 + h.c.
+
+
+
+dr(Fu (~r) − Fl (~r))2
+dr
+
+ X
+
+i∗
+
+µ i
+
+(∂µ a (~r)∂ a (~r)) + (
+
+Z
+
+i∗
+
+i
+
+a (~r)∂µ a (~r)
+
+i=1,4
+
+i=1,4
+
++ (ρd − ρs )
+
+X
+
+
+
+2
+
+
+
+~ 2 (a3 a1∗ ) + a1 a4∗ ∇
+~ 2 (a4 a1∗ )
+dr a1 a3∗ ∇
+
+2 3∗ ~ 2
+
+2 4∗ ~ 2
+
+3 2∗
+
+4 2∗
+
+
+
++ a a ∇ (a a ) + a a ∇ (a a ) + h.c.
+
+(3.3)
+
+where the constants appearing above are defined by
+βm
+
+1 X
+=
+(E d (X2 − X1 ) − E s (X2 − X1 )) − (D d (X2 − X1 ) − D s (X2 − X1 ))
+4 (X2 −X1 )
+
+
+
+
+(3.4)
+
+ρs =
+
+1
+2
+
+(X2 − X1 )2 s
+E (X2 − X1 )
+2
+(X2 −X1 )
+
+(3.5)
+
+ρd =
+
+1
+2
+
+(X2 − X1 )2 d
+E (X2 − X1 )
+2
+(X2 −X1 )
+
+(3.6)
+
+X
+X
+
+These constants are again the same as given by Moon et al [6] in the spinless double layer
+problem. The term involving β represents the ”capacitance energy” of the double layer
+system. It is proportional to the square of Fu (~r) − Fl (~r), which gives the difference in charge
+density between the two layers. The constants ρs and ρd represent spin-pseudospin stiffness
+coming from intralayer and interlayer Coulomb interaction respectively.
+This energy functional 3.3 will act as the effective classical Hamiltonian to be minimised
+to find different textured solutions. The ground state will correspond to a spatially uniform
+texture, and so can be obtained by minimising the gradient-free terms in 3.3. This is acheived
+by the spinor aσ (X) =
+
+√1 (0, 1, 0, 1).
+2
+
+The one-body Zeeman and tunnelling energies are
+
+clearly minimised by this choice since the spin is polarised ”down” in both layers and the
+psuedospin is along the x-direction, i.e. a layer-symmetric state. This choice also minimises
+the capacitance energy since it has equal occupancy in the two layers Fu = Fl = 21 .
+12
+
+Moving on to excited states with non-trivial textures, these are obtained by extremising
+the full energy functional (3.3). Note that (3.3) including its gradient terms is still gauge
+invariant under the local U(1) transformation mentioned earlier,
+aσ (X) → eiΛ(X) aσ (X)
+
+(3.7)
+
+so that this is still a CP3 theory. In fact the term proportional to the isotropic spinpseudospin stiffness ρs , namely ,
+ECP ≡ 2ρs
+
+Z
+
+dr[
+
+(∂µ ai∗ (~r)∂ µ ai (~r)) + (
+
+X
+
+i=1,4
+
+X
+
+ai∗ (~r)∂µ ai (~r)2 ]
+
+(3.8)
+
+i=1,4
+
+is the Euclidean action for the prototype minimal CP3 theory [10]. Indeed, in the limit
+where the layer separation d is zero, this ECP will be the only surviving term from the
+Coulomb energy in 3.3 since the interlayer and interlayer Coulomb potentials will become
+equal ( (v s = v d )) and hence both β and ρs − ρd will vanish.
+The properties of this prototype CP3 system and its topological solitons are well known
+[10], [11]. Let us briefly recall those salient features which will be of relevance to us. Define
+a gauge field Aµ as follows.
+Aµ ≡ i
+
+[a∗σ ∂µ aσ ]
+
+X
+
+(3.9)
+
+σ
+
+Clearly under the gauge transformation 3.7 ,
+Aµ → Aµ − ∂µ Λ
+
+(3.10)
+
+The energy ECP can then be written in a manifestly gauge invariant manner as
+s
+
+ECP ≡ 2ρ
+
+Z
+
+dr[
+
+4
+2
+X
+X
+
+σ=1 µ=1
+
+| Dµ aσ (~r) |2
+
+(3.11)
+
+where Dµ = ∂µ + iAµ is the covariant derivative of the U(1) gauge transformation. Then
+any finite energy field must obey, as ~r → ∞, the boundary condition
+Dµ aσ = (∂µ + iAµ )aσ = 0
+
+(3.12)
+
+Since Aµ is independent of the spinor index σ, this implies ( see [11]) that as ~r → ∞,
+13
+
+aσ → bσ eiφ(θ)
+
+(3.13)
+
+where bσ is some constant spinor . The important point is that all four components of aσ
+have the same asymptotic phase φ which may depend on the spatial angle θ. The underlying
+reason is that the system is invariant under the same single U(1) gauge transformation 3.7
+acting on all the four components of aσ . Finally, the phase function eiφ(θ) as ~r → ∞ is
+a mapping of one circle (spatial infinity) into another (the U(1) group manifold), and can
+therefore be divided into homotopy classes characterised by a winding number
+
+
+i Z 2
+∗
+Q = −
+d r ǫµν (Dµ aσ ) (Dµ aσ )
+2π
+
+(3.14)
+
+For more details supporting these results see ref [11]. Exact soliton solutions for the minimal
+CP3 system also known analytically in terms of analytic functions. Those will not however
+hold for our full system 3.3 which has to be used when the layer separation d 6= 0. The solutions will have to be obtained numerically by using appropriate ansatz. But the boundary
+condition 3.13 and the winding number classification will still hold. They can be used to
+decide what forms of intertwined spin-pseudospin solitons are permitted in double layers.
+An important consequence of the common phase boundary condition 3.13 is that certain
+spin textures one can imagine having for two separate single layers are not permissible in
+the double layer system. Consider a single layer at ν = 1 carrying a Skyrmion with winding
+number n. This is a finite energy configuration which can be described by a 2-component
+spinor, say,
+
+
+
+
+
+λ(r)
+f (r)einθ
+
+obeying boundary conditions as r → ∞ given by
+
+
+
+
+
+
+λ(r) → 0
+f (r) → 1
+and as r → 0
+14
+
+λ(r) → 1
+f (r) → 0
+
+(3.15)
+
+One can have two such layers, widely separated, with two different spin-winding numbers
+n and m respectively. Nothing prohibits this . However suppose the two layers are part of
+a ν = 1 double layer system at finite d , and are described by a CP3 4-spinor
+
+1
+√
+2
+
+
+
+λ1 (r)
+
+
+
+
+
+
+
+ f1 (r)eimθ 
+
+
+
+
+
+
+ λ2 (r) 
+
+
+
+
+
+(3.16)
+
+f2 (r)einθ
+
+This would violate the condition 3.13 since asymptotically the second and fourth components
+would have different phase functions. Such a texture is forbidden as per our analysis and
+indeed if one calculates its energy by inserting it in 3.3 one will find the energy diverging
+logarithmically. The divergence comes from the angular derivative of
+
+1 2
+∂
+r2 θ
+
+contained in the
+
+Laplacians ∇2 in 3.3. That yields a contribution to the energy density proportional to
+n2 + m2 (n + m)2
+−
+2r 2
+4r 2
+
+(3.17)
+
+as r → ∞ which will lead to a logarithmic divergence unless n = m. At the theoretical level
+the reason for this can be traced to the reduction of gauge symmetry discussed earlier, from
+U(1) × U(1) to U(1) when two layers are together.
+Keeping in mind this constraint of equal spin-winding numbers in each layer, let us illustrate non-trivially intertwined spin-pseudospin configurations with the following example
+that is allowed :
+
+
+λ1
+
+
+
+
+
+
+
+z − b
+
+
+
+A
+
+
+ λ2 
+
+
+
+
+
+(3.18)
+
+z+b
+
+Here λ1,2 and b are non-zero constants while z is the complex coordinate on the plane.
+A = (λ21 + | z − b |2 +λ22 + | z + b |2 )−1/2 is the normalisation factor. Asymptotically, the
+15
+
+first and third components of 3.18 both behave as
+
+√1 eiθ
+2
+
+while the other two components
+
+vanish. This is therefore a permitted (energetically finite) CP3 configuration with winding
+number Q = 1.
+One can see that this example is so designed that within each layer the spin texture
+looks like that of a single Skyrmion, while at the same time it is also a ”bimeron” in the
+”psuedospin of the down-spin component” (contained in the second and fourth components
+of the 4-spinor of 3.18. See ref ( [13]) for more on bimerons.) But, we should remember that
+the the upper and lower layers are not separately normalised in the example 3.18. As ~r varies
+so does the relative charge density in the two layers. Thus the spin vector in the upper (or
+lower) layer in 3.18 will not be a unit vector at every point unless it is is locally renormalised
+by the charge density of that layer at that point. Similarly, while the pseudospin of the
+down-spin component in the example 3.18 forms a bimeron, this pseudospin will also be a
+unit vector at each ~r only after being renormalised by the down-spin density, which varies
+from point to point. Such renormalisation can be achieved by writing any general CP3
+4-spinor (2.1) in terms of spin and pseudospin polar angles.
+
+
+aσ =
+
+
+
+
+
+
+
+
+
+
+
+cos α2 cos θ2u
+α
+2
+
+cos sin
+
+θu iφu
+e
+2
+
+sin α2 cos θ2l eiβ
+sin α2 sin θ2l ei(β+φl )
+
+
+
+
+
+
+
+
+
+
+
+
+(3.19)
+
+where the angles θu.l , and φu,l are the polar angles of the spin in the upper(lower) layer
+while α and β are the polar angles of the pseudospin, each of which is a the function of
+the coordinate ~r. (Recall that CP3 spinor has 6 real gauge invariant degrees of freedom.
+) Suppose we tentatively define, using these polar angles the familiar expression for the
+spin-Skyrmion number in each layer by
+nu,l
+
+1
+=
+4π
+
+Z
+
+d2 rǫµν ∂µ (cosθu,l ) ∂ν (φu,l )
+
+(3.20)
+
+One can then verify that the configuration 3.18 indeed yields unit spin-winding numbers
+nu,l = 1 in each layer.
+16
+
+Similarly , to get the pseudospin winding number one uses an alternate parametrisation
+of the same 4-spinor.
+
+
+aσ =
+
+
+
+
+
+
+
+
+
+
+
+cos
+
+α↑
+2
+
+cos θ2s
+
+cos
+
+α↓
+2
+
+sin
+
+sin
+
+α↑
+2
+
+cos θ2s eiβ↑
+
+sin
+
+α↓
+2
+
+θs iφs
+e
+2
+
+sin θ2s ei(β↓ +φs )
+
+
+
+
+
+
+
+
+
+
+
+
+(3.21)
+
+Then the pseudospin winding number for the down spin component, for example, can be
+written as
+1
+nps (↓) =
+4π
+
+Z
+
+d2 rǫµν ∂µ (cosα↓ ) ∂ν (β↓ )
+
+(3.22)
+
+Again, the example 3.18 happens to yield nps (↓) = 1 in addition to, as we have seen, nu,l = 1 .
+Thus the example 3.18 illustrates an intertwined spin- pseudospin topological configuration,
+containing the spin texture of a Skyrmion in each layer and the pseudospin texture of a
+bimeron in the down-spin component.
+One should however be cautioned that there is only one true topological charge Q in
+the full CP3 theory, given in eq. (3.14). Although the above example (3.18) contains the
+texture of two Skyrmions and a bimeron, its CP3 topological index Q obtained by inserting
+it into eq. (3.14) will come out to be not 3 , but unity. The separate sub-charges for spin
+and pseudospin defined in (3.20) and (3.22) in general do not have the same sanctity as they
+would have had for Skyrmions in a single layer or bimeron in a spinless problem. Although
+in the above example these separate spin and pseudospin winding numbers turn out to be
+integers, in general they need not be integers , or more importantly , be conserved in time.
+They are not protected by homotopy considerations in our full 4-component theory. The
+angles θu,l etc used in 3.19 cannot always be obtained from the original components aσ of the
+4-spinor 2.1 , since they are not defined at those singular points where α = π, 0 respectively.
+A similar remark holds for the other angles used above. The numbers nu,l and nps can
+change in time due to leakages through such singular points . It is however interesting to
+note that the exact CP3 winding number can be rewritten in expanded form using the angles
+17
+
+defined in 3.19 into parts that can be attributed to winding of spin and pseudospins. This
+also brings out the intertwining of spin - psedospin texture . We have,
+1
+Q=
+4π
+
+Z
+
+µν
+
+drǫ
+
+1
+∂µ (cosα)[( (1 − cos θu )∂ν φu −
+2
+
+
+
+1
+(1 − cos θl )∂ν φl − ∂ν β]
+2
+
+−Fu (~r)∂µ (cos θu )∂ν φu − Fl (~r)∂µ (cos θl )∂ν φl ]
+
+(3.23)
+
+where Fu (~r) = (1/2)(1 + cos α(~r)) and Fl (~r) = (1/2)(1 − cos α(~r)) are respectively the same
+quantities as in (2.10,2.11) and denote the number density in the top and bottom layers.
+For the spinless (spins fully frozen) case one can set θu , θl , φu andφl to be constants. Then
+one will recover the pseudospin topological charge formula
+nps
+
+1
+=−
+4π
+
+Z
+
+drǫµν ∂µ (cos α)∂ν β.
+
+(3.24)
+
+Similarly for a single layer (say the upper layer) case one can set α = 0 and recover the spin
+winding number formula
+1
+nu = −
+4π
+
+Z
+
+drǫµν ∂µ (cos θu )∂ν φu .
+
+(3.25)
+
+In the general, where both spin and pseudospin havesome intertwining texture, the full
+topological charge will receive contributions from the windings of all these, as given in 3.23.
+Finally, the very simple example 3.18 not only illustrates a nontrivial intertwining texture
+, it is also an exact solution of the prototype CP3 theory 3.8 since its components are
+analytic functions (see ref [11]). But, for our full theory in the presence of a non-zero layer
+separation and with Zeeman and tunnelling energies , classical solutions minimise the full
+energy functional 3.3, have to be obtained numerically by solving the non-linear coupled
+partial differential equations that the minimisation conditions yield. The simple analytical
+example 3.18 however will guide us in setting up the desired ansatz for the numerical solution
+with appropriate boundary conditions so that intertwined textures which are nontrivially
+wound in both spin and pseudospin can be obtained for our full theory. An illustrative
+family of such solutions is obtained in the next section.
+
+18
+
+IV. FIELD EQUATIONS AND THEIR SOLUTIONS
+
+Classical solutions that minimise the full energy functional 3.3 have to be obtained
+numerically. To do this we use the parametrisation of the spinor components of the form
+cos α2 cos θ2u
+
+
+
+aσ =
+
+
+
+ cos
+
+
+
+
+
+
+
+α
+2
+
+sin
+
+θu iφu
+e
+2
+
+0
+sin α2 eiφl
+
+
+
+
+
+
+
+
+
+
+
+
+(4.1)
+
+One can see that this is a sub-family of the general case in eq (3.19) where for simplicity
+we have set θl equal to π and β = 0.
+We will look for numerical solutions which would have corresponded ,if the energy had
+been of the simple prototype functional (3.18), to its exact analytic solution
+
+
+λ
+
+
+
+z
+
+A
+
+
+
+
+
+
+
+
+
+− b
+
+
+
+0 
+
+
+
+(4.2)
+
+z+b
+
+This configuration represents a spin skyrmion in the upper layer intertwined with a
+bimeron in the ” pseudopsin of the downspin component”. It does not have any non-trivial
+winding in the real spin of the lower layer (though the fourth component in the spinor varies
+over the coordinate space the spin will be always down). To ensure that our numerical
+solutions have the same topological properties as well as similar profiles as the prototype
+spinor (4.2) we impose the same boundary conditions on the components of the former as
+obtained in the latter, both asymptotically and at the meron centers centres x = ±b.
+In terms of the ansatz 4.1 the local energy functional (3.3) takes on the form
+α ~
+1 ~ 2
+2
+(∇α) + cos2 (∇θ
+d~r
+EC = βm d~r cos α + 2ρ
+u)
+4
+2
+
+
+1
+2
+2
+~
+~
++
+(1 + cos α)(1 − cos θu )(∇φu ) + 2(1 − cos α)(∇φl )
+4
+
+1
+~ u )2 + 4(1 − cos α)2 (∇φ
+~ l )2
+−
+(1 + cos α)2 (1 − cos θu )2 (∇φ
+16
+Z
+
+2
+
+s
+
+Z
+
+ 
+
+19
+
+
+
+~ u · ∇φ
+~ l
++ 4(1 − cos2 α)(1 − cos θu )∇φ
+
+
+
+1 ~
+~ 2)
+((∇ cos α)2 − (∇α)
+2
+
+
+1 ~ 2 1
+2
+~ u )2 + 2(∇φ
+~ l )2
+(1 − cos θu )(∇φ
++ sin α − (∇θ1 ) −
+8
+4 
+~ u · ∇φ
+~ l
++ 2(1 − cos θu )∇φ
+
++ (ρs − ρl )
+
+Z
+
+d~r
+
+
+
+(4.3)
+
+This energy functional has to be minimised with respect to all the angle fields in the
+anstatz. As we did in our earlier work on the spinless problem [13], here too we will use the
+bipolar co-ordinate system [16] to describe the spatial plane.
+η = ln|z − a| − ln|z + a| ; φ = arg(z − a) − arg(z + a)
+
+(4.4)
+
+We have already elaborated in [13] the advantages of this co-ordinate system when one
+has to impose the bimeron -type boundary conditions. However here the advantages of
+introducing such an unfamiliar co-ordinate system is not as much as in the simple spinless
+bilayer problem of [13] because the ansatz here is not symmetric between the two layers.
+Consequently unlike the spinless case cos α is no more antisymmetric about η = 0 axis. All
+these features along with the fact that the energy minimisation unavoidably requires solving
+coupled non-linear partial diffential equations ( p.d.e.) render the numerical exercise much
+more complicated here . What we have done under these circumstances is the following.
+We have solved the field equations numerically for the case where just the capacitance
+term is added to the minimal CP3 energy . ¿From our earlier calculations we know that
+this term is going to change the solutions considerably. The terms in each equation with the
+coefficient (ρs −ρl ), which accounts for the anisotropy in the exchange energy is not included
+in the process of numerical integration. As a justification of such simplification we can say
+that the anisotropic terms which involve higher order gradients of the spin pseudospin field
+will have less pronounced effect compared to the capacitance term on the solutions. This
+has been graphically shown in Fig. 1 and 2 of our earlier work [13]. Even after this drastic
+simplification we are still left with solving four coupled non-linear p.d.e’s . For example, the
+equation which is obtained by extremising the energy w.r.t cos α is
+20
+
+
+
+δEC
+δ cos α
+
+
+
+ρs =ρl
+
+
+
+= 2βm Q2s cos α + ρs − 2
+
+~ cos α)2
+cos α(∇
+(1 − cos2 α)2
+
+∇2 cos α
+~ u )2 − 2(∇φ
+~ l )2
++ (1 − cos θu )(∇φ
+−2
+2
+1 − cos α
+1
+~ u )2
+− (1 + cos α)(1 − cos θu )2 (∇φ
+4
+
+2
+~
+~
+~
++ (1 − cos α)(∇φl ) + cos α(1 − cos θu )(∇φu · ∇φl )
+=0
+
+(4.5)
+
+where
+Q2s (η, φ) =
+
+b2
+(cosh η − cos φ)2
+
+(4.6)
+
+is the Jacobian of this coordinate transformation and all gradient operators are defined in
+the bipolar-coordinate system [16]. Similarly we wil have three more equations obtained by
+extremising the energy functional with respect to θu , φu , φl and then writing the resulting
+equations in bipolar co-ordinates. We will not display them here.
+
+A. Numerical Procedure
+
+The numerical procedure is almost same as that in Ref. [13]. Here also one can see that
+the Jacobian factor Qs in the first term of the eq. 4.5 is singular at the point (η = 0, φ = 0).
+The behaviour of cos α near this point is also going to be same as the behaviour of mz in
+ref. ( [13]). The major difference compared to the earlier problem however comes from the
+fact that it is no longer sufficient to find out the solutions in one quadrant and get the rest
+from symmetry considerations. We have to solve this problem on both side of the η = 0 axis
+since our starting ansatz solution is not completely antisymmetric around η = 0. During
+the numerical work one also has to be careful about the different branches of the angles
+φu,l . As one needs to integrate the equations on the both sides of the η = 0 axis the size
+of the mesh on which we have to discretise the field equations becomes larger compared to
+the earlier case of spin-frozen double layer problem [13]. Also here we have to solve four
+21
+
+coupled p.d.e’s simultaneously. This simultaneous increase in the number of lattice points
+as well as independent fields demands that we have to invert a huge determinant in the
+Newton-Raphson procedure [17] while improving over the initial guess solution. This forces
+us to increase the lattice constants of the mesh slightly compared to what we have done in
+our earlier work [13]. However we have checked that the error introduced in this way is not
+very high. In the next subsection we shall present our results along with the discussion.
+
+B. Results and Discussion
+
+Our solutions of eq.(4.5) along with the other three field equations yield the spatial
+behaviour of the CP3 fields parametrised in term of the angles α , β ,θu,l and φu,l . The
+calculations are done iteratively. We start with the simple analytical spinor 4.2 which is
+the exact solution when the capacitance and anisotropy terms in the energy (4.6)are absent.
+Then the capacitance term in the equation is introduced in small steps and the corresponding
+solution obtained numerically. We have performed several calculations each starting from
+different initial values of the constants λ and b . The constant λ represents the starting value
+of the first component of the spinor in the iteration process. It stands for the spin-Skyrmion
+size in the CP3 limit, but when subsequent iterations are performed in the presence of other
+energy terms, it is replaced by a space dependent solution. But the parameter b is fixed for
+a given calculational run. It represents the meron separation and enters into the equation
+(4.5) explicitly through the first (capacitance) term. While we do calculations for different
+values of b, the optimal value of b will have to be obtained by minimising the energy with
+repsect to it. We will return to this point later.
+We present below the salient features of our numerical results. The major feature we want
+our numerical solution to have is the intertwining of the spin skyrmion with the pseudopsin
+bimeron . We would also like to show the leakage of electrons of either spin from one layer
+to another as we move in space, as a fallout of this intertwining. To show this , we have
+plotted both cos α as well as cos α↓ as a function of η for a set of values of the angle φ in
+22
+
+Fig.1 and Fig. 2 respectively. These solutions correspond to layer separation d = 0.6l ,
+bimeron center-separation b = 2.5l and starts from an initial value of λ = 1 in the starting
+trial solution 4.2. The sequence of curves shown correspond to φ equal to 0.09π, 0.36π,
+0.63π, and 0.90π respectively with the outermost one belonging to φ equal to 0.09π. As we
+have discussed earlier [13], Note from the definition of the bipolar coordintaes that spatial
+infinity in x-y plane corresponds to η and φ both equal to zero. As we approach this point
+in the φ, η plane, the solution should damp exponentially as exp(− √
+κ =
+
+s
+
+2β
+b
+ρA
+
+κ
+)
+η2 +φ2
+
+where
+(4.7)
+
+. Correspondingly we see in Fig. 1 and 2 that the low φ curves rise very slowly as η increases
+away from zero.
+The interesting point to note about these solutions is that in Fig. 1 cos α approaches different (absolute) asymptotic values as η approaches ±∞.(These are respectively the centers
+of the two merons that form the bimeron. Although computational limitations allow us to
+go only upto values 0f η = ±3, it is clear from the figure that asymptotic behavior has been
+obtained ). This asymptotic behaviour is extracted directly from the analytic ansatz 4.2
+and implies the leakage from the pseudospin to spin. It is useful to remember at this point
+that we have a bimeron only in the ”pseudospin of the down-spin componenet” whereas
+cos α represent the z-component of the total pseudospin. This is realised in Fig. 2. Here
+cos α↓ (down − spin) represent the z-componenet of the ”pseudospin of the down-spin component”. It is completely antisymmetric about η = 0 and approaches ±1 as η approaches
+±∞. This behaviour is same as the behaviour of mz in the spinless bilayer case. This is how
+we can extract from our results the pure bimeron by suitably partitioning the pseudospin
+into different spin components.
+Since bipolar co-ordinates are not very familiar we have given an alternate representation
+of the above results through a vector-plot in the physical x-y space in Fig. 3 and 4. The
+values of the parameters in these figures are same as those in Fig.1. In Fig. 3 the magnitude
+of each arrow gives the absolute value of the transvere component of the total pseudospin
+23
+
+sin α and it’s angle with the x-axis gives (φu − φl ). One should note in this regard the
+(φu − φl ) = β↓ in the other parametrisation Here also one can see the length of the arrow
+does not quite vanish in one of the bimeron centres and makes this construction singular
+at this point. However when we look at the Fig. 4. where the magnitude of each arrow is
+sin αdownarrow and the angle is again (φu − φl ) , the magnitude of the arrow vanishes at each
+bimeron centre and the profile is no more singular. This makes Fig. 4 identical to the vector
+plot of the bimeron pseudopsin in the pure layer case [15], [13].
+In Fig 5.we have given a similar vector plot for the spin skyrmion in the upper layer.
+Here the length of the each arrow corresponds to the planar projection of the spin in the
+upper layer (sin θu ) and the its direction gives the azimuthal angle (φu ) of the projected
+vector .This picture very clearly points out how the skyrmion winds in the azimutahl plane
+about it’s centre at x = b Here also the layer separation d and the starting values of b and
+λ are the same as those in Fig. 1 . This set of parameters represents a typical example.
+Lastly, we have evaluated the energy of these solutions for a set of values of the meron
+separation parameter b .The optimal value of b should be obtained by minimising the full
+energy as a function of b. But if we include only the capacitance term and the (pseudo)spinstiffness gradient terms in our energy, these will not lead to a non zero b, i.e the textures
+will want to shrink to zero size. The reason is that under rescaling, the capacitance term
+grows proportional to the square of the scale while the gradient terms are scale invariant. Of
+course a change in b will not result in just an overall rescaling of the solution. The shape of
+the solution will also change since b occurs as a constant multiplying the capacitance term in
+the differential equation (4.5). As a result, the b dependence of the gradient and capacitance
+terms will not be simple, although qualitatively it should still drive the meron separation
+to zero size. This can be seen in Table 1, where we show these energies for ten different
+values of b for a fixed value of other parameters. As expected the sum of both these energy
+contributions decreases strongly with decreasing b, thus driving the texture to zero-size. In
+reality however, these two terms are just the first two terms in the gradient expansion of
+the full energy functional. Higher order terms in the gradient expansion, if included, will
+24
+
+make our nonlinear differential equation even more difficult to solve, but they can offset this
+tendency to shrink.
+In particular, one prominent higher gradient contribution to the energy is the Coulomb
+interaction between different portions of the topological charge densities. It is given by (see
+[8]) :
+ECoul
+
+1Z
+=
+d~rd~r′V (~r − ~r′ )δρ(~r)δρ(~r′ )
+2
+
+(4.8)
+
+where δρ(~r) is the CP3 topological charge density given by the integrand of the r.h.s of the
+equation (3.14).
+Inclusion of the contribution of this term into our differential equation for the texture
+will introduce a nonlocal nonlinear term, which will make it very difficult for us to solve
+it numerically. We can however make the following estimate. We can insert our texture
+solution , obtained without the Coulomb term , into the Coulomb energy integral and
+evaluate it as a function of b. This contribution is also shown in the Table 1. As expected,
+the coulomb repulsion energy ECoul decreases with increasing b. This term would like to
+keep the merons farther apart, and offset the tendency to shrink because of the other terms.
+Thus one may hope to get an optimal bimeron separation at which the sum of all these three
+energy contributions will get minimised as a function of b.
+In Table 1 we have presented our calculation for the layer separation d = .8l where
+different contributions to the total energy are shown along with the their sum, the ”total
+energy”. For this particular layer separation a distinct minimum is obtained around b = 2.0l.
+To see whether this behaviour is common to other layer separations we have plotted in
+fig.6 the total energy Etotal as a fuction of bimeron separation b for a set of layer separations.
+The three sets of points in this figure corespond to three different layer separations, namely
+d equal to .5l, .7l and .8l. All these three curves show distict minima for the total energy
+as a function of bimeron separation. We have also provided in Table 2 the size (b) and total
+energy of the optimal bimeron for five values of layer separation.
+Notice from Table 2 that the optimal meron separation b decreases with the increase of
+25
+
+layer separation d . For d = .8l the optimal separation is around b = 2.0l and gradually
+increases to b = 2.5l for d = 0.4l . For the case of pure layer bimeron Brey et. al. also
+found ( [15]) a similar behaviour. This behavior could be attributed to the following. By
+lowering the layer separation (decreasing the
+
+d
+l
+
+ratio) one increases the relative importance of
+
+Coulomb repulsion among topological charge densities (coming from the intra-layer Coulomb
+energy) to the Capacitance term (coming from the interlayer Coulomb repusion). Hence the
+balancing of the capacitance term by the Coulomb energy will take place at a larger bimeron
+separation, thereby increasing the size of the bimeron.
+We found that resulting energy of these solitons at their optimal sizes varies very little as
+one changes the layer separation. Although bimerons of larger size at lower layer separations
+cost higher capacitance energy , the decrease in the Coulomb energy seems to fully offset
+that. As a result the total energy remains almost the same for different layer separations in
+the range d = 0.4l to d = 0.8l that we have studied.
+An important question is whether our spin-pseudospin intertwined solution has a lower
+energy than other candidates among the low-lying excitations. Prominent among these other
+low lying excitations with whom such comparisons have to be done are (i) the particle-hole
+excitations and (ii) purely spin or pseudospin textured solitons. To start with note that in
+the minimal prototype CP3 system (valid in the d = 0 limit ; see 3.8) the energy is just equal
+to ECP = 4πρs Q (see ref. ( [11]). Now , a pure-spin skyrmion in, say, one of the layers
+can also be written in our CP3 4-spinor notation and will have a CP3 topological number
+Q = 1. So will a bimeron in pseudospin of some spin component. Therefore in the prototype
+CP3 system our spin-pseudospin intertwined soliton with Q = 1 will have the same energy
+as a purely spin or pseudospin textured soliton with Q = 1. The intertwining will not cost
+more energy. All these energies which are equal, are a quarter of that of a particle-hole pair
+(see ( [8]) which costs an energy of
+
+q
+
+π
+2
+
+≈ 1.25 in units of
+
+e2
+ǫl
+
+. However the difference in the
+
+energies of these various types of topological excitations come from the additional terms in
+the full energy EC due to capacitance , anisotropy and Coulomb repulsion. As we can see
+from the Table 2 that our intertwined soliton over a range of layer separation has energy
+26
+
+around .60
+
+e2
+.
+ǫl
+
+It is encouraging that a pair of these excitations would have somewhat lower
+
+energy than the particle-hole pair energy of 1.25.
+Of course our computational accuracy is not very high, given that we are limited in
+how many lattice points we can use. One must also improve on the results by solving
+for the texture functions and their energy after including single particle terms due to the
+Zeeman coupling and tunelling . Examples of such calculations can be found in the case of
+ν = 2 by Pardes et. al. [14] , but not for ν = 1 yet to date. Meanwhile, our result for the
+intertwined soliton at ν = 1 and its energy at best raise hopes that they may be competetive
+as candidates for low lying excitations in double layer systems with spin.
+
+Acknowledgement
+R.R. has benefitted greatly by discussions with Professor Allan MacDonald on spinpseudospin systems. We thank Prof. R. Ramaswamy for allowing us to use computational
+facilities in his lab. for some of the numerical work done here. The work of S.G. is partially
+supported by a CSIR award no.9/263(225)/94-EMR-I .dt.2.9.1994.
+
+27
+
+TABLE
+Table 1: Different contributions to the total energy (Etotal ) of spin-pseudospin intertwined
+solitons for a set of b at a layer separation of d = 0.8l. Here Egrad refers to the gradient
+energy (isotorpic plus anisotropic), while Ecapa is the capacitance energy and ECoul is the
+Coulomb interaction energy between topological charge densities . Etotal is the sum of these
+three contributions to the energy. The unit of energy is
+
+e2
+ǫl
+
+and the unit of length is l.
+
+b Ecapa Egrad ECoul Etotal
+4.5 0.285 0.261 0.141 0.687
+4.0 0.250 0.251 0.152 0.653
+3.5 0.229 0.228 0.168 0.625
+3.0 0.205 0.223 0.183 0.611
+2.5 0.153 0.227 0.217 0.597
+2.3 0.143 0.227 0.225 0.595
+2.0 0.126 0.203 0.262 0.591
+1.8 0.121 0.192 0.290 0.603
+1.5 0.104 0.196 0.328 0.628
+1.2 0.091 0.200 0.390 0.681
+1.0 0.081 0.192 0.456 0.729
+
+28
+
+TABLE
+Table 2: The size (i.e.the optimal meron separation b) and the total energy (Etotal ) at
+different layer separations d. The unit of energy is
+d
+
+e2
+ǫl
+
+b Etotal
+
+0.8 2.0 0.59
+0.7 2.2 0.59
+0.6 2.3 0.60
+0.5 2.4 0.60
+0.4 2.5 0.59
+
+29
+
+and the unit of length is l.
+
+FIGURES
+FIG. 1. The solution cos α(η) of the field equations for a set of values for φ.The curves correspond, as one goes inwards, to φ = 0.09π, 0.36π, 0.63π, 0.90π respectively with the outermost one
+corresponds to φ equal to 0.09π. The layer separation d is equal to 0.6l and bimeron separation b
+is equal to 2.5l. The value of λ in the analytic ansatz is 1l
+FIG. 2. The plot of cos αdownspin(↓) (η) for a set of values for φ.The curves correspond, as one
+goes inwards, to φ = 0.09π, 0.36π, 0.63π, 0.90π respectively with the outermost one corresponds to
+φ equal to 0.09π. The layer separation d is again equal to 0.6l and bimeron separation b is equal
+to 2.5l. The value of λ in the analytic ansatz is also 1l
+FIG. 3. This figure gives the magnitude and direction of x-y projection of the total pseudospin
+at different points on the plane. The magnitude of each arrow at a given point is sin α and it’s
+angle with the x-axis is (φl − φu ) at that point. The layer separation and the bimeron separation
+are same as in Fig. 1 and 2
+FIG. 4. This figure gives the magnitude and direction of x-y projection of the ” pseudospin
+in the down-spin component” at different points on the plane. The magnitude of each arrow at a
+given point is sin α↓ and it’s angle with the x-axis is β↓ at that point. The layer separation and
+the bimeron separation are same as in Fig. 1 and 2
+FIG. 5. This figure gives the magnitude and direction of x-y projection of the spin in the upper
+layer at different points on the plane. At each point the magnitude of the arrow gives sin θu and
+it’s direction with x-axis gives φu at that point. The layer separation and the bimeron separation
+and initial λ are the same as in the earlier figures
+FIG. 6. This figure gives a plot of the total energy E(total) as a function of the bimeron
+separation b for three different layer separations, namely d = 0.5l, 0.7l and 0.8l The unit of energy
+is again
+
+e2
+ǫl
+
+30
+
+REFERENCES
+∗
+
+email: doug@jnuniv.ernet.in
+[1] S.L.Sondhi, A.Karlhede, S.A.Kivelson and E.H. Rezayi, Phys.Rev. B 47, 16419, (1993);
+[2] S.E.Barrett, G.Dabbagn, L.N.Pfeiffer, K.W.West and R.Tycko, Phys.Rev.Lett.,74,
+5112, (1995); A.Schmeller, J.P.Eisenstein, L.N.Pfeiffer, and K.W.West, Science, 268,
+1460, (1995); E.H.Aifer, B.B.Goldberg and D.A.Broido, Phys. Rev. Lett., 76, 680,
+(1996).
+[3] J.P.Eisenstein, G.S.Boebinger, L.N.Pfeiffer, K.W.West and Song He, Phys.Rev.Lett.68,
+1383, (1992) ; S.Q. Murphy, J.P.Eisenstein, G.S.Boebinger, L.N.Pfeiffer and K.W.West,
+Phys.Rev.Lett., 72, 728, (1994); Y.W.Suen, L.W.Engel, M.B.Santos, M.Shayegan and
+D.C.Tsui, Phys.Rev.Lett., 68, 1379, (1992); G.S.Boebinger H.W.Jiang, L.N.Pfeiffer and
+K.W.West, Phys.Rev.Lett., 64, 1793, (1990).
+[4] T. Chakrabarty and P. Pietilainen, Phys. Rev. Lett. 59, 2784 (1987); E. H. Rezayi and
+F. D. M. Haldane, Bull. Am. Phys. Soc. 32,892 (1987).
+[5] S.M.Girvin and A.H.MacDonald, ”Multi-Component Quantum Hall Systems : The Sum
+of Their Parts and More ”, in Novel Quantum Liquids in Low-Dimensional Semiconductor Structures, S.D.Sarma and A.Pinczuk Eds., Wiley (New York), 1995.
+[6] K.Moon, H.Mori, Kun Yang, S.M.Girvin, A.H.MacDonald, L.Zheng D.Yashioka and
+Shou-Cheng Zhang, Phys.Rev. B 51, 5138 , (1995).
+[7] J.M.Kosterlitz and D.J.Thouless, J.Phys.C 6, 1181, (1973)
+[8] D.P. Arovas et. al.,Phys. Rev. B. 59, 13147 , (1999).
+[9] Z.F.Ezawa, Phys.Rev. Lett. 82, 3512, (1999); Phys. Lett. A 249,223 (1998)
+
+[10] V.Golo and A.M.Perelemov Phys.Letters bf 99 B, 112, (1978); A. D’Adda, M.Luscher,
+and P.DiVecchia, Nucl. Phys B 146, 63, (1978); H. Eichenherr, Nucl. Phys B 146, 215,
+31
+
+(1978); E.Cremmer and J.Scherk, Phys.Letters 74B, 341, (1978) ; E.Witten, Nuc.Phys.
+B149, 285, (1979).
+[11] R.Rajaraman, Solitons and Instantons, North Holland, Amsterdam, (1982).
+[12] Sankalpa Ghosh and R.Rajaraman, Int. J.Mod.Phys. B 12 ,37, (1998).
+[13] Sankalpa Ghosh and R.Rajaraman, Int. J.Mod.Phys. B 12 ,2495, (1998).
+[14] B. Paredes et. al.,Phys. Rev. Lett. 83, 2250, (1999).
+[15] L.Brey, H.A.Fertig, R.Cote and A.H.MacDonald, Phys. Rev. B. 54, 16888 , (1996).
+[16] Margenau and Murphy ,The Mathematics of Physics and Chemistry,Affiliated EastWest Press Pvt. Ltd.,(New-Delhi),1971
+[17] William.H.Press. et. al.,Numerical Recipes In Fortran 77,Second Edition,Cambridge
+University Press,Chapter 9.
+
+32
+
+1.0
+
+Cos α
+
+0.5
+
+0
+
+-0.5
+
+-1.0
+-3.0
+
+-1.5
+
+0
+η
+
+1.5
+
+3.0
+
+Cos αdown-spin
+
+1.0
+
+0.5
+
+0
+
+-0.5
+
+-1.0
+-3.0
+-1.5
+
+0
+η
+
+1.5
+
+3.0
+
+0.85
+’.8’
+’.7’
+’.5’
+0.8
+
+E_total
+
+0.75
+
+0.7
+
+0.65
+
+0.6
+
+0.55
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+b
+
+3.5
+
+4
+
+4.5
+
+5
+

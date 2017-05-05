@@ -1,0 +1,651 @@
+Orbital Structure and Magnetic Ordering in Layered Manganites:
+Universal Correlation and Its Mechanism
+S. Okamoto, S. Ishihara, and S. Maekawa
+
+arXiv:cond-mat/0001221v1 [cond-mat.str-el] 17 Jan 2000
+
+Institute for Materials Research, Tohoku University, Sendai 980-8577, Japan
+(February 1, 2008)
+Correlation between orbital structure and magnetic ordering in bilayered manganites is examined.
+A level separation between the 3d3z 2 −r2 and 3dx2 −y 2 orbitals in a Mn ion is calculated in the ionic
+model for a large number of the compounds. It is found that the relative stability of the orbitals
+dominates the magnetic transition temperatures as well as the magnetic structures. A mechanism of
+the correlation between orbital and magnetism is investigated based on the theoretical model with
+the two eg orbitals under strong electron correlation.
+PACS numbers: 75.30.Vn, 75.30.Kz, 71.10.-w, 75.80.+q
+
+Since the discovery of the colossal magnetoresistance
+(CMR), studies of manganites with cubic perovskite
+structure have been renewed theoretically and experimentally. Competition and cooperation between spin,
+charge and orbital degrees of freedom as well as lattice cause the dramatic changes of transport and magnetic properties. Manganites with bilayered structure
+A2−2x B1+2x Mn2 O7 , where A and B are trivalent and
+divalent cations, respectively, are another class of CMR
+materials [1,2]. Since an extremely large MR is observed
+near the transition from paramagnetic (PM) insulator to
+ferromagnetic (FM) metal, it has been considered that
+several concepts proposed in the cubic compounds are
+applicable to the bilayered ones.
+In cubic manganites, one of the key factors dominating the magnetic orderings is the tolerance factor [3]; a
+bending of a Mn-O-Mn bond decreases the hopping integral of carriers. As a result, the ferromagnetic transition temperature Tc decreases in the double exchange
+(DE) scenario. However, in bilayered manganites, the
+Mn-O-Mn bond angle is almost unchanged with changing cations and carrier concentration, as shown later, in
+spite of a wide variety of the magnetic structures. Various
+key factors dominating the magnetic ordering, which are
+not included in the DE model, were experimentally suggested, e.g. the antiferromagnetic (AFM) superexchange
+(SE) interaction [4], the local lattice distortion [5–8], the
+charge and orbital degrees of freedom and their orderings
+[9,10] and so on. However, systematics in their correlations for a variety of compounds and their mechanisms
+still remain to be clarified.
+In this letter, we study the correlation between magnetic ordering and orbital structure in bilayered manganites. The two eg orbitals, i.e. the 3d3z2 −r2 and 3dx2 −y2
+orbitals in a Mn3+ ion split in the crystalline field of the
+bilayered structure and one of them is occupied by an
+electron. It is known that the occupied orbital controls
+the anisotropy of the magnetic interaction as well as its
+strength. The level separation between the orbitals is
+calculated in the ionic model for a large number of the
+compounds. We find a universal correlation between the
+
+relative stability of the orbitals and the magnetic transition temperatures as well as the magnetic structures.
+A mechanism of the correlation is investigated based on
+the theoretical model with the eg orbitals under strong
+electron correlation.
+We first show that neither the tolerance factor nor the
+bond length governs TC and the Néel temperature TN
+for the A-type AFM ordering [11]. The tolerance factor
+in the bilayered crystals is defined by t = (dO(1)−A(1) +
+√
+dO(2)−A(2) )/(2 2dMn−O(3) ) where dA−B is a bond length
+between A and B ions. The position of each ion is shown
+in the inset of Fig. 1(a). Being based on the structural
+data obtained by the neutron and x-ray diffraction experiments [12–23], we evaluate t and the bond length between nearest neighboring (NN) Mn ions in the ab plane
+dab
+Mn−Mn for a variety of compounds. TC and TN are
+plotted as functions of t and dab
+Mn−Mn in Figs. 1 (a) and
+(b), respectively. Almost all t’s are located in a narrow
+region where TC ’s and TN ’s are distributed randomly.
+In addition, TC is not correlated with dab
+Mn−Mn , either.
+ab
+Although TN increases with increasing dMn−Mn , this correlation is opposite to that predicted by the DE scenario
+where, with increasing the bond length, the hopping integral decreases and the FM interaction in the ab plane
+decreases. We conclude that the DE model, which includes the change of the hopping integral caused by the
+change of the bond angle/length, can not explain TC(N ) .
+We also examined correlations between TC(N ) and a number of other quantities: the torelance factor evaluated by
+the ionic radius, a Mn-O(3)-Mn bond angle, a Mn-O(1)Mn bond length, Mn-O bond lengths, a lattice spacing
+between NN bilayers, lattice constants and the valencebond sum for a Mn ion. However, there are not clear
+correlations between these parameters and TC(N ) .
+Let us focus on the correlation between TC(N ) and
+a relative stability of the eg orbitals. We employ the
+ionic model to examine the electronic energy-level structures. This model may be justified by the following
+considerations [24]: (1) the manganites at x = 0 are
+classified as charge-transfer type insulators in which the
+ionic model provides a good starting point [25]. (2) The
+1
+
+V
+
+(a)
+
+O(2)
+A(2)
+Mn
+
+T (K)
+
+200
+160
+
+F
+E
+D
+N C
+W
+C T B L
+K U
+W X
+A
+D
+ES G
+PM
+N
+
+O
+
+O(3)
+A(1)
+O(1)
+
+120
+80
+
+O
+
+40
+
+HQ R
+
+0
+
+240
+
+V
+F
+
+(b)
+
+200
+
+E
+D
+ON
+W C
+T B
+LC
+U
+K
+A GW
+X
+J SD
+P M
+I
+O N
+Q
+
+R
+
+V
+F
+E
+D
+T
+
+160
+
+T (K)
+
+240
+
+120
+
+S X
+
+0.98
+
+0.99
+
+1.00
+
+3.84
+
+H
+
+3.87
+
+t
+
+X
+i6=j
+
+Zi e2
+,
+|~rj − ~ri |
+
+0.1
+
+∆V = V3z2 −r2 − Vx2 −y2 ,
+
+R
+
+0.2
+
+0.3
+
+(4)
+
+represents the relative stability of the orbitals; with increasing ∆V , the energy level of the 3d3z2 −r2 orbital for
+an electron relatively decreases.
+TN and TC are plotted as functions of ∆V in Fig. 2
+where the structural data at room temperature are used.
+Broad shades are drawn by considering experimental errors. It is clearly shown that both TC and TN are
+correlated with ∆V ; TN increases with decreasing ∆V
+and there is an optimal value of ∆V (∼ 0.08 eV) for
+TC . We estimate the strength of the correlation between TP
+N and ∆V by using the correlation coefficient:
+r = N1 l (TN l − TN )(∆Vl − ∆V )/(σTN σ∆V ) where l
+indicates a sample and N is the number of samples.
+∆V (TN ) and σ∆V (σTN ) are the mean value and the
+standard deviation of ∆V (TN ), respectively. We obtain r = −0.89 ± 0.11 for single crystal samples and
+r = −0.15 ± 0.04 for all samples including polycrystals. One might think that the TC(N ) v.s. ∆V curve
+in Fig. 2 just reflects the relation between TC(N ) and x
+in La2−2x Sr1+2x Mn2 O7 (LSMO) [12,7]. However, when
+we pay attention to TC(N ) ’s for samples with the same x
+(e.g., the samples C and K-R), we notice that the correlation remains. The correlation between TN and ∆V explains that between TN and dab
+Mn−Mn shown in Fig. 1(b),
+since ∆V is a decreasing function of dab
+Mn−Mn in the region, 3.84Å < dab
+<3.88
+Å.
+Mn−Mn
+In Fig. 3, we present the magnetic phase diagram at
+T = 0 as a function of ∆V and x. The structural
+data at room temperature are used. Symbols connected
+by dotted lines correspond to a series of LSMO with
+
+(1)
+
+(2)
+
+respectively [27]. Here, V (~rj ) is given by
+V (~rj ) =
+
+Q
+
+3z 2 − r 2
+
+is the unit vector in the z(x) axis. The Ewald method is
+used for the lattice summation. Zi ’s for Mn and O ions
+and a cation at A site are chosen to be 3 + x, −2 and
+(8 − 2x)/3, respectively. The difference of the potentials
+
+and
+Vx2 −y2 = V (~rj + rd x̂),
+
+0.0
+
+I
+
+∆ V (eV)
+
+ionic property is predominant between bilayers. (3) The
+energy-level structure given by band-structure calculations shows the same tendency with those by the ionic
+model [6,26]. The energy levels of the eg orbitals split
+due to the electrostatic potential and one of the orbitals
+is occupied by an electron in a Mn3+ ion.
+By using a large number of the structural data [12–23],
+we calculate the Madelung potential for a hole in the
+3d3z2 −r2 and 3dx2 −y2 orbitals at site j defined by
+	
+1
+V (~rj + rd ẑ) + V (~rj − rd ẑ) ,
+2
+
+P M
+
+A
+G
+
+FIG. 2. TC and TN as functions of ∆V . Filled and open
+circles indicate TC and TN , respectively. ∆V ’s are calculated
+for the same compounds in Fig. 1. Note that in the region
+with large positive (negative) ∆V , the 3d3z 2 −r2 (3dx2 −y 2 )
+orbital is occupied by an electron.
+
+FIG. 1.
+TC and TN as functions of (a) t and (b)
+dab
+Mn−Mn . Filled and open circles indicate TC and TN , respectively. t and dab
+Mn−Mn are obtained from the structural
+data in the following compounds: A: La1.4 Sr1.6 Mn2 O7 (s)
+[12], B: La1.3 Sr1.7 Mn2 O7 (p) [12], C: La1.2 Sr1.8 Mn2 O7 (s)
+[12], D: La1.1 Sr1.9 Mn2 O7 (s) [12], E: La1.04 Sr1.96 Mn2 O7 (s)
+[12], F: LaSr2 Mn2 O7 (s) [12], G: La1.4 Sr1.6 Mn2 O7 (p) [13], H:
+Pr1.4 Ca1.3 Ba0.3 Mn2 O7 (p) [14], I: Nd1.4 Ca1.6 Mn2 O7 (p) [14],
+J: La1.4 Sr1.6 Mn2 O7 (p) [15], K: La1.2 Sr1.8 Mn2 O7 (p) [16], L:
+La1.2 Sr1.8 Mn2 O7 (s) [17], M: La1.2 (Sr0.8 Ca0.2 )1.8 Mn2 O7 (s)
+[17], N: La1.2 (Sr0.7 Ca0.3 )1.8 Mn2 O7 (s) [17], O: La1.2 (Sr0.6
+Ca0.4 )1.8 Mn2 O7 (p) [17], P: (La0.8 Nd0.2 )1.2 Sr1.8 Mn2 O7 (s)
+[17], Q: (La0.6 Nd0.4 )1.2 Sr1.8 Mn2 O7 (s) [17], R: Sm1.2 Sr1.8
+Mn2 O7 (p) [18], S: La1.2 Sr1.4 Ca0.4 Mn2 O7 (p) [19], T:
+NdSr2 Mn2 O7 (p) [20], U: Nd1.1 Sr1.9 Mn2 O7 (p) [20], V:
+LaSr2 Mn2 O7 (p) [21], W: LaSr1.6 Ca0.4 Mn2 O7 (p) [22], X:
+NdSr2 Mn2 O7 (s) [22] where (s) and (p) indicate the single and polycrystalline samples, respectively. The inset of (a)
+shows a schematic picture of the bilayered structure.
+
+V3z2 −r2 =
+
+U
+J
+
+HF E
+
+-0.1
+
+ab
+
+dMn-Mn (Å)
+
+W
+
+N
+
+x2 − y 2
+
+0
+
+0.97
+
+W
+KC L B
+
+D
+
+80
+40
+
+NC
+
+(3)
+
+with a point charge Zi e at site i and the position ~ri of the
+site. rd (=0.42Å) is the radius of a Mn 3d orbital where
+its radial charge density becomes maximum [28] and ẑ(x̂)
+2
+
+0.5
+
+0.20
+
+G
+
+∆ V (eV)
+
+0.15
+0.10
+
+J
+
+R
+
+3z 2 − r 2
+
+A
+I
+
+0.4
+
+FM
+Q
+P
+
+B
+
+0.05
+
+M
+
+N
+
+U
+LC
+S
+
+K
+
+0.3
+W
+X
+
+D
+
+E
+
+0.00
+-0.05
+
+x2 − y2
+0.30
+
+V
+T
+F
+
+H
+
+-0.10
+
+∆/t0
+
+0.25
+
+0.35
+
+0.45
+
+0.0
+0.55
+
+0.50
+
+0.60
+
+0.65
+
+0.70
+
+0.75
+
+FIG. 4. The calculated magnetic phase diagram at T = 0
+as a function of ∆ and x. Note that in the region with large
+positive (negative) ∆, the 3d3z 2 −r2 (3dx2 −y 2 ) orbital is occupied by an electron.
+
+FIG. 3. The magnetic phase diagram at T = 0 as a
+function of ∆V and x. Filled, open and crossed squares
+indicate the FM, A-type AFM and PM samples, respectively. ∆V ’s for filled and open circles are obtained from
+the data below TC and TN , respectively. Symbols connected
+by dotted lines indicate a series of LSMO. Bold arrows show
+δ(∆V ) = ∆V (T < TC(N) ) − ∆V (T > TC(N) ). ∆V ’s are
+calculated for the same compounds in Fig. 1. Note that in
+the region with large positive (negative) ∆V , the 3d3z 2 −r2
+(3dx2 −y 2 ) orbital is occupied by an electron.
+
+ion, the two eg orbitals are introduced and the t2g electrons are treated as a localized spin with S = 3/2. The
+first two terms in Eq. (6) correspond to the so-called tand J-terms in the tJ model, respectively, with the two
+eg orbitals under strong electron correlation. The third
+and fourth terms describe the Hund coupling between
+eg and t2g spins and the AFM SE interaction between
+t2g spins, respectively. The splitting of the energy levels
+between 3d3z2 −r2 and 3dP
+x2 −y 2 orbitals is represented by
+the last term: Hz = −∆ i Tiz where the pseudospin opP
+erator is given by T~i = 21 γγ ′ σ d†iγσ ~σγγ ′ diγ ′ σ with diγσ
+being the annihilation operator of an eg electron at site
+i with spin σ and orbital γ. The +(−) eigenstate of Tiz
+corresponds to the state where the 3d3z2 −r2 (3dx2 −y2 )
+orbital is occupied by an electron. The anisotropies of
+the hopping integral and the SE interactions due to the
+layered structure are considered. The explicit expression and derivation of the Hamiltonian are presented in
+Refs. [27] and [29].
+The calculated magnetic phase diagram at T = 0 is
+presented in Fig. 4 [30,31] where the mean field approximation is adopted. We note that the phase diagram
+derived in this approximation explains that in the cubic manganites [32]. The characteristic features shown
+in Fig. 3 are well reproduced by the present theory; the
+A-type AFM phase appears in the region with higher x
+and smaller ∆ than that of the FM one. The range of the
+horizontal axis in Fig. 4 is larger than that in Fig. 3 by
+about 0.25. This discrepancy may be attributed to the
+neglect of the orbital fluctuation [33]. However, the characteristics of the phase diagram are insensitive to the parameters in the model. In the FM (A-type AFM) phase,
+the orbitals are uniformly aligned with 0 < θ < 0.72π
+(0.72π < θ < π) where θ describes the orbital state as
+|θi =cos( 2θ )|3d3z2 −r2 i− sin( 2θ )|3dx2 −y2 i. The present results suggest that a dimensionality of the FM interaction
+is controlled by the orbital structure; in the A-type AFM
+phase, the FM ordering in the ab plane is caused by the
+
+x = 0.3 − 0.5 [12]. In addition, ∆V ’s calculated by using
+the data below TC(N ) in LSMO are also plotted. Bold arrows indicate the change of the Madelung potential with
+changing temperature from T > TC(N ) to T < TC(N ) :
+(5)
+
+We find that the magnetic structures are governed by ∆V
+and x; the FM (A-type AFM) phase is located in the region with smaller (larger) x and moderate (smaller) ∆V .
+Let us focus on δ(∆V ) in LSMO. δ(∆V )’s are negative
+at x = 0.3 and 0.35. The absolute value of δ(∆V ) gradually decreases with increasing x and δ(∆V ) becomes a
+small positive value at x = 0.4. Below TC , ∆V seems
+to approach to the optimal value of ∆V ∼ 0.08 where
+TC becomes maximum as seen in Fig. 2. On the other
+hand, δ(∆V )’s are negative at x=0.45 and 0.48 where
+the A-type AFM structure appears. The orbital structure and its stability in the FM phase have been studied
+by measuring the striction in Ref. [10]. The difference
+of the Mn-O bond lengths between PM and FM states
+was reported in Ref. [7]. These experimental results are
+consistent with the present results of δ(∆V ) in Fig. 3.
+Now we theoretically investigate a mechanism of the
+correlation between magnetic ordering and orbital structure. We start with the following Hamiltonian [27,29,30]:
+H = Ht + HJ + HH + HAF + Hz .
+
+A-AFM
+
+x
+
+x
+
+δ(∆V ) ≡ ∆V (T < TC(N ) ) − ∆V (T > TC(N ) ).
+
+0.2
+0.1
+
+A-AFM
+0.40
+
+FM
+
+(6)
+
+Instead of the bilayered structure, the simple tetragonal
+lattice consisting of Mn ions is considered. In this model,
+the magnetic structure with FM and AFM alignments
+perpendicular and parallel to the c axis, respectively, corresponds to the A-type AFM structure [11]. In each Mn
+3
+
+DE interaction, while the AFM in the c direction is by the
+AFM SE. When the 3dx2 −y2 orbital is stabilized, the DE
+interaction in the ab plane (c direction) becomes strong
+(weak) and the A-type AFM phase appears [34]. A mixing of the orbitals is essential in the FM phase where
+the FM interaction overcomes the AFM SE one in the
+three directions. We note that, in Fig. 4, the FM phase
+appears not around ∆ = 0 but in a region of ∆ > 0,
+since the anisotropy in the hopping integral due to the
+layered structure stabilizes the 3dx2 −y2 orbital more than
+3d3z2 −r2 . It is worth to mention the change of the orbital
+structure associated with the magnetic ordering: By utilizing the mean filed approximation at finite temperature,
+we compare the orbital structures above and below the
+magnetic transition temperatures. It is found that (1)
+there is an optimal mixing of the orbitals for the FM
+state and the orbital structure tends to approach to this
+structure below TC and (2) the 3dx2 −y2 orbital structure
+is stabilized below TN . The theoretical results are consistent with δ(∆V )’s shown in Fig. 3 by considering that
+the change of ∆V associated with the magnetic ordering
+is caused by that of the orbital structure.
+In summary, we examine correlation between magnetic
+ordering and orbital structure in bilayered manganites.
+A relative stability of the eg orbitals is investigated by
+calculating the Madelung potentials in a large number of
+the bilayered compounds. We find that the A-type AFM
+structure and the 3dx2 −y2 orbital one are stabilized cooperatively and there is an optimal mixing between the
+3d3z2 −r2 and 3dx2 −y2 orbitals for the FM ordering. A
+theory with the two eg orbitals under strong electron correlation explains a mechanism of the universal correlation
+between orbital and magnetism.
+The authors would like to thank Y. Moritomo, T. Akimoto, Y. Tokura, T. Kimura, Y. Endoh, K. Hirota,
+M. Kubota and G. Khaliullin for their valuable discussions. This work was supported by CREST, NEDO and
+Grant-in-Aid for Scientific Research Priority Area from
+the Ministry of Education, Science and Culture of Japan.
+S. O. acknowledges the financial support of JSPS. Part of
+the numerical calculation was performed in the HITACS3800/380 superconputing facilities in IMR, Tohoku Univ.
+
+[10] T. Kimura et al., Phys. Rev. Lett. 81, 5920 (1998).
+[11] The following two layered AFM structures have been observed [12,13]: AFM-I consisting of the FM spin ordering in the plane and the AFM (FM) one along the c axis
+within (between NN) bilayers, and AFM-II consisting of
+the FM in the plane and the FM (AFM) along the c
+axis within (between NN) bilayers. Since the intrabilayer
+magnetic coupling is much larger than the interbilayer
+one [35], we term the AFM-I structure the A-type AFM
+one and regard the AFM-II as the FM.
+[12] M. Kubota et al., cond-mat/9902288.
+[13] D. N. Argyriou et al., Phys. Rev. B 59, 8695 (1999).
+[14] P. Laffez et al., J. Appl. Phys. 80, 5850 (1996).
+[15] E.-O. Chi et al., Phys. Rev. B 60, 12 867 (1999).
+[16] D. N. Argyriou et al., Phys. Rev. Lett. 78, 1568 (1997).
+[17] T. Akimoto et al., Phys. Rev. B 59, R14 153 (1999).
+[18] P. D. Battle et al., J. Appl. Phys. 83, 6379 (1998).
+[19] C. H. Shen et al., J. Appl. Phys. 86, 2178 (1999).
+[20] P. D. Battle et al., Phys. Rev. B 54, 15 967 (1996).
+[21] R. Seshadri et al., Solid State Commun. 101, 453 (1997).
+[22] T. Akimoto et al., (unpublished).
+[23] For the samples G, J, R, T and U where the two chemically distinct phases are observed, the structural data of
+the major phase are adopted.
+[24] Y. Ohta et al., Phys. Rev. B 43, 2968 (1991).
+[25] T. Arima et al., Phys. Rev B 48, 17 006 (1993).
+[26] P. K. de Boer et al., Phys. Rev. B 60, 10 758 (1999).
+[27] S. Ishihara et al., J. Phys. Soc. Jpn. 66, 2965 (1997).
+[28] J. C. Slater in Quantum Theory of Atomic Structure (McGraw Hill, New York, 1960) Vol. 1.
+[29] S. Ishihara et al., Physica C 263, 130 (1996), and Phys.
+Rev. B 55, 8280 (1997).
+[30] In the Hamiltonian, we consider the SE interactions
+ab(c)
+ab(c)
+J1,2 between eg electrons, the AFM SE one JAF beab(c)
+
+tween t2g spins and the hopping integral t0
+of eg electrons where the subscript ab (c) indicates the interaction
+in the ab plane (the c direction) [27,29]. These values are
+ab
+ab
+ab
+chosen as J1(2)
+/tab
+0 = 0.25 (0.075), JAF /t0 = 0.002 and
+
+p
+
+[31]
+
+[32]
+[33]
+[34]
+[35]
+
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+
+Y. Moritomo et al., Nature (London) 380, 141 (1996).
+T. Kimura et al., Science 274, 1698 (1996).
+H. Y. Hwang et al., Phys. Rev. Lett. 75, 914 (1995).
+T. G. Perring et al., Phys. Rev. Lett. 78, 3197 (1997).
+D. Louca et al., Phys. Rev. Lett. 80, 3811 (1998).
+D. S. Dessau et al., Phys. Rev. Lett. 81, 192 (1998).
+M. Medarde et al., Phys. Rev. Lett. 83, 1223 (1999).
+L. Vasiliu-Doloc et al., Phys. Rev. Lett. 83, 4393 (1999).
+Y. Moritomo et al., Phys. Rev. B 56, R7057 (1997).
+
+4
+
+p
+
+c
+ab
+c
+ab
+c
+tab
+J1,2
+/J1,2
+= JAF
+/JAF
+= 1.5 in the numeri0 /t0 =
+ab
+cal calculation. t0 is represented as t0 for simplicity.
+The phase diagram at T = 0 for the bilayered manganites has also been studied in the Hartree-Fock theory by
+R. Maezono and N. Nagaosa, cond-mat/9904427.
+S. Okamoto et al., Phys. Rev. B 61, (2000), and Y. Endoh
+et al., Phys. Rev. Lett. 82, 4328 (1999).
+S. Ishihara et al., Phys. Rev. B 56, 686 (1997).
+R. Maezono et al., Phys. Rev. B 57, R13 993 (1998).
+H. Fujioka et al., J. Phys. Chem. Solids 60, 1165 (1999).
+

@@ -1,0 +1,121 @@
+.annotation_container {
+    left:0px;
+    top:0px;
+    z-index: 1;
+    position: absolute;
+}
+
+#annotation {
+    background-color: blue;
+    position: absolute;
+}
+
+#content {
+    left:29%;
+    top:0px;
+    width:800px;
+    position: absolute;
+    transform-origin: top left;
+    transform: 0.5;
+    -moz-transform: scale(0.5);
+}
+
+body {
+    background-color: #696969;
+}
+
+
+#GUI{
+    /*display:none;*/
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 900;
+    pointer-events:none;
+    /*border-radius: 0px 0px 0px 10px;*/
+    /*padding: 4px 4px 0px 4px;*/
+    left:0px;/*width:100%;*/
+}
+
+.solid_borders {
+    border-style:solid;
+    border-width:1px;
+    border-color:rgb(210,210,210);
+}
+
+#menu_strip {
+    width:100%;
+    float:left;
+    padding: 2px 0px 0px 0px;
+    background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
+    pointer-events:auto;
+}
+
+#pdf_title {
+    color: white;
+    margin:15 auto;
+    text-align: center;
+    width:auto;
+}
+
+#right_button_list {
+    float:right;
+    width:auto;
+}
+
+
+#left_button_list {
+    float:left;
+    width:auto;
+}
+
+#info_container {
+    float: right;
+    width: 300px;
+    background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
+    pointer-events:auto;
+}
+
+.framed_light {
+    background-color: #bdbdbd;
+}
+
+.framed {
+    /*border-radius: 10px 10px 10px 10px;*/
+    border-style:solid;
+    border-width:1px;
+    border-color:rgb(210,210,210);
+    margin: 0px 2px 0px 2px;
+    background-color: rgba(200,200,200,0.8);/*#bdbdbd;*/
+}
+
+.menu_button {
+    width:50px;
+}
+
+.info {
+    color: white;
+    
+    margin: 2px 2px 2px 2px;
+    padding: 5px;
+}
+
+
+body {
+    width: calc(100vw - 34px);
+    position:relative;
+}
+relative {
+    position:relative;
+}
+
+.ui-dialog-titlebar {
+  background-color: #F9A7AE;
+  background-image: none;
+  color: #000;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}

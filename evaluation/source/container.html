@@ -1,0 +1,37 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://sirba.informatik.privat/PDFDiVi/evaluation/source/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/visualizer_single.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="GUI">
+        <div id="menu_strip">
+            <div id="left_button_list">
+                <input title="Scroll up" id="up" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/up.png"/>
+                <input title="Scroll down" id="down" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/down.png"/>
+                <input title="Zoom in" id="zoom_in" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/zoomIn.png"/>
+                <input title="Zoom out" id="zoom_out" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/zoomOut.png"/>
+                <input title="Remove all open annotations" id="clear" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/trashcanOpen.png"/>
+            </div>
+            <div id="right_button_list">
+                <input title="Distribution" id="distribution" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/signal3.png"/>
+                <input title="Legend" id="legend" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/star.png"/>
+                <input title="Home" id="home" class="framed menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/home.png"/>
+                <input title="Options" id="options" class="framed menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/gear.png"/>
+                <input title="About" id="about" class="framed menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png"/>
+            </div>
+            <div id="pdf_title"> </div>
+        </div>
+        <div id="info_container"></div>
+    </div>
+    <div id="content">
+        <div id="annotations"></div>
+        <div id="pdf_container" ></div>
+    </div>
+    <div id="popup_container"></div>
+</div>
+
+</body>

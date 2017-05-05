@@ -1,0 +1,2487 @@
+[48;5;167marXiv:cond-mat/0001227v1 [cond-mat.str-el] 17 Jan 2000[0m
+
+Critical properties of the double-frequency sine-Gordon model with applications
+
+[38;5;1m‖[0m [90m[[0m[48;5;167mM. Fabrizioa, A. O. Gogolinb and A. A. Nersesyanc,d[0m
+[48;5;167mFebruary 1, 2008[0m
+[48;5;167ma[0m[90m/[0m[48;5;70maInternational[0m[90m][0m [38;5;1mInternational[0m [38;5;1m==[0m School for Advanced Studies and INFM, Via Beirut 4, 34014 Trieste, Italy [38;5;1m==[0m [90m[[0m[48;5;167mb[0m[90m/[0m[48;5;70mbDepartment[0m[90m][0m [38;5;1mDepartment[0m [38;5;1m==[0m of Mathematics, Imperial College, 180 Queen's Gate, London SW7 2BZ, United Kingdom [38;5;1m==[0m c [38;5;1m==[0m The Abdus Salam International Centre for Theoretical Physics, P.O.Box 586, 34100, Trieste, Italy [90m[[0m[38;5;1md[0m[90m/[0m[38;5;22mdThe[0m[90m][0m [38;5;1mThe[0m [38;5;1m==[0m Andronikashvili Institute of Physics, Tamarashvili 6, 380077, Tbilisi, Georgia
+
+[48;5;167mAbstract[0m
+[48;5;167mWe study the properties of the double-frequency sine–Gordon model in[0m
+[48;5;167mthe vicinity of the Ising quantum phase transition displayed by this model.[0m
+[48;5;167mUsing a mapping onto a generalised lattice quantum Ashkin-Teller model,[0m
+[48;5;167mwe obtain critical and nearly-off-critical correlation functions of various[0m
+[48;5;167moperators. We discuss applications of the double-sine-Gordon model to[0m
+[48;5;167mone-dimensional physical systems, like spin chains in a staggered external[0m
+[48;5;167mfield and interacting electrons in a staggered potential.[0m
+
+PACS: 71.10.Pm; 71.10.Fd; 75.10.Jm
+
+[38;5;1m‖[0m Keywords: Fermions in reduced dimensions; Lattice fermion models; Quantized spin models.
+
+[48;5;167m1[0m
+
+Introduction
+
+The problem of determining the asymptotic behaviour of a conformal field theory (CFT) under the action of a relevant operator is well studied and understood, [38;5;1m1[0m
+
+[38;5;1m==[0m also in view of its relation to the physics of many quantum one-dimensional (1D) and classical two-dimensional (2D) models. A less studied case concerns a CFT perturbed by two relevant operators. Namely, consider a CFT subjected to such relevant perturbation, [90m[[0m[38;5;1mgO∆g[0m[90m/[0m[38;5;22mgOΔg,[0m[90m][0m with scaling dimension [90m[[0m[38;5;1m∆g[0m[90m/[0m[38;5;22mΔg[0m[90m][0m 2, that turns it into a fully massive quantum field theory (QFT)Then add another relevant perturbation, [90m[[0m[38;5;1mλO∆λ[0m[90m/[0m[38;5;22mλOΔλ,[0m[90m][0m which, if acting alone, would also make our QFT fully massive. Although this is not as common situation as the previous one, we will show that it displays interesting features which may be realized in physical systems.
+
+[38;5;1m‖[0m Without loss of generality, we assume that [90m[[0m[38;5;1m∆λ ∆g[0m[90m/[0m[38;5;22mΔλ Δg[0m[90m][0m 2, i.e. that the second perturbation is more relevant then the first one. Moreover, we shall require, for the time being, that the operator product expansion (OPE) of these two operators is closed in the sense that it does not produce other relevant operators. The most general case will be discussed in a separate section. Then, the naïve expectation, which prevailed until recently, is that no qualitative changes occur in this case with respect to the standard situation of a CFT perturbed by a single relevant operator: the low-energy behaviour of the theory would be governed by the most relevant operator and, at any rate, the theory would remain fully massive. This expectation is however not a general rule if the two operators exclude each other, that is, if the field configurations which minimise one perturbation term do not minimise the other. In this case, the interplay between the two competing relevant operators can produce a novel quantum phase transition between two massive QFT's through a critical (massless) point. It is intuitively clear that such a scenario is only conceivable if the ratio of the bare coupling constants, |g λ|is large enough.
+
+Recently Delfino and Mussardo (DM) [90m[\cite=DM][0mconsidered the double-frequency [90m[[0m[38;5;1msineGordon[0m[90m/[0m[38;5;22msine-Gordon[0m[90m][0m (DSG) model, which is a Gaussian model of a scalar field Φ, perturbed by two relevant vertex operators with the ratio of their scaling dimensions [90m[[0m[38;5;1m∆g λ[0m[90m/[0m[38;5;22mΔg Δλ[0m[90m][0m 4. The Hamiltonian density of the DSG model reads:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167m(1)[0m
+
+[48;5;167mwhere[0m
+[48;5;167mi[0m
+
+[48;5;167mh[0m
+
+[48;5;167mH0 [Φ] v0 x φR )2 x φL )2[0m [48;5;167m(2)[0m
+
+φR,L being the chiral components of the Bose field, Φ φR φL. DM have shown that there exists a quantum critical line λ λc(g) where the DSG model displays an Ising criticality with central charge c 1 [38;5;1m2.[0m
+2.
+
+The purpose of this paper is to investigate in detail the critical properties of this transition and to discuss physical applications to spin chains and other quantum one-dimensional (1D) systems. While we shall concentrate on the DSG model in what follows, it should be noted that the phenomenon is more general similar quantum phase transitions do happen in more complicated models; those shall be addressed elsewhere [90m[\cite=else].[0m
+
+[38;5;1m‖[0m Apart from the practical interest in physical realizations of the DSG model, this problem is of relevance also from a pure theoretical point of view. Indeed, we have already mentioned that the Ising critical point separates two strong-coupling, massive phases; hence, by definition, its analytical description is outside the range of applicability of perturbation theory. In this paper we propose a nonperturbative scheme, which is essentially based on the mapping of the DSG model onto another equivalent model a generalised quantum Ashkin-Teller model on a 1D lattice, where the Ising critical point becomes accessible.
+
+[38;5;1m‖[0m The paper is organised as follows. In section 2 we briefly discuss the DSG model at the semi-classical level and outline our approach to tackle the Ising criticality in the vicinity of the decoupling point [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 4π. In sections 3-5 we present a complete description of the critical properties of the DSG model at the Ising transition. In section 3 we introduce a quantum lattice version of a generalised AT model which, apart from the conventional marginal inter-chain coupling, also includes a 'magnetic filed' type of interaction, [90m[[0m[38;5;1mhσ1 σ2[0m[90m/[0m[38;5;22mhσ1σ2.[0m[90m][0m We show that, in the continuum limit, this model is equivalent to the DSG model at [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 4π. In section 4 we employ a new (σ-τ) representation of the deformed AT model which enables us to correctly identify those degrees of freedom that become [38;5;1m==[0m critical. In section 5 we use the results of the quantum-spin-chain mappings to determine the physical properties of the DSG model close to the criticality.
+
+[38;5;1m‖[0m In the next two sections we discuss applications of the DSG model to physical systems. In particular, we discuss Ising transitions in a spontaneously dimerized S=1/2 antiferromagnetic chain in a staggered magnetic field (section 6)and in the 1D Hubbard model with a staggered potential (section 7)In section 8 we show that at [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 2π the second-order Ising transition may transform to a [90m[[0m[38;5;1mfirstorder[0m[90m/[0m[38;5;22mfirst-order[0m[90m][0m one. Section 9 contains discussion of the results and conclusions.
+
+[38;5;1m‖[0m The paper is supplied with four Appendices which provide some details concerning bosonization of products of order and disorder operators for a system of two identical Ising models, the relationship between the quantum AT model and lattice fermions, a mean-field treatment of the σ-τ model, and calculation of the [38;5;1m3[0m
+
+[38;5;1m==[0m correlation functions.
+
+[48;5;167m2[0m
+
+The model and its quasi-classical analysis
+
+In this paper we will be dealing with the particular version of the DSG model [90m([\ref=HDSG])[0m corresponding to the case g 0. We will also assume that λ 0, although its sign is unimportant due to the obvious symmetry Φ Φ.
+
+For 2π [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 8π the Gaussian model is perturbed by two relevant vertex [38;5;1m==[0m operators closed under the OPE [90m[\cite=DM].[0m The existence of the Ising phase transition can be qualitatively understood via a quasi-classical analysis: inspecting the profile of the potential U(Φ) as a function of the ratio x λ 4g. At x 0 one has a [38;5;1m==[0m periodic potential of a single-frequency sine-Gordon (SG) model. For x [38;5;1m6=[0m 0 the [38;5;1m==[0m period of the potential is doubled in such a way that in the region 0 x 1 it can be viewed as a sequence of double-well potentials with the local structure [38;5;1m==[0m AΦ2 BΦ4, where A 0,B 0. Precisely at x 1 each local double-well potential transforms to a Φ4 one (A 0)and (in the Ginzburg-Landau sense) this is a signature of the Ising criticality with the central charge c 1 2. It should be stressed that the double-well structure of the potential U(Φ) only occurs for g 0. Hence the Ising critical point only exist for positive g. The case of g 0 is qualitatively different: here the λ-perturbation removes the degeneracy between neighbouring minima of cos βΦ and thus leads to soliton confinement (similarly to the analysis in Ref [90m[\cite=aff-conf]).[0mThe spectrum in this case always remains massive.
+
+[38;5;1m‖[0m Thus, for model [90m([\ref=HDSG])[0m with g 0, a plausible scenario is that the relevant perturbations naturally act on the two constituent Ising models of the starting Gaussian model, leaving one of them massless on the critical line λ λc(g)[90m[[0m[38;5;1m(Quasiclassically[0m[90m/[0m[38;5;22m(Quasi-classically[0m[90m][0m λc(g) 4g. A better estimation which takes into account quantum fluctuations yields a power law λc(g) [90mgν, where [formula]).[0m [38;5;1m==[0m Indeed, DM have argued that the Ising transition is a universal property of the DSG model [90m([\ref=HDSG])[0m as long as [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 8π. This makes it possible to consider the vicinity of the point [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 4π where the description of the transition greatly simplifies. Namely, it is well known [90m[\cite=Coleman][\cite=LE] that β2[0m 4π is the decoupling (or Luther-Emery) point of the ordinary SG model (λ 0)at which the latter is equivalent to a theory of free massive fermions. The scaling dimension 1/4 of the λ-term in [90m([\ref=HDSG])[0m indicates that this point is special for the DSG model as well, suggesting an Ising model interpretation. In this paper we shall be working in the vicinity of the decoupling point. Rescaling the field Φ, the DSG model can be written in an [38;5;1m4[0m
+
+[38;5;1m==[0m equivalent form:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mwhere [formula] and [formula].[0m [48;5;167mh[0m
+
+[48;5;167mHDSG v x φR )2 x φL )2 γ∂x φR (x)x φL (x)[0m
+[48;5;167m(3)[0m
+[48;5;167mg cos 4πΦ(x) λ sin πΦ(x)where v (v0 /2)β/ 4π+ 4π/β) and γ (v0 4πβ)β 2 −4π)[0mIt was originally noted by DM that this form of the DSG model can be related to a deformed 2D Ashkin-Teller (AT) model, which can be viewed as the standard AT model, i.e. a model of two marginally coupled 2D Ising models with order parameters σ1 and σ2, extended to include a magnetic field type coupling, [90m[[0m[38;5;1mλσ1 σ2[0m[90m/[0m[38;5;22mλσ1σ2.[0m[90m][0m DM then argued that, in the strong-coupling limit (λ the system effectively reduces to a single Ising model which may become critical if the temperature is properly [38;5;1m==[0m tuned to its critical value. This argument can be extended to finite values of λ, provided that the two Ising copies are originally in a disordered phase, and thus explains the existence of a critical line in the t-λ plane (t (T Tc) Tc 0) [38;5;1m==[0m along which the deformed AT model flows from the ultraviolet c 1 fixed point to the infrared c 1 2 Ising fixed point.
+
+[38;5;1m‖[0m We shall elaborate on the DM argument by explicitly constructing the mappings between the DSG model and various spin models, with the aim to fully describe the Ising transition and, in particular, calculate correlation functions of the operators in the original DSG model. The novel points of our analysis are as follows. First, we concentrate on quantum lattice spin chain models rather than on their classical counterparts (in the transfer matrix sense)as this formulation profits from the use of the powerful apparatus of various spin operator transformations like the duality transformation. Secondly, we identify the correct degrees of freedom in the deformed quantum AT model that become critical. Since the original Ising models enter symmetrically, this is a nontrivial step which is accomplished via a 'change of basis' transformation. Let us denote the critical degrees of freedom by σ and the remaining gaped degrees of freedom by τ (see the main text for precise definitions)The strategy to calculate the correlation functions is then to express the DSG-operators in terms of the lattice σ and τ operators. At the Ising transition σ and τ operators asymptotically decouple, with the [90m[[0m[38;5;1mσoperators[0m[90m/[0m[38;5;22mσ-operators[0m[90m][0m being critical and (some of) the τ operators acquiring finite average values. This allows us to trace the relation between the original DSG-operators and those from the operator content of the underlying critical Ising model, which ultimately accomplishes a complete description of the critical properties at the Ising transition.
+
+[38;5;1m5[0m
+
+[48;5;167m3[0m
+
+Relation between DSG model and deformed quantum Ashkin-Teller model
+
+[48;5;167m3.1[0m
+
+Quantum Ising spin chain
+
+We start with recollecting some basic facts about the quantum Ising (QI) spin chain. The Hamiltonian of the QI chain describes a 1D Ising model in a transverse magnetic field [90m[\cite=Pf]:[0m
+
+[90m[formula][0m
+
+[38;5;22mwhere σαn[0m [48;5;167mX[0m
+
+[48;5;167mz[0m
+[48;5;167mJσnz σn+1[0m
+[48;5;167m∆σnx[0m [48;5;167mn[0m
+
+[48;5;167m(4)[0m
+
+[38;5;1mwhere σnα[0m are the Pauli matrices associated with the lattice sites {n}The [90m[[0m[38;5;1mHamil-[0m[90m/[0m[38;5;22mHamiltonian[0m[90m][0m [38;5;1mtonian[0m [38;5;1m==[0m HQI defines the transfer matrix of the classical 2D Ising model [90m[\cite=LSM].[0m
+
+An important tool in studying 1D spin lattice models is the Kramers-Wannier duality transformation that we shall make extensive use of in the sequel. Consider a dual lattice consisting of sites {n 1 2}defined as the centres of the links [38;5;1m==[0m n,n 1 of the original lattice, and assign spin operators [90m[[0m[38;5;1mµn+[0m[90m/[0m[38;5;22mμn[0m[90m][0m 1 2 to the dual lattice sites. The duality transformation then relates the dual spins to the original ones as follows
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mz[0m
+[48;5;167mσjx µxn+1/2 σnz σn+1[0m
+[48;5;167m(5)[0m
+
+[48;5;167mj=1[0m
+
+the inverse transformation being
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mn−1[0m
+[48;5;167mY[0m
+
+[48;5;167mµxj+1/2 σnx µzn−1/2 µzn+1/2[0m [48;5;167m(6)[0m
+
+[48;5;167mj=0[0m
+
+In Hamiltonian [90m([\ref=QI]),[0m the parameters J and [38;5;22mΔ[0m are interchanged under the duality transformation, so that J [38;5;22mΔ[0m is the self-duality point where the model displays an Ising criticality.
+
+[38;5;1m‖[0m The operators [90m[[0m[48;5;167mσnz and µzm+[0m[90m/[0m[48;5;70mσzn and μzm[0m[90m][0m 1 2, conventionally referred to as order and disorder operators, are mutually nonlocal and play the role of 'string operators' with respect to each other. In particular, they commute for m n but anticommute otherwise. These commutation properties make the duality construction a convenient starting point for introducing lattice fermions. It is immediate to check that two objects
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(7)[0m
+
+[48;5;167mζn iσnz µzn+1/2 −iµzn+1/2 σnz[0m [48;5;167m(8)[0m
+
+satisfy the anticommutation relations for the real (Majorana) fermions on the lattice, with the normalisation [90m[[0m[38;5;1mηn2 ζn2[0m[90m/[0m[38;5;22mη2n ζ2n[0m[90m][0m 1. Relations [90m([\ref=d1]) and ([\ref=d2])[0m are nothing but [38;5;1m6[0m
+
+[38;5;1m==[0m the inverse of the Jordan-Wigner transformation, with the 'direct' transformation being of the form
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mσnz ηn[0m
+
+[48;5;167mn−1[0m
+[48;5;167mY[0m
+
+[48;5;167m(iζj ηj[0m [48;5;167m(9)[0m
+
+[48;5;167mj=1[0m
+
+In terms of the Majorana fermions the QI Hamiltonian becomes
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167m[Jζn (ηn+1 ηn J)ζn ηn[0m [48;5;167m(10)[0m
+
+The next step is to take a continuum limit. To this end one introduces a lattice spacing a0, treats x na0 as a continuum variable, and replaces ηn and ζn by slowly varying Majorana fields, η(x) and ζ(x)[38;5;1m‖[0m [90m[formula][0m
+
+Notice that the factor [38;5;1m==[0m [90m[formula][0m [48;5;167mζn[0m [48;5;167m2a0 ζ(x)[0m[38;5;1m2[0m [38;5;1m==[0m ensures the correct continuum anticommutation [90m[[0m[38;5;1mrela-[0m[90m/[0m[38;5;22mrelations:[0m[90m][0m [38;5;1mtions:[0m [38;5;1m==[0m {η(x)η(y){ζ(x)ζ(y)δ(x y)The Hamiltonian density of [90m([\ref=QIM])[0m then is
+
+[90m[formula][0m
+
+[38;5;1m‖[0m with v 2Ja0 and m 2([38;5;22mΔ[0m J)Performing a chiral rotation of the Majorana [38;5;1m==[0m spinor
+
+[90m[formula][0m
+
+[48;5;167m−η ζ[0m
+[48;5;167m2[0m
+
+[48;5;167mη+ζ[0m
+[48;5;167mξL 2[0m
+
+[48;5;167m(11)[0m
+
+or, inversely,
+
+[90m[formula][0m
+
+[38;5;1m‖[0m transforms this Hamiltonian to a standard form:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(m)[0m
+
+[48;5;167mHM[0m [48;5;167miv[0m
+[48;5;167mξR ∂x ξR ξL ∂x ξL) imξR ξL.[0m
+[48;5;167m2[0m
+
+[48;5;167m(12)[0m
+
+[48;5;167m(13)[0m
+
+The relation between the QI model and the massive Majorana QFT is therefore summarised as follows
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167ma0 →0[0m
+
+[48;5;167m3.2[0m
+
+[48;5;167mZ[0m
+
+[48;5;167m(m)[0m
+
+[48;5;167mdx HM (x)[0m
+
+[48;5;167m(14)[0m
+
+Bosonization of the deformed quantum Ashkin-Teller model
+
+The standard quantum Ashkin-Teller (QAT) model is defined as a model of two identical QI spin chains, described by Hamiltonians HQI[σ1] and HQI[σ2] [see [48;5;167m7[0m
+
+[38;5;1m==[0m Eq.[90m[\ref=QI])],[0mwhich are coupled via a self-dual inter-chain interaction:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(15)[0m
+[48;5;167mX[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mx[0m
+[48;5;167mx[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ1,n+1[0m
+[48;5;167mσ2,n[0m
+[48;5;167mσ2,n+1[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ2,n[0m
+
+[48;5;167mn[0m
+
+[48;5;167m(16)[0m
+
+We will be interested in a deformed version of this model which, apart from [90m[[0m[38;5;1mHAT[0m[90m/[0m[38;5;22mH'AT,[0m[90m][0m [38;5;1m==[0m includes a 'magnetic field' type of coupling between the chains:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ2,n[0m
+
+[48;5;167m(17)[0m
+
+We wish to establish a relationship between the deformed quantum Ashkin-Teller (DQAT) model [90m([\ref=DQAT])[0m and the DSG model. These two models can be mapped onto each other using the Zuber-Itsykson trick [90m[\cite=ZI].[0mThe idea is to associate the two QI chains with two copies of Majorana fermions,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mcombine ξ1 and ξ2[0m [48;5;167mη 1 ζ 1 ξR1 ξL1[0m [48;5;167mη 2 ζ 2 ξR2 ξL2[0m [48;5;167mcombine ξ 1 and ξ 2[0m into a single Dirac field and then bosonize the latter using the standard rules of Abelian bosonization.
+
+[38;5;1m‖[0m First we notice that, in the case of two QI spin chains, the Jordan-Wigner transformation [90m([\ref=d1])-([\ref=JW])[0m should be slightly modified. This follows from the requirement that the spin operators belonging to different chains should commute. While this is automatically true for the disorder operators [90m[[0m[38;5;1mµαa,[0m[90m/[0m[38;5;22mμαa,[0m[90m][0m n 1 2 (α x,y,z; a 1,2) because of their bosonic character, to ensure commutation between the order [90m[[0m[48;5;167mpaz[0m
+[48;5;167mz[0m
+[48;5;167mrameters σ1n[0m
+[48;5;167mand σ2n[0m[90m/[0m[48;5;70mparameters σz1n and σz2n[0m[90m][0m one has to introduce two anticommuting (Klein) factors
+
+[90m[formula][0m
+
+[48;5;167m{κ1 κ2 0,[0m
+
+[48;5;167m(18)[0m
+
+and replace [90m([\ref=d1]), ([\ref=d2]) by[0m
+
+[90m[formula][0m
+
+[48;5;167m(19)[0m
+
+With the spin variables σ1,2 and [90m[[0m[38;5;1mµ1,[0m[90m/[0m[38;5;22mμ1,[0m[90m][0m 2 subject to the duality relations [90m([\ref=dual]), ([\ref=dualinv]), definitions ([\ref=Majbis])[0m ensure the correct statistics for the Majorana fermions ηa,n and ζa,n.
+
+[38;5;1m‖[0m In terms of the lattice Majorana fermions, the standard QAT Hamiltonian becomes
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX X[0m
+
+[48;5;167ma=1,2 n[0m
+
+[48;5;167mK[0m
+
+[48;5;167mX[0m
+
+[48;5;167m[Jζa,n (ηa,n+1 ηa,n J)ζa,n ηa,n[0m [48;5;167mζ1,n ζ2,n [η1,n+1 η2,n+1 η1,n η2,n[0m [48;5;167mn[0m
+
+[48;5;167m8[0m
+
+[48;5;167m(20)[0m
+
+and admits a straightforward passage to the continuum limit. The corresponding Hamiltonian density reduces to a theory of two interacting massive Majorana fermions
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167m(m)[0m
+
+[48;5;167ma=1,2[0m
+
+[48;5;167mHM [ξa (x)8Ka0 ξ1R (x)ξ2R (x)ξ1L (x)ξ2L (x)[0m[48;5;167m(21)[0m
+
+which is obviously equivalent to the massive Thirring model for a single Dirac fermion. Using the standard rules of Abelian bosonization which are briefly summarised in Appendix A.1, one maps the QAT model onto a [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 4π quantum SG model with a marginal perturbation [90m[\cite=Coleman]:[0m
+
+[90m[formula][0m
+
+[48;5;167m(22)[0m
+
+Notice that, the bosonization of the QAT model can be also achieved by first mapping the model onto a single chain of spinless fermions, and then bosonizing the latter. This alternative route is traced in Appendix [90m[\ref=Lattice-fermions].[0m
+
+[38;5;1m‖[0m Turning to the DQAT model, we observe that the h-term in [90m([\ref=DQAT])[0m is nonlocal in terms of lattice Majorana operators. However, it is known that, for two identical Ising models close to criticality, products of two Ising operators belonging to different chains, [90m[[0m[48;5;167mσ1 σ2 µ1 µ2 σ1 µ2 µ1 σ2[0m[90m/[0m[48;5;70mσ1σ2, μ1μ2, σ1μ2, μ1σ2,[0m[90m][0m all with scaling dimension 1/4, can be expressed locally in terms of bosonic vertex operators with the same scaling dimension (see, for instance, [90m[\cite=GNT][0m and references therein)In Appendix A.2, we rederive this correspondence starting from the lattice theory of two quantum Ising chains and paying special attention to the Klein factors:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(23)[0m
+[48;5;167m(24)[0m
+[48;5;167m(25)[0m
+[48;5;167m(26)[0m
+
+Here Θ φR φL is a scalar field dual to Φ.
+
+Thus, Eq. [90m([\ref=ss1])[0m establishes the continuum bosonized version of the "magnetic [38;5;1m==[0m field" coupling term in [90m([\ref=DQAT]):[0m
+
+[90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mσ1n[0m
+[48;5;167mσ2n[0m
+
+[48;5;167mZ[0m
+[48;5;167mh[0m
+[48;5;167mκ1 κ2 dx sin πΦ(x) =i[0m
+[48;5;167ma0[0m
+[48;5;167m(27)[0m
+
+Notice that algebra [90m([\ref=Klein-algebra])[0m of the Klein factors allows one to identify them with Pauli matrices,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+Therefore, in the continuum limit, the DQAT model can be represented in a diagonal 2× 2 matrix form:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167ma0 →0[0m
+
+[48;5;167mZ[0m
+
+[48;5;167mdx Ĥ(x)[0m[48;5;167mH+ (x)[0m
+[48;5;167mĤ(x) 0[0m
+
+[48;5;167m0[0m
+[48;5;167mH− (x)[0m
+
+[48;5;167m(28)[0m
+
+with the two Hamiltonians
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(29)[0m
+
+having the structure of the DSG model [90m([\ref=HDSGbis])[0m and differing only in the sign of the coupling constant h. The identification of the parameters is as follows: γ 8Ka0, g m a0, and λ h a0 (it is understood that when a0 0, K m,h 0 [38;5;1m==[0m so as to keep the DSG parameters finite)The 2× 2 matrix form of [90m[formula][0m reflects the symmetry of the DQAT model with [38;5;1m==[0m respect to the interchange of the two constituent quantum chains, (P12)under which the DSG Hamiltonians H± transform to each other. Formally, this [90m[[0m[38;5;1msym-[0m[90m/[0m[38;5;22msymmetry[0m[90m][0m [38;5;1mmetry[0m [38;5;1m==[0m appears as "unphysical" because the Hamiltonian [90m[formula][0m commutes with τ3. This allows one to set
+
+[90m[formula][0m
+
+[48;5;167m(30)[0m
+
+and study the Ising transition by projecting the matrix DQAT model onto the subspace of a single DSG Hamiltonian H+ (the choice [90m[formula],[0m H H- [38;5;1m==[0m would be as good as the above one)However, while [90m[[0m[38;5;1mκ1 κ2[0m[90m/[0m[38;5;22mκ1κ2[0m[90m][0m is a conserved quantity, each κi is not, implying that correlations functions of operators which contain the Klein factors may involve transitions between the two different sectors τ3 1.
+
+We shall see below that some physical models are automatically mapped onto [38;5;1m==[0m a single DSG model with a fixed sign of h (section 5)while some others reduce to the matrix form [90m([\ref=matrixDGS])[0m (section 6)In the latter case, the effective P12 symmetry [38;5;1m==[0m corresponds to a physical discrete Z2 symmetry of the model in question, which [38;5;1m==[0m is spontaneously broken in the ground state, a typical example of this kind being a spontaneously dimerized phase. In such situations, the Hamiltonians H±when [38;5;1m==[0m considered separately, describe only excitations above each of the two degenerate vacua. On the other hand, the two-fold degeneracy of the ground state necessarily implies the existence of topological kinks which interpolate between neighbouring [38;5;1m10[0m
+
+[38;5;1m==[0m degenerate minima of two different potentials U±corresponding to H±However, [38;5;1m==[0m in the entire parameter space of the model [90m([\ref=matrixDGS]),[0m including the Ising transition point, the sets of minima of the potentials U± always have a finite relative shift. [38;5;1m==[0m This means that the topological Z2 kinks always remain massive and thus appear [38;5;1m==[0m as irrelevant excitations as long as Ising criticality is concerned.
+
+[38;5;1m‖[0m Thus, when working with a single Hamiltonian H+all operators representing [38;5;1m==[0m strongly fluctuating fields at the Ising critical point are automatically taken into account. All "off-diagonal" operators proportional to κ1 or κ2, such as those given by [90m([\ref=smu1]) and ([\ref=mus1]),[0m can be dropped as they represent short-ranged fields at the critical point.
+
+[48;5;167m4[0m
+
+Deformed quantum Ashkin-Teller model in the (σ,τ) representation and the Ising transition
+
+The original two-chain representation of the Hamiltonian [90m([\ref=DQAT])[0m is not the most appropriate one to describe the role of the coupling term [90m([\ref=hterm]),[0m but some general statements can already be drawn at this stage. First of all it is clear that, if the chains are originally in the ordered phase, the role of the h-term would be exhausted by removing the degeneracy between the four ground states specified [48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mi. The lowest-energy[0m
+[48;5;167mi and σ2 hσ2n[0m
+by the signs of the order parameters σ1 [90m[[0m[48;5;167mhσ1n[0m[90m/[0m[48;5;70m〈σz1n〉 and σ2 〈σz2n〉The lowest-energy[0m[90m][0m [38;5;1m==[0m sector, determined by the condition [90m[[0m[38;5;1mhσ1 σ2[0m[90m/[0m[38;5;22mhσ1σ2[0m[90m][0m 0, will stay massive anyway. (For two ordered Ising copies, the h-term gives rise to an effective longitudinal magnetic field applied to both Ising systems and thus keeping them massive.Therefore, new effects can be only expected if the two chains are originally disordered.
+
+[38;5;1m‖[0m We can give an heuristic argument in favour of an Ising critical point that appears at a finite h, if at h 0 the chains are disordered. For the sake of clarity, let us make a duality transformation and replace the original model by a pair of two ordered Ising copies well below Tc, coupled by the interaction [90m[[0m[38;5;1mhµ1 µ2[0m[90m/[0m[38;5;22mhμ1μ2.[0m[90m][0m Consider a single quantum Ising model [90m([\ref=QI])[0m at J [38;5;22mΔ.[0m In the leading approximation, its ground state is fully polarised. The disorder operator [90m[[0m[38;5;1mµzn+[0m[90m/[0m[38;5;22mμzn[0m[90m][0m 1 2 creates a domain wall by flipping all the spins within the interval 1 j n. At short distances, [38;5;1m==[0m the domain walls behave like hard-core bosons which, in the dilute limit, are equivalent to spinless fermions with the dispersion
+
+[38;5;1m‖[0m [90m[formula][0m
+
+The coupling term [90m[[0m[38;5;1mhµ1 µ2[0m[90m/[0m[38;5;22mhμ1μ2[0m[90m][0m creates or destroys a pair of domains walls, one for each chain. Therefore, in the dilute limit, the effective Hamiltonian for the fermions describing domain walls is of the form:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mwhere [formula].[0m [48;5;167mX X[0m
+
+[48;5;167mǫ(k)c†i,k ci,k heff[0m
+
+[48;5;167mk i=1,2[0m
+
+[48;5;167mX[0m
+
+[48;5;167mc†1,k c1,k[0m
+
+[48;5;167mk[0m
+
+[48;5;167mc†2,k c2,k[0m
+
+[48;5;167m(31)[0m
+
+[48;5;167mwhere heff ∆h/J.[0m The combinations of the creation and annihilation [90m[[0m[38;5;1moperah[0m[90m/[0m[38;5;22moperators[0m[90m][0m [38;5;1mtors[0m [38;5;1m==[0m that appear in the coupling term reflect the fact that [90m[formula].[0m [48;5;167mi2[0m
+
+[38;5;1m1.[0m [38;5;1m==[0m It is [38;5;1m==[0m clear that the model [90m([\ref=dilute-ham])[0m is a theory of four Majorana fermions, two of which are not affected by the coupling term. The remaining part of Hamiltonian can be straightforwardly diagonalized and reduced to two Majorana fields with the masses
+
+[90m[formula][0m
+
+[38;5;1m‖[0m The Ising criticality is reached when one of the masses vanishes, which occurs [48;5;167mm± 2J const.[0m
+
+[38;5;1m==[0m when h [90m[[0m[38;5;1mJ 2[0m[90m/[0m[38;5;22mJ2 Δ.[0m[90m][0m In the dual representation, the above estimation of the critical [38;5;1m==[0m field should be replaced by h [90m[[0m[38;5;1m∆2[0m[90m/[0m[38;5;22mΔ2[0m[90m][0m J. Strictly speaking, the domain walls do not posses a fermionic statistics but contain a Jordan-Wigner type phase, which can only be neglected in the extreme dilute limit.
+
+[38;5;1m‖[0m Although the above argument provides a qualitative explanation of the transition, a satisfying description of the critical region can only be reached if we are able to properly identify the degrees of freedom which get critical and those which do not (and, of course, take into account the correct stastistics of the domain walls)For this purpose, let us introduce a new Ising variable
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(32)[0m
+
+Namely, let us switch from the original two-chain representation, with basic spin [48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+operators [90m[[0m[48;5;167mσ1n[0m
+[48;5;167mand σ2n[0m[90m/[0m[48;5;70mσz1n and σz2n,[0m[90m][0m to a new one where the basic variables are [90m[[0m[48;5;167mτnz and σnz σ1n[0m
+[48;5;167mz[0m[90m/[0m[48;5;70mτzn and σzn σz1n[0m[90m][0m (due to the P12 symmetry of the model, the choice [90m[[0m[48;5;167mτnz and σnz σ2n[0m[90m/[0m[48;5;70mτzn and σzn σz2n[0m[90m][0m would be [38;5;1m==[0m equivalent)In the original (σ1-σ2) representation, the local (i.e. at a fixed lattice site n) Hilbert space of the two-chain model is spanned by the basis vectors |σ1,σ2〉 [38;5;1mi[0m
+which are eigenstates of [90m[[0m[48;5;167mσ1z and σ2z[0m[90m/[0m[48;5;70mσz1 and σz2:[0m[90m][0m [90m[formula][0m
+
+[48;5;167mz[0m
+[48;5;167mσ1,2[0m
+[48;5;167m|σ1 σ2 i σ1,2 |σ1 σ2 i,[0m
+
+[48;5;167mσ1,2 ±1.[0m
+
+The new local basis |σ,τ〉 [38;5;1mi[0m is defined as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1mα[0m
+where σ σ1, τ [90m[[0m[38;5;1mσ1 σ2[0m[90m/[0m[38;5;22mσ1σ2.[0m[90m][0m Comparing matrix elements of the operators [90m[[0m[48;5;167mσ1n[0m
+[48;5;167mand[0m
+[48;5;167mα[0m
+[48;5;167mσ2n[0m[90m/[0m[48;5;70mσα1n and σα2n[0m[90m][0m in the two bases, we find the following correspondence:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mz[0m
+[48;5;167mσ2n[0m
+[48;5;167mσnz τnz[0m [48;5;167mx[0m
+[48;5;167mσ1n[0m
+[48;5;167mσnx τnx[0m [48;5;167mx[0m
+[48;5;167mσ2n[0m
+[48;5;167mτnx[0m [48;5;167m(33)[0m
+
+We also need to define the variables [90m[[0m[38;5;1mµn[0m[90m/[0m[38;5;22mμn[0m[90m][0m and νn dual to σn and τn, respectively. The pairs (σn,[90m[[0m[38;5;1mµn[0m[90m/[0m[38;5;22mμn)[0m[90m][0m and (τn,νn) should obey the duality relations [90m([\ref=dual]) and ([\ref=dualinv]).[0m Using these relations together with [90m([\ref=s1s2-st]),[0m one finds out how the dual spins transform under the change of basis:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mz[0m
+[48;5;167mµz2,n+1/2 νn+1/2[0m
+
+[48;5;167mµx1,n+1/2 µxn+1/2[0m [48;5;167mx[0m
+[48;5;167mµx2,n+1/2 µxn+1/2 νn+1/2[0m
+[48;5;167m(34)[0m
+
+In the σ-τ representation the DQAT model [90m([\ref=DQAT])[0m transforms to another [90m[[0m[38;5;1mtwochain[0m[90m/[0m[38;5;22mtwo-chain[0m[90m][0m model which we call the σ-τ model:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(35)[0m
+
+Here Hσ is a QI Hamiltonian similar to [90m([\ref=QI])[0m but with different parameters:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mHσ[0m [48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167m−Jσnz σn+1[0m
+[48;5;167mKσnx[0m [48;5;167m(36)[0m
+
+Hτ is also of the QI type model but the magnetic field is nonzero both in the transverse and longitudinal directions:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167mτnz τn+1[0m
+[48;5;167mX[0m
+
+[48;5;167m(hτnz ∆τnx[0m [48;5;167m(37)[0m
+
+[48;5;167mn[0m
+
+Finally, the coupling term is of the Ashkin-Teller type:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mJσnz σn+1[0m
+[48;5;167mτnz τn+1[0m
+[48;5;167m∆σnx τnx[0m [48;5;167mn[0m
+
+[48;5;167m(38)[0m
+
+A mean-field approach to [90m([\ref=H-new-rep])[0m is outlined in Appendix [90m[\ref=meanfield],[0m here we shall concentrate on the large-h limit. For large h, the τ-degrees of freedom freeze in a configuration where [90m[[0m[38;5;1mhτnz i[0m[90m/[0m[38;5;22m〈τzn〉[0m[90m][0m 1, and [90m[[0m[38;5;1mhτnx i[0m[90m/[0m[38;5;22m〈τxn〉Δ[0m[90m][0m h. The σ-degrees of freedom are then described by an effective Ising model
+
+[90m[formula][0m
+
+[38;5;1m‖[0m which can indeed become critical when [90m[formula].[0m Although this simple picture [38;5;1mX[0m
+
+[48;5;167mz[0m
+[48;5;167m2Jσnz σn+1[0m
+
+[38;5;1m==[0m holds only when h [38;5;22mΔ[0m J,K, if a universal behaviour is to be expected, then [38;5;1m13[0m
+
+[38;5;1m==[0m we are lead to conclude that, both at strong and weak h, the Ising transition essentially corresponds the situation when the σ degrees of freedom go massless, while the τ degrees of freedom remain frozen in a disordered configuration with both [90m[[0m[48;5;167mhτ z i and hτ x i[0m[90m/[0m[48;5;70m〈τz〉 and 〈τx〉[0m[90m][0m nonzero. Notice that, with the above strong-coupling [90m[[0m[38;5;1mdescrip-[0m[90m/[0m[38;5;22mdescription,[0m[90m][0m [38;5;1mtion,[0m [38;5;1m==[0m we are unable to determine the critical line and even estimate the strength of the irrelevant operators close to this line. This means that, even though the [90m[[0m[38;5;1muni-[0m[90m/[0m[38;5;22muniversal[0m[90m][0m [38;5;1mversal[0m [38;5;1m==[0m properties of the DSG model at the Ising transition, including the singular parts of physical quantities and critical exponents of the correlation functions, will be captured correctly, the nonuniversal parts, such as prefactors and subleading corrections to main asymptotics, are not to be trusted.
+
+[38;5;1m‖[0m Let us conclude this section by noticing two important facts which will prove useful in the next Section devoted to the correlation functions.
+
+[38;5;1m(i)[0m Quantum critical points are associated with gapless phases which are realized under certain conditions imposed on the parameters of the model. As soon as any of those parameters is shifted away from the criticality constraint, the system becomes off-critical. The corresponding perturbations to the critical Hamiltonian are therefore relevant operators with conformal dimensions determined by the universality class of the critical model. Notice that there is no magnetic field coupled to [90m[[0m[38;5;1mσ z[0m[90m/[0m[38;5;22mσz[0m[90m][0m in the exact lattice Hamiltonian [90m([\ref=H-new-rep]).[0m Therefore a departure from criticality by changing any one of the couplings (h, J, [90m[[0m[38;5;1m∆J[0m[90m/[0m[38;5;22mΔJ,[0m[90m][0m or K) will give rise to an Ising mass term.
+
+[38;5;1m(ii)[0m From Eq.[90m[\ref=Hseffect]),[0mif we reasonably take |K| 2J, we arrive at the conclusion [38;5;1m==[0m that, for h hc, the σ degrees of freedom are ordered, while they are [38;5;1m==[0m disordered otherwise.
+
+[48;5;167m5[0m
+
+Correlation functions
+
+In this Section we use the results of the above quantum-spin-chain type mappings to determine the physical properties of the DSG model close to the criticality.
+
+[48;5;167m5.1[0m
+
+DSG operators in the (σ,τ) representation: UV-IR transmutation
+
+In preceding sections we have shown that (i) the DQAT model can be mapped onto the DSG model which is a Gaussian free theory of the field Φ(x) in the [38;5;1m14[0m
+
+[38;5;1m==[0m ultraviolet (UV) limit, and that (ii) the DQAT can also be mapped onto the (σ,τ) model which, at the Ising transition, essentially reduces to a single critical Ising model of the order field σ(x) and disorder field [90m[[0m[38;5;1mµ([0m[90m/[0m[38;5;22mμ([0m[90m][0m x) in the infrared (IR) limit. Our aim here is to find out how the operators of the DSG model, originally defined in the vicinity of the UV fixed point, "transmute" when going from the UV limit to the IR limit.
+
+[38;5;1m5.1.1[0m
+
+Current operators
+
+We start with holomorphic, or current, operators that are made up of additive (analytic and anti-analytic) chiral parts. Of physical interest are the vector and axial current densities which, in terms of the bosonic field of the DSG model, are defined as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(40)[0m
+[48;5;167m(41)[0m
+
+In physical situations, J(x) determines the smooth part of the charge or spin density [90m[[formula]],[0m while J5(x) describes the corresponding charge or spin [38;5;1m==[0m current [90m[[formula]].[0m As follows from [90m([\ref=cur-R]), ([\ref=cur-L]),[0m these can be expressed in terms of the Majorana fields [90m[[0m[48;5;167mξ 1 and ξ 2[0m[90m/[0m[48;5;70mξ1 and ξ2:[0m[90m][0m [90m[formula][0m
+
+[48;5;167mJ(x) i [ξ1R (x)ξ2R (x) ξ1L (x)ξ2L (x)[0m[48;5;167m(42)[0m
+
+[48;5;167mJ5 (x) i [ξ1R (x)ξ2R (x) ξ1L (x)ξ2L (x)[0m[48;5;167m(43)[0m
+
+Making the inverse chiral rotation from [90m[[0m[48;5;167m(ξRa ξLa to (η a ζ a[0m[90m/[0m[48;5;70m(ξaR,ξaL) to (ηa,ζa)[0m[90m][0m (a 1,2)we can define a local lattice operator
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mi[0m
+[48;5;167m(η1n η2n ζ1n ζ2n 2[0m
+
+[48;5;167m(44)[0m
+
+which reproduces [90m([\ref=2cur])[0m in the continuum limit. Using the inverse Jordan-Wigner relations [90m([\ref=Majbis])[0m and transformations [90m([\ref=s1s2-st]),([\ref=mu1mu2-munu]),[0m we obtain:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(45)[0m
+
+(here we have implemented our Klein factor convention [90m([\ref=proj-H+])).[0m Using the fact that the τ-field is noncritical and has a nonzero expectation value, we pass to [38;5;1m15[0m
+
+[38;5;1m==[0m the continuum limit and thus find the expression for the current density at the infrared fixed point:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(46)[0m
+
+where C [90m[[0m[48;5;167mhτ z i[0m[90m/[0m[48;5;70m〈τz〉[0m[90m][0m is a nonuniversal number, and [90m[[0m[38;5;1mµ([0m[90m/[0m[38;5;22mμ([0m[90m][0m x) is the Ising disorder field at the criticality. Thus, the UV-IR transmutation of the current density is given by
+
+[90m[formula][0m
+
+[48;5;167m√1 ∂x Φ(x)[0m
+[48;5;167mπ[0m
+
+[48;5;167mUV,[0m
+
+[48;5;167mC∂x µ(x)[0m
+
+[48;5;167mIR.[0m
+
+[48;5;167m(47)[0m
+
+Turning to the axial current J5, we notice that the latter is related to the vector current J via the continuity equation:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(48)[0m
+
+As a result, the IR form of J5(x) can be immediately recovered. Indeed, the Ising disorder field [90m[[0m[38;5;1mµ[0m[90m/[0m[38;5;22mμ[0m[90m][0m is a scalar field (with zero conformal spin)This means that holomorphic properties of the vector and axial current operators are lost at the IR fixed point. Then the result [90m([\ref=cur-IR]),[0m together with the requirements of Lorentz invariance and continuity equation [90m([\ref=cont.eq]),[0m leads to the correspondence
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m√1π ∂t Φ(x) UV,[0m
+
+[48;5;167m−C∂t µ(x)[0m
+
+[48;5;167mIR,[0m
+
+[48;5;167m(49)[0m
+
+with the same prefactor C as in Eq.[90m[\ref=csum]),[0mprovided that the velocity is set v 1.
+
+[38;5;1m‖[0m As an important consistency check, we still need to explicitly determine the lattice version of the current operator. One might naïvely conclude that, since under the inverse chiral rotation [90m([\ref=chiral-rot2])[0m the axial current density transforms to
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(50)[0m
+
+it would be sufficient to replace the r.h.s. of [90m([\ref=J-5-eta-zeta])[0m by its local (single-site) counterpart which one might identify with [90m[[0m[38;5;1mJn5[0m[90m/[0m[38;5;22mJ5n.[0m[90m][0m This route is misleading because, in the lattice formulation, the particle current is always defined on a link (n,n 1) and, therefore, should be determined from the equation of motion
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(51)[0m
+
+which, in the continuum limit, is supposed to reduce to Eq.[90m[\ref=cont.eq]).[0mIt can easily be checked that the (density) operator, Jn, commutes with all the interaction terms in the lattice DQAT Hamiltonian [90m([\ref=DQAT]),[0m since all of them, including the [90m[[0m[38;5;1mhterm,[0m[90m/[0m[38;5;22mh-term,[0m[90m][0m are made up of the density operators. Therefore the above commutator is [38;5;1m16[0m
+
+[38;5;1m==[0m only contributed to by the Majorana kinetic energy term in [90m([\ref=DQAT])[0m and so is easily computed:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167m(52)[0m
+
+[48;5;167mwhere[0m
+
+[48;5;167mJ[0m
+[48;5;167mQn,n+1 (η1,n+1 ζ2n ζ1n η2,n+1 4[0m
+In terms of the lattice spins this reads
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(53)[0m
+
+[48;5;167m(54)[0m
+
+In the IR continuum limit this becomes [90m[[0m[48;5;167m∂t µ since ∂t µ i[µz HQI µy[0m[90m/[0m[48;5;70m∂tμ since ∂tμ i[μz,HQI] μy,[0m[90m][0m as immediately follows from the dual version of the QI spin chain Hamiltonian. Thus we arrive at the IR representation of the axial current given by [90m([\ref=c5sum]).[0m
+
+Vertex operators
+
+The analysis of the vertex operators
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m is in fact simpler than that of the holomorphic operators. There are two cases of physical interest: [90m[formula] and [formula].[0m
+
+[90mFrom ([\ref=ss1]), ([\ref=proj-H+]) and ([\ref=relation])[0m it follows that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mπΦ σ1 σ2 τ I,[0m
+
+[48;5;167m(55)[0m
+
+(I being the identity operator)as the τ model is always off-critical. This is a reasonable result since the above operator is directly present in the DSG Hamiltonian [90m([\ref=HDSGbis]).[0m However, as we mentioned in the previous Section, the operator [90m[formula][0m corresponds to the departure from the criticality of the σ-model. So, this operator, though having a finite average value, should also possess an extra term which, at the critical point, represents a strongly fluctuating field (with a power-law decaying correlation function)A more correct version of the formula [90m([\ref=sin])[0m is therefore as follows:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mπΦ I ε,[0m
+
+[48;5;167m(56)[0m
+
+where ε is the energy density (or a Majorana mass bilinear) operator. This follows from the first observation (i) at the end of Section [90m[\ref=DAT],[0m which states that moving h from its critical value results in the stress-energy tensor renormalisation [38;5;1m17[0m
+
+[48;5;167mTable 1: UV-IR transmutation of DSG-operators[0m
+[48;5;167mUV limit[0m
+[48;5;167mIR limit[0m
+
+[48;5;167m∂x Φ V√π V−π[0m
+[48;5;167m∂x µ[0m
+
+[48;5;167mµ[0m
+
+[48;5;167mV√π V−π V±4π[0m
+[48;5;167mI+ǫ[0m
+
+[38;5;1m==[0m and, more importantly, in the appearance of the Majorana mass, i.e. the Ising energy-density operator.
+
+[38;5;1m‖[0m Furthermore, [90m([\ref=mumu1])[0m and the lattice fusion rule [90m([\ref=mu1mu2-munu]) give[0m
+
+[90m[formula][0m
+
+Thus, the operator [90m[formula][0m [48;5;167m(57)[0m
+
+[38;5;1mπΦ[0m [38;5;1m==[0m is the most divergent operator of the DSG model, [38;5;1m==[0m with a nonzero expectation value at h hc and vanishing upon approaching the Ising critical point as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Finally, the behaviour of [90m[formula][0m operators is determined in full analogy [38;5;1m==[0m to the above discussion:
+
+[90m[formula][0m
+
+[48;5;167m(59)[0m
+
+Our results on UV-IR DSG operators transmutations are summarised in table I.
+
+[48;5;167m5.2[0m
+
+Correlation functions
+
+Having identified the operators at the IR fixed point, we can now determine leading asymptotics of the correlation functions. Most of the operators of physical interest can be expressed in terms of the Ising disorder operator [90m[[0m[38;5;1mµ[0m[90m/[0m[38;5;22mμ[0m[90m][0m at the Ising transition point and in its close vicinity.
+
+[38;5;1m‖[0m For physical applications of the DSG model, it is important to investigate the dynamical susceptibility defined as the frequency-momentum Fourier transform of the retarded auto-correlation function of the Ising disorder parameter: function
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(R)[0m
+
+[48;5;167m(ω, p) −i[0m
+
+[48;5;167mZ[0m
+
+[48;5;167mdx[0m
+
+[48;5;167mZ[0m
+
+[48;5;167m0[0m
+
+[48;5;167mdte−ipx+iωt h[µ(x, t)µ(0, 0)i.[0m
+
+[48;5;167m(60)[0m
+
+It is known that, at criticality, D(r) 1 [90m[[0m[38;5;1mr 1/[0m[90m/[0m[38;5;22mr1[0m[90m][0m 4 where [90m[formula] ([formula],[0m and v is set to 1)Furthermore, away from criticality, in the ordered phase, D(r) [48;5;167m18[0m
+
+[38;5;1m==[0m (A1 π)K0(mr) where A1 is related to the Glaisher constant. The crossover between these two regimes, r ξ 1 m and r ξ, respectively, is complicated and is described in terms of the Painlevé theory [90m[\cite=MC].[0m If, following [90m[\cite=MC],[0m we introduce,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167md ln D[0m
+[48;5;167mdr[0m
+
+then the function ζ can be shown to satisfy
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m which is related to Painlevé V equation and can, in turn, be shown to produce the correct conformal and massive limits. As the exact expressions are uncomfortable for calculations, we shall estimate the Fourier transforms from the asymptotes of the correlation function D(r)Therefore, first we summarise known results on the limiting behaviour of this function.
+
+[38;5;1m‖[0m At criticality
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167mr 1/4[0m
+
+[48;5;167m(61)[0m
+
+It is understood that this asymptotics is still valid away from criticality in the region r ξ.
+
+In the ordered phase
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mA1[0m
+[48;5;167mK0 (mr)π[0m
+
+[48;5;167m(62)[0m
+
+the large-r limit of which is
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(63)[0m
+
+In the disordered phase, thanks to the work by McCoy, Wu, Tracy, and collaborators [90m[\cite=MC],[0m we know that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mD< (r)[0m [48;5;167m(64)[0m
+
+which is understood to be the connected part of the correlator (i.e. without the constant piece)The large-r asymptotics of this function can be obtained from the relevant expansions of the modified Bessel functions quoted e.g. in [90m[\cite=GNT]:[0m
+
+[90m[formula][0m
+
+[48;5;167mA1 1 −2mr[0m
+[48;5;167me[0m
+[48;5;167m8πm2 r 2[0m
+
+[48;5;167m(65)[0m
+
+The retarded function [90m([\ref=ret])[0m can be found by calculating the Fourier transforms of the above asymptotic forms with a subsequent analytic continuation to real frequencies. This procedure is outlined in Appendix [90m[\ref=corrf].[0m The results are as follows.
+
+[38;5;1m19[0m
+
+Criticality. Using [90m([\ref=fan]) and ([\ref=Dnotq]),[0m one obtains
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mΓ(7/8) θ(p2 ω 2 cos(7π/8)θ(ω 2 p2 2 π[0m
+[48;5;167mΓ(1/8)[0m
+[48;5;167m|ω 2 p2 |7/8[0m
+[48;5;167m2i sin(7π/8)θ(ω 2 p2 (66)[0m
+[48;5;167m|ω 2 p2 |7/8[0m
+[48;5;167m1/4[0m
+
+Ordered Phase. Here we have a particle pole [90m([\ref=Dorq]):[0m
+
+[90m[formula][0m
+
+[48;5;167mD> (ω, p)[0m [48;5;167mπA1[0m
+[48;5;167miπ 2 A1[0m
+[48;5;167m[δ(ω ǫp δ(ω ǫp −ω 2 ǫ2p[0m
+[48;5;167m2ǫp[0m
+
+[48;5;167m(67)[0m
+
+Disordered phase. Specialising to α 1 2 in [90m([\ref=fan])[0m we have:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mq[0m
+
+[48;5;167mq[0m
+
+[48;5;167m|ω 2 ǫ2p |θ(ǫ2p ω 2 2i |ω 2 ǫ2p |θ(ω 2 ǫ2p[0m [48;5;167m(68)[0m
+
+Therefore, as long as [90m[[0m[38;5;1mω 2[0m[90m/[0m[38;5;22mω2[0m[90m][0m p2 4m2, the argument of the log-function in [90m([\ref=Ddisq])[0m is real and positive, so the correlation function remains real without dissipation. Above the two-particle threshold [90m[[0m[38;5;1m(ω 2[0m[90m/[0m[38;5;22m(ω2[0m[90m][0m p2 4m2)the correlation function has a branch cut and the dissipative part will appear as follows:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mD< (ω, p)[0m [48;5;167mA1 4m[0m
+[48;5;167mθ(p2 4m2 ω 2 q[0m
+[48;5;167mln[0m
+[48;5;167m2[0m
+[48;5;167m2[0m
+[48;5;167m2[0m
+[48;5;167m8m2 ω p 4m 2m[0m
+[48;5;167m2[0m
+[48;5;167mω p2 4m2[0m
+[48;5;167m2[0m
+[48;5;167m2[0m
+[48;5;167m2[0m
+[48;5;167mθ(ω p 4m −i Arctg[0m
+[48;5;167mm[0m
+
+[48;5;167m(69)[0m
+
+The excitations are therefore incoherent in this regime.
+
+[48;5;167m6[0m
+
+Dimerized Heisenberg chain in a staggered magnetic field
+
+The DSG model exhibiting a nontrivial flow towards Ising criticality can be realized as an effective continuum theory for a number of quantum 1D models of strongly correlated electrons, in particular quantum spin chains and ladders. In the context of spin systems, an effective DSG model can emerge within the [48;5;167m20[0m
+
+[38;5;1m==[0m Abelian bosonization scheme when staggered fields breaking translational invariance, such as an explicit dimerization (bond alternation) [90m[\cite=aff-conf][0mor a staggered magnetic field, are added to an originally translationally invariant model with a gaped ground [90m[[0m[38;5;1mstate1[0m[90m/[0m[38;5;22mstate.[0m[90m][0m [38;5;1m‖[0m Perhaps the simplest example of this kind is given by the spin-1/2 Heisenberg chain with nearest-neighbour (J1) and next-nearest-neighbour (J2) antiferromagnetic exchange interactions
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167m(J1 Sn Sn+1 J2 Sn Sn+2[0m [48;5;167m(70)[0m
+
+This model has been extensively studied during past years. If frustrating interaction J2 is small enough, the model maintains the critical properties of the unfrustrated Heisenberg chain (J2 0)At J2 J2c≃0.24J1, frustration gets relevant and drives the model to a massive phase characterised by spontaneously [38;5;1m==[0m broken parity [90m[\cite=j1j2][\cite=WA].[0m The ground state is dimerized and doubly degenerate, and there exist massive elementary excitations topological Z2 kinks carrying the spin 1/2. At a special (Majumdar-Ghosh) point, J2 0.5J1, the picture is particularly simple because the two Z2-degenerate ground states are given by matrix products of singlet dimers formed either on the lattice links 2n,2n 1 or 2n 1,2n Under assumption that J1 J2, the continuum limit of the J1 J2 model [38;5;1m==[0m can be considered, and the resulting quantum field theory is that of a critical [38;5;1m==[0m SU(2)1 Wess-Zumino-Novikov-Witten (WZNW) model perturbed a marginal current-current interaction [90m[\cite=WA]:[0m[90m[formula][0m
+
+where γ J2c J2 0. At γ 0, the perturbation is marginally irrelevant. [38;5;1mHJ1 −J2[0m [38;5;1m==[0m However, at γ 0 the effective interaction flows to strong coupling, and the [38;5;1m1[0m
+
+[48;5;167mWhile alternation of the nearest-neighbour exchange constants can originate from the spin-[0m
+
+[48;5;167mphonon coupling, the case of a nonuniform magnetic field with a period 2a0 (a0 being the[0m
+[48;5;167mlattice constant) used to be regarded as unrealistic, not achievable in experimental conditions.[0m
+[48;5;167mFortunately, the status of the staggered magnetic field has recently changed from exotic to[0m
+[48;5;167mlegitimate. It has been shown that, in some quasi-1D antiferromagnetic compounds, such[0m
+[48;5;167mfield can be realized as an intrinsic one. An effective staggered field can originate from the[0m
+[48;5;167mNeel ordering of one magnetic sublattice and being experienced by loosely connected magnetic[0m
+[48;5;167mchains which form another sublattice and remain disordered down to very low temperatures[0m
+[48;5;167m[11]A sign-alternating component of the magnetic field can be also effectively generated due[0m
+[48;5;167mto a staggered anisotropy of the gyromagnetic tensor, as it is the case for the Copper-Benzoate[0m
+[48;5;167morganic molecule [12][0m[48;5;167m21[0m
+
+[38;5;1m==[0m system ends up in a spontaneously dimerized phase with a dynamically generated spectral gap [90m[\cite=WA]:[formula],[0m where Λ J1 is the UV cutoff.
+
+Using Abelian bosonization, we can rewrite [90m([\ref=J1-J2-WZW])[0m as a sine-Gordon (SG) model:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mi[0m
+[48;5;167m1h[0m
+[48;5;167mγ[0m
+[48;5;167mγ[0m
+[48;5;167m8πΦ.[0m
+[48;5;167mx Φ)2 x Θ)2 ∂x ΦR ∂x ΦL cos[0m
+[48;5;167m2[0m
+[48;5;167m2π[0m
+[48;5;167m(2πα)2[0m
+
+[48;5;167m(72)[0m
+
+The "hidden" SU(2) symmetry of this bosonic Hamiltonian is encoded in the robust structure of the last two terms in Eq.[90m[\ref=J1-J2-bos]),[0mparametrised by a single coupling constant γ. This fact enforces the SG model [90m([\ref=J1-J2-bos])[0m to occur either on the weak-coupling SU(2) separatrix of the Kosterliz-Thouless phase diagram (γ 0)or on the strong-coupling SU(2) separatrix (γ 0)In the latter case, quantum solitons with the mass [90m[formula][0m and topological charge Q 1 are identified with the Z2 dimerization kinks carrying the spin S Q 2 1 2. In the remainder of this section we will be dealing with the massive, spontaneously dimerized phase.
+
+[38;5;1m‖[0m Consider the following deformation of the model: H HJ1 J2 H'where
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m3[0m
+[48;5;167mX[0m
+
+[48;5;167mλa T r (τa ĝ)[0m [48;5;167m(73)[0m
+
+[48;5;167ma=0[0m
+
+Here ĝ is the 2 2 WZNW matrix field with conformal dimensions (1/4, 1/4)and τa are the Pauli matrices including the unit matrix τ0 I. The scalar and vector parts of ĝ,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(74)[0m
+[48;5;167m(75)[0m
+
+constitute the staggered magnetisation and dimerization field of the S=1/2 Heisenberg chain. Representing
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(76)[0m
+
+let us consider the two terms in [90m([\ref=deform1])[0m separately.
+
+[38;5;1m‖[0m The role of weak explicit (spin-Peierls) dimerization in the spontaneously dimerized J1 J2 spin-1/2 chain has already been addressed by Affleck [90m[\cite=aff-conf]. The effective[0m [38;5;1mfective[0m [38;5;1m==[0m double-frequency-sine-Gordon potential appearing in this case is different from the one studied in this paper (c.f. Eq.[90m[\ref=HDSG])):[0m[90m[formula][0m
+
+[48;5;167mγ[0m
+[48;5;167mcos[0m
+[48;5;167m8πΦ[0m
+[48;5;167mλ[0m
+[48;5;167mcos[0m
+[48;5;167m2πΦ.[0m
+[48;5;167m(2πα)2[0m
+
+[48;5;167m(77)[0m
+
+The λ-term in [90m([\ref=pot-dimer])[0m removes the degeneracy between the neighbouring minima of the unperturbed potential [90m[formula][0m (i.e. between the two degenerate dimerized [38;5;1m22[0m
+
+[38;5;1m==[0m ground states) and thus leads to confinement of the solitons. The main physical effect is the spinon-magnon transmutation: deconfined spinons of the frustrated Heisenberg chain, carrying the spin S 1/2, form bound states with S 0 and S 1, the latter representing coherent triplet magnon excitations.
+
+[38;5;1m‖[0m Let us concentrate on the case of the staggered magnetic field, [90m[formula]:[0m
+
+[90m[formula][0m
+
+[90mChoosing [formula],[0m [48;5;167m(78)[0m
+
+[48;5;167mChoosing hs hs ẑ,[0m we arrive at a bosonic model
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(79)[0m
+
+in which we recognise the DSG model with the structure [90m([\ref=HDSG]).[0m From the analysis of the preceding section we conclude that the spontaneously dimerized chain in a staggered magnetic field has two phases separated by a quantum critical point at hs h*s. At hs h*s a "mixed" phase is realized, with coexisting dimerization [90m[[0m[48;5;167mhǫs i 6[0m[90m/[0m[48;5;70m〈εs〉[0m[90m][0m 0 and staggered magnetization [90m[formula].[0m Notice that, as opposed to the [38;5;1m==[0m case of uniform magnetic field that couples to the (conserved) total magnetisation, [38;5;1m==[0m the dependence [90m[formula][0m shows no threshold in hs. Dimerization vanishes at the Ising critical point hs h*s and remains zero in the "pure Neel" phase, hs h*s. The critical field h*s can be estimated by comparing the dimerization gap [90m[formula][0m with the gap that would open up at γ 0: mh h2 [90m[[0m[38;5;1m3[0m
+[38;5;1ms[0m[90m/[0m[38;5;22m3s.[0m[90m][0m So the critical staggered field is exponentially small: [90m[formula][0m
+
+Since the spin SU(2) symmetry is broken by the (staggered) magnetic field, [38;5;1m==[0m the total spin is not conserved, but the spin projection [90m[[0m[38;5;1mS z[0m[90m/[0m[38;5;22mSz[0m[90m][0m is. The latter circumstance allows one to identify the spin [90m[[0m[38;5;1mS z[0m[90m/[0m[38;5;22mSz[0m[90m][0m of elementary excitations as the topological quantum number of the kinks interpolating between the nearest degenerate minima of the potential U(Φ) in [90m([\ref=j1j2-DSG]).[0m According to the structure of [38;5;1m==[0m U(Φ)there will be "short" and "long" kinks, carrying the spin [90m[formula][0m [48;5;167m1[0m
+[48;5;167m2[0m
+
+[48;5;167mδ,[0m
+
+[38;5;1m==[0m where δ δ(hs) smoothly increases from δ 0 at hs 0 to δ 1 2 at hs h*s. Therefore, in the mixed phase, the original massive S 1/2 spinon splits into two [38;5;1m==[0m topological excitations carrying fractional spins [90m[[0m[38;5;1mS±z[0m[90m/[0m[38;5;22mSz±[0m[90m][0m These spins become [90m[[0m[38;5;1mS z[0m[90m/[0m[38;5;22mSz[0m[90m][0m 1 [38;5;1m==[0m and [90m[[0m[38;5;1mS z[0m[90m/[0m[38;5;22mSz[0m[90m][0m 0 at the Ising transition, and it is just the singlet kink which loses [38;5;1m==[0m its topological charge and becomes massless at hs h*s. The existence of the fractional-spin excitations in the mixed phase (hs h*s) is nothing but the spin version of the charge fractionization of topological excitations found earlier in 1D [38;5;1m23[0m
+
+[48;5;167mTable 2: UV-IR transmutation of operators[0m
+[48;5;167mfield[0m
+
+[48;5;167mUV[0m
+[48;5;167mz[0m
+
+[48;5;167muniform spin density[0m
+
+[48;5;167mJ ∂x Φ[0m
+
+[48;5;167muniform spin current[0m
+
+[48;5;167mIR[0m
+[48;5;167mz[0m
+
+[48;5;167mJ ∂x µ[0m
+
+[48;5;167mJ ∂t Φ[0m
+[48;5;167mJ ∂t µ[0m
+[48;5;167mdimerization[0m
+[48;5;167mǫs cos 2πΦ[0m
+[48;5;167mǫs µ[0m
+[48;5;167mstaggered magnetisation nz sin 2πΦ nz I ε[0m
+[38;5;1m==[0m commensurate Peierls insulators with broken charge conjugation symmetry (e.g. cis-polyacetylene) [90m[\cite=braz],[0mand also in a recent study of a 1D Mott insulator with alternating single-site energy [90m[\cite=FGN].[0m
+
+[38;5;1m‖[0m To estimate the behaviour of physical quantities at the transition, let us consider an anisotropic [90m([formula])[0m version of the model in which
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mThe [formula]-term in ([\ref=j1j2-DSG-anis])[0m [48;5;167m(80)[0m
+
+[48;5;167mThe γk -term in (80)[0m can be eliminated by an appropriate rescaling of the field, [90m[formula]:[0m
+
+[90m[formula][0m
+
+[48;5;167mH H0 [Φ][0m [48;5;167m(81)[0m
+
+As already mentioned, universality arguments lead to the conclusion that the anisotropic model [90m([\ref=anis-DSG])[0m also incorporates the Ising criticality at some value of hs. Choosing [90m[formula],[0m we reduce the perturbation to the form [90m([\ref=HDSGbis])[0m
+
+[90m[formula][0m
+
+[48;5;167mγ⊥[0m
+[48;5;167mcos 4πΦ hs sin πΦ,[0m
+[48;5;167m2[0m
+[48;5;167m(2πα)[0m
+
+[48;5;167m(82)[0m
+
+discussed in detail in previous sections. Using the (σ-τ) representation, we derive the relations in Table [90m[\ref=TABB][0m describing the UV-IR transmutation of the physical fields.
+
+[38;5;1m‖[0m We have the following correspondence:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mdisordered phase hµi 6 0;[0m
+[48;5;167mordered phase hµi 0.[0m
+
+We see that dimerization is finite at hs h*s and vanishes as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+on approaching the critical point. The staggered magnetisation, on the other hand, is always finite in both phases. Its behaviour at the transition is determined by the subleading correction to the identity operator (see Table [90m[\ref=TABB]):[0m
+
+[90m[formula][0m
+
+[48;5;167mh∗s[0m
+[48;5;167m|hs h∗s[0m [48;5;167m(83)[0m
+
+The logarithmic divergence of the staggered magnetic susceptibility at the transition is similar to that of the specific heat of the Ising model:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mh∗s[0m
+[48;5;167m|hs h∗s[0m [48;5;167m(84)[0m
+
+Next we consider the dynamical magnetic susceptibility. In analogy to [90m([\ref=ret]),[0m it is defined by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mZ[0m
+
+[48;5;167mdx[0m
+
+[48;5;167mZ[0m
+
+[48;5;167m0[0m
+
+[48;5;167mdte−ipx+iωt h[S z (x, t)S z (0, 0)i[0m
+
+[48;5;167m(85)[0m
+
+Using the continuum limit decomposition of the spin operators and the above glossary, we conclude that while the uniform magnetic susceptibility is readily given by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(86)[0m
+
+(the function D(R) has been extensively discussed in Section [90m([\ref=corf])),[0m the staggered susceptibility is in turn related to the correlation function of the Ising [90m[[0m[38;5;1menergydensity[0m[90m/[0m[38;5;22menergy-density[0m[90m][0m operator. The latter object is a Majorana bilinear
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Therefore, calculating the staggered magnetic susceptibility reduces to a simple task of computing the polarisation loop diagram for free, massive Majorana fermions. The result is
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167ms[0m
+
+[48;5;167m4m2 ω 2[0m
+[48;5;167mω2[0m
+[48;5;167m−2[0m
+[48;5;167marctg[0m
+[48;5;167mω2[0m
+[48;5;167m4m2 ω 2[0m
+[48;5;167m(87)[0m
+
+inside the gap ω| 2m) and
+
+[90m[formula][0m
+
+[48;5;167mω 2 4m2[0m
+[48;5;167mω2[0m
+[48;5;167mω2[0m
+[48;5;167mπ[0m
+[48;5;167m2[0m
+[48;5;167m1[0m
+[48;5;167misignω[0m
+[48;5;167marctg[0m
+[48;5;167m(88)[0m
+[48;5;167mχ(ω, π) ln[0m
+[48;5;167m4m2[0m
+[48;5;167mω2[0m
+[48;5;167mω 2 4m2[0m for |ω| 2m.
+
+[48;5;167m25[0m
+
+We notice that for h hs it obviously is the staggered field operator [90m[[0m[38;5;1m(β 2[0m[90m/[0m[38;5;22m(β2[0m[90m][0m 2π) which alone dictates the physics of our effective DSG model (not only is it the most relevant operator, but it also has a large amplitude)It is therefore instructive to compare the results for the dynamical magnetic susceptibility of the DSG model we have found via Ising-type mappings with those for the SG model with a [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 2π operator only, which were obtained in the paper [90m[\cite=ETD][0m by means of the form-factor technique. As for h hs we enter the ordered phase [90m[[0m[38;5;1m(hµi=[0m[90m/[0m[38;5;22mμ〉[0m[90m][0m 0)the uniform susceptibility [90m([\ref=chiun],[\ref=Dorfin])[0m is of a coherent nature, very much in agreement with [90m[\cite=ETD][0m magnon' contribution)The staggered susceptibility [90m([\ref=chiin],[\ref=chiout]),[0m on the other hand, is incoherent in excellent agreement with the kink-antikink continuum observed in [90m[\cite=ETD][0m (the breather contribution is missed in our approach; it might be recovered as a bound state of Majorana fermions, but we shall not push our analysis beyond this point)No analogous comparison can be made for h hs (no form-factor calculations are, to our knowledge, currently available for the [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 8π SG model, and, even if they were, a comparison would have been of dubious validity, as the addition of the [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 2π-operator qualitatively changes the spectrum from the start)[48;5;167m7[0m
+
+Ising transition in the 1D Hubbard model with alternating chemical potential
+
+The DSG model finds a number of interesting applications in the theory of 1D strongly correlated electron systems. In this section we shall consider a particular example of this kind which has been recently discussed in Ref. [90m[\cite=FGN][0ma 1D repulsive Hubbard model at 1/2-filling with a sign-alternating single-site energy (i.e. staggered chemical potential)The Hamiltonian of this model reads:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mi,σ[0m
+
+[48;5;167mc†iσ ci+1,σ h.c. U[0m
+
+[48;5;167mX[0m
+
+[48;5;167mni↑ ni↓[0m [48;5;167mi[0m
+
+[48;5;167mX[0m
+
+[48;5;167m1)i niσ[0m [48;5;167m(89)[0m
+
+[48;5;167mi,σ[0m
+
+where ciσ is the annihilation operator of an electron with the spin projection σ, residing at the lattice site i, and [90m[formula].[0m The model [90m([\ref=ham])[0m was originally proposed in the context of quasi-1D organic materials [90m[\cite=nagaosa][0m and is also believed to be prototypical for ferroelectric perovskites [90m[\cite=egami].[0m
+
+[38;5;1m‖[0m In spite of its apparent simplicity, the model [90m([\ref=ham])[0m reveals nontrivial physics. At U 0 it describes a band insulator (BI) with a spectral gap for all excitations. At [38;5;22mΔ[0m t, the low-energy spectrum of the BI is that of free massive Dirac fermions. [38;5;1m26[0m
+
+[38;5;1m==[0m When the Hubbard interaction is switched on, the finite fermionic mass [38;5;22mΔ[0m makes the theory free of infrared divergences, so that the BI phase remains stable for small enough U. On the other hand, at [38;5;22mΔ[0m 0, the Hamiltonian [90m([\ref=ham])[0m coincides with the standard (translationally invariant) Hubbard model which is exactly solvable [90m[\cite=LW][0m and is well known to describe a Mott insulator (MI) at any positive value of U, if the electron concentration [90m[formula][0m [48;5;167mP[0m
+
+[48;5;167mi,σ[0m
+
+[38;5;1mniσ 1[0m [38;5;1m==[0m (the case of a [38;5;1m==[0m 1/2-filled energy band)The MI state has a finite mass gap mc in the charge sector induced by commensurability of the electron density with the underlying lattice. At energies well below mc, local charge fluctuations are suppressed, and the low-energy spin dynamics of the model coincides with that of the spin-1/2 Heisenberg antiferromagnetic chain, the latter possessing a gapless spectrum. At a finite U, the charge-gaped MI phase is stable against site alternation, provided that [38;5;22mΔ[0m is small enough [90m[\cite=nagaosa].[0m
+
+[38;5;1m‖[0m Thus, the issue of interest is the nature of the crossover between the BI and MI regimes which is expected to occur in the strong-coupling region where the [90m[[0m[38;5;1msingleparticle[0m[90m/[0m[38;5;22msingle-particle[0m[90m][0m mass gap [38;5;22mΔ[0m becomes comparable with the MI charge gap mc. Starting out from the MI phase and decreasing U at a fixed [38;5;22mΔ,[0m one has to identify the mechanism for the mass generation in the spin sector. On the other hand, it is clear that the charge degrees of freedom should also be involved in the BI-MI crossover. Indeed, dividing the lattice into two sublattices, A and B, with the single-site electron energies [38;5;22mΔ[0m and [38;5;22mΔ,[0m respectively, and considering electronic [38;5;1m==[0m states of a diatomic (AB) unit cell in the limit t U,[38;5;22mΔ,[0m one finds a region U [90m[[0m[38;5;1m2∆[0m[90m/[0m[38;5;22m2Δ[0m[90m][0m [38;5;1m==[0m where two charge configurations, [90m[[0m[48;5;167mA1 B 1 and A0 B 2[0m[90m/[0m[48;5;70mA1B1 and A0B2,[0m[90m][0m become almost degenerate. This is the so-called mixed-valence regime where those excitations responsible [38;5;1m==[0m for the charge redistribution among the two unit-cell configurations become soft. This means that, apart from the spin transition, a charge transition associated with vanishing of the charge gap at some value of U is also expected to occur.
+
+[38;5;1m‖[0m In Ref. [90m[\cite=FGN][0mwe have shown that the MI-to-BI crossover, taking place on decreasing U at a fixed [38;5;22mΔ,[0m is realized as a sequence of two continuous transitions: a Berezinskii-Kosterlitz-Thouless (BKT) transition at U Uc2 where a spin gap is dynamically generated, and an Ising critical point at U Uc1 Uc2 where the charge gap vanishes. Assuming that U,[38;5;22mΔ[0m t, below we shall consider the [38;5;1m==[0m effective low-energy field theory for the lattice model [90m([\ref=ham]).[0m We shall then briefly [38;5;1m==[0m comment on the spin transition and mostly concentrate on the Ising transition in the charge sector of the model which will be described in terms of a DSG model.
+
+[38;5;1m‖[0m The standard bosonization procedure (see e.g. [90m[\cite=GNT])[0m allows one to represent the [38;5;1m27[0m
+
+[38;5;1m==[0m Hamiltonian density as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Here the spin sector is described by the SU(2)1 WZNW model with a marginally irrelevant current-current perturbation originating from the electron backscattering processes (g Ua0 0)[38;5;1m‖[0m [90m[formula][0m
+
+[90mwhere [formula][0m [48;5;167m2πvs[0m
+[48;5;167mJR JR JL JL 2gJR JL[0m
+[48;5;167m3[0m
+
+[48;5;167m(90)[0m
+
+[48;5;167mwhere JR,L[0m are chiral components of the vector spin current satisfying the SU1(2) Kac-Moody algebra. This Hamiltonian accounts for the universal properties of the spin-1/2 antiferromagnetic Heisenberg chain in the scaling limit [90m[\cite=affleck].[0m The charge degrees of freedom are represented by a sine-Gordon model for a scalar field Φc:
+
+[90m[formula][0m
+
+[38;5;1m‖[0m where m0 g. The cosine perturbation is caused by the electron Umklapp [90m[[0m[38;5;1mpro-[0m[90m/[0m[38;5;22mprocesses[0m[90m][0m [48;5;167mHc[0m [38;5;1mcesses[0m [38;5;1m==[0m (see e.g. [90m[\cite=GNT]).[0mFor a wide class of Hamiltonians with finite-range interactions (of which the Hubbard model is a member) the parameter Kc 1. This means [38;5;1m==[0m that the model [90m([\ref=charge])[0m is in a strong-coupling regime, and the dynamically generated mass determines the gap mc in the charge sector. The charge and spin sectors are coupled by the [38;5;22mΔ-[0mterm:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;22mwhere εs[0m [48;5;167mq[0m
+[48;5;167m2∆[0m
+[48;5;167mǫs sin 2πKc Φc[0m
+[48;5;167mπα[0m
+
+[48;5;167m(92)[0m
+
+[38;5;1mwhere ǫs[0m is the spin dimerization field of the S=1/2 Heisenberg chain, defined in [90m([\ref=eps-bos]).[0m
+
+[38;5;1m‖[0m Let us assume that we are in the MI regime with a gaped charge sector. Since the charge field Φc is locked in one of degenerate minima of the periodic potential in [90m([\ref=charge]),[0m
+
+[90m[formula][0m
+
+[48;5;167ms[0m
+
+[48;5;167mπ[0m
+[48;5;167mm,[0m
+[48;5;167m2Kc[0m
+
+[48;5;167mm Z∞[0m
+
+it follows immediately that, in the MI phase, the operator [90m[formula][0m [38;5;1m2πKc Φc[0m [38;5;1m==[0m appearing [38;5;1m==[0m in [90m([\ref=delta-term])[0m does not represent a strongly fluctuating field; it is rather short-ranged at distances ξc vc mc, and this explains the stability of the MI phase against a [38;5;1m==[0m small [38;5;22mΔ-[0mperturbation. Assuming that the charge gap is nonzero, we integrate out the massive charge degrees of freedom to obtain the effective action in the spin sector. According to the unbroken SU(2) symmetry of the model, the effective Hamiltonian in the spin sector retains its form [90m([\ref=spin]),[0m but the current-current [38;5;1m28[0m
+
+[38;5;1m==[0m coupling constant undergoes an additive renormalization. In the second order in [38;5;22mΔ[0m we obtain:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m where C 1 is a nonuniversal numerical constant. The spin sector now resembles [38;5;1m==[0m the J1 J2 frustrated spin-1/2 chain (see section 5) with an effecive next-nearest-[38;5;1m==[0m neighbour interaction J2 generated by the staggered chemical potential [38;5;22mΔ.[0m As long as [90m[formula],[0m the spin excitation spectrum remains gapless. However, decreasing U at a fixed [38;5;22mΔ[0m (or increasing [38;5;22mΔ[0m at a fixed U) eventually reverts the above inequality to [90m[formula].[0m In this case the current-current perturbation becomes marginally relevant, and a continuous (BKT) transition takes place to a spontaneously dimerized insulating (SDI) phase with broken (site) parity and a finite mass gap in the spin sector.
+
+[38;5;1m‖[0m Thus, the condition [90m[formula][0m determines the spin transition point Uc2. Using the exact result for the charge gap in the small-U Hubbard model [90m[\cite=LW],[0m[90m[formula][0m
+
+we find that
+
+[90m[formula][0m
+
+[38;5;1m‖[0m The dimerization order parameter that becomes nonzero at U Uc2 is defined [38;5;1m==[0m as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167m1)i c†iσ ci+1,σ h.c.[0m
+
+[48;5;167mi,σ[0m
+
+[48;5;167m(94)[0m
+
+and in the continuum limit its density is given by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mD(x) cos 2πKc Φc (x)T rĝs (x)[0m
+
+[48;5;167m(95)[0m
+
+It is instructive to compare the parity properties of the SDI and BI phases. For models defined on a 1D lattice, there are two parity transformations the site parity (PS) and link parity (PL) [90m[\cite=EA].[0m The difference between PS and PL survives the continuum limit and shows up in two inequivalent parity transformations that keep the massless Dirac equation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m invariant. These are
+
+[90m[formula][0m
+
+[48;5;167mPS[0m [48;5;167mψ(x) σ1 ψ(x)[0m
+
+[48;5;167m(96)[0m
+
+[48;5;167mPL[0m [48;5;167mψ(x) σ2 ψ(x)[0m
+
+[48;5;167m(97)[0m
+
+[48;5;167m29[0m
+
+Using bosonization rules for spin-1/2 Dirac fermions (see e.g. [90m[\cite=GNT]),[0m one easily finds that both PS and PL lead to
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m whereas the WZNW field ĝs transforms differently:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mComparing ([\ref=delta-term]) and ([\ref=dimer-op-den]),[0m [48;5;167mĝs (x) −ĝs x)[0m
+
+[48;5;167m(98)[0m
+
+[48;5;167mPL[0m [48;5;167mĝs (x) ĝs x)[0m
+
+[48;5;167m(99)[0m
+
+[48;5;167mComparing (92) and (95)[0mwe see that the [38;5;22mΔ-[0mperturbation breaks PL but is invariant under PS (in fact, PS is the symmetry of the Hamiltonian [90m([\ref=ham])),[0m while the dimerization operator D breaks PS but preserves PL. This is easily understood by noticing that these two terms have the structure of two different fermionic mass bilinears, [90m[formula] and [formula],[0m with opposite transformation properties with respect to PS and PL. Thus, the parity properties of the SDI and BI phases are different, and this is a strong indication that the passage from SDI to BI should be associated with a significant redistribution of the charge density (charge transition)[38;5;1m‖[0m In what follows, we will not be dealing with estimation of the transition point Uc1. Referring the reader to Ref. [90m[\cite=FGN][0mwhere the mechanism of the charge transition is discussed in the context of excitonic instability of the BI phase, here we simply claim that for the model [90m([\ref=ham]),[0m within the leading logarithmic accuracy, [90m[formula],[0m [48;5;167m1 const/ ln (t/[0m[38;5;1m==[0m where the positive constant is of the order of unity. Let us [38;5;1m==[0m instead focus on a nonperturbative description of the charge transition to the BI phase. Suppose we are in the SDI phase with both charge and spin sectors gaped. Adopting an Abelian bosonic representation for the SU(2)1 WZNW model with a marginally relevant perturbation,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mHs[0m [48;5;167m(100)[0m
+
+we can regard the effective Hamiltonian given by [90m([\ref=spin-Abel]), ([\ref=charge]) and ([\ref=delta-term])[0m as a phenomenological Landau-Ginzburg energy functional, in the sense that all the couplings (m0,Kc,λ,[38;5;22mΔ)[0m and velocities (vs,vc) are effective ones obtained by integrating out high-energy degrees of freedom. The effective potential is given by:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwith[0m
+
+[90m[formula][0m
+
+[48;5;167m30[0m
+
+[48;5;167mwith[0m
+[48;5;167mµc[0m [48;5;167mm0[0m
+[48;5;167m0,[0m
+[48;5;167mπα[0m
+
+[48;5;167mµs[0m [48;5;167mλ[0m
+[48;5;167m0,[0m
+[48;5;167m2(πα)2[0m
+
+[48;5;167mδ=[0m
+
+[48;5;167mπα[0m
+
+The robust ingredients of the potential [90m([\ref=U-eff])[0m are the vertex operators and the signs of the corresponding amplitudes. It can be shown that, as long as the parameter Kc is confined within the interval 1 2 Kc 1, this potential, with all terms being strongly relevant perturbations, is indeed the most representative one for the model under discussion because no new relevant operators are generated in the course of renormalization. This is no longer true if Kc 1 2, the regime which can be realized for an extended model with extra finite-range interactions, e.g. [90m[formula].[0m [48;5;167mP[0m
+
+[48;5;167mi[0m
+
+[48;5;167mni ni+1[0m [38;5;1m==[0m In this case, new relevant vertex operators will be generated [38;5;1m==[0m upon renormalization, and the continuous Ising transition in the charge sector can transform to a first-order one. We will comment on that in the end of this section.
+
+[38;5;1m‖[0m A simple analysis of the saddle points of the potential U(εc,εs) [90m[\cite=FGN][0mshows that [38;5;1mq[0m
+
+[38;5;1m==[0m the location of its minima in the spin sector, [90m[formula],[0m [38;5;1mπ/2n,[0m [38;5;1m==[0m and hence the spin [38;5;1m==[0m quantum numbers of the topological excitations, are the same as in the BI phase (U Uc1)So the spin part of the spectrum in the SDI phase smoothly transforms to that of the BI phase. Therefore, being interested in the redistribution of the charge degrees of freedom in the vicinity of Uc1, in [90m([\ref=U-eff])[0m we can replace [90m[formula][0m by its vacuum expectation value, [90m[formula].[0m The two signs here reflect [38;5;1m==[0m the Z2 degeneracy of the dimerized ground state (spontaneously broken site parity; see Eq. [90m([\ref=g-PS])).[0m Thus, the Hamiltonian of effective model describing the charge degrees of freedom can be represented in the following 2× 2 matrix form:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167mH c[0m
+[48;5;167m0[0m
+
+[48;5;167m0[0m
+[48;5;167mHc([0m[48;5;167m(102)[0m
+
+[48;5;167mwhere[0m
+[48;5;167mi[0m
+[48;5;167mvc h[0m
+[48;5;167mx Φc )2 x Θc )2[0m
+[48;5;167m2[0m
+[48;5;167mq[0m
+[48;5;167mq[0m
+[48;5;167mµc cos 8πKc Φc h sin 2πKc Φc[0m
+
+[48;5;167mHc([0m[48;5;167m(103)[0m
+
+(here h δc0)Notice that under PS [90m[[0m[48;5;167mHc(Hc([0m[90m/[0m[48;5;70mH( )c H( )c.[0m[90m][0m We have arrived at the matrix version of DSG model similar to [90m([\ref=matrixDGS]), ([\ref=QAT-DSG]).[0m [38;5;1m==[0m To make contact with the DQAT model discussed in detail in sections 2 and 3, we shall consider [90m[formula][0m in the vicinity of the point Kc 1 2. Setting [90m[formula][0m [48;5;167m31[0m
+
+[48;5;167m1/2 (1 γ0[0m [38;5;1m==[0m and rescaling the fields
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mtransforms H( )c in ([\ref=charge-ham])[0m [48;5;167m1[0m
+[48;5;167mΦ,[0m
+[48;5;167m2Kc[0m
+
+[48;5;167mΘc[0m [48;5;167mq[0m
+
+[48;5;167m2Kc Θ[0m
+
+[48;5;167mtransforms Hc(in (103)[0m to a form similar to H± of Eq.[90m[\ref=QAT-DSG]).[0mWith this correspondence and all the results of the previous sections, we are [38;5;1m==[0m now able to describe in detail the Ising transition in the charge sector. As already explained in section 2.2, this can be done by considering only the Hamiltonian [90m[[0m[38;5;1mHc([0m[90m/[0m[38;5;22mH( )c.[0m[90m][0m [38;5;1m‖[0m When studying the physical properties of our model [90m([\ref=ham])[0m at the charge transition point, it is important to remember that the disordered (h hc) and ordered (h hc) phases of the effective Ising model correspond to the SDI and BI phases of the electronic model [90m([\ref=ham]).[0m First we consider the dimerization operator [90m([\ref=dimer-op-den]):[0m
+
+[90m[formula][0m
+
+With the spin field Φs locked in the SDI phase, [90m[formula][0m and Kc 1 2, this transforms to the charge polarisation field
+
+[90m[formula][0m
+
+[38;5;1m‖[0m In full agreement with the physical picture, from [90m([\ref=cos])[0m it follows that the operator D, being the order parameter of the SDI phase, is the most strongly fluctuating [38;5;1m==[0m field at the Ising trasntion:
+
+[90m[formula][0m
+
+[48;5;167m(104)[0m
+
+Its average value is nonzero in the SDI phase and vanishes as [90m[[0m[38;5;1mhDi[0m[90m/[0m[38;5;22m〈D〉[0m[90m][0m (hc h)1 8 on [38;5;1m==[0m approaching the charge transition point (remaining zero in the whole BI phase)Using [90m([\ref=sin]),[0m we find that the average value of the [38;5;22mΔ-[0mperturbation, which, at Kc 1 2, is given by [90m[[0m[38;5;1mO∆[0m[90m/[0m[38;5;22mOΔ[0m[90m][0m sin πΦc is nonsingular across the transition and [38;5;1m==[0m remains finite in both phases.
+
+The most interesting feature of the Ising transition is the UV-IR transmutation of the charge density ρc(x) and current Jc(x)At Kc 1 2, the UV limit of our model represents a metallic state with central charge [90m[[0m[38;5;1mcU V[0m[90m/[0m[38;5;22mcUV[0m[90m][0m 2, described in terms of two massless Gaussian fields Φc and Φs. In this limit
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167mJc (x) ∂x Θc (x)π[0m
+
+According to [90m([\ref=csum]),([\ref=c5sum]),[0m at the Ising criticality (cIR 1 2)[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;22mWith μ([0m[48;5;167mJc (x) −C∂t µ(x)[0m
+[48;5;167m32[0m
+
+[48;5;167m(105)[0m
+
+[38;5;1mWith µ([0mx) representing the charge polarization field, Eqs.[90m[\ref=rho-J-IR])[0midentify ρc and Jc as the bound charge and polarisation-current densities, respectively. Such an identification is typical for insulators rather than metals. This could have been anticipated from the fact that a true metallic state with charge-carrying gapless excitations cannot be described by a single massless real (Majorana) field.
+
+[38;5;1m‖[0m An insulating (semi-metallic) behaviour of the model at the quantum critical point, reached at the charge transition, becomes manifest when one estimates the optical conductivity:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(106)[0m
+
+Here D(R)ω,q) is the retarded correlation function defined in [90m([\ref=ret]).[0m Using the result [90m([\ref=Dnotfin]),[0m we find that, at zero temperature, σ(ω) displays a universal power-law behaviour:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(107)[0m
+
+Although the optical conductivity is divergent in the zero-frequency limit, there is no Drude-peak contribution δ(ω)typical of true metals.
+
+[38;5;1m‖[0m It is also possible to estimate the optical conductivity at finite temperatures (keeping in mind the σ τ representation of the DQAT model, one should assume [38;5;1m==[0m that T is much smaller than the mass gap in the decoupled τ degrees of freedom)This can be done using conformal mapping from a cylinder
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mμ (z, μ (z,[0m [90m[formula][0m
+
+[48;5;167mτ β] onto a complex plane C. Starting with the T 0 asymptotics of the[0m
+[48;5;167mcorrelation function[0m
+[48;5;167mhµ(z1 z̄1 )µ(z2 z̄2 )i[0m [48;5;167m1[0m
+[48;5;167m|z1 z2 |1/4[0m
+
+[48;5;167mand using the above mentioned conformal mapping, one obtains[0m
+[48;5;167mπT[0m
+[48;5;167mhµ(x, τ )µ(0, 0)i sinh πT (x iτ sinh πT (x iτ[0m [48;5;167m#1/8[0m
+
+[48;5;167m(108)[0m
+
+[48;5;167mIt can be shown that[23][0m
+[48;5;167m1[0m
+
+[48;5;167mω[0m
+[48;5;167mℑmχ(ω) 7/4 ℑm ρ[0m
+[48;5;167mT[0m
+[48;5;167m4πT[0m
+[48;5;167mwhere[0m
+[48;5;167mρ(x)[0m [48;5;167m1[0m
+[48;5;167m16[0m
+[48;5;167mΓ 15[0m
+[48;5;167m16[0m
+
+[48;5;167mΓ[0m
+
+[48;5;167m2[0m
+
+[48;5;167mix[0m
+
+[48;5;167m(109)[0m
+
+[48;5;167m(110)[0m
+
+[48;5;167mix[0m
+
+[48;5;167mThe final result for the temperature dependent optical conductivity at the Ising[0m
+[48;5;167mcritical point is given by the following universal formula:[0m
+σ (ω, T) [38;5;1m==[0m ω T.
+
+[90m[formula][0m
+
+[48;5;167mω[0m
+[48;5;167m4πT[0m
+
+[48;5;167m2[0m
+
+[48;5;167m(111)[0m
+
+[48;5;167mAt finite ω T the frequency dependence of σ(ω, T is classical but with a[0m
+
+[48;5;167mquantum, temperature dependent prefactor:[0m
+
+[48;5;167mσ(ω, T ω 2 /T 11/4 At ω T σ(ω, T reaches its maximum and then crosses over to its quantumcritical high-frequency (ω T asymptotics (107)[0m[48;5;167m8[0m
+
+First order transition at [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 2π
+
+Until now we assumed that 2π [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 8π, so that no other relevant operators were generated upon renormalization. Indeed, already at [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 32π 9, the operator [90m[formula],[0m which is generated by the OPE of the two operators present in [90m([\ref=HDSG]),[0m becomes relevant. However, such an operator does not modify the qualitative behaviour of the model, as one can easily realize by a quasi-classical analysis. On the contrary, the operator [90m[formula],[0m which is also generated by the OPE, and which becomes relevant at [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 2π, can modify the properties of the model in a relevant manner. Indeed, inspecting the quasi-classical potential
+
+[90m[formula][0m
+
+[38;5;1m‖[0m one finds that the Ising transition is turned by a sufficiently large V into a first order one.
+
+[38;5;1m‖[0m The capability of an apparently subleading operator to change a continuous transition to a first order one is indeed common to a variety of models. For instance, it is known that the critical line with non universal exponents separating the Charge Density Wave (CDW) and the Spin Density Wave (SDW) phases of the extended (U-V) Hubbard model, becomes a first order line at sufficiently strong coupling [90m[\cite=Hirsh].[0mIn fact, in the extended Hubbard model, the charge Luttinger liquid exponent Kc can be lower than 1 2, the point at which the second harmonics of the Umklapp scattering starts to be relevant. Therefore, at sufficiently strong interaction, it can indeed turn the CDW-SDW transition line into a first order one. A similar situation occurs with the charge transition in the electronic model, considered in section 7, when the latter is generalised to include a sufficiently strong nearest-neighbour repulsion [90m[\cite=nagaosa].[0m
+
+[48;5;167m34[0m
+
+[48;5;167m9[0m
+
+Conclusions
+
+In this paper, we have proposed a nonperturbative description of the Ising criticality in the DSG model [90m([\ref=HDSG]).[0m Using the equivalence between the DSG model and a deformed quantum Ashkin-Teller model, valid in the vicinity of the decoupling point, [90m[[0m[38;5;1mβ 2[0m[90m/[0m[38;5;22mβ2[0m[90m][0m 4π, we were able to identify the effective Ising degrees of freedom that asymptotically decouple from the rest of the spectrum and become critical in the infrared limit. This identification allowed us to describe the UV-IR "transmutation" of all physical fields of the DSG model and calculate the correlation functions at and close to the transition. We have also demonstrated the efficiency of our approach to describe Ising transitions in some physical realizations of the DSG model.
+
+[38;5;1m‖[0m We believe that our quantum-Ising-chain approach can be generalised to the case when the number of the constituent Ising models, coupled by the interaction [90m[formula],[0m [48;5;167mQ[0m
+
+[48;5;167mj[0m
+
+[38;5;1mσj[0m [38;5;1m==[0m is larger than 2. Such situation can indeed be realized in certain SU(2)[38;5;1m==[0m invariant spin-ladders models which can be driven to criticality under the action of external staggered fields. In such systems, the quantum critical points may be not only of the Ising type but also correspond to SU(2)k WZNW universality class. Such examples will be considered elsewhere [90m[\cite={else}].[0m
+
+Acknowledgements
+
+[38;5;1m‖[0m It is our pleasure to thank G. Mussardo for inspiring discussions. We are grateful A. Chubukov, D. Edwards, Yu Lu, N. Nagaosa, S. Sorella, E. Tosatti, A. M. Tsvelik, Y.J. Wang and V. Yakovenko for their interest in the work and helpful comments. M.F. is partly supported by INFM, under project PRA HTSC. A. O. G. is supported the EPSRC of the United Kingdom. A. A. N. is partly supported by INTAS-Georgia grant 97-1340.
+
+[48;5;167m35[0m
+
+[48;5;167mA[0m
+
+Bosonization
+
+[48;5;167mA.1[0m
+
+Bosonization of Fermi fields, currents and mass bilinears
+
+We build up a Dirac field out of two Majorana fields, ξ1 and ξ2, and bosonize it:
+
+[90m[formula][0m
+
+[48;5;167mR,L[0m
+
+[48;5;167m1[0m
+[48;5;167mexp ±i 4πφR,L[0m
+[48;5;167m2πα[0m
+
+[48;5;167m(112)[0m
+
+To ensure anticommutation between the right and left components of the Fermi field, it is assumed that
+
+[90m[formula][0m
+
+[38;5;1m‖[0m Notice that α is an ultraviolet cutoff in the bosonic theory which actually appears as a short-distance regulator in the normal-mode expansion of bosonic fields. For this reason it does not need to coincide with the original lattice constant a0 which appears in the continuum representation of fermionic fields. These two cutoffs are, however, related, as shown in Appendix A.2.
+
+[38;5;1m‖[0m The chiral components of the U(1) current are defined as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mUsing ([\ref=Maj-Dirac-Bose]),[0m [48;5;167m(114)[0m
+[48;5;167m(115)[0m
+
+[38;5;1mUsing (112)[0mone also finds that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mi −i√4πΦ[0m
+[48;5;167me[0m
+[48;5;167m2πα[0m
+
+[48;5;167m1[0m
+[48;5;167m(ξ1R iξ2R (ξ1L iξ2L 2[0m
+
+[48;5;167m(116)[0m
+
+implying that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(117)[0m
+[48;5;167m(118)[0m
+
+The DQAT Hamiltonian [90m([\ref=DQAT])[0m is symmetric under interchange (P12) of the two chains. Let us find the transformation properties of all the fields under P12. [38;5;1m==[0m >From [90m([\ref=Maj-Dirac-Bose])[0m it follows that interchanging the two chains leads to transformations
+
+[38;5;1m‖[0m [90m[formula][0m
+
+The chiral currents JR,L, and therefore the total (J JR JL) and axial (J5 JR JL) currents change their signs:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(120)[0m
+
+Under P12 the scalar field Φ φR φL and its dual counterpart Θ φR φL transform as follows:
+
+[90m[formula][0m
+
+[38;5;1m‖[0m Notice that the symmetry properties of r.h.sides of [90m([\ref=cos-Maj])and ([\ref=sin-Maj])[0m are consistent [38;5;1mΦ −Φ,[0m
+
+[48;5;167mΘ→[0m[38;5;1m==[0m with [90m([\ref=P-12-Phi-Theta]).[0m
+
+[48;5;167mA.2[0m
+
+Bosonization of products of order and disorder operators
+
+Starting with the Jordan-Wigner transformation for two QI spin chains, which can be summarised as follows
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mz[0m
+[48;5;167mσan[0m
+[48;5;167miκa[0m [48;5;167my[0m
+[48;5;167mσan[0m
+[48;5;167miκa[0m [48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mj=1[0m
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mj=1[0m
+
+[48;5;167mµxa,n+1/2 −iζan ηa,n+1[0m
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mx σaj[0m
+[48;5;167mζan[0m [48;5;167mµza,n+1/2[0m [48;5;167mx σaj[0m
+[48;5;167mηan[0m [48;5;167mµya,n+1/2[0m [48;5;167mx[0m
+[48;5;167mσaj[0m
+
+[48;5;167m(122)[0m
+[48;5;167m(123)[0m
+
+[48;5;167mj=1[0m
+
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mj=1[0m
+
+[48;5;167mx σaj[0m
+[48;5;167mηa,n+1 ζan[0m
+
+[48;5;167m(124)[0m
+
+here we derive bosonized expressions for products of Ising fields belonging to different chains.
+
+[38;5;1m‖[0m [90m[formula] μz1,[0mn 1 2 [90m[[0m[38;5;1mµz2,[0m[90m/[0m[38;5;22mμz2,[0m[90m][0m n 1 2~ Using the lattice definition [90m([\ref=b1]),[0m we have:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mx x[0m
+[48;5;167mσ1j[0m
+[48;5;167mσ2j[0m
+
+[48;5;167m(125)[0m
+
+[48;5;167mj=1[0m
+
+There are many ways to exponentiate the product in [90m([\ref=mumu-1]),[0m the naive assumption would be to use the identity
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mx[0m
+
+and then replace in the exponential [90mσx by [formula].[0m This will bring us to a phase proportional to
+
+[90m[formula][0m
+
+[48;5;167m(η1n ζ1n η2n ζ2n[0m [48;5;167mj=1[0m
+
+[48;5;167m37[0m
+
+which, in the continuum limit, reduces to
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mx[0m
+[48;5;167m0[0m
+
+[48;5;167mdx′ (ξ1R ξ1L ξ2R ξ2L[0m According to [90m([\ref=cos-Maj]),[0m the integrand represents a bosonic cosine operator, which is not what we would like to have for practical purposes. To get a better representation, one has first to rearrange the four Majorana fields in the product [90m[[0m[48;5;167mx x[0m
+[48;5;167mσ1j[0m
+[48;5;167mσ2j x x[0m
+[48;5;167mσ1j[0m
+[48;5;167mσ2j (η1j η2j (ζ1j ζ2j[0m[90m/[0m[48;5;70mσx1jσx2j:[0m[90m][0m [90m[formula][0m
+
+[48;5;167m(126)[0m
+
+It is readily seen that a product of two local Majorana fields, defined on the lattice, can be represented as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mTherefore[0m
+
+[90m[formula][0m
+
+[48;5;167m(127)[0m
+
+[48;5;167mTherefore[0m
+[48;5;167mµz1,n+1/2 µz2,n+1/2[0m
+
+[48;5;167mn[0m
+[48;5;167mπX[0m
+[48;5;167mx x[0m
+[48;5;167m(η1j η2j ζ1j ζ2j σ1j[0m
+[48;5;167mσ2j exp 2 j=1[0m
+[48;5;167mj=1[0m
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167m(128)[0m
+
+Now we pass to the continuum limit by making chiral rotation [90m([\ref=chiral-rot2])[0m and using [90m([\ref=cur-R]), ([\ref=cur-L]):[0m
+
+[90m[formula][0m
+
+[48;5;167mµz1,n+1/2 µz2,n+1/2 exp ±π[0m
+
+[48;5;167mZ[0m
+
+[48;5;167mx[0m
+
+[48;5;167mdy (ξ1R ξ2R ξ1L ξ2L[0m [48;5;167m0[0m
+[48;5;167mZx[0m
+[48;5;167mdy ∂y Φ(y)[0m
+[48;5;167mexp ∓i π[0m
+
+[48;5;167m0[0m
+
+[48;5;167m∓i πΦ(x)[0m
+
+[48;5;167m(129)[0m
+
+[48;5;167me[0m
+
+The l.h.s. of this relation is symmetric under P12, so must the r.h.side. As follows [38;5;1m==[0m from [90m([\ref=P-12-Phi-Theta]),[0m under P12 the field Φ changes its sign. So the sign ambiguity in [90m([\ref=mumu-intermed1])[0m [38;5;1m==[0m is resolved by replacing the phase exponential by a cosine:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90m[formula] σz1,[0mn 1 2 [90m[[0m[38;5;1mµz2,[0m[90m/[0m[38;5;22mσz2,[0m[90m][0m n 1 2.[48;5;167mcos πΦ(x)[0m
+
+[48;5;167m(130)[0m
+
+[38;5;1mz[0m
+[38;5;1mz[0m
+[38;5;1m==[0m Using [90m([\ref=b1]),[0m we have:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mσ1n[0m
+[48;5;167mσ2n[0m
+[48;5;167m(κ1 κ2 (ζ1n ζ2n[0m [48;5;167m−κ1 κ2 ζ1n ζ2n[0m
+[48;5;167m38[0m
+
+[48;5;167mn[0m
+[48;5;167mY[0m
+
+[48;5;167mj=1[0m
+
+[48;5;167mx x σ1j[0m
+[48;5;167mσ2j[0m
+
+[48;5;167mµz1,n+1/2 µz2,n+1/2[0m
+
+[48;5;167m(131)[0m
+
+With the representation [90m([\ref=mumu-fin])[0m at hand, we only need to pass to the continuum limit in [90m[[0m[38;5;1mζ1n ζ2n[0m[90m/[0m[38;5;22mζ1nζ2n[0m[90m][0m and then make use of proper operator product expansions. We have:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mSo[0m
+
+[90m[formula][0m
+
+[48;5;167m(132)[0m
+
+[48;5;167mSo[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mσ1n[0m
+[48;5;167mσ2n[0m
+
+[48;5;167miκ1 κ2 a0[0m
+
+[48;5;167m1[0m
+[48;5;167m1[0m
+[48;5;167m∂x Φ(x) sin 4πΦ(x) cos πΦ(x α)[0m
+[48;5;167mπ[0m
+[48;5;167mπα[0m
+[48;5;167m(133)[0m
+
+Picking up the most relevant operators in the following OPE
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(134)[0m
+[48;5;167m(135)[0m
+
+one finds that
+
+[90m[formula][0m
+
+[38;5;1m‖[0m Intending to keep duality among [90m([\ref=ss-int]) and ([\ref=mumu-fin])[0m we set
+
+[90m[formula][0m
+
+[48;5;167mα=[0m
+
+[48;5;167m(136)[0m
+
+[48;5;167ma0[0m
+[48;5;167mπ[0m
+
+[48;5;167m(137)[0m
+
+and finally obtain:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mπΦ(x)[0m [48;5;167m(138)[0m
+
+Notice the important role of the Klein product [90m[[0m[38;5;1mκ1 κ2[0m[90m/[0m[38;5;22mκ1κ2.[0m[90m][0m The l.h.s. of [90m([\ref=ss-fin])[0m is P12-symmetric while in the r.h.side [90m[formula][0m is antisymmetric (see [90m([\ref=P-12-Phi-Theta])).[0m So [38;5;1m==[0m the r.h.s. of [90m([\ref=ss-fin])[0m is symmetric just due to the presence of [90m[[0m[38;5;1mκ1 κ2[0m[90m/[0m[38;5;22mκ1κ2.[0m[90m][0m If we had replaced [90m[[0m[38;5;1mκ1 κ2[0m[90m/[0m[38;5;22mκ1κ2[0m[90m][0m by a constant, [90m[formula],[0m we would obtain
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mπΦ(x)[0m In this representation, the only way to ensure the P12-symmetry would be to [38;5;1m==[0m impose a constraint that identifies Φ and Φ, in which case the scalar field Φ [38;5;1m==[0m would transform to an orbifold.
+
+[90m[formula] σz1nμz2,[0mn 1 2.First we represent [90m[[0m[38;5;1mσ1n[0m[90m/[0m[38;5;22mσz1nμz2,[0m[90m][0m [48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mσ1n[0m
+[48;5;167mµz2,[0m[38;5;1m==[0m n 1 2 [90m[[0m[48;5;167mσ1n[0m
+[48;5;167mµz1,n+1/2[0m[90m/[0m[48;5;70mas[0m[90m][0m [90m[formula][0m
+
+[48;5;167m39[0m
+
+[48;5;167mµz1,n+1/2 µz2,n+1/2[0m The continuum limit for second product has already been found (see Eq.[90m[\ref=mumu-fin])).[0mThe first product reduces to a Majorana field: [90m[formula][0m In the [38;5;1m==[0m continuum limit, with relation [90m([\ref=alpha-vs-a0])[0m taken into account,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mSo[0m
+
+[90m[formula][0m
+
+[48;5;167ma0 [ξ1R (x) ξ1L (x)cos 4πΦR (x) cos 4πΦL (x)[0m
+
+[48;5;167m(139)[0m
+
+[48;5;167mSo[0m
+[48;5;167mh[0m
+[48;5;167mi[0m
+[48;5;167mz[0m
+[48;5;167mσ1n[0m
+[48;5;167mµz2,n+1/2 −iκ1 cos 4πΦR (x) cos 4πΦL (x) cos πΦ(x α)[0m
+
+[48;5;167m(140)[0m
+
+Making use of the following OPE
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m we arrive at the result:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90m[formula] μz1,[0mn 1 [90m[[0m[48;5;167m2 −iκ1 cos[0m[90m/[0m[48;5;70m2σz2n.[0m[90m][0m [48;5;167mπΘ(x)[0m [48;5;167m(142)[0m
+
+[48;5;167mz[0m
+[48;5;167mµz1,n+1/2 σ2n[0m
+[38;5;1m==[0m Quite similarly one finds that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mUsing ([\ref=P-12-Phi-Theta]),[0m [48;5;167mπΘ(x)[0m [48;5;167m(143)[0m
+
+[38;5;1mUsing (121)[0mwe see that under P12 the r.h.sides of Eqs.[90m[\ref=smu-fin])and ([\ref=mus-fin])[0m indeed [38;5;1m==[0m transform to each other.
+
+[48;5;167m40[0m
+
+[48;5;167mB[0m
+
+More on lattice fermions
+
+An alternative way to bosonize the QAT model, is to pass through a mapping onto spinless fermions, and bosonize the latter.
+
+[38;5;1m‖[0m We start by the quantum Ising model [90m([\ref=QIM]).[0m By means of the following unitary transformation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(144)[0m
+[48;5;167m(145)[0m
+
+the Hamiltonian [90m([\ref=QIM])[0m transforms onto
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mHQI[0m [48;5;167mi J J)[0m
+
+[48;5;167mX[0m
+
+[48;5;167mξRn ξLn[0m [48;5;167m(146)[0m
+
+[48;5;167mn[0m
+
+We now consider the following quantum Ashkin-Teller Hamiltonian of [90m[[0m[38;5;1mtwocoupled[0m[90m/[0m[38;5;22mtwo-coupled[0m[90m][0m Ising chains
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(147)[0m
+
+where HQI's are Ising Hamiltonians [see Eq.[90m[\ref=HIsing])][0mfor two spin species, σ1 and σ2, and
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mx[0m
+[48;5;167mx[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ1,n+1[0m
+[48;5;167mσ2,n[0m
+[48;5;167mσ2,n+1[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ2,n[0m
+[48;5;167m(148)[0m
+
+is the coupling term. For each spin species we introduce Majorana's fermions. In order to make σ1 and σ2 commute we multiply each Majorana's fermion for the chain 1 by another Majorana κ1, and for chain 2 by κ2. That is, if a 1,2, we define
+
+[90m[formula][0m
+
+as well as their R,L components
+
+[90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167mζ1,n (ξRn ξLn 2[0m
+[48;5;167m1[0m
+[48;5;167mη1,n (ξRn ξLn 2[0m
+[48;5;167m1[0m
+[48;5;167mζ2,n (ηRn ηLn 2[0m
+[48;5;167m1[0m
+[48;5;167mη2,n (ηRn ηLn 2[0m
+[48;5;167m41[0m
+
+[48;5;167m2[0m
+
+[48;5;167m(149)[0m
+
+[48;5;167m(150)[0m
+[48;5;167m(151)[0m
+[48;5;167m(152)[0m
+[48;5;167m(153)[0m
+
+Let us concentrate for the moment onto the two Ising Hamiltonians, which are bilinear in the Majorana fermions. We notice the following general property (p,q R,L)
+
+[38;5;1m‖[0m [90m[formula][0m
+
+where we define the Fermi operators
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167mξR(L)n iηR(L)n 2[0m
+
+[48;5;167m(154)[0m
+
+Therefore, through [90m([\ref=HIsing]),[0m we find
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mc†Rn cLn c†Ln cRn[0m [48;5;167m(155)[0m
+
+The analogy with a fermionic model on a lattice is already apparent. Let us make this analogy more firm. We consider the following spinless fermion model on a lattice of 2L sites
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m2L−1[0m
+[48;5;167mX[0m
+[48;5;167mn=0[0m
+[48;5;167mL−1[0m
+[48;5;167mX[0m
+
+[48;5;167mc†n cn+1 H.c.[0m
+[48;5;167mc†2n+1 c2n c2n+2 c†2n c2n−1 c2n+1[0m [48;5;167mn=0[0m
+
+We make the following unitary transformation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mc2n c2n+1[0m
+
+where the right- and left-moving fermions are defined on a lattice of half the number of sites, i.e. L. The Hamiltonian becomes
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mtX cRn cRn+1 cRn−1 c†Ln cLn+1 cLn−1[0m
+[48;5;167m2 n[0m
+
+[48;5;167mtX cRn 2cLn cLn+1 cLn−1 c†Ln 2cRn cRn+1 cRn−1 2 n[0m
+[48;5;167m(156)[0m
+
+[48;5;167m42[0m
+
+Let us add to this Hamiltonian a staggered hopping
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mc†2n c2n+1 H.c.[0m
+
+[48;5;167m(157)[0m
+
+[48;5;167mn[0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mc†Rn cLn H.c.[0m [48;5;167m(158)[0m
+
+We notice that [90m([\ref=Hsf]) plus ([\ref=dHsf])[0m coincide with [90m([\ref=2Ising])[0m if 2J t and 2([38;5;22mΔJ[0m J) [90m[[0m[38;5;1mJ)[0m[90m/[0m[38;5;22mΔ.[0m[90m][0m Now we focus on the coupling term [90m([\ref=HAT]),[0m which, in terms of Majorana's [38;5;1m==[0m fermions reads
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mζ1n ζ2n (η1n+1 η2n+1 η1n η2n[0m [48;5;167mn[0m
+
+Transforming into right- and left-moving Majorana fermions we find that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mζ1n ζ2n[0m where we used [90m([\ref=def:fermion]),[0m and we defined [90m[formula][0m (p R,L) as well as [90m[formula].[0m We can equivalently show that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Therefore the coupling term can be written as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mK[0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167m(ρRn ρLn 1 ∆n (ρRn ρLn 1 ∆n[0m [48;5;167m(ρRn ρLn 1 ∆n (ρRn+1 ρLn+1 1 ∆n+1 (159)[0m
+
+On the other hand let us consider the simplest nearest-neighbour interaction for spinless fermions, namely
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mc†2n c2n c†2n+1 c2n+1 c†2n+1 c2n+1 c†2n+2 c2n+2[0m [48;5;167mn[0m
+
+This interaction term turns out to be equivalent to [90m([\ref=Hint]),[0m apart from a chemical potential term, provided 4K V. Notice that, if one considers an Ashkin-Teller [38;5;1m==[0m coupling which is not self-dual, e.g.
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ1,n+1[0m
+[48;5;167mσ2,n[0m
+[48;5;167mσ2,n+1[0m
+[48;5;167mK2[0m
+
+[48;5;167mn[0m
+
+[48;5;167mX[0m
+
+[48;5;167mx[0m
+[48;5;167mx[0m
+[48;5;167mσ1,n[0m
+[48;5;167mσ2,n[0m
+[48;5;167mn[0m
+
+this translates into a staggered interaction for the spinless fermion model. This interaction, even without an explicit dimerization, is able to gap the fermionic [38;5;1m43[0m
+
+[38;5;1m==[0m spectrum, thus showing the importance of self-duality, even at the level of the coupling term [90m([\ref=HAskin]),[0m to get a critical behaviour.
+
+[38;5;1m‖[0m Therefore we have shown the equivalence between a model of two coupled Ising chains in a transverse field, given by the Hamiltonian [90m([\ref=HAskin]),[0m and a model of spinless fermion with nearest neighbour interaction and dimerized hopping.
+
+[38;5;1m‖[0m An interesting point in this respect regards quantum numbers. The spinless fermion model has for instance conserved number of particle. In ρ is the density, in the reduced chain we must have that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(160)[0m
+
+is conserved. On the other hand
+
+[38;5;1m‖[0m [90m[formula][0m
+
+which, in terms of Ising variables, implies the conservation of a very non-local operator, which includes the spins and their dual counterparts.
+
+[48;5;167mB.1[0m
+
+Operator identities
+
+We can build up several operator identities in the lattice representation.
+
+[38;5;1m(1)[0m The simplest one is obtained by the identity
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(161)[0m
+
+which relates the density operator of the spinless fermions to a particular bilinear of Majorana's fermions.
+
+[38;5;1m(2)[0m The other identity derives from the equality
+
+[90m[formula][0m
+
+[48;5;167m(162)[0m
+
+which relates the charge density wave operator of the spinless fermions to the Majorana's fermions.
+
+[38;5;1m(3)[0m The last identity is obtained by the equality
+
+[90m[formula][0m
+
+[48;5;167m(163)[0m
+
+which provides a relation between the dimerization operator and the Majorana's fermions.
+
+[38;5;1m44[0m
+
+[48;5;167mC[0m
+
+Mean-field treatment of the (σ,τ)model
+
+In oder to devise an appropriate mean-field scheme, let us formally rewrite Hamiltonian [90m([\ref=H-new-rep]) as[0m
+
+[90m[formula][0m
+
+[48;5;167m(164)[0m
+
+Here the two terms of the mean-field Hamiltonian are:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mz[0m
+[48;5;167mJσ σnz σn+1[0m
+[48;5;167m∆σ σnx[0m
+
+[48;5;167mn[0m
+
+[48;5;167mX[0m
+[48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167mJτ τnz τn+1[0m
+[48;5;167mhτnz ∆τ τnx[0m
+
+[48;5;167mz[0m
+[48;5;167mJσ J 1 hτnz τn+1[0m
+[48;5;167mi[0m [48;5;167m(165)[0m
+[48;5;167m(166)[0m
+
+[48;5;167mz[0m
+[48;5;167mJτ Jhσnz σn+1[0m
+[48;5;167mi−K[0m
+
+[48;5;167m∆σ ∆hτnx i K,[0m
+
+[48;5;167m∆τ (1 hσnx i)[0m
+
+[48;5;167m(167)[0m
+
+The coupling between the fluctuations, is given by
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mXh[0m
+[48;5;167mn[0m
+
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mz[0m
+[48;5;167mJ(σnz σn+1[0m
+[48;5;167mhσnz σn+1[0m
+[48;5;167mi)τnz τn+1[0m
+[48;5;167mhτnz τn+1[0m
+[48;5;167mi)[0m
+
+[48;5;167mσnx hσnx i)τnx hτnx i)[0m[48;5;167m(168)[0m
+
+In the leading approximation, fluctuations described by [90m([\ref=staufluc])[0m are neglected, and the σ and τ degrees of freedom decouple. We notice that the parameter h appears only in Hmf[τ] where it plays the role of an effective longitudinal field. Therefore the model [90m([\ref=mfa-tau])[0m is a quantum counterpart of a 2D Ising model in a nonzero external field which is known to be always noncritical. Thus, as expected, the τ-chain is always gapped. The condition for the σ-chain to be critical then reads:
+
+[90m[formula][0m
+
+[48;5;167m(169)[0m
+
+Despite the fact that the Ising model in the field is supposed to be integrable in the continuum limit (see references in [90m[\cite=MC]),[0m the explicit expectation values of the τ operators appearing in [90m([\ref=crit-cond])[0m are not known. To make further analytic progress possible, we choose a special value of the field rescaling parameter K,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(170)[0m
+
+at which Jτ 0, and interaction between the neighbouring τ-spins in Hmf[τ] vanishes. This trivialises the τ-model and leads to
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(171)[0m
+
+Self-consistency requires the knowledge of the averages related to the σ-model. Specialising to the critical point and making use of the known results [90m[\cite=Pf],[0m
+
+[90m[formula][0m
+
+[48;5;167m2[0m
+[48;5;167mπ[0m
+
+[48;5;167m(172)[0m
+
+we obtain
+
+[90m[formula][0m
+
+[38;5;1m‖[0m Then the condition [90m([\ref=crit-cond])[0m reduces to
+
+[90m[formula][0m
+
+[48;5;167m(173)[0m
+
+[48;5;167m2[0m
+[48;5;167mπ[0m
+
+[48;5;167m(174)[0m
+
+This equation determines the critical value of h at a given ratio [38;5;22mΔ[0m J. Introducing the quantity
+
+[90m[formula][0m
+
+[38;5;1m‖[0m we obtain a quadratic equation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mC =1+[0m
+
+[48;5;167m2[0m
+[48;5;167mπ[0m
+
+[48;5;167m(C 1)x2 C(J)2 x C 2 J)2 0,[0m
+whose solution determines the critical value of h:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m!2[0m
+
+[48;5;167m1[0m
+[48;5;167m2[0m
+[48;5;167m4(C 1)[0m
+[48;5;167mJ[0m
+[48;5;167ms[0m
+[48;5;167mJ[0m
+
+[48;5;167m2[0m
+
+[48;5;167m2[0m
+
+[48;5;167m4(C 1)1[0m
+
+[48;5;167m(175)[0m
+
+The requirement that the r.h.side of [90m([\ref=crit-h])[0m is positive yields a restriction upon [90m[[0m[48;5;167m2[0m
+[48;5;167m>1+[0m
+[48;5;167mJ[0m
+[48;5;167mπ[0m[90m/[0m[48;5;70mΔ:[0m[90m][0m [90m[formula][0m
+
+[48;5;167m(176)[0m
+
+Recall that we already assumed that at h 0 the two QI chains of the QAT model are disordered: [38;5;22mΔ[0m J. The restriction [90m([\ref=restr-ising])[0m tells us that, for the Ising criticality to be reached at some critical value of h, the original disordered σ1 and σ2 chains should be far enough from their original critical point. In fact, as follows from [90m([\ref=restr-ising]),[0m the value of the Majorana mass, when estimated as m 2([38;5;22mΔ[0m J) 4J π, turns out to be of the order of the ultraviolet cutoff. This estimation reflects the [38;5;1m==[0m already mentioned fact that the DM transition is indeed not a weak-coupling one from the standpoint of the DQAT model.
+
+[38;5;1m‖[0m One could, in principle, perturbatively calculate the fluctuation corrections, i.e. those originating from [90m([\ref=staufluc]),[0m to the criticality condition. As the model is only tractable under fine tuning [90m([\ref=special-K])[0m of the parameter K, that is not expected to generalise the qualitative picture obtained in the mean-field approximation.
+
+[38;5;1m46[0m
+
+[48;5;167mD[0m
+
+Correlation functions
+
+Let us start calculating the Fourier transform of D(R)ω,p)given by [90m([\ref=ret]),[0m with the remark that using the Bessel functions (despite some convenient Fourier transforms) is beyond the accuracy. The analytic properties (and the issue of coherent particle poles) should not depend on fine details of the correlators at r ξ 1 m. [38;5;1m==[0m Therefore what one ought to do is to study analytic properties of the integral
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mZ∞[0m
+
+[48;5;167mr α−1/2 drJ0 (qr)e−mr[0m
+
+[48;5;167m(177)[0m
+
+[48;5;167m0[0m
+
+in terms of which the Fourier transforms,
+
+[90m[formula][0m
+
+[90m[formula], [formula],[0m [48;5;167m~q (ωn p)q[0m [48;5;167mq[0m
+
+[38;5;1mωn2 p2[0m are given by
+
+[90m[formula][0m
+
+[48;5;167m(178)[0m
+
+In the area of convergence, we have [90m[\cite=GR]:[0m
+
+[90m[formula][0m
+
+[48;5;167mΓ(α 1/2)[0m
+[48;5;167mF (α/2 1/4, α/2 3/4; 1; −q 2/m2 α+1/2[0m
+[48;5;167mm[0m
+
+[48;5;167m(179)[0m
+
+where F(a,b;c;z) stands for the hypergeometric function. The character of the singularity at z 1 can be determined by using appropriate transformation formulas for the hypergeometric functions and the Γ-function doubling formula [90m[\cite=GR]:[0m[90m[formula][0m
+
+[48;5;167m(2m)α−1/2 Γ(α)[0m
+[48;5;167m1[0m
+[48;5;167m2[0m
+[48;5;167mπ[0m
+[48;5;167m(q m2 )α[0m
+
+[48;5;167m(180)[0m
+
+where only the leading, most divergent term is retained.
+
+[38;5;1m‖[0m This calculation explains how the correlation function has a branch cut at the threshold, unless α 1 which, of course, corresponds to the disordered case:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mπA1[0m
+[48;5;167mm2[0m
+
+[48;5;167mq2[0m
+
+[48;5;167m(181)[0m
+
+where the coefficient, as expected, is the same as one finds by Fourier transforming K0(mr)
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mZ[0m
+
+[48;5;167m47[0m
+
+[48;5;167md2 ~q[0m
+
+[48;5;167mei~q~r[0m
+[48;5;167mq 2 m2[0m
+
+Although this calculation is instructive, formula [90m([\ref=Idiv])[0m doesn't solve all our problems. So, the critical correlation function has nothing to do with the m 0 [38;5;1m==[0m limit of this formula, as the main contribution to the integral comes from a different spatial domain. Therefore we should rather return to the general formula [90m([\ref=Igen]),[0m set m 0 there, and analytically continue beyond the convergence domain 1 2 α 1 2)The result is
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mΓ(7/8) 1[0m
+[48;5;167mΓ(1/8) q 7/4[0m
+
+[48;5;167m(182)[0m
+
+The correlation function in the disordered phase is also outside the validity of [90m([\ref=Idiv])[0m and, furthermore, the integral [90m([\ref=Igen])[0m is logarithmically divergent at the lower limit in this case. It should therefore be regularised. One way to do it is as follows [90m[\cite=GR]:[0m
+
+[90m[formula][0m
+
+[48;5;167mZ dr[0m
+[48;5;167mdr[0m
+[48;5;167mJ0 (qr)e−2mr Jν (qr)e−2mr[0m
+[48;5;167mr[0m
+[48;5;167mr[0m
+[48;5;167m0[0m
+[48;5;167m0[0m
+[48;5;167m2[0m
+[48;5;167m1[0m
+[48;5;167mq 4m2 2m)ν[0m
+[48;5;167mq 2 4m2 2m[0m
+[48;5;167mO(ν)[0m
+[48;5;167mln[0m
+[48;5;167mνq ν[0m
+[48;5;167mν[0m
+[48;5;167mq[0m
+[48;5;167m2m[0m
+[48;5;167mI−1/2[0m
+[48;5;167m(q)[0m
+
+[48;5;167m(183)[0m
+
+This regularisation is, however, not good enough. That is because the integral still diverges in the q 0 limit as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mq[0m
+[48;5;167m4m[0m
+
+while the physical regularisation is finite in the q 0 limit and expands as:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mZ∞[0m
+[48;5;167mξ[0m
+
+[48;5;167mdr[0m
+[48;5;167mJ0 (qr)e−2mr r[0m
+
+[48;5;167mZ∞[0m
+[48;5;167mξ[0m
+
+[48;5;167mX (2k)dr −2mr q2[0m
+[48;5;167me[0m
+[48;5;167m2k[0m
+[48;5;167m2[0m
+[48;5;167mr[0m
+[48;5;167m4m2[0m
+[48;5;167mk=1 2 (k![0m[48;5;167m!k[0m
+
+[48;5;167m(184)[0m
+
+Since different limiting processes must lead to the same result, one can simply substruct the unphysical q 0 divergence from [90m([\ref=regp]).[0m This leads to the following [38;5;1m==[0m result for the correlation function (up to an unessential additive constant)[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(185)[0m
+
+Turning to the problem of analytic continuation, we recall that, according to the standard approach [90m[\cite=AGD][0m
+
+[90m[formula][0m
+
+[48;5;167m48[0m
+
+in the upper half-plane. Put another way, one has to substitute
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m (that is provided the resulting function has no 'accidental' poles and is otherwise regular in the upper half-plane there is no general solution to the analytic continuation problem.The resulting function is, by construction, analytic in the upper half-plane and automatically satisfies the Kramers-Kronig relation.
+
+[38;5;1m‖[0m We need to analytically continue formula [90m([\ref=Idiv]),[0m or equivalently the function
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m1[0m
+[48;5;167m(ωn2[0m
+
+[48;5;167mp2[0m
+
+[48;5;167mm2 )α[0m
+
+It is easy to see that
+
+[38;5;1m‖[0m [90m[formula][0m [48;5;167mθ(ǫ2p ω 2 cos(πα)θ(ω 2 ǫ2p |ω 2 ǫ2p |α[0m
+[48;5;167m2i sin(πα)θ(ω 2 ǫ2p |ω 2 ǫ2p |α[0m
+
+[48;5;167m49[0m
+
+[48;5;167m(186)[0m
+
+[48;5;167mReferences[0m
+[48;5;167m[1] G. Delfino and G. Mussardo, Nucl. Phys. B516, 675 (1998)hep-th/9709028.[0m
+[48;5;167m[2] A.A. Nersesyan and Y.J. Wang, in preparation.[0m
+[48;5;167m[3] I. Affleck, in Dynamical Properties of uncoventional magnetic systems,[0m
+[48;5;167mNATO ASI series E349, eds A. Skjeltorp and D. Sherrington, Kluwer Academic (1998)cond-mat/9705127.[0m
+[48;5;167m[4] S. Coleman, Phys. Rev. D 11 (1975) 2088.[0m
+[48;5;167m[5] A. Luther and V. Emery, Phys. Rev. B 12 (1975) 3908.[0m
+[48;5;167m[6] P. Pfeuty, Ann. Phys. (N.Y) 57 (1970) 79.[0m
+[48;5;167m[7] E. Lieb, T. Schultz, and D. Mattis, Ann. Phys. (N.Y.16 (1968) 539.[0m
+[48;5;167m[8] C. Itzykson and J. B. Zuber, Phys. Rev. D 15 (1977) 2875.[0m
+[48;5;167m[9] A.O. Gogolin, A.A. Nersesyan, and A.M. Tsvelik, Bosonization and Strongly[0m
+[48;5;167mCorrelated Systems (Cambridge University Press, Cambridge, 1999)[10] T.T. Wu, B.M. McCoy, C.A. Tracy, and E. Barouch, Phys. Rev. B 13 (1976)[0m
+[48;5;167m315. For a recent review and an excellent collection of references see B.M.[0m
+[48;5;167mMcCoy, The Connection Between Statistical Mechanics and Quantum Field[0m
+[48;5;167mTheory, hep-th/9403084.[0m
+[48;5;167m[11] S. Maslov and A. Zheludev, Phys. Rev. Lett. 80 (1998) 5786; condmat/9803393.[0m
+[48;5;167m[12] D. C. Dender, P. R. Hammar, D. H. Reich, C. Broholm, and G. Aeppli,[0m
+[48;5;167mPhys. Rev. Lett. 79 (1997) 1750;[0m
+[48;5;167mM. Oshikawa and I. Affleck, Phys. Rev. Lett. 79 (1997) 2883;[0m
+[48;5;167mF. H. L. Essler and A. M. Tsvelik, Phys. Rev. B 57 (1998) 10592;[0m
+[48;5;167mF. H. L. Essler, cond-mat/9811309; I. Affleck and M. Oshikawa, condmat/9905002.[0m
+[48;5;167m[13] I. Affleck, D. Gepner, H. J. Schulz, and T. Ziman, J. Phys. A 22 (1989) 511.[0m
+[48;5;167m[14] S. R. White and I. Affleck, Phys. Rev. B 54 (1996) 9862.[0m
+
+[48;5;167m50[0m
+
+[48;5;167m[15] S. A. Brazovskii, N. N. Kirova and S. I. Matveenko, Sov. Phys. JETP 59[0m
+[48;5;167m(1983) 434;[0m
+[48;5;167mA. J. Niemi and G. W. Semenoff, Phys. Rep. 135 (1986) 99.[0m
+[48;5;167m[16] M. Fabrizio, A. O. Gogolin and A. A. Nersesyan, Phys. Rev. Lett. 83 (1999)[0m
+[48;5;167m2014.[0m
+[48;5;167m[17] F.H.L. Essler, A.M. Tsvelik, and G. Delfino, Phys. Rev. B 56 (1997) 11001.[0m
+[48;5;167m[18] N. Nagaosa and J. Takimoto, J. Phys. Soc. Jpn. 55 (1986) 2735 N. Nagaosa,[0m
+[48;5;167mibid. 55 (1986) 2754; 55 (1986) 3488.[0m
+[48;5;167m[19] T. Egami, S. Ishihara and M. Tachiki, Science 261 (1993) 1307.[0m
+[48;5;167m[20] E. H. Lieb and F. Y. Wu, Phys. Rev. Lett. 20 (1968) 1445; A. A. Ovchinnikov,[0m
+[48;5;167mSov. Phys. JETP 30 (1970) 1160.[0m
+[48;5;167m[21] I. Affleck, Nucl. Phys. B 265 (1986) 409;[0m
+[48;5;167mI. Affleck and F. D. M. Haldane, Phys. Rev. B 36(1987) 5291.[0m
+[48;5;167m[22] S. Eggert and I. Affleck, Phys. Rev. 46 (1992) 10 866.[0m
+[48;5;167m[23] H. J. Schulz and C. Bourbonnais, Phys. Rev. B 12 (1983) 5856;[0m
+[48;5;167msee also Ref.9]chapter 11.[0m
+[48;5;167m[24] J.E. Hirsh, Phys. Rev. Lett. 53 (1984) 2327 [25] I.S. Gradsteyn and I.M. Ryzhik, Table of Integrals, Series, and Products[0m
+[48;5;167m(ed.A. Jeffrey, Academic Press Ltd.London, 1994)[26] A. A. Abrikosov, L. P. Gor’kov, and I. E. Dzyaloshinskii, Quantum field[0m
+[48;5;167mtheoretical methods in statistical physics, 2nd edition (Oxford, Pergamon[0m
+[48;5;167mPress, 1965)[0m[48;5;167m51[0m
+

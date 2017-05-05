@@ -1,0 +1,450 @@
+Orbital Structure and Magnetic Ordering in Layered Manganites: Universal Correlation and Its Mechanism
+
+[48;5;167mS. Okamoto, S. Ishihara, and S. Maekawa[0m
+
+[48;5;167marXiv:cond-mat/0001221v1 [cond-mat.str-el] 17 Jan 2000[0m
+
+[48;5;167mInstitute for Materials Research, Tohoku University, Sendai 980-8577, Japan[0m
+[48;5;167m(February 1, 2008)[0m
+[48;5;167mCorrelation between orbital structure and magnetic ordering in bilayered manganites is examined.[0m
+[48;5;167mA level separation between the 3d3z 2 −r2 and 3dx2 −y 2 orbitals in a Mn ion is calculated in the ionic[0m
+[48;5;167mmodel for a large number of the compounds. It is found that the relative stability of the orbitals[0m
+[48;5;167mdominates the magnetic transition temperatures as well as the magnetic structures. A mechanism of[0m
+[48;5;167mthe correlation between orbital and magnetism is investigated based on the theoretical model with[0m
+[48;5;167mthe two eg orbitals under strong electron correlation.[0m
+[48;5;167mPACS numbers: 75.30.Vn, 75.30.Kz, 71.10.w, 75.80.q[0m
+
+Since the discovery of the colossal magnetoresistance (CMR)studies of manganites with cubic perovskite structure have been renewed theoretically and experimentally. Competition and cooperation between spin, charge and orbital degrees of freedom as well as lattice cause the dramatic changes of transport and magnetic properties. Manganites with bilayered structure A2 [90m[[0m[48;5;167m2x B1+2x Mn2 O7[0m[90m/[0m[48;5;70m2xB1 2xMn2O7,[0m[90m][0m where A and B are trivalent and divalent cations, respectively, are another class of CMR materials [90m[\cite=moritomo] [\cite=kimura2].[0m Since an extremely large MR is observed near the transition from paramagnetic (PM) insulator to ferromagnetic (FM) metal, it has been considered that several concepts proposed in the cubic compounds are applicable to the bilayered ones.
+
+[38;5;1m‖[0m In cubic manganites, one of the key factors dominating the magnetic orderings is the tolerance factor [90m[\cite=hwang];[0m a bending of a Mn-O-Mn bond decreases the hopping integral of carriers. As a result, the ferromagnetic transition temperature Tc decreases in the double exchange (DE) scenario. However, in bilayered manganites, the Mn-O-Mn bond angle is almost unchanged with changing cations and carrier concentration, as shown later, in spite of a wide variety of the magnetic structures. Various key factors dominating the magnetic ordering, which are not included in the DE model, were experimentally suggested, e.g. the antiferromagnetic (AFM) superexchange (SE) interaction [90m[\cite=perring],[0m the local lattice distortion [90m[\cite=louca] [\cite=dessau] [\cite=medarde] [\cite=doloc],[0m the charge and orbital degrees of freedom and their orderings [90m[\cite=moritomo2] [\cite=kimura][0m and so on. However, systematics in their correlations for a variety of compounds and their mechanisms still remain to be clarified.
+
+[38;5;1m‖[0m In this letter, we study the correlation between magnetic ordering and orbital structure in bilayered manganites. The two eg orbitals, i.e. the 3d3z2 r2 and 3dx2 y2 orbitals in a Mn3 ion split in the crystalline field of the bilayered structure and one of them is occupied by an electron. It is known that the occupied orbital controls the anisotropy of the magnetic interaction as well as its strength. The level separation between the orbitals is calculated in the ionic model for a large number of the compounds. We find a universal correlation between the [38;5;1m==[0m relative stability of the orbitals and the magnetic transition temperatures as well as the magnetic structures. A mechanism of the correlation is investigated based on the theoretical model with the eg orbitals under strong electron correlation.
+
+[38;5;1m‖[0m We first show that neither the tolerance factor nor the bond length governs TC and the Néel temperature TN for the A-type AFM ordering [90m[\cite=aafm].[0m The tolerance factor in the bilayered crystals is defined by [90m[formula][0m where dA B is a bond length between A and B ions. The position of each ion is shown in the inset of Fig. [90m[\ref=fig:fig1](a).[0m Being based on the structural data obtained by the neutron and x-ray diffraction experiments [90m[\cite=kubota] [\cite=argyriou99] [\cite=laffez] [\cite=chi] [\cite=argyriou97] [\cite=akimoto] [\cite=battle98] [\cite=shen] [\cite=battle96] [\cite=seshadri] [\cite=akimoto2] [\cite=notice],[0m we evaluate t and the bond length between nearest neighboring (NN) Mn ions in the ab plane [90m[[0m[38;5;1mdab[0m
+[38;5;1mMn−[0m[90m/[0m[38;5;22mdabMn[0m[90m][0m Mn for a variety of compounds. TC and TN are plotted as functions of t and [90m[[0m[38;5;1mdab[0m
+[38;5;1mMn−[0m[90m/[0m[38;5;22mdabMn[0m[90m][0m Mn in Figs. 1 (a) and (b)respectively. Almost all t's are located in a narrow region where TC's and TN's are distributed randomly. In addition, TC is not correlated with [90m[[0m[38;5;1mdab[0m
+[38;5;1mMn−[0m[90m/[0m[38;5;22mdabMn[0m[90m][0m Mn, either. [38;5;1mab[0m
+Although TN increases with increasing [90m[[0m[38;5;1mdMn−[0m[90m/[0m[38;5;22mdabMn[0m[90m][0m Mn, this correlation is opposite to that predicted by the DE scenario where, with increasing the bond length, the hopping integral decreases and the FM interaction in the ab plane decreases. We conclude that the DE model, which includes the change of the hopping integral caused by the change of the bond angle/length, can not explain TC(N)We also examined correlations between TC(N) and a number of other quantities: the torelance factor evaluated by the ionic radius, a Mn-O(3)Mn bond angle, a Mn-O(1)Mn bond length, Mn-O bond lengths, a lattice spacing between NN bilayers, lattice constants and the [90m[[0m[38;5;1mvalencebond[0m[90m/[0m[38;5;22mvalence-bond[0m[90m][0m sum for a Mn ion. However, there are not clear correlations between these parameters and TC(N)[38;5;1m‖[0m Let us focus on the correlation between TC(N) and a relative stability of the eg orbitals. We employ the ionic model to examine the electronic energy-level structures. This model may be justified by the following considerations [90m[\cite=ohta]:[0m (1) the manganites at x 0 are classified as charge-transfer type insulators in which the ionic model provides a good starting point [90m[\cite=arima].[0m (2) The [48;5;110m[38;5;1m==[0m[48;5;110m ionic property is predominant between bilayers. [48;5;167m(3) The[0m[48;5;110m[0m
+[48;5;110m[48;5;167menergy-level[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m1[0m
+
+[48;5;167mV[0m
+
+[48;5;167m(a)[0m
+
+[48;5;167mO(2)[0m
+[48;5;167mA(2)[0m
+[48;5;167mMn[0m
+
+[48;5;167mT (K)[0m
+
+[48;5;167m200[0m
+[48;5;167m160[0m
+
+[48;5;167mF[0m
+[48;5;167mE[0m
+[48;5;167mD[0m
+[48;5;167mN C[0m
+[48;5;167mW[0m
+[48;5;167mC T B L[0m
+[48;5;167mK U[0m
+[48;5;167mW X[0m
+[48;5;167mA[0m
+[48;5;167mD[0m
+[48;5;167mES G[0m
+[48;5;167mPM[0m
+[48;5;167mN[0m
+
+[48;5;167mO[0m
+
+[38;5;1mO([0m[38;5;1m==[0m (3) [48;5;167mA(1)[0m
+[48;5;167mO(1)[0m
+
+[48;5;167m120[0m
+[48;5;167m80[0m
+
+[48;5;167mO[0m
+
+[48;5;167m40[0m
+
+[48;5;167mHQ R[0m
+
+[48;5;167m0[0m
+
+[48;5;167m240[0m
+
+[48;5;167mV[0m
+[48;5;167mF[0m
+
+[48;5;167m(b)[0m
+
+[48;5;167m200[0m
+
+[48;5;167mE[0m
+[48;5;167mD[0m
+[48;5;167mON[0m
+[48;5;167mW C[0m
+[48;5;167mT B[0m
+[48;5;167mLC[0m
+[48;5;167mU[0m
+[48;5;167mK[0m
+[48;5;167mA GW[0m
+[48;5;167mX[0m
+[48;5;167mJ SD[0m
+[48;5;167mP M[0m
+[48;5;167mI[0m
+[48;5;167mO N[0m
+[48;5;167mQ[0m
+
+[48;5;167mR[0m
+
+[48;5;167mV[0m
+[48;5;167mF[0m
+[48;5;167mE[0m
+[48;5;167mD[0m
+[48;5;167mT[0m
+
+[48;5;167m160[0m
+
+[48;5;167mT (K)[0m
+
+[48;5;167m240[0m
+
+[48;5;167m120[0m
+
+[48;5;167mS X[0m
+
+[48;5;167m0.98[0m
+
+[48;5;167m0.99[0m
+
+[48;5;167m1.00[0m
+
+[48;5;167m3.84[0m
+
+[48;5;167mH[0m
+
+[48;5;167m3.87[0m
+
+[48;5;167mt[0m
+
+[48;5;167mX[0m
+[48;5;167mi6=j[0m
+
+[48;5;167mZi e2[0m
+[48;5;167mrj ~ri[0m [48;5;167m0.1[0m
+
+[48;5;167m∆V V3z2 −r2 Vx2 −y2[0m [48;5;167mR[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.3[0m
+
+[48;5;167m(4)[0m
+
+[38;5;1m==[0m The energy-level [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m structure given by band-structure calculations shows the same tendency with those by the ionic model [90m[\cite=dessau] [\cite=band].[0m[48;5;110m The energy levels [38;5;1mof the[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m of the [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m eg orbitals split due to the electrostatic potential and one [48;5;70mof the orbitals is occupied by[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [48;5;167m3d3z2 −r2 orbital for[0m
+[38;5;1m==[0m an electron [48;5;167mrelatively decreases.[0m
+[48;5;167mTN[0m in [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m a Mn3 ion.[0m
+
+[48;5;110m[38;5;1m‖[0m[48;5;110m By using a large number of [48;5;167mthe structural data [12–23][0m[48;5;110m [38;5;1m‖[0m[48;5;110m[0m [48;5;167mFig. 2[0m
+[48;5;167mwhere[0m [38;5;1m==[0m the structural data [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [90m[\cite=kubota] [\cite=argyriou99] [\cite=laffez] [\cite=chi] [\cite=argyriou97] [\cite=akimoto] [\cite=battle98] [\cite=shen] [\cite=battle96] [\cite=seshadri] [\cite=akimoto2] [\cite=notice],[0m[48;5;110m we calculate the Madelung potential for a hole [38;5;1min[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m in the [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [38;5;22m3d3z2 r2[0m[48;5;110m and 3dx2 y2 orbitals at site j defined by[0m
+
+[48;5;110m[90m[formula][0m[48;5;110m[0m
+
+[48;5;110m[48;5;70mand[0m[48;5;110m[0m
+
+[48;5;110m[90m[formula][0m[48;5;110m[0m
+
+[48;5;110m[90mrespectively [\cite=ishihara]. Here, [formula][0m[48;5;110m[0m [48;5;167mregion, 3.84Å dab[0m
+[48;5;167m<3.88[0m
+[48;5;167mÅ.[0m
+[48;5;167mMn−Mn[0m
+[48;5;167mIn Fig. 3, we present the magnetic phase diagram at[0m
+[48;5;167mT 0 as a function of ∆V and x. The[0m [48;5;167m(1)[0m
+
+[48;5;167m(2)[0m
+
+[48;5;167mrespectively [27]Here, V rj[0m [38;5;1m==[0m is given by
+
+[48;5;110m[90m[formula][0m[48;5;110m[0m
+
+[48;5;110mwith a point charge [90m[[0m[48;5;110m[38;5;1mZi e[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mZie[0m[48;5;110m[90m][0m[48;5;110m at site i and the position [90m[formula][0m[48;5;110m of the site. rd(0.42Å) [38;5;22mis the[0m[48;5;110m radius of a Mn 3d orbital where its radial charge density becomes maximum [90m[\cite=slater][0m[48;5;110m and ẑ(x̂[38;5;1m2[0m[48;5;110m[0m
+
+[38;5;1mV rj[0m [48;5;167mQ[0m
+
+[48;5;167m3z 2 r 2[0m
+
+[38;5;1m==[0m is the unit vector in the z(x) axis. The Ewald method is used for the lattice summation. Zi's for Mn and O ions and a cation at A site are chosen to be 3 x, 2 and (8 2x) 3, respectively. The difference of the potentials
+
+[48;5;110m[90m[formula][0m[48;5;110m[0m
+
+[48;5;110mrepresents the relative stability [48;5;167mof the orbitals; with increasing ∆V[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [48;5;167mand[0m
+[48;5;167mVx2 −y2 V rj rd x̂[0m[48;5;167m0.0[0m
+
+[48;5;167mI[0m
+
+[48;5;167mV (eV)[0m
+
+[38;5;1m==[0m of the orbitals; [90m[[0m[48;5;167mis occupied by an electron in[0m[90m/[0m[48;5;70mwith increasing ΔV, the energy level of[0m[90m][0m the 3d3z2 r2 [48;5;70morbital for an electron relatively decreases.[0m
+
+[48;5;167m1[0m
+[48;5;167mV rj rd ẑ) V rj rd ẑ) 2[0m
+
+[48;5;167mP M[0m
+
+[48;5;167mA[0m
+[48;5;167mG[0m
+
+[48;5;167mFIG. 2. TC and[0m TN [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m and TC are plotted [48;5;167mas functions of ∆V[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m as functions of [90m[[0m[48;5;167m∆V Filled and open[0m
+[48;5;167mcircles indicate TC and TN respectively. ∆V ’s are calculated[0m
+[48;5;167mfor the same compounds[0m[90m/[0m[48;5;70mΔV[0m[90m][0m in Fig. [90m[\ref=fig:fig2] where[0m [48;5;167mFIG. 1.[0m
+[48;5;167mTC and TN as functions of (a) t and (b)[0m
+[48;5;167mdab[0m
+[48;5;167mMn−Mn Filled and open circles indicate TC and TN respectively. t and dab[0m
+[48;5;167mMn−Mn are obtained from[0m [38;5;1m==[0m the structural data [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m at room temperature are used. Broad shades are drawn by considering experimental errors. It is clearly shown that both TC and TN are correlated with [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV;[0m[48;5;110m[90m][0m[48;5;110m TN increases with decreasing [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m and there is an optimal value of [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV([0m[48;5;110m[90m][0m[48;5;110m 0.08 eV) for TC. We estimate the strength [48;5;167mof the correlation between TP[0m[48;5;110m[0m
+[48;5;110m[48;5;167mN and ∆V[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [48;5;167min the following compounds: A: La1.4 Sr1.6 Mn2 O7 (s)[0m
+[48;5;167m[12]B: La1.3 Sr1.7 Mn2 O7 (p) [12]C: La1.2 Sr1.8 Mn2 O7 (s)[0m
+[48;5;167m[12]D: La1.1 Sr1.9 Mn2 O7 (s) [12]E: La1.04 Sr1.96 Mn2 O7 (s)[0m
+[48;5;167m[12]F: LaSr2 Mn2 O7 (s) [12]G: La1.4 Sr1.6 Mn2 O7 (p) [13]H:[0m
+[48;5;167mPr1.4 Ca1.3 Ba0.3 Mn2 O7 (p) [14]I: Nd1.4 Ca1.6 Mn2 O7 (p) [14]J: La1.4 Sr1.6 Mn2 O7 (p) [15]K: La1.2 Sr1.8 Mn2 O7 (p) [16]L:[0m
+[48;5;167mLa1.2 Sr1.8 Mn2 O7 (s) [17]M: La1.2 (Sr0.8 Ca0.2 )1.8 Mn2 O7 (s)[0m
+[48;5;167m[17]N: La1.2 (Sr0.7 Ca0.3 )1.8 Mn2 O7 (s) [17]O: La1.2 (Sr0.6[0m
+[48;5;167mCa0.4 )1.8 Mn2 O7 (p) [17]P: (La0.8 Nd0.2 )1.2 Sr1.8 Mn2 O7 (s)[0m
+[48;5;167m[17]Q: (La0.6 Nd0.4 )1.2 Sr1.8 Mn2 O7 (s) [17]R: Sm1.2 Sr1.8[0m
+[48;5;167mMn2 O7 (p) [18]S: La1.2 Sr1.4 Ca0.4 Mn2 O7 (p) [19]T:[0m
+[48;5;167mNdSr2 Mn2 O7 (p) [20]U: Nd1.1 Sr1.9 Mn2 O7 (p) [20]V:[0m
+[48;5;167mLaSr2 Mn2 O7 (p) [21]W: LaSr1.6 Ca0.4 Mn2 O7 (p) [22]X:[0m
+[48;5;167mNdSr2 Mn2 O7 (s) [22] where (s) and (p) indicate the single and polycrystalline samples, respectively. The inset of (a)[0m
+[48;5;167mshows a schematic picture[0m [38;5;1m==[0m of the [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [48;5;70mcorrelation between TN and ΔV[0m[48;5;110m by using the correlation coefficient: [90m[formula] [formula][0m[48;5;110m where l indicates a sample and N [48;5;167mis the number of samples.[0m[48;5;110m[0m
+[48;5;110m[48;5;167m∆V (TN and σ∆V[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1mbilayered structure.[0m
+
+[48;5;167mV3z2 −r2[0m [48;5;167mU[0m
+[48;5;167mJ[0m
+
+[48;5;167mHF E[0m
+
+[48;5;167m-0.1[0m
+
+[48;5;167mab[0m
+
+[48;5;167mdMn-Mn (Å)[0m
+
+[48;5;167mW[0m
+
+[48;5;167mN[0m
+
+[48;5;167mx2 y 2[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.97[0m
+
+[48;5;167mW[0m
+[48;5;167mKC L B[0m
+
+[48;5;167mD[0m
+
+[48;5;167m80[0m
+[48;5;167m40[0m
+
+[48;5;167mNC[0m
+
+[48;5;167m(3)[0m
+
+[38;5;1m==[0m is the [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [90mnumber of samples. [formula] ([formula]) and σΔV[0m[48;5;110m (σTN) are the mean value and the standard deviation of [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m (TN)respectively. We obtain r 0.89 0.11 for single crystal samples and r 0.15 0.04 for all samples including polycrystals. One might think that the TC(N) v.s. [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m curve in Fig. [90m[\ref=fig:fig2][0m[48;5;110m just reflects the relation between TC(N) [48;5;167mand x[0m[48;5;110m[0m
+[48;5;110m[48;5;167min La2−2x Sr1+2x Mn2 O7 (LSMO) [12,7][0m[48;5;110m [38;5;1m‖[0m[48;5;110m[0m [48;5;167m0.5[0m
+
+[48;5;167m0.20[0m
+
+[48;5;167mG[0m
+
+[48;5;167mV (eV)[0m
+
+[48;5;167m0.15[0m
+[48;5;167m0.10[0m
+
+[48;5;167mJ[0m
+
+[48;5;167mR[0m
+
+[48;5;167m3z 2 r 2[0m
+
+[48;5;167mA[0m
+[48;5;167mI[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167mFM[0m
+[48;5;167mQ[0m
+[48;5;167mP[0m
+
+[48;5;167mB[0m
+
+[48;5;167m0.05[0m
+
+[48;5;167mM[0m
+
+[48;5;167mN[0m
+
+[48;5;167mU[0m
+[48;5;167mLC[0m
+[48;5;167mS[0m
+
+[48;5;167mK[0m
+
+[48;5;167m0.3[0m
+[48;5;167mW[0m
+[48;5;167mX[0m
+
+[48;5;167mD[0m
+
+[48;5;167mE[0m
+
+[48;5;167m0.00[0m
+[48;5;167m-0.05[0m
+
+[48;5;167mx2 y2[0m
+[48;5;167m0.30[0m
+
+[48;5;167mV[0m
+[48;5;167mT[0m
+[48;5;167mF[0m
+
+[48;5;167mH[0m
+
+[48;5;167m-0.10[0m
+
+[48;5;167mt0[0m
+
+[48;5;167m0.25[0m
+
+[48;5;167m0.35[0m
+
+[48;5;167m0.45[0m
+
+[48;5;167m0.0[0m
+[48;5;167m0.55[0m
+
+[48;5;167m0.50[0m
+
+[48;5;167m0.60[0m
+
+[48;5;167m0.65[0m
+
+[48;5;167m0.70[0m
+
+[48;5;167m0.75[0m
+
+[48;5;167mFIG. 4. The calculated magnetic phase diagram at T 0[0m
+[48;5;167mas a function of[0m [38;5;1m==[0m and x [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [90min La2 2xSr1 2xMn2O7 (LSMO) [\cite=kubota][\cite=medarde].[0m[48;5;110m However, when we pay attention to TC(N)s for samples with the same x (e.g.the samples C and K-R)we notice [38;5;1mthat[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1mNote[0m [38;5;1m==[0m that [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m the correlation remains. The correlation between TN and [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m explains that between TN and [90m[[0m[48;5;110m[38;5;1mdab[0m[48;5;110m[0m
+[48;5;110m[38;5;1mMn−[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mdabMn[0m[48;5;110m[90m][0m[48;5;110m Mn shown in Fig. 1(b)since [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m is a decreasing function of [90m[[0m[48;5;110m[38;5;1mdab[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mdabMn[0m[48;5;110m[90m][0m[48;5;110m Mn [38;5;1mMn[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m in the region, [90m[[0m[48;5;167mwith large[0m
+[48;5;167mpositive (negative) the 3d3z 2 −r2 (3dx2 −y 2 orbital is occupied by an electron.[0m[90m/[0m[48;5;70m3.84Å dabMn Mn 3.88Å.[0m[90m][0m [38;5;22mIn[0m Fig. 3, [38;5;22mwe present[0m the magnetic phase diagram at T 0 as a function of [90m[[0m[38;5;1m∆V[0m[90m/[0m[38;5;22mΔV[0m[90m][0m and x. [48;5;167mFilled, open and crossed squares[0m
+[48;5;167mindicate[0m The [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m structural data at room temperature are used. [48;5;167mSymbols connected[0m[48;5;110m[0m
+[48;5;110m[48;5;167mby dotted lines correspond to a series of LSMO with[0m[48;5;110m[0m
+
+[48;5;167mFM, A-type AFM and PM samples, respectively. ∆V ’s for filled and open circles are obtained from[0m
+[48;5;167mthe data below TC and TN respectively.[0m [38;5;1m==[0m Symbols connected by dotted lines [90m[[0m[38;5;1mindicate[0m[90m/[0m[38;5;22mcorrespond to[0m[90m][0m a series of LSMO [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m [90mwith x 0.3 0.5 [\cite=kubota]. In addition, ΔV'[0m[48;5;110ms calculated by using the data below TC(N) in LSMO are also plotted. [38;5;1mBold arrows[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m Bold arrows [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m indicate the change of the Madelung potential with changing temperature from [48;5;167mT TC(N to T TC(N (5)[0m[48;5;110m[0m
+
+[48;5;167mshow[0m
+[48;5;167mδ(V ∆V[0m [38;5;1m==[0m T TC(N) [90m[[0m[38;5;1m∆V[0m[90m/[0m[38;5;22mto[0m[90m][0m T TC(N)[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;22mWe find[0m that [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m the magnetic structures are governed by [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m and x; the FM (A-type AFM) phase is located [48;5;167min the region with[0m[48;5;110m  [38;5;1m‖[0m[48;5;110m[0m [38;5;1m==[0m in the region with [48;5;110m[38;5;1m==[0m[48;5;110m [38;5;1m‖[0m[48;5;110m smaller (larger) x and moderate (smaller) [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV.[0m[48;5;110m[90m][0m[48;5;110m Let us focus on δ([90m[[0m[48;5;110m[38;5;1mV[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV)[0m[48;5;110m[90m][0m[48;5;110m in LSMO. δ([90m[[0m[48;5;110m[38;5;1mV[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV)[0m[48;5;110m[90m][0m[48;5;110m s are negative at x 0.3 and 0.35. The absolute value of δ([90m[[0m[48;5;110m[38;5;1mV[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV)[0m[48;5;110m[90m][0m[48;5;110m gradually decreases with increasing x and δ([90m[[0m[48;5;110m[38;5;1mV[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV)[0m[48;5;110m[90m][0m[48;5;110m becomes a small positive value at x 0.4. Below TC, [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m seems to approach to the optimal value of [90m[[0m[48;5;110m[38;5;1m∆V[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV[0m[48;5;110m[90m][0m[48;5;110m 0.08 where TC becomes maximum as seen in Fig. [90m[\ref=fig:fig2].[0m[48;5;110m On the other hand, δ([90m[[0m[48;5;110m[38;5;1mV[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV)[0m[48;5;110m[90m][0m[48;5;110m s are negative at x=0.45 and 0.48 where the A-type AFM structure appears. The orbital structure and its stability in the FM phase have been studied by measuring the striction in Ref. [90m[\cite=kimura].[0m[48;5;110m The difference of the Mn-O bond lengths between PM and FM states was reported in Ref. [90m[\cite=medarde].[0m[48;5;110m These experimental results are consistent with the present results of δ([90m[[0m[48;5;110m[38;5;1mV[0m[48;5;110m[90m/[0m[48;5;110m[38;5;22mΔV)[0m[48;5;110m[90m][0m[48;5;110m in Fig. 3.[0m
+
+[48;5;110m[38;5;1m‖[0m[48;5;110m Now we theoretically investigate a mechanism of the correlation between magnetic ordering and orbital structure. We start with the following Hamiltonian [90m[\cite=ishihara] [\cite=ishihara2] [\cite=hamiltonian]:[0m[48;5;110m[0m
+
+[48;5;110m[90m[formula][0m[48;5;110m[0m
+
+[48;5;110mInstead of the bilayered structure, the simple tetragonal lattice consisting of Mn ions is considered. In this model, the magnetic structure with FM and AFM alignments perpendicular and parallel to the c axis, respectively, corresponds to the A-type AFM structure [90m[\cite=aafm].[0m[48;5;110m In each Mn [38;5;1m3[0m[48;5;110m[0m
+
+[48;5;167mlarge positive (negative) ∆V the 3d3z 2 −r2[0m
+[48;5;167m(3dx2 −y 2 orbital is occupied by an electron.[0m
+
+[38;5;1m==[0m ion, the two eg orbitals are introduced and the t2g electrons are treated as a localized spin with S 3 2. The first two terms in Eq. [90m([\ref=eq:hamiltonian])[0m correspond to the so-called [90m[[0m[38;5;1mtand[0m[90m/[0m[38;5;22mt- and[0m[90m][0m J-terms in the tJ model, respectively, with the two eg orbitals under strong electron correlation. The third and fourth terms describe the Hund coupling between eg and t2g spins and the AFM SE interaction between t2g spins, respectively. The splitting of the energy levels between 3d3z2 r2 and [90m[[0m[48;5;167m3dP[0m
+[48;5;167mx2 −y 2[0m[90m/[0m[48;5;70m3dx2 y2[0m[90m][0m orbitals is represented by the last term: [90m[formula][0m where the pseudospin [90m[[0m[38;5;1mopP[0m
+[38;5;1merator[0m[90m/[0m[38;5;22moperator[0m[90m][0m is given by [90m[formula][0m with diγσ being the annihilation operator of an eg electron at site i with spin σ and orbital γ. The eigenstate of Tiz corresponds to the state where the 3d3z2 r2 (3dx2 y2) orbital is occupied by an electron. The anisotropies of the hopping integral and the SE interactions due to the layered structure are considered. The explicit expression and derivation of the Hamiltonian are presented in Refs. [90m[\cite=ishihara] and [\cite=ishihara2].[0m
+
+[38;5;1m‖[0m The calculated magnetic phase diagram at T 0 is presented in Fig. 4 [90m[\cite=hamiltonian] [\cite=maezono][0m where the mean field approximation is adopted. We note that the phase diagram derived in this approximation explains that in the cubic manganites [90m[\cite=okamoto].[0m The characteristic features shown in Fig. 3 are well reproduced by the present theory; the A-type AFM phase appears in the region with higher x and smaller [38;5;22mΔ[0m than that of the FM one. The range of the horizontal axis in Fig. 4 is larger than that in Fig. 3 by about 0.25. This discrepancy may be attributed to the neglect of the orbital fluctuation [90m[\cite=ishihara3].[0m However, the characteristics of the phase diagram are insensitive to the parameters in the model. In the FM (A-type AFM) phase, the orbitals are uniformly aligned with 0 θ 0.72π (0.72π θ π) where θ describes the orbital state as [90m[formula].[0m The present results suggest that a dimensionality of the FM interaction is controlled by the orbital structure; in the A-type AFM phase, the FM ordering in the ab plane is caused by the [48;5;167mx 0.3 0.5 [12]In addition, ∆V[0m [48;5;167mWe find that[0m [48;5;167mA-AFM[0m
+
+[48;5;167mx[0m
+
+[48;5;167mx[0m
+
+[48;5;167mδ(V ∆V (T TC(N ∆V (T TC(N[0m [48;5;167m0.2[0m
+[48;5;167m0.1[0m
+
+[48;5;167mA-AFM[0m
+[48;5;167m0.40[0m
+
+[48;5;167mFM[0m
+
+[48;5;167m(6)[0m
+
+[38;5;1m==[0m DE interaction, while the AFM in the c direction is by the AFM SE. When the 3dx2 y2 orbital is stabilized, the DE interaction in the ab plane (c direction) becomes strong (weak) and the A-type AFM phase appears [90m[\cite=maezono1].[0m A mixing of the orbitals is essential in the FM phase where the FM interaction overcomes the AFM SE one in the three directions. We note that, in Fig. 4, the FM phase appears not around [38;5;22mΔ[0m 0 but in a region of [38;5;22mΔ[0m 0, since the anisotropy in the hopping integral due to the layered structure stabilizes the 3dx2 y2 orbital more than 3d3z2 r2. It is worth to mention the change of the orbital structure associated with the magnetic ordering: By utilizing the mean filed approximation at finite temperature, we compare the orbital structures above and below the magnetic transition temperatures. It is found that (1) there is an optimal mixing of the orbitals for the FM state and the orbital structure tends to approach to this structure below TC and (2) the 3dx2 y2 orbital structure is stabilized below TN. The theoretical results are consistent with δ([90m[[0m[38;5;1mV[0m[90m/[0m[38;5;22mΔV)[0m[90m][0m s shown in Fig. 3 by considering that the change of [90m[[0m[38;5;1m∆V[0m[90m/[0m[38;5;22mΔV[0m[90m][0m associated with the magnetic ordering is caused by that of the orbital structure.
+
+[38;5;1m‖[0m In summary, we examine correlation between magnetic ordering and orbital structure in bilayered manganites. A relative stability of the eg orbitals is investigated by calculating the Madelung potentials in a large number of the bilayered compounds. We find that the A-type AFM structure and the 3dx2 y2 orbital one are stabilized cooperatively and there is an optimal mixing between the 3d3z2 r2 and 3dx2 y2 orbitals for the FM ordering. A theory with the two eg orbitals under strong electron correlation explains a mechanism of the universal correlation between orbital and magnetism.
+
+[38;5;1m‖[0m The authors would like to thank Y. Moritomo, T. Akimoto, Y. Tokura, T. Kimura, Y. Endoh, K. Hirota, M. Kubota and G. Khaliullin for their valuable discussions. This work was supported by CREST, NEDO and Grant-in-Aid for Scientific Research Priority Area from the Ministry of Education, Science and Culture of Japan. S. O. acknowledges the financial support of JSPS. Part of the numerical calculation was performed in the [90m[[0m[38;5;1mHITACS3800/[0m[90m/[0m[38;5;22mHITACS-3800/[0m[90m][0m 380 superconputing facilities in IMR, Tohoku Univ. [48;5;167m[10] T. Kimura et al.Phys. Rev. Lett. 81, 5920 (1998)[11] The following two layered AFM structures have been observed [12,13]AFM-I consisting of the FM spin ordering in the plane and the AFM (FM) one along the c axis[0m
+[48;5;167mwithin (between NN) bilayers, and AFM-II consisting of[0m
+[48;5;167mthe FM in the plane and the FM (AFM) along the c[0m
+[48;5;167maxis within (between NN) bilayers. Since the intrabilayer[0m
+[48;5;167mmagnetic coupling is much larger than the interbilayer[0m
+[48;5;167mone [35]we term the AFM-I structure the A-type AFM[0m
+[48;5;167mone and regard the AFM-II as the FM.[0m
+[48;5;167m[12] M. Kubota et al.cond-mat/9902288.[0m
+[48;5;167m[13] D. N. Argyriou et al.Phys. Rev. B 59, 8695 (1999)[14] P. Laffez et al.J. Appl. Phys. 80, 5850 (1996)[15] E.O. Chi et al.Phys. Rev. B 60, 12 867 (1999)[16] D. N. Argyriou et al.Phys. Rev. Lett. 78, 1568 (1997)[17] T. Akimoto et al.Phys. Rev. B 59, R14 153 (1999)[18] P. D. Battle et al.J. Appl. Phys. 83, 6379 (1998)[19] C. H. Shen et al.J. Appl. Phys. 86, 2178 (1999)[20] P. D. Battle et al.Phys. Rev. B 54, 15 967 (1996)[21] R. Seshadri et al.Solid State Commun. 101, 453 (1997)[22] T. Akimoto et al.(unpublished)[23] For the samples G, J, R, T and U where the two chemically distinct phases are observed, the structural data of[0m
+[48;5;167mthe major phase are adopted.[0m
+[48;5;167m[24] Y. Ohta et al.Phys. Rev. B 43, 2968 (1991)[25] T. Arima et al.Phys. Rev B 48, 17 006 (1993)[26] P. K. de Boer et al.Phys. Rev. B 60, 10 758 (1999)[27] S. Ishihara et al.J. Phys. Soc. Jpn. 66, 2965 (1997)[28] J. C. Slater in Quantum Theory of Atomic Structure (McGraw Hill, New York, 1960) Vol. 1.[0m
+[48;5;167m[29] S. Ishihara et al.Physica C 263, 130 (1996)and Phys.[0m
+[48;5;167mRev. B 55, 8280 (1997)[30] In the Hamiltonian, we consider the SE interactions[0m
+[48;5;167mab(c)[0m
+[48;5;167mab(c)[0m
+[48;5;167mJ1,2 between eg electrons, the AFM SE one JAF beab(c)[0m
+
+[48;5;167mtween t2g spins and the hopping integral t0[0m
+[48;5;167mof eg electrons where the subscript ab (c) indicates the interaction[0m
+[48;5;167min the ab plane (the c direction) [27,29]These values are[0m
+[48;5;167mab[0m
+[48;5;167mab[0m
+[48;5;167mab[0m
+[48;5;167mchosen as J1(2)[0m
+[48;5;167m/tab[0m
+[48;5;167m0 0.25 (0.075)JAF /t0 0.002 and[0m
+
+[48;5;167mp[0m
+
+[48;5;167m[31][0m
+
+[48;5;167m[32][0m
+[48;5;167m[33][0m
+[48;5;167m[34][0m
+[48;5;167m[35][0m
+
+[48;5;167m[1][0m
+[48;5;167m[2][0m
+[48;5;167m[3][0m
+[48;5;167m[4][0m
+[48;5;167m[5][0m
+[48;5;167m[6][0m
+[48;5;167m[7][0m
+[48;5;167m[8][0m
+[48;5;167m[9][0m
+
+[48;5;167mY. Moritomo et al.Nature (London) 380, 141 (1996)T. Kimura et al.Science 274, 1698 (1996)H. Y. Hwang et al.Phys. Rev. Lett. 75, 914 (1995)T. G. Perring et al.Phys. Rev. Lett. 78, 3197 (1997)D. Louca et al.Phys. Rev. Lett. 80, 3811 (1998)D. S. Dessau et al.Phys. Rev. Lett. 81, 192 (1998)M. Medarde et al.Phys. Rev. Lett. 83, 1223 (1999)L. Vasiliu-Doloc et al.Phys. Rev. Lett. 83, 4393 (1999)Y. Moritomo et al.Phys. Rev. B 56, R7057 (1997)[0m[48;5;167m4[0m
+
+[48;5;167mp[0m
+
+[48;5;167mc[0m
+[48;5;167mab[0m
+[48;5;167mc[0m
+[48;5;167mab[0m
+[48;5;167mc[0m
+[48;5;167mtab[0m
+[48;5;167mJ1,2[0m
+[48;5;167m/J1,2[0m
+[48;5;167mJAF[0m
+[48;5;167m/JAF[0m
+[48;5;167m1.5 in the numeri0 /t0 ab[0m
+[48;5;167mcal calculation. t0 is represented as t0 for simplicity.[0m
+[48;5;167mThe phase diagram at T 0 for the bilayered manganites has also been studied in the Hartree-Fock theory by[0m
+[48;5;167mR. Maezono and N. Nagaosa, cond-mat/9904427.[0m
+[48;5;167mS. Okamoto et al.Phys. Rev. B 61, (2000)and Y. Endoh[0m
+[48;5;167met al.Phys. Rev. Lett. 82, 4328 (1999)S. Ishihara et al.Phys. Rev. B 56, 686 (1997)R. Maezono et al.Phys. Rev. B 57, R13 993 (1998)H. Fujioka et al.J. Phys. Chem. Solids 60, 1165 (1999)[0m

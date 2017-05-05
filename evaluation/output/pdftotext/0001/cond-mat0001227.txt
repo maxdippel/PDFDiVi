@@ -1,0 +1,4046 @@
+arXiv:cond-mat/0001227v1 [cond-mat.str-el] 17 Jan 2000
+
+Critical properties of the double-frequency
+sine-Gordon model with applications
+M. Fabrizioa, A. O. Gogolinb and A. A. Nersesyanc,d
+February 1, 2008
+a
+
+International School for Advanced Studies and INFM, Via Beirut 4, 34014
+Trieste, Italy
+
+b
+
+Department of Mathematics, Imperial College, 180 Queen’s Gate, London
+SW7 2BZ, United Kingdom
+
+c
+
+The Abdus Salam International Centre for Theoretical Physics, P.O.Box 586,
+34100, Trieste, Italy
+d
+
+The Andronikashvili Institute of Physics, Tamarashvili 6, 380077, Tbilisi,
+Georgia
+Abstract
+We study the properties of the double-frequency sine–Gordon model in
+the vicinity of the Ising quantum phase transition displayed by this model.
+Using a mapping onto a generalised lattice quantum Ashkin-Teller model,
+we obtain critical and nearly-off-critical correlation functions of various
+operators. We discuss applications of the double-sine-Gordon model to
+one-dimensional physical systems, like spin chains in a staggered external
+field and interacting electrons in a staggered potential.
+
+PACS: 71.10.Pm; 71.10.Fd; 75.10.Jm
+Keywords: Fermions in reduced dimensions; Lattice fermion models; Quantized
+spin models.
+
+1
+
+Introduction
+
+The problem of determining the asymptotic behaviour of a conformal field theory
+(CFT) under the action of a relevant operator is well studied and understood,
+1
+
+also in view of its relation to the physics of many quantum one-dimensional (1D)
+and classical two-dimensional (2D) models. A less studied case concerns a CFT
+perturbed by two relevant operators. Namely, consider a CFT subjected to such
+relevant perturbation, gO∆g , with scaling dimension ∆g < 2, that turns it into
+a fully massive quantum field theory (QFT). Then add another relevant perturbation, λO∆λ , which, if acting alone, would also make our QFT fully massive.
+Although this is not as common situation as the previous one, we will show that
+it displays interesting features which may be realized in physical systems.
+Without loss of generality, we assume that ∆λ < ∆g < 2, i.e. that the second
+perturbation is more relevant then the first one. Moreover, we shall require, for
+the time being, that the operator product expansion (OPE) of these two operators
+is closed in the sense that it does not produce other relevant operators. The most
+general case will be discussed in a separate section. Then, the naïve expectation,
+which prevailed until recently, is that no qualitative changes occur in this case
+with respect to the standard situation of a CFT perturbed by a single relevant
+operator: the low-energy behaviour of the theory would be governed by the most
+relevant operator and, at any rate, the theory would remain fully massive. This
+expectation is however not a general rule if the two operators exclude each other,
+that is, if the field configurations which minimise one perturbation term do not
+minimise the other. In this case, the interplay between the two competing relevant
+operators can produce a novel quantum phase transition between two massive
+QFT’s through a critical (massless) point. It is intuitively clear that such a
+scenario is only conceivable if the ratio of the bare coupling constants, |g/λ|, is
+large enough.
+
+Recently Delfino and Mussardo (DM)[1] considered the double-frequency sineGordon (DSG) model, which is a Gaussian model of a scalar field Φ, perturbed by
+two relevant vertex operators with the ratio of their scaling dimensions ∆g /∆λ =
+4. The Hamiltonian density of the DSG model reads:
+HDSG [Φ] = H0 [Φ] + U[Φ]
+U[Φ] = −g cos βΦ(x) − λ sin[(β/2)Φ(x)].
+
+(1)
+
+where
+i
+
+h
+
+H0 [Φ] = v0 (∂x φR )2 + (∂x φL )2 ,
+
+(2)
+
+φR,L being the chiral components of the Bose field, Φ = φR + φL. DM have shown
+that there exists a quantum critical line λ = λc (g) where the DSG model displays
+an Ising criticality with central charge c = 1/2.
+2
+
+The purpose of this paper is to investigate in detail the critical properties
+of this transition and to discuss physical applications to spin chains and other
+quantum one-dimensional (1D) systems. While we shall concentrate on the DSG
+model in what follows, it should be noted that the phenomenon is more general similar quantum phase transitions do happen in more complicated models; those
+shall be addressed elsewhere [2].
+Apart from the practical interest in physical realizations of the DSG model,
+this problem is of relevance also from a pure theoretical point of view. Indeed, we
+have already mentioned that the Ising critical point separates two strong-coupling,
+massive phases; hence, by definition, its analytical description is outside the range
+of applicability of perturbation theory. In this paper we propose a nonperturbative scheme, which is essentially based on the mapping of the DSG model onto
+another equivalent model – a generalised quantum Ashkin-Teller model on a 1D
+lattice, where the Ising critical point becomes accessible.
+The paper is organised as follows. In section 2 we briefly discuss the DSG
+model at the semi-classical level and outline our approach to tackle the Ising
+criticality in the vicinity of the decoupling point β 2 = 4π. In sections 3–5 we
+present a complete description of the critical properties of the DSG model at
+the Ising transition. In section 3 we introduce a quantum lattice version of a
+generalised AT model which, apart from the conventional marginal inter-chain
+coupling, also includes a ‘magnetic filed’ type of interaction, hσ1 σ2 . We show
+that, in the continuum limit, this model is equivalent to the DSG model at
+β 2 ∼ 4π. In section 4 we employ a new (σ-τ ) representation of the deformed AT
+model which enables us to correctly identify those degrees of freedom that become
+
+critical. In section 5 we use the results of the quantum-spin-chain mappings to
+determine the physical properties of the DSG model close to the criticality.
+In the next two sections we discuss applications of the DSG model to physical
+systems. In particular, we discuss Ising transitions in a spontaneously dimerized
+S=1/2 antiferromagnetic chain in a staggered magnetic field (section 6), and in
+the 1D Hubbard model with a staggered potential (section 7). In section 8 we
+show that at β 2 < 2π the second-order Ising transition may transform to a firstorder one. Section 9 contains discussion of the results and conclusions.
+The paper is supplied with four Appendices which provide some details concerning bosonization of products of order and disorder operators for a system of
+two identical Ising models, the relationship between the quantum AT model and
+lattice fermions, a mean-field treatment of the σ-τ model, and calculation of the
+3
+
+correlation functions.
+
+2
+
+The model and its quasi-classical analysis
+
+In this paper we will be dealing with the particular version of the DSG model (1)
+corresponding to the case g > 0. We will also assume that λ > 0, although its
+sign is unimportant due to the obvious symmetry Φ → −Φ.
+
+For 2π < β 2 < 8π the Gaussian model is perturbed by two relevant vertex
+
+operators closed under the OPE [1]. The existence of the Ising phase transition
+can be qualitatively understood via a quasi-classical analysis: inspecting the profile of the potential U(Φ) as a function of the ratio x = λ/4g. At x = 0 one has a
+
+periodic potential of a single-frequency sine-Gordon (SG) model. For x 6= 0 the
+
+period of the potential is doubled in such a way that in the region 0 < x < 1
+it can be viewed as a sequence of double-well potentials with the local structure
+
+AΦ2 + BΦ4 , where A < 0, B > 0. Precisely at x = 1 each local double-well potential transforms to a Φ4 one (A = 0), and (in the Ginzburg–Landau sense) this
+is a signature of the Ising criticality with the central charge c = 1/2. It should
+be stressed that the double-well structure of the potential U(Φ) only occurs for
+g > 0. Hence the Ising critical point only exist for positive g. The case of g < 0 is
+qualitatively different: here the λ-perturbation removes the degeneracy between
+neighbouring minima of cos βΦ and thus leads to soliton confinement (similarly
+to the analysis in Ref[3]). The spectrum in this case always remains massive.
+Thus, for model (1) with g > 0, a plausible scenario is that the relevant perturbations naturally act on the two constituent Ising models of the starting Gaussian
+model, leaving one of them massless on the critical line λ = λc (g). (Quasiclassically λc (g) = 4g. A better estimation which takes into account quantum
+fluctuations yields a power law λc (g) ∼ g ν , where ν = (32π − β 2 ) / (16π − β 2 )).
+
+Indeed, DM have argued that the Ising transition is a universal property of the
+DSG model (1) as long as β 2 < 8π. This makes it possible to consider the vicinity
+of the point β 2 = 4π where the description of the transition greatly simplifies.
+Namely, it is well known[4, 5] that β 2 = 4π is the decoupling (or Luther-Emery)
+point of the ordinary SG model (λ = 0), at which the latter is equivalent to a
+theory of free massive fermions. The scaling dimension 1/4 of the λ-term in (1)
+indicates that this point is special for the DSG model as well, suggesting an Ising
+model interpretation. In this paper we shall be working in the vicinity of the
+decoupling point. Rescaling the field Φ, the DSG model can be written in an
+4
+
+equivalent form:
+i
+
+h
+
+HDSG = v (∂x φR )2 + (∂x φL )2 − γ∂x φR (x)∂x φL (x)
+√
+√
+(3)
+− g cos 4πΦ(x) − λ sin πΦ(x),
+√
+√
+√
+where v = (v0 /2)(β/ 4π+ 4π/β) and γ = (v0 / 4πβ)(β 2 −4π). It was originally
+noted by DM that this form of the DSG model can be related to a deformed 2D
+Ashkin–Teller (AT) model, which can be viewed as the standard AT model, i.e. a
+model of two marginally coupled 2D Ising models with order parameters σ1 and
+σ2 , extended to include a magnetic field type coupling, λσ1 σ2 . DM then argued
+that, in the strong-coupling limit (λ → ∞), the system effectively reduces to
+a single Ising model which may become critical if the temperature is properly
+
+tuned to its critical value. This argument can be extended to finite values of λ,
+provided that the two Ising copies are originally in a disordered phase, and thus
+explains the existence of a critical line in the t-λ plane (t = (T − Tc )/Tc > 0)
+
+along which the deformed AT model flows from the ultraviolet c = 1 fixed point
+to the infrared c = 1/2 Ising fixed point.
+We shall elaborate on the DM argument by explicitly constructing the mappings between the DSG model and various spin models, with the aim to fully
+describe the Ising transition and, in particular, calculate correlation functions of
+the operators in the original DSG model. The novel points of our analysis are as
+follows. First, we concentrate on quantum lattice spin chain models rather than
+on their classical counterparts (in the transfer matrix sense), as this formulation
+profits from the use of the powerful apparatus of various spin operator transformations like the duality transformation. Secondly, we identify the correct degrees
+of freedom in the deformed quantum AT model that become critical. Since the
+original Ising models enter symmetrically, this is a nontrivial step which is accomplished via a ‘change of basis’ transformation. Let us denote the critical degrees
+of freedom by σ and the remaining gaped degrees of freedom by τ (see the main
+text for precise definitions). The strategy to calculate the correlation functions
+is then to express the DSG-operators in terms of the lattice σ and τ operators.
+At the Ising transition σ and τ operators asymptotically decouple, with the σoperators being critical and (some of) the τ operators acquiring finite average
+values. This allows us to trace the relation between the original DSG-operators
+and those from the operator content of the underlying critical Ising model, which
+ultimately accomplishes a complete description of the critical properties at the
+Ising transition.
+5
+
+3
+
+Relation between DSG model and deformed
+quantum Ashkin-Teller model
+
+3.1
+
+Quantum Ising spin chain
+
+We start with recollecting some basic facts about the quantum Ising (QI) spin
+chain. The Hamiltonian of the QI chain describes a 1D Ising model in a transverse
+magnetic field [6]:
+HQI [σ] = −
+
+X
+
+
+
+z
+Jσnz σn+1
++ ∆σnx ,
+
+n
+
+(4)
+
+where σnα are the Pauli matrices associated with the lattice sites {n}. The Hamil-
+
+tonian HQI defines the transfer matrix of the classical 2D Ising model [7].
+
+An important tool in studying 1D spin lattice models is the Kramers-Wannier
+duality transformation that we shall make extensive use of in the sequel. Consider
+a dual lattice consisting of sites {n + 1/2}, defined as the centres of the links
+
+< n, n + 1 > of the original lattice, and assign spin operators µn+1/2 to the dual
+lattice sites. The duality transformation then relates the dual spins to the original
+ones as follows
+µzn+1/2 =
+
+n
+Y
+
+z
+σjx , µxn+1/2 = σnz σn+1
+,
+
+(5)
+
+j=1
+
+the inverse transformation being
+σnz
+
+=
+
+n−1
+Y
+
+µxj+1/2 , σnx = µzn−1/2 µzn+1/2 .
+
+(6)
+
+j=0
+
+In Hamiltonian (4), the parameters J and ∆ are interchanged under the duality
+transformation, so that J = ∆ is the self-duality point where the model displays
+an Ising criticality.
+The operators σnz and µzm+1/2 , conventionally referred to as order and disorder operators, are mutually nonlocal and play the role of ‘string operators’ with
+respect to each other. In particular, they commute for m < n but anticommute
+otherwise. These commutation properties make the duality construction a convenient starting point for introducing lattice fermions. It is immediate to check
+that two objects
+ηn = σnz µzn−1/2 = µzn−1/2 σnz ,
+
+(7)
+
+ζn = iσnz µzn+1/2 = −iµzn+1/2 σnz ,
+
+(8)
+
+satisfy the anticommutation relations for the real (Majorana) fermions on the
+lattice, with the normalisation ηn2 = ζn2 = 1. Relations (7) and (8) are nothing but
+6
+
+the inverse of the Jordan–Wigner transformation, with the ‘direct’ transformation
+being of the form
+σnx = iζn ηn ,
+
+σnz = ηn
+
+n−1
+Y
+
+(iζj ηj ) .
+
+(9)
+
+j=1
+
+In terms of the Majorana fermions the QI Hamiltonian becomes
+HQI = i
+
+X
+n
+
+[Jζn (ηn+1 − ηn ) − (∆ − J)ζn ηn ] .
+
+(10)
+
+The next step is to take a continuum limit. To this end one introduces a lattice
+spacing a0 , treats x = na0 as a continuum variable, and replaces ηn and ζn by
+slowly varying Majorana fields, η(x) and ζ(x):
+ηn →
+
+Notice that the factor
+
+√
+
+√
+
+2a0 η(x),
+
+ζn →
+
+√
+
+2a0 ζ(x).
+
+2 ensures the correct continuum anticommutation rela-
+
+tions: {η(x), η(y)} = {ζ(x), ζ(y)} = δ(x − y). The Hamiltonian density of (10)
+then is
+
+HQI = ivζ∂x η − imζη,
+with v = 2Ja0 and m = 2(∆ − J). Performing a chiral rotation of the Majorana
+
+spinor
+
+ξR =
+
+−η + ζ
+√ ,
+2
+
+η+ζ
+ξL = √ ,
+2
+
+(11)
+
+or, inversely,
+
+−ξR + ξL
+ξR + ξL
+√
+, ζ= √
+,
+2
+2
+transforms this Hamiltonian to a standard form:
+η=
+
+(m)
+
+HM =
+
+iv
+(−ξR ∂x ξR + ξL ∂x ξL) − imξR ξL.
+2
+
+(12)
+
+(13)
+
+The relation between the QI model and the massive Majorana QFT is therefore
+summarised as follows
+lim HQI =
+
+a0 →0
+
+3.2
+
+Z
+
+(m)
+
+dx HM (x)
+
+(14)
+
+Bosonization of the deformed quantum Ashkin–Teller
+model
+
+The standard quantum Ashkin-Teller (QAT) model is defined as a model of two
+identical QI spin chains, described by Hamiltonians HQI [σ1 ] and HQI [σ2 ] [see
+
+7
+
+Eq.(4)], which are coupled via a self-dual inter-chain interaction:
+′
+HQAT = HQI [σ1 ] + HQI [σ2 ] + HAT
+[σ1 , σ2 ],
+′
+HAT
+[σ1 , σ2 ] = K
+
+(15)
+
+
+X
+
+z
+z
+z
+z
+x
+x
+.
+σ1,n
+σ1,n+1
+σ2,n
+σ2,n+1
++ σ1,n
+σ2,n
+
+n
+
+(16)
+
+′
+We will be interested in a deformed version of this model which, apart from HAT
+,
+
+includes a ‘magnetic field’ type of coupling between the chains:
+HDQAT = HQAT − h
+
+X
+n
+
+z
+z
+σ1,n
+σ2,n
+
+(17)
+
+We wish to establish a relationship between the deformed quantum Ashkin–
+Teller (DQAT) model (17) and the DSG model. These two models can be mapped
+onto each other using the Zuber-Itsykson trick[8]. The idea is to associate the
+two QI chains with two copies of Majorana fermions,
+(σ1 , µ1 ) ⇒
+(σ2 , µ2 ) ⇒
+
+
+
+
+
+
+
+
+
+
+
+η 1 , ζ 1 ⇒ ξR1 , ξL1 ,
+
+
+
+
+
+
+η 2 , ζ 2 ⇒ ξR2 , ξL2 ,
+
+combine ξ 1 and ξ 2 into a single Dirac field and then bosonize the latter using the
+standard rules of Abelian bosonization.
+First we notice that, in the case of two QI spin chains, the Jordan–Wigner
+transformation (7)–(9) should be slightly modified. This follows from the requirement that the spin operators belonging to different chains should commute. While
+this is automatically true for the disorder operators µαa,n+1/2 (α = x, y, z; a = 1, 2)
+because of their bosonic character, to ensure commutation between the order paz
+z
+rameters σ1n
+and σ2n
+one has to introduce two anticommuting (Klein) factors
+
+κ21 = κ22 = 1,
+
+{κ1 , κ2 } = 0,
+
+(18)
+
+and replace (7), (8) by
+z
+z
+η1,n = κ1 σ1,n
+µz1,n−1/2 , ζ1,n = iκ1 σ1,n
+µz1,n+1/2 ,
+z
+z
+η2,n = κ2 σ2,n
+µz2,n−1/2 , ζ2,n = iκ2 σ2,n
+µz2,n+1/2 .
+
+(19)
+
+With the spin variables σ1,2 and µ1,2 subject to the duality relations (5), (6),
+definitions (19) ensure the correct statistics for the Majorana fermions ηa,n and
+ζa,n .
+In terms of the lattice Majorana fermions, the standard QAT Hamiltonian
+becomes
+HQAT = i
+
+X X
+
+a=1,2 n
+
++ K
+
+X
+
+[Jζa,n (ηa,n+1 − ηa,n ) − (∆ − J)ζa,n ηa,n ]
+
+ζ1,n ζ2,n [η1,n+1 η2,n+1 + η1,n η2,n ] ,
+
+n
+
+8
+
+(20)
+
+and admits a straightforward passage to the continuum limit. The corresponding
+Hamiltonian density reduces to a theory of two interacting massive Majorana
+fermions
+HQAT (x) =
+
+X
+
+(m)
+
+a=1,2
+
+HM [ξa (x)] + 8Ka0 ξ1R (x)ξ2R (x)ξ1L (x)ξ2L (x),
+
+(21)
+
+which is obviously equivalent to the massive Thirring model for a single Dirac
+fermion. Using the standard rules of Abelian bosonization which are briefly summarised in Appendix A.1, one maps the QAT model onto a β 2 = 4π quantum SG
+model with a marginal perturbation [4]:
+√
+HQAT ⇒ H0 [Φ] − 8Ka0 ∂x φR ∂x φL − (m/a0 ) cos 4πΦ.
+
+(22)
+
+Notice that, the bosonization of the QAT model can be also achieved by first
+mapping the model onto a single chain of spinless fermions, and then bosonizing
+the latter. This alternative route is traced in Appendix B.
+Turning to the DQAT model, we observe that the h-term in (17) is nonlocal in
+terms of lattice Majorana operators. However, it is known that, for two identical
+Ising models close to criticality, products of two Ising operators belonging to
+different chains, σ1 σ2 , µ1 µ2 , σ1 µ2 , µ1 σ2 , all with scaling dimension 1/4, can
+be expressed locally in terms of bosonic vertex operators with the same scaling
+dimension (see, for instance, [9] and references therein). In Appendix A.2, we
+rederive this correspondence starting from the lattice theory of two quantum
+Ising chains and paying special attention to the Klein factors:
+√
+µz1,n+1/2 µz2,n+1/2 = : cos πΦ(x) :,
+√
+z
+z
+σ1n
+σ2n
+= −iκ1 κ2 : sin πΦ(x) :,
+√
+z
+σ1n
+µz2,n+1/2 = −iκ1 : cos πΘ(x) :,
+√
+z
+µz1,n+1/2 σ2n
+= iκ2 : sin πΘ(x) : .
+
+(23)
+(24)
+(25)
+(26)
+
+Here Θ = −φR + φL is a scalar field dual to Φ.
+
+Thus, Eq. (24) establishes the continuum bosonized version of the “magnetic
+
+field” coupling term in (17):
+h
+
+X
+n
+
+z
+z
+σ1n
+σ2n
+
+Z
+√
+h
+κ1 κ2 dx : sin πΦ(x) : .
+=i
+a0
+!
+
+(27)
+
+Notice that algebra (18) of the Klein factors allows one to identify them with
+Pauli matrices,
+κ1 = τ1 , κ2 = τ2 , κ1 κ2 = iτ3 .
+9
+
+Therefore, in the continuum limit, the DQAT model can be represented in a
+diagonal 2×2 matrix form:
+lim HDQAT =
+
+a0 →0
+
+Z
+
+dx Ĥ(x),
+
+
+
+H+ (x)
+Ĥ(x) = 
+0
+
+0
+H− (x)
+
+
+
+,
+
+(28)
+
+with the two Hamiltonians
+H± (x) = H0 [Φ(x)] − 8Ka0 ∂x φR (x)∂x φL (x)
+!
+ 
+√
+√
+m
+h
+−
+cos 4πΦ(x) ∓
+sin πΦ(x) ,
+a0
+a0
+
+(29)
+
+having the structure of the DSG model (3) and differing only in the sign of the
+coupling constant h. The identification of the parameters is as follows: γ = 8Ka0 ,
+g = m/a0 , and λ = h/a0 (it is understood that when a0 → 0, K → ∞, m, h → 0
+
+so as to keep the DSG parameters finite).
+
+The 2×2 matrix form of Ĥ reflects the symmetry of the DQAT model with
+
+respect to the interchange of the two constituent quantum chains, (P12 ), under
+which the DSG Hamiltonians H± transform to each other. Formally, this sym-
+
+metry appears as “unphysical” because the Hamiltonian Ĥ commutes with τ3 .
+This allows one to set
+
+κ1 κ2 = i,
+
+(30)
+
+and study the Ising transition by projecting the matrix DQAT model onto the
+subspace of a single DSG Hamiltonian H+ (the choice κ1 κ2 = −i, H → H−
+
+would be as good as the above one). However, while κ1 κ2 is a conserved quantity,
+each κi is not, implying that correlations functions of operators which contain the
+Klein factors may involve transitions between the two different sectors τ3 = ±1.
+
+We shall see below that some physical models are automatically mapped onto
+
+a single DSG model with a fixed sign of h (section 5), while some others reduce
+to the matrix form (28) (section 6). In the latter case, the effective P12 symmetry
+
+corresponds to a physical discrete Z2 symmetry of the model in question, which
+
+is spontaneously broken in the ground state, a typical example of this kind being
+a spontaneously dimerized phase. In such situations, the Hamiltonians H± , when
+
+considered separately, describe only excitations above each of the two degenerate
+vacua. On the other hand, the two-fold degeneracy of the ground state necessarily
+implies the existence of topological kinks which interpolate between neighbouring
+10
+
+degenerate minima of two different potentials U± , corresponding to H± . However,
+
+in the entire parameter space of the model (28), including the Ising transition
+point, the sets of minima of the potentials U± always have a finite relative shift.
+
+This means that the topological Z2 kinks always remain massive and thus appear
+
+as irrelevant excitations as long as Ising criticality is concerned.
+Thus, when working with a single Hamiltonian H+ , all operators representing
+
+strongly fluctuating fields at the Ising critical point are automatically taken into
+account. All “off-diagonal” operators proportional to κ1 or κ2 , such as those
+given by (25) and (26), can be dropped as they represent short-ranged fields at
+the critical point.
+
+4
+
+Deformed quantum Ashkin-Teller model in the
+(σ, τ ) representation and the Ising transition
+
+The original two-chain representation of the Hamiltonian (17) is not the most
+appropriate one to describe the role of the coupling term (27), but some general
+statements can already be drawn at this stage. First of all it is clear that, if
+the chains are originally in the ordered phase, the role of the h-term would be
+exhausted by removing the degeneracy between the four ground states specified
+z
+z
+i. The lowest-energy
+i and σ2 = hσ2n
+by the signs of the order parameters σ1 = hσ1n
+
+sector, determined by the condition hσ1 σ2 > 0, will stay massive anyway. (For two
+ordered Ising copies, the h-term gives rise to an effective longitudinal magnetic
+field applied to both Ising systems and thus keeping them massive.) Therefore,
+new effects can be only expected if the two chains are originally disordered.
+We can give an heuristic argument in favour of an Ising critical point that
+appears at a finite h, if at h = 0 the chains are disordered. For the sake of clarity,
+let us make a duality transformation and replace the original model by a pair of
+two ordered Ising copies well below Tc , coupled by the interaction hµ1 µ2 . Consider
+a single quantum Ising model (4) at J ≫ ∆. In the leading approximation, its
+ground state is fully polarised. The disorder operator µzn+1/2 creates a domain
+wall by flipping all the spins within the interval 1 ≤ j ≤ n. At short distances,
+
+the domain walls behave like hard-core bosons which, in the dilute limit, are
+equivalent to spinless fermions with the dispersion
+ǫ(k) = 2J − 2∆ cos ka0 .
+11
+
+The coupling term hµ1 µ2 creates or destroys a pair of domains walls, one for each
+chain. Therefore, in the dilute limit, the effective Hamiltonian for the fermions
+describing domain walls is of the form:
+H=
+
+X X
+
+ǫ(k)c†i,k ci,k + heff
+
+k i=1,2
+
+X
+
+c†1,−k + c1,k
+
+k
+
+
+
+c†2,k + c2,−k
+
+
+
+(31)
+
+where heff ∝ ∆h/J. The combinations of the creation and annihilation operah
+
+tors that appear in the coupling term reflect the fact that µzn+1/2
+
+i2
+
+= 1. It is
+
+clear that the model (31) is a theory of four Majorana fermions, two of which
+are not affected by the coupling term. The remaining part of Hamiltonian can
+be straightforwardly diagonalized and reduced to two Majorana fields with the
+masses
+
+∆h
+.
+J
+The Ising criticality is reached when one of the masses vanishes, which occurs
+m± = 2J ± const.
+
+when h ∼ J 2 /∆. In the dual representation, the above estimation of the critical
+
+field should be replaced by h ∼ ∆2 /J. Strictly speaking, the domain walls do not
+posses a fermionic statistics but contain a Jordan-Wigner type phase, which can
+only be neglected in the extreme dilute limit.
+Although the above argument provides a qualitative explanation of the transition, a satisfying description of the critical region can only be reached if we
+are able to properly identify the degrees of freedom which get critical and those
+which do not (and, of course, take into account the correct stastistics of the
+domain walls). For this purpose, let us introduce a new Ising variable
+z
+z
+τnz = σ1,n
+σ2,n
+.
+
+(32)
+
+Namely, let us switch from the original two-chain representation, with basic spin
+z
+z
+z
+operators σ1n
+and σ2n
+, to a new one where the basic variables are τnz and σnz = σ1n
+z
+(due to the P12 symmetry of the model, the choice τnz and σnz = σ2n
+would be
+
+equivalent). In the original (σ1 -σ2 ) representation, the local (i.e. at a fixed lattice
+site n) Hilbert space of the two-chain model is spanned by the basis vectors |σ1 , σ2 i
+which are eigenstates of σ1z and σ2z :
+
+z
+σ1,2
+|σ1 , σ2 i = σ1,2 |σ1 , σ2 i,
+
+σ1,2 = ±1.
+
+The new local basis |σ, τ i is defined as
+σ z |σ, τ i = σ|σ, τ i, τ z |σ, τ i = τ |σ, τ i,
+12
+
+α
+where σ = σ1 , τ = σ1 σ2 . Comparing matrix elements of the operators σ1n
+and
+α
+σ2n
+in the two bases, we find the following correspondence:
+z
+σ1n
+= σnz ,
+
+z
+σ2n
+= σnz τnz ,
+
+x
+σ1n
+= σnx τnx ,
+
+x
+σ2n
+= τnx .
+
+(33)
+
+We also need to define the variables µn and νn dual to σn and τn , respectively.
+The pairs (σn , µn ) and (τn , νn ) should obey the duality relations (5) and (6). Using
+these relations together with (33), one finds out how the dual spins transform
+under the change of basis:
+z
+µz1,n+1/2 = µzn+1/2 νn+1/2
+,
+
+z
+,
+µz2,n+1/2 = νn+1/2
+
+µx1,n+1/2 = µxn+1/2 ,
+
+x
+µx2,n+1/2 = µxn+1/2 νn+1/2
+.
+
+(34)
+
+In the σ-τ representation the DQAT model (17) transforms to another twochain model which we call the σ-τ model:
+H[σ, τ ] = Hσ + Hτ + Hστ .
+
+(35)
+
+Here Hσ is a QI Hamiltonian similar to (4) but with different parameters:
+X
+
+Hσ =
+
+n
+
+
+
+z
+−Jσnz σn+1
++ Kσnx .
+
+(36)
+
+Hτ is also of the QI type model but the magnetic field is nonzero both in the
+transverse and longitudinal directions:
+Hτ = K
+
+X
+n
+
+z
+τnz τn+1
+−
+
+X
+
+(hτnz + ∆τnx ) .
+
+(37)
+
+n
+
+Finally, the coupling term is of the Ashkin-Teller type:
+Hστ = −
+
+X
+
+
+
+z
+z
+Jσnz σn+1
+τnz τn+1
++ ∆σnx τnx .
+
+n
+
+(38)
+
+A mean-field approach to (35) is outlined in Appendix C, here we shall concentrate on the large-h limit. For large h, the τ -degrees of freedom freeze in a
+configuration where hτnz i ≃ 1, and hτnx i ≃ ∆/h. The σ-degrees of freedom are
+then described by an effective Ising model
+
+∆2
++
+H[σ] → −
+− K σnx ,
+(39)
+h
+n
+√
+which can indeed become critical when ∆ ∼ Jh. Although this simple picture
+X
+
+z
+2Jσnz σn+1
+
+!
+
+!
+
+holds only when h ≫ ∆ ≫ J, K, if a universal behaviour is to be expected, then
+13
+
+we are lead to conclude that, both at strong and weak h, the Ising transition
+essentially corresponds the situation when the σ degrees of freedom go massless,
+while the τ degrees of freedom remain frozen in a disordered configuration with
+both hτ z i and hτ x i nonzero. Notice that, with the above strong-coupling descrip-
+
+tion, we are unable to determine the critical line and even estimate the strength of
+the irrelevant operators close to this line. This means that, even though the uni-
+
+versal properties of the DSG model at the Ising transition, including the singular
+parts of physical quantities and critical exponents of the correlation functions, will
+be captured correctly, the nonuniversal parts, such as prefactors and subleading
+corrections to main asymptotics, are not to be trusted.
+Let us conclude this section by noticing two important facts which will prove
+useful in the next Section devoted to the correlation functions.
+(i) Quantum critical points are associated with gapless phases which are realized under certain conditions imposed on the parameters of the model. As
+soon as any of those parameters is shifted away from the criticality constraint, the system becomes off-critical. The corresponding perturbations
+to the critical Hamiltonian are therefore relevant operators with conformal dimensions determined by the universality class of the critical model.
+Notice that there is no magnetic field coupled to σ z in the exact lattice
+Hamiltonian (35). Therefore a departure from criticality by changing any
+one of the couplings (h, J, ∆J , or K) will give rise to an Ising mass term.
+(ii) From Eq.(39), if we reasonably take |K| < 2J, we arrive at the conclusion
+
+that, for h > hc , the σ degrees of freedom are ordered, while they are
+
+disordered otherwise.
+
+5
+
+Correlation functions
+
+In this Section we use the results of the above quantum-spin-chain type mappings
+to determine the physical properties of the DSG model close to the criticality.
+
+5.1
+
+DSG operators in the (σ, τ ) representation: UV-IR
+transmutation
+
+In preceding sections we have shown that (i) the DQAT model can be mapped
+onto the DSG model which is a Gaussian free theory of the field Φ(x) in the
+14
+
+ultraviolet (UV) limit, and that (ii) the DQAT can also be mapped onto the
+(σ, τ ) model which, at the Ising transition, essentially reduces to a single critical
+Ising model of the order field σ(x) and disorder field µ(x) in the infrared (IR)
+limit. Our aim here is to find out how the operators of the DSG model, originally
+defined in the vicinity of the UV fixed point, “transmute” when going from the
+UV limit to the IR limit.
+5.1.1
+
+Current operators
+
+We start with holomorphic, or current, operators that are made up of additive
+(analytic and anti-analytic) chiral parts. Of physical interest are the vector and
+axial current densities which, in terms of the bosonic field of the DSG model, are
+defined as
+1
+J(x) = JR (x) + JL (x) = √ ∂x Φ(x),
+π
+1
+1
+J5 (x) = JR (x) − JL (x) = − √ ∂x Θ(x) = − √ ∂t Φ(x).
+π
+π
+
+(40)
+(41)
+
+In physical situations, J(x) determines the smooth part of the charge or spin
+density [J(x) ≡ ρ(x)], while J5 (x) describes the corresponding charge or spin
+
+current [J5 (x) ≡ j(x)]. As follows from (114), (115), these can be expressed in
+terms of the Majorana fields ξ 1 and ξ 2 :
+
+J(x) = i [ξ1R (x)ξ2R (x) + ξ1L (x)ξ2L (x)] ,
+
+(42)
+
+J5 (x) = i [ξ1R (x)ξ2R (x) − ξ1L (x)ξ2L (x)] .
+
+(43)
+
+Making the inverse chiral rotation from (ξRa , ξLa ) to (η a , ζ a ), (a = 1, 2), we can
+define a local lattice operator
+Jn =
+
+i
+(η1n η2n + ζ1n ζ2n ) ,
+2
+
+(44)
+
+which reproduces (42) in the continuum limit. Using the inverse Jordan-Wigner
+relations (19) and transformations (33),(34), we obtain:
+
+
+i
+z
+z
+µz1,n+1/2 µz2,n+1/2 − µz1,n−1/2 µz2,n−1/2
+σ2n
+Jn = − κ1 κ2 σ1n
+2
+
+1 z z
+=
+τn µn+1/2 − µzn−1/2
+2
+
+(45)
+
+(here we have implemented our Klein factor convention (30)). Using the fact
+that the τ -field is noncritical and has a nonzero expectation value, we pass to
+15
+
+the continuum limit and thus find the expression for the current density at the
+infrared fixed point:
+J(x) → C∂x µ(x),
+
+(46)
+
+where C ∼ hτ z i is a nonuniversal number, and µ(x) is the Ising disorder field at
+the criticality. Thus, the UV-IR transmutation of the current density is given by
+
+
+
+J(x) = 
+
+√1 ∂x Φ(x)
+π
+
+UV,
+
+C∂x µ(x)
+
+IR.
+
+(47)
+
+Turning to the axial current J5 , we notice that the latter is related to the
+vector current J via the continuity equation:
+∂t J(x, t) + ∂x J5 (x, t) = 0.
+
+(48)
+
+As a result, the IR form of J5 (x) can be immediately recovered. Indeed, the
+Ising disorder field µ is a scalar field (with zero conformal spin). This means that
+holomorphic properties of the vector and axial current operators are lost at the
+IR fixed point. Then the result (46), together with the requirements of Lorentz
+invariance and continuity equation (48), leads to the correspondence
+J5 (x) =
+
+
+
+
+
+− √1π ∂t Φ(x) UV,
+
+−C∂t µ(x)
+
+IR,
+
+(49)
+
+with the same prefactor C as in Eq.(47), provided that the velocity is set v = 1.
+As an important consistency check, we still need to explicitly determine the
+lattice version of the current operator. One might naïvely conclude that, since
+under the inverse chiral rotation (12) the axial current density transforms to
+J5 (x) = −i [ζ1 (x)η2 (x) + η1 (x)ζ2 (x)] ,
+
+(50)
+
+it would be sufficient to replace the r.h.s. of (50) by its local (single-site) counterpart which one might identify with Jn5 . This route is misleading because, in
+the lattice formulation, the particle current is always defined on a link (n, n + 1)
+and, therefore, should be determined from the equation of motion
+i∂t Jn = [Jn , HDQAT ] .
+
+(51)
+
+which, in the continuum limit, is supposed to reduce to Eq.(48). It can easily
+be checked that the (density) operator, Jn , commutes with all the interaction
+terms in the lattice DQAT Hamiltonian (17), since all of them, including the hterm, are made up of the density operators. Therefore the above commutator is
+16
+
+only contributed to by the Majorana kinetic energy term in (17) and so is easily
+computed:
+i∂t Jn = Qn,n+1 − Qn−1,n ,
+
+(52)
+
+where
+
+J
+Qn,n+1 = − (η1,n+1 ζ2n + ζ1n η2,n+1 ) .
+4
+In terms of the lattice spins this reads
+J
+5
+z
+Jn,n+1
+= − (τnz + τn+1
+)µyn+1/2 .
+2
+
+(53)
+
+(54)
+
+In the IR continuum limit this becomes ∼ ∂t µ since ∂t µ ∼ i[µz , HQI ] ∼ µy , as
+immediately follows from the dual version of the QI spin chain Hamiltonian. Thus
+we arrive at the IR representation of the axial current given by (49).
+5.1.2
+
+Vertex operators
+
+The analysis of the vertex operators
+Vβ [Φ] = eiβΦ
+is in fact simpler than that of the holomorphic operators. There are two cases of
+√
+√
+physical interest: β = ± π and β = ± 4π.
+From (24), (30) and (32) it follows that
+sin
+
+√
+
+πΦ ∼ σ1 σ2 ∼ τ ∼ I,
+
+(55)
+
+(I being the identity operator), as the τ model is always off-critical. This is a
+reasonable result since the above operator is directly present in the DSG Hamiltonian (3). However, as we mentioned in the previous Section, the operator
+√
+sin πΦ corresponds to the departure from the criticality of the σ-model. So,
+this operator, though having a finite average value, should also possess an extra
+term which, at the critical point, represents a strongly fluctuating field (with a
+power-law decaying correlation function). A more correct version of the formula
+(55) is therefore as follows:
+sin
+
+√
+
+πΦ ∼ I + ε,
+
+(56)
+
+where ε is the energy density (or a Majorana mass bilinear) operator. This
+follows from the first observation (i) at the end of Section 4, which states that
+moving h from its critical value results in the stress-energy tensor renormalisation
+17
+
+Table 1: UV-IR transmutation of DSG-operators
+UV limit
+IR limit
+
+∂x Φ V√π + V−√π
+∂x µ
+
+µ
+
+V√π − V−√π , V±√4π
+I+ǫ
+
+and, more importantly, in the appearance of the Majorana mass, i.e. the Ising
+energy-density operator.
+Furthermore, (23) and the lattice fusion rule (34) give
+√
+cos πΦ ∼ µ1 µ2 ∼ µ.
+Thus, the operator cos
+
+√
+
+(57)
+
+πΦ is the most divergent operator of the DSG model,
+
+with a nonzero expectation value at h < hc and vanishing upon approaching the
+Ising critical point as
+hµi ∼ (hc − h)1/8 .
+(58)
+√
+Finally, the behaviour of β = ± 4π operators is determined in full analogy
+
+to the above discussion:
+
+V±√4π [Φ] ∼ I + ǫ.
+
+(59)
+
+Our results on UV-IR DSG operators transmutations are summarised in table
+I.
+
+5.2
+
+Correlation functions
+
+Having identified the operators at the IR fixed point, we can now determine
+leading asymptotics of the correlation functions. Most of the operators of physical
+interest can be expressed in terms of the Ising disorder operator µ at the Ising
+transition point and in its close vicinity.
+For physical applications of the DSG model, it is important to investigate the
+dynamical susceptibility defined as the frequency-momentum Fourier transform
+of the retarded auto-correlation function of the Ising disorder parameter: function
+D
+
+(R)
+
+(ω, p) = −i
+
+Z
+
+∞
+
+−∞
+
+dx
+
+Z
+
+0
+
+∞
+
+dte−ipx+iωt h[µ(x, t), µ(0, 0)]i.
+
+(60)
+
+It is known that, at criticality, D(r) = 1/r 1/4 where r = (τ, x) (τ = it, and v
+is set to 1). Furthermore, away from criticality, in the ordered phase, D(r) =
+
+18
+
+(A1 /π)K0 (mr) where A1 is related to the Glaisher constant. The crossover between these two regimes, r ≪ ξ = 1/m and r > ξ, respectively, is complicated and
+is described in terms of the Painlevé theory [10]. If, following [10], we introduce,
+ζ=r
+
+d ln D
+,
+dr
+
+then the function ζ can be shown to satisfy
+(rζ ′′)2 = 4(rζ ′ − ζ 2 )(rζ ′ − ζ) + (ζ ′ )2 ,
+which is related to Painlevé V equation and can, in turn, be shown to produce the
+correct conformal and massive limits. As the exact expressions are uncomfortable
+for calculations, we shall estimate the Fourier transforms from the asymptotes of
+the correlation function D(r). Therefore, first we summarise known results on
+the limiting behaviour of this function.
+At criticality
+D0 (r) =
+
+1
+r 1/4
+
+.
+
+(61)
+
+It is understood that this asymptotics is still valid away from criticality in the
+region r ≪ ξ.
+
+In the ordered phase
+D> (r) =
+
+A1
+K0 (mr),
+π
+
+(62)
+
+the large-r limit of which is
+√
+A1 π 1 −mr
+D> (r) = √
+e
+.
+2m r 1/2
+
+(63)
+
+In the disordered phase, thanks to the work by McCoy, Wu, Tracy, and collaborators [10], we know that
+i
+A1 n 2 2 h 2
+2
+K
+(mr)
+−
+K
+(mr)
+− mrK0 (mr)K1 (mr)
+m
+r
+1
+0
+π2
+
+1 2
++
+K0 (mr) ,
+2
+
+D< (r) =
+
+(64)
+
+which is understood to be the connected part of the correlator (i.e. without the
+constant piece). The large-r asymptotics of this function can be obtained from
+the relevant expansions of the modified Bessel functions quoted e.g. in [9]:
+D< (r) =
+
+A1 1 −2mr
+e
+.
+8πm2 r 2
+
+(65)
+
+The retarded function (60) can be found by calculating the Fourier transforms
+of the above asymptotic forms with a subsequent analytic continuation to real
+frequencies. This procedure is outlined in Appendix D. The results are as follows.
+19
+
+• Criticality. Using (186) and (182), one obtains
+(R)
+D0 (ω, p)
+
+Γ(7/8) θ(p2 − ω 2 ) + cos(7π/8)θ(ω 2 − p2 )
+= 2 π
+Γ(1/8)
+|ω 2 − p2 |7/8
+)
+2i sin(7π/8)θ(ω 2 − p2 )
+.
+(66)
+−
+|ω 2 − p2 |7/8
+1/4
+
+(
+
+• Ordered Phase. Here we have a particle pole (181):
+(R)
+
+D> (ω, p) =
+
+πA1
+iπ 2 A1
+−
+[δ(ω + ǫp ) + δ(ω − ǫp )] .
+−ω 2 + ǫ2p
+2ǫp
+
+(67)
+
+• Disordered phase. Specialising to α = −1/2 in (186) we have:
+f (ω) =
+
+q
+
+q
+
+|ω 2 − ǫ2p |θ(ǫ2p − ω 2 ) + 2i |ω 2 − ǫ2p |θ(ω 2 − ǫ2p ).
+
+(68)
+
+Therefore, as long as ω 2 < p2 + 4m2 , the argument of the log-function in
+(185) is real and positive, so the correlation function remains real without
+dissipation. Above the two-particle threshold (ω 2 > p2 + 4m2 ), the correlation function has a branch cut and the dissipative part will appear as
+follows:
+(R)
+
+D< (ω, p) =
+
+
+
+
+
+
+A1  
+4m
+ θ(p2 + 4m2 − ω 2 )
+q
+ln
+2
+2
+2
+8m2 
+| − ω + p + 4m | + 2m
+)
+√ 2
+ω − p2 − 4m2
+2
+2
+2
+θ(ω − p − 4m ) .
+−i Arctg
+m
+
+(69)
+
+The excitations are therefore incoherent in this regime.
+
+6
+
+Dimerized Heisenberg chain in a staggered
+magnetic field
+
+The DSG model exhibiting a nontrivial flow towards Ising criticality can be realized as an effective continuum theory for a number of quantum 1D models
+of strongly correlated electrons, in particular quantum spin chains and ladders.
+In the context of spin systems, an effective DSG model can emerge within the
+
+20
+
+Abelian bosonization scheme when staggered fields breaking translational invariance, such as an explicit dimerization (bond alternation)[3] or a staggered magnetic field, are added to an originally translationally invariant model with a gaped
+ground state1 .
+Perhaps the simplest example of this kind is given by the spin-1/2 Heisenberg
+chain with nearest-neighbour (J1 ) and next-nearest-neighbour (J2 ) antiferromagnetic exchange interactions
+HJ1 −J2 =
+
+X
+n
+
+(J1 Sn · Sn+1 + J2 Sn · Sn+2 )
+
+(70)
+
+This model has been extensively studied during past years. If frustrating
+interaction J2 is small enough, the model maintains the critical properties of the
+unfrustrated Heisenberg chain (J2 = 0). At J2 ≥ J2c ≃ 0.24J1, frustration gets
+relevant and drives the model to a massive phase characterised by spontaneously
+
+broken parity[13, 14]. The ground state is dimerized and doubly degenerate,
+and there exist massive elementary excitations - topological Z2 kinks carrying
+the spin 1/2. At a special (Majumdar–Ghosh) point, J2 = 0.5J1 , the picture
+is particularly simple because the two Z2 -degenerate ground states are given by
+matrix products of singlet dimers formed either on the lattice links < 2n, 2n+1 >
+or < 2n − 1, 2n >.
+
+Under assumption that J1 ≫ J2 , the continuum limit of the J1 − J2 model
+
+can be considered, and the resulting quantum field theory is that of a critical
+
+SU(2)1 Wess–Zumino–Novikov–Witten (WZNW) model perturbed a marginal
+current-current interaction[14]:
+2π
+(: JR · JR : + : JL · JL :) + γJR · JL ,
+(71)
+3
+where γ ∼ J2c − J2 > 0. At γ < 0, the perturbation is marginally irrelevant.
+HJ1 −J2 =
+
+However, at γ > 0 the effective interaction flows to strong coupling, and the
+1
+
+While alternation of the nearest-neighbour exchange constants can originate from the spin-
+
+phonon coupling, the case of a nonuniform magnetic field with a period 2a0 (a0 being the
+lattice constant) used to be regarded as unrealistic, not achievable in experimental conditions.
+Fortunately, the status of the staggered magnetic field has recently changed from exotic to
+legitimate. It has been shown that, in some quasi-1D antiferromagnetic compounds, such
+field can be realized as an intrinsic one. An effective staggered field can originate from the
+Neel ordering of one magnetic sublattice and being experienced by loosely connected magnetic
+chains which form another sublattice and remain disordered down to very low temperatures
+[11]. A sign-alternating component of the magnetic field can be also effectively generated due
+to a staggered anisotropy of the gyromagnetic tensor, as it is the case for the Copper-Benzoate
+organic molecule [12].
+
+21
+
+system ends up in a spontaneously dimerized phase with a dynamically generated
+spectral gap[14]: mdim ∼ Λ exp(−2π/γ), where Λ ∼ J1 is the UV cutoff.
+
+Using Abelian bosonization, we can rewrite (71) as a sine-Gordon (SG) model:
+HJ1 −J2 =
+
+i
+√
+1h
+γ
+γ
+8πΦ.
+(∂x Φ)2 + (∂x Θ)2 +
+∂x ΦR ∂x ΦL −
+cos
+2
+2π
+(2πα)2
+
+(72)
+
+The “hidden” SU(2) symmetry of this bosonic Hamiltonian is encoded in the
+robust structure of the last two terms in Eq.(72), parametrised by a single coupling constant γ. This fact enforces the SG model (72) to occur either on the
+weak-coupling SU(2) separatrix of the Kosterliz-Thouless phase diagram (γ < 0),
+or on the strong-coupling SU(2) separatrix (γ > 0). In the latter case, quantum
+solitons with the mass mdim and topological charge Q = 1 are identified with the
+Z2 dimerization kinks carrying the spin S = Q/2 = 1/2. In the remainder of this
+section we will be dealing with the massive, spontaneously dimerized phase.
+Consider the following deformation of the model: H = HJ1 −J2 + H ′ , where
+H′ =
+
+3
+X
+
+λa T r (τa ĝ) .
+
+(73)
+
+a=0
+
+Here ĝ is the 2 × 2 WZNW matrix field with conformal dimensions (1/4, 1/4),
+and τa are the Pauli matrices including the unit matrix τ0 = I. The scalar and
+vector parts of ĝ,
+
+
+√
+√
+√
+ns ∼ T r (~τ ĝ) ∼ cos 2πΘ, sin 2πΘ, − sin 2πΦ ,
+√
+ǫs ∼ T r (ĝ) ∼ cos 2πΦ,
+
+(74)
+(75)
+
+constitute the staggered magnetisation and dimerization field of the S=1/2 Heisenberg chain. Representing
+H ′ = λǫs + hs · ns ,
+
+(76)
+
+let us consider the two terms in (76) separately.
+The role of weak explicit (spin-Peierls) dimerization in the spontaneously
+dimerized J1 −J2 spin-1/2 chain has already been addressed by Affleck [3]. The ef-
+
+fective double-frequency-sine-Gordon potential appearing in this case is different
+from the one studied in this paper (c.f. Eq.(1)):
+Udimer = −
+
+√
+√
+γ
+cos
+8πΦ
++
+λ
+cos
+2πΦ.
+(2πα)2
+
+(77)
+
+The λ-term in (77) removes the degeneracy between the neighbouring minima of
+√
+the unperturbed potential − cos 8πΦ (i.e. between the two degenerate dimerized
+22
+
+ground states) and thus leads to confinement of the solitons. The main physical
+effect is the spinon-magnon transmutation: deconfined spinons of the frustrated
+Heisenberg chain, carrying the spin S = 1/2, form bound states with S = 0 and
+S = 1, the latter representing coherent triplet magnon excitations.
+Let us concentrate on the case of the staggered magnetic field, hs :
+H ′ = hs · ns .
+
+(78)
+
+Choosing hs = hs ẑ, we arrive at a bosonic model
+√
+γ
+γ
+H = H0 [Φ] +
+∂x ΦR ∂x ΦL −
+cos
+8πΦ
+2π
+(2πα)2
+√
+− hs sin 2πΦ,
+
+(79)
+
+in which we recognise the DSG model with the structure (1). From the analysis
+of the preceding section we conclude that the spontaneously dimerized chain in
+a staggered magnetic field has two phases separated by a quantum critical point
+at hs = h∗s . At hs < h∗s a “mixed” phase is realized, with coexisting dimerization
+hǫs i =
+6 0 and staggered magnetization hns i =
+6 0. Notice that, as opposed to the
+
+case of uniform magnetic field that couples to the (conserved) total magnetisation,
+
+the dependence ns = ns (hs ) shows no threshold in hs . Dimerization vanishes at
+the Ising critical point hs = h∗s and remains zero in the “pure Neel” phase,
+hs > h∗s . The critical field h∗s can be estimated by comparing the dimerization
+gap mdim with the gap that would open up at γ ≤ 0: mh ∼ h2/3
+s . So the critical
+staggered field is exponentially small: h∗s ∼ (mdim )3/2 .
+
+Since the spin SU(2) symmetry is broken by the (staggered) magnetic field,
+
+the total spin is not conserved, but the spin projection S z is. The latter circumstance allows one to identify the spin S z of elementary excitations as the
+topological quantum number of the kinks interpolating between the nearest degenerate minima of the potential U(Φ) in (79). According to the structure of
+
+U(Φ), there will be “short” and “long” kinks, carrying the spin S±z =
+
+1
+2
+
+∓ δ,
+
+where δ = δ(hs ) smoothly increases from δ = 0 at hs = 0 to δ = 1/2 at hs ≥ h∗s .
+Therefore, in the mixed phase, the original massive S = 1/2 spinon splits into two
+
+topological excitations carrying fractional spins S±z . These spins become S z = 1
+
+and S z = 0 at the Ising transition, and it is just the singlet kink which loses
+
+its topological charge and becomes massless at hs = h∗s . The existence of the
+fractional-spin excitations in the mixed phase (hs < h∗s ) is nothing but the spin
+version of the charge fractionization of topological excitations found earlier in 1D
+23
+
+Table 2: UV-IR transmutation of operators
+field
+
+UV
+z
+
+uniform spin density
+
+J ∼ ∂x Φ
+
+uniform spin current
+
+IR
+z
+
+J ∼ ∂x µ
+
+J ∼ ∂t Φ
+J ∼ ∂t µ
+√
+dimerization
+ǫs ∼ cos 2πΦ
+ǫs ∼ µ
+√
+staggered magnetisation nz ∼ sin 2πΦ nz ∼ I + ε
+commensurate Peierls insulators with broken charge conjugation symmetry (e.g.
+cis-polyacetylene)[15], and also in a recent study of a 1D Mott insulator with
+alternating single-site energy [16].
+To estimate the behaviour of physical quantities at the transition, let us consider an anisotropic (γk , γ⊥ ) version of the model in which
+√
+γk
+γ⊥
+H = H0 [Φ] +
+∂x ΦR ∂x ΦL −
+cos 8πΦ
+2
+2π
+(2πα)
+√
+− hs sin 2πΦ,
+
+(80)
+
+The γk -term in (80) can be eliminated by an appropriate rescaling of the field,
+√
+Φ → KΦ:
+√
+√
+γ⊥
+cos
+8πKΦ
++
+h
+sin
+2πKΦ,
+s
+(2πα)2
+
+H → H0 [Φ] −
+
+(81)
+
+As already mentioned, universality arguments lead to the conclusion that the
+anisotropic model (81) also incorporates the Ising criticality at some value of hs .
+Choosing K(γk ) = 1/2, we reduce the perturbation to the form (3)
+H′ = −
+
+√
+√
+γ⊥
+cos 4πΦ + hs sin πΦ,
+2
+(2πα)
+
+(82)
+
+discussed in detail in previous sections. Using the (σ-τ ) representation, we derive
+the relations in Table 1 describing the UV-IR transmutation of the physical fields.
+We have the following correspondence:
+hs < h∗s :
+hs > h∗s :
+
+disordered phase : hµi =
+6 0;
+ordered phase : hµi = 0.
+
+We see that dimerization is finite at hs < h∗s and vanishes as
+hǫs i ∼ (h∗s − hs )1/8 ,
+24
+
+on approaching the critical point. The staggered magnetisation, on the other
+hand, is always finite in both phases. Its behaviour at the transition is determined
+by the subleading correction to the identity operator (see Table 1):
+hhnz ii ≡ hnz ihs − hnz ih∗s
+∼ (hs − h∗s ) ln
+
+h∗s
+.
+|hs − h∗s |
+
+(83)
+
+The logarithmic divergence of the staggered magnetic susceptibility at the transition is similar to that of the specific heat of the Ising model:
+χstag ∼ ln
+
+h∗s
+.
+|hs − h∗s |
+
+(84)
+
+Next we consider the dynamical magnetic susceptibility. In analogy to (60),
+it is defined by
+χ(ω, p) = −i
+
+Z
+
+∞
+
+−∞
+
+dx
+
+Z
+
+∞
+
+0
+
+dte−ipx+iωt h[S z (x, t), S z (0, 0)]i
+
+(85)
+
+Using the continuum limit decomposition of the spin operators and the above
+glossary, we conclude that while the uniform magnetic susceptibility is readily
+given by
+χ(ω, q ∼ 0) ∼ q 2 D (R) (ω, q)
+
+(86)
+
+(the function D (R) has been extensively discussed in Section (5)), the staggered
+susceptibility is in turn related to the correlation function of the Ising energydensity operator. The latter object is a Majorana bilinear
+ε(x) ∼ ξR (x)ξL (x).
+Therefore, calculating the staggered magnetic susceptibility reduces to a simple task of computing the polarisation loop diagram for free, massive Majorana
+fermions. The result is
+ω2
+χ(ω, q = π) ∼ ln 1 −
+4m2
+
+!
+
+s
+
+4m2 − ω 2
+ω2
+−2
+arctg
+,
+ω2
+4m2 − ω 2
+!
+
+(87)
+
+inside the gap (|ω| < 2m) and
+
+
+s
+
+
+
+!
+!
+
+
+ω 2 − 4m2
+ω2
+ω2
+π
++
+2
+−
+1
+−
+isignω
+arctg
+, (88)
+χ(ω, π) ∼ ln
+
+4m2
+ω2
+ω 2 − 4m2 
+
+for |ω| > 2m.
+
+25
+
+We notice that for h > hs it obviously is the staggered field operator (β 2 = 2π)
+which alone dictates the physics of our effective DSG model (not only is it the most
+relevant operator, but it also has a large amplitude). It is therefore instructive
+to compare the results for the dynamical magnetic susceptibility of the DSG
+model we have found via Ising-type mappings with those for the SG model with
+a β 2 = 2π operator only, which were obtained in the paper [17] by means of the
+form-factor technique. As for h > hs we enter the ordered phase (hµi=0), the
+uniform susceptibility (86,67) is of a coherent nature, very much in agreement
+with [17] (‘magnon’ contribution). The staggered susceptibility (87,88), on the
+other hand, is incoherent in excellent agreement with the kink-antikink continuum
+observed in [17] (the breather contribution is missed in our approach; it might
+be recovered as a bound state of Majorana fermions, but we shall not push our
+analysis beyond this point). No analogous comparison can be made for h < hs
+(no form-factor calculations are, to our knowledge, currently available for the
+β 2 = 8π SG model, and, even if they were, a comparison would have been of
+dubious validity, as the addition of the β 2 = 2π-operator qualitatively changes
+the spectrum from the start).
+
+7
+
+Ising transition in the 1D Hubbard model with
+alternating chemical potential
+
+The DSG model finds a number of interesting applications in the theory of 1D
+strongly correlated electron systems. In this section we shall consider a particular example of this kind which has been recently discussed in Ref.[16] – a 1D
+repulsive Hubbard model at 1/2-filling with a sign-alternating single-site energy
+(i.e. staggered chemical potential). The Hamiltonian of this model reads:
+H = −t
+
+X
+i,σ
+
+
+
+c†iσ ci+1,σ + h.c. + U
+
+X
+
+ni↑ ni↓ + ∆
+
+i
+
+X
+
+(−1)i niσ ,
+
+(89)
+
+i,σ
+
+where ciσ is the annihilation operator of an electron with the spin projection σ,
+residing at the lattice site i, and niσ = c†iσ ciσ . The model (89) was originally
+proposed in the context of quasi-1D organic materials [18] and is also believed to
+be prototypical for ferroelectric perovskites [19].
+In spite of its apparent simplicity, the model (89) reveals nontrivial physics. At
+U = 0 it describes a band insulator (BI) with a spectral gap for all excitations. At
+∆ ≪ t, the low-energy spectrum of the BI is that of free massive Dirac fermions.
+26
+
+When the Hubbard interaction is switched on, the finite fermionic mass ∆ makes
+the theory free of infrared divergences, so that the BI phase remains stable for
+small enough U. On the other hand, at ∆ = 0, the Hamiltonian (89) coincides
+with the standard (translationally invariant) Hubbard model which is exactly
+solvable [20] and is well known to describe a Mott insulator (MI) at any positive
+value of U, if the electron concentration n = (1/N)
+
+P
+
+i,σ
+
+niσ = 1 (the case of a
+
+1/2-filled energy band). The MI state has a finite mass gap mc in the charge
+sector induced by commensurability of the electron density with the underlying
+lattice. At energies well below mc , local charge fluctuations are suppressed, and
+the low-energy spin dynamics of the model coincides with that of the spin-1/2
+Heisenberg antiferromagnetic chain, the latter possessing a gapless spectrum. At
+a finite U, the charge-gaped MI phase is stable against site alternation, provided
+that ∆ is small enough [18].
+Thus, the issue of interest is the nature of the crossover between the BI and MI
+regimes which is expected to occur in the strong-coupling region where the singleparticle mass gap ∆ becomes comparable with the MI charge gap mc . Starting
+out from the MI phase and decreasing U at a fixed ∆, one has to identify the
+mechanism for the mass generation in the spin sector. On the other hand, it is
+clear that the charge degrees of freedom should also be involved in the BI-MI
+crossover. Indeed, dividing the lattice into two sublattices, A and B, with the
+single-site electron energies ∆ and −∆, respectively, and considering electronic
+
+states of a diatomic (AB) unit cell in the limit t ≪ U, ∆, one finds a region U ∼ 2∆
+
+where two charge configurations, A1 B 1 and A0 B 2 , become almost degenerate.
+This is the so-called mixed-valence regime where those excitations responsible
+
+for the charge redistribution among the two unit-cell configurations become soft.
+This means that, apart from the spin transition, a charge transition associated
+with vanishing of the charge gap at some value of U is also expected to occur.
+In Ref.[16] we have shown that the MI-to-BI crossover, taking place on decreasing U at a fixed ∆, is realized as a sequence of two continuous transitions:
+a Berezinskii-Kosterlitz-Thouless (BKT) transition at U = Uc2 where a spin gap
+is dynamically generated, and an Ising critical point at U = Uc1 < Uc2 where
+the charge gap vanishes. Assuming that U, ∆ ≪ t, below we shall consider the
+
+effective low-energy field theory for the lattice model (89). We shall then briefly
+
+comment on the spin transition and mostly concentrate on the Ising transition in
+the charge sector of the model which will be described in terms of a DSG model.
+The standard bosonization procedure (see e.g. [9]) allows one to represent the
+27
+
+Hamiltonian density as
+Heff = Hc + Hs + Hcs .
+Here the spin sector is described by the SU(2)1 WZNW model with a marginally
+irrelevant current-current perturbation originating from the electron backscattering processes (g ∼ Ua0 > 0):
+Hs =
+
+2πvs
+(: JR · JR : + : JL · JL :) − 2gJR · JL
+3
+
+(90)
+
+where JR,L are chiral components of the vector spin current satisfying the SU1 (2)
+Kac-Moody algebra. This Hamiltonian accounts for the universal properties of
+the spin-1/2 antiferromagnetic Heisenberg chain in the scaling limit [21]. The
+charge degrees of freedom are represented by a sine-Gordon model for a scalar
+field Φc :
+
+q
+i
+vc h 2
+m0
+Πc + (∂x Φc )2 −
+cos 8πKc Φc
+(91)
+2
+πα
+where m0 ∼ g. The cosine perturbation is caused by the electron Umklapp pro-
+
+Hc =
+
+cesses (see e.g.[9]). For a wide class of Hamiltonians with finite-range interactions
+(of which the Hubbard model is a member) the parameter Kc < 1. This means
+
+that the model (91) is in a strong-coupling regime, and the dynamically generated
+mass determines the gap mc in the charge sector. The charge and spin sectors
+are coupled by the ∆-term:
+Hcs = −
+
+q
+2∆
+ǫs sin 2πKc Φc
+πα
+
+(92)
+
+where ǫs is the spin dimerization field of the S=1/2 Heisenberg chain, defined in
+(75).
+Let us assume that we are in the MI regime with a gaped charge sector. Since
+the charge field Φc is locked in one of degenerate minima of the periodic potential
+in (91),
+(Φc )m =
+
+s
+
+π
+m,
+2Kc
+
+m ∈ Z∞
+
+it follows immediately that, in the MI phase, the operator sin
+
+√
+
+2πKc Φc appearing
+
+in (92) does not represent a strongly fluctuating field; it is rather short-ranged
+at distances ξc ∼ vc /mc , and this explains the stability of the MI phase against a
+
+small ∆-perturbation. Assuming that the charge gap is nonzero, we integrate out
+the massive charge degrees of freedom to obtain the effective action in the spin
+sector. According to the unbroken SU(2) symmetry of the model, the effective
+Hamiltonian in the spin sector retains its form (90), but the current-current
+28
+
+coupling constant undergoes an additive renormalization. In the second order in
+∆ we obtain:
+g → geff = g − C (∆/mc )2 vc
+where C ∼ 1 is a nonuniversal numerical constant. The spin sector now resembles
+
+the J1 − J2 frustrated spin-1/2 chain (see section 5) with an effecive next-nearest-
+
+neighbour interaction J2 generated by the staggered chemical potential ∆. As
+long as geff > 0, the spin excitation spectrum remains gapless. However, decreasing U at a fixed ∆ (or increasing ∆ at a fixed U) eventually reverts the above
+inequality to geff < 0. In this case the current-current perturbation becomes
+marginally relevant, and a continuous (BKT) transition takes place to a spontaneously dimerized insulating (SDI) phase with broken (site) parity and a finite
+mass gap in the spin sector.
+Thus, the condition geff = 0 determines the spin transition point Uc2 . Using
+the exact result for the charge gap in the small-U Hubbard model[20],
+√
+mc ∼ Ute−2πt/U ,
+
+we find that
+
+"
+
+!#
+
+2πt
+ln ln(t/∆)
+Uc2 =
+1+O
+(93)
+ln (t/U)
+ln(t/∆)
+The dimerization order parameter that becomes nonzero at U < Uc2 is defined
+
+as
+D=
+
+X
+
+
+
+
+
+(−1)i c†iσ ci+1,σ + h.c.
+
+i,σ
+
+(94)
+
+and in the continuum limit its density is given by
+q
+
+D(x) ∼ cos 2πKc Φc (x)T rĝs (x)
+
+(95)
+
+It is instructive to compare the parity properties of the SDI and BI phases.
+For models defined on a 1D lattice, there are two parity transformations – the site
+parity (PS ) and link parity (PL ) [22]. The difference between PS and PL survives
+the continuum limit and shows up in two inequivalent parity transformations that
+keep the massless Dirac equation
+(∂t + σ3 ∂x ) ψ(x) = 0,
+invariant. These are
+
+
+
+
+
+R 
+ψ=
+L
+
+PS :
+
+ψ(x) → σ1 ψ(−x)
+
+(96)
+
+PL :
+
+ψ(x) → σ2 ψ(−x)
+
+(97)
+
+29
+
+Using bosonization rules for spin-1/2 Dirac fermions (see e.g. [9]), one easily finds
+that both PS and PL lead to
+Φc (x) → −Φc (−x),
+whereas the WZNW field ĝs transforms differently:
+PS :
+
+ĝs (x) → −ĝs (−x)
+
+(98)
+
+PL :
+
+ĝs (x) → ĝs (−x)
+
+(99)
+
+Comparing (92) and (95), we see that the ∆-perturbation breaks PL but is invariant under PS (in fact, PS is the symmetry of the Hamiltonian (89)), while the
+dimerization operator D breaks PS but preserves PL . This is easily understood
+by noticing that these two terms have the structure of two different fermionic
+mass bilinears, ψ † σ1 ψ and ψ † σ2 ψ, with opposite transformation properties with
+respect to PS and PL . Thus, the parity properties of the SDI and BI phases are
+different, and this is a strong indication that the passage from SDI to BI should
+be associated with a significant redistribution of the charge density (charge transition).
+In what follows, we will not be dealing with estimation of the transition point
+Uc1 . Referring the reader to Ref.[16] where the mechanism of the charge transition
+is discussed in the context of excitonic instability of the BI phase, here we simply
+claim that for the model (89), within the leading logarithmic accuracy, Uc2 /Uc1 −
+
+1 = const/ ln (t/∆), where the positive constant is of the order of unity. Let us
+
+instead focus on a nonperturbative description of the charge transition to the BI
+phase. Suppose we are in the SDI phase with both charge and spin sectors gaped.
+Adopting an Abelian bosonic representation for the SU(2)1 WZNW model with
+a marginally relevant perturbation,
+i
+vs h 2
+Πs + (∂x Φs )2
+2
+√
+λ
+λ
+∂x ΦsR ∂x ΦsL +
+cos
+−
+8πΦs ,
+π
+2(πα)2
+
+Hs =
+
+(100)
+
+we can regard the effective Hamiltonian given by (100), (91) and (92) as a phenomenological Landau-Ginzburg energy functional, in the sense that all the couplings (m0 , Kc , λ, ∆) and velocities (vs , vc ) are effective ones obtained by integrating out high-energy degrees of freedom. The effective potential is given by:
+q
+q
+√
+√
+U(Φc , Φs ) = −µc cos 8πKc Φc −µs cos 8πΦs −δ sin 2πKc Φc cos 2πΦs (101)
+
+30
+
+with
+µc =
+
+m0
+> 0,
+πα
+
+µs =
+
+λ
+> 0,
+2(πα)2
+
+δ=
+
+∆
+.
+πα
+
+The robust ingredients of the potential (101) are the vertex operators and the
+signs of the corresponding amplitudes. It can be shown that, as long as the
+parameter Kc is confined within the interval 1/2 < Kc < 1, this potential, with all
+terms being strongly relevant perturbations, is indeed the most representative one
+for the model under discussion because no new relevant operators are generated
+in the course of renormalization. This is no longer true if Kc < 1/2, the regime
+which can be realized for an extended model with extra finite-range interactions,
+e.g. V
+
+P
+
+i
+
+ni ni+1 . In this case, new relevant vertex operators will be generated
+
+upon renormalization, and the continuous Ising transition in the charge sector
+can transform to a first-order one. We will comment on that in the end of this
+section.
+A simple analysis of the saddle points of the potential U(εc , εs )[16] shows that
+q
+
+the location of its minima in the spin sector, εs =
+
+π/2n, and hence the spin
+
+quantum numbers of the topological excitations, are the same as in the BI phase
+(U < Uc1 ). So the spin part of the spectrum in the SDI phase smoothly transforms
+to that of the BI phase. Therefore, being interested in the redistribution of the
+√
+charge degrees of freedom in the vicinity of Uc1 , in (101) we can replace cos 2πΦs
+√
+by its vacuum expectation value, hcos 2πΦs i = ±c0 . The two signs here reflect
+
+the Z2 degeneracy of the dimerized ground state (spontaneously broken site parity; see Eq. (98)). Thus, the Hamiltonian of effective model describing the charge
+degrees of freedom can be represented in the following 2×2 matrix form:
+Hc;eff
+
+
+
+H (+)
+= c
+0
+
+0
+Hc(−)
+
+
+
+
+(102)
+
+where
+i
+vc h
+(∂x Φc )2 + (∂x Θc )2
+2
+q
+q
+− µc cos 8πKc Φc ∓ h sin 2πKc Φc
+
+Hc(±) =
+
+(103)
+
+(here h = δc0 ). Notice that under PS Hc(+) ↔ Hc(−) .
+
+We have arrived at the matrix version of DSG model similar to (28), (29).
+
+To make contact with the DQAT model discussed in detail in sections 2 and 3,
+we shall consider Hc;eff in the vicinity of the point Kc = 1/2. Setting Kc =
+
+31
+
+1/2 (1 + γ0 ) and rescaling the fields
+Φc = √
+
+1
+Φ,
+2Kc
+
+Θc =
+
+q
+
+2Kc Θ
+
+transforms Hc(±) in (103) to a form similar to H± of Eq.(29).
+
+With this correspondence and all the results of the previous sections, we are
+
+now able to describe in detail the Ising transition in the charge sector. As already
+explained in section 2.2, this can be done by considering only the Hamiltonian
+Hc(+) .
+When studying the physical properties of our model (89) at the charge transition point, it is important to remember that the disordered (h < hc ) and ordered
+(h > hc ) phases of the effective Ising model correspond to the SDI and BI phases
+of the electronic model (89). First we consider the dimerization operator (95):
+q
+√
+D ∼ cos 2πKc Φc cos 2πΦs .
+√
+With the spin field Φs locked in the SDI phase, hcos 2πΦs i = +c0 and Kc = 1/2,
+this transforms to the charge polarisation field
+
+√
+D ∼ cos πΦc .
+In full agreement with the physical picture, from (57) it follows that the operator
+D, being the order parameter of the SDI phase, is the most strongly fluctuating
+
+field at the Ising trasntion:
+
+D∼µ
+
+(104)
+
+Its average value is nonzero in the SDI phase and vanishes as hDi ∼ (hc −h)1/8 on
+
+approaching the charge transition point (remaining zero in the whole BI phase).
+
+Using (55), we find that the average value of the ∆-perturbation, which, at
+Kc = 1/2, is given by O∆ ∼ sin πΦc is nonsingular across the transition and
+
+remains finite in both phases.
+
+The most interesting feature of the Ising transition is the UV-IR transmutation
+of the charge density ρc (x) and current Jc (x). At Kc = 1/2, the UV limit of our
+model represents a metallic state with central charge cU V = 2, described in terms
+of two massless Gaussian fields Φc and Φs . In this limit
+1
+ρc (x) = √ ∂x Φc (x),
+π
+
+1
+Jc (x) = − √ ∂x Θc (x).
+π
+
+According to (47),(49), at the Ising criticality (cIR = 1/2),
+ρc (x) = C∂x µ(x),
+
+Jc (x) = −C∂t µ(x)
+32
+
+(105)
+
+With µ(x) representing the charge polarization field, Eqs.(105) identify ρc and
+Jc as the bound charge and polarisation-current densities, respectively. Such an
+identification is typical for insulators rather than metals. This could have been
+anticipated from the fact that a true metallic state with charge-carrying gapless
+excitations cannot be described by a single massless real (Majorana) field.
+An insulating (semi-metallic) behaviour of the model at the quantum critical
+point, reached at the charge transition, becomes manifest when one estimates the
+optical conductivity:
+σ(ω) ∼ −ωℑmD (R) (ω, 0).
+
+(106)
+
+Here D (R) (ω, q) is the retarded correlation function defined in (60). Using the
+result (66), we find that, at zero temperature, σ(ω) displays a universal power-law
+behaviour:
+σ0 (ω) ∼ ω −3/4
+
+(107)
+
+Although the optical conductivity is divergent in the zero-frequency limit, there
+is no Drude-peak contribution (∼ δ(ω)) typical of true metals.
+It is also possible to estimate the optical conductivity at finite temperatures
+(keeping in mind the σ −τ representation of the DQAT model, one should assume
+
+that T is much smaller than the mass gap in the decoupled τ degrees of freedom).
+This can be done using conformal mapping from a cylinder [−∞ < x < ∞; 0 <
+
+τ < β] onto a complex plane C. Starting with the T = 0 asymptotics of the
+correlation function
+hµ(z1 , z̄1 )µ(z2 , z̄2 )i ∝
+
+1
+,
+|z1 − z2 |1/4
+
+and using the above mentioned conformal mapping, one obtains
+"
+
+πT
+hµ(x, τ )µ(0, 0)i ∝
+sinh πT (x − iτ ) sinh πT (x + iτ )
+
+#1/8
+
+.
+
+(108)
+
+It can be shown that[23]
+1
+
+ω
+− ℑmχ(ω) ∼ 7/4 ℑm ρ
+T
+4πT
+where
+ρ(x) =
+
+ 
+
+
+
+1
+16
+
+Γ 15
+16
+
+Γ
+
+2
+
+
+
+− ix
+
+.
+
+,
+
+(109)
+
+(110)
+
+− ix
+
+The final result for the temperature dependent optical conductivity at the Ising
+critical point is given by the following universal formula:
+σ(ω, T ) ∝
+
+ω
+T
+
+ 
+
+ℑm ρ
+7/4
+33
+
+ω
+4πT
+
+2
+
+(111)
+
+At finite ω ≪ T , the frequency dependence of σ(ω, T ) is classical but with a
+
+quantum, temperature dependent prefactor:
+
+σ(ω, T ) ∼ ω 2 /T 11/4 .
+At ω ∼ T , σ(ω, T ) reaches its maximum and then crosses over to its quantumcritical high-frequency (ω ≫ T ) asymptotics (107).
+
+8
+
+First order transition at β 2 < 2π
+
+Until now we assumed that 2π < β 2 < 8π, so that no other relevant operators were
+generated upon renormalization. Indeed, already at β 2 < 32π/9, the operator
+sin [(3β/2) Φ(x)], which is generated by the OPE of the two operators present in
+(1), becomes relevant. However, such an operator does not modify the qualitative
+behaviour of the model, as one can easily realize by a quasi-classical analysis. On
+the contrary, the operator cos (2βΦ(x)), which is also generated by the OPE, and
+which becomes relevant at β 2 < 2π, can modify the properties of the model in a
+relevant manner. Indeed, inspecting the quasi-classical potential
+!
+
+β
+U [Φ] = −g cos βΦ − λ sin
+Φ − V cos 2βΦ,
+2
+one finds that the Ising transition is turned by a sufficiently large V into a first
+order one.
+The capability of an apparently subleading operator to change a continuous
+transition to a first order one is indeed common to a variety of models. For
+instance, it is known that the critical line with non universal exponents separating
+the Charge Density Wave (CDW) and the Spin Density Wave (SDW) phases of the
+extended (U-V) Hubbard model, becomes a first order line at sufficiently strong
+coupling[24]. In fact, in the extended Hubbard model, the charge Luttinger liquid
+exponent Kc can be lower than 1/2, the point at which the second harmonics of
+the Umklapp scattering starts to be relevant. Therefore, at sufficiently strong
+interaction, it can indeed turn the CDW–SDW transition line into a first order
+one. A similar situation occurs with the charge transition in the electronic model,
+considered in section 7, when the latter is generalised to include a sufficiently
+strong nearest-neighbour repulsion [18].
+
+34
+
+9
+
+Conclusions
+
+In this paper, we have proposed a nonperturbative description of the Ising criticality in the DSG model (1). Using the equivalence between the DSG model and
+a deformed quantum Ashkin-Teller model, valid in the vicinity of the decoupling
+point, β 2 = 4π, we were able to identify the effective Ising degrees of freedom
+that asymptotically decouple from the rest of the spectrum and become critical
+in the infrared limit. This identification allowed us to describe the UV-IR “transmutation” of all physical fields of the DSG model and calculate the correlation
+functions at and close to the transition. We have also demonstrated the efficiency
+of our approach to describe Ising transitions in some physical realizations of the
+DSG model.
+We believe that our quantum-Ising-chain approach can be generalised to the
+case when the number of the constituent Ising models, coupled by the interaction
+h
+
+Q
+
+j
+
+σj , is larger than 2. Such situation can indeed be realized in certain SU(2)-
+
+invariant spin-ladders models which can be driven to criticality under the action
+of external staggered fields. In such systems, the quantum critical points may
+be not only of the Ising type but also correspond to SU(2)k WZNW universality
+class. Such examples will be considered elsewhere [2].
+
+Acknowledgements
+It is our pleasure to thank G. Mussardo for inspiring discussions. We are
+grateful A. Chubukov, D. Edwards, Yu Lu, N. Nagaosa, S. Sorella, E. Tosatti,
+A. M. Tsvelik, Y.-J. Wang and V. Yakovenko for their interest in the work and
+helpful comments. M.F. is partly supported by INFM, under project PRA HTSC.
+A. O. G. is supported the EPSRC of the United Kingdom. A. A. N. is partly
+supported by INTAS-Georgia grant 97-1340.
+
+35
+
+A
+
+Bosonization
+
+A.1
+
+Bosonization of Fermi fields, currents and mass bilinears
+
+We build up a Dirac field out of two Majorana fields, ξ1 and ξ2 , and bosonize it:
+
+
+
+
+"
+
+R 
+ξ1 + iξ2
+√
+=
+ψ=
+2
+L
+
+#
+
+R,L
+
+⇒√
+
+
+ √
+1
+exp ±i 4πφR,L
+2πα
+
+(112)
+
+To ensure anticommutation between the right and left components of the Fermi
+field, it is assumed that
+
+i
+[φR , φL ] = .
+(113)
+4
+Notice that α is an ultraviolet cutoff in the bosonic theory which actually appears
+as a short-distance regulator in the normal-mode expansion of bosonic fields. For
+this reason it does not need to coincide with the original lattice constant a0 which
+appears in the continuum representation of fermionic fields. These two cutoffs
+are, however, related, as shown in Appendix A.2.
+The chiral components of the U(1) current are defined as
+1
+JR = : R† R := iξ1R ξ2R = √ ∂x φR
+π
+1
+JL = : L† L := iξ1L ξ2L = √ ∂x φL
+π
+
+(114)
+(115)
+
+Using (112), one also finds that
+R† L = −
+=
+
+i −i√4πΦ
+e
+2πα
+
+1
+(ξ1R − iξ2R ) (ξ1L + iξ2L ) ,
+2
+
+(116)
+
+implying that
+√
+cos 4πΦ = iπα (ξ1R ξ1L + ξ2R ξ2L )
+√
+sin 4πΦ = −iπα (ξ1R ξ2L + ξ1L ξ2R )
+
+(117)
+(118)
+
+The DQAT Hamiltonian (17) is symmetric under interchange (P12 ) of the
+two chains. Let us find the transformation properties of all the fields under P12 .
+
+¿From (112) it follows that interchanging the two chains leads to transformations
+√
+√
+π
+π
+− φR , φL → −
+− φL
+(119)
+φR →
+4
+4
+36
+
+The chiral currents JR,L , and therefore the total (J = JR + JL ) and axial (J5 =
+JR − JL ) currents change their signs:
+JR(L) → −JR(L) , J → −J, J5 → −J5
+
+(120)
+
+Under P12 the scalar field Φ = φR + φL and its dual counterpart Θ = −φR + φL
+transform as follows:
+
+√
+
+π
+−Θ
+(121)
+2
+Notice that the symmetry properties of r.h.sides of (117)and (118) are consistent
+Φ → −Φ,
+
+Θ→−
+
+with (121).
+
+A.2
+
+Bosonization of products of order and disorder operators
+
+Starting with the Jordan–Wigner transformation for two QI spin chains, which
+can be summarised as follows
+x
+σan
+= iζan ηan ,
+
+
+
+z
+σan
+= iκa 
+
+
+
+y
+σan
+= iκa 
+
+n
+Y
+
+j=1
+n
+Y
+
+j=1
+
+
+
+µxa,n+1/2 = −iζan ηa,n+1
+n
+Y
+
+x 
+σaj
+ζan ,
+
+µza,n+1/2 =
+
+x 
+σaj
+ηan ,
+
+µya,n+1/2 = 
+
+
+
+x
+σaj
+
+(122)
+(123)
+
+j=1
+
+
+
+n
+Y
+
+j=1
+
+
+
+x 
+σaj
+, ηa,n+1 ζan
+
+(124)
+
+here we derive bosonized expressions for products of Ising fields belonging to
+different chains.
+• µz1,n+1/2 µz2,n+1/2 . Using the lattice definition (123), we have:
+µz1,n+1/2 µz2,n+1/2 =
+
+n
+Y
+
+x x
+σ1j
+σ2j
+
+(125)
+
+j=1
+
+There are many ways to exponentiate the product in (125), the naive assumption
+would be to use the identity
+σ x = ∓ie±i(π/2)σ
+
+x
+
+and then replace in the exponential σ x by iηζ. This will bring us to a phase
+proportional to
+
+n
+X
+
+(η1n ζ1n + η2n ζ2n )
+
+j=1
+
+37
+
+which, in the continuum limit, reduces to
+Z
+
+x
+0
+
+dx′ (ξ1R ξ1L + ξ2R ξ2L ) .
+
+According to (117), the integrand represents a bosonic cosine operator, which
+is not what we would like to have for practical purposes. To get a better representation, one has first to rearrange the four Majorana fields in the product
+x x
+σ1j
+σ2j :
+x x
+σ1j
+σ2j = (η1j η2j ) (ζ1j ζ2j )
+
+(126)
+
+It is readily seen that a product of two local Majorana fields, defined on the
+lattice, can be represented as
+π
+η1 η2 = ± exp ± η1 η2
+2
+
+
+
+
+(127)
+
+Therefore
+µz1,n+1/2 µz2,n+1/2
+
+
+
+
+
+n
+πX
+x x
+(η1j η2j + ζ1j ζ2j )
+σ1j
+σ2j = exp ±
+=
+2 j=1
+j=1
+n
+Y
+
+(128)
+
+Now we pass to the continuum limit by making chiral rotation (12) and using
+(114), (115):
+
+
+µz1,n+1/2 µz2,n+1/2 → exp ±π
+
+Z
+
+x
+
+dy (ξ1R ξ2R + ξ1L ξ2L )
+
+0
+
+√ Zx
+dy ∂y Φ(y)
+= exp ∓i π
+
+
+
+
+
+0
+
+√
+∓i πΦ(x)
+
+(129)
+
+= e
+
+The l.h.s. of this relation is symmetric under P12 , so must the r.h.side. As follows
+
+from (121), under P12 the field Φ changes its sign. So the sign ambiguity in (129)
+
+is resolved by replacing the phase exponential by a cosine:
+√
+µz1,n+1/2 µz2,n+1/2 = cos πΦ(x)
+
+(130)
+
+z
+z
+. Using (123), we have:
+• σ1,n+1/2
+σ2,n+1/2
+
+
+
+z
+z
+σ1n
+σ2n
+= − (κ1 κ2 ) (ζ1n ζ2n ) 
+
+= −κ1 κ2 ζ1n ζ2n
+38
+
+
+
+n
+Y
+
+j=1
+
+
+
+x x 
+σ1j
+σ2j
+
+µz1,n+1/2 µz2,n+1/2
+
+
+
+(131)
+
+With the representation (130) at hand, we only need to pass to the continuum
+limit in ζ1n ζ2n and then make use of proper operator product expansions. We
+have:
+ζ1n ζ2n → 2a0 ζ1 (x)ζ2 (x)
+= a0 [ξ1R (x) + ξ1L (x)] [ξ2R (x) + ξ2L (x)]
+√
+ia0
+ia0
+= − √ ∂x Φ(x) +
+sin 4πΦ(x)
+π
+πα
+
+(132)
+
+So
+z
+z
+σ1n
+σ2n
+
+→ iκ1 κ2 a0
+
+"
+
+√
+√
+1
+1
+√ ∂x Φ(x) −
+sin 4πΦ(x) cos πΦ(x + α)
+π
+πα
+#
+
+(133)
+
+Picking up the most relevant operators in the following OPE
+√
+√
+1
+: sin πΦ(x) : + · · ·
+∂x Φ(x) : cos πΦ(x ∓ α) : = ± √
+2 πα
+√
+√
+√
+1
+: sin 4πΦ(x) :: cos πΦ(x) : =
+: sin πΦ(x) : + · · ·
+2
+
+(134)
+(135)
+
+one finds that
+
+
+√
+a0
+: sin πΦ(x) :
+→ −iκ1 κ2
+2πα
+Intending to keep duality among (136) and (130) we set
+
+
+z
+z
+σ1n
+σ2n
+
+α=
+
+(136)
+
+a0
+π
+
+(137)
+
+and finally obtain:
+z
+z
+σ1n
+σ2n
+= −iκ1 κ2 : sin
+
+√
+
+πΦ(x) :
+
+(138)
+
+Notice the important role of the Klein product κ1 κ2 . The l.h.s. of (138) is
+√
+P12 -symmetric while in the r.h.side sin πΦ(x) is antisymmetric (see (121)). So
+
+the r.h.s. of (138) is symmetric just due to the presence of κ1 κ2 . If we had
+replaced κ1 κ2 by a constant, κ1 κ2 → i, we would obtain
+z
+z
+σ1n
+σ2n
+=: sin
+
+√
+
+πΦ(x) :
+
+In this representation, the only way to ensure the P12 -symmetry would be to
+
+impose a constraint that identifies Φ and −Φ, in which case the scalar field Φ
+
+would transform to an orbifold.
+
+z
+z
+µz2,n+1/2 as
+• σ1n
+µz2,n+1/2 . First we represent σ1n
+
+
+
+z
+z
+σ1n
+µz2,n+1/2 = σ1n
+µz1,n+1/2
+
+39
+
+
+
+
+
+µz1,n+1/2 µz2,n+1/2 .
+
+The continuum limit for second product has already been found (see Eq.(130)).
+z
+The first product reduces to a Majorana field: σ1n
+µz1,n+1/2 = −iκ1 ζ1n . In the
+
+continuum limit, with relation (137) taken into account,
+ζ1n →
+
+√
+
+a0 [ξ1R (x) + ξ1L (x)]
+√
+√
+= cos 4πΦR (x) + cos 4πΦL (x)
+
+(139)
+
+So
+h
+i
+√
+√
+√
+z
+σ1n
+µz2,n+1/2 = −iκ1 cos 4πΦR (x) + cos 4πΦL (x) cos πΦ(x + α)
+
+(140)
+
+Making use of the following OPE
+√
+√
+√
+√
+: cos 4πΦR (x) :: cos πΦ(x + α) : = : cos 4πΦL (x) :: cos πΦ(x + α) :
+√
+1
+: cos πΘ(x) : + · · ·
+=
+(141)
+2
+we arrive at the result:
+z
+σ1n
+µz2,n+1/2 = −iκ1 : cos
+
+√
+
+πΘ(x) :
+
+(142)
+
+z
+• µz1,n+1/2 σ2n
+. Quite similarly one finds that
+z
+µz1,n+1/2 σ2n
+= iκ2 : sin
+
+√
+
+πΘ(x) :
+
+(143)
+
+Using (121), we see that under P12 the r.h.sides of Eqs.(142) and (143) indeed
+
+transform to each other.
+
+40
+
+B
+
+More on lattice fermions
+
+An alternative way to bosonize the QAT model, is to pass through a mapping
+onto spinless fermions, and bosonize the latter.
+We start by the quantum Ising model (10). By means of the following unitary
+transformation
+1
+ζn = − √ (ξRn − ξLn ) ,
+2
+1
+ηn = √ (ξRn + ξLn ) ,
+2
+
+(144)
+(145)
+
+the Hamiltonian (10) transforms onto
+J
+i X
+−
+[ξRn (ξRn+1 − ξRn−1 ) − ξLn (ξLn+1 − ξLn−1)]
+2
+2 n
+JX
+[ξRn (2ξLn − ξLn+1 − ξLn−1 ) − ξLn (2ξRn − ξRn+1 − ξRn−1 )]
++ i
+4 n
+
+HQI =
+
+
+
+
+
++ i (∆J − J)
+
+X
+
+ξRn ξLn .
+
+(146)
+
+n
+
+We now consider the following quantum Ashkin–Teller Hamiltonian of twocoupled Ising chains
+′
+HQAT = HQI [σ1 ] + HQI [σ2 ] + HAT
+[σ1 , σ2 ] ,
+
+(147)
+
+where HQI ’s are Ising Hamiltonians [see Eq.(146)] for two spin species, σ1 and
+σ2 , and
+′
+HAT
+=K
+
+X
+n
+
+
+
+z
+z
+z
+z
+x
+x
+σ1,n
+σ1,n+1
+σ2,n
+σ2,n+1
++ σ1,n
+σ2,n
+,
+
+(148)
+
+is the coupling term. For each spin species we introduce Majorana’s fermions. In
+order to make σ1 and σ2 commute we multiply each Majorana’s fermion for the
+chain 1 by another Majorana κ1 , and for chain 2 by κ2 . That is, if a = 1, 2, we
+define
+
+
+
+
+
+
+
+
+z
+z
+µza,n− 1 ,
+ζa,n = κa iσa,n
+µza,n+ 1 , ηa,n = κa σa,n
+
+as well as their R, L components
+
+2
+
+1
+ζ1,n = − √ (ξRn − ξLn ) ,
+2
+1
+η1,n = √ (ξRn + ξLn ) ,
+2
+1
+ζ2,n = − √ (ηRn − ηLn ) ,
+2
+1
+η2,n = √ (ηRn + ηLn ) .
+2
+41
+
+2
+
+(149)
+
+(150)
+(151)
+(152)
+(153)
+
+Let us concentrate for the moment onto the two Ising Hamiltonians, which are
+bilinear in the Majorana fermions. We notice the following general property
+(p, q = R, L)
+1
+[(ξpn − iηpn ) (ξqm + iηqm ) + (ξpn + iηpn ) (ξqm − iηqm )]
+i2
+h
+i
+h
+= 2 c†pn cqm + cpn c†qm = 2 c†pn cqm − c†qm cpn + δpq δnm ,
+ξpn ξqm + ηpn ηqm =
+
+where we define the Fermi operators
+cR(L)n =
+
+
+1
+ξR(L)n + iηR(L)n .
+2
+
+(154)
+
+Therefore, through (146), we find
+HQI [σ1 ] + HQI [σ2 ] =
+
+
+
+
+
+i
+i Xh † 
+cRn cRn+1 − cRn−1 − c†Ln cLn+1 − cLn−1 − H.c.
+= J −
+2 n
+
+i
+
+
+J Xh † 
++i
+cRn 2cLn − cLn+1 − cLn−1 − c†Ln 2cRn − cRn+1 − cRn−1 − H.c.
+2 n
++2i (∆J − J)
+
+X
+n
+
+c†Rn cLn − c†Ln cRn .
+
+(155)
+
+The analogy with a fermionic model on a lattice is already apparent. Let us
+make this analogy more firm. We consider the following spinless fermion model
+on a lattice of 2L sites
+H = −t
+= −t
+
+2L−1
+X
+n=0
+L−1
+X
+
+c†n cn+1 + H.c.
+
+
+
+
+
+
+
+
+c†2n+1 c2n + c2n+2 + c†2n c2n−1 + c2n+1 .
+
+n=0
+
+We make the following unitary transformation
+(−1)n
+√ (cRn + cLn ) ,
+2
+(−1)n
+= i √ (cRn − cLn ) ,
+2
+
+c2n =
+c2n+1
+
+where the right- and left-moving fermions are defined on a lattice of half the
+number of sites, i.e. L. The Hamiltonian becomes
+H = −i
++ i
+
+
+
+
+tX † 
+cRn cRn+1 − cRn−1 − c†Ln cLn+1 − cLn−1
+2 n
+
+
+
+
+tX † 
+cRn 2cLn − cLn+1 − cLn−1 − c†Ln 2cRn − cRn+1 − cRn−1 .
+2 n
+(156)
+
+42
+
+Let us add to this Hamiltonian a staggered hopping
+δH = −∆
+= i∆
+
+X
+
+c†2n c2n+1 + H.c.
+
+(157)
+
+n
+
+X
+n
+
+c†Rn cLn − H.c. .
+
+(158)
+
+We notice that (156) plus (158) coincide with (155) if 2J = t and 2(∆J − J) = ∆.
+
+Now we focus on the coupling term (148), which, in terms of Majorana’s
+
+fermions reads
+′
+HAT
+=K
+
+X
+
+ζ1n ζ2n (η1n+1 η2n+1 + η1n η2n ) .
+
+n
+
+Transforming into right- and left-moving Majorana fermions we find that
+1
+(ξRn − ξLn ) (ηRn − ηLn )
+2
+1
+=
+(ξRn ηRn + ξLn ηLn − ξRn ηLn − ξLn ηRn )
+2
+= −i (ρRn + ρLn − 1 − ∆n ) ,
+
+ζ1n ζ2n =
+
+where we used (154), and we defined ρpn = c†pn cpn (p = R, L) as well as ∆n =
+c†Rn cLn + H.c.. We can equivalently show that
+η1n η2n = −i (ρRn + ρLn − 1 + ∆n ) .
+Therefore the coupling term can be written as
+′
+HAT
+= −K
+
+− K
+
+X
+n
+
+X
+n
+
+(ρRn + ρLn − 1 − ∆n ) (ρRn + ρLn − 1 + ∆n )
+
+(ρRn + ρLn − 1 − ∆n ) (ρRn+1 + ρLn+1 − 1 + ∆n+1 ) . (159)
+
+On the other hand let us consider the simplest nearest-neighbour interaction for
+spinless fermions, namely
+V
+
+X
+
+c†2n c2n c†2n+1 c2n+1 + c†2n+1 c2n+1 c†2n+2 c2n+2 .
+
+n
+
+This interaction term turns out to be equivalent to (159), apart from a chemical
+potential term, provided 4K = −V . Notice that, if one considers an Ashkin-Teller
+
+coupling which is not self-dual, e.g.
+′
+HAT
+= K1
+
+X
+
+z
+z
+z
+z
+σ1,n
+σ1,n+1
+σ2,n
+σ2,n+1
++ K2
+
+n
+
+X
+
+x
+x
+σ1,n
+σ2,n
+,
+
+n
+
+this translates into a staggered interaction for the spinless fermion model. This
+interaction, even without an explicit dimerization, is able to gap the fermionic
+43
+
+spectrum, thus showing the importance of self-duality, even at the level of the
+coupling term (147), to get a critical behaviour.
+Therefore we have shown the equivalence between a model of two coupled
+Ising chains in a transverse field, given by the Hamiltonian (147), and a model of
+spinless fermion with nearest neighbour interaction and dimerized hopping.
+An interesting point in this respect regards quantum numbers. The spinless
+fermion model has for instance conserved number of particle. In ρ is the density,
+in the reduced chain we must have that
+1X
+ρRn + ρLn = 2ρ,
+L n
+
+(160)
+
+is conserved. On the other hand
+1X
+(ρRn + ρLn − 1) = 2ρ − 1
+L n
+i X
+≡−
+ζ1n ζ2n + η1n η2n ,
+2L n
+
+which, in terms of Ising variables, implies the conservation of a very non-local
+operator, which includes the spins and their dual counterparts.
+
+B.1
+
+Operator identities
+
+We can build up several operator identities in the lattice representation.
+(1) The simplest one is obtained by the identity
+2 (ρRn + ρLn − 1) = i (ζ1n ζ2n + ξ1n ξ2n ) ,
+
+(161)
+
+which relates the density operator of the spinless fermions to a particular
+bilinear of Majorana’s fermions.
+(2) The other identity derives from the equality
+
+
+
+
+2 c†Rn cLn + H.c. = i (ξ1n ξ2n − ζ1n ζ2n ) ,
+
+(162)
+
+which relates the charge density wave operator of the spinless fermions to
+the Majorana’s fermions.
+(3) The last identity is obtained by the equality
+
+
+
+
+− 2i c†Rn cLn − H.c. = i (ζ1n ξ1n + ζ2n ξ2n ) ,
+
+(163)
+
+which provides a relation between the dimerization operator and the Majorana’s fermions.
+44
+
+C
+
+Mean-field treatment of the (σ, τ )-model
+
+In oder to devise an appropriate mean-field scheme, let us formally rewrite Hamiltonian (35) as
+H[σ, τ ] = Hmf [σ] + Hmf [τ ] + Hf luc [σ, τ ] + const.
+
+(164)
+
+Here the two terms of the mean-field Hamiltonian are:
+Hmf [σ] = −
+Hmf [τ ] = −
+where
+
+
+X
+
+z
+Jσ σnz σn+1
++ ∆σ σnx
+
+n
+
+X
+n
+
+
+
+z
+Jτ τnz τn+1
++ hτnz + ∆τ τnx
+
+
+
+z
+Jσ = J 1 + hτnz τn+1
+i ,
+
+(165)
+
+
+(166)
+
+z
+Jτ = Jhσnz σn+1
+i−K
+
+∆σ = ∆hτnx i − K,
+
+∆τ = ∆ (1 + hσnx i)
+
+(167)
+
+The coupling between the fluctuations, is given by
+Hf luc [σ, τ ] = −
+
+Xh
+n
+
+z
+z
+z
+z
+J(σnz σn+1
+− hσnz σn+1
+i)(τnz τn+1
+− hτnz τn+1
+i)
+
++ ∆(σnx − hσnx i)(τnx − hτnx i)]
+
+(168)
+
+In the leading approximation, fluctuations described by (168) are neglected,
+and the σ and τ degrees of freedom decouple. We notice that the parameter h
+appears only in Hmf [τ ] where it plays the role of an effective longitudinal field.
+Therefore the model (166) is a quantum counterpart of a 2D Ising model in a
+nonzero external field which is known to be always noncritical. Thus, as expected,
+the τ -chain is always gapped. The condition for the σ-chain to be critical then
+reads:
+
+
+
+
+z
+J 1 + hτnz τn+1
+i = ∆hτnx i − K
+
+(169)
+
+Despite the fact that the Ising model in the field is supposed to be integrable
+in the continuum limit (see references in [10]), the explicit expectation values
+of the τ operators appearing in (169) are not known. To make further analytic
+progress possible, we choose a special value of the field rescaling parameter K,
+z
+K = Jhσnz σn+1
+i,
+
+(170)
+
+at which Jτ = 0, and interaction between the neighbouring τ -spins in Hmf [τ ]
+vanishes. This trivialises the τ -model and leads to
+h
+∆τ
+hτ z i = q
+, hτ x i = q
+h2 + ∆2τ
+h2 + ∆2τ
+45
+
+(171)
+
+Self-consistency requires the knowledge of the averages related to the σ-model.
+Specialising to the critical point and making use of the known results [6],
+z
+hσnz σn+1
+icrit = hσnx icrit =
+
+2
+,
+π
+
+(172)
+
+we obtain
+
+2J
+2
+K=
+.
+, ∆τ = ∆ 1 +
+π
+π
+Then the condition (169) reduces to
+
+
+1 + hτ z i2 = (∆/J)hτ x i −
+
+
+
+(173)
+
+2
+π
+
+(174)
+
+This equation determines the critical value of h at a given ratio ∆/J. Introducing
+the quantity
+
+√
+
+h2 + C 2 ∆2
+,
+J
+we obtain a quadratic equation
+x=
+
+C =1+
+
+2
+π
+
+(C + 1)x2 − C(∆/J)2 x + C 2 (∆/J)2 = 0,
+whose solution determines the critical value of h:
+hc
+C∆
+
+!2
+
+
+
+
+1
+∆
+
++
+=
+2
+4(C + 1)
+J
+
+
+s
+
+
+∆
+J
+
+2
+
+2
+
++ 4(C + 1) − 1
+
+(175)
+
+The requirement that the r.h.side of (175) is positive yields a restriction upon ∆:
+2
+∆
+>1+
+J
+π
+
+(176)
+
+Recall that we already assumed that at h = 0 the two QI chains of the QAT model
+are disordered: ∆ > J. The restriction (176) tells us that, for the Ising criticality
+to be reached at some critical value of h, the original disordered σ1 and σ2 chains
+should be far enough from their original critical point. In fact, as follows from
+(176), the value of the Majorana mass, when estimated as m ∼ 2(∆ − J) ∼ 4J/π,
+turns out to be of the order of the ultraviolet cutoff. This estimation reflects the
+
+already mentioned fact that the DM transition is indeed not a weak-coupling one
+from the standpoint of the DQAT model.
+One could, in principle, perturbatively calculate the fluctuation corrections,
+i.e. those originating from (168), to the criticality condition. As the model is
+only tractable under fine tuning (170) of the parameter K, that is not expected
+to generalise the qualitative picture obtained in the mean-field approximation.
+46
+
+D
+
+Correlation functions
+
+Let us start calculating the Fourier transform of D (R) (ω, p), given by (60), with
+the remark that using the Bessel functions (despite some convenient Fourier transforms) is beyond the accuracy. The analytic properties (and the issue of coherent
+particle poles) should not depend on fine details of the correlators at r ∼ ξ = 1/m.
+
+Therefore what one ought to do is to study analytic properties of the integral
+Iαm (q)
+
+=
+
+Z∞
+
+r α−1/2 drJ0 (qr)e−mr
+
+(177)
+
+0
+
+in terms of which the Fourier transforms,
+∞
+
+Z
+1 Z 2 i~q~r
+D(q) =
+d ~re D(r) = π rdrJ0(qr)D(r) ,
+2
+0
+
+~q = (ωn , p), q =
+
+q
+
+ωn2 + p2 , are given by
+
+π 3/2 A1 m
+35A1 2m
+0
+D0 (q) = πI5/4
+(q), D> (q) = √
+I
+(q)
+I1 (q), D< (q) =
+256m2 −1/2
+2m
+
+(178)
+
+In the area of convergence, we have [25]:
+Iαm (q) =
+
+Γ(α + 1/2)
+F (α/2 + 1/4, α/2 + 3/4; 1; −q 2/m2 )
+α+1/2
+m
+
+(179)
+
+where F (a, b; c; z) stands for the hypergeometric function. The character of the
+singularity at z = 1 can be determined by using appropriate transformation formulas for the hypergeometric functions and the Γ-function doubling formula[25]:
+Iαm (q)|q2≃−m2 =
+
+(2m)α−1/2 Γ(α)
+1
+√
+2
+π
+(q + m2 )α
+
+(180)
+
+where only the leading, most divergent term is retained.
+This calculation explains how the correlation function has a branch cut at the
+threshold, unless α = 1 which, of course, corresponds to the disordered case:
+D> (q) =
+
+πA1
++ m2
+
+q2
+
+(181)
+
+where the coefficient, as expected, is the same as one finds by Fourier transforming
+K0 (mr)
+1
+K0 (mr) =
+2π
+
+Z
+
+47
+
+d2 ~q
+
+ei~q~r
+q 2 + m2
+
+Although this calculation is instructive, formula (180) doesn’t solve all our
+problems. So, the critical correlation function has nothing to do with the m → 0
+
+limit of this formula, as the main contribution to the integral comes from a
+different spatial domain. Therefore we should rather return to the general formula
+(179), set m = 0 there, and analytically continue beyond the convergence domain
+(−1/2 < α < 1/2). The result is
+D0 (q) = 21/4 π
+
+Γ(7/8) 1
+Γ(1/8) q 7/4
+
+(182)
+
+The correlation function in the disordered phase is also outside the validity
+of (180) and, furthermore, the integral (179) is logarithmically divergent at the
+lower limit in this case. It should therefore be regularised. One way to do it is as
+follows [25]:
+Z∞
+
+Z ∞
+dr
+dr
+J0 (qr)e−2mr →
+Jν (qr)e−2mr
+r
+r
+0
+0
+!
+√
+√ 2
+1
+( q + 4m2 − 2m)ν
+q 2 + 4m2 − 2m
++ O(ν)
+→ + ln
+=
+νq ν
+ν
+q
+2m
+I−1/2
+(q)
+
+=
+
+(183)
+
+This regularisation is, however, not good enough. That is because the integral
+still diverges in the q → 0 limit as
+ln
+
+
+
+q
+4m
+
+
+
+while the physical regularisation is finite in the q → 0 limit and expands as:
+2m
+I−1/2
+(q) →
+
+Z∞
+ξ
+
+dr
+J0 (qr)e−2mr =
+r
+
+Z∞
+ξ
+
+X (2k)!
+dr −2mr +∞
+q2
+−
+e
++
+2k
+2
+r
+4m2
+k=1 2 (k!)
+
+!k
+
+(184)
+
+Since different limiting processes must lead to the same result, one can simply
+substruct the unphysical q → 0 divergence from (183). This leads to the following
+
+result for the correlation function (up to an unessential additive constant):
+35A1
+4m
+D< (q) =
+ln √ 2
+2
+256m
+q + 4m2 + 2m
+
+!
+
+(185)
+
+Turning to the problem of analytic continuation, we recall that, according to
+the standard approach [26]
+D(iωn , p) = D (R) (ω, p)
+
+48
+
+in the upper half-plane. Put another way, one has to substitute
+iωn → ω + iδ
+(that is provided the resulting function has no ‘accidental’ poles and is otherwise
+regular in the upper half-plane - there is no general solution to the analytic
+continuation problem.) The resulting function is, by construction, analytic in the
+upper half-plane and automatically satisfies the Kramers–Kronig relation.
+We need to analytically continue formula (180), or equivalently the function
+f (iωn ) =
+
+1
+(ωn2
+
++
+
+p2
+
++ m2 )α
+
+It is easy to see that
+f (ω) =
+−
+
+θ(ǫ2p − ω 2 ) + cos(πα)θ(ω 2 − ǫ2p )
+|ω 2 − ǫ2p |α
+2i sin(πα)θ(ω 2 − ǫ2p )
+|ω 2 − ǫ2p |α
+
+49
+
+(186)
+
+References
+[1] G. Delfino and G. Mussardo, Nucl. Phys. B516, 675 (1998); hep-th/9709028.
+[2] A.A. Nersesyan and Y.-J. Wang, in preparation.
+[3] I. Affleck, in Dynamical Properties of uncoventional magnetic systems,
+NATO ASI series E349, eds A. Skjeltorp and D. Sherrington, Kluwer Academic (1998); cond-mat/9705127.
+[4] S. Coleman, Phys. Rev. D 11 (1975) 2088.
+[5] A. Luther and V. Emery, Phys. Rev. B 12 (1975) 3908.
+[6] P. Pfeuty, Ann. Phys. (N.Y) 57 (1970) 79.
+[7] E. Lieb, T. Schultz, and D. Mattis, Ann. Phys. (N.Y.) 16 (1968) 539.
+[8] C. Itzykson and J. B. Zuber, Phys. Rev. D 15 (1977) 2875.
+[9] A.O. Gogolin, A.A. Nersesyan, and A.M. Tsvelik, Bosonization and Strongly
+Correlated Systems (Cambridge University Press, Cambridge, 1999).
+[10] T.T. Wu, B.M. McCoy, C.A. Tracy, and E. Barouch, Phys. Rev. B 13 (1976)
+315. For a recent review and an excellent collection of references see B.M.
+McCoy, The Connection Between Statistical Mechanics and Quantum Field
+Theory, hep-th/9403084.
+[11] S. Maslov and A. Zheludev, Phys. Rev. Lett. 80 (1998) 5786; condmat/9803393.
+[12] D. C. Dender, P. R. Hammar, D. H. Reich, C. Broholm, and G. Aeppli,
+Phys. Rev. Lett. 79 (1997) 1750;
+M. Oshikawa and I. Affleck, Phys. Rev. Lett. 79 (1997) 2883;
+F. H. L. Essler and A. M. Tsvelik, Phys. Rev. B 57 (1998) 10592;
+F. H. L. Essler, cond-mat/9811309; I. Affleck and M. Oshikawa, condmat/9905002.
+[13] I. Affleck, D. Gepner, H. J. Schulz, and T. Ziman, J. Phys. A 22 (1989) 511.
+[14] S. R. White and I. Affleck, Phys. Rev. B 54 (1996) 9862.
+
+50
+
+[15] S. A. Brazovskii, N. N. Kirova and S. I. Matveenko, Sov. Phys. JETP 59
+(1983) 434;
+A. J. Niemi and G. W. Semenoff, Phys. Rep. 135 (1986) 99.
+[16] M. Fabrizio, A. O. Gogolin and A. A. Nersesyan, Phys. Rev. Lett. 83 (1999)
+2014.
+[17] F.H.L. Essler, A.M. Tsvelik, and G. Delfino, Phys. Rev. B 56 (1997) 11001.
+[18] N. Nagaosa and J. Takimoto, J. Phys. Soc. Jpn. 55 (1986) 2735 ; N. Nagaosa,
+ibid. 55 (1986) 2754; 55 (1986) 3488.
+[19] T. Egami, S. Ishihara and M. Tachiki, Science 261 (1993) 1307.
+[20] E. H. Lieb and F. Y. Wu, Phys. Rev. Lett. 20 (1968) 1445; A. A. Ovchinnikov,
+Sov. Phys. JETP 30 (1970) 1160.
+[21] I. Affleck, Nucl. Phys. B 265 (1986) 409;
+I. Affleck and F. D. M. Haldane, Phys. Rev. B 36(1987) 5291.
+[22] S. Eggert and I. Affleck, Phys. Rev. 46 (1992) 10 866.
+[23] H. J. Schulz and C. Bourbonnais, Phys. Rev. B 12 (1983) 5856;
+see also Ref.[9], chapter 11.
+[24] J.E. Hirsh, Phys. Rev. Lett. 53 (1984) 2327 .
+[25] I.S. Gradsteyn and I.M. Ryzhik, Table of Integrals, Series, and Products
+(ed.A. Jeffrey, Academic Press Ltd., London, 1994).
+[26] A. A. Abrikosov, L. P. Gor’kov, and I. E. Dzyaloshinskii, Quantum field
+theoretical methods in statistical physics, 2nd edition (Oxford, Pergamon
+Press, 1965).
+
+51
+

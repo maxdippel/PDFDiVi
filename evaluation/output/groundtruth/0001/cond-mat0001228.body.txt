@@ -1,0 +1,296 @@
+##source	0001/cond-mat0001228/condmat.tmp.tex
+Field(5,12) distributions(5,26) and(5,30) effective-medium(5,47) approximation(5,61) for(5,66) weakly(5,73) nonlinear(5,83) media(5,89)
+
+Introduction(30,21)
+
+Numerous(32,8) papers(32,15) have(32,20) been(32,25) devoted(32,33) to(32,36) the(32,40) problem(32,48) of(32,51) determining(32,63) the(32,67) effective(32,77) constitutive(33,12) law(33,16) of(33,19) random(33,26) nonlinear(33,36) composites(33,47) in(33,50) electrostatics(33,65) [\cite=AHAR87](34,5) [\cite=STRO88](34,5) [\cite=ZENG88](34,5) [\cite=BERG89](34,5) [\cite=BLUM89](34,5) [\cite=KOTH90](34,5) [\cite=PONT92](34,5) [\cite=GU92](34,5) [\cite=YU93](34,5) [\cite=YU94](34,5) [\cite=LEE95](34,5) [\cite=GAO96](34,5) [\cite=WAN96](34,5) [\cite=SALI97](34,5) [\cite=PONT97](34,5) [\cite=BART98],(34,5) of(35,2) importance(35,13) for(35,17) understanding(35,31) various(36,7) nonlinear(36,17) phenomena,(36,28) either(36,35) entering(36,44) the(36,48) class(36,54) of(37,2) "weakly(37,11) nonlinear"(37,23) (WNL)(37,29) phenomena,(37,40) or(37,43) that(37,48) of(37,51) "strongly(37,62) nonlinear"(37,74) phenomena(38,9) such(38,14) as(38,17) random(38,24) fuse-type(38,34) or(38,37) dielectric(38,48) breakdown-type(38,63) failure(38,71) of(38,74) materials(39,9) [\cite=DUXB86].(39,15)
+
+A(41,1) convenient(41,12) approach(41,21) to(41,24) the(41,28) homogeneization(41,44) problem(41,52) is(41,55) the(41,59) "energetic"(41,73) one(42,3) [\cite=HILL63](42,9) [\cite=PONT92b],(42,9) which(42,32) can(42,36) be(42,39) summarized(42,50) as(42,53) follows.(42,62) Let(42,66) wx(E)(42,68) be(43,2) the(43,6) local(43,12) potential(43,22) (the(43,27) energy(43,34) density)(43,43) from(43,48) which(43,54) derives(43,62) the(43,66) local(43,72) nonlinear(44,9) constitutive(44,22) law.(44,27) The(44,31) homogeneization(44,47) step(44,52) consists(44,61) in(44,64) computing(44,74) the(45,3) effective(45,13) potential(45,23) W(45,25) as(45,30) the(45,34) volume(45,41) average(45,49)
+
+[formula](46,6)
+
+from(49,4) which(49,10) the(49,14) effective(49,24) constitutive(49,37) law(49,41) can(49,45) be(49,48) deduced(49,56) (see(49,61) below).(49,69) Denoting(50,8) by(50,11) pα(50,13) the(50,26) volume(50,33) proportion(50,44) of(50,47) component(50,57) ("phase")(50,69) α(51,1) in(51,11) a(51,13) composite(51,23) medium(51,30) where(51,36) wx(51,38) =(51,38) wα(51,38) if(51,54) x(51,56) is(51,61) in(51,64) phase(51,70) α,(52,1) and(52,13) introducing(52,25) the(52,29) volume(52,36) averages(52,45) per(52,54) phase(52,60) 〈(53,1) ·(53,1) 〉α,(53,1) W(53,31) can(53,37) be(53,40) written(53,48)
+
+[formula](54,6)
+
+A(59,1) class(59,7) of(59,10) effective-medium(59,27) theories,(59,37) mostly(59,44) concerned(59,54) with(59,59) weak(59,64) power-law(60,9) nonlinearities,(60,25) use(60,29) our(60,33) ability(60,41) to(60,44) compute(60,52) the(60,56) second(60,63) moment(60,70) of(61,2) the(61,6) electric(61,15) field(61,21) E(61,23) in(61,28) the(61,32) various(61,40) phases(61,47) of(61,50) the(61,54) composite(61,64) [\cite=BERG78],(62,5) completed(62,24) by(62,27) a(62,29) decoupling(62,40) approximation(62,54) [\cite=ZENG88](62,60) [\cite=HUI95a](62,60)
+
+[formula](63,6)
+
+This(68,4) approximation(68,18) is(68,21) exact(68,27) only(68,32) when(68,37) wα(68,39) is(68,51) quadratic(68,61) (the(69,4) linear(69,11) theory),(69,20) or(69,23) when(69,28) the(69,32) field(69,38) is(69,41) uniform,(69,50) which(69,56) occurs(69,63) only(69,68) if(70,2) all(70,6) the(70,10) wα(70,12) are(70,25) equal,(70,32) i.e.(70,37) in(70,37) a(70,43) homogeneous(70,55) medium.(70,63)
+
+The(72,3) purpose(72,11) of(72,14) this(72,19) paper(72,25) is(72,28) to(72,31) present(72,39) a(72,41) means(72,47) to(72,50) overcome(72,59) this(72,64) approximation,(73,14) starting(73,23) from(73,28) the(73,32) following(73,42) remark:(73,50) actually,(73,60) with(73,65) an(74,2) additional(74,13) hypothesis(74,24) of(74,27) ergodicity(74,38) per(74,47) phase,(74,53) a(74,57) volume(74,64) phase(74,70) average(75,7) can(75,11) be(75,14) reinterpreted(75,28) as(75,31) an(75,34) average(75,42) over(75,47) some(75,52) probability(75,64) distribution(76,12) for(76,16) the(76,20) electric(76,29) field(76,35) in(76,38) the(76,42) phase(76,48) under(76,54) consideration.(76,69) In(77,2) this(77,7) paper,(77,14) volume(77,21) averages(77,30) will(77,35) henceforth(77,46) be(77,49) identified(77,60) to(77,63) statistical(78,11) averages.(78,21) Then,(78,27) the(78,31) problem(78,39) of(78,42) computing(78,52) W,(78,54) Equ.(79,4) ([\ref=weff]),(79,4) reduces(79,27) to(79,30) computing(79,40) the(79,44) probability(79,56) distribution(79,69) Pα(80,1) of(80,21) the(80,25) field(80,31) in(80,34) each(80,39) phase,(80,46) by(80,49) means(80,55) of(80,58) which(80,64) the(80,68) phase(81,5) averages(81,14) 〈(81,16) ·(81,16) 〉α(81,16) can(81,47) be(81,50) carried(81,58) out,(81,63) without(82,7) appealing(82,17) to(82,20) ([\ref=decoupl]).(82,22)
+
+Note(84,4) that(84,9) the(84,13) full(84,18) probability(84,30) distribution(84,43) [formula](84,45) of(85,2) the(85,6) electric(85,15) field(85,21) in(85,24) the(85,28) medium(85,35) is(85,38) then(85,43)
+
+[formula](86,6)
+
+Thus,(90,5) the(90,9) probability(90,21) distributions(90,35) of(90,38) the(90,42) field(90,48) per(90,57) phase(90,63) are(90,68) functions(91,9) of(91,12) great(91,18) importance,(91,30) since(91,36) they(91,41) carry(91,47) all(91,51) the(91,55) information(91,67) needed(92,6) to(92,9) build(92,15) up(92,18) the(92,22) effective(92,32) nonlinear(92,42) properties.(92,54) A(92,56) few(92,60) analyses(92,69) of(93,2) [formula](93,4) are(93,31) available(93,41) [\cite=BART97],(93,47) mainly(93,63) focused(93,71) on(94,2) its(94,6) tail(94,11) of(94,14) relevance(94,24) for(94,28) breakdown(94,38) phenomena(94,48) [\cite=DUXB95].(94,54) However,(94,72) up(95,2) to(95,5) my(95,8) knowledge,(95,19) none(95,24) has(95,28) been(95,33) specifically(95,46) aimed(95,52) at(95,55) the(95,59) individual(95,70) components(96,10) [formula].(96,12) Chen(96,48) and(96,52) Sheng(96,58) studied(96,66) numerically(97,11) the(97,15) distribution(97,28) of(97,31) the(97,35) local(97,46) field(97,53) in(97,56) binary(97,63) composites(98,10) [\cite=CHEN91].(98,16) An(98,28) analytical(98,39) model(98,45) of(98,48) the(98,52) same(98,57) distribution(98,70) was(99,3) subsequently(99,16) proposed(99,25) by(99,28) Barthélémy(99,34) and(99,51) Orland,(99,59) with(99,64) excellent(99,74) agreement(100,9) with(100,14) the(100,18) latter(100,25) simulations(100,37) [\cite=BART97].(100,43) Both(100,57) works(100,63) were(100,68) limited(101,7) to(101,10) linear(101,17) composites,(101,29) in(101,32) a(101,34) weak-contrast(101,48) situation.(101,59) A(101,61) first(101,67) numerical(102,9) attempt(102,17) in(102,20) the(102,24) continuum,(102,35) in(102,38) a(102,40) strong-contrast(102,56) situation(102,66) this(103,4) time,(103,10) is(103,13) due(103,17) to(103,20) Cheng(103,26) and(103,30) Torquato(103,39) [\cite=CHEN97].(103,45) They(103,59) carried(103,67) out(104,3) two-dimensional(104,19) numerical(104,29) calculations(104,42) on(104,45) disordered(104,56) systems(104,64) with(104,69) inclusions(105,10) of(105,13) various(105,21) shapes.(105,29) An(105,32) exact(105,38) calculation(105,50) for(105,54) P(105,56) in(105,69) a(106,1) linear(106,13) medium(106,21) with(106,26) Hashin-Shtrikman(106,43) (HS)(106,48) geometry(106,57) was(106,61) recently(106,70) made(107,4) using(107,10) a(107,12) density(107,20) of(107,23) states(107,30) approach(107,39) [\cite=CULE98].(107,45) In(107,57) these(107,63) works,(108,6) the(108,10) distribution(108,23) P(108,25) was(108,39) found(108,45) to(108,48) be(108,51) essentially(108,63) bimodal(109,7) for(109,11) a(109,13) binary(109,20) medium(109,27) (save(109,33) in(109,36) the(109,40) HS(109,43) geometry(109,52) where(109,58) fine-structure(110,14) peaks(110,20) are(110,24) not(110,28) wiped(110,34) out(110,38) by(110,41) positional(110,52) disorder),(110,63) especially(111,10) at(111,13) high(111,18) dielectric(111,29) contrast(111,38) [\cite=CHEN97].(111,44) This(111,58) is(111,61) understandable(112,14) in(112,17) wiew(112,22) of(112,25) the(112,29) decomposition(112,43) ([\ref=multimod]).(112,45)
+
+Still,(114,6) in(114,9) parallel(114,18) with(114,23) the(114,27) second(114,34) moment(114,41) of(114,44) the(114,48) field,(114,55) the(114,59) first(115,10) moment(115,18) in(115,21) each(115,26) phase(115,32) (the(115,37) average(115,45) field)(115,52) can(115,56) be(115,59) computed(115,68) as(116,2) well(116,7) from(116,12) any(116,16) linear(116,23) effective-medium(116,40) theory,(116,48) without(116,56) requiring(116,66) any(117,3) a(117,10) priori(117,17) knowledge(117,28) about(117,34) Pα.(117,36) Widely(117,61) used(117,66) in(117,69) mechanics(118,9) of(118,12) random(118,19) continuous(118,30) media(118,36) in(118,39) the(118,43) framework(118,53) of(118,56) the(118,60) so-called(119,9) "thermoelastic(119,25) problem"(119,35) [\cite=WILL81],(119,41) this(119,55) fact(119,60) seems(119,66) to(120,2) have(120,7) escaped(120,15) most(120,20) of(120,23) the(120,27) litterature(120,39) on(120,42) random(120,49) dielectric(120,60) media,(120,67) excepted(121,8) in(121,11) the(121,15) work(121,20) by(121,23) Ponte(121,29) Castañeda(121,35) and(121,47) Kailasam(121,56) [\cite=PONT97](121,62) where(122,5) it(122,8) is(122,11) used(122,16) to(122,19) compute(122,27) reference(122,37) fields(122,44) around(122,51) which(122,57) non-linear(122,68) potentials(123,10) are(123,14) expanded(123,23) prior(123,29) to(123,32) homogeneization.(123,49) Knowing(123,57) the(123,61) first(123,67) two(124,3) moments(124,11) is(124,14) enough(124,21) to(124,24) attempt(124,32) a(124,34) modelization(124,47) of(124,50) Pα.(124,52) The(125,3) proposal(125,12) examined(125,21) in(125,24) the(125,28) present(125,36) paper(125,42) is(125,45) to(125,48) approximate(125,60) each(125,65) [formula](126,1) by(126,34) a(126,36) gaussian(126,45) vector(126,57) distribution,(127,13) and(127,17) thereby,(127,26) to(127,29) estimate(127,38) ([\ref=weff])(127,40) for(127,55) any(127,59) potential,(127,70) without(128,7) appealing(128,17) to(128,20) the(128,24) strong(128,31) (and(128,36) somewhat(128,45) artificial)(128,57) decoupling(128,68) assumption(129,10) ([\ref=decoupl]).(129,12)
+
+The(131,3) scope(131,9) of(131,12) the(131,16) paper(131,22) is(131,25) limited(131,33) however(131,41) to(131,44) WNL(131,48) media,(131,55) for(131,59) which(131,65) it(131,68) is(132,2) sufficient(132,13) to(132,16) compute(132,24) the(132,28) field(132,34) distribution(132,47) to(132,50) linear(132,57) order(132,63) only(132,68) [\cite=AHAR87](133,5) [\cite=STRO88].(133,5) An(133,24) extension(133,34) of(133,37) these(133,43) considerations(133,58) to(133,61) strongly(134,8) nonlinear(134,18) media(134,24) will(134,29) be(134,32) examined(134,41) elsewhere.(134,52)
+
+General(136,16) framework(136,26)
+
+Let(138,3) us(138,6) therefore(138,16) consider(138,25) a(138,27) d-dimensional(138,29) random(138,50) medium(138,57) described(138,67) by(139,2) WNL(139,6) thermodynamic(139,20) potentials(139,31) of(139,34) the(139,38) type(139,43)
+
+[formula](140,6)
+
+where(144,5)
+
+[formula](145,6)
+
+(ε(x)(148,1) being(148,23) the(148,27) local(148,33) permittivity(148,46) entering(148,55) the(148,59) linear(148,66) part),(148,73) and(149,3) [formula](149,5) is(149,27) the(149,31) nonlinear(149,41) (i.e.(149,47) non-quadratic)(149,47) part(149,68) of(149,71) the(150,3) potential,(150,14) assumed(150,22) to(150,25) be(150,28) small.(150,35) The(150,39) local(150,45) constitutive(150,58) law(150,62) is(150,65)
+
+[formula](151,6)
+
+The(155,3) potential(155,13) is(155,16) prescribed(155,27) in(155,30) each(155,35) phase:(155,42) wx(E)(155,44) =(155,44) wα(E)(155,44) if(155,66) x∈α.(155,68) Under(156,5) the(156,9) ergodic(156,17) hypothesis(156,28) introduced(156,39) above,(156,46) and(156,50) a(156,52) "boundary"(156,65) condition(156,75) [\cite=NOTE1](157,5) [formula],(157,14) the(157,61) effective(157,71) potential(158,9) reads(158,15)
+
+[formula](159,6)
+
+where(162,5)
+
+[formula](163,6)
+
+The(171,3) effective(171,13) constitutive(171,26) law(171,30) in(171,33) the(171,37) homgeneized(171,49) medium(171,56) is(171,59) then(171,64)
+
+[formula](172,6)
+
+To(177,2) first(177,8) order(177,14) in(177,17) [formula],(177,19) the(177,40) field(177,46) distributions(177,60) entering(177,69) ([\ref=lin])(178,1) and(178,15) ([\ref=nonlin])(178,17) need(178,35) only(178,40) be(178,43) computed(178,52) at(178,55) the(178,59) linear(178,66) level(179,5) [\cite=AHAR87](179,11) [\cite=STRO88].(179,11) The(179,31) procedure(179,41) is(179,44) the(179,48) following(179,58) one.(179,63) An(179,66) extended(180,8) linear(180,15) anisotropic(180,32) homogeneization(180,49) problem(180,57) is(180,60) first(180,66) considered,(181,11) with(181,16) an(181,19) artificial(181,30) ferroelectric-like(181,49) part(181,54) added(181,60) to(181,63) the(181,67) potential(182,9) [\cite=PONT97]:(182,15)
+
+[formula](183,6)
+
+where(188,5) εij(x)(188,7) =(188,7) εαij(188,7) and(188,55) Pi(x)(188,57) =(188,57) Pαi(188,57) if(189,14) x∈α.(189,16) The(189,32) corresponding(189,46) local(189,52) constitutive(189,65) law(190,3) is(190,6) Di(190,8) =(190,8) εijEj(190,8) +(190,8) Pi.(190,8) Assuming(190,47) one(190,51) knows(190,57) an(190,60) estimate(190,69) for(191,3)
+
+[formula](192,6)
+
+(cf.(195,4) below),(195,4) the(195,17) following(195,27) exact(195,38) relations(195,49) hold(195,54) for(195,58) the(195,62) distribution(195,75) Pα(196,1) of(196,21) the(196,25) original(196,34) linear(196,41) problem(196,49) ([\ref=lin]):(196,51)
+
+[formula](199,6)
+
+I(209,1) emphasize(209,11) that(209,16) the(209,20) derivatives(209,32) are(209,36) computed(209,45) at(209,48) the(209,52) point(209,58) Pi(209,60) =(209,60) 0,(209,60) εαij(210,1) =(210,1) εαδij(210,1) where(210,62) εα(211,1) is(211,23) the(211,27) scalar(211,34) permittivity(211,47) in(211,50) ([\ref=orig])(211,52) and(212,3) ([\ref=lin]).(212,5) There,(212,23) [formula](212,25) and(213,3) [formula].(213,5) Note(213,49) that(213,54) ([\ref=avee])(213,56) is(214,2) a(214,4) slight(214,11) generalization(214,26) of(214,29) the(214,33) formula(214,41) [\cite=BERG78](214,47)
+
+[formula](215,6)
+
+Both(219,4) ([\ref=ave])(219,6) and(219,20) ([\ref=avee])(219,22) are(219,37) particular(219,48) cases(219,54) of(219,57) a(219,59) more(219,64) general(220,7) theorem,(220,16) the(220,20) demonstration(220,34) of(220,37) which(220,43) can(220,47) be(220,50) found(220,56) in(220,59) appendix(220,68) B(221,1) of(221,4) the(221,8) review(221,15) by(221,18) Ponte(221,24) Castañeda(221,30) and(221,42) Suquet(221,49) on(221,52) nonlinear(221,62) composites[\cite=PONT98].(222,10) This(222,29) theorem(222,37) is(222,40) a(222,42) consequence(222,54) of(222,57) the(222,61) equality(223,8) 〈DiEi〉(223,10) =(223,10) 〈Di〉〈Ei〉(223,10) which(224,5) holds(224,11) only(224,16) for(224,20) particular(224,31) boundary(224,40) conditions,(224,52) or(224,55) in(224,58) the(224,62) infinite-volume(225,15) limit(225,21) if(225,24) there(225,30) exists(225,37) an(225,40) effective(225,50) permittivity.(225,64)
+
+Let(227,3) us(227,6) set(227,10)
+
+[formula](228,6)
+
+with(233,4) [formula](233,6) and(233,48) [formula],(233,50) since(235,58) the(235,62) averages(236,8) only(236,13) depend(236,20) on(236,23) the(236,27) direction(236,37) Ê0i(236,39) =(236,39) E0i(236,39) /(236,39) E0(236,39) of(237,2) the(237,6) macroscopic(237,18) field.(237,25) I(237,27) introduce(237,37) now(237,41) the(237,45) gaussian(237,54) approximation(237,68) for(238,3) the(238,7) probability(238,19) distributions(238,33) Pα(238,35)
+
+[formula](239,6)
+
+which(243,5) constitutes(243,17) the(243,21) main(243,26) ingredient(243,37) of(243,40) the(243,44) theory.(243,52)
+
+There(245,5) remains(245,13) to(245,16) compute(245,24) an(245,27) approximation(245,41) for(245,45) the(245,49) quantities(245,60) [formula](246,1) and(246,44) [formula],(246,46) in(247,34) oprder(247,41) to(247,44) completely(247,55) define(247,62) the(248,3) above(248,9) gaussian(248,18) distributions.(248,33) Let(248,37) us(248,40) therefore(248,50) estimate(248,59) [formula](249,1) through(249,37) an(249,40) extension(249,50) of(249,53) the(249,57) Bruggeman(250,9) self-consistent(250,25) effective-medium(250,42) approximation[\cite=BRUG35](250,56) to(251,2) potentials(251,13) of(251,16) the(251,20) form(251,25) ([\ref=ferroel]).(251,27) The(251,46) formula(251,54) is(251,57) given(252,5) and(252,9) discussed(252,19) in(252,22) Appendix(252,31) A.(252,34) Using(252,40) the(252,44) scalar(252,51) permittivities(253,14) and(253,18) Pi(253,20) =(253,20) 0,(253,20) this(253,32) estimate(253,41) reduces(253,49) to(253,52)
+
+[formula](254,6)
+
+where(257,5) ε0(257,7) is(257,24) the(257,28) usual(257,34) Bruggeman(257,44) effective(257,54) permittivity[\cite=BRUG35].(258,12) In(258,29) addition,(258,39) the(258,43) derivatives(258,55) ([\ref=ave])(259,1) and(259,15) ([\ref=avee])(259,17) of(259,31) the(259,35) estimate(259,44) for(259,48) [formula](260,1) yield(260,35)
+
+[formula](261,6)
+
+where(267,5)
+
+[formula](268,6)
+
+Note(274,4) that(274,9) the(274,13) Bruggeman(274,23) equation(274,32) for(274,36) ε0(274,38) reads(274,58) 〈μ〉(275,1) =(275,1) 1,(275,1) or(275,25) alternatively(275,39) 〈με〉(275,41) =(275,41) 〈μ〉ε0(275,41) =(275,41) ε0.(275,41) From(277,4) these(277,10) relations,(277,21) we(277,24) check(277,30) that:(277,36) (i)(277,40) 〈εE〉(277,42) =(277,42) ε0〈E〉;(277,42) (ii)(278,46) 〈εE2〉(278,48) =(278,48) ε0〈E〉2,(278,48) where(279,51) 〈E〉(279,53) =(279,53) E0,(279,53) as(280,17) must(280,22) be.(280,26) Expressions(280,38) for(280,42) [formula](280,44) and(281,3) [formula](281,5) are(281,24) readily(281,32) obtained(281,41) from(281,46) ([\ref=ee]).(281,48)
+
+In(283,2) Fig.(283,7) 1(283,7) are(283,14) displayed(283,24) curves(283,31) for(283,35) the(283,39) probability(283,51) density(283,59) [formula](284,1) of(285,2) the(285,6) normalized(285,17) longitudinal(285,30) electric(285,39) field,(285,46) [formula],(286,1) for(287,3) a(287,5) binary(287,12) medium(287,19) with(287,24) dielectric(287,35) ratio(287,41) ε2(288,1) /(288,1) ε1(288,1) =(288,1) 5,(288,1) for(289,3) various(289,11) fractions(289,21) p2(289,23) of(290,2) material(290,11) 2.(290,14) The(290,18) space(290,24) dimension(290,34) is(290,37) d(290,39) =(290,39) 2.(290,39) With(291,4) P(E)(291,6) given(291,25) by(291,28) ([\ref=multimod]),(291,30) and(291,50) [formula](292,1) written(292,21) as(292,24) [formula](293,1) (which(294,6) defines(294,14) [formula]),(294,16) [formula](295,1) is(295,24) obtained(295,33) as(295,36)
+
+[formula](296,6)
+
+where(304,5) [formula](304,7) is(304,18) the(304,22) transverse(304,33) component(304,43) of(304,46) the(304,50) field:(304,57) [formula].(305,1) The(306,3) probability(306,15) density(306,23) tends(306,29) towards(306,37) a(306,39) Dirac(306,45) peak,(306,51) centered(306,60) at(307,2) [formula](307,4) as(307,25) p2(307,27) →(307,27) 0(307,27) or(307,39) p2(307,41) →(307,41) 1,(307,41) since(307,57) the(308,3) field(308,9) is(308,12) then(308,17) equal(308,23) to(308,26) the(308,30) applied(308,38) field(308,44) [formula].(308,46) For(309,3) intermediate(309,16) volume(309,23) fractions,(309,34) the(309,38) bimodal(309,46) character(309,56) of(309,59) the(310,3) probability(310,15) distribution(310,28) is(310,31) evident.(310,40)
+
+Under(312,5) the(312,9) same(312,14) conditions,(312,26) Fig.(312,31) 2(312,31) displays(312,43) the(312,47) probability(312,59) density(313,7) of(313,10) the(313,14) scaled(313,21) modulus(313,29) of(313,32) the(313,36) transverse(313,47) electric(313,56) field,(313,63) [formula].(314,1) This(314,19) distribution(314,32) is(314,35) defined,(314,44) for(314,48) [formula],(314,50) by(315,2)
+
+[formula](316,6)
+
+where(323,5) Sd(323,7) =(323,7) 2πd(323,7) /(323,7) 2(323,7) /(323,7) Γ(d(323,7) /(323,7) 2)(323,7) is(323,37) the(323,41) surface(323,49) of(323,52) a(323,54) d-dimensional(324,1) unit(324,20) sphere.(324,28) Unlike(324,35) the(324,39) previous(324,48) one,(324,53) this(325,4) distribution(325,17) is(325,20) not(325,24) multimodal(325,35) since(325,41) the(325,45) mean(325,50) value(325,56) of(326,2) the(326,6) transverse(326,17) field(326,23) is(326,26) [formula](326,28) in(327,16) each(327,21) phase,(327,28) whatever(327,37) the(327,41) volume(327,48) fractions.(327,59)
+
+Fig.(329,4) 3(329,4) displays(329,16) [formula](329,18) for(329,59) a(329,61) higher(329,68) dielectric(330,10) ratio(330,16) ε2(330,18) /(330,18) ε1(330,18) =(330,18) 1000.(330,18) The(331,3) concentrations(331,18) are(331,22) p2(331,24) =(331,24) 0.12,(331,24) 0.24,(331,36) 0.36.(331,44) These(331,56) plots(331,62) can(332,3) be(332,6) compared(332,15) to(332,18) that(332,23) obtained(332,32) from(332,37) hard(332,42) disks(332,48) simulations(332,60) by(332,63) Cheng(333,5) and(333,9) Torquato(333,18) (CT)(333,23) in(333,26) Fig.(333,31) 3(333,31) of(333,37) Ref.(333,42) [\cite=CHEN97],(333,42) for(333,62) the(334,3) same(334,8) dielectric(334,19) contrast(334,28) and(334,32) concentrations(334,47) p2(334,49) =(334,49) 0.2,(334,49) 0.4,(334,60) 0.6.(335,1) These(335,12) concentrations(335,27) differ(335,34) from(335,39) ours(335,44) by(335,47) a(335,49) factor(335,56) 0.6.(335,58) Apart(336,5) from(336,10) these(336,16) differences,(336,29) the(336,33) overall(336,41) features(336,50) (shape(336,57) and(336,61) heights)(337,8) of(337,11) the(337,15) probability(337,27) distributions(337,41) are(337,45) well(337,50) rendered:(337,60) a(338,1) Dirac(338,7) peak(338,12) close(338,18) to(338,21) [formula](338,23) indicates(338,47) that(338,52) the(338,56) field(338,62) is(339,2) almost(339,9) null(339,14) in(339,17) phase(339,23) 2,(339,25) and(339,32) a(339,34) widely(339,41) spread(339,48) contribution(339,61) from(340,4) phase(340,10) 1(340,12) for(340,16) the(340,20) highest(340,28) p2(340,30) indicates(340,44) an(340,47) enhancement(340,59) of(341,2) the(341,6) fluctuations(341,19) in(341,22) this(341,27) phase(341,33) as(341,36) the(341,40) percolation(341,52) threshold(342,9) (for(342,14) the(342,18) Bruggeman(342,28) theory),(342,37) or(342,40) the(342,44) jamming(342,52) threshold(343,9) (for(343,14) the(343,18) CT(343,21) simulations)(343,34) is(343,37) approached.(343,49) The(343,53) differences(344,11) in(344,14) the(344,18) values(344,25) for(344,29) p2(344,31) can(344,39) be(344,42) explained(344,52) by(344,55) the(345,3) fact(345,8) that(345,13) the(345,17) present(345,25) theory(345,32) relies(345,39) on(345,42) the(345,46) Bruggeman(345,56) effective-medium(346,16) formula,(346,25) of(346,28) relevance(346,38) for(346,42) cell-materials(346,57) but(347,3) not(347,7) really(347,14) adequate(347,23) for(347,27) hard(347,32) disks.(347,39) Moreover,(347,49) the(347,53) overall(348,7) agreement(348,17) between(348,25) our(348,29) distributions(348,43) and(348,47) that(348,52) of(348,55) CT(349,2) is(349,5) not(349,9) so(349,12) good(349,17) at(349,20) moderate(349,29) dielectric(349,40) contrast:(349,50) Bruggeman's(349,62) theory(350,6) completed(350,16) by(350,19) the(350,23) gaussian(350,32) approximation(350,46) somewhat(350,55) overestimates,(351,14) because(351,22) of(351,25) its(351,29) percolating(351,41) nature,(351,49) the(351,53) width(351,59) of(352,2) the(352,6) probability(352,18) distributions.(352,33) Better(352,40) adequation(352,51) with(352,56) the(352,60) CT(353,2) simulations(353,14) would(353,20) probably(353,29) be(353,32) obtained(353,41) with(353,46) an(353,49) effective-medium(354,16) theory(354,23) for(354,27) dielectric-coated(354,45) inclusions,(354,57) which(355,5) would(355,11) prevent(355,19) percolation.(355,32) Since(355,38) our(355,42) main(355,47) objective(355,57) however(356,7) is(356,10) to(356,13) discuss(356,21) an(356,24) effective-medium(356,41) therory(356,49) for(356,53) WNL(356,57) composites,(357,11) such(357,16) an(357,19) improvement(357,31) will(357,36) not(357,40) be(357,43) considered(357,54) here.(357,60)
+
+With(359,4) these(359,10) results(359,18) in(359,21) hand,(359,27) analytical(359,38) investigations(359,53) of(359,56) the(359,60) theory(360,6) can(360,10) be(360,13) carried(360,21) out(360,25) in(360,28) some(360,33) limiting(360,42) cases,(360,49) as(360,52) well(360,57) as(360,60) numerical(361,9) ones(361,14) in(361,17) more(361,22) complicated(361,34) situations.(361,46) The(361,50) next(361,55) section(362,7) examines(362,16) particular(362,27) WNL(362,31) potentials.(362,43)
+
+Weakly(364,15) nonlinear(364,25) power-law(364,35) potential(364,45)
+
+As(366,2) a(366,4) first(366,10) application,(366,23) a(366,25) WNL(366,29) local(366,35) potential(366,45) of(366,48) the(366,52) form(366,57)
+
+[formula](367,6)
+
+is(370,2) considered,(370,14) where(370,20) the(370,24) E4(370,26) term(370,35) is(370,38) the(370,42) first(370,48) in(370,51) a(370,53) series(370,60) of(370,63) corrections(370,75) to(371,2) the(371,6) linear(371,13) behaviour.(371,24) The(371,28) corresponding(371,42) constitutive(371,55) law(371,59) is(371,62)
+
+[formula](372,6)
+
+This(375,4) approximation(375,18) actually(375,27) is(375,30) a(375,32) weak-field(375,43) one.(375,48)
+
+Effective-medium(377,28) formula(377,36)
+
+The(379,3) effective(379,13) potential(379,23) takes(379,29) the(379,33) form(379,38)
+
+[formula](380,6)
+
+where(384,5) ε0(384,7) is(384,24) the(384,28) Bruggeman(384,38) result,(384,46) and(384,50) [\cite=STRO88](384,56) [\cite=BERG89](384,56)
+
+[formula](385,6)
+
+The(389,3) phase(389,9) averages(389,18) 〈E4〉α(389,20) are(389,50) carried(389,58) out(389,62) with(389,67) the(389,71) help(390,4) of(390,7) Wick's(390,14) theorem(390,22) which(390,28) allows(390,35) to(390,38) write(390,44) down(390,49) expressions(390,61) for(390,65) the(390,69) integer(391,7) moments(391,15) of(391,18) a(391,20) centered(391,34) vector(391,42) gaussian(391,51) distribution(391,64) by(391,67) mere(392,4) inspection(392,15) [\cite=LEBE92]:(392,21) with(392,35) Ai(392,37) =(392,37) Ei(392,37) -(392,37) Mαi,(392,37)
+
+[formula](393,6)
+
+We(398,2) deduce(398,9)
+
+[formula](399,6)
+
+A(407,1) few(407,5) simplifications(407,21) yield(407,27) the(407,31) simple(407,38) result(407,45)
+
+[formula](408,6)
+
+As(413,2) a(413,4) first(413,10) check,(413,17) we(413,20) remark(413,27) that(413,32) in(413,35) a(413,37) non-disordered(413,52) situation(413,62) where(414,5) ε(414,7) and(414,23) χ(414,25) are(414,34) constant(414,43) in(414,46) the(414,50) medium,(414,58) we(414,61) have(415,4) ε0(415,6) =(415,6) ε(415,6) and(415,36) μ(415,38) =(415,38) 1,(415,38) so(415,48) that(415,53) y(415,55) =(415,55) z(415,55) =(415,55) 1;(415,55) whence(416,6) χ0(416,8) =(416,8) χ,(416,8) as(416,24) was(416,28) expected.(416,38)
+
+Weak-contrast(418,25) expansion(418,35)
+
+A(419,1) further(419,9) check(419,15) for(419,19) the(419,23) self-consistent(419,39) formula(419,47) ([\ref=csc])(419,49) consists(419,68) in(420,2) examining(420,12) its(420,16) weak-contrast(420,30) limit.(420,37) An(420,40) exact(420,46) expression(420,57) is(420,60) known(420,66) for(421,3) any(421,7) nonlinear(421,17) potential,(421,28) which(421,34) is(421,37) first(421,43) briefly(421,51) reminded.(421,61) In(421,64) the(422,3) weak-contrast(422,17) expansion(422,27) [\cite=BLUM89](422,33) [\cite=PONT92](422,33) [\cite=PONT97](422,33) [\cite=BART98],(422,33) the(423,3) local(423,9) potentials(423,20) wx(y)(423,22) are(423,33) assumed(423,41) to(423,44) fluctuate(423,54) weakly(423,61) around(424,6) their(424,12) mean(424,17) value(424,23) w(0)(y)(424,25) =(424,25) 〈wx(y)〉.(424,25) Introducing(425,11) a(425,13) bookkeeping(425,25) parameter(425,35) t(425,37) to(425,42) be(425,45) set(425,49) to(425,52) 1(425,54) in(425,57) the(425,61) final(426,5) results,(426,14) the(426,18) contrast,(426,28) w(1)x(y),(426,30) is(426,47) defined(426,55) by(426,58)
+
+[formula](427,6)
+
+so(430,2) that(430,7) 〈w(1)x(y)〉(430,9) =(430,9) 0.(430,9) An(430,43) expansion(430,53) for(430,57) the(430,61) effective(431,9) potential(431,19) is(431,22) sought(431,29) for(431,33) in(431,36) the(431,40) form:(431,46)
+
+[formula](432,6)
+
+Then(435,4) [\cite=PONT97],(435,10)
+
+[formula](436,6)
+
+where(441,5)
+
+[formula](442,6)
+
+This(452,4) result(452,11) is(452,14) the(452,18) exact(452,24) one(452,28) [\cite=PONT97].(452,34) An(452,46) analogous(452,56) expansion(453,9) for(453,13) the(453,17) complementary(453,31) potential(453,41) W̃(D0)(453,43) defined(454,7) from(454,12) the(454,16) dual(454,21) homogeneization(454,37) problem(454,45) can(454,49) be(454,52) written(454,60) down(455,4) [\cite=PONT97](455,10) [\cite=BART98].(455,10)
+
+Let(457,3) us(457,6) therefore(457,16) set(457,20) ε(457,22) =(457,22) 〈ε〉(457,22) +(457,22) δε(457,22) t(457,22) and(458,27) χ(458,29) =(458,29) 〈χ〉(458,29) +(458,29) δχ(458,29) t.(458,29) The(459,19) Bruggeman(459,29) permittivity(459,42) ε0(459,44) is(460,2) exact(460,8) to(460,11) second(460,18) order(460,24) in(460,27) the(460,31) constrast:(460,42)
+
+[formula](461,6)
+
+Expanding(465,9) ([\ref=csc])(465,11) to(465,24) second(465,31) order(465,37) in(465,40) t(465,42) entails(465,52) [\cite=BART98](466,5)
+
+[formula](467,6)
+
+which(473,5) can(473,9) directly(473,18) be(473,21) obtained(473,30) from(473,35) a(473,37) first-order(473,49) expansion(474,9) of(474,12) ([\ref=general])(474,14) in(474,31) χ.(474,33)
+
+Comparing(476,9) now(476,13) formula(476,21) ([\ref=csc])(476,23) to(476,36) the(476,40) widely(476,47) used(476,52) approximation(476,66)
+
+[formula](477,6)
+
+we(482,2) see(482,6) that(482,11) the(482,15) latter(482,22) is(482,25) not(482,34) exact(482,41) to(482,44) second(482,51) order(482,57) in(483,2) the(483,6) contrast,(483,16) save(483,21) in(483,24) d(483,26) =(483,26) 1:(483,26) its(483,35) expansion(483,45) indeed(483,52) reads(483,58)
+
+[formula](484,6)
+
+Hence,(488,6) the(488,10) gaussian(488,19) decoupling(488,30) which(488,36) accounts(488,45) for(488,49) the(488,53) vector(488,60) character(489,9) of(489,12) the(489,16) electric(489,25) field,(489,32) of(489,35) importance(489,46) in(489,49) nonlinear(489,59) problems,(490,9) is(490,12) superior(490,21) to(490,24) the(490,28) simple(490,35) approximation(490,49) 〈E4〉≃〈E2〉2.(490,51)
+
+Dilute(493,18) limit(493,24)
+
+For(494,3) a(494,5) binary(494,12) medium(494,19) with(494,24) two(494,28) components(494,39) of(494,42) constitutive(494,55) parameters(495,10) (ε1,χ1)(495,12) and(495,39) (ε2,χ2),(495,41) the(496,3) dilute(496,10) limit(496,16) is(496,19) the(496,23) limiting(496,32) situation(496,42) where(496,48) the(496,52) volume(496,59) fraction(497,8) p(497,10) of(497,15) (e.g.)(497,22) component(497,32) 2(497,34) is(497,37) small.(497,44) Setting(498,7)
+
+[formula](499,6)
+
+an(502,2) expansion,(502,13) to(502,16) first(502,22) order(502,28) in(502,31) p(502,33) of(502,38) ([\ref=csc])(502,40) yields(502,57)
+
+[formula](503,6)
+
+Bergman(508,7) computed(508,16) the(508,20) exact(508,26) effective(508,36) nonlinear(508,46) conductivity(509,12) of(509,15) a(509,17) binary(509,24) medium(509,31) in(509,34) the(509,38) dilute(509,45) limit,(509,52) for(510,3) spherical(510,13) inclusions(510,24) [\cite=BERG89](510,30) [\cite=ZHAN94].(510,30) His(510,50) result(510,57) takes(510,63) the(510,67) form(510,72)
+
+[formula](511,6)
+
+Compared(517,8) to(517,11) ([\ref=bergres]),(517,13) expression(517,39) ([\ref=myres])(517,41) becomes(518,7) exact(518,13) when(518,18) χ1(518,20) =(518,20) 0(518,20) (nonlinear(518,40) inclusion(518,50) in(518,53) a(519,1) linear(519,8) host).(519,15) It(519,18) also(519,23) becomes(519,31) exact(519,37) for(519,41) d(519,43) =(519,43) 1,(519,43) and(519,52) in(520,2) the(520,6) limit(520,12) d(520,14) →(520,14) ∞(520,14) where(520,31) the(520,35) field(520,41) is(520,44) E(520,46) =(520,46) E0(520,46) in(521,2) each(521,7) phase(521,13) so(521,16) that(521,21) χ0(521,23) =(521,23) 〈χ〉.(521,23) Moreover,(522,9) it(522,12) is(522,15) exact(522,21) up(522,24) to(522,27) order(522,33) T2,(522,35) which(522,46) is(522,49) consistent(523,10) with(523,15) its(523,19) correct(523,27) limiting(523,36) weak-contrast(523,50) behavior.(524,9) For(524,13) d(524,15) =(524,15) 2,(524,15) it(524,23) is(524,26) exact(524,32) up(524,35) to(524,38) order(524,44) T3.(524,46) However,(525,8) the(525,12) term(525,17) of(525,20) order(525,26) T4(525,28) is(525,35) wrong(525,41) for(525,45) 2(526,1) ≤(526,1) d(526,1) <(526,1) ∞(526,1) .(526,1) The(527,3) reason(527,10) for(527,14) this(527,19) misbehaviour(527,32) is(527,35) that(527,40) the(527,44) dilute(527,51) limit(527,57) requires(527,66) an(528,2) exact(528,8) computation(528,20) of(528,23) 〈E4〉α(528,25) (to(528,55) linear(528,62) order)(528,69) [\cite=BERG89],(529,5) whereas(529,22) we(529,25) approximate(529,37) it(529,40) through(529,48) a(529,50) gaussian(529,59) average.(529,68)
+
+On(531,2) the(531,6) other(531,12) hand,(531,18) expression(531,29) ([\ref=chi02])(531,31) yields(531,50)
+
+[formula](532,6)
+
+once(536,4) again(536,10) a(536,12) result(536,19) less(536,24) precise(536,32) than(536,37) ([\ref=myres]).(536,39)
+
+At(538,2) the(538,6) present(538,14) time,(538,20) since(538,26) it(538,29) requires(538,38) an(538,41) exact(538,47) solution(538,56) for(538,60) the(539,3) one-body(539,12) problem,(539,21) the(539,25) test(539,30) of(539,33) the(539,37) dilute(539,44) limit(539,50) appears(539,58) to(539,61) be(539,64) the(540,3) most(540,8) challenging(540,20) one(540,24) for(540,28) nonlinear(540,38) effective-medium(540,55) theories.(540,65)
+
+This(542,4) test(542,9) is(542,12) illustrated(542,24) in(542,27) Fig.(542,32) 4(542,32) which(542,41) displays(542,50) χ0,(542,52) as(542,63) calculated(543,10) from(543,15) ([\ref=csc])(543,17) and(543,31) ([\ref=chi02]),(543,33) against(543,54) the(543,58) concentration(544,13) p(544,15) of(544,20) medium(544,27) 2,(544,30) for(544,34) moderate(544,43) dielectric(544,54) contrast(544,63) and(545,3) d(545,5) =(545,5) 2.(545,5) The(545,14) thick(545,20) line(545,25) segments(545,34) at(545,37) p(545,39) =(545,39) 0,1(545,39) represent(545,55) exact(545,61) tangents(546,8) obtained(546,17) from(546,22) ([\ref=bergres]).(546,24) The(546,43) tangent(546,51) at(546,54) p(546,56) =(546,56) 1(546,56) follows(547,7) from(547,12) substituting(547,25) (1(547,27) -(547,27) p)(547,27) for(547,37) p(547,39) and(547,45) interchanging(547,59) the(547,63) indices(548,7) 1(548,9) and(548,15) 2(548,17) in(548,22) ([\ref=bergres]).(548,24) Though(548,46) not(548,50) exact(548,56) in(548,59) the(548,63) dilute(549,6) limit,(549,13) formula(549,21) ([\ref=csc])(549,23) yields(549,40) tangents(549,49) quite(549,55) close(549,61) to(549,64) the(550,3) exact(550,9) ones.(550,15) The(550,19) marked(550,26) inaccuracy(550,37) of(550,40) formula(550,48) ([\ref=chi02])(550,50) near(551,4) p(551,6) =(551,6) 0(551,6) and(551,14) p(551,16) =(551,16) 1(551,16) results(551,28) in(551,31) a(551,33) lower(551,39) value(551,45) for(551,49) χ0(551,51) in(551,61) the(552,3) whole(552,9) concentration(552,23) range.(552,30)
+
+Percolative(554,23) behavior(554,32)
+
+Before(555,6) examining(555,16) the(555,20) predictions(555,32) of(555,35) Equ.(555,40) ([\ref=csc])(555,40) near(555,58) the(555,62) percolation(556,11) transition,(556,23) I(556,25) first(556,31) briefly(556,39) review(556,46) the(556,50) critical(556,59) behaviour(557,9) of(557,12) WNL(557,16) composites,(557,28) and(557,32) discuss(557,40) a(557,42) flaw(557,47) of(557,50) the(557,54) Bruggeman(558,9) formula(558,17) in(558,20) this(558,25) context.(558,34)
+
+An(560,2) insulator/perfect(560,20) conductor(560,30) binary(560,37) mixture(560,45) undergoes(560,55) a(560,57) percolation(561,11) transition(561,22) for(561,26) a(561,28) critical(561,37) metal(561,43) fraction(561,52) p(562,1) =(562,1) pc(562,1) [\cite=CLER90].(562,13) For(562,26) WNL(562,30) phases,(562,38) the(562,42) critical(562,51) behaviour(562,61) of(563,2) the(563,6) field(563,12) fluctuations(563,25) is(563,28) now(563,32) well(563,37) understood(563,48) [\cite=WRIG86].(564,5) In(564,17) the(564,21) limiting(564,30) situation(564,40) where(564,46) ε1(565,1) ≪(565,1) ε2,(565,1) and(565,37) for(565,41) p(565,43) ≤(565,43) pc,(565,43) one(566,3) observes(566,12) a(566,14) behaviour(566,24)
+
+[formula](567,6)
+
+on(571,2) the(571,6) contrary,(571,16) for(571,20) p(571,22) >(571,22) pc,(571,22) one(571,33) has(571,37)
+
+[formula](572,6)
+
+where(576,5) s(576,7) and(576,13) t(576,15) are(576,21) the(576,25) superconductivity(576,43) and(576,47) conductivity(576,60) exponents,(577,10) and(577,14) where(577,20) κ(577,22) and(577,33) κ'(577,35) are(577,47) the(577,51) noise(577,57) exponents(578,9) which(578,15) characterize(578,28) an(578,31) anomalous(578,41) nonlinear(578,51) susceptibility(579,14) enhancement(579,26) near(579,31) the(579,35) threshold(579,45) [\cite=RAMM85](580,5) [\cite=WRIG86].(580,5) As(580,24) a(580,26) consequence(580,38) of(580,41) the(580,45) exact(580,51) inequality(581,10) 〈E4〉(581,12) ≥(581,12) 〈E2〉2,(581,12) the(582,3) exponents(582,13) κ(582,15) and(582,26) κ'(582,28) are(582,40) necessarily(582,52) positive.(583,9)
+
+In(585,2) the(585,6) Bruggeman(585,16) formula,(585,25) pc(585,27) =(585,27) 1(585,27) /(585,27) d,(585,27) and(585,40) ε0≃ε1(585,42) /(585,42) (1(585,42) -(585,42) dp)(585,42) for(586,31) p(586,33) <(586,33) 1(586,33) /(586,33) d,(586,33) ε0≃ε2(1(586,42) -(586,42) dp)(586,42) /(586,42) (1(586,42) -(586,42) d)(586,42) for(587,36) p(587,38) >(587,38) 1(587,38) /(587,38) d(587,38) (ε1(588,1) ≪(588,1) ε2),(588,1) whence(588,42) s(588,44) =(588,44) t(588,44) =(588,44) 1.(588,44) Reporting(589,9) these(589,15) expressions(589,27) into(589,32) ([\ref=csc])(589,34) yields(589,51) κ(590,1) =(590,1) κ'(590,1) =(590,1) 0,(590,1) a(590,21) result(590,28) shared(590,35) by(590,38) all(590,42) effective-medium(591,16) formulae(591,25) based(591,31) on(591,34) ([\ref=derivscal]).(591,36)
+
+These(593,5) values(593,12) can(593,16) be(593,19) compared(593,28) to(593,31) exact(593,37) bounds(593,44) obtained(593,53) for(594,3) κ(594,5) and(594,16) κ'(594,18) on(594,29) the(594,33) basis(594,39) of(594,42) the(594,46) links-nodes-blob(595,16) (LNB)(595,22) model(595,28) for(595,32) electric(595,41) percolation,(595,54) now(596,3) commonly(596,12) accepted(596,21) as(596,24) a(596,26) model(596,32) for(596,36) e.g.(596,41) random(596,41) resistor(597,8) networks(597,17) (RRNs).(597,25) These(597,31) are(597,35) [\cite=WRIG86](597,41)
+
+[formula](600,6)
+
+(for(605,4) d(605,6) ≤(605,6) 6;(605,6) the(605,18) values(605,25) for(605,29) d(605,31) >(605,31) 6(605,31) are(605,39) that(605,44) of(605,47) d(605,49) =(605,49) 6.(605,49) Moreover(606,8) t(606,10) is(606,15) not(606,19) defined(606,27) for(606,31) d(606,33) =(606,33) 1),(606,33) where(606,45) ν(606,47) is(606,54) the(607,3) correlation(607,15) length(607,22) exponent:(607,32) [formula].(607,34) Though(608,6) the(608,10) latter(608,17) information(608,29) is(608,32) absent(608,39) from(608,44) the(608,48) Bruggeman(608,58) theory,(609,7) an(609,10) inequality(609,21) ν(609,23) >(609,23) 0(609,23) must(609,34) hold(609,39) in(609,42) any(609,46) situation(609,56) relevant(610,8) to(610,11) percolating(610,23) systems.(610,32) In(610,35) ([\ref=bounds]),(610,37) the(610,55) lower(611,5) bounds(611,12) must(611,17) not(611,21) be(611,24) greater(611,32) than(611,37) the(611,41) upper(611,47) ones,(611,53) which(612,5) leads(612,11) to(612,14) lower(612,20) bounds(612,27) for(612,31) the(612,35) exponents(612,45) s(612,47) and(612,53) t(613,1) themselves,(613,15) namely(613,22)
+
+[formula](614,6)
+
+In(618,2) the(618,6) Bruggeman(618,16) theory,(618,24) s(618,26) =(618,26) t(618,26) =(618,26) 1(618,26) so(618,35) that(618,40) only(618,45) ν(618,47) =(618,47) 0(618,47) -(619,2) a(619,4) problematic(619,16) value(619,22) by(619,25) itself(619,32) -(619,35) is(619,38) allowed,(619,47) save(619,52) for(619,56) d(620,1) =(620,1) 2.(620,1) Reporting(620,16) ν(620,18) =(620,18) 0(620,18) into(620,29) ([\ref=bounds])(620,31) leads(620,50) to(620,53) κ(621,1) =(621,1) κ'(621,1) =(621,1) -(621,1) 1,(621,1) which(621,26) is(621,29) unacceptable.(621,43) For(621,47) d(621,49) =(621,49) 2,(621,49) one(622,3) obtains(622,11) κ(622,13) =(622,13) κ'(622,13) =(622,13) 2ν(622,13) -(622,13) 1.(622,13) Compared(622,45) to(622,48) the(622,52) values(623,6) κ(623,8) =(623,8) κ'(623,8) =(623,8) 0(623,8) of(623,28) the(623,32) above(623,38) effective-medium(623,55) theory,(624,7) this(624,12) gives(624,18) ν(624,20) =(624,20) 1(624,20) /(624,20) 2,(624,20) a(624,31) non-conflicting(624,47) value,(624,54) though(625,6) lower(625,12) than(625,17) the(625,21) exact(625,27) result(625,34) 4(625,36) /(625,36) 3.(625,36)
+
+Of(627,2) course,(627,10) the(627,14) fact(627,19) that(627,24) Bruggeman's(627,36) formula(627,44) is(627,47) a(627,49) poor(627,54) approximation(628,13) near(628,18) the(628,22) percolation(628,34) threshold(628,44) is(628,47) well-known.(628,59) However,(629,8) this(629,13) discussion(629,24) enlightens(629,35) a(629,37) fundamental(629,49) inconsistency(630,13) in(630,16) the(630,20) Bruggeman(630,30) exponent(630,39) values(630,46) which(630,52) goes(631,4) beyond(631,11) mere(631,16) numerical(631,26) inadequacy,(631,38) as(631,41) long(631,46) as(631,49) one(631,53) wishes(632,6) to(632,9) estimate(632,18) the(632,22) properties(632,33) of(632,36) systems(632,44) obeying(632,52) the(633,3) LNB(633,7) scheme.(633,15) It(633,18) is(633,21) to(633,24) be(633,27) noted(633,33) that(633,38) for(633,42) d(633,44) =(633,44) 2,(633,44) where(633,55) no(634,2) inconsistency(634,16) appears,(634,25) the(634,29) exact(634,35) equality(634,44) s(634,46) =(634,46) t(634,46) holds(634,56) (a(635,2) consequence(635,14) of(635,17) self-duality)(635,31) [\cite=STRA77](635,37) and(635,49) is(635,52) obeyed(635,59) by(636,2) the(636,6) Bruggeman(636,16) exponents.(636,27)
+
+The(638,3) above(638,9) argument(638,18) is(638,21) to(638,24) be(638,27) brought(638,35) together(638,44) with(638,49) another(638,57) one(638,61) by(639,2) Bergman.(639,11) Discussing(639,22) the(639,26) failure(639,34) of(639,37) a(639,39) "non(639,45) ambiguous"(639,57) non-linear(640,10) Bruggeman-type(640,25) model,(640,32) he(640,35) concluded(640,45) that(640,50) bounds(640,57) for(641,3) fluctuations(641,16) always(641,23) refer(641,29) to(641,32) some(641,37) particular(641,48) type(641,53) of(641,56) microstructure,(642,15) and(642,19) that(642,24) no(642,27) such(642,32) bounds(642,39) exist(642,45) which(642,51) apply(642,57) to(643,2) all(643,6) materials(643,16) [\cite=BERG89].(643,22)
+
+Because(645,7) of(645,10) these(645,16) problems,(645,26) comparisons(645,38) between(645,46) effective-medium(646,16) theories(646,25) built(646,31) on(646,34) the(646,38) Bruggeman(646,48) formula,(647,8) and(647,12) simulations(647,24) on(647,27) RRNs(647,32) are(647,36) expected(647,45) to(647,48) be(648,2) more(648,7) significant(648,19) in(648,22) dimension(648,32) d(648,34) =(648,34) 2(648,34) (another(648,47) reason(649,6) for(649,10) preferring(649,21) the(649,25) two-dimensional(649,41) case(649,46) as(650,2) a(650,4) test-bench(650,15) is(650,18) that(650,23) the(650,27) bond(650,32) percolation(650,44) threshold(651,9) pc(651,11) =(651,11) 1(651,11) /(651,11) 2(651,11) on(651,22) a(651,24) square(651,31) lattice(651,39) is(651,42) exactly(651,50) reproduced(652,10) by(652,13) Bruggeman's(652,25) formula).(652,35) In(652,38) Fig.(652,43) 5(652,43) are(652,50) displayed(653,9) formulas(653,18) ([\ref=csc])(653,20) and(653,34) ([\ref=chi02])(653,36) against(654,7) p,(654,9) in(654,15) a(654,17) high(654,22) contrast(654,31) situation(654,41) (ε2(655,1) /(655,1) ε1(655,1) =(655,1) 10000).(655,1) The(655,42) same(655,47) trend(656,5) as(656,8) in(656,11) Fig.(656,16) 4(656,16) is(656,22) observed:(656,32) formula(656,40) ([\ref=csc])(656,42) yields(657,6) a(657,8) higher(657,15) estimate.(657,25) The(657,29) values(657,36) for(657,40) ε1,2(658,1) and(658,23) χ1,2(658,25) are(658,40) the(658,44) same(659,4) as(659,7) that(659,12) used(659,17) in(659,20) Fig.(659,25) 3(659,25) of(659,31) a(659,33) paper(659,39) by(659,42) Levy(659,47) and(660,3) Bergman(660,11) [\cite=LEVY94],(660,17) where(660,32) simulations(660,44) results(660,52) on(661,2) RRNs(661,7) are(661,11) reported,(661,21) and(661,25) compared(661,34) to(661,37) ([\ref=chi02]).(661,39) The(662,3) authors(662,11) remarked(662,20) that(662,25) the(662,29) height(662,36) of(662,39) the(662,43) peak(662,48) in(662,51) χ0(663,1) at(663,11) pc(663,13) was(663,21) badly(663,27) underestimated(663,42) by(663,45) ([\ref=chi02]),(663,47) which(664,5) gives(664,11) [formula](664,13) only.(664,50) In(664,53) their(665,5) numerical(665,15) simulations,(665,28) for(665,32) a(665,34) 30(665,36) ×(665,36) 30(665,36) network,(665,57) the(666,3) peak(666,8) height(666,15) is(666,18) found(666,24) to(666,27) be(666,30) [formula].(667,1) In(667,37) the(667,41) infinite-size(668,13) limit,(668,20) this(668,25) value(668,31) is(668,34) expected(668,43) to(669,2) increase(669,11) somewhat.(669,21) In(669,24) Fig.(669,29) 5,(669,29) the(669,37) height(669,44) of(670,2) the(670,6) peak(670,11) given(670,17) by(670,20) ([\ref=csc])(670,22) is(670,35) [formula],(671,1) which(671,39) thus(671,44) compares(672,8) fairly(672,15) well(672,20) to(672,23) simulations.(672,36)
+
+Other(674,17) power-law(674,27) nonlinearities(674,42)
+
+In(675,2) this(675,7) section,(675,16) potentials(675,27) of(675,30) the(675,34) type(675,39) ([\ref=orig])(675,41) where(676,5) [\cite=AHAR87](676,11)
+
+[formula](677,6)
+
+are(680,3) considered.(680,15) For(680,19) simplicity,(680,31) γ(680,33) is(680,43) assumed(680,51) to(680,54) be(680,57) constant(681,8) in(681,11) the(681,15) material.(681,25) The(681,29) gaussian(681,38) averages(681,47) over(681,52) the(681,56) field(682,5) in(682,8) each(682,13) phase(682,19) are(682,23) carried(682,31) out(682,35) numerically,(682,48) with(682,53) the(682,57) help(683,4) of(683,7) a(683,9) bi-variate(683,20) integration(683,32) routine.(683,41) One(683,45) integration(683,57) variable(684,8) is(684,11) the(684,15) field(684,21) modulus(684,29) E,(684,31) and(684,38) the(684,42) other(684,48) is(684,51) the(684,55) cosine(685,6) [formula].(685,8) In(685,46) fig.(685,51) [\ref=fig6](686,4) are(686,14) shown(686,20) plots(686,26) for(686,30)
+
+[formula](687,7)
+
+computed(691,8) from(691,13) gaussian(691,22) averages,(691,32) for(691,36) a(691,38) moderate(691,47) dielectric(692,10) contrast(692,19) and(692,23) various(692,31) powers(692,38) γ(692,40) >(692,40) 1(692,40) ranging(693,7) from(693,12) γ(693,14) =(693,14) 1.5(693,14) to(693,28) γ(693,30) =(693,30) 5,(693,30) against(693,48) the(694,3) volume(694,10) fraction(694,19) p(694,21) of(694,26) medium(694,33) 2(694,35) (solid(694,42) lines).(694,50) An(695,2) exponential(695,14) enhancement(695,26) of(695,29) χ0(695,31) is(695,41) observed(695,50) with(696,4) increasing(696,15) γ.(696,17) Its(696,29) origin(696,36) lies(696,41) in(696,44) the(696,48) existence(697,9) of(697,12) a(697,14) non-zero(697,23) probability(697,35) for(697,39) E(697,41) >(697,41) E0(697,41) in(698,2) the(698,6) composite,(698,17) since(698,23) [formula](698,25) by(699,2) definition.(699,14) These(699,20) fluctuations(699,33) are(699,37) amplified(699,47) by(699,50) the(699,54) nonlinearity,(700,13) while(700,19) that(700,24) for(700,28) which(700,34) E(700,36) <(700,36) E0(700,36) are(700,46) reduced.(700,55) The(701,3) larger(701,10) the(701,14) width(701,20) of(701,23) the(701,27) probability(701,39) distribution,(701,53) the(702,3) larger(702,10) this(702,15) enhancement,(702,28) so(702,31) that(702,36) the(702,40) peak(702,45) culminates(703,10) in(703,13) the(703,17) region(703,24) p≃pc(703,26) =(703,26) 1(703,26) /(703,26) 2.(703,26) Once(703,48) again,(704,6) the(704,10) estimates(704,20) of(704,23) the(704,27) present(704,35) theory(704,42) are(704,46) much(704,51) higher(705,6) than(705,11) that(705,16) predicted(705,26) by(705,29) the(705,33) decoupling(705,44) assumption(705,55)
+
+[formula](706,6)
+
+(dashed(711,7) lines),(711,15) especially(711,26) for(711,30) large(711,36) values(711,43) of(711,46) γ.(711,48) This(712,4) is(712,7) understandable,(712,23) since(712,29) the(712,33) functions(712,43) to(712,46) be(712,49) averaged(712,58) can(712,62) be(713,2) written(713,10) [formula],(713,12) where(713,52) f(z)(714,1) =(714,1) z(1(714,1) +(714,1) γ)(714,1) /(714,1) 2(714,1) /(714,1) (1(714,1) +(714,1) γ).(714,1) For(714,39) γ(714,41) >(714,41) 1,(714,41) these(714,57) functions(714,67) are(715,3) convex,(715,11) so(715,14) that(715,19) 〈f(z)〉(715,21) ≥(715,21) f(〈z〉).(715,21) Therefore,(716,10) the(716,14) decoupling(716,25) assumption(716,36) always(716,43) underestimates(716,58) the(716,62) fluctuations(717,12) when(717,17) applied(717,25) to(717,28) such(717,33) potentials.(717,45) An(717,48) overestimation(717,63) would(718,5) instead(718,13) take(718,18) place(718,24) with(718,29) concave(718,37) potentials.(718,49)
+
+Conclusion(720,19)
+
+In(722,2) this(722,7) article,(722,16) a(722,18) theory(722,25) for(722,29) the(722,33) nonlinear(722,43) susceptibility(722,58) of(722,61) weakly(723,6) nonlinear(723,16) composites(723,27) is(723,30) proposed.(723,40) This(723,45) theory(723,52) is(723,55) based(723,61) on(724,2) a(724,4) multimodal(724,15) gaussian(724,24) approximation(724,38) for(724,42) the(724,46) overall(724,54) probability(725,11) distribution(725,24) of(725,27) the(725,31) electric(725,40) field,(725,47) to(725,50) linear(725,57) order.(726,6) The(726,10) parameters(726,21) which(726,27) define(726,34) this(726,39) distribution(726,52) (means(726,59) and(727,3) second(727,10) moments,(727,19) in(727,22) each(727,27) phase(727,33) of(727,36) the(727,40) disordered(727,51) medium),(727,60) are(728,3) obtained(728,12) from(728,17) Bruggeman's(728,29) theory,(728,37) whose(728,43) limitations(728,55) are(728,59) discussed(729,9) in(729,12) this(729,17) context.(729,26) The(729,30) present(729,38) model(729,44) provides(729,53) for(729,57) the(729,61) first(730,5) time(730,10) an(730,13) analytical(730,24) estimate(730,33) for(730,37) the(730,41) probability(730,53) distribution(730,66) of(731,2) the(731,6) electric(731,15) field,(731,22) for(731,26) arbitrarily(731,38) high(731,43) dielectric(731,54) contrast,(731,64) in(732,2) percolating(732,14) media.(732,21) The(732,25) resulting(732,35) effective(732,45) nonlinear(732,55) susceptibility(732,70) is(733,2) exact(733,8) to(733,11) second(733,18) order(733,24) in(733,27) the(733,31) contrast,(733,41) and(733,45) close(733,51) to(733,54) the(733,58) exact(733,64) result(733,71) in(734,2) the(734,6) dilute(734,13) limit.(734,20) Significant(734,32) quantitative(734,45) improvement(734,57) is(734,60) obtained(734,69) on(735,2) previous(735,11) nonlinear(735,21) effective-medium(735,38) theories,(735,48) even(735,53) in(735,56) the(735,60) percolating(735,72) regime,(736,7) at(736,10) least(736,16) in(736,19) the(736,23) two-dimensional(736,39) case.(736,45) This(736,50) study(736,56) emphasizes(736,67) the(736,71) importance(737,10) of(737,13) accounting(737,24) for(737,28) the(737,32) vector(737,39) character(737,49) of(737,52) the(737,56) electric(737,65) field(737,71) when(738,4) averaging(738,14) the(738,18) local(738,24) potentials.(738,36) Improvements(738,49) of(738,52) the(738,56) present(738,64) theory(738,71) could(739,5) consist(739,13) in(739,16) finding(739,24) a(739,26) better(739,33) approximation(739,47) than(739,52) the(739,56) gaussian(739,65) one(739,69) for(740,3) the(740,7) components(740,18) of(740,21) the(740,25) probability(740,37) distribution(740,50) of(740,53) the(740,57) field.(740,64) More(740,69) realistic(741,9) distributions(741,23) could(741,29) be(741,32) obtained(741,41) by,(741,45) e.g.,(741,51) extending(741,61) the(741,65) perturbative(742,12) theory(742,19) of(742,22) Barthélémy(742,28) and(742,45) Orland(742,52) [\cite=BART97](742,58) to(742,69) high(742,74) dielectric(743,10) contrasts(743,20) via(743,24) self-consistent(743,40) effective-medium(743,57) approximations.(743,73)
+
+Self-consistent(752,24) anisotropic(752,36) linear(752,43) theory(752,50) with(752,55) permanent(752,65) polarization(752,78)
+
+With(755,4) local(755,10) potentials(755,21) of(755,24) the(755,28) form(755,33) ([\ref=ferroel]),(755,35) the(755,54) homogeneized(755,67) potential(756,9) reads(756,15)
+
+[formula](757,6)
+
+where(762,5)
+
+[formula](763,6)
+
+and(770,3) the(770,7) Bruggeman(770,17) condition(770,27) for(770,31) ε0ij(770,33) is(770,55) 〈μij〉(771,1) =(771,1) δij.(771,1)
+
+Formula(773,7) ([\ref=wlin])(773,9) has(773,24) been(773,29) derived(773,37) by(773,40) means(773,46) of(773,49) a(773,51) functional(773,62) formalism(773,72) [\cite=PELL99],(774,5) used(774,19) with(774,24) a(774,26) trial(774,32) potential(774,42) of(774,45) the(774,49) form(774,54) [\cite=PELL99b](774,60) W0(E)(775,1) =(775,1) (1(775,1) /(775,1) 2)Eiε0ijEj(775,1) +(775,1) P0iEi(775,1) +(775,1) c0.(775,1) Rather(775,61) than(775,66) to(775,69) give(776,4) a(776,6) demonstration(776,20) which(776,26) would(776,32) complicate(776,43) the(776,47) present(776,55) article,(776,64) the(776,68) validity(777,8) of(777,11) ([\ref=wlin])(777,13) is(777,27) established(777,39) by(777,42) looking(777,50) at(777,53) its(777,57) consequences.(777,71) First,(778,6) one(778,10) can(778,14) easily(778,21) check(778,27) that,(778,33) for(778,37) a(778,39) binary(778,46) medium,(778,54) ([\ref=wlin])(778,56) exactly(779,7) reduces(779,15) to(779,18) formula(779,26) (2.16)(779,33) in(779,36) the(779,40) work(779,45) by(779,48) Ponte(779,54) Castañeda(779,60) and(780,3) Kailasam(780,12) [\cite=PONT97].(780,18) Next,(780,33) the(780,37) average(780,45) field(780,51) per(780,55) phase,(780,62) 〈Ei〉α(781,1) =(781,1) Mαi,(781,1) is(781,42) (using(781,49) the(781,53) symmetry(781,62) of(781,65) the(781,69) tensors(782,7) g(782,9) and(782,15) μg;(782,17) μ(782,26) itself(782,37) is(782,40) not(782,44) necessarily(782,56) symmetric)(782,67)
+
+[formula](783,6)
+
+From(788,4) the(788,8) definition(788,19) of(788,22) P0i,(788,24) one(788,35) deduces(788,43) that(788,48) 〈M〉(788,50) =(788,50) E0,(788,50) in(789,2) agreement(789,12) with(789,17) the(789,21) boundary(789,30) conditions.(789,42) Finally,(789,51) the(789,55) macroscopic(789,67) consitutive(790,11) relation(790,20) derived(790,28) from(790,33) the(790,37) effective(790,47) potential,(790,58) namely(790,65)
+
+[formula](791,6)
+
+is(795,2) consistent(795,13) with(795,18) the(795,22) equation(795,31)
+
+[formula](796,6)
+
+with(800,4) Mαj(800,6) computed(800,26) with(800,31) ([\ref=eav]).(800,33) This(800,49) directly(800,58) follows(800,66) from(801,4) the(801,8) equivalent(801,19) form(801,24) of(801,27) the(801,31) Bruggeman(801,41) equation,(801,51) 〈εijμjk〉(802,1) =(802,1) ε0ij〈μjk〉(802,1) =(802,1) ε0ij,(802,1) and(803,40) from(803,45) the(803,49) identity(803,58) μαij(804,1) =(804,1) δij(804,1) +(804,1) μαikgkl(εαli(804,1) -(804,1) ε0li).(804,1)

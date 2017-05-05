@@ -1,0 +1,1347 @@
+Self-Consistent Effective-Medium Approximations with Path Integrals
+
+[48;5;167mYves-Patrick Pellegrini1 and Marc Barthélémy1,2[0m
+
+[48;5;167marXiv:cond-mat/0001223v1 [cond-mat.mtrl-sci] 17 Jan 2000[0m
+
+[48;5;167m1[0m
+
+[48;5;167m2[0m
+
+[48;5;167mService de Physique de la Matière Condensée,[0m
+[48;5;167mCommissariat à l’Energie Atomique,[0m
+[48;5;167mBP12, 91680 Bruyères-le-Châtel, France.[0m
+[48;5;167mCenter for Polymer Studies and Dept. of Physics, Boston University, Boston, MA 02215.[0m
+[48;5;167m(Last modified: December 9, 1999. Printed: February 1, 2008[0m
+[48;5;167mTo be published in Physical Review E.[0m[48;5;167mWe study effective-medium approximations for linear composite media by means of a path integral[0m
+[48;5;167mformalism with replicas. We show how to recover the Bruggeman and Hori-Yonezawa effectivemedium formulas. Using a replica-coupling ansatz, these formulas are extended into new ones which[0m
+[48;5;167mhave the same percolation thresholds as that of the Bethe lattice and Potts model of percolation,[0m
+[48;5;167mand critical exponents s 0 and t 2 in any space dimension d 2. Like the Bruggeman and[0m
+[48;5;167mHori-Yonezawa formulas, the new formulas are exact to second order in the weak-contrast and dilute[0m
+[48;5;167mlimits. The dimensional range of validity of the four effective-medium formulas is discussed, and it[0m
+[48;5;167mis argued that the new ones are of better relevance than the classical ones in dimensions d 3, 4 for[0m
+[48;5;167msystems obeying the Nodes-Links-Blobs picture, such as random-resistor networks.[0m
+
+[48;5;167mPACS numbers: 05.10.a, 05.40.a, 05.50.q, 72.70.m[0m
+
+[38;5;1mI.[0m Introduction
+
+Among various effective-medium formulas used to model the effective behavior of random conducting linear composites, the symmetrical Bruggeman formula [90m[\cite=BRUG35] [\cite=LAND52][0m is undoubtly the most popular. Applied to an insulator/conductor binary mixture, it predicts a percolation-like transition [90m[\cite=KIRK71] [\cite=CLER90] [\cite=STAU92] [\cite=SAHI98][0m for a volumic fraction of conductor pc 1 d, where d is the space dimension. The critical exponents are s t 1, and its critical properties are thoroughly discussed in Ref. [90m[\cite=CLER90].[0m This formula can be interpreted in two ways. On one hand, Milton has shown [90m[\cite=MILT85][0m that it yields the exact effective conductivity of an ad hoc ideal medium built with a particular hierarchical structure. On the other hand, the Bruggeman formula can be seen as a first (one-body) self-consistent approximation to general disordered symmetric cell-materials [90m[\cite=MILL69],[0m to which systematic corrections could be worked out. However, the Bruggeman approximation is very different from a mean-field theory of random conducting media. Indeed, an exact mean-field calculation on the Bethe lattice [90m[\cite=STIN73] [\cite=STRA74][0m predicts a percolation threshold pc 1 (2d) and exponents s 0 and t 3. These exponents are exact for d 6, as well as the asymptotic behavior of the threshold when d (at least, for the hypercubic lattice [90m[\cite=STAU92][0m to which a continuum theory naturally compares [90m[\cite=NOTE1]).[0m These values are also obtained in a more systematic mean-field theory for random resistor networks [90m[\cite=STEP77].[0m The remarkable discrepancy between the mean-field results and Bruggeman's formula indicates the ambiguous status of the Bruggeman theory. As a matter of fact, in spite of various (mostly perturbative) investigations [90m[\cite=HORI75] [\cite=BERG81] [\cite=LUCK91][0m in order to precise its theoretical status, the reasons for the peculiar critical behavior of Bruggeman's formula are not completely cleared up. More surprisingly, another self-consistent effective-medium approximation [90m[\cite=HORI75] [\cite=HORI77][0m due to Hori and Yonezawa (HY)obtained for the same type of media by means of a completely different approximation scheme (and later derived by functional methods [90m[\cite=BART93]),[0m exhibits the same exponents s t 1 and a similar threshold behavior pc 1 exp 1 d) 1 d.
+
+[38;5;1m‖[0m Apart from phenomelogical variants, and up to our knowledge, the Bruggeman and HY effective-medium formulas are the only ones obtained from the equations of electrostatics in continuous media which are able to describe, at least qualitatively, the overall features of a percolation transition in any dimension. One intriguing question concerns the possibility of deriving alternative effective-medium formulas from a continuum formulation, which do not lead to the seemingly unavoidable values s t 1 and pc 1 d. As we show in this paper, such a possibility exists. Our starting point is the path integral approach recently put forward by Barthélémy and Orland [90m[\cite=BART98],[0mwhere the effective-medium problem is recast in a functional form. The problem reduces to compute a free-energy: roughly, the logarithm, averaged over the disorder, of a functional integral of Boltzmann-like weights, over allowed field configurations (which include boundary conditions)The average of the logarithm is carried out with the replica method (already used in Ref. [90m[\cite=STEP77]).[0m In Ref. [90m[\cite=BART98],[0m the authors showed that the path integral formulation allows one to easily recover the second-order weak-disorder expansion of the effective permittivity of nonlinear composites [90m[\cite=BLUM91].[0m
+
+[48;5;167m1[0m
+
+However, this formulation has not yet been used to derive self-consistent estimates. In this paper, we show how this can be done. After a presentation of the functional approach to the homogeneization problem, and of the replica method (Sec. [90m[\ref=pifotp]),[0m we discuss self-consistent effective-medium approximations (Sec. [90m[\ref=posa]).[0m As usual in such approximations, a background reference medium is introduced under the form of an ansatz for the energy of the system, whose parameters are to be determined self-consistently (Sec. [90m[\ref=o]).[0m The new feature here is that the ansatz contains a replica-coupling term, whose significance is explained (Sec. [90m[\ref=rcacota]).[0m The self-consistency conditions to determine its parameters are next discussed, and two types of effective-medium formulas are identified (Sec. [90m[\ref=sc]):[0m one in which the replica couplings are cancelled (hereafter referred to as "type 1"and the other one with non-zero replica couplings type 2"Two different approximations are then worked out for each type (Sec. [90m[\ref=tm]).[0m It is found that type 1 generates the Bruggeman and HY formulas, whereas type 2 brings in two new effective-medium formulas which are "replica coupling counterparts" of the previous ones. They possess exponents s 0, t 2, and a threshold pc 1 (2d) (Sec. [90m[\ref=nef]).[0m These new formulas are discussed in Sec. [90m[\ref=d],[0m where numerical results are presented before we conclude in Sec. [90m[\ref=c].[0m
+
+[38;5;1m‖[0m Path integral formulation of the problem
+
+The effective properties of a random conducting medium can be defined with the help of the total dissipated power in the medium [90m[\cite=WILL86][\cite=SANC87] [\cite=PONT92b].[0m In terms of the electric field E(x)the dissipated power w in the system of volume V reads
+
+[38;5;1m‖[0m [90m[formula][0m
+
+where wx is the local power density.
+
+[38;5;1m‖[0m Hereafter, we take the volume V of the sample equal to one. In heterogeneous materials, wx depends on constitutive parameters randomly varying from point to point. For linear conducting media with j(x) σ(x)E(x)where σ is the local random conductivity and j is the electric current, we have
+
+[38;5;1m‖[0m [90m[formula][0m
+
+In the analogous effective permittivity problem the dissipated power is replaced by the stored energy ε(x)[90m[[0m[38;5;1mE 2[0m[90m/[0m[38;5;22mE2([0m[90m][0m x) 2 (ε is the permittivity)For this reason, we shall abusively refer to wx as the "energy density" hereafter. In the nonlinear problem, wx(E) is a non-quadratic function of E.
+
+[38;5;1m‖[0m An alternative to solving Maxwell's equations is to minimize the total energy W subjected to the two constraints [90m[\cite=WILL86] [\cite=SANC87]: (i) [formula][0m and (ii) [90m[formula];[0m here, the bar stands for a spatial average, and E0 is a constant applied electric field. The minimum, [90m[formula],[0m is expected to be self-averaging, as occurs for the free-energy in disordered systems. We can therefore write
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mmin W [E][0m
+
+[48;5;167m(3)[0m
+
+[48;5;167mE=E0[0m
+[48;5;167mE=φ[0m
+
+where the brackets [38;5;1mh·i[0m denote the disorder average. W*E0) is the energy in a homogeneous medium characterized by an effective constitutive law [90m[\cite=WILL86][0m
+
+[90m[formula][0m
+
+[48;5;167m∂W (E0 σeff E0 ∂E0[0m
+
+[48;5;167m(4)[0m
+
+The second equality defines the effective conductivity of the medium.
+
+[38;5;1m‖[0m The problem thus reduces to computing the average of the constrained minimum of a functional of the electric field. The electric field derives from a potential and has a fixed mean value. We can rewrite the constrained minimum in [90m([\ref=mini])[0m using a path integral
+
+[38;5;1m‖[0m [90m[formula][0m
+
+The minimum can be interpreted as the ground state energy associated to the partition function
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(6)[0m
+
+where we have used the shorthand notation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mZ[0m
+
+[48;5;167mDφ δ(E ∇φ)[0m
+
+[48;5;167m(7)[0m
+
+for the constrained functional measure. We need to compute the average of the logarithm of [90m([\ref=ZZ]).[0m In order to proceed, we introduce replicas [90m[\cite=EDWA75] [\cite=MEZA87][0m and use the identity [90m[formula], hence[0m
+
+[90m[formula][0m
+
+[48;5;167mβ→n→0[0m
+
+[48;5;167m1[0m
+[48;5;167m(hZ n i 1)nβ[0m
+
+[48;5;167m(8)[0m
+
+[48;5;167m1[0m
+[48;5;167mln hZ n i[0m
+[48;5;167mnβ[0m
+
+[48;5;167m(9)[0m
+
+The limits do not commute. The equivalent form
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mβ→n→0[0m
+
+can be used as well. The replica method relies on the fact that one can easily compute the replicated partition function [90m[[0m[48;5;167mhZ n i[0m[90m/[0m[48;5;70m〈Zn〉[0m[90m][0m for n integer, and subsequently take the limit n 0. The main quantity of interest therefore is
+
+[38;5;1m‖[0m [90m[formula][0m
+
+Denoting the replicated measure by [90m[formula],[0m [48;5;167mα[0m
+
+[48;5;167mQn[0m
+
+[48;5;167mα=1[0m
+
+[48;5;167mhZ n i with[0m
+[48;5;167mHe[0m [48;5;167mD̃E α[0m [38;5;1m==[0m the average [90m[[0m[48;5;167mhZ n i[0m[90m/[0m[48;5;70m〈Zn〉[0m[90m][0m can be written in terms of an "effective [38;5;1m==[0m [90m[[0m[48;5;167mZ[0m[90m/[0m[48;5;70mHamiltonian"[0m[90m][0m [90m[formula][0m
+
+[48;5;70mwith[0m
+
+[90m[formula][0m
+
+[48;5;167mD̃ E α e−βHe[0m [48;5;167m1 D −β Pn W [E α E[0m
+[48;5;167mα=1[0m
+[48;5;167mln e[0m
+[48;5;167mβ[0m
+
+[48;5;167m(11)[0m
+
+[48;5;167m(12)[0m
+
+For simplicity, we restrict ourselves to cell materials where the local properties are statistically uncorrelated from site to site. Volume [90m[[0m[38;5;1mRintegrals[0m[90m/[0m[38;5;22mintegrals[0m[90m][0m may [38;5;1mP[0m then to be identified with sums over sites (each pertaining to one cell) according to the correspondence [90m[formula],[0m where v is an infinitesimal cell volume (which defines the microscopic correlation length of the problem)Then, He simplifies to
+
+[90m[formula][0m
+
+[38;5;1m‖[0m Note that our discussion in Sec. III will be specialized to binary disorder for which the constitutive parameters can take only two values (but the proofs are general)That is, we assume that the local energy density is distributed according to the probability distribution
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m (where q 1 p)With this choice,
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(15)[0m
+
+The above formalism applies to any form of the energy density, and in particular to nonlinear media [90m[\cite=BERG92] [\cite=PONT92a] [\cite=YU94] [\cite=PONT97].[0m A method for extracting from the path integral the second-order weak-contrast perturbation expansion of the effective potential W*E0)for nonlinear media, has been introduced in Ref. [90m[\cite=BART98].[0m
+
+[38;5;1m‖[0m Principle of self-consistent approximations
+
+In this paper, we consider the linear problem only. This section is devoted to self-consistent approximations to W*We first present the principle for building such approximations through the introduction of a trial Hamiltonian. Then, we discuss the choice of a trial Hamiltonian with replica couplings. Finally, we explain how to exploit these replica couplings in order to obtain two kinds of self-consistent formulas.
+
+[38;5;1m3[0m
+
+[38;5;1mA.[0m Overview
+
+The common ingredient to the approximations discussed below is the introduction of a linear comparison medium described by a trial Hamiltonian H0 which is quadratic in the electric field and non-random, e.g. the one-parameter ansatz
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m where σ0 0 is to be determined by an appropriate self-consistency condition. This Hamiltonian is that of a (replicated) homogeneous medium, but without couplings between replicas. Its meaning and that of other possible choices with replica couplings are discussed below.
+
+[38;5;1m‖[0m The partition function [90m[[0m[48;5;167mhZ n i[0m[90m/[0m[48;5;70m〈Zn〉[0m[90m][0m can be rewritten as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+or, with another notation
+
+[90m[formula][0m
+
+[48;5;167m(18)[0m
+
+[48;5;167mW W0 ∆W,[0m
+
+[48;5;167m(19)[0m
+
+[48;5;167m0[0m
+
+where Z0 is the partition function associated to H0, and [90m[formula][0m stands for the functional average with weights e- βH0 Z0. Equ. [90m([\ref=wstar])[0m thus reads
+
+[90m[formula][0m
+
+where
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(20)[0m
+[48;5;167m(21)[0m
+
+The quantity [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW([0m[90m][0m E0) is difficult to compute (an exact evaluation would lead to the exact result for the effective conductivity)and we have to resort to approximations.
+
+[38;5;1m‖[0m A natural self-consistency condition for H0 is
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(22)[0m
+
+which completely determines H0 in the case where it depends on one single parameter, as in [90m([\ref=trybrug]).[0m For more general choices of H0 with several free parameters, [90m([\ref=sccond])[0m only provides a relation between these parameters, and additional considerations are in order to determine them all. First of all, we have to precise the form of the ansatz to be used in our calculations.
+
+[38;5;1mB.[0m Replica couplings and choice of the ansatz
+
+We deduce here the form of the trial Hamiltonian H0 from an analysis of the effective Hamiltonian He. Eq. [90m([\ref=heff])[0m shows that the effective Hamiltonian is non-random but that the average over disorder introduced a coupling between different replicas. The meaning of these couplings is more transparent if we carry out an expansion of [90m([\ref=heff])[0m around the average field [90m[formula][0m as in the weak-contrast expansion [90m[\cite=BART98].[0m With ∂i ∂Ei and [90m[[0m[48;5;167m∆E α E α[0m[90m/[0m[48;5;70mΔEα Eα[0m[90m][0m E0 we have
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167m(23)[0m
+
+[48;5;167m2[0m
+[48;5;167maij h∂ij[0m
+[48;5;167mwx (E0 )i,[0m
+[48;5;167m(2)[0m
+[48;5;167mcij (x[0m
+
+[48;5;167m(24)[0m
+
+[48;5;167my) h∂i wx (E0 j wy (E0 )i h∂i wx (E0 )ih∂j wy (E0 )i.[0m
+
+[48;5;167m(25)[0m
+
+The first non-zero replica-coupling term is proportional to βc(2)We thus see that the coupling between replicas acts only within clusters defined by n-point connected correlation functions c(n)and accounts for the fluctuations of the electric field in these clusters. The replica coupling would vanish if there were no disorder at all. In the limit where the size of the region defined by c(2) shrinks to zero which means that the system is observed at a macroscopic level, we can approximate
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(2)[0m
+
+[48;5;167mcij (x y) vcij (0)δ(x y)[0m[48;5;167m(26)[0m
+
+and we recover the expansion
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mZ[0m
+
+[48;5;167mdx[0m
+
+[48;5;167mX[0m
+
+[48;5;167maij ∆Eiα (x)Ejα (x)[0m
+
+[48;5;167mvβ[0m
+
+[48;5;167mα[0m
+
+[48;5;167mX[0m
+
+[48;5;167m(2)[0m
+[48;5;167mcij (0)Eiα (x)Ejγ (x)[0m
+
+[48;5;167mα,γ[0m
+
+[48;5;167m(27)[0m
+
+which could directly be obtained from [90m([\ref=calf]).[0m The presence of v in front of the replica coupling term is the macroscopic remnant of a microscopic average having been taken within a two-particle cluster, of center x and volume v. This discussion therefore enlightens a relation between replica coupling and the electric field fluctuations within clusters.
+
+[38;5;1m‖[0m Expansion [90m([\ref=expan])[0m suggests a two-parameter replica-symmetric ansatz of the form
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167m(29)[0m
+
+The free parameters are σ0 and Q. Note that Q has the dimension of a squared conductivity, because it is related to a quantity relative to two points. For simplicity, the ansatz M is diagonal in the euclidean vector space. However, [38;5;1m(2)[0m
+we tried calculations with a tensorial structure reproducing that of aij and [90m[[0m[48;5;167mcij[0m[90m/[0m[48;5;70mc(2)ij[0m[90m][0m in Eqs. [90m([\ref=aa]), ([\ref=bb]);[0m but, apart from a different normalization for Q, no differences showed up in the final effective-medium theories (as far as linear media are concerned)[38;5;1m‖[0m An interesting feature of the ansatz [90m([\ref=matmok])[0m is that, though being non-random, it embodies underlying disorder through its replica couplings. In order to understand this point, we compute W0(E0) given by [90m([\ref=wo])[0m
+
+[90m[formula][0m
+
+After writing [90m[formula],[0m and going to the Fourier transform of φ [90m[\cite=NOTE2],[0m we arrive at
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Carrying out the derivative of [90m([\ref=wopath])[0m with respect to σ0, we obtain
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(31)[0m
+
+[48;5;167m(32)[0m
+
+[48;5;167m0[0m
+
+where volume averages [90m[formula][0m have been replaced by statistical ones, the microscopic size [90m[[0m[38;5;1mv 1/[0m[90m/[0m[38;5;22mv1[0m[90m][0m d being much smaller than that of the system, [90m[[0m[38;5;1mV 1/[0m[90m/[0m[38;5;22mV1[0m[90m][0m d 1. All the replicas are equivalent, and the functional average [90m[[0m[38;5;1mh·i0[0m[90m/[0m[38;5;22m〉0[0m[90m][0m selects in the limit β the real field in the medium. Hence, setting [90m[[0m[38;5;1m∆E[0m[90m/[0m[38;5;22mΔE[0m[90m][0m E E0, the previous equation leads to
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(33)[0m
+
+which implies that Q 0. When [90m[formula],[0m the electric field fluctuates in the medium, whereas it is uniform when Q 0. The ansatz H0 therefore represents a medium which is homogeneized (because it is non-random)but which nonetheless accounts for field fluctuations. We thus expect new effective medium approximations when the replica coupling Q is non zero.
+
+[38;5;1m5[0m
+
+[38;5;1mC.[0m Self-consistency
+
+Up to this point the discussion focused on the ansatz itself, without referring to He. In particular, σ0 was treated as a mere number. We now discuss what happens when self-consistency is imposed, within some approximation scheme. The medium is made of N phases labelled by ν, of respective conductivities σν and volume concentrations pν. The self-consistency relation [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW([0m[90m][0m E0) 0, which imposes constraints on the ansatz, determines Q as a function Q Q(σ0,σν}Then W* W0 and, with [90m([\ref=constef]),[0m
+
+[90m[formula][0m
+
+Suppose now that σ0 σ0(σν}is determined by an additional condition (to be precised below)Using the exact formula [90m[\cite=BERG78][0m (cf. Appendix [90m[\ref=qfotf])[0m
+
+[90m[formula][0m
+
+the fluctuations of the electric field deduced from [90m([\ref=sigeff])[0m can be written
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(35)[0m
+
+[48;5;167m(36)[0m
+
+where the last derivative is performed at constant σ0. This expression distinguishes between different contributions to the field fluctuations: (i) the first term represents fluctuations coming from the "macroscopic" background effective medium σ0; (ii) the second one is that already found in [90m([\ref=qq]),[0m and would be the only one if Q were independent from σ0, and if σ0 were equal to [90m[[0m[38;5;1mhσi,[0m[90m/[0m[38;5;22m〈σ〉[0m[90m][0m the trivial value corresponding to a non-fluctuating reference medium for a multiphase composite, cf. Appendix [90m[\ref=qfotf];[0m (iii) and finally a third term comes from the dependence of Q on σ0 and σν. Both last terms are, according to the interpretation of replica coupling developped in the previous section, of "microscopic" origin.
+
+[38;5;1m‖[0m We now turn to the determination of σ0(σν}A first obvious self-consistency condition for σ0 is [90m[formula],[0m so that [90m[formula].[0m The effective-medium formulas obtained this way are referred to as "type 1" hereafter. As is shown below, to this type pertain the Bruggeman and HY formulas.
+
+[38;5;1m‖[0m "Type 2" effective-medium formulas are obtained by taking σ0 as the solution of [90m[formula],[0m and by using this value in [90m[formula].[0m According to [90m([\ref=qberg]),[0m this procedure makes the effective-medium insensitive to the fluctuations generated in the reference medium σ0, so that relevant fluctuations only come from Q.
+
+[38;5;1mIV.[0m Two approximations
+
+In this section, the ideas introduced above are used within two different approximations to [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW([0m[90m][0m E0)based on the ansatz [90m([\ref=ansatz]), ([\ref=matmok]).[0m For each approximation to [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW,[0m[90m][0m "type 1" and "type 2" formulas are obtained. Herafter, q Q [90m[[0m[38;5;1mσ02[0m[90m/[0m[38;5;22mσ20,[0m[90m][0m so that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(37)[0m
+
+[38;5;1mA.[0m One-impurity approximation
+
+We first consider a "one-impurity" (or "local"calculation. The Bruggeman formula emerges as the "type 1" effective-medium formula in this approximation, which is not suprising since it can be seen as a one-site (self-consistent) theory [90m[\cite=HORI75] [\cite=LUCK91].[0m
+
+[48;5;167m6[0m
+
+[38;5;1m1.[0m Approximation scheme
+
+The approximation for [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW([0m[90m][0m E0) [Eq. [90m([\ref=dwo])],[0m detailed in Appendix [90m[\ref=appb],[0m is a one-impurity approximation where interactions between different points are ignored. Let us denote by w0 the trial Hamiltonian density, which depends on all the replicas, defined from [90m([\ref=ansatz]), ([\ref=matmok]) by[0m
+
+[90m[formula][0m
+
+Here and in Appendix [90m[\ref=appb],[0m the notation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(39)[0m
+
+[48;5;167mthe one-impurity approximation results in[0m
+[48;5;167mE[0m
+[48;5;167mE[0m
+[48;5;167mD[0m
+[48;5;167m1 DD −βv∆wx [E(x)E[0m
+[48;5;167m−1 e[0m
+[48;5;167me−β(He −H0 1 v[0m
+[48;5;167m0[0m
+[48;5;167m0[0m
+
+[48;5;167m(40)[0m
+
+[48;5;167mα[0m
+
+[48;5;167mBecause of statistical translation invariance, the final result is independant of the point x. The right-hand side can[0m
+[48;5;167mbe computed exactly for any potential wx in the limit β using a saddle-point method. Setting ∆σ σ σ0 and[0m
+[48;5;167m1[0m
+[48;5;167m∆σ[0m
+[48;5;167mµ= 1+[0m
+[48;5;167mdσ0[0m
+
+[48;5;167m(41)[0m
+
+[48;5;167mwe arrive at[0m
+[48;5;167m∆W (E0[0m [48;5;167mq[0m
+[48;5;167m1[0m
+[48;5;167mh∆σµiE02 hσµiE02 2[0m
+[48;5;167m2[0m
+
+[48;5;167m(42)[0m
+
+[48;5;167mThe condition ∆W (E0 0 yields[0m
+[48;5;167mq=[0m[48;5;167mh∆σµi[0m
+[48;5;167mhσµi[0m
+
+[48;5;167m(43)[0m
+
+[38;5;1m2.[0m Type 1 formula: Bruggeman's
+
+Letting [90m[formula][0m amounts to imposing [90m[[0m[38;5;1mh∆σµi[0m[90m/[0m[38;5;22m〈Δσμ〉[0m[90m][0m 0, which is nothing but the Bruggeman equation
+
+[90m[formula][0m
+
+[48;5;167m(44)[0m
+
+The Bruggeman equation can also be written [90m[[0m[38;5;1mhµi[0m[90m/[0m[38;5;22m〈μ〉[0m[90m][0m 1, or σ0 [90m〈σμ〉 if [formula],[0m or σ0 [90m[[0m[38;5;1mhσµi/hµi.[0m[90m/[0m[38;5;22m〈σμ〉 〈μ〉[0m[90m][0m The last expression is suitable for computing σ0 iteratively (starting, e.g.from σ0 [90m[[0m[38;5;1mhσi)[0m[90m/[0m[38;5;22m〈σ〉[0m[90m][0m in any dimension. The Bruggeman conductivity [90m[formula][0m possesses a percolation threshold pc 1 d, and critical exponents s t 1 [90m[\cite=CLER90].[0m
+
+[38;5;1m‖[0m The fluctuations computed from [90m([\ref=berg]) read[0m
+
+[90m[formula][0m
+
+[48;5;167m(45)[0m
+
+[38;5;1m3.[0m Type 2 formula
+
+We now let q [38;5;1m6=[0m 0 and given by [90m([\ref=qbrug]) and [formula].[0m The equation [90m[formula] reads[0m
+
+[90m[formula][0m
+
+[48;5;167mhµihσ 2 µ2 i hσµ2 ihσµi[0m
+[48;5;167m1+[0m
+[48;5;167m2dhσµi2[0m
+[48;5;167m7[0m
+
+[48;5;167m(46)[0m
+
+Like Bruggeman's, this equation is easily solved by iterations starting from σ0 [90m[[0m[38;5;1mhσi.[0m[90m/[0m[38;5;22m〈σ〉[0m[90m][0m The iterations then always converge to the physical solution, which we denote by [90m[[0m[38;5;1mσ0∗[0m[90m/[0m[38;5;22mσ*0.[0m[90m][0m The effective conductivity thus is [90m[formula].[0m To study its critical behavior, we consider a binary mixture, where σ σ1 with probability (1 p)and σ σ2 with probability p. In the conductor/superconductor limit where σ2 we find, setting pc 1 (2d 1)[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mand[0m
+
+[90m[formula][0m
+
+[48;5;167mh[0m
+[48;5;167mi[0m
+[48;5;167mp[0m
+[48;5;167m1 dp (1 p)1 p/pc p2 (d 1)2[0m
+
+[48;5;167m(p pc[0m [48;5;167m(48)[0m
+
+The critical concentration pc can be interpreted as a percolation threshold, and is the same as that obtained in the mean-field model on a Bethe lattice [90m[\cite=STEP77][0mwith connectivity z 2d. Since [90m[formula] for [formula],[0m the superconductivity exponent is s 0. Note however that σ0 displays a square-root cusp at p pc. The critical behavior for p pc is obtained by exmining the insulator/conductor mixture where σ2 is finite and σ1 0. Then
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mSince [formula] for [formula],[0m [48;5;167mσ0∗ σ2[0m
+[48;5;167mσeff[0m
+
+[48;5;167m(49)[0m
+[48;5;167m(p pc[0m [48;5;167m(50)[0m
+
+[48;5;167mSince σeff (p pc )2 for p pc[0m the conductivity exponent is t 2.
+
+[38;5;1m‖[0m For the special case of d 1, [90m[[0m[38;5;1mµ[0m[90m/[0m[38;5;22mμ[0m[90m][0m σ0 σ so that [90m([\ref=eqsigo])[0m reduces to [90m[formula],[0m and q 0. Therefore, [90m[formula],[0m which is the exact result. Like Bruggeman's, the new formula is also exact to second order in the contrast, in any dimension
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m and in the dilute limit where (e.g.p2 1
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mσ2 σ1[0m
+[48;5;167m1+d[0m
+[48;5;167mσ2 (d 1)σ1[0m
+
+[48;5;167m(52)[0m
+
+In the discussion (Section [90m[\ref=d]),[0m it is argued that because of its exponents [90m[formula],[0m and because it is less trivial than the Bruggeman formula (especially in the insulator/conductor case where it does not reduce to a straight line)this formula may constitute an easy-to-handle alternative to the latter in dimensions d 3. Graphical comparisons between different effective-medium formulas are discussed in Sec. [90m[\ref=d].[0m
+
+[38;5;1m‖[0m Cumulant series approximation
+
+In this section, we show how to recover by means of a cumulant approximation to [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW[0m[90m][0m the effective-medium formula of HY, together with its "type 2" counterpart.
+
+[38;5;1m1.[0m Approximation scheme
+
+We consider the first-order cumulant approximation
+
+[38;5;1m‖[0m [90m[formula][0m
+
+We have then
+
+[90m[formula][0m
+
+[48;5;167m(53)[0m
+
+[48;5;167m∆W (E0 n→0[0m
+[48;5;167mlim[0m
+[48;5;167mβ→[0m[48;5;167m1[0m
+[48;5;167mhHe H0 i0 n[0m
+
+[48;5;167m(54)[0m
+
+As is shown in Appendix C, the calculations here involve an expansion in a series of the cumulants of the distribution of σ, whose significance has been discussed at length in the original paper by HY [90m[\cite=HORI77].[0mAfter some algebra, we obtain (cf. Appendix C)
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167mwhere[0m
+
+[48;5;167mh0 (z)[0m [48;5;167mZ[0m
+
+[48;5;167mdu e−u lnhe−uσz i.[0m
+
+[48;5;167m(56)[0m
+
+[48;5;167m0[0m
+
+The family of functions hk is defined in Appendix C. The self-consistency [90m[[0m[38;5;1m∆W[0m[90m/[0m[38;5;22mΔW([0m[90m][0m E0) 0 now yields
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(57)[0m
+
+[38;5;1m2.[0m Type 1 formula: the Hori-Yonezawa formula
+
+We first consider the case with no couplings between replicas, i.e. q 0. The HY formula for σ0 reads
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(58)[0m
+
+and the effective conductivity is [90m[formula].[0m It can be shown that [90m[formula][0m displays a percolation threshold pc 1 exp 1 d)and exponents s t 1 [90m[\cite=HORI77].Applying ([\ref=berg])[0m and using [90m([\ref=deriv]),[0m the fluctuations read
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Type 2 formula
+
+We now consider q [38;5;1m6=[0m 0 and determined as a function of σ0 by [90m([\ref=q]). Then[0m
+
+[90m[formula][0m
+
+[48;5;167m(60)[0m
+
+The equation for σ0 is [90m[formula];[0m that is, with [90m([\ref=deriv])[0m
+
+[90m[formula][0m
+
+[48;5;167m1 h1 1/dσ0 0.[0m
+[48;5;167m2+[0m
+[48;5;167md h20 1/dσ0[0m [48;5;167m(61)[0m
+
+In order to study the critical behavior of [90m[formula],[0m we consider again a binary mixture where σ σ1 with probability (1 p)and σ σ2 with probability p. In the conductor/superconductor case where σ2 we have [90m[formula][0m and a similar equation for h1, so that [90m([\ref=deriveq])[0m reduces to a second-degree polynomial equation. Its physical solution reads
+
+[38;5;1m‖[0m [90m[formula][0m
+
+It is defined for p less than a critical value
+
+[90m[formula][0m
+
+[48;5;167m(62)[0m
+
+[48;5;167mpc 1 e−1/2d)[0m [48;5;167m(63)[0m
+
+This percolation threshold is the same as the one obtained in the Potts model at the mean-field level, and in the mean-field theory of Ref. [90m[\cite=STEP77]. Reporting ([\ref=solinf]) into ([\ref=phiosol]),[0m we arrive at
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mSince [formula] for [formula],[0m [48;5;167m(p pc[0m [48;5;167m(64)[0m
+
+[48;5;167mSince σeff (pc p)0 for p pc[0m the superconductivity exponent is s 0.
+
+[38;5;1m‖[0m In the opposite insulator/conductor case, where σ1 0 and σ2 is finite, the solution for p pc can only be found perturbatively around the percolation threshold. Expanding the logarithm in h0 and h1 as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(65)[0m
+
+[48;5;167ml≥1[0m
+
+and defining
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX 1)l−1[0m
+[48;5;167ml≥1[0m
+
+[48;5;167ml2[0m
+
+[48;5;167mxl[0m [48;5;167mZ[0m
+
+[48;5;167m0[0m
+
+[48;5;167mx[0m
+
+[48;5;167mdt[0m
+[48;5;167mln(1 t)t[0m
+
+[48;5;167m(66)[0m
+
+we find that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m and that
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m4d2 A[0m
+
+[48;5;167m4d2 A[0m
+
+[48;5;167mσ2[0m
+[48;5;167m(p pc O (p pc )2 pc 1 pc[0m [48;5;167mσ2[0m
+[48;5;167m(p pc )2 O (p pc )3[0m
+[48;5;167mpc 1 pc[0m [48;5;167m(p pc[0m [48;5;167m(67)[0m
+
+[48;5;167m(68)[0m
+
+where the conductivity exponent is t 2. Hence, as in the previous "one-impurity" approximation, the [90m[[0m[38;5;1mreplicacoupling[0m[90m/[0m[38;5;22mreplica-coupling[0m[90m][0m ansatz yields critical exponents s 0, t 2, and an asymptotic dependence of the threshold pc 1 (2d) when 2d 1. One can easily check that this new "type 2" effective-medium formula is exact to second order in the weak-contrast limit and in the dilute limit.
+
+[38;5;1m‖[0m After a few manipulations, we now obtain with [90m([\ref=berg]) and ([\ref=q])[0m
+
+[90m[formula][0m
+
+[48;5;167m∆E 2[0m
+[48;5;167mq[0m
+[48;5;167m(69)[0m
+[48;5;167m2q[0m
+[48;5;167m1[0m
+[48;5;167m2[0m
+[48;5;167m2[0m
+[48;5;167mhEi[0m
+
+[38;5;1mV.[0m Discussion
+
+We plot in Fig. [90m[\ref=fig1] (resp. [\ref=fig2])[0m the "type 2" scaled conductivities [90m[formula][0m versus p, the volume fraction of material 2, for a dielectric ratio σ2 σ1 10 (resp. σ2 σ1 1000)We also show the Hashin-Shtrikman (HS) bounds [90m[\cite=HASH62], the Hori-Yonezawa[0m formula which comes from a cumulant series (CS) approximation, and the one-impurity (OI) Bruggeman formula. The dimension is d 2. Figs. [90m[\ref=fig3] and [\ref=fig4][0m display similar plots for d 3.
+
+[38;5;1m‖[0m For moderate contrast (Figs. 1 and 3)we observe that all four self-consistent formulas lie close to each other. This is a consequence of the fact that they are exact to second order in the contrast. Also, for any contrast, the slopes at p 0 and p 1 are all identical, which is a consequence of the fact that they are exact to second order in the dilute limit p 0 (the expression near p 1 is obtained by replacing p by p 1 and by interchanging σ1 and σ2)We also observe that the HS bounds are satisfied in each case considered. However, the formulas obtained via the cumulant series summation, i.e. both the HY formula and its "type 2" counterpart, do not reduce to the exact result [90m[formula][0m in dimension 1 (not shown)This exact result is also the common value of the HS bounds for d 1. Hence, formulas derived from the cumulant series approximation do not obey the HS bounds in dimension d 1. On the other hand, both the Bruggeman formula and its "type 2" counterpart do reduce to the exact result when d 1, and can be seen to always obey the HS bounds whatever d is. The one-impurity approximation scheme therefore appears to be of better physical relevance for all dimensions, than the cumulant series approximation.
+
+[38;5;1m10[0m
+
+We now discuss the critical behavior. First of all, the percolation thresholds found in the"type 2" formulas are [90m[formula][0m (cumulant series) and pc 1 (2d 1) (one-impurity)These thresholds are the percolation thresholds of the Potts model, and that of the Bethe lattice model, respectively. Both thresholds decrease as 1 (2d) when d which is the exact asymptotics. The Bethe and Potts models are mean-field models, where emphasis is put on fluctuations in the couplings between a given site and its neighbours. On the contrary, in effective-medium theories, interactions between impurities are taked into account through the self-consistent background medium. Such interactions are more important for low dimensions. Effective-medium theories therefore overestimate interactions in high dimensions, whereas mean-field models are expected to underestimate them in low dimensions. Above the upper critical dimension where mean-field models are accurate, interactions between impurities become irrelevant. According to this discussion, our "type 2" formulas appear as hybrids between mean-field and usual effective-medium theories, and are expected to be mostly relevant in dimensions intermediate between d 1 and the upper critical dimension d 6. Indeed, the condition [90m[formula][0m minimizes the influence of the background medium and, according to the interpretation developped in Sec. [90m[\ref=rcacota],[0m replica coupling has to do with couplings between neighboring points. The reason for which the introduction of a replica-coupling ansatz yields the exact thresholds of mean-field theories [38;5;1m2[0m
+[38;5;1m==[0m will have to be clarified in the future. In Fig. [90m[\ref=fig5],[0m we plot the quadratic fluctuations [90m[formula][0m as a function of p. The fluctuations in the "type 2" estimates are greatly reduced compared to those of the Bruggeman and HY formula. This is consistent with the fact that the influence of the background is reduced.
+
+[38;5;1m‖[0m "Type 1" formulas give exponents s t 1, while for "type 2" formulas they are s 0, t 2. Mean-field theories yield s 0, t 3 which are the exact values for d 6. It is interesting to compare these values to exact bounds deduced from the Nodes-Links-Blobs (NLB) model, in all dimensions. The NLB model is currently accepted as a good one for the backbone structure of real random resistor networks [90m[\cite=STAU92].[0mThe bounds read
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(70a)[0m
+[48;5;167m(70b)[0m
+
+where ν 0 is the correlation length exponent: [90m[formula].[0m They hold for 2 d 6, whereas for d 6 the right-hand sides in [90m([\ref=expbounds])[0m are fixed to their d 6 values. These bounds follow, e.g.from comparing the lower and upper exact bounds obtained in Ref. [90m[\cite=WRIG86][0m for the noise exponent κ in weakly nonlinear networks, within the NLB scheme. They are satisfied by simulation results [90m[\cite=WRIG86].[0m Using the usual effective-medium values s t 1 in [90m([\ref=expbounds])[0m implies the absurd value ν 0, save for d 2 where a finite value of ν is allowed. Though information about the correlation length ξ (and therefore about ν) is not included in the Bruggeman nor in the HY formulas, the above bounds show that, as long as they are meant to model percolating systems obeying the NLB picture, these formulas are truly adequate only in dimension d 2 and d 1 where the Bruggeman formula is exact. As to "type 2" formulas, we insert the values s 0, t 2 into [90m([\ref=expbounds])[0m and deduce that ν 1 (d 2)a reasonable expression for d 3 only. If we furthermore insist on having ν 1 2 as in real systems, these heuristic arguments restrict the range of validity of the new formulas to d 3,4. Note, moreover, that only in dimension d 2 are the exponents equal: s t, because of self-duality [90m[\cite=STRA77].[0m A formula with unequal exponents therefore is expected to be essentially relevant to dimensions 3.
+
+[38;5;1m‖[0m We also quote theoretical bounds for t due to Golden, valid for hierarchical NLB models: 1 t 2 for d 2,3 and 2 t 3 for d 4 [90m[\cite=GOLD90].[0m The above analysis is consistent with these bounds, and can be summarized as a set of prescriptions for using the "best" available effective medium theories, as far as a non-conflicting critical behaviour is concerned: for d 1, Bruggeman's formula, or its "type 2" counterpart are exact; for d 2, the Bruggeman or HY formulas are adequate; for d 3,4, "type 2" formulas are applicable; finally, for d 5 mean-field theories would be the most relevant. Estimates or exact values for the exponents are [90m[\cite=STAU92]:[0m (ν,s,t) (4 3,1.3,1.3)d 2, (0.88,0.73,2.00)d 3, (0.68,0.4,2.4)d 4, (0.57,0.1,2.7)d 5, (1 2,0,3)d 6. These values support our prescriptions.
+
+[38;5;1m‖[0m An interesting observation is that actually both "type 1" and "type 2" formulas can be given by a variational formulation as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mmin[0m
+
+[48;5;167mσeff (σ0[0m [48;5;167m(71)[0m
+
+[48;5;167mmax[0m
+
+[48;5;167mσeff (σ0[0m [48;5;167m(72)[0m
+
+[48;5;167mσ0 ≥0[0m
+[48;5;167m0≤q(σ0 1[0m
+
+[48;5;167mσ0 ≥0[0m
+[48;5;167m0≤q(σ0 1[0m
+
+provided that an unphysical solution [90m[formula][0m is discarded in the minimization [90m([\ref=min]).[0m Indeed, at least in the framework of the two different models introduced in Sec. [90m[\ref=tm],[0m the curves for q(σ0) and [90m[formula][0m are found to have the form shown [48;5;167m(σ0 0 corresponds to a[0m
+in Fig. 6. The infimum [90m([\ref=min])[0m occurs at q 0, whereas the solution [90m[[0m[38;5;1mσ0∗[0m[90m/[0m[38;5;22mσ*0[0m[90m][0m to the equation [90m[formula] corresponds to a[0m maximum of [90m[formula].[0m Both types of theories can therefore be interpreted as extremal theories in the framework of [90m[[0m[38;5;1mselfconsistent[0m[90m/[0m[38;5;22mself-consistent[0m[90m][0m models built on the replica-coupling ansatz. The physical meaning of this interpretation is still not clear. However, "type 2" formulas should not been disregarded as unphysical because of their showing up as maximal ones: [38;5;1m11[0m
+
+[38;5;1m==[0m the minimization principle states that the dissipated power is minimized with respect to the electric field; but there is no reason why an extremization with respect to arbitrary variational parameters should not lead to a maximum of [48;5;167mtype 1[0m
+[48;5;167mtype 2[0m
+the dissipated power. Eqs. [90m([\ref=min]), ([\ref=max])[0m explain why for a given approximation, one always has [90m[formula][0m in Figs. 1-4.
+
+[38;5;1m‖[0m We now consider some points that were not explicitly treated in the paper. First, we presented the formalism in terms of the electric field E, from which we obtained a conductivity [90m[formula].[0m The electric current j (or the induction D)could be used instead [90m[\cite=BART98].[0m In such a formulation, the random constitutive parameter is the resistivity ρ(x) 1 σ(x) and the constraints are [90m[formula] and [formula].[0m One then computes an effective resistivity [90m[formula].[0m Both formulations are equivalent, but a given approximation scheme in general leads to different results for [90m[formula] and [formula].[0m Preliminary investigations of "type 2" formulas have been led in this case. These will be presented elsewhere. Finally, we discuss the natural question about the possibility of replica-symmetry breaking [90m[\cite=PARI84].[0m Replica symmetry breaking introduces more free parameters in the ansatz, and the final extremization has to be carried out with respect to several variables. There is no frustration in this problem, and we therefore expect the replica symmetric solution to be the only one. In order to test this, we tried a one-step symmetry-breaking solution and did indeed not find any new solution.
+
+[38;5;1mVI.[0m Conclusion
+
+We presented a functional approach to the calculation of effective-medium properties of random media. We showed how to recover the Bruggeman and Hori-Yonezawa formulas by using specific approximation schemes to the basic functional integral. We also discussed the introduction of a replica-coupling parameter in a gaussian Ansatz, from which new effective-medium formulas were obtained. These formulas appear to be more adequate in d 3 compared to the standard ones by Bruggeman and HY. Because it yields a sensible result in all dimensions, and fulfills all the constraints required to deserve the label of a "good" effective-medium theory, the "type 2" counterpart of the Bruggeman formula offers an interesting alternative to the latter. Indeed, it has a percolation threshold equal to pc 1 5 in three dimensions. This is closer to values observed in real materials, compared to the pc 1 3 of the Bruggeman formula which often constitutes an overestimation.
+
+[38;5;1mACKNOWLEDGMENTS[0m
+
+[48;5;167mWe gratefully acknowledge H. Orland for stimulating discussions. One of us (MB) wants to thank H.E. Stanley for[0m
+[48;5;167mhis hospitality at the CPS and the DGA for financial support.[0m
+
+[38;5;1mAPPENDIX A:[0m Quadratic fluctuations of the field
+
+For completeness, we give here the demonstration of Eq. [90m([\ref=berg]) [\cite=BERG78].[0m Volume averages are identified to statistical [38;5;1mP[0m
+ones. Because [90m[formula], where 〉ν[0m denotes an average on the phase ν on which the conductivity σν is constant, the effective conductivity reads
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mpν σν[0m
+
+[48;5;167mν[0m
+
+[48;5;167mhE 2 iν[0m
+[48;5;167mE02[0m
+
+[48;5;167m(A1)[0m
+
+On the other hand, [90m[formula][0m has to be an homogeneous function of degree one of the σν, whence
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mX[0m
+
+[48;5;167mσν[0m
+
+[48;5;167mν[0m
+
+[48;5;167m∂σeff[0m
+[48;5;167m∂σν[0m
+
+[48;5;167m(A2)[0m
+
+[38;5;1mP[0m
+Comparing both equations yields the values of the [90m[[0m[48;5;167mhE 2 iν[0m[90m/[0m[48;5;70m〈E2〉ν[0m[90m][0m and consequently that of [90m[formula]. Equ. ([\ref=berg])[0m follows. We note that if [90m[formula][0m (an exact upper bound for the effective conductivity)then [90m[[0m[48;5;167mh∆E 2 i[0m[90m/[0m[48;5;70m〈ΔE2〉[0m[90m][0m 0. Therefore, [90m[formula][0m defines a trivial model of a medium which is a composite, but from which field fluctations are nonetheless absent.
+
+[48;5;167m12[0m
+
+[38;5;1mAPPENDIX B:[0m Calculations in the "one-impurity" approximation
+
+The approximation which leads to [90m([\ref=oneimp])[0m is built as follows. We first expand the exponential
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167me−β(He −H0[0m [48;5;167mE[0m
+
+[48;5;167m0[0m
+
+[48;5;167mX β)k[0m 
+
+[48;5;167m[0m
+[48;5;167m(He H0 )k 0 k![0m
+
+[48;5;167m(B1)[0m
+
+[48;5;167mk≥0[0m
+
+Since H0 is non-random, using the hamiltonian density w0 defined in [90m([\ref=hdens]) and Δwx[[0mE(x)defined by [90m([\ref=dwx])[0m we can rewrite the difference He H0 as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167mE[0m
+[48;5;167mD[0m
+[48;5;167m1[0m
+[48;5;167mln e−βv∆wx [E(x)βv[0m
+
+[48;5;167m(B3)[0m
+
+The one-impurity approximation consists in writing (k 1)
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(B4a)[0m
+[48;5;167m(B4b)[0m
+
+The last expression only retains contributions from identical points in Eq. [90m([\ref=intint]).[0m Summing back the series in [90m([\ref=ser]),[0m and using [90m([\ref=dh]) yields[0m
+
+[90m[formula][0m
+
+where a one-impurity-type integral is involved. Since the fundamental size of the theory [90m[[0m[38;5;1mv 1/[0m[90m/[0m[38;5;22mv1[0m[90m][0m d) is much smaller than the volume V 1 of the system, and since the latter is statistically translation-invariant, the outer integral over y is redundant with the disorder average, and can be dropped. We therefore arrive at [90m([\ref=oneimp]).[0m
+
+[38;5;1m‖[0m When β the functional I(y) can be computed exactly. Let us briefly indicate how to do it. We first introduce the notation [90m[formula][0m for vectors of dimension nd, and components [90mhαi, with [formula], [formula]. Hence, [formula].[0m The next step is to use the formal identity
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m−βv∆wy (E)[0m
+
+[48;5;167mZ[0m
+
+[48;5;167md~h d~h′ −i~h·h′ −βv∆wy[0m
+[48;5;167me[0m
+[48;5;167me[0m
+[48;5;167m(2π)nd[0m
+
+[48;5;167m−i[0m
+
+[48;5;167mh′[0m
+
+[48;5;167meih ·E[0m
+
+[48;5;167m(B7)[0m
+
+to write the numerator of [90m([\ref=caliy]),[0m which we denote hereafter by J(y)as
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[90mwhere [formula][0m [48;5;167mZ[0m
+
+[48;5;167md~h d~h′ −i~h·h′ −βv∆wy[0m
+[48;5;167me[0m
+[48;5;167me[0m
+[48;5;167m(2π)nd[0m
+
+[48;5;167m−i[0m
+
+[48;5;167mh′[0m
+
+[48;5;167mZ[0m
+
+[48;5;167mD̃E e−β/2)[0m
+
+[48;5;167mR[0m
+
+[48;5;167mdx E(x)M̃E(x)i[0m
+[48;5;167mh′ ·E(y)[0m
+
+[48;5;167m(B8)[0m
+
+[38;5;1mwhere M̃[0m is the matrix defined from the replica-coupling matrix M in w0 by [90m[formula].[0m After an integration over the fields E and φ implied in the measure [38;5;1mD̃[0mE (which can be easily done using the Fourier components of φ, and with y 0 since [90m([\ref=oneimp])[0m is independent of y)J reads, up to inessential factors [90m[\cite=NOTE2]:[0m
+
+[90m[formula][0m
+
+[48;5;167mβ/2)[0m
+
+[48;5;167mP[0m
+
+[48;5;167mαγ[0m
+
+[48;5;167mM αγ E02[0m
+
+[48;5;167mZ[0m
+
+[48;5;167md~h d~h′ −i~h·h′ −vβ∆wy[0m
+[48;5;167me[0m
+[48;5;167me[0m
+[48;5;167m(2π)nd[0m
+
+[48;5;167m−i[0m
+
+[48;5;167mh′[0m
+
+[48;5;167meih ·E0 −h ·M̃[0m
+
+[48;5;167m−1[0m
+
+[48;5;167mh′ 2βvd)[0m
+
+[48;5;167m(B9)[0m
+
+Formally expanding exp [90m[[0m[38;5;1mvβ∆wy[0m[90m/[0m[38;5;22mvβΔwy)[0m[90m][0m in powers of [90m[formula],[0m and carrying out successive integrations by parts over [90m[formula] yields[0m
+
+[90m[formula][0m
+
+[48;5;167mJ (y) Det(M[0m [48;5;167mvβd[0m
+[48;5;167m2π[0m
+
+[48;5;167mn d/2[0m
+
+[48;5;167me[0m
+
+[48;5;167mβ/2)[0m
+
+[48;5;167mP[0m
+
+[48;5;167mαγ[0m
+
+[48;5;167mM αγ E02[0m
+
+[48;5;167mZ[0m
+
+[48;5;167md~h e−vβd/2)E0 −h)M̃E0 −h)vβ∆wy (h)[0m [48;5;167m(B10)[0m
+
+where the determinant is evaluated in replica space. Finally, I(y) J(y) J(y;[90m[[0m[38;5;1m∆wy 0)[0m[90m/[0m[38;5;22mΔwy 0)[0m[90m][0m [90m[formula][0m
+
+[48;5;167mI(y) Det(M[0m [48;5;167mvβd[0m
+[48;5;167m2π[0m
+
+[48;5;167mn d/2 Z Y[0m
+
+[48;5;167mdhα e[0m
+
+[48;5;167m−vβ[0m
+
+[48;5;167mα[0m
+
+[48;5;167md P[0m
+[48;5;167m2[0m
+
+[48;5;167mαγ[0m
+
+[48;5;167mM αγ (E0 −hα )i (E0 −hγ )i wy [h][0m
+
+[48;5;167m[0m
+
+[48;5;167m(B11)[0m
+
+For any [90m[[0m[38;5;1m∆wy[0m[90m/[0m[38;5;22mΔwy,[0m[90m][0m this integral over the replicated vector field h can be computed exactly using a saddle-point method [90m[\cite=NEGE87][0m in the limit β as announced. This allows for a possible extension of the theory to nonlinear media in the "one-impurity" approximation. Here, for the linear problem at hand, Eq. [90m([\ref=iy])[0m is a simple gaussian integral. Setting [90m[[0m[38;5;1m∆σ[0m[90m/[0m[38;5;22mΔσ[0m[90m][0m σ σ0 and
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m we obtain
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(B13)[0m
+
+from which follows [90m([\ref=dwoi]).[0m
+
+[38;5;1m‖[0m Calculation in the "cumulant series" approximation
+
+We have to compute [90m[formula] and [formula][0m in Equ. [90m([\ref=dwsa]).[0m The calculation of [90m[formula][0m is easy with the methods already employed, and yields
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167mn→0[0m
+
+[48;5;167m1[0m
+[48;5;167mσ0 E02 2[0m
+
+[48;5;167m(C1)[0m
+
+As to [90m[formula],[0m we first expand He (Eq. [90m([\ref=calf]))[0m in the cumulants Ck of the disorder averages of σ(x)according to their definition by the generating funtion (X is a generic expansion variable)
+
+[90m[formula][0m
+
+[48;5;167m(C2)[0m
+
+[48;5;167mk≥1[0m
+
+We therefore have:
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(C3)[0m
+
+[48;5;167m1[0m
+[48;5;167m1 X X βv)k[0m
+[48;5;167mhHe i0 Ck (σ) Ck (E 2 /2)n[0m
+[48;5;167mVβ x[0m
+[48;5;167mk![0m
+
+[48;5;167m(C4)[0m
+
+[48;5;167mk≥1[0m
+
+We deduce that
+
+[90m[formula][0m
+
+[48;5;70mwhere[0m
+
+[90m[formula][0m
+
+[48;5;167mwhere[0m
+[48;5;167m1[0m
+[48;5;167mCk (E /2) n[0m
+[48;5;167m2[0m
+
+[48;5;167mX[0m
+
+[48;5;167mα[0m
+
+[48;5;167m2[0m
+
+[48;5;167mE (x) /2[0m
+
+[48;5;167mα[0m
+
+[48;5;167m#k[0m [48;5;167m(C5)[0m
+[48;5;167m0[0m
+
+(because of statistical homogeneity, these coefficients do not depend on the position variable x)It is convenient to introduce the following generating function Z(X) in order to compute the Ck:
+
+[90m[formula][0m
+
+[48;5;167mX X)k[0m
+[48;5;167mCk (E 2 /2)[0m
+[48;5;167mk![0m
+[48;5;167mk≥1[0m
+[48;5;167m1[0m
+[48;5;167m1 X α2[0m
+[48;5;167mexp X[0m
+[48;5;167mE (x)[0m
+[48;5;167m−1[0m
+[48;5;167mn[0m
+[48;5;167m2[0m
+[48;5;167mα[0m
+[48;5;167m0[0m
+[48;5;167m1 X α2[0m
+[48;5;167m1[0m
+[48;5;167mln exp X[0m
+[48;5;167mE (x)[0m
+[48;5;167mO(n)n[0m
+[48;5;167m2[0m
+[48;5;167mα[0m
+
+[48;5;167mZ(X)[0m [48;5;167m(C6)[0m
+
+[48;5;167m0[0m
+
+Setting Aαγ δαγ (X vβd)M 1]αγ, we obtain [90m[\cite=NOTE2][0m
+
+[90m[formula][0m
+
+(the trace and the logarithm act in the replica space)[38;5;1m‖[0m Expanding [90m([\ref=zx])[0m in powers of X then allows for the identification
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m Use of this expression in [90m([\ref=fob])[0m cancels the convergence factor k!we reintroduce it by inserting the identity
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m(C7)[0m
+
+[48;5;167m(C8)[0m
+
+[48;5;167m(C9)[0m
+
+applied to m k 1 and m k in the resulting cumulant series. This permits its Borel summation, which brings in the functions hm(x) defined by [90m([\ref=hm]).[0m This results in
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[38;5;1m‖[0m where we defined the family of functions
+
+[38;5;1m‖[0m [90m[formula][0m
+
+[48;5;167m0[0m
+
+Note for further use that
+
+[90m[formula][0m
+
+[48;5;167mh′m (z)[0m [48;5;167m(m −2)[0m[48;5;167m1[0m
+[48;5;167m[hm+1 (z) (k 1)hm (z)z[0m
+
+[48;5;167m(C11)[0m
+
+[48;5;167m(C12)[0m
+
+For M given by [90m([\ref=matmok]),[0m the differents terms in [90m([\ref=fmfo]) are[0m
+
+[90m[formula][0m
+
+[48;5;167mlim[0m
+
+[48;5;167mn→0[0m
+
+which leads to Eq. [90m([\ref=fmfodeu]).[0m [48;5;167m1[0m
+[48;5;167mTr h−1 (M −1 /d) dh−1 1/dσ0 vβ dσ0 q h0 1/dσ0 E02 n[0m
+
+[48;5;167m(C13)[0m
+
+[48;5;167m[1] D. A. G. Bruggeman, Ann. Physik (Leipzig) 24, 636 (1935)[2] R. Landauer, J. Appl. Phys. 23, 779 (1952)also, in Electical Transport and Optical Properties of Inhomogeneous Media,[0m
+[48;5;167medited by J. C. Garland and D. B. Tanner. AIP Conf. Proc. No. 40 (AIP, New York, 1978)[0m[48;5;167m15[0m
+
+[48;5;167m[3][0m
+[48;5;167m[4][0m
+[48;5;167m[5][0m
+[48;5;167m[6][0m
+[48;5;167m[7][0m
+[48;5;167m[8][0m
+[48;5;167m[9][0m
+[48;5;167m[10][0m
+[48;5;167m[11][0m
+
+[48;5;167m[12][0m
+[48;5;167m[13][0m
+[48;5;167m[14][0m
+[48;5;167m[15][0m
+[48;5;167m[16][0m
+[48;5;167m[17][0m
+[48;5;167m[18][0m
+[48;5;167m[19][0m
+[48;5;167m[20][0m
+[48;5;167m[21][0m
+[48;5;167m[22][0m
+[48;5;167m[23][0m
+[48;5;167m[24][0m
+[48;5;167m[25][0m
+[48;5;167m[26][0m
+[48;5;167m[27][0m
+[48;5;167m[28][0m
+[48;5;167m[29][0m
+
+[48;5;167m[30][0m
+[48;5;167m[31][0m
+[48;5;167m[32][0m
+[48;5;167m[33][0m
+[48;5;167m[34][0m
+[48;5;167m[35][0m
+
+[48;5;167m[36][0m
+
+[48;5;167mS. Kirkpatrick, Phys. Rev. Lett. 27, 1722 (1971)Rev. Mod. Phys. 45, 574 (1973)J. P. Clerc, G. Giraud, J. M. Laugier, and J. M. Luck, Adv. Phys. 39, 191 (1990)D. Stauffer and A. Aharony, Introduction to Percolation Theory (Taylor Francis, London, 1992)M. Sahimi, Phys. Rep. 306, 213 (1998)and references therein.[0m
+[48;5;167mG. W. Milton, Commun. Math. Phys. 99, 463 (1985)M. N. Miller, J. Math. Phys. 12, 1057 (1971)R. B. Stinchcombe, J. Phys. C 6, L1 (1973)J. P. Straley, J. Phys. C 9, 783 (1976)P[0m
+[48;5;167mThis is because the key ingredient of the continuum theory, namely the Green function[0m
+[48;5;167mk k /k2 (computed at x 0 in[0m
+[48;5;167mk i j[0m
+[48;5;167mthe calculations of this paper, cf. [29]has the same low-momentum structure as its counterpart on an hypercubic lattice[0m
+[48;5;167m(see, e.g. Ref. [15]M. J. Stephen, Phys. Rev. B 17, 4444 (1977)M. Hori and F. Yonezawa, J. Math. Phys. 16, 352 (1975)D. J. Bergman and Y. Kantor, J. Phys. C 14, 3365 (1981)J. M. Luck, Phys. Rev. B 43, 3933 (1991)M. Hori, J. Math. Phys. 18, 487 (1977)M. Barthélémy and H. Orland, J. Phys. I (France) 3 2171 (1993)M. Barthélémy and H. Orland, Eur. Phys. J. B 6 537 (1998)cond-mat/9806302.[0m
+[48;5;167mR. Blumenfeld and D. J. Bergman, Phys. Rev. B 44, 7378 (1991)D. J. Bergman and R. Blumenfeld, Phys. Rev. B 54,[0m
+[48;5;167m7378 (1996)J. R. Willis, in Homogeneization and Effective Moduli of Materials and Media, edited by J. L. Ericksen et al. (SpringerVerlag, New York, 1896)p. 247; D. R. S. Talbot and J. R. Willis, IMA J. Appl. Math. 39, 215 (1987)E. Sanchez-Palencia and A. Zaoui eds. Homogeneization Techniques for Composite Media. Proceedings, Udine, Italy 1985,[0m
+[48;5;167mLecture notes in Physics 272 (Springer-Verlag, Berlin, 1987)and references therein.[0m
+[48;5;167mP. Ponte Castañeda, SIAM J. Appl. Math. 52, 1321 (1992)S. F. Edwards and P. W. Anderson, J. Phys. F 5 965 (1975)M. Mézard, G. Parisi, and M. Virasoro, Spin Glass Theory and Beyond (World Scientific, Singapore, 1987)D. J. Bergman and D. Stroud, Solid State Phys. 46, 147 (1992)P. Ponte Castañeda, G. DeBotton, and G. Li, Phys. Rev. B 46, 4387 (1992)K. W. Yu, Y. C. Chu, and E. M. Y. Chan, Phys. Rev. B 50, 4387 (1994)P. Ponte Castañeda and M. Kailasam, Proc. R. Soc. London A 453, 793 (1997)Integration is performed over the independant scalars[0m
+[48;5;167m1/2v) such couples of Fourier modes involved. Use[0m
+[48;5;167mP φk Rand φ−k with[0m
+[48;5;167md[0m
+[48;5;167m1[0m
+[48;5;167mdk/2π)[0m
+[48;5;167mwith[0m
+[48;5;167man upper cut-off on the k implied. In particular,[0m
+[48;5;167mis made in the calculations of[0m
+[48;5;167mthe[0m
+[48;5;167mequality[0m
+[48;5;167m1/v[0m
+[48;5;167mk[0m
+[48;5;167mP[0m
+[48;5;167mone appeals to the formula[0m
+[48;5;167mk k /k2 δij dv)k i j[0m
+[48;5;167mD. J. Bergman, Phys. Rep. 43, 377 (1978)Z. Hashin and S. Shtrikman, J. Appl. Phys. 33, 3125 (1962)D. C. Wright, D. J. Bergman, and Y. Kantor, Phys. Rev. B 33, 396 (1986)and references therein.[0m
+[48;5;167mJ. P. Straley, Phys. rev. B 15, 5733 (1977)K. Golden, Phys. Rev. Lett. 65, 2923 (1990)G. Parisi, in Les Houches, Session XXXIX 1982 Développements Récents en Théorie des Champs et Mécanique Statistique Recent Advances in Field Theory and Statistical Mechanics, edited by J.B. Zuber and R. Stora (North Holland,[0m
+[48;5;167mAmsterdam, 1984)pp. 473–523.[0m
+[48;5;167mJ. W. Negele and H. Orland, Quantum Many-Particle Systems (Addison-Wesley, New York, 1987)[0m[48;5;167m16[0m
+
+[48;5;167m10[0m
+
+[48;5;167m10[0m
+[48;5;167mHashin−Shtrikman[0m
+[48;5;167mBr. (OI type 1)[0m
+[48;5;167mHY (CS type 1)[0m
+[48;5;167mOI type 2[0m
+[48;5;167mCS type 2[0m
+
+[48;5;167m8[0m
+
+[48;5;167m6[0m
+
+[48;5;167mσeff/σ1[0m
+
+[48;5;167mσeff/σ1[0m
+
+[48;5;167m8[0m
+
+[48;5;167mHashin−Shtrikman[0m
+[48;5;167mBr. (OI type 1)[0m
+[48;5;167mHY (CS type 1)[0m
+[48;5;167mOI type 2[0m
+[48;5;167mCS type 2[0m
+
+[48;5;167m4[0m
+
+[48;5;167m2[0m
+
+[48;5;167m6[0m
+
+[48;5;167m4[0m
+
+[48;5;167m2[0m
+[48;5;167md=2[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167m0.6[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167md=3[0m
+
+[48;5;167m0[0m
+
+[48;5;167m1[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167mp[0m
+
+[48;5;167mFIG. 1. Rescaled effective conductivities in dimension[0m
+[48;5;167md 2 for a binary medium, versus the volume concentation[0m
+[48;5;167mp of component 2. The conductivity ratio is σ2 /σ1 10.[0m
+[48;5;167mHighest and lowest solid curves: Hashin-Shtrikman bounds;[0m
+[48;5;167mBr.the Bruggeman formula type 1”one-impurity approximation OI)HY: the Hori-Yonezawa formula type 1”cumulant series approximation CS)both “type 2” curves[0m
+[48;5;167mare the new formulas, within OI and CS approximations.[0m
+
+[48;5;167m1[0m
+
+[48;5;167m1000[0m
+[48;5;167mHashin−Shtrikman[0m
+[48;5;167mBr. (OI type 1)[0m
+[48;5;167mHY (CS type 1)[0m
+[48;5;167mOI type 2[0m
+[48;5;167mCS type 2[0m
+
+[48;5;167m800[0m
+
+[48;5;167mHashin−Shtrikman[0m
+[48;5;167mBr. (OI type 1)[0m
+[48;5;167mHY (CS type 1)[0m
+[48;5;167mOI type 2[0m
+[48;5;167mCS type 2[0m
+
+[48;5;167m800[0m
+
+[48;5;167mσeff/σ1[0m
+
+[48;5;167m600[0m
+
+[48;5;167m400[0m
+
+[48;5;167m600[0m
+
+[48;5;167m400[0m
+
+[48;5;167m200[0m
+
+[48;5;167m200[0m
+
+[48;5;167md=3[0m
+
+[48;5;167md=2[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167mFIG. 3. Rescaled effective conductivities in dimension[0m
+[48;5;167md 3 for a binary medium, versus the volume concentation p[0m
+[48;5;167mof component 2. The conductivity ratio is σ2 /σ1 10. Same[0m
+[48;5;167mplots as in Fig. 1.[0m
+
+[48;5;167m1000[0m
+
+[48;5;167mσeff/σ1[0m
+
+[48;5;167m0.6[0m
+[48;5;167mp[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167m0.6[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167m1[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167m0.6[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167m1[0m
+
+[48;5;167mp[0m
+
+[48;5;167mp[0m
+
+[48;5;167mFIG. 4. Rescaled effective conductivities in dimension[0m
+[48;5;167md 3 for a binary medium, versus the volume concentation[0m
+[48;5;167mp of component 2.The conductivity ratio is σ2 /σ1 1000.[0m
+[48;5;167mSame plots as in Fig. 1.[0m
+
+[48;5;167mFIG. 2. Rescaled effective conductivities in dimension[0m
+[48;5;167md 2 for a binary medium, versus the volume concentation[0m
+[48;5;167mp of component 2. The conductivity ratio is σ2 /σ1 1000.[0m
+[48;5;167mSame plots as in Fig. 1.[0m
+
+[48;5;167m17[0m
+
+[48;5;167mBr. (OI type 1)[0m
+[48;5;167mHY (CS type 1)[0m
+[48;5;167mOI type 2[0m
+[48;5;167mCS type 2[0m
+
+[48;5;167md=3[0m
+
+[48;5;167m2[0m
+
+[48;5;167mE E>[0m
+
+[48;5;167m2[0m
+
+[48;5;167m10[0m
+
+[48;5;167m5[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0[0m
+
+[48;5;167m0.2[0m
+
+[48;5;167m0.4[0m
+
+[48;5;167m0.6[0m
+
+[48;5;167m0.8[0m
+
+[48;5;167m1[0m
+
+[48;5;167mp[0m
+
+[48;5;167mFIG. 5. Relative quadratic fluctuations of the field in dimension d 3 for a binary medium, versus the volume concentation p of component 2. The conductivities are σ1 1,[0m
+[48;5;167mσ2 1000.[0m
+
+[48;5;167m3[0m
+[48;5;167mσeff/σ1[0m
+[48;5;167mq[0m
+
+[48;5;167mtype 2[0m
+[48;5;167mtype 1[0m
+
+[48;5;167m1[0m
+
+[48;5;167m−1[0m
+
+[48;5;167m0[0m
+
+[48;5;167m2[0m
+
+[48;5;167m4[0m
+
+[48;5;167m6[0m
+
+[48;5;167m8[0m
+
+[48;5;167m10[0m
+
+[48;5;167mσ0/σ1[0m
+[48;5;167mFIG. 6. Rescaled effective conductivity σeff (σ0 σ1 and reduced replica coupling parameter q(σ0 vs. σ0 in dimension[0m
+[48;5;167md 3 for a binary medium. In this exemple computed from[0m
+[48;5;167mEqs. (37)(43)the conductivity ratio is σ2 /σ1 100, and[0m
+[48;5;167mthe volume fraction p of component 2 is p 0.18. The “type[0m
+[48;5;167m1” effective conductivity is obtained when q 0, whereas the[0m
+[48;5;167m“type 2” effective conductivity corresponds to the maximum[0m
+[48;5;167mof the curve σeff (σ0[0m [48;5;167m18[0m
+

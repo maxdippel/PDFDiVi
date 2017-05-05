@@ -1,0 +1,1566 @@
+>>
+Rearrange
+|1 54 358 245 7|1 54 370 55 7|1 109 370 190 7|1 54 382 69 7|1 123 382 177 7|1 54 394 148 7|||1 54 414 245 7|1 79 426 48 7|1 126 426 173 7|1 79 438 127 7|1 206 438 93 7|1 79 450 32 7|1 111 450 188 7|1 79 462 120 7|1 199 462 101 7|1 79 474 220 7|1 79 486 220 7|1 79 498 123 7|1 202 498 97 7|1 79 510 220 7|1 54 530 245 7||1 79 542 220 7|1 54 561 25 7|1 79 561 220 7|1 54 581 245 7|1 54 593 74 7|1 128 593 171 7|1 54 605 245 7|1 54 617 30 7|1 84 617 215 7|1 54 629 77 7|1 131 629 168 7|1 54 641 44 7|1 98 641 201 7|1 54 653 99 7|1 153 653 146 7|1 54 665 153 7|1 207 665 92 7|1 54 677 146 7|1 200 677 99 7|1 54 689 43 7||1 54 701 245 7|1 54 713 102 7|1 317 155 124 7|1 156 713 143 7
+In the last years, growing effort has been made in understanding traffic flow dynamics. Recent experiments
+[1,2] show that traffic flow demonstrates complex physical phenomena, among which are:
+
+The existence of three states: free flow, ”synchronized” (or ”fluctuative”flow and traffic jams (for
+low, intermediate and high densities correspondingly)The second state has two essential features:
+synchronization of flow in different lanes (for the
+multilane traffic) and fluctuation performed by the
+system in density-flux plane. Since our model is
+single-lane we will refer to this state as ”fluctuative”Hysteresis which is observed in transitions between
+the free and the fluctuative flow.
+
+Long survival time of traffic jams.
+Modeling of traffic flow is traditionally performed using
+two approaches. The microscopic, or car-following models approach, which describes the nearest-neighbor interaction between two consecutive cars and investigates its
+influence on the flow (see e.g. [3-5]and the macroscopic, or continuous models approach, which represents
+the flowing traffic as a continuous media and describes it
+using the hydrodynamical partial differential equations
+(see e.g. [7-9]Wide surveys of these models are given
+in [10-12]In this Letter we inroduce an inertial single lane carfollowing model, which is free of collisions. We study the
+
+
+--
+In the last years, growing effort has been made in understanding traffic flow dynamics. Recent experiments [\cite=KR1] [\cite=KR2] show that traffic flow demonstrates complex physical phenomena, among which are:
+
+The existence of three states: free flow, "synchronized" (or "fluctuative"flow and traffic jams (for low, intermediate and high densities correspondingly)The second state has two essential features: synchronization of flow in different lanes (for the multilane traffic) and fluctuation performed by the system in density-flux plane. Since our model is single-lane we will refer to this state as "fluctuative"Hysteresis which is observed in transitions between the free and the fluctuative flow.
+
+Long survival time of traffic jams.
+
+Modeling of traffic flow is traditionally performed using two approaches. The microscopic, or car-following models approach, which describes the nearest-neighbor interaction between two consecutive cars and investigates its influence on the flow (see e.g. [3-5]and the macroscopic, or continuous models approach, which represents the flowing traffic as a continuous media and describes it using the hydrodynamical partial differential equations (see e.g. [7-9]Wide surveys of these models are given in [10-12]In this Letter we inroduce an inertial single lane car-following model, which is free of collisions. We study the 
+>>
+Delete
+|1 317 155 124 7|1 156 713 143 7
+Elad Tomer1 Leonid Safonov1,2 and Shlomo Havlin1
+1
+
+
+<AND>
+arXiv:cond-mat/0001224v1 [cond-mat.dis-nn] 17 Jan 2000
+
+
+<AND>
+2
+
+
+<AND>
+Minerva Center and Department of Physics, Bar–Ilan University, 52900 Ramat–Gan, Israel
+Department of Applied Mathematics and Mechanics, Voronezh State University, 394693 Voronezh, Russia
+(February 6, 2008)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|1 317 155 124 7|1 156 713 143 7|1 441 155 121 7|1 317 167 166 7|1 483 167 79 7|1 317 179 245 7|1 317 191 26 7|1 343 191 219 7|1 317 203 103 7|1 420 203 142 7|1 317 215 189 7|1 506 215 56 7|1 317 227 245 7|1 317 238 41 7|1 358 238 205 7|1 317 250 152 7|1 469 250 93 7|1 317 262 245 7|1 317 274 245 7|1 317 286 50 7|1 367 286 195 7|1 317 298 136 7|1 453 298 109 7|1 317 310 221 7|1 538 310 24 7|1 317 322 142 7
+model both numerically and analytically and find the existence of three regimes in traffic flow: free flow regime at
+low densities (where each car moves with almost a constant velocity)fluctuative flow regime at inetrmediate
+densities (where stable periodic oscillations of velocities
+of all cars are observed) and congested or jammed flow
+regime at high densities (where due to high density all
+the cars tend to move with the same, relatively small
+velocity)Our model predicts the existence of many inhomogeneous stable states in the fluctuative regime and
+demonstrates hysteresis in transitions between free and
+fluctuative regimes. The experimentally observed long
+survival time of jams may be explained by our finding
+that the fluctuations in the congested flow regime decay
+slowly according to a power law.
+
+--
+model both numerically and analytically and find the existence of three regimes in traffic flow: free flow regime at low densities (where each car moves with almost a constant velocity)fluctuative flow regime at inetrmediate densities (where stable periodic oscillations of velocities of all cars are observed) and congested or jammed flow regime at high densities (where due to high density all the cars tend to move with the same, relatively small velocity)Our model predicts the existence of many inhomogeneous stable states in the fluctuative regime and demonstrates hysteresis in transitions between free and fluctuative regimes. The experimentally observed long survival time of jams may be explained by our finding that the fluctuations in the congested flow regime decay slowly according to a power law.
+
+
+>>
+Split
+|1 317 334 207 7||1 524 334 38 7|1 317 346 245 7
+To formulate the model we assume that car acceleration is affected by three factors:
+
+
+--
+To formulate the model we assume that car acceleration is affected by three factors:
+
+
+>>
+Delete
+|1 524 334 38 7|1 317 346 245 7
+A new single lane car following model of traffic flow is presented. The model is inertial and free of collisions. It demonstrates experimentally observed features of traffic flow such
+as the existence of three regimes: free, fluctuative (synchronized) and congested (jammed) flow; bistability of free and
+fluctuative states in a certain range of densities, which causes
+the hysteresis in transitions between these states; jumps in
+the density-flux plane in the fluctuative regime and gradual
+spatial transition from synchronized to free flow. Our model
+suggests that in the fluctuative regime there exist many stable
+states with different wavelengths, and that the velocity fluctuations in the congested flow regime decay approximately
+according to a power law in time.
+
+
+<AND>
+(a) 
+--
+
+<AND>
+
+>>
+Delete
+|1 317 364 245 7
+(b) 
+--
+
+>>
+Delete
+|1 342 376 220 7|1 317 395 25 7
+(c) 
+--
+
+>>
+Delete
+|1 342 395 220 7|1 317 414 245 7
+(i) 
+--
+
+>>
+Replace
+|1 431 467 131 7|1 317 479 125 7
+∆xn 
+--
+Δxn 
+>>
+Replace
+|1 442 479 120 7|1 317 491 49 6
+∆vn 
+--
+Δvn 
+>>
+Delete
+|1 442 479 120 7|1 317 491 49 6
+(ii) 
+<AND>
+∆x0n
+Z 2 vn kZ(vn vper (1)
+∆xn
+2(xn D)
+
+
+--
+
+<AND>
+
+>>
+Replace
+|1 529 568 33 11|1 317 577 245 7
+∆x0n vn T 
+--
+Δx0n vnT 
+>>
+Split
+|1 317 625 245 7|1 317 637 25 7|1 342 637 74 7
+In the following we discuss in more details the terms
+in the right side of 
+--
+In the following we discuss in more details the terms in the right side of 
+>>
+Delete
+|1 342 637 74 7
+(iii) 
+<AND>
+(a) 
+--
+
+<AND>
+
+>>
+Replace
+|1 400 680 162 7|1 342 695 71 11
+∆xn ∆x0n 
+--
+Δxn Δx0n 
+>>
+Replace
+|1 413 695 98 11
+∆xn ∆x0n 
+--
+Δxn Δx0n.
+
+
+>>
+Split
+|1 342 708 170 7|1 512 708 50 7|1 342 720 207 7
+The choice of function in this term is not unique.
+Replacing it by other functions of 
+--
+The choice of function in this term is not unique. Replacing it by other functions of 
+>>
+Replace
+|1 512 708 50 7|1 342 720 207 7
+∆xn 
+--
+Δxn 
+>>
+Delete
+|1 549 720 13 7|2 79 65 220 11
+1
+
+
+--
+
+>>
+Merge
+|1 549 720 13 7|2 79 65 220 11
+increasing, equal to zero if 
+--
+increasing, equal to zero if 
+>>
+Replace
+|1 549 720 13 7|2 79 65 220 11
+∆xn ∆x0n 
+--
+Δxn Δx0n 
+>>
+Replace
+|2 79 74 117 8
+∆xn 
+<AND>
+xn x0n 
+--
+Δxn 
+<AND>
+(Δxn Δx0n)
+>>
+Rearrange
+|2 54 106 245 7|2 79 118 57 7|2 136 118 163 7|2 79 130 82 8|2 161 132 138 11|2 79 142 123 7|2 202 142 97 7|2 79 153 138 7||2 54 173 219 7|2 273 173 27 7|2 79 185 220 7||2 54 207 164 7|2 218 207 81 7|2 54 219 129 7|2 183 219 116 7|2 54 230 136 7||2 54 242 245 7|2 54 254 162 7|2 216 254 45 7||||||||2 80 303 31 12|2 80 313 28 8|2 110 313 155 8|2 80 328 52 11|2 131 331 134 15||2 54 324 245 57||2 54 350 245 7|2 105 376 16 14|2 121 376 127 14|2 175 383 9 4||2 54 403 245 7|2 54 415 55 7||||||||||2 128 466 136 13||2 54 459 245 33||2 54 478 245 7||2 137 504 78 16|2 163 509 23 4||2 54 528 245 7|2 54 540 26 7|2 80 540 175 7|2 255 540 44 7|2 54 552 108 8||2 54 564 245 7|2 54 576 76 7|2 130 576 169 7|2 54 588 178 7|2 232 588 67 7|2 54 600 245 7|2 54 612 36 7|2 90 612 209 7|2 54 624 48 7|2 102 624 197 7|2 54 635 109 7|2 163 635 136 7|2 54 647 159 7|2 213 647 87 7|2 54 659 214 7|2 268 659 31 7|2 54 671 245 7|2 54 683 42 7|2 96 683 203 7|2 54 701 74 15|2 128 705 125 19|2 171 710 15 4|2 253 701 46 15|2 54 720 201 7|2 317 62 245 7|2 317 74 20 7|2 255 720 44 7
+The second term plays an important role when
+vn vn+1 A car getting close to a much slower
+car starts braking even if ∆xn ∆x0n This term
+corresponds to the negative acceleration needed to
+reduce vn to 0 as ∆xn D.
+
+The dissipative third term is a repulsive force acting
+when the velocity exceeds the permitted velocity.
+
+Unlike optimal velocity models [5] the acceleration in
+our model depends explicitly on ∆x which enables us to
+make the flow free of collisions.
+The motion of cars is therefore described by the following system of ordinary differential equations
+ẋn vn n T +D
+v̇n A(1 xvn+1
+(2)
+−xn Z 2 (vn −vn+1 2(x
+kZ(vn vper n+1 −xn −D)
+
+with periodic boundary conditions
+N
+x1 ρ
+
+A solution of Eqs. (2) which corresponds to homogeneous flow is
+A(1−Dρ)kvper
+ρ D+T1vper AρT +k
+vn0 v 0 (3)
+1
+1−Dρ ρ ρT
+D+T vper
+x0n In the following numerical results we use parameters
+values vper 25(m/s)T 2(s)D 5(m)1 A 5(m/s2 and k 2(s−1 The flux-density relation (often called the fundamental
+diagram) for the homogeneous flow is shown in Fig.1(a)
+as a dashed line. Comparison of this curve with the
+fundamental diagrams (solid lines) obtained by the numerical solution of equations (2) for different values of
+A starting from nonhomogeneous initial conditions indicates that for values of ρ smaller than some critical value
+ρ1 or greater than another critical value ρ2 the flux is
+the same, while for the intermediate values of density
+(ρ1 ρ ρ2 the measured flux is considerably lower
+than the homogeneous solution flux. Plotting the variN
+P
+(vn hvi)2 ]1/2 (where hvi
+ance of velocities σv N1
+
+is the average velocity) against ρ (Fig.1(b)shows the
+
+
+--
+The second term plays an important role when vn vn 1. A car getting close to a much slower car starts braking even if Δxn Δx0n. This term corresponds to the negative acceleration needed to reduce |Δvn| to 0 as Δxn D.
+
+The dissipative third term is a repulsive force acting when the velocity exceeds the permitted velocity.
+
+Unlike optimal velocity models [\cite=Sug] the acceleration in our model depends explicitly on Δx which enables us to make the flow free of collisions.
+
+The motion of cars is therefore described by the following system of ordinary differential equations
+
+[formula]
+
+[formula] with periodic boundary conditions
+
+[formula]
+
+A solution of Eqs. ([\ref=Initial]) which corresponds to homogeneous flow is
+
+[formula]
+
+[formula]
+
+In the following numerical results we use parameters values vper 25(m s)T 2(s)D 5(m)1 A 5(m s2) and k 2(s- 1)The flux-density relation (often called the fundamental diagram) for the homogeneous flow is shown in Fig.1(a) as a dashed line. Comparison of this curve with the fundamental diagrams (solid lines) obtained by the numerical solution of equations ([\ref=Initial]) for different values of A starting from nonhomogeneous initial conditions indicates that for values of ρ smaller than some critical value ρ1 or greater than another critical value ρ2 the flux is the same, while for the intermediate values of density (ρ1 ρ ρ2) the measured flux is considerably lower than the homogeneous solution flux. Plotting the variance of velocities [formula] (where 〈v〉 is the average velocity) against ρ (Fig.1(b)shows the 
+>>
+Merge
+|2 317 62 245 7|2 317 74 20 7|2 255 720 44 7|2 337 74 225 7|2 317 86 76 7|2 393 86 169 7|2 317 98 104 7|2 421 98 141 7|2 317 110 181 7|2 498 110 64 7|2 317 122 238 7|2 555 122 7 7|2 317 134 245 7|2 317 146 38 7|2 355 146 207 7|2 317 158 136 7|2 453 158 109 7|2 317 170 108 7
+existence of velocity fluctuations for ρ1 ρ ρ2 We
+can therefore define three regimes in traffic flow: the
+free flow regime (ρ ρ1 the fluctuative flow regime
+(ρ1 ρ ρ2 and the congested flow regime (ρ ρ2 Note that the flow in the first and the last regimes is
+homogeneous. Note also that for small values of A ρ2 is
+greater than the maximal possible density ρmax 1/D
+and the congested flow regime does not exist. See Fig.
+1(b) for A 2. This finding is supported by the analytical results shown below.
+
+
+--
+existence of velocity fluctuations for ρ1 ρ ρ2. We can therefore define three regimes in traffic flow: the free flow regime (ρ ρ1)the fluctuative flow regime (ρ1 ρ ρ2) and the congested flow regime (ρ ρ2)Note that the flow in the first and the last regimes is homogeneous. Note also that for small values of A ρ2 is greater than the maximal possible density ρmax 1 D and the congested flow regime does not exist. See Fig. 1(b) for A 2. This finding is supported by the analytical results shown below.
+
+
+>>
+Delete
+|2 453 158 109 7|2 317 170 108 7
+0.5
+
+
+<AND>
+a
+
+
+<AND>
+0.4
+
+
+<AND>
+f (veh/sec)
+
+
+<AND>
+f (veh/sec)
+
+
+<AND>
+0.5
+
+
+<AND>
+0.3
+0.2
+0.1
+0.0
+0.00
+
+
+<AND>
+0.05
+
+
+<AND>
+0.10
+
+
+<AND>
+0.15
+
+
+<AND>
+0.1
+ρ1 ρ’
+
+
+<AND>
+0.1
+
+
+<AND>
+σv (m/sec)
+
+
+<AND>
+σv/v>
+
+
+<AND>
+0.0
+0.00
+
+
+<AND>
+0.05
+
+
+<AND>
+0.10
+
+
+<AND>
+0.15
+
+
+<AND>
+6
+4
+
+
+<AND>
+2
+0
+
+
+<AND>
+0.20
+
+
+<AND>
+e
+
+
+<AND>
+8
+
+
+<AND>
+0.5
+
+
+<AND>
+ρ1 ρ’
+
+
+<AND>
+0.1
+
+
+<AND>
+ρ (veh/m)
+
+
+<AND>
+ρ2
+
+
+<AND>
+0.2
+
+
+<AND>
+ρ (veh/m)
+
+
+<AND>
+3
+2
+ρ1
+
+
+<AND>
+ρ’
+
+
+<AND>
+ρ’
+<AND>
+f (veh/sec)
+
+
+<AND>
+0.5
+
+
+<AND>
+c
+
+
+<AND>
+4
+
+
+<AND>
+S(ρ)
+
+
+<AND>
+0.2
+
+
+<AND>
+1.0
+
+
+<AND>
+1
+
+
+<AND>
+ρ2
+
+
+<AND>
+10
+
+
+<AND>
+b
+
+
+<AND>
+1.5
+
+
+<AND>
+vN +1 v1 
+<AND>
+d
+
+
+<AND>
+ρ (veh/m)
+
+
+<AND>
+2.0
+
+
+<AND>
+0.2
+
+
+<AND>
+0.0
+
+
+<AND>
+0.20
+
+
+<AND>
+5
+
+
+<AND>
+xN +1
+
+
+<AND>
+0.3
+
+
+<AND>
+ρ (veh/m)
+
+
+<AND>
+n 1, 2, N 
+<AND>
+0.4
+
+<AND>
+(c) 
+<AND>
+(b) 
+<AND>
+f
+
+
+<AND>
+0.4
+0.3
+0.2
+0.1
+0.0
+
+
+<AND>
+0 ρ1 ρ’
+
+
+<AND>
+ρ
+
+
+<AND>
+0.05
+
+
+<AND>
+0.1
+
+
+<AND>
+ρ (veh/m)
+
+
+<AND>
+FIG. 1. (a) Fundamental diagram for A 5, 3, 2(m/s2 (top to bottom)Dashed line corresponds to the homogeneous solution. (b) Ratio of variance of velocities to the average velocity for A 2, 3, 5(m/s2 (top to bottom)(c)
+Qualitative plot of function S(ρ)(d)e) Hysteresis loops in
+transitions between free and fluctuative flow states for A 3
+arrows show the direction of changing the global density.
+(f) Results of local measurements of density and flux in free
+(almost straight line) and fluctuative regimes.
+
+
+<AND>
+n−1
+v 0 t.
+ρ
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|2 341 373 161 11
+n 1, N,
+
+
+<AND>
+(4)
+
+
+<AND>
+ξN +1 ξ1 AT +kT v
+
+
+<AND>
++kD
+
+
+<AND>
+per
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|2 372 461 125 8
+AT ρ, 
+--
+ATρ, 
+>>
+Split
+|2 317 475 202 7
+A solution of equation 
+--
+A solution of equation 
+>>
+Delete
+|2 317 475 202 7
+ξn exp{iαn zt}2
+
+
+<AND>
+(5)
+
+
+<AND>
+where α 2π
+N κ (κ 0, N 1) 
+--
+
+<AND>
+
+<AND>
+
+>>
+Delete
+|2 338 682 224 7
+6= 
+--
+
+>>
+Split
+|3 54 86 245 7|3 54 100 29 11
+Following the approach of 
+--
+Following the approach of 
+>>
+Delete
+|3 83 100 117 11|3 88 104 8 3
+vn(m/sec)
+
+
+<AND>
+15
+
+
+<AND>
+a
+
+
+<AND>
+15
+
+
+<AND>
+b
+
+
+<AND>
+15
+
+
+<AND>
+10
+
+
+<AND>
+10
+
+
+<AND>
+10
+
+
+<AND>
+5
+
+
+<AND>
+5
+
+
+<AND>
+5
+
+
+<AND>
+0
+
+
+<AND>
+0
+
+
+<AND>
+125
+
+
+<AND>
+250
+
+
+<AND>
+0
+
+
+<AND>
+0
+
+
+<AND>
+125
+
+
+<AND>
+n
+
+
+<AND>
+250
+
+
+<AND>
+0
+
+
+<AND>
+c
+
+
+<AND>
+0
+
+
+<AND>
+125
+
+
+<AND>
+n
+
+
+<AND>
+f (veh/sec)
+
+
+<AND>
+d
+
+
+<AND>
+0.32
+0.3
+
+
+<AND>
+0.3
+0.2
+0.1
+
+
+<AND>
+0
+
+
+<AND>
+5000
+t(sec)
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Replace
+|3 238 309 61 8
+T 2)
+--
+T2)
+>>
+Split
+|3 54 321 245 7|3 54 333 10 7|3 64 333 235 7|3 54 345 245 7|3 54 357 245 7
+Our numerical simulations show that ρ2 ρ′but ρ′
+is considerably greater than ρ1 thus we expect that for
+ρ1 ρ ρ′ both homogeneous and fluctuative states are
+stable.
+
+--
+Our numerical simulations show that ρ2 ρ'but ρ' is considerably greater than ρ1, thus we expect that for ρ1 ρ ρ' both homogeneous and fluctuative states are stable.
+
+
+>>
+Split
+|3 54 369 245 7|3 54 381 245 7|3 54 393 64 7|3 118 393 181 7|3 54 405 208 7|3 262 405 37 7|3 54 417 245 7|3 54 429 63 7|3 117 429 182 7|3 54 441 121 7
+In the fluctuative regime (ρ1 ρ ρ2 the flow is
+characterized by presence of humps (dense regions) moving backwards or forwards. When the flow has stabilized
+the humps are equidistant and the evolution of traffic in
+time and space resembles the spreading of a wave. The
+existence of a fluctuative regime was predicted by other
+car-following (e.g. 
+--
+In the fluctuative regime (ρ1 ρ ρ2) the flow is characterized by presence of humps (dense regions) moving backwards or forwards. When the flow has stabilized the humps are equidistant and the evolution of traffic in time and space resembles the spreading of a wave. The existence of a fluctuative regime was predicted by other car-following (e.g. 
+>>
+Split
+|3 54 477 119 7|3 173 477 126 7|3 54 489 91 7|3 145 489 108 7|3 253 489 46 7|3 54 501 245 7|3 54 513 26 7|3 80 513 184 7|3 264 513 35 7|3 54 525 245 7|3 54 537 56 7
+Simulations of our model show that the fluctuative flow
+state is not unique. Figs. 2(a-c) present the cars velocities after the fluctuative flow regime has stabilized for
+three different initial conditions. It can be seen that the
+
+
+--
+Simulations of our model show that the fluctuative flow state is not unique. Figs. 2(a-c) present the cars velocities after the fluctuative flow regime has stabilized for three different initial conditions. It can be seen that the 
+>>
+Delete
+|3 264 513 35 7|3 54 525 245 7|3 54 537 56 7
+e
+0.4
+
+
+<AND>
+0.34
+
+
+<AND>
+0.28
+
+
+<AND>
+250
+
+
+<AND>
+n
+0.5
+
+
+<AND>
+0.36
+
+
+<AND>
+f (veh/sec)
+
+
+<AND>
+z 2 pz q(eiα 1) 0.
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Merge
+|3 264 513 35 7|3 54 525 245 7|3 54 537 56 7|3 110 537 189 7|3 54 548 91 7|3 145 548 154 7|3 54 560 195 7|3 249 560 50 7|3 54 572 245 7|3 54 584 29 7|3 83 584 216 7|3 54 596 115 7|3 169 596 130 7|3 54 608 122 7|3 176 608 123 7|3 54 620 154 7|3 208 620 92 7|3 54 632 138 7
+”wavelengths” of these states are different. Fig. 2(d)
+presents the convergence of flux in these experiments to
+distinct values. Our simulations also show the existence
+of solutions with other ”wavelengths” and flux values.
+Fig. 2(e) shows the fundamental diargams for three different wavelengths. Consequently, depending on initial
+conditions different stable fluctuative states emerge with
+different values of flux and distances between neighboring humps. This indicates that for ρ1 ρ ρ2 system
+
+--
+"wavelengths" of these states are different. Fig. 2(d) presents the convergence of flux in these experiments to distinct values. Our simulations also show the existence of solutions with other "wavelengths" and flux values. Fig. 2(e) shows the fundamental diargams for three different wavelengths. Consequently, depending on initial conditions different stable fluctuative states emerge with different values of flux and distances between neighboring humps. This indicates that for ρ1 ρ ρ2 system 
+>>
+Replace
+|3 192 632 107 7|3 54 644 171 7
+∆xn 
+--
+Δxn, 
+>>
+Replace
+|3 225 644 74 7|3 54 656 212 7
+∆xn 
+--
+Δxn, 
+>>
+Delete
+|3 54 680 245 6
+10000
+
+
+<AND>
+0
+
+
+<AND>
+0
+
+
+<AND>
+0.05
+
+
+<AND>
+0.1
+
+
+<AND>
+0.15
+
+
+<AND>
+0.2
+
+
+<AND>
+ρ (veh/m)
+
+
+<AND>
+FIG. 2.
+Three different stable states in the fluctuative
+regime, obtained from different initial conditions. Global density ρ 0.06(veh/m)A 3(m/s2 (a-c) Cars velocities. (d)
+Convergence of flux to different values in these three experiments. (e) Fundamental diagrams for three different stable
+fluctuative states with wavelengths 20, 5 and 6.67 cars (top
+to bottom)A dashed line corresponds to the homogeneous
+solution.
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|3 317 338 190 7
+Our results also illustrate the well-known phenomenon
+
+--
+Our results also illustrate the well-known phenomenon 
+>>
+Delete
+|3 410 374 152 7|3 317 386 191 7
+3
+
+
+<AND>
+FIG. 4. Decay of the velocities variance in time in the congested flow regime. Road length is 1, 4 and 16 km (bottom
+to top)The dashed line has a slope -0.21
+
+
+--
+
+<AND>
+
+>>
+Merge
+|3 410 374 152 7|3 317 386 191 7|3 508 386 54 7|3 317 398 245 7|3 317 410 245 7|3 317 422 37 7|3 354 422 208 7|3 317 434 194 7
+numerical simulation (Fig. 1(f)we started from a value
+of density below ρ′ increased it gradually in the described
+above manner up to a value greater than ρ′ and decreased
+it back. These jumps may be explained by our finding of
+many stable states in the fluctuative regime.
+
+--
+numerical simulation (Fig. 1(f)we started from a value of density below ρ'increased it gradually in the described above manner up to a value greater than ρ' and decreased it back. These jumps may be explained by our finding of many stable states in the fluctuative regime.
+
+
+>>
+Split
+|3 317 446 245 7|3 317 458 115 7|3 432 458 130 7|3 317 470 163 7
+Our model also demonstrates the gradual spatial transition from the fluctuative to free flow in the downstream
+direction which was measured by 
+--
+Our model also demonstrates the gradual spatial transition from the fluctuative to free flow in the downstream direction which was measured by 
+>>
+Delete
+|3 409 506 53 7
+f (veh/sec)
+
+
+<AND>
+0.5
+
+
+<AND>
+0.5
+
+
+<AND>
+a
+
+
+<AND>
+0.4
+
+
+<AND>
+0.5
+
+
+<AND>
+b
+
+
+<AND>
+0.4
+0.3
+
+
+<AND>
+0.3
+
+
+<AND>
+0.2
+
+
+<AND>
+0.2
+
+
+<AND>
+0.2
+
+
+<AND>
+0.1
+
+
+<AND>
+0.1
+
+
+<AND>
+0.1
+
+
+<AND>
+0.1
+ρ (veh/m)
+
+
+<AND>
+0.2
+
+
+<AND>
+0.0
+0.0
+
+
+<AND>
+0.1
+ρ (veh/m)
+
+
+<AND>
+c
+
+
+<AND>
+0.4
+
+
+<AND>
+0.3
+
+
+<AND>
+0.0
+0.0
+
+
+<AND>
+0.2
+
+
+<AND>
+0.0
+0.0
+
+
+<AND>
+0.1
+ρ (veh/m)
+
+
+<AND>
+[1] B. S. Kerner, H. Rehborn, Phys. Rev. Lett. 79, 4030
+(1997)[2] B. S. Kerner, H. Rehborn, Phys. Rev. E 53, R4275
+(1996)[3] R. Herman, R. W. Rothery in Proceedings of the 2nd
+International Symposium on the Theory of Traffic Flow,
+London (1963)[4] K. Nagel, M. Schreckenberg, J. Phys. I (France) 2, 2221
+(1992)[5] Y. Sugiama in: Proceedings of Workshop on Traffic and
+Granular Flow (1995, Julich)edited by D. E. Wolf,
+M. Schreckenberg, A. Bachem (World Scientific, Singapore)137 (1996)[6] K. Nagel, M. Paczuski, Phys. Rev. E 51, 2909 (1995)[7] B. S. Kerner, P. Konhäuser, Phys. Rev. E 48, R2335
+(1993)[8] D. Helbing, Phys. Rev. E 51, 3165 (1995)[9] H. Y. Lee, H.W. Lee, D. Kim, Phys. Rev. Lett. 81, 1130
+(1998)[10] K. Nagel, Phys. Rev. E 53, 4655 (1996)[11] G. Csányi, J. Kertész, J. Phys. A 28, L427 (1995)M.
+Sasvári, J. Kertész, Phys. Rev. E 56, 4104 (1997)[12] D. E. Wolf in: Proceedings of StatPhys20 (1998, Paris)in press.
+[13] S. Krauss, Microscopic Modelling of Traffic Flow: Investigation of Collision Free Vehicle Dynamics, Deutsches
+Zentrum für Luft- und Raumfahrt Hauptabteilung Mobilität und Systemtechnik, Köln (1998)[14] Every new car is placed in the middle between two consecutive cars chosen randomly and gets the velocity of
+the car ahead. The safety time gap of the new car and
+the car behind is halved and then gradually increased
+linearly up to the initial value T [15] Starting from a low value of density (free flow) the density
+is increased by the influx fin 0.133(veh/sec) at the
+on-ramp situated at xin L/4, where L 10000(m)The off-rump is at xout 3L/4 and the outflux changes
+instantly from 0 to fout fin when the global density ρ
+reaches the maximal value 0.03 (veh/m)
+<AND>
+0.2
+
+
+<AND>
+FIG. 3. Results of local measurements of flux and density
+at different distances from the on-ramp. (a) 500 m upstream
+the on-rump, (b) and (c) 250 and 1000 m downstream respectively
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+>>
+Split
+|4 54 62 245 7|4 54 74 110 7|4 164 74 135 7|4 54 86 143 7|4 197 86 102 7|4 54 98 157 7
+where t∗ is the crossover time between the power law
+and exponential decay. We find t∗ Lz and τ Lz
+with z 2.0 0.1. These results are qualitivly similar to
+that obtained by 
+--
+where t* is the crossover time between the power law and exponential decay. We find t* Lz and τ Lz with z 2.0 0.1. These results are qualitivly similar to that obtained by 
+>>
+Rearrange
+|4 54 223 245 7|4 54 235 101 7|4 155 235 144 7|4 54 247 206 7|4 260 247 39 7|4 54 259 245 7|4 54 271 82 7||4 54 282 242 7
+In summary, we present a single lane car-following
+model which explains important features of traffic observed experimentally. The model predicts the existence
+of many stable periodic states in the fluctuative (synchronized) flow regime.
+We wish to thank S. Schwarzer for usefull discussion.
+
+
+--
+In summary, we present a single lane car-following model which explains important features of traffic observed experimentally. The model predicts the existence of many stable periodic states in the fluctuative (synchronized) flow regime.
+
+We wish to thank S. Schwarzer for usefull discussion. 
+>>
+Delete
+|4 54 282 242 7
+σv (m/sec)
+
+
+<AND>
+10
+
+
+<AND>
+10
+
+
+<AND>
+10
+
+
+<AND>
+0
+
+
+<AND>
+−1
+
+
+<AND>
+−2
+
+
+<AND>
+10
+
+
+<AND>
+2
+
+
+<AND>
+10
+
+
+<AND>
+3
+
+
+<AND>
+10
+
+
+<AND>
+4
+
+
+<AND>
+10
+
+
+<AND>
+5
+
+
+<AND>
+t (sec)
+4
+
+
+--
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
+<AND>
+
