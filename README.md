@@ -1,4 +1,4 @@
-PDFDiVi
+# PDFDiVi
 
 #   1 Setup
 #   1.1 Python
@@ -41,7 +41,7 @@ PDFDiVi
                     where <PATH> is the location of the PDFDiVi project
     To save this permanently, you may add it in ~/.bashrc (see 1.2.1).
 
-#   1.2.3. CORS
+#   1.2.3 CORS
     To be able to load files (like PDFs) dynamically, CORS must be activated. To do so, add the line
     'Header set Access-Control-Allow-Origin "*"' to the .htaccess file in the top-level folder.
     Note: In order that this .htaccess file is processed by Apache, you have to set the 'AllowOverride'
