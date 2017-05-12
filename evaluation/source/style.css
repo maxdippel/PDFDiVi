@@ -21,7 +21,8 @@
 }
 
 body {
-    background-color: #696969;
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgba(50,50,50,1);/*#696969;*/
 }
 
 
@@ -47,7 +48,8 @@ body {
     width:100%;
     float:left;
     padding: 2px 0px 0px 0px;
-    background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
+    background-image: linear-gradient(to top, rgba(50,50,50,0.4) 0%, rgba(50,50,50,0.8) 50%);
+    /*background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
     pointer-events:auto;
 }
 
@@ -58,6 +60,15 @@ body {
     width:auto;
 }
 
+#program_title{
+    color: white;
+    margin: 15 auto;
+    text-align: left;
+    width: 250px;
+    float:left;
+    padding-left: 15px;
+}
+
 #right_button_list {
     float:right;
     width:auto;
@@ -66,13 +77,16 @@ body {
 
 #left_button_list {
     float:left;
-    width:auto;
+    width:50px;
+    pointer-events:auto;
+    margin: 0px 5px 0px 0px;
+    background-color: rgba(50,50,50,0.4);
 }
 
 #info_container {
     float: right;
     width: 300px;
-    background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
+    /*background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
     pointer-events:auto;
 }
 
@@ -82,21 +96,41 @@ body {
 
 .framed {
     /*border-radius: 10px 10px 10px 10px;*/
-    border-style:solid;
+    /*border-style:solid;
     border-width:1px;
     border-color:rgb(210,210,210);
     margin: 0px 2px 0px 2px;
     background-color: rgba(200,200,200,0.8);/*#bdbdbd;*/
 }
 
-.menu_button {
+.right_menu_button {
     width:50px;
+    
+    /*background-color: rgba(200,200,200,0);*/
+    background-image: none;
+}
+
+.right_menu_button:hover {
+    /*background-color: rgba(100,100,100,0.8);*/
+    background-image: linear-gradient(to top, rgba(50,50,50,0) 0%, rgba(100,100,100,0.8) 50%) !important;
+}
+
+.left_menu_button {
+    width:50px;
+    margin: 3px 0px 3px 0px;
+    /*background-color: rgba(200,200,200,0);*/
+    background-image: none;
+}
+
+.left_menu_button:hover {
+    /*background-color: rgba(100,100,100,0.8);*/
+    background-image: linear-gradient(to left, rgba(50,50,50,0) 0%, rgba(100,100,100,0.8) 50%) !important;
 }
 
 .info {
     color: white;
-    
-    margin: 2px 2px 2px 2px;
+    background-color: rgba(50,50,50,0.4);
+    /*margin: 2px 2px 2px 2px;*/
     padding: 5px;
 }
 
@@ -111,9 +145,22 @@ relative {
 
 .ui-dialog-titlebar {
   background-color: #F9A7AE;
+  font-family: "Courier New", Courier, monospace;
   background-image: none;
-  color: #000;
+    /*color: white !important;*/
+  /*color: #000;*/
 }
+.ui-dialog-content {
+    /*background-color: rgba(50,50,50,1) !important ; 
+    color: white !important;*/
+    font-family: "Courier New", Courier, monospace;
+}
+
+.ui-dialog {
+    /*background-color: rgba(70,70,70,0.5) !important;*/
+    
+}
+
 
 .stop-scrolling {
   height: 100%;

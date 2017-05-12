@@ -110,7 +110,7 @@ insert_color = "rgba(255, 255, 0, 0.3)";
 delete_color = "rgba(255, 0, 0, 0.3)";
 rearrange_color = "rgba(255, 140, 0, 0.3)";
 merge_color = "rgba(0, 255, 0,  0.3)";
-split_color = "rgba(0, 0, 255,  0.3)";
+split_color = "rgba(147,112,219,  0.3)";
 side_note_width = 3;
 
 
@@ -259,12 +259,15 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
             }
             else {
                 
-                $("#"+id).dialog({
+                var d = $("#"+id).dialog({
                     collision:"none",
                     modal:false,
                     resizable:false,
                 }).dialog( "option", "position", { my: "top", at: "bottom", of: annotation, 
-                collision: 'none' } ).prev(".ui-dialog-titlebar").css("background",color.replace("0.7", "0.3"));
+                collision: 'none' } );
+                
+            d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
+            
                 var line = createLine(getXShift() + anchor_x*scale*zoom, (anchor_y)*scale*zoom  , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
                 line.id = "line"+idx;
                 document.body.appendChild(line);
@@ -283,12 +286,14 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
             var posX = $(this).offset().left - $(document).scrollLeft() - width + $(this).outerWidth();
             var posY = $(this).offset().top - $(document).scrollTop() + $(this).outerHeight();
             
-            $("#"+id).dialog({
+            var d = $("#"+id).dialog({
                 collision:"none",
                 modal:false,
                 resizable:false,
             }).dialog( "option", "position", { my: "top", at: "bottom", of: annotation, 
-        collision: 'none' } ).prev(".ui-dialog-titlebar").css("background",color.replace("0.7", "0.3"));
+        collision: 'none' } );
+            d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
+            
             var line = createLine(getXShift() +  anchor_x*scale*zoom, (anchor_y)*scale*zoom  , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
             line.id = "line"+idx;
             document.body.appendChild(line);
@@ -364,15 +369,17 @@ function activateGUIElement(new_window, new_button) {
         current_window = new_window;
         current_button = new_button;
         window.style.display = "block";
-        button.style.backgroundColor = "rgba(100,100,100,0.8)";/*"#808080";*/
-        window.style.backgroundColor = "rgba(100,100,100,0.8)";/*"#808080";*/
+        //button.style.backgroundColor = "rgba(100,100,100,0.8)";/*"#808080";*/
+        button.style.backgroundImage = "linear-gradient(to top, rgba(50,50,50,0) 0%, rgba(100,100,100,0.8) 50%)";
+        //window.style.backgroundColor = "rgba(100,100,100,0.8)";/*"#808080";*/
         
     }
     else {
         current_window = "";
         current_button = "";
         window.style.display = "none";
-        button.style.backgroundColor = "rgba(200,200,200,0.8)";/*#bdbdbd;*/
+        button.style.backgroundImage = "linear-gradient(to top, rgba(50,50,50,0) 0%, rgba(100,100,100,0) 50%)";
+        //button.style.backgroundColor = "rgba(200,200,200,0)";/*#bdbdbd;*/
     }
 }
 function removeGUIElement(window, button, force_quit=false) {
@@ -390,14 +397,14 @@ function createAboutWindow(){
     var about_window = document.createElement('div');
     about_window.style.display = "none";
     about_window.id = "about_window";
-    about_window.innerHTML = "<b>About</b></br>";
+    about_window.innerHTML = "<b>About</b></br></br>";
         
 
     about_window.style.position = "relative";
     about_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png'/></br>";
-    about_window.innerHTML += "PDFDiVi is an application for visualising differences in text extraction between the tool <a href='https://github.com/ckorzen/icecite'>IceCite</a> and another tool. \
+    about_window.innerHTML += "PDFDiVi is an application for visualising differences in text extraction between some tool and our benchmark. \
     </br></br>\
-    The latter will be reffered to as secondary tool. In order to provide a good comparison between both extractions we foucs on the operations needed to transform one extraction into the other.</br>\
+    In order to provide a good measure of quality, we foucs on the operations needed to transform the extraction by the tool into the benchmark extraction.</br>\
     When visualizing our different operations we distinguish between word and paragraph operations. These can be seen as the two main classes of operation types. \
     As their names suggest they differ in the scope, as word operations are dealing only with single characters or words while paragraph operation may deal with sequences of words.</br> \
     One can see the difference between both general types of operations in the visualization as well as in the explanation notes. Word Operation underline marked text while paragraph operation color \ the whole background of the respective text part. Furthermore there is a type specification in the title of each explanation node (you may open it by clicking on annotations).";
@@ -419,12 +426,12 @@ function createLegendWindow() {
     legend_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/star.png'/></br>"
 
     var l1 = new Array(
-    "States that there is a text part only extracted by IceCite",
-    "States that there is a text part which differs in the secondary tool from IceCite",
-    "States that there was a break in the textflow in the secondary tool which was not extracted by IceCite",
-    "States that there was a break in the textflow in IceCite which was not extracted by the secondary tool",
-    "States that there is a text part which has a different localization (in the text flow) in IceCite and in the secondary tool",
-    "States that there is a text part not extracted by IceCite but only by the secondary tool");
+    "States that there is a text part missing",
+    "States that there is a text part which differs",
+    "States that there was a break in the textflow which doesn't correspond to the benchmark",
+    "States that there was a break in the textflow which wasn't extracted by the tool",
+    "States that there is a text part which has a different localization (in the text flow)",
+    "States that there is a text part which wasn't extracted by the benchmark");
     var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
     var l3 = new Array("Insert", "Replace", "Merge", "Split", "Rearrange", "Delete");
     for (i = 0; i < l3.length; i++) {
@@ -532,28 +539,31 @@ $(document).ready(function () {
         $(window).scrollTop(y+(page_height+0.5*page_padding)*(zoom*scale));
     }, false);
 
+    
+        
     document.getElementById('zoom_in').addEventListener('click', function() {
-        zoom = Math.min(zoom + 0.1, 1);
-        var ratio = zoom * scale
-        document.getElementById("content").style.transform = "scale("+zoom.toString()+")";
-        document.getElementById("content").style.MozTransform = "scale("+zoom.toString()+")";
-        document.getElementById("content").style.left = (($(window).width()/2 - page_width*ratio/2) / $(window).width() * 100).toString() + "%";
-        $(".ui-dialog-content").dialog("close");
+        zoomTo(Math.min(zoom + 0.1, 1));
     }, false);
 
     document.getElementById('zoom_out').addEventListener('click', function() {
-        zoom = Math.max(zoom - 0.1, 0.3);
-        var ratio = zoom * scale
-        document.getElementById("content").style.transform = "scale("+zoom.toString()+")";
-        document.getElementById("content").style.MozTransform = "scale("+zoom.toString()+")";
-        document.getElementById("content").style.left = (($(window).width()/2 - page_width*ratio/2) / $(window).width() * 100).toString() + "%";
-        $(".ui-dialog-content").dialog("close");
+        zoomTo(Math.max(zoom - 0.1, 0.3));
+        
     }, false);
     readPDF();
     readTXT();
+    zoomTo(0.5);
     
 
-}); 
+});
+
+function zoomTo(amount) {
+    zoom = amount;
+    var ratio = zoom * scale
+    document.getElementById("content").style.transform = "scale("+zoom.toString()+")";
+    document.getElementById("content").style.MozTransform = "scale("+zoom.toString()+")";
+    document.getElementById("content").style.left = (($(window).width()/2 - page_width*ratio/2) / $(window).width() * 100).toString() + "%";
+    $(".ui-dialog-content").dialog("close");
+} 
 
 function reset() {
     $("#annotations").empty();
