@@ -1,2 +1,5 @@
-- add legend window
-- use pdfs from arxiv-server (tmp.pdf method)
+- highlight selected annotations
+- seitenbreite/höhe anpassen (button + tasten)
+- split/merge icons
+- split/merge sind keine word-operations
+- next annotation (button + taste)

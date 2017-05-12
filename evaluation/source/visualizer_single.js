@@ -13,7 +13,7 @@ total_operations = 0
 page_idx = 1
 page_max = 0
 _pdfDoc = null
-
+annotation_y_index = 0
 
 function setup(viewport, _finished) {
     init = true
@@ -113,6 +113,8 @@ merge_color = "rgba(0, 255, 0,  0.3)";
 split_color = "rgba(147,112,219,  0.3)";
 side_note_width = 3;
 
+annotations_by_y = [];
+
 
 function setupAnnotations(pdf_path, annotations) {
     renderPDF(pdf_path, document.getElementById('pdf_container'),
@@ -161,11 +163,11 @@ function setupAnnotations(pdf_path, annotations) {
                     total_rearrange++;
                     break;
                 case "Merge":
-                    processOperationShort("MERGE", rects[1].split(" "), 20, merge_color, "<b>MERGE</b>", 10 + 8 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_merge, framed)
+                    processOperationShort("MERGE", rects[1].split(" "), 20, merge_color, "Insert a <b>MERGE</b> here.", 10 + 8 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_merge, framed)
                     total_merge++;
                     break;
                 case "Split":
-                    processOperationShort("SPLIT", rects[1].split(" "), 20, split_color, "<b>SPLIT</b>", 10 + 8 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_split, framed)
+                    processOperationShort("SPLIT", rects[1].split(" "), 20, split_color, "Insert a <b>SPLIT</b> here.", 10 + 8 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_split, framed)
                     total_split++;
                     break;
             }
@@ -174,6 +176,7 @@ function setupAnnotations(pdf_path, annotations) {
         document.getElementById("pdf_title").innerHTML = pdf_name;
         document.getElementById("content").style.left = (($(window).width()/2 - page_width*(scale*zoom)/2) / $(window).width() * 100).toString() + "%";
         createDistributionWindow();
+        annotations_by_y.sort();
     }
     );
     
@@ -217,7 +220,13 @@ function getXShift() {
 
 
 dialog_id = 0;
+grouped_annotations = {};
+last_group_id = -1
 function addAnnotation(x, y, width, height, color, note, title="", group_id, framed=false, anchor_x, anchor_y) {
+    if (group_id != last_group_id) {
+        annotations_by_y.push(y*scale);
+    }
+    last_group_id = group_id;
     var window = document.getElementById(title + "_container")
     if (window == null) {
         var container = document.createElement('div');
@@ -243,17 +252,28 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
     else {
         annotation.style.backgroundColor= color;
     }
+    var idx = title + group_id.toString(); //dialog_id
+    var id = "dialog_"+ title + idx;//idx;
+    if (!(id in grouped_annotations)) {
+        grouped_annotations[id] = [];
+    }
+    grouped_annotations[id].push(annotation)
     annotation.onclick = function() {
-        var idx = title + group_id.toString(); //dialog_id
-        var id = "dialog_"+ title + idx;//idx;
         var dialog = document.getElementById(id);
         var cur_x = x;
         var cur_y = y;
         var opened = false;
-                //annotation.style.backgroundColor= color.replace("0.7", "1");
+        
+        for (var i = 0; i < grouped_annotations[id].length; i++) {
+            grouped_annotations[id][i].style.backgroundColor= color.replace("0.3", "0.5");
+        }
+                //annotation.style.backgroundColor= color.replace("0.3", "1");
         if (dialog) {
             if ($('#' + id).dialog('isOpen')) {
                 $('#' + id).dialog('close');
+                for (var i = 0; i < grouped_annotations[id].length; i++) {
+                    grouped_annotations[id][i].style.backgroundColor= framed ? "transparent" : color;
+                }
                 //annotation.style.backgroundColor= color;
                 
             }
@@ -266,7 +286,8 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
                 }).dialog( "option", "position", { my: "top", at: "bottom", of: annotation, 
                 collision: 'none' } );
                 
-            d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
+                d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
+                d.css({height: Math.min(350, $("#"+id).height()).toString() +  "px", overflow:"auto"});
             
                 var line = createLine(getXShift() + anchor_x*scale*zoom, (anchor_y)*scale*zoom  , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
                 line.id = "line"+idx;
@@ -278,7 +299,7 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
             //dialog_id += 1;
             var popup = document.createElement('div');
             popup.id = id;
-            popup.title = title + " " +(framed ? "WORD" : "PARAGRAPH");
+            popup.title = title + " " + (title == "SPLIT" || title == "MERGE" ? "" : (framed ? "WORD" : "PARAGRAPH"));
             note = note.split("\n").join('<br/>');
             note = note.split("<AND>").join('<b>AND</b>');
             popup.innerHTML = note;
@@ -293,7 +314,7 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
             }).dialog( "option", "position", { my: "top", at: "bottom", of: annotation, 
         collision: 'none' } );
             d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
-            
+            d.css({height: Math.min(350, $("#"+id).height()).toString() +  "px", overflow:"auto"});
             var line = createLine(getXShift() +  anchor_x*scale*zoom, (anchor_y)*scale*zoom  , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
             line.id = "line"+idx;
             document.body.appendChild(line);
@@ -326,6 +347,9 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
                 var element = document.getElementById("line"+idx);
                 if (element) {
                     element.parentNode.removeChild(element);
+                }
+                for (var i = 0; i < grouped_annotations[id].length; i++) {
+                    grouped_annotations[id][i].style.backgroundColor= framed ? "transparent" : color;
                 }
                     
             });
@@ -402,12 +426,12 @@ function createAboutWindow(){
 
     about_window.style.position = "relative";
     about_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png'/></br>";
-    about_window.innerHTML += "PDFDiVi is an application for visualising differences in text extraction between some tool and our benchmark. \
+    about_window.innerHTML += "PDFDiVi is an application for visualizing differences in text extraction between some tool and our benchmark. \
     </br></br>\
     In order to provide a good measure of quality, we foucs on the operations needed to transform the extraction by the tool into the benchmark extraction.</br>\
     When visualizing our different operations we distinguish between word and paragraph operations. These can be seen as the two main classes of operation types. \
     As their names suggest they differ in the scope, as word operations are dealing only with single characters or words while paragraph operation may deal with sequences of words.</br> \
-    One can see the difference between both general types of operations in the visualization as well as in the explanation notes. Word Operation underline marked text while paragraph operation color \ the whole background of the respective text part. Furthermore there is a type specification in the title of each explanation node (you may open it by clicking on annotations).";
+    One can see the difference between both general types of operations in the visualization as well as in the explanation notes. Word Operation underline marked text while paragraph operations color\ the whole background of the respective text part. Furthermore there is a type specification in the title of each explanation node (you may open it by clicking on highlighted text).";
 
     
     document.getElementById('info_container').appendChild(about_window);
@@ -429,9 +453,9 @@ function createLegendWindow() {
     "States that there is a text part missing",
     "States that there is a text part which differs",
     "States that there was a break in the textflow which doesn't correspond to the benchmark",
-    "States that there was a break in the textflow which wasn't extracted by the tool",
+    "States that there should be a break in the textflow which wasn't extracted by the tool",
     "States that there is a text part which has a different localization (in the text flow)",
-    "States that there is a text part which wasn't extracted by the benchmark");
+    "States that there is a text part which shouldn't have been extracted");
     var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
     var l3 = new Array("Insert", "Replace", "Merge", "Split", "Rearrange", "Delete");
     for (i = 0; i < l3.length; i++) {
@@ -542,13 +566,34 @@ $(document).ready(function () {
     
         
     document.getElementById('zoom_in').addEventListener('click', function() {
-        zoomTo(Math.min(zoom + 0.1, 1));
+        zoomTo(Math.min(zoom + 0.1, 0.5 * ($(window).width()/(page_width))));
     }, false);
 
     document.getElementById('zoom_out').addEventListener('click', function() {
         zoomTo(Math.max(zoom - 0.1, 0.3));
         
     }, false);
+    
+    
+    document.getElementById('fill_width').addEventListener('click', function() {
+        zoomToWidth();
+    }, false);
+    
+    document.getElementById('fill_height').addEventListener('click', function() {
+        zoomToHeight();
+    }, false);
+    
+    document.getElementById('next').addEventListener('click', function() {
+        annotation_y_index = Math.min(annotations_by_y.length - 1, annotation_y_index +1);
+        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom*scale)); //annotation_y_index
+    }, false);
+    
+    document.getElementById('previous').addEventListener('click', function() {
+        annotation_y_index = Math.max(0, annotation_y_index -1);
+        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom*scale)); //annotation_y_index
+    }, false);
+    
+    
     readPDF();
     readTXT();
     zoomTo(0.5);
@@ -560,10 +605,21 @@ function zoomTo(amount) {
     zoom = amount;
     var ratio = zoom * scale
     document.getElementById("content").style.transform = "scale("+zoom.toString()+")";
-    document.getElementById("content").style.MozTransform = "scale("+zoom.toString()+")";
+    document.getElementById("content").style.mozTransform = "scale("+zoom.toString()+")";
+    document.getElementById("content").style.webkitTransform = "scale("+zoom.toString()+")";
+    document.getElementById("content").style.msTransform = "scale("+zoom.toString()+")";
     document.getElementById("content").style.left = (($(window).width()/2 - page_width*ratio/2) / $(window).width() * 100).toString() + "%";
     $(".ui-dialog-content").dialog("close");
 } 
+
+function zoomToWidth() {
+    zoom = 0.5 * ($(window).width()/(page_width));
+    zoomTo(zoom);
+} 
+function zoomToHeight() {
+    zoom = 0.5 * ($(window).height()/(page_height));
+    zoomTo(zoom);
+}
 
 function reset() {
     $("#annotations").empty();

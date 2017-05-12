@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.18)  28 APR 2017 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.18)  12 MAY 2017 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,7 +172,7 @@ Overfull \vbox (17.9844pt too high) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  995 strings out of 494953
  11292 string characters out of 6180977
- 81609 words of memory out of 5000000
+ 80609 words of memory out of 5000000
  4288 multiletter control sequences out of 15000+600000
  18477 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -196,7 +196,7 @@ blic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti9.pfb>
 Output written on input/src/0001/cond-mat0001225/cutting.tmp.pdf (7 pages, 2526
-78 bytes).
+77 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
