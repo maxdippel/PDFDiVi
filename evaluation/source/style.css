@@ -60,6 +60,7 @@ body {
     color: white;
     margin:15px auto;
     text-align: center;
+    vertical-align: middle;
     width:auto;
 }
 
@@ -88,7 +89,7 @@ body {
 
 #info_container {
     float: right;
-    width: 300px;
+    width: 400px;
     /*background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
     pointer-events:auto;
 }
@@ -164,6 +165,7 @@ relative {
     
 }
 
+svg > g > g:last-child { pointer-events: none }
 
 .stop-scrolling {
   height: 100%;

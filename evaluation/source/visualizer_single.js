@@ -27,7 +27,7 @@ function setup(viewport, _finished) {
 scale = 2.0
 zoom = 0.5
 desired_width = 800
-page_padding = 20
+page_margin = 20
 function renderPDF(url, canvasContainer, _finished, options) {
     var options = options || { scale: 1 };
     init = false
@@ -36,7 +36,7 @@ function renderPDF(url, canvasContainer, _finished, options) {
         viewport = page.getViewport(scale); 
         
         var canvas = document.createElement('canvas');
-        canvas.style.marginBottom = page_padding + "px"
+        canvas.style.marginBottom = page_margin + "px"
         canvas.style.boxShadow = "5px 5px 10px black"
         var ctx = canvas.getContext('2d');
         var renderContext = {
@@ -105,22 +105,25 @@ function readPDF() {
 
 }
 
-replace_color = "rgba(0, 255, 255, 0.3)";
-insert_color = "rgba(255, 255, 0, 0.3)";
-delete_color = "rgba(255, 0, 0, 0.3)";
-rearrange_color = "rgba(255, 140, 0, 0.3)";
-merge_color = "rgba(0, 255, 0,  0.3)";
-split_color = "rgba(147,112,219,  0.3)";
+replace_color = "rgba(0,255,255,0.3)";
+insert_color = "rgba(255,255,0,0.3)";
+delete_color = "rgba(255,0,0,0.3)";
+rearrange_color = "rgba(255,140,0,0.3)";
+merge_color = "rgba(0,255,0,0.3)";
+split_color = "rgba(147,112,219,0.3)";
 side_note_width = 3;
 
 annotations_by_y = [];
 
+function pageHeight() {
+    return page_height + page_margin*0.5 + 2.2;
+}
 
 function setupAnnotations(pdf_path, annotations) {
     renderPDF(pdf_path, document.getElementById('pdf_container'),
     function() {
         annotations = annotations.split(">>");
-        page_height-= 0.8/scale;
+        //page_height = ;//page_height-= 0.8/scale; // TODO: Crap -> scrolling problem
         for (var i = 1; i < annotations.length; i++) {  //skip empty element
             var annotation = annotations[i].split(/\n/);
             var type = annotation[1].split("|")[0];
@@ -147,27 +150,27 @@ function setupAnnotations(pdf_path, annotations) {
             total_operations++;
             switch(type) {
                 case "Replace":
-                    processOperation("REPLACE", rects[1].split(" "),rects,replace_color,actual+"\n<b>BY</b>\n"+target,10+0* side_note_width+framed_shift,side_note_width,page_height,page_padding, total_replace, framed)
+                    processOperation("REPLACE", rects[1].split(" "),rects,replace_color,actual+"\n<b>BY</b>\n"+target,10+0* side_note_width+framed_shift,side_note_width, total_replace, framed)
                     total_replace++;
                     break;
                 case "Insert":
-                    processOperation("INSERT", rects[1].split(" "), rects, insert_color, target, 10 + 2 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_insert, framed)
+                    processOperation("INSERT", rects[1].split(" "), rects, insert_color, target, 10 + 2 * side_note_width + framed_shift, side_note_width, total_insert, framed)
                     total_insert++;
                     break;
                 case "Delete":
-                    processOperation("DELETE", rects[1].split(" ") , rects, delete_color, actual,10+6*side_note_width + framed_shift, side_note_width, page_height, page_padding, total_delete, framed)  //rects[rects.length - 1].split(" ")
+                    processOperation("DELETE", rects[1].split(" ") , rects, delete_color, actual,10+6*side_note_width + framed_shift, side_note_width, total_delete, framed)  //rects[rects.length - 1].split(" ")
                     total_delete++;
                     break;
                 case "Rearrange":
-                    processOperation("REARRANGE", rects[1].split(" "), rects, rearrange_color, target, 10 + 6 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_rearrange, framed)
+                    processOperation("REARRANGE", rects[1].split(" "), rects, rearrange_color, target, 10 + 6 * side_note_width + framed_shift, side_note_width, total_rearrange, framed)
                     total_rearrange++;
                     break;
                 case "Merge":
-                    processOperationShort("MERGE", rects[1].split(" "), 20, merge_color, "Insert a <b>MERGE</b> here.", 10 + 8 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_merge, framed)
+                    processOperationShort("MERGE", rects[1].split(" "), 20, merge_color, "Insert a <b>MERGE</b> here.", 10 + 8 * side_note_width + framed_shift, side_note_width, total_merge, framed)
                     total_merge++;
                     break;
                 case "Split":
-                    processOperationShort("SPLIT", rects[1].split(" "), 20, split_color, "Insert a <b>SPLIT</b> here.", 10 + 8 * side_note_width + framed_shift, side_note_width, page_height, page_padding, total_split, framed)
+                    processOperationShort("SPLIT", rects[1].split(" "), 20, split_color, "Insert a <b>SPLIT</b> here.", 10 + 8 * side_note_width + framed_shift, side_note_width, total_split, framed)
                     total_split++;
                     break;
             }
@@ -176,13 +179,13 @@ function setupAnnotations(pdf_path, annotations) {
         document.getElementById("pdf_title").innerHTML = pdf_name;
         document.getElementById("content").style.left = (($(window).width()/2 - page_width*(scale*zoom)/2) / $(window).width() * 100).toString() + "%";
         createDistributionWindow();
-        annotations_by_y.sort();
+        //annotations_by_y.sort();
     }
     );
     
 }
 
-function processOperation(type, rect, rects, color, note, xshift, side_note_width, page_height, page_padding, id, framed) {
+function processOperation(type, rect, rects, color, note, xshift, side_note_width, id, framed) {
     var anchor_page = parseInt(rect[0]);
     var anchor_x = rect[1];
     var y = rect[2];
@@ -190,7 +193,7 @@ function processOperation(type, rect, rects, color, note, xshift, side_note_widt
     var anchor_height = rect[4];
     var add_y = framed ? anchor_height*1.0 : 0;
     var anchor_y = y*1.0 + add_y;
-    addAnnotation(xshift, y - anchor_height + (anchor_page-1) * (page_height+page_padding*zoom), side_note_width, anchor_height, color.replace("0.3", "0.7"), note, type, id, framed, anchor_x, anchor_y- anchor_height + (anchor_page-1) * (page_height+page_padding*zoom))
+    addAnnotation(xshift, y - anchor_height + (anchor_page-1) * (pageHeight()), side_note_width, anchor_height, color.replace("0.3", "0.7"), note, type, id, framed, anchor_x, anchor_y- anchor_height + (anchor_page-1) * (pageHeight()))
     for (var j = 1; j < rects.length; j++) {
         var rect = rects[j].split(" ");
         var page = parseInt(rect[0]);
@@ -198,11 +201,11 @@ function processOperation(type, rect, rects, color, note, xshift, side_note_widt
         var y = rect[2];
         var width = rect[3];
         var height = rect[4];
-        addAnnotation(x, y - height + (page-1) * (page_height+page_padding*zoom), width, height, color, note, type, id, framed, anchor_x, anchor_y- anchor_height + (anchor_page-1) * (page_height+page_padding*zoom))
+        addAnnotation(x, y - height + (page-1) * (pageHeight()), width, height, color, note, type, id, framed, anchor_x, anchor_y- anchor_height + (anchor_page-1) * (pageHeight()))
     }
 }
 
-function processOperationShort(type, rect, length, color, note, xshift, side_note_width, page_height, page_padding, id, framed) {
+function processOperationShort(type, rect, length, color, note, xshift, side_note_width, id, framed) {
     var page = parseInt(rect[0]);
     var x = rect[1];
     var y = rect[2];
@@ -210,8 +213,8 @@ function processOperationShort(type, rect, length, color, note, xshift, side_not
     var height = rect[4];
     var add_y = framed ? height*1.0 : 0;
     var anchor_y = y*1.0 + add_y;
-    addAnnotation(x, y - height + (page-1) * (page_height+page_padding*zoom), length, height, color, note, type, id, framed, x, anchor_y- height + (page-1) * (page_height+page_padding*zoom))
-    addAnnotation(xshift, y - height + (page-1) * (page_height+page_padding*zoom), side_note_width, height, color.replace("0.3", "0.7"), note, type, id, framed, x, anchor_y- height + (page-1) * (page_height+page_padding*zoom))
+    addAnnotation(x, y - height + (page-1) * (pageHeight()), length, height, color, note, type, id, framed, x, anchor_y- height + (page-1) * (pageHeight()))
+    addAnnotation(xshift, y - height + (page-1) * (pageHeight()), side_note_width, height, color.replace("0.3", "0.7"), note, type, id, framed, x, anchor_y- height + (page-1) * (pageHeight()))
 }
 
 function getXShift() {
@@ -506,14 +509,18 @@ function createOptionsWindow() {
 }
 
 function createDistributionWindow() {
+    
     var distribution_window = document.createElement('div');
     distribution_window.style.display = "none";
+    //distribution_window.style.opacity = 0;
     distribution_window.id = "distribution_window";
     distribution_window.innerHTML = "<b>Distribution</b></br>";
 
     distribution_window.style.position = "relative";
     distribution_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/signal3.png'/></br>"
-
+    
+    var piechart = document.createElement('div');
+    piechart.id = "piechart";/*
     var table = document.createElement('table');
     table.cellPadding = "0px 10px 0px 10px";
     table.style.color = "white";
@@ -528,9 +535,69 @@ function createDistributionWindow() {
         table.innerHTML += "<tr><td><b>" + l1[i] + "</b></td><td style='padding: 0px 10px'>" + "<span style='color:"+c+"'><b>" + l3[i] + "</b></span></td></tr>"
     }
     document.getElementById('info_container').appendChild(distribution_window);
-    document.getElementById('distribution_window').appendChild(table);
+    document.getElementById('distribution_window').appendChild(table);*/
+    document.getElementById('info_container').appendChild(distribution_window);
+    document.getElementById('distribution_window').appendChild(piechart);
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Operation', 'Amount'],
+          ['Insert',    total_insert],
+          ['Replace',   total_replace],
+          ['Merge',     total_merge],
+          ['Split',     total_split],
+          ['Rearrange', total_rearrange],
+          ['Delete',    total_delete],
+        ]);
+        
+
+        var options = {
+          titleTextStyle : { color: "white", fontName: "Courier New", fontSize: 16, bold: true, italic: false },
+          pieSliceTextStyle : { color: "white", fontName: "Courier New", fontSize: 16, bold: true, italic: false },
+          tooltip : {textStyle: {fontSize:16}},
+          backgroundColor: "transparent",
+          pieSliceBorderColor: "transparent",
+          pieSliceText: "none",
+          slices: { 0: {color: convertRGBA(insert_color)},
+                    1: {color: convertRGBA(replace_color)},
+                    2: {color: convertRGBA(merge_color)},
+                    3: {color: convertRGBA(split_color)},
+                    4: {color: convertRGBA(rearrange_color)},
+                    5: {color: convertRGBA(delete_color)}},
+          fontName: "Courier New",
+          chartArea: {left:0,top:10,width:'100%',height:'75%', backgroundColor: {stroke: "red", strokeWidth: 3}},
+          legend: {position: 'right', textStyle: {color: 'white', fontSize: 16}, maxLines: 6, alignment: "center"},
+          height: 200
+        };
+        
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    distribution_window.innerHTML += "<b>" + total_operations + "</b>" + " operations in total.";
     $("#distribution_window").addClass("info");
     $("#distribution_window").addClass("framed");
+
+}
+
+function componentToHex(c) {
+    var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+}
+
+function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}
+
+function convertRGBA(s) {
+    s = s.split("(")[1].split(")")[0].split(",");
+    return rgbToHex(parseInt(s[0]), parseInt(s[1]), parseInt(s[2]));
+
 }
 
 $(document).ready(function () {
@@ -555,12 +622,12 @@ $(document).ready(function () {
 
     document.getElementById('up').addEventListener('click', function() {
         var y = $(window).scrollTop();  //your current y position on the page
-        $(window).scrollTop(y-(page_height+0.5*page_padding)*(zoom*scale));
+        $(window).scrollTop(y-(pageHeight())*(zoom*scale));
     }, false);
 
     document.getElementById('down').addEventListener('click', function() {
         var y = $(window).scrollTop();  //your current y position on the page
-        $(window).scrollTop(y+(page_height+0.5*page_padding)*(zoom*scale));
+        $(window).scrollTop(y+(pageHeight())*(zoom*scale));
     }, false);
 
     
@@ -576,21 +643,25 @@ $(document).ready(function () {
     
     
     document.getElementById('fill_width').addEventListener('click', function() {
+        var y = Math.round($(window).scrollTop() / (pageHeight()*(zoom*scale)));
         zoomToWidth();
+        $(window).scrollTop(y * (pageHeight()*(zoom*scale)));
     }, false);
     
     document.getElementById('fill_height').addEventListener('click', function() {
+        var y = Math.round($(window).scrollTop() / (pageHeight()*(zoom*scale)));
         zoomToHeight();
+        $(window).scrollTop(y * (pageHeight()*(zoom*scale)));
     }, false);
     
     document.getElementById('next').addEventListener('click', function() {
-        annotation_y_index = Math.min(annotations_by_y.length - 1, annotation_y_index +1);
-        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom*scale)); //annotation_y_index
+        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom) - 50);
+        annotation_y_index = Math.min(annotations_by_y.length - 1, annotation_y_index +1); //annotation_y_index
     }, false);
     
     document.getElementById('previous').addEventListener('click', function() {
+        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom) - 50); //annotation_y_index
         annotation_y_index = Math.max(0, annotation_y_index -1);
-        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom*scale)); //annotation_y_index
     }, false);
     
     
@@ -617,7 +688,7 @@ function zoomToWidth() {
     zoomTo(zoom);
 } 
 function zoomToHeight() {
-    zoom = 0.5 * ($(window).height()/(page_height));
+    zoom = 0.5 * ($(window).height()/(pageHeight()));
     zoomTo(zoom);
 }
 
