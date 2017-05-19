@@ -2,26 +2,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="http://sirba.informatik.privat/PDFDiVi/evaluation/source/style.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/visualizer_single.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 </head>
 <body>
 <div id="container">
     <div id="GUI">
+    
+        <div id="info_container" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <button id="distribution_button" class="accordion">Distribution</button>
+            <div class="panel" id="distribution_panel"></br></div>
+
+            <button id="options_button" class="accordion">Options</button>
+            <div class="panel" id="options_panel"></br></div>
+
+            <button id="about_button" class="accordion">About</button>
+            <div class="panel" id="about_panel"></br></div> 
+        
+        </div>
         <div id="menu_strip">
             <div id="program_title"><b>PDFDiVi</b></div>
             <div id="right_button_list">
-                <input title="Distribution" id="distribution" class="framed right_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/signal3.png"/>
-                <input title="Legend" id="legend" class="framed right_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/star.png"/>
-                <!--<input title="Home" id="home" class="framed right_menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/home.png"/>-->
+                <!--<input title="Distribution" id="distribution" class="framed right_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/signal3.png"/>
+                <!--<input title="Legend" id="legend" class="framed right_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/star.png"/>-->
+                <!--<input title="Home" id="home" class="framed right_menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/home.png"/>
                 <input title="Options" id="options" class="framed right_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/gear.png"/>
-                <input title="About" id="about" class="framed right_menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png"/>
+                <input title="About" id="about" class="framed right_menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png"/>-->
+                <input onclick="openNav()" title="Open sidebar" id="sidebar_button" class="framed right_menu_button"  type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/left.png"/>
             </div>
             <div id="pdf_title"> </div>
         </div>
-        <div id="info_container"></div>
         <div id="left_button_list">
             <input title="Next annotation" id="next" class="framed left_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/arrowRight.png"/>
             <input title="Previous annotation" id="previous" class="framed left_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/arrowLeft.png"/>
@@ -33,6 +46,8 @@
             <input title="Fill height" id="fill_height" class="framed left_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/smaller.png"/>
             <input title="Remove all open annotations" id="clear" class="framed left_menu_button" type="image" src="http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/trashcanOpen.png"/>
         </div>
+        
+        
     </div>
     <div id="content">
         <div id="annotations"></div>

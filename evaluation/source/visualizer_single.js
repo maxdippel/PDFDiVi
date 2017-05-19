@@ -12,6 +12,7 @@ total_rearrange = 0
 total_operations = 0
 page_idx = 1
 page_max = 0
+menu_bar_width = 0;
 _pdfDoc = null
 annotation_y_index = 0
 
@@ -85,6 +86,8 @@ function readTXT() {
 }
 
 pdf_name = ""
+
+
 
 function readPDF() {
     pdf_name = document.getElementById("INPUT_PDF").innerHTML;
@@ -176,7 +179,8 @@ function setupAnnotations(pdf_path, annotations) {
             }
             
         }
-        document.getElementById("pdf_title").innerHTML = pdf_name;
+        var l = pdf_name.split("/");
+        document.getElementById("pdf_title").innerHTML = l[l.length-1];
         document.getElementById("content").style.left = (($(window).width()/2 - page_width*(scale*zoom)/2) / $(window).width() * 100).toString() + "%";
         createDistributionWindow();
         //annotations_by_y.sort();
@@ -292,7 +296,7 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
                 d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
                 d.css({height: Math.min(350, $("#"+id).height()).toString() +  "px", overflow:"auto"});
             
-                var line = createLine(getXShift() + anchor_x*scale*zoom, (anchor_y)*scale*zoom  , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
+                var line = createLine(getXShift() + anchor_x*scale*zoom, (anchor_y)*scale*zoom + menu_bar_width , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
                 line.id = "line"+idx;
                 document.body.appendChild(line);
             }
@@ -318,7 +322,7 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
         collision: 'none' } );
             d.prev(".ui-dialog-titlebar").css({"background" : color.replace("0.7", "0.3")});
             d.css({height: Math.min(350, $("#"+id).height()).toString() +  "px", overflow:"auto"});
-            var line = createLine(getXShift() +  anchor_x*scale*zoom, (anchor_y)*scale*zoom  , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
+            var line = createLine(getXShift() +  anchor_x*scale*zoom, (anchor_y)*scale*zoom + menu_bar_width , $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
             line.id = "line"+idx;
             document.body.appendChild(line);
             
@@ -339,7 +343,7 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
                 document.getElementById("GUI").style.right = "0px";
                 $('body').removeClass('stop-scrolling');
                 $('GUI').removeClass('scrolling-margin');
-                var line = createLine(getXShift() +  anchor_x*scale*zoom, (anchor_y)*scale*zoom, $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
+                var line = createLine(getXShift() +  anchor_x*scale*zoom, (anchor_y)*scale*zoom+menu_bar_width, $("#"+id).offset().left, $("#"+id).offset().top, color.replace("0.7", "0.3"));
                 line.id = "line"+idx;
                     document.body.appendChild(line);    
             });
@@ -421,15 +425,8 @@ var current_button = "";
 
 
 function createAboutWindow(){
-    var about_window = document.createElement('div');
-    about_window.style.display = "none";
-    about_window.id = "about_window";
-    about_window.innerHTML = "<b>About</b></br></br>";
-        
-
-    about_window.style.position = "relative";
-    about_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png'/></br>";
-    about_window.innerHTML += "PDFDiVi is an application for visualizing differences in text extraction between some tool and our benchmark. \
+    var abount_panel = document.getElementById("about_panel");
+    abount_panel.innerHTML += "PDFDiVi is an application for visualizing differences in text extraction between some tool and our benchmark. \
     </br></br>\
     In order to provide a good measure of quality, we foucs on the operations needed to transform the extraction by the tool into the benchmark extraction.</br>\
     When visualizing our different operations we distinguish between word and paragraph operations. These can be seen as the two main classes of operation types. \
@@ -437,57 +434,13 @@ function createAboutWindow(){
     One can see the difference between both general types of operations in the visualization as well as in the explanation notes. Word Operation underline marked text while paragraph operations color\ the whole background of the respective text part. Furthermore there is a type specification in the title of each explanation node (you may open it by clicking on highlighted text).";
 
     
-    document.getElementById('info_container').appendChild(about_window);
-    $("#about_window").addClass("info");
-    $("#about_window").addClass("framed");
+    abount_panel.innerHTML += "</br>";
 }
 
 
-function createLegendWindow() {
-    var legend_window = document.createElement('div');
-    legend_window.style.display = "none";
-    legend_window.id = "legend_window";
-    legend_window.innerHTML = "<b>Legend</b></br>";
-
-    legend_window.style.position = "relative";
-    legend_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/star.png'/></br>"
-
-    var l1 = new Array(
-    "States that there is a text part missing",
-    "States that there is a text part which differs",
-    "States that there was a break in the textflow which doesn't correspond to the benchmark",
-    "States that there should be a break in the textflow which wasn't extracted by the tool",
-    "States that there is a text part which has a different localization (in the text flow)",
-    "States that there is a text part which shouldn't have been extracted");
-    var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
-    var l3 = new Array("Insert", "Replace", "Merge", "Split", "Rearrange", "Delete");
-    for (i = 0; i < l3.length; i++) {
-        // 
-        c = l2[i]
-        if (c != "white")
-            c = c.replace(0.3, 0.8);
-        legend_window.innerHTML += "<span style='color:"+c+"'><b>" + l3[i] + "</b></span></br>";
-        legend_window.innerHTML += l1[i] + "</br></br>";
-    }
-    document.getElementById('info_container').appendChild(legend_window);
-    $("#legend_window").addClass("info");
-    $("#legend_window").addClass("framed");
-    
-
-    for (var j = 0; j < l3.length; j++) {
-        addCheckboxListener(l3[j]);
-    }
-}
 
 function createOptionsWindow() {
-    var options_window = document.createElement('div');
-    options_window.style.display = "none";
-    options_window.id = "options_window";
-    options_window.innerHTML = "<b>Options</b></br>";
-
-    options_window.style.position = "relative";
-    options_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/gear.png'/></br>"
-
+    var options_panel = document.getElementById("options_panel");
     var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
     var l3 = new Array("Insert", "Replace", "Merge", "Split", "Rearrange", "Delete");
     for (var i = 0; i < l3.length; i++) {
@@ -495,93 +448,111 @@ function createOptionsWindow() {
         c = l2[i]
         if (c != "white")
             c = c.replace(0.3, 0.8);
-        options_window.innerHTML += "<input type='checkbox' id='show_" + l3[i] + "' checked>"
-        options_window.innerHTML += "   <span style='color:"+c+"'><b>" + l3[i] + "</b></span></br>"
+        options_panel.innerHTML += "<input type='checkbox' id='show_" + l3[i] + "' checked>"
+        options_panel.innerHTML += "   <span style='color:"+c+"'><b>" + l3[i] + "</b></span></br>"
     }
-    document.getElementById('info_container').appendChild(options_window);
-    $("#options_window").addClass("info");
-    $("#options_window").addClass("framed");
     
-
+    options_panel.innerHTML += "</br>";
     for (var j = 0; j < l3.length; j++) {
         addCheckboxListener(l3[j]);
     }
 }
 
 function createDistributionWindow() {
-    
-    var distribution_window = document.createElement('div');
-    distribution_window.style.display = "none";
-    //distribution_window.style.opacity = 0;
-    distribution_window.id = "distribution_window";
-    distribution_window.innerHTML = "<b>Distribution</b></br>";
-
-    distribution_window.style.position = "relative";
-    distribution_window.innerHTML += "<img style='position:absolute; right:0px; top:0px' src='http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/signal3.png'/></br>"
-    
     var piechart = document.createElement('div');
-    piechart.id = "piechart";/*
-    var table = document.createElement('table');
-    table.cellPadding = "0px 10px 0px 10px";
-    table.style.color = "white";
-    var l1 = new Array(total_insert, total_replace, total_merge, total_split, total_rearrange, total_delete, total_operations);
-    var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color, "white");
-    var l3 = new Array("Insert", "Replace", "Merge", "Split", "Rearrange", "Delete", "Total");
-    for (i = 0; i < l3.length; i++) {
-        // 
-        c = l2[i]
-        if (c != "white")
-            c = c.replace(0.3, 0.8);
-        table.innerHTML += "<tr><td><b>" + l1[i] + "</b></td><td style='padding: 0px 10px'>" + "<span style='color:"+c+"'><b>" + l3[i] + "</b></span></td></tr>"
+    piechart.id = "piechart";
+    var type_to_color = {"Insert": insert_color, "Replace":replace_color, "Merge":merge_color, "Split":split_color, "Rearrange":rearrange_color, "Delete":delete_color};
+    var type_to_count = {"Insert": total_insert, "Replace":total_replace, "Merge":total_merge, "Split":total_split, "Rearrange":total_rearrange, "Delete":total_delete};
+    var type_to_text = {
+    "Insert":"states that there is a text part missing",
+    "Replace":"states that there is a text part which differs",
+    "Merge":"states that there was a break in the textflow which doesn't correspond to the benchmark",
+    "Split":"states that there should be a break in the textflow which wasn't extracted by the tool",
+    "Rearrange":"states that there is a text part which has a different localization (in the text flow)",
+    "Delete":"states that there is a text part which shouldn't have been extracted"};
+    document.getElementById('distribution_panel').appendChild(piechart);
+    
+    
+    function LoadGoogle() {
+        if(typeof google != 'undefined' && google)
+        {
+            // Now you can use google.load() here...
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+        }
+        else
+        {
+            // Retry later...
+            setTimeout(LoadGoogle, 30);
+        }
     }
-    document.getElementById('info_container').appendChild(distribution_window);
-    document.getElementById('distribution_window').appendChild(table);*/
-    document.getElementById('info_container').appendChild(distribution_window);
-    document.getElementById('distribution_window').appendChild(piechart);
-    google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
+    LoadGoogle();
+    
+    var legend = document.createElement('div');
     var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
 
-      function drawChart() {
+    function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Operation', 'Amount'],
-          ['Insert',    total_insert],
-          ['Replace',   total_replace],
-          ['Merge',     total_merge],
-          ['Split',     total_split],
-          ['Rearrange', total_rearrange],
-          ['Delete',    total_delete],
+            ['Operation', 'Amount'],
+            ['Insert',    total_insert],
+            ['Replace',   total_replace],
+            ['Merge',     total_merge],
+            ['Split',     total_split],
+            ['Rearrange', total_rearrange],
+            ['Delete',    total_delete],
         ]);
-        
+
 
         var options = {
-          titleTextStyle : { color: "white", fontName: "Courier New", fontSize: 16, bold: true, italic: false },
-          pieSliceTextStyle : { color: "white", fontName: "Courier New", fontSize: 16, bold: true, italic: false },
-          tooltip : {textStyle: {fontSize:16}},
-          backgroundColor: "transparent",
-          pieSliceBorderColor: "transparent",
-          pieSliceText: "none",
-          slices: { 0: {color: convertRGBA(insert_color)},
+            titleTextStyle : { color: "white", fontName: "Courier New", fontSize: 16, bold: true, italic: false },
+            pieSliceTextStyle : { color: "white", fontName: "Courier New", fontSize: 16, bold: true, italic: false },
+            tooltip : {textStyle: {fontSize:16}},
+            backgroundColor: "transparent",
+            pieSliceBorderColor: "transparent",
+            pieSliceText: "none",
+            slices: { 0: {color: convertRGBA(insert_color)},
                     1: {color: convertRGBA(replace_color)},
                     2: {color: convertRGBA(merge_color)},
                     3: {color: convertRGBA(split_color)},
                     4: {color: convertRGBA(rearrange_color)},
                     5: {color: convertRGBA(delete_color)}},
-          fontName: "Courier New",
-          chartArea: {left:0,top:10,width:'100%',height:'75%', backgroundColor: {stroke: "red", strokeWidth: 3}},
-          legend: {position: 'right', textStyle: {color: 'white', fontSize: 16}, maxLines: 6, alignment: "center"},
-          height: 200
+            fontName: "Courier New",
+            chartArea: {left:0,top:10,width:'100%',height:'75%'},
+            legend: {position: 'right', textStyle: {color: 'white', fontSize: 16}, maxLines: 6, alignment: "center"},
+            height: 200
         };
+        
+        
+
         
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
 
         chart.draw(data, options);
-      }
-    distribution_window.innerHTML += "<b>" + total_operations + "</b>" + " operations in total.";
-    $("#distribution_window").addClass("info");
-    $("#distribution_window").addClass("framed");
+        
+        function selectChart() {
+            var selectedItem = chart.getSelection()[0];
+            if (selectedItem) {
+                var topping = data.getValue(selectedItem.row, 0);
+                legend.innerHTML = "<b>" + type_to_count[topping] + "</b> " + "<b><span style='color:"+type_to_color[topping].replace(0.3, 1)+"'>" + topping +  "</span></b> operations.</br></br>";
+                var prefix = topping == "Insert" ? "An " : "A ";
+                legend.innerHTML += prefix + "<b><span style='color:"+type_to_color[topping].replace(0.3, 1)+"'>" + topping +  "</span></b> operation " + type_to_text[topping] + ".</br></br>";
+                
+            }
+            else {
+                legend.innerHTML = "<b>" + total_operations + "</b>" + " operations in total.</br></br>";
+                legend.innerHTML += "You may select different operations in the chart to get specifics on distribution and meaning.</br></br>";
+            }
+        }
+        google.visualization.events.addListener(chart, 'select', selectChart);
+    }
+      
+    legend.innerHTML = "<b>" + total_operations + "</b>" + " operations in total.</br></br>";
+    legend.innerHTML += "You may select different operations in the chart to get specifics on distribution and meaning.</br></br>";
+    document.getElementById('distribution_panel').appendChild(legend);
+    /*$("#distribution_window").addClass("info");
+    $("#distribution_window").addClass("framed");*/
 
 }
 
@@ -601,20 +572,15 @@ function convertRGBA(s) {
 }
 
 $(document).ready(function () {
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') <= -1){
+    }
     $(window).on('resize', function(){
         document.getElementById("content").style.left = (($(this).width()/2 - page_width*(scale*zoom)/2) / $(this).width() * 100).toString() + "%";
         $(".ui-dialog-content").dialog("close");
     });
     
     createAboutWindow();
-    createLegendWindow();
     createOptionsWindow();
-     // TODO: distribution
-            
-    document.getElementById('about').addEventListener('click', function() {activateGUIElement("about_window", "about")}, false);
-    document.getElementById('legend').addEventListener('click', function() {activateGUIElement("legend_window", "legend")}, false);
-    document.getElementById('options').addEventListener('click', function() {activateGUIElement("options_window", "options")}, false);
-    document.getElementById('distribution').addEventListener('click', function() {activateGUIElement("distribution_window", "distribution")}, false);
     
     
     document.getElementById('clear').addEventListener('click', function() {$(".ui-dialog-content").dialog("close");}, false);
@@ -667,12 +633,41 @@ $(document).ready(function () {
     
     readPDF();
     readTXT();
-    zoomTo(0.5);
+    zoomTo(0.5, false);
+    
+    
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      }
+    }
+    
+    /* Set the width of the side navigation to 250px */
+    closeNav();
     
 
 });
 
-function zoomTo(amount) {
+function openNav() {
+    document.getElementById("info_container").style.width = "400px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("info_container").style.width = "0";
+} 
+
+function zoomTo(amount, close=true) {
     zoom = amount;
     var ratio = zoom * scale
     document.getElementById("content").style.transform = "scale("+zoom.toString()+")";
@@ -680,15 +675,15 @@ function zoomTo(amount) {
     document.getElementById("content").style.webkitTransform = "scale("+zoom.toString()+")";
     document.getElementById("content").style.msTransform = "scale("+zoom.toString()+")";
     document.getElementById("content").style.left = (($(window).width()/2 - page_width*ratio/2) / $(window).width() * 100).toString() + "%";
-    $(".ui-dialog-content").dialog("close");
+    if (close) {$(".ui-dialog-content").dialog("close");}
 } 
 
-function zoomToWidth() {
+function zoomToWidth(close) {
     zoom = 0.5 * ($(window).width()/(page_width));
     zoomTo(zoom);
 } 
 function zoomToHeight() {
-    zoom = 0.5 * ($(window).height()/(pageHeight()));
+    zoom = 0.5 * (($(window).height()- menu_bar_width)/(pageHeight()));
     zoomTo(zoom);
 }
 
@@ -767,6 +762,7 @@ function getScrollbarWidth() {
 
     return widthNoScroll - widthWithScroll;
 }
+
 
 
 

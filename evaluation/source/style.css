@@ -10,10 +10,12 @@
     position: absolute;
 }
 
+
+
 #content {
     left:29%;
-    top:0px;
     width:800px;
+    /*top:50px;*/
     position: absolute;
     transform-origin: top left;
     transform: 0.5;
@@ -29,15 +31,13 @@ body {
 
 
 #GUI{
-    /*display:none;*/
     position:fixed;
     top: 0px;
     right: 0px;
     z-index: 900;
     pointer-events:none;
-    /*border-radius: 0px 0px 0px 10px;*/
-    /*padding: 4px 4px 0px 4px;*/
-    left:0px;/*width:100%;*/
+    zoom: 0.7;
+    left:0px;
 }
 
 .solid_borders {
@@ -47,11 +47,12 @@ body {
 }
 
 #menu_strip {
-    width:100%;
     float:left;
-    padding: 2px 0px 0px 0px;
-    background-image: linear-gradient(to top, rgba(50,50,50,0.6) 0%, rgba(50,50,50,0.9) 50%);
-    /*background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
+    width: 100%;
+    height:50px;
+    padding: 0px 0px 0px 0px;
+    /*background-image: linear-gradient(to top, rgba(50,50,50,0.6) 0%, rgba(50,50,50,0.9) 50%);*/
+    background-color: rgba(40,40,40,1);
     pointer-events:auto;
     
 }
@@ -61,6 +62,9 @@ body {
     margin:15px auto;
     text-align: center;
     vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    
     width:auto;
 }
 
@@ -68,14 +72,14 @@ body {
     color: white;
     margin: 15px auto;
     text-align: left;
-    width: 250px;
+    width: 400px;
     float:left;
     padding-left: 15px;
 }
 
 #right_button_list {
     float:right;
-    width:auto;
+    width:400px;
 }
 
 
@@ -84,14 +88,14 @@ body {
     width:50px;
     pointer-events:auto;
     margin: 0px 5px 0px 0px;
-    background-color: rgba(50,50,50,0.6);
+    background-color: rgba(50,50,50,1);
 }
 
 #info_container {
     float: right;
     width: 400px;
-    /*background-color: rgba(50,50,50,0.5);/*#e4e4e4;*/
     pointer-events:auto;
+    float:right;
 }
 
 .framed_light {
@@ -99,42 +103,31 @@ body {
 }
 
 .framed {
-    /*border-radius: 10px 10px 10px 10px;*/
-    /*border-style:solid;
-    border-width:1px;
-    border-color:rgb(210,210,210);
-    margin: 0px 2px 0px 2px;
-    background-color: rgba(200,200,200,0.8);/*#bdbdbd;*/
 }
 
 .right_menu_button {
     width:50px;
-    
-    /*background-color: rgba(200,200,200,0);*/
+    float:right;
     background-image: none;
 }
 
 .right_menu_button:hover {
-    /*background-color: rgba(100,100,100,0.8);*/
-    background-image: linear-gradient(to top, rgba(50,50,50,0) 0%, rgba(100,100,100,0.8) 50%) !important;
+    background-image: linear-gradient(to right, rgba(50,50,50,0) 0%, rgba(100,100,100,0.8) 50%) !important;
 }
 
 .left_menu_button {
     width:50px;
     margin: 3px 0px 3px 0px;
-    /*background-color: rgba(200,200,200,0);*/
     background-image: none;
 }
 
 .left_menu_button:hover {
-    /*background-color: rgba(100,100,100,0.8);*/
     background-image: linear-gradient(to left, rgba(50,50,50,0) 0%, rgba(100,100,100,0.8) 50%) !important;
 }
 
 .info {
     color: white;
     background-color: rgba(50,50,50,0.6);
-    /*margin: 2px 2px 2px 2px;*/
     padding: 5px;
 }
 
@@ -142,6 +135,7 @@ body {
 body {
     width: calc(100vw - 34px);
     position:relative;
+    
 }
 relative {
     position:relative;
@@ -151,23 +145,150 @@ relative {
   background-color: #F9A7AE;
   font-family: "Courier New", Courier, monospace;
   background-image: none;
-    /*color: white !important;*/
-  /*color: #000;*/
 }
 .ui-dialog-content {
-    /*background-color: rgba(50,50,50,1) !important ; 
-    color: white !important;*/
     font-family: "Courier New", Courier, monospace;
 }
 
-.ui-dialog {
-    /*background-color: rgba(70,70,70,0.5) !important;*/
-    
-}
 
-svg > g > g:last-child { pointer-events: none }
+svg > g > g:first-child { pointer-events: none }
 
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
 }
+
+ /* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    font-weight: bold;
+    background-color: rgba(50,50,50,0.6);
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 17px;
+    width: 100%;
+    text-align: left;
+    vertical-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: rgba(100,100,100,0.5);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 17px;
+    background-color: rgba(50,50,50,0.6);
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '+'; /* Unicode character for "plus" sign (+)\02795 */
+    font-size: 15px;
+    color: #888;
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+button.accordion.active:after {
+    content: "-"; /* Unicode character for "minus" sign (-) \2796*/
+}
+
+
+#distribution_button {
+    background: url("http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/signal3.png");
+    background-position:right;
+    background-repeat:no-repeat;
+    background-color: rgba(50,50,50,0.6);
+}
+#distribution_button.active, #distribution_button:hover {
+    background-color: rgba(100,100,100,0.5);
+}
+
+
+#about_button {
+    background: url("http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/information.png");
+    background-position:right;
+    background-repeat:no-repeat;
+    background-color: rgba(50,50,50,0.6);
+}
+#about_button.active, #about_button:hover {
+    background-color: rgba(100,100,100,0.5);
+}
+
+
+#options_button {
+    background: url("http://sirba.informatik.privat/PDFDiVi/evaluation/source/images/gear.png");
+    background-position:right;
+    background-repeat:no-repeat;
+    background-color: rgba(50,50,50,0.6);
+}
+#options_button.active, #options_button:hover {
+    background-color: rgba(100,100,100,0.5);
+}
+
+/* SideNav ###########################################################################*/
+
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    right:0;
+    top: 0;
+    background-color: rgba(40,40,40,1);/*#111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 50px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    color:white;
+    top: 0;
+    left: 5px;
+    height:50px;
+    font-size: 36px;
+    padding: 5px 0px 0px 10px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+
+
