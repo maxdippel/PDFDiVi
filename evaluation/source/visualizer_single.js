@@ -12,7 +12,7 @@ total_rearrange = 0
 total_operations = 0
 page_idx = 1
 page_max = 0
-menu_bar_width = 0;
+menu_bar_width = 50;
 _pdfDoc = null
 annotation_y_index = 0
 
@@ -132,6 +132,7 @@ function setupAnnotations(pdf_path, annotations) {
             var type = annotation[1].split("|")[0];
             var op_type = annotation[1].split("|")[1];
             var framed = op_type == "word";
+            var framed = (type == "Split" || type == "Merge") ? false : (op_type == "word");
             
             var framed_shift = framed ? side_note_width : 0;
             var rects = annotation[2].split("|");
@@ -231,7 +232,7 @@ grouped_annotations = {};
 last_group_id = -1
 function addAnnotation(x, y, width, height, color, note, title="", group_id, framed=false, anchor_x, anchor_y) {
     if (group_id != last_group_id) {
-        annotations_by_y.push(y*scale);
+        annotations_by_y.push([y*scale, title]);
     }
     last_group_id = group_id;
     var window = document.getElementById(title + "_container")
@@ -374,16 +375,20 @@ function addAnnotation(x, y, width, height, color, note, title="", group_id, fra
 
 }
 
+var hidden_annotations = {};
 function addCheckboxListener(name) {
     $('#show_'+name).change(function(){
         var window = document.getElementById(name.toUpperCase() + "_container")
+        if (window == null) return;
         if($(this).is(':checked'))
         {
             window.style.display = "block";
+            hidden_annotations[name.toUpperCase()] = false;
         }
         else
         {
             window.style.display = "none";
+            hidden_annotations[name.toUpperCase()] = true;
         }    
 
     });
@@ -443,13 +448,15 @@ function createOptionsWindow() {
     var options_panel = document.getElementById("options_panel");
     var l2 = new Array(insert_color, replace_color, merge_color, split_color, rearrange_color, delete_color);
     var l3 = new Array("Insert", "Replace", "Merge", "Split", "Rearrange", "Delete");
+    options_panel.innerHTML += "Select the operations you want to highlight. </br></br>";
     for (var i = 0; i < l3.length; i++) {
         // 
         c = l2[i]
         if (c != "white")
             c = c.replace(0.3, 0.8);
-        options_panel.innerHTML += "<input type='checkbox' id='show_" + l3[i] + "' checked>"
-        options_panel.innerHTML += "   <span style='color:"+c+"'><b>" + l3[i] + "</b></span></br>"
+            
+        options_panel.innerHTML += '<div style="margin-bottom: 5px"> <label class="switch"> <input type="checkbox" checked="checked" id="show_' + l3[i] + '"> <div class="slider"></div> </label>' +
+        "   <span style='color:"+c+"; font-size:20px; display:inline-block; vertical-align:top; margin:6px 0px 0px 10px'><b>" + l3[i] + "</b></span></br> </div>"
     }
     
     options_panel.innerHTML += "</br>";
@@ -590,22 +597,26 @@ $(document).ready(function () {
         var y = $(window).scrollTop();  //your current y position on the page
         $(window).scrollTop(y-(pageHeight())*(zoom*scale));
     }, false);
+    Mousetrap.bind('u', function() { $('#zoom_out').click()});
 
     document.getElementById('down').addEventListener('click', function() {
         var y = $(window).scrollTop();  //your current y position on the page
         $(window).scrollTop(y+(pageHeight())*(zoom*scale));
     }, false);
+    Mousetrap.bind('d', function() { $('#zoom_out').click()});
 
     
         
     document.getElementById('zoom_in').addEventListener('click', function() {
         zoomTo(Math.min(zoom + 0.1, 0.5 * ($(window).width()/(page_width))));
     }, false);
+    Mousetrap.bind('+', function() { $('#zoom_in').click()});
 
     document.getElementById('zoom_out').addEventListener('click', function() {
         zoomTo(Math.max(zoom - 0.1, 0.3));
         
     }, false);
+    Mousetrap.bind('-', function() { $('#zoom_out').click()});
     
     
     document.getElementById('fill_width').addEventListener('click', function() {
@@ -613,27 +624,49 @@ $(document).ready(function () {
         zoomToWidth();
         $(window).scrollTop(y * (pageHeight()*(zoom*scale)));
     }, false);
+    Mousetrap.bind('w', function() { $('#fill_width').click()});
     
     document.getElementById('fill_height').addEventListener('click', function() {
         var y = Math.round($(window).scrollTop() / (pageHeight()*(zoom*scale)));
         zoomToHeight();
         $(window).scrollTop(y * (pageHeight()*(zoom*scale)));
     }, false);
+    Mousetrap.bind('h', function() { $('#fill_height').click()});
+    
+    
     
     document.getElementById('next').addEventListener('click', function() {
-        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom) - 50);
+        while (hidden_annotations[annotations_by_y[annotation_y_index][1].toUpperCase()] == true) {
+            var tmp = annotation_y_index;
+            annotation_y_index = Math.min(annotations_by_y.length - 1, annotation_y_index +1);
+            if (tmp == annotation_y_index) break;
+        }
+        $(window).scrollTop(annotations_by_y[annotation_y_index][0]*(zoom));
         annotation_y_index = Math.min(annotations_by_y.length - 1, annotation_y_index +1); //annotation_y_index
     }, false);
+    Mousetrap.bind('n', function() { $('#next').click()});
     
     document.getElementById('previous').addEventListener('click', function() {
-        $(window).scrollTop(annotations_by_y[annotation_y_index]*(zoom) - 50); //annotation_y_index
+        while (hidden_annotations[annotations_by_y[annotation_y_index][1].toUpperCase()] == true) {
+            var tmp = annotation_y_index;
+            annotation_y_index = Math.max(0, annotation_y_index -1);
+            if (tmp == annotation_y_index) break;
+        }
+        $(window).scrollTop(annotations_by_y[annotation_y_index][0]*(zoom)); //annotation_y_index
         annotation_y_index = Math.max(0, annotation_y_index -1);
     }, false);
+    Mousetrap.bind('p', function() { $('#previous').click()});
     
-    
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') <= -1){
+        
+        menu_bar_width *= 0.7;
+        $('#content').css('top', menu_bar_width);
+    }
     readPDF();
     readTXT();
     zoomTo(0.5, false);
+    
+    
     
     
     var acc = document.getElementsByClassName("accordion");
